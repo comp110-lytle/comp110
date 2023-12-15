@@ -2,7 +2,7 @@ name: Publish Course Site
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   deploy-course-site:
@@ -13,4 +13,5 @@ jobs:
       uses: ./.github/actions/deploy-course-site # Uses an action in the root directory
       id: deploy-course-site
       env:
+        API_TOKEN_GITHUB: ${{ secrets.Personal1 }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
