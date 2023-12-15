@@ -9,15 +9,14 @@ template: overview
 
 ## General Course Info
 
-Term: Fall 2023
+Term: Spring 2024
 
 Department: COMP
 
 Course Number: 110
 
-Course Website: <https://23f.comp110.com>
+Course Website: <https://comp110-24s.github.io>
 
-EdStem: <https://edstem.org/us/join/KEDWrS>
 
 Sections:
 
