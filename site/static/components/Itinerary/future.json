@@ -1,0 +1,28 @@
+{
+    "2023-12-05": [
+        {
+            "kind": "CL",
+            "n": 15,
+            "title": "Final Review",
+            "date": "2023-12-05",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/1hVORfFD0ck?feature=share"
+            }
+        }
+    ],
+    "2023-12-06": [],
+    "2023-12-08": [
+        {
+            "kind": "FN",
+            "n": 0,
+            "title": "Final @ 4:00PM",
+            "date": "2023-12-08",
+            "deadline": "None",
+            "links": {
+                "Practice Problems": "/resources/practice/fa23/final-worksheet.html",
+                "Review Session, (Dec 7 @ 4-6 pm in SN014 and over Zoom, Passcode: COMP110)": "https://unc.zoom.us/j/97525156514?pwd=YjFSajEvRzArejJYZ1ZFa2dJa280Zz09"
+            }
+        }
+    ]
+}
