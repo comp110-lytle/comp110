@@ -47,8 +47,8 @@ template: home
 <div class="date col-md-2">Fri, Jan 26</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span></div></div>
-</div><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Feb 9</div>
+</div><div data-type="lecture" data-date="2024-02-16" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Feb 16</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ01 </span><span class="title">Quiz 1</span></div></div>
 </div><div data-type="lecture" data-date="2024-03-01" class="row itinerary-row py-2">
