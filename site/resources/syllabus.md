@@ -87,36 +87,19 @@ For in-person lectures, please show up at least five minutes early so that the c
 
 To do well in this course you must come to your own individual mastery of introductory programming concepts and engage with broader intellectual questions of computing in society. Final grades are calculated with the following weights for each course component:
 
-<!-- * 50% - Preparation, Practice, Participation
-  * 30% - (EX) Programming Exercises
-  * 5% - (RD) 3x Reading Responses
-  * 10% - (LS) Async Lesson Responses on Gradescope (Graded for Correctness)
-  * 5% -  (CQ) Challenge Question Responses on Gradescope (Graded for Correctness)
-* 50% - Mastery
-  * 40% - 4x Quizzes
-  * 10% - Final Exam
 
-The fairest way to assess mastery of material while distance learning is through a combination of timed assessments, excercises with "on your own" sections, and open-ended project work.
-
-Taking at least three of the four quizzes and the final exam is required to be eligible to pass COMP110.
-
-The cumulative final exam is worth 50% of your final grade at the start of the term. Each quiz you take accounts for 10% of your final grade and reduces the weight of your final examination by 10%. There are no drops.
-
-For example: By taking all 4 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the three quizzes you take will account for 30% of your final grade and your final exam will account for 20%.
-
-If, and only if, you take all four quizzes and your final examination score exceeds your lowest quiz score, then we will retroactively grant you an absence for the lowest quiz score and your final exam score will be worth 20%. -->
 
 * 35% - (EX) Programming Exercises
 * 5% - (RD) 3x Reading Responses
 * 10% - (LS) Async Lesson Responses on Gradescope (Graded for Correctness)
 * 10% - (CQ) Challenge Question Responses on Gradescope (Graded for Correctness)
-* 30% - 3x Quizzes
+* 30% - 5x Quizzes
 * 10% - Final Exam
 
 The quiz/final exam grading policy is updated to the following:
-The cumulative final exam is worth 40% of your final grade at the start of the term. Each quiz you take accounts for 10% of your final grade and reduces the weight of your final examination by 10%. There are no drops.
+The cumulative final exam is worth 40% of your final grade at the start of the term. Each quiz you take accounts for 6% of your final grade and reduces the weight of your final examination by 6%. There are no drops.
 
-For example: By taking all 3 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the two quizzes you take will account for 20% of your final grade and your final exam will account for 20%.
+For example: By taking all 5 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the four quizzes you take will account for 24% of your final grade and your final exam will account for 16%.
 
 If, and only if, you take all three quizzes and your final examination score exceeds your lowest quiz score, then we will retroactively grant you an absence for the lowest quiz score and your final exam score will be worth 20%.
 
@@ -124,21 +107,24 @@ If, and only if, you take all three quizzes and your final examination score exc
 
 ## Quiz Absence Policy
 
-The quizzes will be held during the section you are registered for and are synchronous, in-person for both sections 001 and 002. These dates, and the final exam date, are required synchronous dates for section 001.
+The quizzes will be held during the section you are registered for and are synchronous, in-person for both sections 001 and 002. 
 
-You may be absent for up to one quiz. To request absence from a quiz or schedule a makeup, you should submit this form before your absence: <https://airtable.com/appLAcrgEhUfhwgpH/shruYh38o4Dgjql7i>. Quiz makeup dates/times can be found above. (If you are taking your quiz makeup in the testing center, please email <comp110help@gmail.com> to let us know so we can figure out a date for your makeup!)
+If you are a part of an organization whose authorized university absences will conflict with two or more of the key dates of quizzes, you should plan on taking COMP110 in a future semester when these unfortunate, but important, conflicts will not arise.
 
-To ensure these assessments are fair for all students enrolled in COMP110 this term, we do can only offer quiz makeups for university approved absences. Merely being absent from a quiz that does not qualify for a makeup, the quiz’s 10% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty; your mastery of this quiz’ material will be assessed on the cumulative final exam.
+You may be absent for up to one quiz. To request absence from a quiz, you should submit this form before your absence: <>.
+
+To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 6% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
 
 We can offer everyone absent from a quiz the same learning experience of sitting for the quiz at some later date and receiving feedback on it, but a quiz taken in this fashion is not for credit and will not count toward nor against your mastery grade to ensure fairness to all students.
+
 
 ## Course Passage Policy
 
 In order to pass COMP110, you must:
 
 * Have a passing grade given the rubric of weights above and grading scale below,
-* Take at least 3 quizzes,
-* Score greater than 40% on the final exam.
+* Take at least 4 quizzes,
+* Score greater than 50% on the final exam.
 
 ## Honor Code and Collaboration Policy
 

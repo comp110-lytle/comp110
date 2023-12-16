@@ -1,0 +1,25 @@
+{
+    "search.exclude": {
+        "**/__pycache__": true
+    },
+    "editor.minimap.enabled": false,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.vscode": true,
+        "**/*.pyc": true,
+        "**/*.mypy_cache": true
+    },
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.autoComplete.extraPaths": [
+        "exercises",
+        "graders",
+        "grading"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUntypedFunctionDecorator": "none"
+    },
+    "python.pythonPath": "/usr/local/bin/python3"
+}

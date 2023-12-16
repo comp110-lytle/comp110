@@ -37,231 +37,35 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2023-12-05" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Dec 5</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL15 </span><span class="title">Final Review</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/1hVORfFD0ck?feature=share">Lecture Video</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-12-08" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Dec 8</div>
-<div class="plans col-md-9"><div class="plan Final">
-<span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span>
-<ul class="links"><li class="link"><a href="/resources/practice/fa23/final-worksheet.html">Practice Problems</a></li>
-<li class="link"><a href="https://unc.zoom.us/j/97525156514?pwd=YjFSajEvRzArejJYZ1ZFa2dJa280Zz09">Review Session, (Dec 7 @ 4-6 pm in SN014 and over Zoom, Passcode: COMP110)</a></li>
-</ul></div></div>
-</div><!-- The Past section --><div id='past' class="pb-2"></div>
-<hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2023-11-30" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Nov 30</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL14 </span><span class="title">Working With Data</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/-T0zmLUOw-k?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL14.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Exercise">
-<span class="kind">EX10 </span><span class="title"><a href="/exercises/data-wrangling.html">Data Wrangling (Due Wednesday 12/6)</a></span></div></div>
-</div><div data-type="lecture" data-date="2023-11-28" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Nov 28</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ03 </span><span class="title">Quiz 3</span>
-<ul class="links"><li class="link"><a href="/qz03-concepts.html">Covered Topics</a></li>
-<li class="link"><a href="/resources/practice/fa23/qz03.html">Practice Problems</a></li>
-<li class="link"><a href="https://unc.zoom.us/j/96067874045?pwd=K0NkOHV0OXlIWVFCU25wQWFYd0h3Zz09">Review Session 11/27, 6-8 pm (Passcode COMP110)</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-11-21" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Nov 21</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL13 </span><span class="title">Practice + Review</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/FN5FVmkj9D4?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL13.pdf">Lecture Slides</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-11-16" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Nov 16</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL12 </span><span class="title">Recursion</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/KK3nd3neFvs?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL12.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ09 </span><span class="title"><a href="/challenge_questions/recursion.html">Recursion Intro<s><i>(Due Friday 11/17)</i></s> (Extended to Monday 11/20)</a></span></div><div class="plan Exercise">
-<span class="kind">EX09 </span><span class="title"><a href="/exercises/simpy.html">Simpy<s><i>(Due Wednesday 11/22)</i></s> (Extended to Wednesday 11/29)</a></span></div></div>
-</div><div data-type="lecture" data-date="2023-11-14" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Nov 14</div>
-<div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL06 </span><span class="title"><a href="/virtual-classes/VL06.html">Virtual Lesson: More OOP in Memory + Intro to Jupyter Notebooks (Due Tuesday 11/14)</a></span></div><div class="plan Lesson">
-<span class="kind">LS18 </span><span class="title"><a href="https://www.gradescope.com/">Jupyter Notebooks (Due Tuesday 11/14)</a></span></div><div class="plan Reading">
-<span class="kind">RD02 </span><span class="title">Reading: Man versus Machine or Man + Machine? (Due Monday 12/4)</span>
-<ul class="links"><li class="link"><a href="https://hal.pratt.duke.edu/sites/hal.pratt.duke.edu/files/u10/IS-29-05-Expert%20Opinion%5B1%5D_0.pdf">Article</a></li>
-<li class="link"><a href="https://gradescope.com">Assignment</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-11-09" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Nov 9</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL11 </span><span class="title">Operator Overloads, Default Parameters, + Union Types</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/R38q2c3OrXk?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL11.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ08 </span><span class="title"><a href="/challenge_questions/magic_methods_etc.html">More OOP Practice (Due Monday 11/13)</a></span></div><div class="plan Exercise">
-<span class="kind">EX08 </span><span class="title"><a href="/exercises/river-sim.html">River Simulation (Due Wednesday 11/15)</a></span></div></div>
-</div><div data-type="lecture" data-date="2023-11-07" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Nov 7</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL10 </span><span class="title">Classes in Memory + Magic Methods</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/8F5zSJ-ctvU?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL10.pdf">Lecture Slides</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-11-02" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Nov 2</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL09 </span><span class="title">Intro to Object Oriented Programming</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/qjiAz8ReHVY?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL09.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ07 </span><span class="title"><a href="/challenge_questions/oop-mutable.html">Intro to OOP (Due Monday 11/6)</a></span></div><div class="plan Exercise">
-<span class="kind">EX07 </span><span class="title"><a href="/exercises/dict_unit_tests.html">Dictionary Unit Tests (Due Wednesday 11/8)</a></span></div></div>
-</div><div data-type="lecture" data-date="2023-10-31" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Oct 31</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ02 </span><span class="title">Quiz 2</span>
-<ul class="links"><li class="link"><a href="/resources/qz02-concepts.html">Covered Topics</a></li>
-<li class="link"><a href="/resources/practice/fa23/qz02.html">Practice Problems</a></li>
-<li class="link"><a href="https://unc.zoom.us/rec/share/BFNvNkEP97yG-3po7PEOzRgadEy456iDNZlh8kFCCwUNkcm62uEozL0vxS79M8is.uzlvPtCZonYjbPlK">Review Session Link Monday 6-8 pm (Passcode: SB4&V3?S)</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-10-26" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Oct 26</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL08 </span><span class="title">Unit Tests</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/FdVY7kPqZ6s?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL08.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ06 </span><span class="title"><a href="/challenge_questions/unit_tests.html">Unit Tests (Due Friday 10/27)</a></span></div></div>
-</div><div data-type="lecture" data-date="2023-10-24" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Oct 24</div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-12" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Jan 12</div>
 <div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX06 </span><span class="title"><a href="/exercises/dict-utils.html">Dictionary Utils (Due Wednesday 11/1)</a></span></div><div class="plan Class">
-<span class="kind">CL07 </span><span class="title">Dictionaries</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/bBxBs7Npa7c?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL07.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS17 </span><span class="title"><a href="https://www.gradescope.com/">Dictionaries (Due Tuesday 10/24)</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ05 </span><span class="title"><a href="/lessons/dicts-cq.html">dicts practice (Due Friday 10/27)</a></span></div></div>
-</div><div data-type="lecture" data-date="2023-10-17" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Oct 17</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL06 </span><span class="title">"for" loops</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/A7rUC9pAZOs?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL06.pdf">Lecture Slides</a></li>
-<li class="link"><a href="/lessons/forloops-CQ.html">Challenge Question Instructions</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ04 </span><span class="title"><a href="/lessons/forloops-CQ.html">loops practice (Due Wednesday 10/18)</a></span></div></div>
-</div><div data-type="lecture" data-date="2023-10-10" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Oct 10</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL05 </span><span class="title">Practice with Lists</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/Olw6surse1k?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL05.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Exercise">
-<span class="kind">EX05 </span><span class="title">Turtle (Due Monday 10/23)</span>
-<ul class="links"><li class="link"><a href="/projects/turtle/turtle-tutorial.html">Introduction</a></li>
-<li class="link"><a href="/projects/turtle/turtle-project.html">Instructions</a></li>
-<li class="link"><a href="/projects/guggenheim/index.html">MOTA (Museum of Turtle Art)</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-10-05" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Oct 5</div>
-<div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL05 </span><span class="title"><a href="/virtual-classes/VL05.html">Virtual Lesson (Due Friday 10/6)</a></span></div><div class="plan Exercise">
-<span class="kind">EX04 </span><span class="title"><a href="/exercises/ex04.html">List Utils (Due Wednesday 10/11)</a></span></div><div class="plan Reading">
-<span class="kind">RD01 </span><span class="title"><a href="https://gradescope.com">Reading: Weapons of Math Destruction (Due Wednesday 10/25)</a></span></div></div>
-</div><div data-type="lecture" data-date="2023-10-03" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Oct 3</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ01 </span><span class="title">Quiz 1</span>
-<ul class="links"><li class="link"><a href="/resources/quiz-expectations.html">What to Expect</a></li>
-<li class="link"><a href="/resources/practice/fa23/qz00-01.html">Practice Problems</a></li>
-<li class="link"><a href="/resources/qz01-concepts.html">Covered Topics</a></li>
-<li class="link"><a href="https://unc.zoom.us/rec/share/GdwaEQAGdsz_Bqj8DWcAGC4y-HJUXzIWl77WMR9CvWNpVahT00h_pJomvXE8mDkq.3J09al__eEEAantC">Review Session (Passcode: S&VD1wYx)</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-09-28" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Sep 28</div>
-<div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL04 </span><span class="title"><a href="/virtual-classes/VL04.html">Virtual Lesson (Due Friday 9/29)</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ03 </span><span class="title">Print vs. Return (Due Friday 9/29)</span>
-<ul class="links"><li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-09-26" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Sep 26</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL04 </span><span class="title">while Loops and Functions</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/1oGuZTstDi0?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL04.pdf">Lecture Slides</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-09-21" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Sep 21</div>
-<div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX03 </span><span class="title"><a href="/exercises/ex03.html">Structured Wordle<s><i>(Due Wednesday 9/27)</i></s> (Extended to Monday 10/2)</a></span></div><div class="plan Virtual Lesson">
-<span class="kind">VL03 </span><span class="title"><a href="/virtual-classes/VL03.html">Virtual Lesson (Due Friday 9/22)</a></span></div></div>
-</div><div data-type="lecture" data-date="2023-09-19" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Sep 19</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL03 </span><span class="title">Practice with bool Expressions and While Statements</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/IoIC2Aq7gDE?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL03.pdf">Lecture Slides</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-09-14" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Sep 14</div>
-<div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL02 </span><span class="title"><a href="/virtual-classes/VL02.html">Virtual Lesson<s><i>(Due Thursday 9/14)</i></s> (Extended to Sunday 9/17)</a></span></div><div class="plan Exercise">
-<span class="kind">EX02 </span><span class="title"><a href="/exercises/ex02.html">One-shot Wordle (Due Wednesday 9/20)</a></span></div></div>
-</div><div data-type="lecture" data-date="2023-09-12" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Sep 12</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL02 </span><span class="title">Conditionals + Memory Diagram Practice</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/uTLwi7_2cf8?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/f23/CL02.pdf">Lecture Slides</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-09-07" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Sep 7</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL01 </span><span class="title">Memory Diagrams</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/2y7xX5Ae2AY?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/MemDiagrams.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Exercise">
-<span class="kind">EX01 </span><span class="title">Chardle - Input, Variables, and Conditionals<s><i>(Due Wednesday 9/13)</i></s> (Extended to Sunday 9/17)</span>
-<ul class="links"><li class="link"><a href="/exercises/ex01.html">Exercise Instructions</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ01 </span><span class="title">Memory Diagrams Practice (Due Friday 9/8)</span>
-<ul class="links"><li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ02 </span><span class="title">Memory Diagrams Practice with Conditionals (Due Friday 9/8)</span>
-<ul class="links"><li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2023-08-31" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Aug 31</div>
-<div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL01 </span><span class="title"><a href="/virtual-classes/VL01.html">Virtual Lesson</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ00 </span><span class="title">Update Canvas Email<s><i>(Due Thursday 8/31)</i></s> (Extended to Thursday 9/7)</span>
-<ul class="links"><li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Reading">
-<span class="kind">RD00 </span><span class="title"><a href="https://gradescope.com">Reading: The Ethical Algorithm Chapter on Gradescope<s><i>(Due Wednesday 9/20)</i></s> (Extended to Wednesday 9/27)</a></span></div></div>
-</div><div data-type="lecture" data-date="2023-08-24" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Aug 24</div>
-<div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX00 </span><span class="title">Hello World<s><i>(Due Wednesday 8/30)</i></s> (Extended to Thursday 9/7)</span>
+<span class="kind">EX00 </span><span class="title">Hello World<s><i>(Due Thursday 1/18)</i></s> (Extended to Friday 1/26)</span>
 <ul class="links"><li class="link"><a href="/exercises/ex00_hello_world.html">EX00 - Hello, World</a></li>
-</ul></div><div class="plan Virtual Lesson">
-<span class="kind">VL00 </span><span class="title"><a href="/virtual-classes/VL00.html">Virtual Lesson<s><i>(Due Thursday 8/24)</i></s> (Extended to Wednesday 9/6)</a></span></div></div>
-</div><div data-type="lecture" data-date="2023-08-22" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Aug 22</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL00 </span><span class="title">Welcome to COMP110 - An Intro to the Class and Coding</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/GVfPAJ_n8Pc?feature=share">Live Stream Link</a></li>
-<li class="link"><a href="/static/slides/CourseIntro.pdf">Course Intro Slides</a></li>
-<li class="link"><a href="/static/slides/CL00.pdf">Intro to Coding Slides</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS00 </span><span class="title">Syllabus and Support (Due Thursday 8/24)</span>
-<ul class="links"><li class="link"><a href="/resources/syllabus.html">1. Read the Syllabus</a></li>
-<li class="link"><a href="/resources/quiz-expectations.html">2. Read Quiz Expectations</a></li>
-<li class="link"><a href="/support">3. Read Support Resources</a></li>
-<li class="link"><a href="https://www.gradescope.com/">4. Complete Lesson 00 Responses on Gradescope</a></li>
 </ul></div></div>
-</div></div>
+</div><div data-type="lecture" data-date="2024-01-26" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Jan 26</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ00 </span><span class="title">Quiz 0</span></div></div>
+</div><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Feb 9</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ01 </span><span class="title">Quiz 1</span></div></div>
+</div><div data-type="lecture" data-date="2024-03-01" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Mar 1</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ02 </span><span class="title">Quiz 2</span></div></div>
+</div><div data-type="lecture" data-date="2024-04-05" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Apr 5</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ03 </span><span class="title">Quiz 3</span></div></div>
+</div><div data-type="lecture" data-date="2024-04-19" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Apr 19</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ04 </span><span class="title">Quiz 4</span></div></div>
+</div><div data-type="lecture" data-date="2024-05-03" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, May 3</div>
+<div class="plans col-md-9"><div class="plan Final">
+<span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
+</div><!-- The Past section --></div>
 </div>

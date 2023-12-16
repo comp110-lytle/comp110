@@ -1,0 +1,15 @@
+# The purpose of this file is to establish the list of files _not_ tracked by git version control
+**/.pytest_cache
+**/__pycache__
+submission.zip
+.vscode/launch.json
+**/*.pyc
+**/.mypy_cache
+**/.ropeproject/objectdb
+*.zip
+solutions/
+**/.DS_Store
+**/shiftoverflow/allocations/node_modules/
+**/shiftoverflow/allocations/credentials.json
+**/shiftoverflow/allocations/package-lock.json
+scratch.ipynb
