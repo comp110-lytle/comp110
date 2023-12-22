@@ -9,13 +9,7 @@ template: columns
 
 <div class="box link-page" >
 
-# Where Do I Go For Help?
 
-* Office Hours: Setup, homework + conceptual questions
-* Tutoring: Conceptual questions + concept review
-* Email TAs: Logistical concerns
-* Email <comp110help@gmail.com>: Assignment extension requests and logistical concerns
-* Email <abyrnes1@cs.unc.edu>: Personal issues and emergencies that impact performance in the course
 
 # Office Hours + Tutoring
 
@@ -85,22 +79,29 @@ If you have suggestions on how to improve the course or just want to leave some 
 
 <div class="box link-page" style="padding:20px 40px">
 
+# Where Do I Go For Help?
+
+* Office Hours: Setup, homework + conceptual questions
+* Tutoring: Conceptual questions + concept review
+* Email TAs: Logistical concerns
+* Email <comp110help@gmail.com>: Assignment extension requests and logistical concerns
+* Email <abyrnes1@cs.unc.edu>: Personal issues and emergencies that impact performance in the course
+
 ## In-Person Office Hours Schedule
 
 * _Monday: 11:00 AM - 5:00 PM_
 * _Tuesday: 11:00 AM - 7:00 PM_
-* _Wednesday: 11:00 AM - 7:00 PM_
+* _Wednesday: 11:00 AM - 5:00 PM_
 * _Thursday: 11:00 AM - 5:00 PM_
 * _Friday: 11:00 AM - 5:00 PM_
 * _Sunday: 1:00 PM - 5:00 PM_
 
-## Virtual Office Hours Schedule
-* _Tuesday: 5:00 PM - 7:00 PM_
-* _Wednesday: 5:00 PM - 7:00 PM_
+
 
 ## Tutoring Schedule
-* _Monday: 4:00 PM - 6:00 PM in Sitterson Lower Lobby (in FB009 starting Oct 23)_
+* _Coming Soon_
+<!-- * _Monday: 4:00 PM - 6:00 PM in Sitterson Lower Lobby (in FB009 starting Oct 23)_
 * _Thursday: 5:00 PM - 7:00 PM in FB007_
-* _Sunday: 3:00 PM - 5:00 PM in SN011_
+* _Sunday: 3:00 PM - 5:00 PM in SN011_ -->
 </div>
 
