@@ -30,33 +30,23 @@ Office hours appointments for programming exercises are limited to 15 minutes an
 
 In order to serve every student in the course as best we can, we must enforce a 1-hour wait period between appointments with the same student. During this time, we expect you to continue making substantive progress on your programming exercise. If you anticipate needing significant amounts of help on an assignment, please start as far in advance as possible so you will have multiple opportunities to ask questions as they arise. Realizing you need help more than once in a given day is an indication you would benefit from a stronger conceptual understanding of the material in question and it would be great for you to come work with us during tutoring hours!
 
-To work with us in office hours, <a href="https://course.care/register-details?enrollCode=D90F51" target="_blank">register for Course.Care via this link</a> or register with enroll code D90F51.
+To work with us in office hours, <a href="https://course.care/register-details?enrollCode=54185B" target="_blank">register for Course.Care via this link</a> or register with enroll code D90F51.
 
 
-
-## In-Person Office Hours
+## Office Hours
 To participate in in-person office hours:
 
 1. Come to the lower-level lobby in Sitterson Hall
 2. Please do not make a ticket until you are in the lobby area of Sitterson Hall hours and ready to work with a TA.
-3. <a href="https://course.care/ng/course/88" target="_blank">Open Course.Care click "Check-in" for currently open office hours</a>. Select what kind of help you are seeking. Be detailed and descriptive in your request for help. If you fail to make an honest effort to describe the purpose of the meeting, TAs are instructed to cancel your request.
+3. <a href="https://course.care/ng/course/94" target="_blank">Open Course.Care click "Check-in" for currently open office hours</a>. Select what kind of help you are seeking. Be detailed and descriptive in your request for help. If you fail to make an honest effort to describe the purpose of the meeting, TAs are instructed to cancel your request.
 4. Wait in the lobby area until course.care says a TA is ready to work with you and then head into SN008.
 5. Our teaching team will get to you as soon as we can! When your ticket is called, please come in to Sitterson 008.
 6. After the 15-minute walk-in appointment concludes, return back to the lobby to continue working.
 
-## Virtual Office Hours
-To participate in remote office hours:
-
-1. Begin a Zoom meeting. **Please have your camera on and _do not share your screen_ until asked to do so!**
-2. Hover over your meeting's window and click the green shield icon in the top-left corner 
-3. Click "Copy Link" to copy the URL to your Zoom meeting
-4. <a href="https://course.care/ng/course/88" target="_blank">Open Course.Care click "Check-in" for currently open office hours</a>. Select what kind of help you are seeking and paste in your Zoom URL. Be detailed and descriptive in your request for help. If you fail to make an honest effort to describe the purpose of the meeting, TAs are instructed to cancel your request.
-5. Our teaching team will get to you as soon as we can!
-To participate in in-person office hours:
 
 ## Tutoring
 
-<a href="https://course.care/ng/course/88" target="_blank">Come to tutoring hours for conceptual help</a> with members of the COMP110 UTA team and small groups of your peers. You can find these locations and links on <a href="https://course.care/ng/course/88" target="_blank">Course.Care</a>, just like office hours. If you are feeling a little behind or like you could use some extra practice tutoring is for you! Tutoring does not have time constraints outside of the hours it is open for.
+<a href="https://course.care/ng/course/94" target="_blank">Come to tutoring hours for conceptual help</a> with members of the COMP110 UTA team and small groups of your peers. You can find these locations and links on <a href="https://course.care/ng/course/94" target="_blank">Course.Care</a>, just like office hours. If you are feeling a little behind or like you could use some extra practice tutoring is for you! Tutoring does not have time constraints outside of the hours it is open for.
 
 Tutoring is a great opportunity to find help with:
 
