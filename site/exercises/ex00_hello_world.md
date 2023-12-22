@@ -89,7 +89,7 @@ Now that your first program is complete, let's practice making a backup. Visual 
 8. Select the `backup` remote that is your personal workspace on GitHub. If you do not see `backup` listed, see the instructions below on _Setup Backup Course Material Repository_.
    - You may see a spinning "refresh" icon in your status bar at the bottom of VSCode. Unless an error backing up occurs, you will not see any confirmation.
 
-To see your commit on Github, in a web browser, navigate to `https://github.com/comp110-23f/comp110-workspace-USERNAME` and substitute `USERNAME` with your GitHub username. Open the `comp110` directory, then `exercises`, and `ex0_hello_world.py` you'll see the work you just completed backed up to GitHub. Notice above the file's content's you'll see your commit message.
+To see your commit on Github, in a web browser, navigate to `https://github.com/comp110-24s/comp110-workspace-USERNAME` and substitute `USERNAME` with your GitHub username. Open the `comp110` directory, then `exercises`, and `ex0_hello_world.py` you'll see the work you just completed backed up to GitHub. Notice above the file's content's you'll see your commit message.
 
 ## 4. Submit to Gradescope for Grading
 
