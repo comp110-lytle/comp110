@@ -20,10 +20,11 @@ Course Website: <https://comp110-24s.github.io>
 
 Sections:
 
-1. 001 - Sync Tuesdays, Async Thursdays - 9:30 AM - 10:45 AM 
-1. 002 - Sync Tuesdays, Async Thursdays - 11:00 AM - 12:15 PM 
+1. 001 - Async Mondays, Sync Wednesdays and Fridays - 2:30 PM - 3:20 PM
+2. 002 - Async Mondays, Sync Wednesdays and Fridays - 3:35PM - 4:25PM
 
-Instructor: [Alyssa Byrnes](https://www.cs.unc.edu/~abyrnes1/)
+
+Instructor: [Alyssa Lytle](https://alyssalytle.github.io/)
 
 * E-mail: <comp110help@gmail.com>
 
@@ -31,7 +32,7 @@ Instructor: [Alyssa Byrnes](https://www.cs.unc.edu/~abyrnes1/)
 
 ## Instructional Format
 
-New concepts will be introduced asynchronously and remote via prerecorded lessons that enable you to pause, rewind, slow down (or speed up!) and complete with more flexibility than a fixed lecture format permits. **Thursdays** will be led this way. The other half of the course, **Tuesdays**, will serve as days to practice, reinforce, and extend the concepts introduced on Thursdays. Tuesdays will be held in-person such that you can be surrounded by peers and Undergraduate Learning Assistants to collaboratively work through challenges together.
+Most new concepts will be introduced asynchronously and remote via prerecorded lessons that enable you to pause, rewind, slow down (or speed up!) and complete with more flexibility than a fixed lecture format permits. **Mondays** will be led this way. The rest of the course, **Wednesdays** and **Friday**, will serve as days to practice, reinforce, and extend the concepts introduced on Mondays. These days will be held in-person such that you can be surrounded by peers and Undergraduate Teaching Assistants to collaboratively work through challenges together.
 
 ### Quizzes and Required Synchronous Days
 
@@ -39,21 +40,35 @@ Quizzes and examinations are offered in-person only this semester. The format is
 
 **Quiz Dates**
 
-* <s>Quiz (QZ) 00: Tues, Sept 12 _(Makeup Sun, Sept 17 @ 12 pm in SN011)_</s>
-* Quiz (QZ) 01: Tues, Oct 3  _(Makeup Sun, Oct 8 @ 12 pm in SN011)_
-* Quiz (QZ) 02: Tues, Oct 31 _(Makeup Sun, Nov 5 @ 12 pm in SN011)_
-* Quiz (QZ) 03: <s>Tues, Nov 21 _(Makeup Mon, Nov 27 @ 12 pm in SN011)_</s>  Tues, Nov 28 _(Makeup Sun, Dec 3 @ 12 pm in SN011)_
-* Final (FN) Exam: Fri, Dec 8 @ 4 pm _(Makeup Sun, Dec 10 @ 12 pm in SN014)_
+* Quiz (QZ) 00: Fri, Jan 26
+* Quiz (QZ) 01: Fri, Feb 9 
+* Quiz (QZ) 02: Fri, Mar 1
+* Quiz (QZ) 03: Wed, Mar 27
+* Quiz (QZ) 04: Fri, Apr 19
+* Final (FN) Exam: Fri, May 3 @ 8 AM _(Makeup Sat, May 4 @ 12 PM)_
 
 **Quiz Absence Form**
-Please fill out [this form](https://airtable.com/appLAcrgEhUfhwgpH/shruYh38o4Dgjql7i) if you must be absence for a quiz.
+Please fill out [this form]() if you must be absent for a quiz.
 
 **Final Exam Makeup**
-If you have a university approved reason for needing to take the final on a makeup day, please fill out [this form](https://airtable.com/appLAcrgEhUfhwgpH/shrjD12hJiLgI51VV).
+If you have a university approved reason for needing to take the final on a makeup day, please fill out [this form]().
+
+
+### Quiz Absence Policy
+
+The quizzes will be held during the section you are registered for and are synchronous, in-person for both sections 001 and 002. 
+
+If you are a part of an organization whose authorized university absences will conflict with two or more of the key dates of quizzes, you should plan on taking COMP110 in a future semester when these unfortunate, but important, conflicts will not arise.
+
+You may be absent for up to one quiz. To request absence from a quiz, you should submit this form before your absence: <>.
+
+To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 6% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
+
+We can offer everyone absent from a quiz the same learning experience of sitting for the quiz at some later date and receiving feedback on it, but a quiz taken in this fashion is not for credit and will not count toward nor against your mastery grade to ensure fairness to all students.
 
 ### Office Hours and Tutoring
 
-The most valuable resources in COMP110 are office hours and tutoring. Office Hours will be held both virtually and in-person. In-person office hours will be held 11 AM - 5 PM Mon, Thurs, Fri, 11 AM - 7 PM Tues, Wed, and 1 PM - 5 PM Sun. Virtual office hours and tutoring hours are TBD.
+The most valuable resources in COMP110 are office hours and tutoring. The resources are offered strictly in-person. Information and times can be found here: <https://comp110-24s.github.io/support/>.
 
 ## Diversity Statement
 
@@ -102,20 +117,6 @@ The cumulative final exam is worth 40% of your final grade at the start of the t
 For example: By taking all 5 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the four quizzes you take will account for 24% of your final grade and your final exam will account for 16%.
 
 If, and only if, you take all three quizzes and your final examination score exceeds your lowest quiz score, then we will retroactively grant you an absence for the lowest quiz score and your final exam score will be worth 20%.
-
-
-
-## Quiz Absence Policy
-
-The quizzes will be held during the section you are registered for and are synchronous, in-person for both sections 001 and 002. 
-
-If you are a part of an organization whose authorized university absences will conflict with two or more of the key dates of quizzes, you should plan on taking COMP110 in a future semester when these unfortunate, but important, conflicts will not arise.
-
-You may be absent for up to one quiz. To request absence from a quiz, you should submit this form before your absence: <>.
-
-To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 6% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
-
-We can offer everyone absent from a quiz the same learning experience of sitting for the quiz at some later date and receiving feedback on it, but a quiz taken in this fashion is not for credit and will not count toward nor against your mastery grade to ensure fairness to all students.
 
 
 ## Course Passage Policy
@@ -184,7 +185,7 @@ All assignments, outside of assessments such as quizzes and the final exam, will
 
 Lesson responses and programming exercises will all have deadlines and late periods. The following policies apply:
 
-Lesson and Challenge Question responses on Gradescope are assigned on lecture days (Tu/Th) and must be completed before 11:59pm the same day unless noted otherwise. If handed in after the 1-hour grace period described above, a maximum 15% late penalty will be applied. No lesson responses will be accepted beyond 11:59pm two days following the original deadline. To ensure fairness to everyone, as emergencies may arise, we will drop the 2 lowest lesson scores and the 1 lowest challenge question score, including zeros.
+Lesson and Challenge Question responses on Gradescope are assigned on lecture days and must be completed before 11:59pm the same day unless noted otherwise. If handed in after the 1-hour grace period described above, a maximum 15% late penalty will be applied. No lesson responses will be accepted beyond 11:59pm two days following the original deadline. To ensure fairness to everyone, as emergencies may arise, we will drop the 2 lowest lesson scores and the 1 lowest challenge question score, including zeros.
 
 Programming and reading assignments - submissions made after the deadline will have a 15% late penalty applied at the end of the semester. Exercises and projects cannot be handed in beyond their 6-day late period, which follows the original deadline. **The lowest exercise score, including a zero, will be dropped.**
 
