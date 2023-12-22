@@ -47,16 +47,16 @@ template: home
 <div class="date col-md-2">Fri, Jan 26</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span></div></div>
-</div><div data-type="lecture" data-date="2024-02-16" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Feb 16</div>
+</div><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Feb 9</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ01 </span><span class="title">Quiz 1</span></div></div>
-</div><div data-type="lecture" data-date="2024-03-08" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Mar 8</div>
+</div><div data-type="lecture" data-date="2024-03-01" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Mar 1</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ02 </span><span class="title">Quiz 2</span></div></div>
-</div><div data-type="lecture" data-date="2024-04-05" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Apr 5</div>
+</div><div data-type="lecture" data-date="2024-03-27" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Mar 27</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span></div></div>
 </div><div data-type="lecture" data-date="2024-04-19" class="row itinerary-row py-2">
