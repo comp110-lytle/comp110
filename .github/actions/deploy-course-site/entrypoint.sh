@@ -36,7 +36,7 @@ print_stderr() {
 }
 
 git_config() {
-    git config --global user.email "nickalytle@gmail.com"
+    git config --global user.email "alyssanbyrnes@gmail.com"
     git config --global user.name "$TARGET_REPO_USER_ORG"
 }
 
