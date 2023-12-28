@@ -61,7 +61,7 @@ In general, we cannot help with programming or assignment questions via e-mail a
 
 # Feedback
 
-If you have suggestions on how to improve the course or just want to leave some positive, encouraging feedback for the TAs or Alyssa, [please give us feedback](https://forms.gle/qzLRrCJeXLAKQJhU8). If you make a suggestion we’re able to act on while we still have time to, we’re more than happy to!
+If you have suggestions on how to improve the course or just want to leave some positive, encouraging feedback for the TAs or Alyssa, please give us feedback. If you make a suggestion we’re able to act on while we still have time to, we’re more than happy to!
 </div>
 //split// 
 
