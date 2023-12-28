@@ -29,6 +29,9 @@ Instructor: [Alyssa Lytle](https://alyssalytle.github.io/)
 
 * E-mail: <comp110help@gmail.com>
 
+## Curriculum
+A list of concepts covered in this class can be found [here](/resources/curriculum.html)
+
 
 ## Course Description, Target Audience, and Prerequisites
 
