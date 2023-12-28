@@ -1,5 +1,5 @@
 ---
-title: Extra Credit Opportunities 
+title: COMP110 Course Curriculum
 author:
 - Alyssa Byrnes
 page: lessons
