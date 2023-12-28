@@ -122,5 +122,5 @@ Here is the basic breakdown of concepts covered in this class. We know Unit 0 se
    - Diagramming a `__str__` magic method
 - Operator Overloads
    - Syntax for defining and calling a magic method that overloads operators
-   - Writing and Diagramming both `__add__` and `__mult__` magic methods
+   - Writing and Diagramming both `__add__` and `__mul__` magic methods
 

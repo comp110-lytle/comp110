@@ -6,6 +6,7 @@ author:
 page: logistics
 template: overview
 ---
+
 # Comp110 Syllabus 
 
 ## General Course Info
