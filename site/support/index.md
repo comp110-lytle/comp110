@@ -30,7 +30,7 @@ Office hours appointments for programming exercises are limited to 15 minutes an
 
 In order to serve every student in the course as best we can, we must enforce a 1-hour wait period between appointments with the same student. During this time, we expect you to continue making substantive progress on your programming exercise. If you anticipate needing significant amounts of help on an assignment, please start as far in advance as possible so you will have multiple opportunities to ask questions as they arise. Realizing you need help more than once in a given day is an indication you would benefit from a stronger conceptual understanding of the material in question and it would be great for you to come work with us during tutoring hours!
 
-To work with us in office hours, <a href="https://course.care/register-details?enrollCode=54185B" target="_blank">register for Course.Care via this link</a> or register with enroll code D90F51.
+To work with us in office hours, <a href="https://course.care/register-details?enrollCode=54185B" target="_blank">register for Course.Care via this link</a> or register with enroll code 54185B.
 
 
 ## Office Hours
