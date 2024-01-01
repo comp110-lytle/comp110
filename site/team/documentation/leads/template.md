@@ -4,12 +4,15 @@ date: 2024-01-01
 author:
 - Alyssa Lytle
 page: team
-template: overview
+template: columns-profile
 site-branch: team
 ---
 
 ## About Me
 <img class="img-fluid" src="/static/profile-photos/alyssabyrnes.jpeg"/>
+
+
+//split//
 
 ### Alyssa Lytle
 
@@ -21,9 +24,13 @@ Why I <3 Team 110:
 
 Fun Fact:
 
+//split//
+
 ## Responsibilities
 
 Here, list the general responsibilities you imagine for your position.
+
+
 
 ## Goals
 
