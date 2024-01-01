@@ -41,15 +41,12 @@ site-branch: team
 </br>
 <div class="link-page box">
 
-### Senior Team Leads
+### Team Leads
 
 * [Curriculum Design](/team/documentation/guides/curriculum.html) 
 * [Grading](/team/documentation/guides/grading.html)
 * [Team Building](/team/documentation/guides/team-building.html)
 * [Office Hours](/team/documentation/guides/office-hours.html)
-
-### Team Leads
-
 * [Accessibility](/team/documentation/guides/accessibility.html)
 * [Website](/team/documentation/guides/website.html)
 * [Tutoring](/team/documentation/guides/tutoring.html)
