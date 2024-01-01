@@ -36,19 +36,25 @@ site-branch: team
 * [Best Practice](/team/documentation/guides/best_practices.html)
 * [Shift Leads](/team/documentation/guides/shift_leads.html)
 * [Setup Issues](/team/documentation/guides/setup_issues.html)
-* [Diagnostic Tool](/team/documentation/guides/diagnostic_tool.html)
+<!-- * [Diagnostic Tool](/team/documentation/guides/diagnostic_tool.html) -->
 </div>
 </br>
 <div class="link-page box">
 
+### Senior Team Leads
+
+* [Curriculum Design](/team/documentation/guides/curriculum.html) 
+* [Grading](/team/documentation/guides/grading.html)
+* [Team Building](/team/documentation/guides/team-building.html)
+* [Office Hours](/team/documentation/guides/office-hours.html)
+
 ### Team Leads
 
-* [Event Planning](/team/documentation/leads/event_planning_tips.html)
-* [Grading](/team/documentation/leads/grading.html)
-* [Mentorship](/team/documentation/leads/mentorship.html)
-* [Operations](/team/documentation/leads/operations.html)
-* [Outreach](/team/documentation/leads/outreach.html)
-* [Scheduling](/team/documentation/leads/scheduling.html)
-* [Tutoring](/team/documentation/leads/tutoring.html)
-* [Worksheets](/team/documentation/leads/worksheets.html)
+* [Accessibility](/team/documentation/guides/accessibility.html)
+* [Website](/team/documentation/guides/website.html)
+* [Tutoring](/team/documentation/guides/tutoring.html)
+* [Outreach](/team/documentation/guides/outreach.html)
+* [Hack 110](/team/documentation/guides/hack110.html)
+
+
 </div>
