@@ -16,13 +16,13 @@ site-branch: team
 
 ### Alyssa Lytle
 
-Graduation Year:
+Graduation Year: Lol
 
-Num Semesters on Team 110:
+Semesters on Team 110: 3
 
-Why I <3 Team 110:
+Why I <3 Team 110: The sense of community!
 
-Fun Fact:
+Fun Fact: I have a cool dog named Bear.
 
 //split//
 
