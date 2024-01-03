@@ -33,7 +33,7 @@ navbar: base
 
 - [Practice Memory Diagrams](/resources/practice/MemDiagrams.html)
 
-- [Grade Estimator (*Work In Progress*)](/resources/grade_calc/grade_calc.html)
+- [Grade Estimator](/resources/grade_calc/grade_calc.html)
 
 </div>
 
@@ -59,8 +59,8 @@ navbar: base
 ## Website Navigation
 
 - _**[SYLLABUS:](/resources/syllabus.html)**_ Course Syllabus
-
-- _**[VIRTUAL LESSONS:](/virtual-classes/index.html)**_ Lessons for each unit
+<!-- 
+- _**[VIRTUAL LESSONS:](/virtual-classes/index.html)**_ Lessons for each unit -->
 
 - _**[SUPPORT:](/support)**_ Information about Office Hours, Tutoring, or reaching out
 
