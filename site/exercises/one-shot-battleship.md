@@ -17,7 +17,8 @@ In this exercise, you will print out a grid of boxes instead of just one line, a
 
 You should follow the steps below for implementing the program one step at a time. To get a sense of where you are going, here is an example of a final game ():
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex01_one_shot_battleship
     Guess a row: 2
     Guess a column: 4
@@ -57,7 +58,8 @@ You should follow the steps below for implementing the program one step at a tim
     🟦🟥🟦🟦
     🟦🟦🟦🟦
     Hit!
-~~~
+</div>
+</pre>
 
 Note: each time you run the game, the random secret row and column are regenerated. You might want to hard code your secret row and column for the testing of your program and then switch them back to random at the end!
 
@@ -112,7 +114,8 @@ Since loops are new to your repertoire, in this exercise we will give you a gene
 
 Once you have completed this part of the program, your output should look as follows (should the secret row be 3 and column be 2.)
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex01_one_shot_battleship
     Guess a row: 2
     Guess a column: 4
@@ -139,7 +142,8 @@ Once you have completed this part of the program, your output should look as fol
     🟦🟥🟦🟦
     🟦🟦🟦🟦
     Hit!
-~~~
+</div>
+</pre>
 
 
 ## Part 2. Establishing a Secret and Prompting for a Guess -- 30 Points
@@ -148,7 +152,8 @@ Now that you have your grid printing out, how about we add some hints to help yo
 
 In simple battleship, you would exit if the user gave an invalid input. Now, with the help of `while` loops, see if you can continue to prompt the player until the provide a guess that within the bounds of the size of the grid you pick. Here's how your program should perform after this step:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex01_one_shot_battleship
     Guess a row: 5
     The grid is only 4 by 4. Try again:
@@ -176,7 +181,8 @@ In simple battleship, you would exit if the user gave an invalid input. Now, wit
     🟦🟦⬜🟦
     🟦🟦🟦🟦
     Miss!
-~~~
+</div>
+</pre>
 
 Before you continue on, does this step of your program work correctly if you change the value for the size of your grid? What if you make the size 5, and thus the grid 5 by 5? Make sure you're using the variable for size to compare, and not hard code it!
 
@@ -190,7 +196,8 @@ What if your user was so close? Correct row, but wrong column? Correct column, b
 
 Add a couple `elif` statements to your user feedback ("Hit!" and "Miss" logic). Your program should perform like this after this step (if the secret row is 3 and column is 2):
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex01_one_shot_battleship
     Guess a row: 2
     Guess a column: 4
@@ -228,7 +235,8 @@ Add a couple `elif` statements to your user feedback ("Hit!" and "Miss" logic). 
     🟦🟦⬜🟦
     🟦🟦🟦🟦
     Close! Right row, wrong column.
-~~~
+</div>
+</pre>
 
 And there you have your one-shot battleship! Feel free to add the randomization back in for your secret row and secret column. Make sure that your keeping into account the size of your grid, which is flexible . . . what should the max value be for secret row and secret column?
 
