@@ -34,7 +34,8 @@ Inside a computer's digital systems, chracters are represented as coded patterns
 
 Python's built-in function `ord`, short for "ordinal" which is the order in which characters are defined, takes a single-character string as an input parameter and returns the `int` representation of the character's binary code.
 
-~~~plaintext
+<pre>
+<div class="terminal">
 >>> ord("A")
 65
 >>> ord("B")
@@ -47,20 +48,23 @@ Python's built-in function `ord`, short for "ordinal" which is the order in whic
 98
 >>> ord("z")
 122
-~~~
+</pre>
+</div>
 
 There are a few important observations to make in the example above. 
 
 First, notice that the codes for letters _relative to one another_ is logical. In the English alphabet, A is followed directly by B, just as in integers 1 is followed by 2. Similarly, A's integer ASCII code is 65 and B's is 66. The specific numbers of either are not important, but their relationship to one another is.
 
-~~~plaintext
+<pre>
+<div class="terminal">
 >>> "Duke" < "UNC"
 True
 >>> "unc" > "duke"
 True
 >>> "duke" > "UNC"
 True
-~~~
+</div>
+</pre>
 
 The first two examples are reasonable, but the third comes as a surprise! How is "duke" greater than "UNC"? When `str` values are compared in Python, and most programming languages, the `ord` values are compared relative to one another. The `ord` of lowercase letters is higher than uppercase letters in ASCII. Just as when you order information alphabetically, the first letter is compared and, if the same, the following character, and so on. (This is an algorithm!) String comparisons are case-sensitive. (For case-insensitive comparisons, you would first use `str`'s [`casefold` method](https://docs.python.org/3/library/stdtypes.html#str.casefold).)
 
@@ -68,7 +72,8 @@ The first two examples are reasonable, but the third comes as a surprise! How is
 
 Since characters and their integer codes are two sides of the same coin, you can freely go back and forth:
 
-~~~plaintext
+<pre>
+<div class="terminal">
 >>> chr(65)
 'A'
 >>> chr(122)
@@ -77,7 +82,8 @@ Since characters and their integer codes are two sides of the same coin, you can
 'A'
 >>> ord(chr(65))
 65
-~~~
+</div>
+</pre>
 
 The `chr` function is built-in to Python, takes an `int` parameter, and returns the single character representation as a string.
 
@@ -87,9 +93,11 @@ When ASCII was decided in the 60s, it was a technical achievement to include _bo
 
 For example, try the following in the REPL:
 
-~~~plaintext
+<pre>
+<div class="terminal">
 >>> chr(129312)
-~~~
+</div>
+</pre>
 
 Hold on to your saddles, because we're about to go on a little adventure. This is a bit outside of the scope of your concerns in COMP110, but to make use of Emoji in our programs (which is of utmost importance) there's just a little more to the story to reveal.
 
@@ -99,23 +107,28 @@ The decimal system is base-10, meaning we have 10 digits ranging from 0 through 
 
 Python has a built-in `hex` function for converting to its representation. The `0x` in front of the hexadecimal notation can be ignored and is case insensitive.
 
-~~~plaintext
+<pre>
+<div class="terminal">
 >>> hex(90)
 0x5a
-~~~
+</div>
+</pre>
 
 When looking up the codes for emoji or characters in other languages, they will tend to be presented to you in a _hex_ format, such as [on this web site](https://unicode.org/emoji/charts/full-emoji-list.html). You will notice in the _code_ column, there is a format of `U+1F920`. The `U+` tells you this is Unicode, a more modern international character encoding standard than ASCII. The `1F920` is a hexadecimal representation of the code for the cowboy emoji. In Python, you can use such a Unicode character in your strings as follows:
 
-~~~plaintext
+<pre>
+<div class="terminal">
 >>> print("The \U0001F920 rides a \U0001F40E!")
 The 🤠 rides a 🐎!
-~~~
+</div>
+</pre>
 
 The leading backslash begins an escape sequence, which will be discussed in depth shortly. The `U` is an indication that what will follow is an 8-digit hex representation of a unicode character. Then, to encode `1F920`, we must add three leading `0`s for padding because 8 hex digits are expected.
 
 It is worth taking a moment to appreciate that Python is doing a proper job of treating those emoji each as an individual item in our sequence of characters.
 
-~~~plaintext
+<pre>
+<div class="terminal">
 >>> emoji: str = "\U0001F920\U0001F40E"
 >>> print(emoji)
 🤠🐎
@@ -123,7 +136,8 @@ It is worth taking a moment to appreciate that Python is doing a proper job of t
 2
 >>> emoji[0]
 🤠
-~~~
+</div>
+</pre>
 
 ## String Escape Sequences
 
@@ -150,25 +164,29 @@ The last entry in the table is also interesting. If backslashes are how we begin
 
 Zooming back out to thinking of strings at a high-level, by now you have used concatenation enough to recognize that concatenating strings can be a lot of work! Especially if you are concatenating non-string values in the middle of a larger string. Modern Python has a special string literal called a _format string_ or _f-string_ for short, that makes this much easier. Consider the following examples:
 
-~~~plaintext
+<pre>
+<div class="terminal">
 >>> course: int = 110
 >>> print("I am in COMP" + str(course) + " right now!")
 I am in COMP110 right now!
 >>> print(f"I am in COMP{ course } right now!")
 I am in COMP110 right now!
-~~~
+</div>
+</pre>
 
 A key distinction between a regular string and an f-string is that it begins with the letter `f` preceeding its quotes. Notice the difference of `f"Hi"` and `"Hi"`, where the former is an `f` string.
 
 Inside of an f-string you can write an _expression_ inside of curly braces and it will get substituted with the expression's value when the string literal is evaluated. Spaces inside of the curly braces are ignored. This is especially handy if you are building a string with multiple variables being concatenated together. Consider the difference of:
 
-~~~plaintext
+<pre>
+<div class="terminal">
 >>> name: str = "Lauren"
 >>> age_turning: int = 21
 >>> print("Hello " + name + ", you're almost " + str(age_turning) + "!")
 Hello Lauren, you're almost 21!
 >>> print(f"Hello {name}, you're almost {age_turning}!")
 Hello Lauren, you're almost 21!
-~~~
+</div>
+</pre>
 
 There are other powerful things format strings can do, too, but they are outside the scope of this course. If you'd like to learn more [this guide](https://realpython.com/python-f-strings/) covers many useful cases. Other modern programming languages are adopting variations of this same concept which you may also hear referred to as _string interpolation_.

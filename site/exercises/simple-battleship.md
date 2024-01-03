@@ -9,15 +9,14 @@ template: overview
 
 ## Overview
 
-In this exercise, you will use the concepts learned in Lessons 00 through 04.
-
 This semester, we will take inspiration from the stategy game of Battleship. It's usually a two-player game, but you will be coding a single-player version!
 
 In this exercise, you will have a row of boxes (blue for the sea) and you will prompt the user for a number between 1 and 4, corresponding to their guess of at which box a ship is lurking behind. You will then test to see if the user input matches the square with the ship and print out whether it was a hit or a miss, along with a visual of the boxes. You will also notify the user if they inputed a number out of range.
 
 You should follow the steps below for implementing the program one step at a time. To get a sense of where you are going, though, consider what we expect the output to be given some example inputs:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex00_simple_battleship 
     Guess a number between 1 and 4: 5
     Error! There are only 4 squares.
@@ -31,13 +30,14 @@ You should follow the steps below for implementing the program one step at a tim
     Guess a number between 1 and 4: 2
     🟦🟥🟦🟦
     Correct! You hit the ship.
-~~~
+</pre>
+</div>
 
 ## Background Lesson: Emoji
 
 In this exercise you will need to make use of an advanced string concepts: emoji! 🤠
 
-Before beginning work on this exercise, read the following lesson and complete the related questions on Gradescope: [LS11 - Unicode, Emoji, Escape Sequences, and f-Strings](/lessons/strings.html)
+Before beginning work on this exercise, read the following lesson and complete the related questions on Gradescope: [Unicode, Emoji, Escape Sequences, and f-Strings](/lessons/strings.html)
 
 ## Part 0. Setting up the Python Program
 
@@ -64,7 +64,8 @@ In your program, establish an `int` variable to hold your secret number (which b
 
 The first task of this program is to decide at which number box the ship is hidden and to gather an input guess from the user. Using the concepts you learned in [LS04 - User Input and Variables](https://youtu.be/GPpYSDNUtH8), you will want to ask the user to enter a number, storing it as an `int` variable. **Please choose meaningful, descriptive names for your variables.** Write your prompts and diagnostic message such that you can reproduce the following in the shell after saving and running your program:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex00_simple_battleship 
     Guess a number between 1 and 4: 3
     User's guess is 3. Ship is at box 2.
@@ -72,7 +73,8 @@ The first task of this program is to decide at which number box the ship is hidd
     $ python -m exercises.ex00_simple_battleship 
     Guess a number between 1 and 4: 2
     User's guess is 2. Ship is at box 2.
-~~~
+</div>
+</pre>
 
 **WARNING:** Autograding will very specifically be looking for _exactly_ the format of lines output shown above. You will not see the `$` at your command-line prompt in VSCode, you can ignore that part. Otherwise, when you run the program on your machine with the same inputs as above on the first two lines, your printed results should look exactly like the 3rd line and 7th line.
 
@@ -89,7 +91,8 @@ _If_ the user's input is equal to the secret number, _then_ you should print out
 
 Your goal in this part is to be able to do the following:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex00_simple_battleship 
     Guess a number between 1 and 4: 3
     Incorrect! You missed the ship.
@@ -97,7 +100,8 @@ Your goal in this part is to be able to do the following:
     $ python -m exercises.ex00_simple_battleship 
     Guess a number between 1 and 4: 2
     Correct! You hit the ship.
-~~~
+</div>
+</pre>
 
 Note: You will be modifying some of your previous print statements. They were there in Part 1 to help you troubleshoot and make sure you were saving the numbers correctly.
 
@@ -111,11 +115,13 @@ It's important that you didn't hard code the secret number and instead used its 
 
 Now, let's bring a visual aid to the game! You will need to build up a string of emojis using concatenation to show where the user hit or missed a boat. You can use the following _named constants_ in your program to simplify your implementation. We will learn more about named constants soon, but for now know they are simply variables whose values you will not change later in your program and make your programs easier to read:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
 BLUE_BOX: str = "\U0001F7E6"
 RED_BOX: str = "\U0001F7E5"
 WHITE_BOX: str = "\U00002B1C"
-~~~
+</div>
+</pre>
 
 Next, create a `str` guess result variable and modify your current `if` and `else` statements in the following way:
 
@@ -130,7 +136,8 @@ The logic is similar for all other possible box numbers. After checking for each
 
 Your goal in this part is to be able to do the following (if the random number picked is 2):
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex00_simple_battleship 
     Guess a number between 1 and 4: 3
     🟦🟦⬜🟦
@@ -145,7 +152,8 @@ Your goal in this part is to be able to do the following (if the random number p
     Guess a number between 1 and 4: 2
     🟦🟥🟦🟦
     Correct! You hit the ship.
-~~~
+</div>
+</pre>
 
 If you're struggling to test and guess the correct number, you can comment out the `randint` call and hard code any value between 1 and 4 (like we did in the beginning for 2). Your code should still work! Note: when you submit to gradescope, make sure to turn the `randint` back on.
 
@@ -155,11 +163,13 @@ What happens if you input a number that's larger than 4, that's out of bounds? I
 
 Here is how your program should work after completing this part:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex00_simple_battleship 
     Guess a number between 1 and 4: 5
     Error! There are only 4 squares.
-~~~
+</div>
+</pre>
 
 ## Part 6. Type Safety and Linting - XX Points
 
