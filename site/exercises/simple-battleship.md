@@ -1,5 +1,5 @@
 ---
-title: EX01 - Basic Battleship
+title: EX01 - Simple Battleship
 author:
 - Camilla Fratta
 - Audrey Salmon
@@ -9,7 +9,8 @@ page: exercises
 template: overview
 ---
 
-## Overview
+
+## Introduction
 
 This semester, we will take inspiration from the stategy game of Battleship. It's usually a two-player game, but you will be coding a single-player version!
 
@@ -22,18 +23,28 @@ You should follow the steps below for implementing the program one step at a tim
     $ python -m exercises.ex00_simple_battleship 
     Guess a number between 1 and 4: 5
     Error! There are only 4 squares.
+</div>
+</pre>
 
+
+<pre>
+<div class="terminal">
     $ python -m exercises.ex00_simple_battleship 
     Guess a number between 1 and 4: 3
     🟦🟦⬜🟦
     Incorrect! You missed the ship.
+</div>
+</pre>
 
+
+<pre>
+<div class="terminal">
     $ python -m exercises.ex00_simple_battleship 
     Guess a number between 1 and 4: 2
     🟦🟥🟦🟦
     Correct! You hit the ship.
-</pre>
 </div>
+</pre>
 
 ## Background Lesson: Emoji
 
@@ -64,7 +75,7 @@ Before beginning work on the program, you should add a _docstring_ to the top of
 
 In your program, establish an `int` variable to hold your secret number (which box the ship is hidden behind) and initialize it to a secret number of your choice. For troubleshooting purposes, in the Part 1 and 2, please use a secret number of `2`. You will then level up the game in Part 3 so that you yourself can play the game!
 
-The first task of this program is to decide at which number box the ship is hidden and to gather an input guess from the user. Using the concepts you learned in [LS04 - User Input and Variables](https://youtu.be/GPpYSDNUtH8), you will want to ask the user to enter a number, storing it as an `int` variable. **Please choose meaningful, descriptive names for your variables.** Write your prompts and diagnostic message such that you can reproduce the following in the shell after saving and running your program:
+The first task of this program is to decide at which number box the ship is hidden and to gather an input guess from the user. Using the concepts you learned in [User Input and Variables](https://youtu.be/GPpYSDNUtH8), you will want to ask the user to enter a number, storing it as an `int` variable. **Please choose meaningful, descriptive names for your variables.** Write your prompts and diagnostic message such that you can reproduce the following in the shell after saving and running your program:
 
 <pre>
 <div class="terminal">
@@ -84,9 +95,9 @@ The first task of this program is to decide at which number box the ship is hidd
 
 Now that you have gathered your input from Part 1 and stored it as a variable, your task is to check if the user input is equivalent to the box where the ship is hidden (hint: _is equal to_). These checks will involve combining concepts you've learned in recent lessons:
 
-* [LS03 - Expressions](/lessons/expressions.html)
+* [Expressions](/lessons/expressions.html)
     * Relational Operators - Equality
-* [LS05 - Conditional if-else Statements](https://www.youtube.com/watch?v=395mlzouM00)
+* [Conditional if-else Statements](https://www.youtube.com/watch?v=395mlzouM00)
 
 You'll have to translate the following English logic into Python:
 _If_ the user's input is equal to the secret number, _then_ you should print out a message indicating that the user correctly hit the ship. _Else_, you should print out a statement that they missed the ship.
@@ -118,9 +129,9 @@ It's important that you didn't hard code the secret number and instead used its 
 Now, let's bring a visual aid to the game! You will need to build up a string of emojis using concatenation to show where the user hit or missed a boat. You can use the following _named constants_ in your program to simplify your implementation. We will learn more about named constants soon, but for now know they are simply variables whose values you will not change later in your program and make your programs easier to read:
 
 ~~~{.python}
-BLUE_BOX: str = "\U0001F7E6"
-RED_BOX: str = "\U0001F7E5"
-WHITE_BOX: str = "\U00002B1C"
+    BLUE_BOX: str = "\U0001F7E6"
+    RED_BOX: str = "\U0001F7E5"
+    WHITE_BOX: str = "\U00002B1C"
 ~~~
 
 Next, create a `str` guess result variable and modify your current `if` and `else` statements in the following way:
