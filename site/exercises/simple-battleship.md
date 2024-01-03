@@ -3,6 +3,8 @@ title: EX01 - Basic Battleship
 author:
 - Camilla Fratta
 - Audrey Salmon
+- Vrinda Desai
+- Alyssa Lytle
 page: exercises
 template: overview
 ---
@@ -115,13 +117,11 @@ It's important that you didn't hard code the secret number and instead used its 
 
 Now, let's bring a visual aid to the game! You will need to build up a string of emojis using concatenation to show where the user hit or missed a boat. You can use the following _named constants_ in your program to simplify your implementation. We will learn more about named constants soon, but for now know they are simply variables whose values you will not change later in your program and make your programs easier to read:
 
-<pre>
-<div class="terminal">
+~~~{.python}
 BLUE_BOX: str = "\U0001F7E6"
 RED_BOX: str = "\U0001F7E5"
 WHITE_BOX: str = "\U00002B1C"
-</div>
-</pre>
+~~~
 
 Next, create a `str` guess result variable and modify your current `if` and `else` statements in the following way:
 
