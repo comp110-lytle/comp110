@@ -12,7 +12,8 @@ In this exercise, you will prompt the user for a word that matches the length of
 
 You should follow the steps below for implementing the program function at a time. To get a sense of where you are going, here are two examples of the final game:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex03_battleship
     Turn 1/6
     Guess a column: 1
@@ -112,7 +113,8 @@ You should follow the steps below for implementing the program function at a tim
     🟦🟦🟦🟦🟦
     Miss!
     X/6 - Sorry, try again tomorrow!
-~~~
+</div>
+</pre>
 
 ## Permitted Constructs
 
@@ -164,7 +166,8 @@ The algorithm of this function is _very similar_ to the user input logic you hav
 
 Once you have your best first attempt to implement this function, you can import it for use in the REPL to test it out. Save your work and then run the following commands:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python                         
     Python 3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
@@ -178,13 +181,15 @@ Once you have your best first attempt to implement this function, you can import
     >>> print(input_row(3))
     Guess a row: 3
     3
-~~~
+</div>
+</pre>
 
 Notice, in the REPL, the line `from exercises.ex03_battleship import input_row` will `import` your function definition `from` your `exercises.ex03_battleship` so that you can make use of your function in the REPL. You can then type out example _function calls_ to test your implementation and be sure your function definition is returning the correct and expected values, as shown above. Your results must match exactly.
 
 You will need to do essentially the same function for `input_columns`. Give it a whirl!
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python                         
     Python 3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
@@ -198,7 +203,8 @@ You will need to do essentially the same function for `input_columns`. Give it a
     Guess a row: 3
     3
     >>>quit()
-~~~
+</div>
+</pre>
 
 ## Part 2. `print_grid` - 20 points
 
@@ -206,7 +212,8 @@ Declare a function named `print_grid`. Its purpose is given a red or white box (
 
 Once you have implemented this function, you can import it for use in the REPL to test it out, just like above. Be sure to save your work each time before restarting the `python` REPL, then try the following:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
 $ python
 Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
@@ -232,7 +239,8 @@ None
 🟦⬜🟦🟦
 🟦🟦🟦🟦
 None
-~~~
+</div>
+</pre>
 
 Now you have a function that, given a row and column guess, will print out a resulting grid. Notice how your `print_grid` function makes use of the simpler `input_row` and `input_column` funtion to build up more complex behavior. This is the beauty of _abstraction_!
 
@@ -242,7 +250,8 @@ Once your `print_grid` function is working correctly as shown above, continue on
 
 Declare a function named `correct_guess`. Its purpose is given a row and column, as well as a user's guess for a row and column, it one of four statement options: "Hit!", "Close! Right row, wrong column.", "Close! Right column, wrong row.", and "Miss!". It also returns a `bool` whether the user has won (`True`) or not (`False`).
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python
     Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
@@ -260,7 +269,8 @@ Declare a function named `correct_guess`. Its purpose is given a row and column,
     >>> print(correct_guess(3,2,3,2))
     Hit!
     True
-~~~
+</div>
+</pre>
 
 ## Part 4. `one_turn` - 10 Points
 
@@ -270,7 +280,8 @@ In this version of battleship, you will allow the user to have 6 turns before ex
 
 Once you have implemented this function, you can import it for use in the REPL just like the examples above. Be sure to save your work before restarting the `python` REPL, then try the following:
 
-~~~ {.plaintest}
+<pre>
+<div class="terminal">
     $ python
     Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
@@ -315,7 +326,8 @@ Once you have implemented this function, you can import it for use in the REPL j
     🟦🟥🟦🟦
     🟦🟦🟦🟦
     >>> quit()
-~~~
+</div>
+</pre>
 
 ## Part 5. `main` -- 20 Points
 
@@ -323,11 +335,13 @@ Now it's time to pull together your functions, which are building blocks, into a
 
 The declaration of your `main` function is unlike the functions above because it will not have any parameters and it will return `None`. You can declare your main function as follows:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
 def main() -> None:
     """The entrypoint of the program and main game loop."""
     # Your code will go here
-~~~
+</div>
+</pre>
 
 The "state" of a game refers to the variables you need to keep track of in memory in order to run the game. What variables do you need to keep track of? Define those inside of `main`'s body first.
 
@@ -345,7 +359,8 @@ Let's also come back to the previous guesses. Add a new `str` variable in `main`
 
 As you are working on `main`, you can save your work and import the `main` function just like the others and try calling it:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python
     Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
@@ -453,14 +468,17 @@ As you are working on `main`, you can save your work and import the `main` funct
     Previous guesses: (row: 1, column: 2) (row: 3, column: 4) (row: 2, column: 4) (row: 2, column: 3) (row: 1, column: 2) (row: 4, column: 3)
     X/6 - Sorry, try again!
     >>> quit()
-~~~
+</div>
+</pre>
 
 Once you have your `main` function and game loop working, there's only one bit of icing left to add to your delicious code cake. We will fully explain what is going on in the following code snippet soon, but for now note that this is an idiom common to Python programs like the one you have written. We will learn it does two things: 1. it makes it possible to run your Python program as a module (if you tried `python -m exercises.ex03_battleship` right now you would see nothing happens), and 2. it makes it possible for other modules to _import_ your functions and reuse them. Add the following snippet of code as the last 2 lines of your program (notice, there are two underscores _on both sides_ of the words `name` and `main`):
 
-~~~ {.plaintex}
-if __name__ == "__main__":
-    main()
-~~~
+<pre>
+<div class="terminal">
+    if __name__ == "__main__":
+        main()
+</div>
+</pre>
 
 Now you can try running your game as a module and it should work: `python -m exercises.ex03_battleship`
 
