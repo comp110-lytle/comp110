@@ -5,7 +5,7 @@ WHITE_BOX: str = "\U00002B1C"
 from random import randint
 
 # Gets user input; if the number is greater than 4 it exits
-number: int = input("Pick a secret boat location between 1 and 4: ")
+number: int = int(input("Pick a secret boat location between 1 and 4: "))
 if (number > 4):
     print(f"Error! {number} too high!")
     exit()
@@ -26,8 +26,10 @@ elif(guess_number < 1):
 # If they guessed right the box will be red, if not it will be white
 if guess_number == number:
     guess_box = RED_BOX
+    output = "Correct! You hit the ship."
 else:
     guess_box = WHITE_BOX
+    output = "Incorrect! You missed the ship."
 
 emoji_str: str = ""
 
@@ -57,3 +59,4 @@ else:
 
 # Prints the string of boxes
 print(emoji_str)
+print(output)
