@@ -1,3 +1,8 @@
+"""EX01 - Simple Battleship - A cute step toward Battleship."""
+ 
+__author__ = "123456789"
+
+
 BLUE_BOX: str = "\U0001F7E6"
 RED_BOX: str = "\U0001F7E5"
 WHITE_BOX: str = "\U00002B1C"
