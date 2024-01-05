@@ -48,7 +48,7 @@ In this exercise you will need to make use of an advanced string concepts: emoji
 
 Before beginning work on this exercise, read the following lesson and complete the related questions on Gradescope: [Unicode, Emoji, Escape Sequences, and f-Strings](/lessons/strings.html)
 
-## Part 0. Setting up the Python Program
+## Part 0. Setting up the Python Program - 10 points
 
 In Visual Studio Code, be sure your workspace is open. (Reminder: File > Open Recent > comp110-YYS-workspace is a quick way to reopen it! Where YY is the current year and S is the semeseter: S for Spring, F for Fall.)
 
@@ -67,7 +67,7 @@ Before beginning work on the program, you should add a _docstring_ to the top of
     __author__ = "1234567890"
 ~~~
 
-## Part 1. Prompting for Player 1 Input
+## Part 1. Prompting for Player 1 Input - 15 points
 Using the concepts you learned in [User Input and Variables](https://youtu.be/GPpYSDNUtH8), you will want to ask the first user to "Pick a secret boat location between 1 and 4: ", storing their input it as an `int` variable. 
 **Please choose meaningful, descriptive names for your variables.** 
 
@@ -92,7 +92,7 @@ If they give a valid input between 1 and 4, the program should exit and print no
 
 **WARNING:** Autograding will very specifically be looking for _exactly_ the format of lines output shown above. You will not see the `$` at your command-line prompt in VSCode, you can ignore that part. Otherwise, when you run the program on your machine with the same inputs as above, your printed results should match exactly.
 
-## Part 2. Prompting for Player 2 Input
+## Part 2. Prompting for Player 2 Input - 15 points
 
 Now, you will do the same to prompt the second user for input with "Guess a number between 1 and 4: " and store that under a different variable name.
 (Imagine Player 1 input their boat location and then passed the computer to Player 2.)
@@ -116,7 +116,7 @@ If they give a valid input between 1 and 4, the program should exit and print no
 
 **WARNING:** Autograding will very specifically be looking for _exactly_ the format of lines output shown above. You will not see the `$` at your command-line prompt in VSCode, you can ignore that part. Otherwise, when you run the program on your machine with the same inputs as above, your printed results should match exactly.
 
-## Part 3. Checking User Input for Match 
+## Part 3. Checking User Input for Match - 20 points
 
 Now that you have gathered your inputs from Part 1 and Part 2 and stored them as variables, your task is to check if the Player 2's guess is equivalent to the box where the ship is hidden (hint: _is equal to_). These checks will involve combining concepts you've learned in recent lessons:
 
@@ -150,7 +150,7 @@ Your goal in this part is to be able to do the following:
 </pre>
 
 
-## Part 4. Printing A String of Boxes
+## Part 4. Printing A String of Boxes - 20 points
 
 Now, let's bring a visual aid to the game! You will need to build up a string of emojis using concatenation to show where the user hit or missed a boat. You can use the following _named constants_ in your program to simplify your implementation. We will learn more about named constants soon, but for now know they are simply variables whose values you will not change later in your program and make your programs easier to read:
 
@@ -195,7 +195,7 @@ Your goal in this part is to be able to do the following:
 </pre>
 
 
-## Part 5. Exiting Early for Invalid Inputs
+## Part 5. Exiting Early for Invalid Inputs - 10 points
 
 Now that you've added more functionality to your program in Parts 3 and 4, what happens when you go back to Parts 1 and 2? If Player 1 inputs the wrong value, what happens? How about when Player 2 inputs the wrong value? You'll notice that you no longer get your expected outputs from Parts 1 and 2. Instead, the program keeps running and doesn't exit immediately.
 
@@ -204,15 +204,17 @@ It's good practice to handle bad input from an end-user gracefully in your progr
 Once you make these changes, you should get the expected outputs from Parts 1 and 2 again, while still getting the correct functionality added in Parts 3 and 4.
 
 
-## Part 6. Type Safety and Linting 
+## Part 6. Type Safety and Linting - 10 points
 
 The autograder uses industry standard tools for checking the type safety of your programs (e.g. being sure you're using variables of the correct data types in valid ways) and linting style rules. If you have point deductions on Type Safety or Linting, read through the feedback the autograder gives and it should direct you to the line number in your program with the issue.
 
-## Part 7. Hand Grading
+## Part 7. Hand Grading 
 
 Part of this assignment will be hand graded to make sure you only use concepts within the course.
 
 We expect you to implement this exercise using only the concepts covered in COMP110. If you have prior programming experience, restrict your implementation to only the concepts covered. While there are many ways to implement this program with additional concepts beyond those we have covered, you should not attempt to do so until after submitting this exercise for full credit once the autograder is posted. Gaining additional practice with the fundamentals may feel clunky, but will help ensure you have full command over the concepts we expect you to know. Additionally, it is good practice for working in other programming environments which are more constrained and require creativity to overcome restrictions. For this exercise, you will be penalized for using any kind of loop construct.
+
+
 
 ## Submit to Gradescope for Grading
 
