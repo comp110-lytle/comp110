@@ -150,7 +150,7 @@ Your goal in this part is to be able to do the following:
 </pre>
 
 
-## Part 4. Printing A String of Boxes - XX points
+## Part 4. Printing A String of Boxes
 
 Now, let's bring a visual aid to the game! You will need to build up a string of emojis using concatenation to show where the user hit or missed a boat. You can use the following _named constants_ in your program to simplify your implementation. We will learn more about named constants soon, but for now know they are simply variables whose values you will not change later in your program and make your programs easier to read:
 
