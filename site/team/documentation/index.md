@@ -43,15 +43,15 @@ site-branch: team
 
 ### Team Leads
 
-* [Curriculum Design](/team/documentation/guides/curriculum.html) 
-* [Grading](/team/documentation/guides/grading.html)
-* [Team Building](/team/documentation/guides/team-building.html)
-* [Office Hours](/team/documentation/guides/office-hours.html)
-* [Accessibility](/team/documentation/guides/accessibility.html)
-* [Website](/team/documentation/guides/website.html)
-* [Tutoring](/team/documentation/guides/tutoring.html)
-* [Outreach](/team/documentation/guides/outreach.html)
-* [Hack 110](/team/documentation/guides/hack110.html)
+* [Curriculum Design](/team/documentation/leads/curriculum.html) 
+* [Grading](/team/documentation/leads/grading.html)
+* [Team Building](/team/documentation/leads/team-building.html)
+* [Office Hours](/team/documentation/leads/office-hours.html)
+* [Accessibility](/team/documentation/leads/accessibility.html)
+* [Website](/team/documentation/leads/website.html)
+* [Tutoring](/team/documentation/leads/tutoring.html)
+* [Outreach](/team/documentation/leads/outreach.html)
+* [Hack 110](/team/documentation/leads/hack110.html)
 
 
 </div>
