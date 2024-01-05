@@ -214,7 +214,15 @@ Part of this assignment will be hand graded to make sure you only use concepts w
 
 We expect you to implement this exercise using only the concepts covered in COMP110. If you have prior programming experience, restrict your implementation to only the concepts covered. While there are many ways to implement this program with additional concepts beyond those we have covered, you should not attempt to do so until after submitting this exercise for full credit once the autograder is posted. Gaining additional practice with the fundamentals may feel clunky, but will help ensure you have full command over the concepts we expect you to know. Additionally, it is good practice for working in other programming environments which are more constrained and require creativity to overcome restrictions. For this exercise, you will be penalized for using any kind of loop construct.
 
+## Rubric
 
+* Part 0. Setting up the Python Program - 10 points
+* Part 1. Prompting for Player 1 Input - 15 points
+* Part 2. Prompting for Player 2 Input - 15 points
+* Part 3. Checking User Input for Match - 20 points
+* Part 4. Printing A String of Boxes - 20 points
+* Part 5. Exiting Early for Invalid Inputs - 10 points
+* Part 6. Type Safety and Linting - 10 points
 
 ## Submit to Gradescope for Grading
 
