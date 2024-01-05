@@ -41,10 +41,6 @@ template: home
 <div class="date col-md-2">Fri, Jan 12</div>
 <div class="plans col-md-9"><div class="plan Exercise">
 <span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Thursday 1/18)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-01-19" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Jan 19</div>
-<div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX01 </span><span class="title"><a href="/exercises/simple-battleship.html">Simple Battleship (Due Thursday 1/25)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-01-26" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 26</div>
 <div class="plans col-md-9"><div class="plan Quiz">

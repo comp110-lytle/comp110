@@ -9,7 +9,7 @@ page: exercises
 template: overview
 ---
 
-
+ 
 ## Introduction
 
 This semester, we will take inspiration from the stategy game of Battleship. It's usually a two-player game, but you will be coding a single-player version!
