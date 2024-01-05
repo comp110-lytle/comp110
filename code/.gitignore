@@ -13,3 +13,4 @@ solutions/
 **/shiftoverflow/allocations/credentials.json
 **/shiftoverflow/allocations/package-lock.json
 scratch.ipynb
+autograder/exercises/*
