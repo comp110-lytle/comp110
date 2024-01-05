@@ -37,7 +37,7 @@ page: resource
     <figcaption>Camilla Fratta</figcaption>
   </figure>
 
-<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/csabato.html"><img src="/static/profile-photos/csabato.jpeg" class="profile-image"></a> <figcaption>Chiara Sabato</figcaption></figure>
+<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/csabato.html"><img src="/static/profile-photos/csabato.jpg" class="profile-image"></a> <figcaption>Chiara Sabato</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/chloejl.html"><img src="/static/profile-photos/chloejl.png" class="profile-image"></a> <figcaption>Chloe Lin</figcaption></figure>
 
