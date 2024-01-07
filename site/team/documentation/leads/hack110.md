@@ -10,7 +10,7 @@ site-branch: team
 
 ## About Me
 
-<img class="img-fluid" src="/static/profile-photos/jaylim.jpeg"/>
+<img class="img-fluid" src="/static/profile-photos/jaylim.jpg"/>
 
 //split//
 
