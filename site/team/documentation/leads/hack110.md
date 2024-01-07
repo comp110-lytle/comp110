@@ -30,9 +30,7 @@ Fun Fact: I once ate 52 pieces of Nigiri sushi.
 
 ## Responsibilities
 
-- Handle majority of Hack 110 logistics and planning.
-- Oversee and facilitate team communication concerning Hack 110.
-- Construct the outline for the hackathon.
+- Handle Hack 110 logistics and planning.
 - Reach out to sponsors to help with food, drinks, prizes, etc.
 - Manage Team110 budget, organize list of supplies, and calculate costs.
 - Assign role allocations for workshops, coffee chats, and other stations.
