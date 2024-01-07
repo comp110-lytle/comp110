@@ -10,13 +10,15 @@ site-branch: team
 
 ## About Me
 
-<img class="img-fluid" src="/static/profile-photos/jaylim.jpeg"/>
+<img class="img-fluid" src="/static/profile-photos/jaylim.jpg"/>
 
 //split//
 
 ### Jayden Lim
 
 Graduation Year: 2026
+
+Major: Computer Science & Statistics
 
 Semesters on Team 110: 3
 
