@@ -17,7 +17,7 @@ These are your action items for Spring 2024 Onboarding!
 * Set your availability on [homebase](https://app.joinhomebase.com/accounts/sign-in)
 * Complete your I-9 Documentation (You should be getting an email for this.)
 * Join the team Slack, add a profile picture, and join the `#new-members` channel.
-* Attend the first All-Hands *Tuesday, Jan 9 at 6 pm in FB 144*!
+* Attend the first All-Hands *Tuesday, Jan 9 at 6:30 pm in FB 144*!
 
 ## How do I schedule shifts for office hours? What if I can’t make my office hours and need to reschedule?
 
