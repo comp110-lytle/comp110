@@ -40,7 +40,7 @@ Your coursework will have its own private "git repository". The technology we us
    - Mac: `Command+Shift+P`
 3. Type in "Git: Clone" (without the quotes) and press `Enter`.
    - If you do not see this option after installing course software previously, try rebooting your computer.
-4. Copy the following URL: `https://github.com/comp110-23f/comp110-23f-workspace.git`
+4. Copy the following URL: `https://github.com/comp110-24s/comp110-24s-workspace.git`
    - Right Click and Paste the copied URL into the text box that appeared in VS Code after the previous step.
    - Or use the Paste keyboard shortcut: `Control+V` Windows / `Command+V` Mac
 5. Press Enter and you will be asked where you want your course workspace repository to be saved on your computer. Just accepting the default suggestion is OK.
@@ -67,7 +67,7 @@ VSCode can be customized with extensions specific to the types of work you use i
 
 We will use some popular 3rd party libraries this semester in COMP110. These are freely available, open source packages that other software developers made and shared. The packages installed will help us with some data science concerns when we reach that segment of the course.
 
-1. Open the _File_ menu, followed by _Open Recent_ and you should see the top entry listed as something like "comp110-23f-workspace"
+1. Open the _File_ menu, followed by _Open Recent_ and you should see the top entry listed as something like "comp110-24s-workspace"
    - If you do not, try closing and reopening VSCode.
 2. In the future, if you open VS Code and need to get back to your COMP110 Workspace, the easiest way is to repeat step 1 above.
 3. In the bottom "status bar" of VSCode, to the right of "main" and a refresh icon, you should now see Python followed by a version number. If the version number is not there or is not 3.10 or greater, follow the next bullet:
@@ -86,11 +86,11 @@ We will use some popular 3rd party libraries this semester in COMP110. These are
 
 ## 5. Setup your Backup Workspace on GitHub
 
-1. Navigate a web browser to <a href="https://classroom.github.com/a/LJDEazcr" target="_blank">https://classroom.github.com/a/ooZVJMQj</a>
+1. Navigate a web browser to <a href="https://classroom.github.com/classrooms/153874831-comp110-24s-classroom-a7fa2a" target="_blank">Github classroom</a>
 2. Click "Skip to the next step" when prompted to select your user / identification
 3. Click "Accept this Assignment"
 4. When the workspace is getting setup you may need to refresh until it tells you you're ready to go!
-5. Click the link to your personal backup repository that looks something like this `https://github.com/comp110-23f/comp110-workspace-KrisJordan` (except instead of `KrisJordan` you will see your GitHub username).
+5. Click the link to your personal backup repository that looks something like this `https://github.com/comp110-24s/comp110-workspace-KrisJordan` (except instead of `KrisJordan` you will see your GitHub username).
 6. Toward the top of the page there will be a green button that says `Code`. Click this and you will see two options: HTTPS and SSH. Click HTTPS.
 7. Copy the text in the box to the right of the HTTPS/SSH buttons (or click the clipboard icon). This is the URL to your backup repository.
 8. In VSCode, ppen the _View_ menu and select _Command Palette_, the shortcut for this menu is:
@@ -160,6 +160,6 @@ From the View Menu, select Explorer. You should see a left-hand sidebar with com
 
 Let's be sure you are able to exit out of VSCode and find your work again. Go ahead and close VSCode. Then open new window. If you see the same files in the left-hand sidebar: great! Keep reading, though, so you know what to do in the future if you do not see your workspace.
 
-If you do not see your workspace files in the Explorer sidebar, go to File, select Open Recent, and look for the topmost entry that is `comp110-23f-workspace` and select it. This is how you can get back to your workspace most easily in the future.
+If you do not see your workspace files in the Explorer sidebar, go to File, select Open Recent, and look for the topmost entry that is `comp110-24s-workspace` and select it. This is how you can get back to your workspace most easily in the future.
 
 Great work! Your software setup is now ready for COMP110!
