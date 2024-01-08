@@ -18,6 +18,8 @@ site-branch: team
 
 Graduation Year: 2026
 
+Major: Computer Science & Statistics
+
 Semesters on Team 110: 3
 
 Why I <3 Team 110: I enjoy seeing students' progression in turning something as foreign and unfamiliar as a programming language into an exciting tool that they can use to creatively solve problems.
@@ -28,10 +30,7 @@ Fun Fact: I once ate 52 pieces of Nigiri sushi.
 
 ## Responsibilities
 
-- Handle majority of Hack 110 logistics and planning.
-- Oversee and facilitate team communication concerning Hack 110.
-- Construct the outline for the hackathon.
-- Reach out to sponsors to help with food, drinks, prizes, etc.
+- Handle Hack 110 logistics, including sponsors.
 - Manage Team110 budget, organize list of supplies, and calculate costs.
 - Assign role allocations for workshops, coffee chats, and other stations.
 - Promote Hack 110 among Comp 110 students through various forms of in-class advertisement.
