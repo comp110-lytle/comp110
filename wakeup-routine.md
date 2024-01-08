@@ -83,7 +83,7 @@ author:
       * Title: COMP110 Workspace
       * Prefix: comp110-workspace
       * Leave the repo template starter code blank
-      * Copy worskace starter URL and update documentation (and README in workspace)
+      * Copy workspace starter URL and update documentation (and README in workspace)
       
 
   
