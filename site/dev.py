@@ -6,7 +6,7 @@ import time
 import os
 import subprocess
 from shelljob.proc import CommandException
-from flask import Flask, Response, abort, render_template, escape
+from flask import Flask, Response, abort, render_template
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from typing import List, Dict
 
