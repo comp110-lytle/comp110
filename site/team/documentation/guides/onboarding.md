@@ -3,18 +3,28 @@ title: Onboarding
 date: 2020-09-27
 author:
   - Iris Chien
+  - Alyssa Lytle
 page: logistics
 template: overview
 site-branch: team
 ---
+## Spring 2024 To-Dos
+
+These are your action items for Spring 2024 Onboarding!
+- Fill out your weekly availability for all-hands [here](http://whenisgood.net/khacb8f)
+- Fill out the [beginning of semester form]()
+- Set your availability on [homebase](https://app.joinhomebase.com/accounts/sign-in)
+- Complete your I-9 Documentation (You should be getting an email for this.)
+- Join the team Slack, add a profile picture, and join the `#new-members` channel.
+
 
 ## How do I schedule shifts for office hours? What if I can’t make my office hours and need to reschedule?
 
-The team uses [shiftoverflow.com](https://www.shiftoverflow.com) for scheduling office hours! You can put in when you're free to conduct office hours every week, and can even copy your availability from the last week if it hasn’t changed. Depending on if you are a 5-hour or 10-hour TA, you will be assigned a suitable amount of hours each week. You can check what hours you have been assigned later on shiftoverflow (before the week begins)!
+The team uses [Homebase](https://app.joinhomebase.com/accounts/sign-in) for scheduling office hours! You should've recieved an email inviting you to join. If not, contact Alyssa! You can put in when you're free to conduct office hours every week, and can even copy your availability from the last week if it hasn’t changed. Depending on if you are a 5-hour or 10-hour TA, you will be assigned a suitable amount of hours each week. You can check what hours you have been assigned later on Homebase (before the week begins)!
 
-If you suddenly cannot make your assigned office hours, ask if anyone can swap hours with you in a Slack channel by stating your assigned times and other times you are free!
+If you suddenly cannot make your assigned office hours, ask if anyone can swap hours with you in the `#shift-swap` Slack channel by stating your assigned times and other times you are free! If you wish to drop a shift in exchange for something such as grading, please request it in a timely manner in the `#drop-requests` channel.
 
-## How does office hour work? How does the rating system work afterwards?
+## How do office hours work? How does the rating system work afterwards?
 
 When it is your scheduled office hours, log in at [course.care](https://course.care) and click on click on COMP110. You should be already registered as a TA, if not, reach out to someone who can add you in the Slack.
 

@@ -6,7 +6,7 @@ page: profile
 template: columns-profile
 ---
 
-![profile-photo](../../../static/profile-photos/csabato.jpeg)
+![profile-photo](../../../static/profile-photos/csabato.jpg)
 
 ## Pronouns
 she/her/hers
@@ -20,10 +20,12 @@ Class of 2025
 
 ## Major
 Computer Science B.S.
+Italian Minor
+Data Science Minor
 //split//
 
 ## Interests
-Singing, watching movies, baking, New York Times crossword puzzles, board games (especially Catan), petting dogs,  UNC sports
+Watching movies, going to concerts, listening to music, traveling, New York Times crossword puzzles, guitar/singing, board games (especially Catan), petting dogs
 
 ## Non-academic fun fact
-Not to brag, I am Town Hall level 11 on Clash of Clans
+I listened to over 68k minutes of music and over 1.8k different artists in 2023
