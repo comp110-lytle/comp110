@@ -9,7 +9,7 @@ site-branch: team
 ---
 
 ## About Me
-<img class="img-fluid" src="/static/profile-photos/vrindagreen.jpeg"/>
+<img class="img-fluid" src="/static/profile-photos/vrindagreen.JPEG"/>
 
 
 //split//
