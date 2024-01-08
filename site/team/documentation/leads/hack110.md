@@ -12,6 +12,12 @@ site-branch: team
 
 <img class="img-fluid" src="/static/profile-photos/jaylim.jpg"/>
 
+## Goals
+
+- Promote an inclusive space for both beginner and more experienced programmers alike.
+- Improve Team110's versatility regarding project assistance.
+- Inspire passion for involvement in CS projects and hackathons in general.
+
 //split//
 
 ### Jayden Lim
@@ -33,11 +39,3 @@ Fun Fact: I once ate 52 pieces of Nigiri sushi.
 - Handle Hack 110 logistics, including sponsors.
 - Manage Team110 budget, organize list of supplies, and calculate costs.
 - Assign role allocations for workshops, coffee chats, and other stations.
-- Promote Hack 110 among Comp 110 students through various forms of in-class advertisement.
-
-## Goals
-
-- Foster student learning through participation in fun and engaging projects.
-- Improve Team110's versatility regarding project assistance.
-- Promote an inclusive environment for both beginner and more experienced programmers alike.
-- Inspire passion and ambition for involvement in CS projects and hackathons in general.
