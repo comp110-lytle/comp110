@@ -89,9 +89,10 @@ If you have suggestions on how to improve the course or just want to leave some 
 
 
 ## Tutoring Schedule
-* _Coming Soon_
-<!-- * _Monday: 4:00 PM - 6:00 PM in Sitterson Lower Lobby (in FB009 starting Oct 23)_
-* _Thursday: 5:00 PM - 7:00 PM in FB007_
-* _Sunday: 3:00 PM - 5:00 PM in SN011_ -->
+ *Tutoring takes place in Room SN011!*
+
+* _Monday: 5:00 PM -  7:00 PM_
+* _Wednesday: 5:00 PM -  7:00 PM_
+* _Thursday: 5:00 PM - 7:00 PM_
 </div>
 
