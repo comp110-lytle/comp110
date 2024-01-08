@@ -60,8 +60,3 @@ site-branch: team
 - A team site guide to all the tips mentors have for mentees (favorite classes, career searching, interview help, favorite profs)
 - Have a written textual description of job duties for new members
 
----
-
-### Other:
-
-- Get Kris to give a link to the duties of being a TA and add it to the team site

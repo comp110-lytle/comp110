@@ -20,7 +20,7 @@ If you have the team repo and can successfuly run either `python -m dev` or `pyt
 
 ## Creating a Profile
 
-1. Make sure you're on the master branch (`git checkout master`) and run the command `git pull origin master` to get the latest updates.
+1. Make sure you're on the main branch (`git checkout main`) and run the command `git pull origin main` to get the latest updates.
 2. Checkout a new `git` branch. In your terminal run the following command, replacing ONYEN with your onyen:
    `git checkout -b ONYEN-profile`
 3. In the `site/static/profile-photos/` directory insert the photo of yourself you want on your profile. Resize this image to be exactly than **300x300** and name it `ONYEN`.png/jpg
@@ -108,11 +108,11 @@ If you have the team repo and can successfuly run either `python -m dev` or `pyt
    Then commit your changes:
    `git commit -m "your_name Profile Page."`
 1. Push your work to your training branch on the staff repo (`git push origin [your-branch-name]`). Check your branch with `git branch`.
-1. Open GitHub Pull Requests on the `team110` repo: https://github.com/comp110/team110/pulls
+1. Open GitHub Pull Requests on the `comp110` repo: https://github.com/comp110-lytle/comp110/pulls
 1. You might/should see a yellow notification box: "Your recently pushed branches...". If so select "Compare & Pull Request". If not, select "New Pull Request", and in the Compare branch drop-down select your branch.
 1. Scroll through the differences and confirm your latest changes were successfully pushed. If you don't see them, check that you committed everything you expected and pushed to your branch. Select "Create Pull Request".
 1. In the description box, briefly describe your branch -- "<Name> Profile Page" is just fine.
-1. On the right-hand sidebar, select Kris or a Web Lead as a reviewer.
+1. On the right-hand sidebar, select Alyssa or a Web Lead as a reviewer.
 1. Create pull request!
 
 From here, a brief pass (and potentially some some revisions) will be taken by the reviewer and then merged in.

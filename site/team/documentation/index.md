@@ -7,28 +7,21 @@ template: columns
 site-branch: team
 ---
 
-<div class="link-page box">
 
-### General
-
-* [Onboarding](/team/documentation/guides/onboarding.html)
-* [Mentorship Guide](/team/documentation/guides/mentor_guide.html)
-* [Special Teams](/team/documentation/guides/special_teams.html)
-* [Outreach Chart](/team/documentation/guides/outreach_chart.html)
-</div>
-</br>
 <div class="link-page box">
 
 ### Development 
 
-* [Shift Overflow](/team/documentation/guides/shiftoverflow_dev.html)
-* [Git Guide](/team/documentation/guides/git_guide.html)
+* [Onboarding](/team/documentation/guides/onboarding.html)
+* [Mentorship Guide](/team/documentation/guides/mentor_guide.html)
 * [Site Dev Setup](/team/documentation/guides/course_site_setup.html)
+* [TA Profile](/team/documentation/guides/ta_profile.html)
 * [Site Markdown](/team/documentation/guides/course_site_markdown.html)
 * [Site Features](/team/documentation/guides/course_site_features.html)
-* [TA Profile](/team/documentation/guides/ta_profile.html)
+<!-- * [Git Guide](/team/documentation/guides/git_guide.html) -->
+<!-- * [Shift Overflow](/team/documentation/guides/shiftoverflow_dev.html) -->
 </div>
-//split//
+
 <div class="link-page box">
 
 ### Teaching and Office Hours
@@ -38,7 +31,9 @@ site-branch: team
 * [Setup Issues](/team/documentation/guides/setup_issues.html)
 <!-- * [Diagnostic Tool](/team/documentation/guides/diagnostic_tool.html) -->
 </div>
-</br>
+
+//split//
+
 <div class="link-page box">
 
 ### Team Leads
