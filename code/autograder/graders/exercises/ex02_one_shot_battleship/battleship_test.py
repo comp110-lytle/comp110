@@ -90,7 +90,7 @@ def test_part_1_row_guess_too_low(capsys, monkeypatch):
 @mark.weight(5)
 def test_part_1_row_guess_too_high(capsys, monkeypatch):
     """Part 1. A high row guess is caught correctly."""
-    set_stdin(monkeypatch, ["7", "8", "2", "2"])
+    set_stdin(monkeypatch, ["8", "2", "2"])
     reimport_module(MODULE)
     output = _get_output(capsys)
     regex = re.compile("(?i)The grid is only 4 by 4. Try again: ")
