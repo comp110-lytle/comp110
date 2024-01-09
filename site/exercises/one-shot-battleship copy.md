@@ -127,7 +127,7 @@ Additionally, be sure you are using `f-String` templates rather than conatenatio
 
 **WARNING:** Autograding will very specifically be looking for _exactly_ the format of lines output shown above. You will not see the `$` at your command-line prompt in VSCode, you can ignore that part. Otherwise, when you run the program on your machine with the same inputs as above on the first two lines, your printed results should look exactly like it.
 
-## Part 2. Print a Grid -- XX Points
+## Part 2. Print a Grid -- 30 Points
 
 In battleship, you normally have a grid of blue boxes instead of just one row of ocean as seen in EX01. Using the concept of `while` loops, you'll be able to print out a grid of the size of your choice! Remember, the location of your guess in the grid will contain a red box if you guessed correctly and a white box if not. If you haven't already, paste in the following constants:
 
@@ -190,7 +190,7 @@ Once you have completed this part of the program, your output should look as fol
 </pre>
 
 
-## Part 3. Giving A Hint to Your User -- XX Points
+## Part 3. Giving A Hint to Your User -- 10 Points
 
 What if your user was very close? Right row, but wrong column? Right column, but wrong row?
 
