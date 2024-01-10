@@ -86,7 +86,7 @@ We will use some popular 3rd party libraries this semester in COMP110. These are
 
 ## 5. Setup your Backup Workspace on GitHub
 
-1. Navigate a web browser to <a href="https://classroom.github.com/classrooms/153874831-comp110-24s-classroom-a7fa2a" target="_blank">Github classroom</a>
+1. Navigate a web browser to <a href="https://classroom.github.com/a/0IDOGwpN" target="_blank">Github classroom</a>
 2. Click "Skip to the next step" when prompted to select your user / identification
 3. Click "Accept this Assignment"
 4. When the workspace is getting setup you may need to refresh until it tells you you're ready to go!
