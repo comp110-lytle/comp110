@@ -42,8 +42,8 @@ template: home
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL00 </span><span class="title">Welcome to COMP110 - An Intro to the Class and Coding</span>
 <ul class="links"><li class="link"><a href="https://youtube.com/live/f605n4s3aw0?feature=share">Live Stream Link</a></li>
-<li class="link">Course Intro Slides</li>
-<li class="link">Intro to Coding Slides</li>
+<li class="link">Course Intro Slides *(Coming Soon)*</li>
+<li class="link">Intro to Coding Slides *(Coming Soon)*</li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS00 </span><span class="title">Syllabus and Support (Due Wednesday 1/10)</span>
 <ul class="links"><li class="link"><a href="/resources/syllabus.html">1. Read the Syllabus</a></li>
