@@ -3,13 +3,12 @@
         {
             "kind": "CL",
             "n": 0,
-            "title": "Welcome to COMP110 - An Intro to the Class and Coding",
+            "title": "Welcome to COMP110 - An Intro to the Class",
             "date": "2024-01-10",
             "deadline": "None",
             "links": {
                 "Live Stream Link": "https://youtube.com/live/f605n4s3aw0?feature=share",
-                "Course Intro Slides *(Coming Soon)*": "",
-                "Intro to Coding Slides *(Coming Soon)*": ""
+                "Course Intro Slides": "/static/slides/CL00.pdf"
             }
         },
         {
