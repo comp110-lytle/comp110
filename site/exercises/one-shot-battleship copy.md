@@ -12,7 +12,7 @@ template: overview
 
 Please complete all lessons before attempting to begin this exercise.
 
-The next step in our journey to implementing Battleship is to produce a program that gives the player one shot at guessing your program's secret word. (Of couse, they can play the game multiple times in order to have multiple chances.)
+The next step in our journey to implementing Battleship is to produce a program that gives the player one shot at guessing your program's secret boat location. (Of couse, they can play the game multiple times in order to have multiple chances.)
 
 In this exercise, you will print out a grid of boxes instead of just one line, and prompt the user for a **row** and **column** for their guess. Level up!
 
@@ -49,11 +49,9 @@ You should follow the steps below for implementing the program one step at a tim
     
     $ python -m exercises.ex01_one_shot_battleship
     Guess a row: 5
-    The grid is only 4 by 4.
-    Guess a row: 3
+    The grid is only 4 by 4. Try again: 3
     Guess a column: 6
-    The grid is only 4 by 4.
-    Guess a column: 2
+    The grid is only 4 by 4. Try again: 2
     🟦🟦🟦🟦
     🟦🟦🟦🟦
     🟦🟥🟦🟦
@@ -64,7 +62,7 @@ You should follow the steps below for implementing the program one step at a tim
 
 ## Permitted Constructs
 
-We expect you to implement this exercise using only the concepts covered in COMP110. If you have prior programming experience, restrict your implementation to only the concepts covered. While there are many ways to implement this program with additional concepts beyond those we have covered, you should not attempt to do so until after submitting this exercise for full credit once the autograder is posted. Gaining additional practice with the fundamentals may feel clunky, but will help ensure you have full command over the concepts we expect you to know. Additionally, it is good practice for working in other programming environments which are more constrained and require creativity to overcome restrictions. For this exercise, you will be penalized for using any kind of loop construct other than a `while` loop. Additionally, string methods (such as `.count` and `.format`) are not permitted.
+We expect you to implement this exercise using only the concepts covered in COMP110. If you have prior programming experience, restrict your implementation to only the concepts covered. While there are many ways to implement this program with additional concepts beyond those we have covered, you should not attempt to do so until after submitting this exercise for full credit once the autograder is posted. Gaining additional practice with the fundamentals may feel clunky, but will help ensure you have full command over the concepts we expect you to know. Additionally, it is good practice for working in other programming environments which are more constrained and require creativity to overcome restrictions. For this exercise, you will be penalized for using any kind of loop construct other than a `while` loop.
 
 ## Background Lesson: Formatted Strings (f-Strings)
 
@@ -82,15 +80,15 @@ Right click on the `exercises` directory and select "New File". Enter the follow
 
 * `ex02_one_shot_battleship.py`
 
-Before beginning work on the program, you should add a _docstring_ to the top of your Python _module_ just as you did in EX00 and EX01. Then, you should add a line with the special variable named `__author__` assigned to be a **string** with your 9-digit student PID. (Disclaimer: Out in the real world the `__author__` variable is typically your name and e-mail address, but since we will grade your programs we'd like to avoid potential bias in seeing your names as part of the programs as we're grading.) Fill in _your_ 9-digit UNC PID number, without any spaces or dashes, in the `__author__` string.
+Before beginning work on the program, you should add a _docstring_ to the top of your Python _module_ just as you did in EX00 and EX01. Then, you should add a line with the special variable named `__author__` assigned to be a **string** with your 9-digit student PID. Fill in _your_ 9-digit UNC PID number, without any spaces or dashes, in the `__author__` string.
 
 
 ## Part 1. Establishing a Secret and Prompting for a Guess -- 30 Points
-First, you'll need to establish a few variables: an `int` for the size of your grid, `int` for secret row, `int` for secret column. For the purposes of the autograder, hard code your grid size, secret row, and secret column to 4, 3, and 2 respectively.
+First, you'll need to establish a few variables: an `int` for the size of your grid, an `int` for a secret row, and an `int` for a secret column. For the purposes of the autograder, hard code your grid size, secret row, and secret column to 4, 3, and 2 respectively.
 
-Go ahead and prompt the user for a guess for column and row as show below. Compare the guesses to the secret variables, to output "Hit!" or "Miss!".
+Go ahead and prompt the user to guess a row and column as show below. Compare the guesses to the secret variables, to output "Hit!" or "Miss!".
 
-Additionally, in simple battleship, you would exit if the user gave an invalid input. This time around, how about we add the ability to re-input a guess if given an invalid input. With the help of `while` loops, see if you can continue to prompt the player until they provide a guess that is within the bounds of the size of the grid. Here's how your program should perform after this step:
+Additionally, in simple battleship, you would exit if the user gave an invalid input. This time around, we will add the ability to re-input a guess if given an invalid input. With the help of `while` loops, see if you can continue to prompt the player until they provide a guess that is within the bounds of the size of the grid. Here's how your program should perform after this step:
 
 <pre>
 <div class="terminal">
@@ -101,29 +99,24 @@ Additionally, in simple battleship, you would exit if the user gave an invalid i
 
     $ python -m exercises.ex01_one_shot_battleship
     Guess a row: 5
-    The grid is only 4 by 4. Try again:
-    Guess a row: 1
+    The grid is only 4 by 4. Try again: 1
     Guess a column: 6
-    The grid is only 4 by 4. Try again:
-    Guess a column: 2
+    The grid is only 4 by 4. Try again: 2
     Miss!
 
     $ python -m exercises.ex01_one_shot_battleship
     Guess a row: 5
-    The grid is only 4 by 4. Try again:
-    Guess a row: 12390
-    The grid is only 4 by 4. Try again:
-    Guess a row: 3
+    The grid is only 4 by 4. Try again: 12390
+    The grid is only 4 by 4. Try again: 3
     Guess a column: 123589
-    The grid is only 4 by 4. Try again:
-    Guess a column: 2
+    The grid is only 4 by 4. Try again: 2
     Hit!
 </div>
 </pre>
 
-Before you continue on, does this step of your program work correctly if you change the value for the size of your grid? What if you make the size 5, and thus the grid 5 by 5? Make sure you're using the grid size variable  to compare, and not hard coding it!
+Before you continue on, does this step work correctly if you change the value for the size of your grid? If you set grid size to 5, does the re-input statement say, "The grid is only 5 by 5. Try again: "? Make sure you are using the grid size variable to enforce the bounds of a valid input, and not hard coding it!
 
-Additionally, be sure you are using `f-String` templates rather than conatenation for this text output (not the grid), as introduced in the background lesson.
+Additionally, be sure you are using `f-String` templates rather than conatenation for text output in this section as introduced in the background lesson.
 
 **WARNING:** Autograding will very specifically be looking for _exactly_ the format of lines output shown above. You will not see the `$` at your command-line prompt in VSCode, you can ignore that part. Otherwise, when you run the program on your machine with the same inputs as above on the first two lines, your printed results should look exactly like it.
 
