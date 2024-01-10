@@ -37,7 +37,20 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-12" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-10" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Jan 10</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL00 </span><span class="title">Welcome to COMP110 - An Intro to the Class and Coding</span>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/f605n4s3aw0?feature=share">Live Stream Link</a></li>
+<li class="link">Course Intro Slides</li>
+<li class="link">Intro to Coding Slides</li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS00 </span><span class="title">Syllabus and Support (Due Wednesday 1/10)</span>
+<ul class="links"><li class="link"><a href="/resources/syllabus.html">1. Read the Syllabus</a></li>
+<li class="link"><a href="/support">2. Read Support Resources</a></li>
+<li class="link"><a href="https://www.gradescope.com/">3. Complete Lesson 00 Responses on Gradescope</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2024-01-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 12</div>
 <div class="plans col-md-9"><div class="plan Exercise">
 <span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Thursday 1/18)</a></span></div></div>
