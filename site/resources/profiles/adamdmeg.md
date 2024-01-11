@@ -14,9 +14,9 @@ template: columns-profile
 
 she/her/hers
 
-<!-- ## Fav Emoji
+## Fav Emoji
 
- -->
+💌
 
 ## Hometown
 
