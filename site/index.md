@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/syllabus.html">LS00 - WED, JAN 10 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - THU, JAN 18 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -41,7 +41,7 @@ template: home
 <div class="date col-md-2">Wed, Jan 10</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL00 </span><span class="title">Welcome to COMP110 - An Intro to the Class</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/f605n4s3aw0?feature=share">Live Stream Link</a></li>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/f605n4s3aw0?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL00.pdf">Course Intro Slides</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS00 </span><span class="title">Syllabus and Support (Due Wednesday 1/10)</span>
@@ -52,7 +52,11 @@ template: home
 </div><div data-type="lecture" data-date="2024-01-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 12</div>
 <div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Thursday 1/18)</a></span></div></div>
+<span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Thursday 1/18)</a></span></div><div class="plan Class">
+<span class="kind">CL01 </span><span class="title">An Introduction to Coding + VS Code Tutorial</span>
+<ul class="links"><li class="link">Lecture Video</li>
+<li class="link"><a href="/static/slides/CL01.pdf">Lecture Slides</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-01-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 19</div>
 <div class="plans col-md-9"><div class="plan Exercise">

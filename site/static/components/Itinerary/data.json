@@ -7,7 +7,7 @@
             "date": "2024-01-10",
             "deadline": "None",
             "links": {
-                "Live Stream Link": "https://youtube.com/live/f605n4s3aw0?feature=share",
+                "Lecture Video": "https://youtube.com/live/f605n4s3aw0?feature=share",
                 "Course Intro Slides": "/static/slides/CL00.pdf"
             }
         },
@@ -34,6 +34,17 @@
             "deadline": "2024-01-18",
             "links": {
                 "": "/exercises/ex00_hello_world.html"
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 1,
+            "title": "An Introduction to Coding + VS Code Tutorial",
+            "date": "2024-01-12",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Lecture Slides": "/static/slides/CL01.pdf"
             }
         }
     ],
