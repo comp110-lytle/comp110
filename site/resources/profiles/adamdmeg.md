@@ -1,7 +1,7 @@
 ---
 title: Megan Adams
 author:
-  - Megan Adams
+- Megan Adams
 page: profile
 template: columns-profile
 ---
@@ -14,9 +14,9 @@ template: columns-profile
 
 she/her/hers
 
-## Fav Emoji
+<!-- ## Fav Emoji
 
-💌
+ -->
 
 ## Hometown
 
