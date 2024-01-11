@@ -66,6 +66,8 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/ljfeld21.html"><img src="/static/profile-photos/ljfeld21.jpg" class="profile-image"> </a><figcaption>Lauren Feldman</figcaption></figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/escoats.html"><img src="/static/profile-photos/escoats.png" class="profile-image"> </a><figcaption>Lizzie Coats</figcaption></figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/lsiegel4.html"><img src="/static/profile-photos/lsiegel4.jpg" class="profile-image"> </a><figcaption>Lucas Siegel</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/madeleinegenova.html"><img src="/static/profile-photos/madeleinegenova.JPG" class="profile-image"> </a> <figcaption>Madeleine Genova</figcaption></figure>
