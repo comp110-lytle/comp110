@@ -16,7 +16,7 @@ The next step in our journey to implementing Battleship is to produce a program 
 
 In this exercise, you will print out a grid of boxes instead of just one line, and prompt the user for a **row** and **column** for their guess. Level up!
 
-You should follow the steps below for implementing the program one step at a time. To get a sense of where you are going, here is an example of a final game ():
+You should follow the steps below for implementing the program one step at a time. To get a sense of where you are going, here is an example of the final game:
 
 <pre>
 <div class="terminal">
@@ -45,7 +45,7 @@ You should follow the steps below for implementing the program one step at a tim
     🟦🟦🟦🟦
     🟦🟦⬜🟦
     🟦🟦🟦🟦
-    Close! Right row, wrong column.
+    Close! Correct row, wrong column.
     
     $ python -m exercises.ex01_one_shot_battleship
     Guess a row: 5
@@ -122,7 +122,7 @@ Additionally, be sure you are using `f-String` templates rather than conatenatio
 
 ## Part 2. Print a Grid -- 30 Points
 
-In battleship, you normally have a grid of blue boxes instead of just one row of ocean as seen in EX01. Using the concept of `while` loops, you'll be able to print out a grid of the size of your choice! Remember, the location of your guess in the grid will contain a red box if you guessed correctly and a white box if not. If you haven't already, paste in the following constants:
+In battleship, you normally have a grid of blue boxes instead of just one row of ocean as seen in EX01. Using the concept of `while` loops, you'll be able to print out any grid at the size of your choice! Remember, the location of your guess within the grid will contain a red box if you guessed correctly and a white box if not. If you haven't already, paste in the following constants:
 
 ~~~
     BLUE_BOX: str = "\U0001F7E6"
@@ -130,24 +130,26 @@ In battleship, you normally have a grid of blue boxes instead of just one row of
     WHITE_BOX: str = "\U00002B1C"
 ~~~
 
-Since loops are new to your repertoire, in this exercise we will give you a general strategy for accomplishing this task. Your job will be to translate this plan in English into working Python code.
+Since loops are new to your repertoire, we will give you a general strategy for accomplishing this task. Your job will be to translate this plan in English into working Python code.
 
-1. First, establish a counter variable to keep track how many times you've iterated through the loop.
-2. _While_ the counter variable is less than the size of the grid you specified, do as follows:
-    1. Test to see if the user guess for row is equal to the counter + 1 (remember, this is because the counter starts at 0).
-        1. If so, create a another counter variable to count how many times you've printed a row.
-            1. You'll also want to create a `str` to keep track of your emoji boxes.
-            2. _While_ your row counter variable is less than the size of the grid, do as follows (creates a row):
-                1. If the user guess for column is equal to the counter + 1, concatenate the user guess box (red or white)
-                2. Else, add a blue box.
-                3. After the test, increase your row counter variable by one so that you do not have an infinite loop.
-            3. Once the loop completes, print the emoji string. (one row is outputted)
-        2. Otherwise, still create the row counter variable and the `str` variable, but this time, use the following `while` loop logic:
-            1. _While_ the row counter variable is less than the size of the grid, do the following:
-                1. Concatenate a blue box.
-                2. Increment your row counter variable by one to avoid an infinite loop.
-            2. When you exit the while loop, print the emoji string.
-    2. Increment your first counter variable by one to avoid an infinite loop.
+1. First, come up with a result box `str` similar to how you did in EX01, which will either be a red or white box depending on the correctness of the user's guesses.
+2. Then, establish an `int` counter variable to keep track how many times you've printed a row.
+3. _While_ the row counter variable is less than the size of the grid, do as follows:
+    1. Test to see if the user's row guess is equal to the row counter + 1——(remember, this is because counters start at 0).
+        1. If so, create a `str` to store your emoji string for a singular row.
+        2. Also create a column counter variable to keep track of how many times you have concatenated an emoji box to the row string. 
+            1. _While_ your column counter variable is less than the size of the grid, do as follows:
+                1. If the user guess for column is equal to the counter + 1, concatenate the result box (red or white) to the row string.
+                2. Else, concatenate a blue box to the row string.
+                3. After the conditional, increase your row counter variable by one so that you do not have an infinite loop.
+            3. Once the loop completes, print the emoji string (one row is outputted).
+    2. Otherwise: 
+        1. Still create the column counter variable and the `str` variable for a row of emojis, but this time, use the following `while` loop logic:
+        2. _While_ the column counter variable is less than the size of the grid, do the following:
+            1. Concatenate a blue box.
+            2. Increment your column counter variable by one to avoid an infinite loop.
+        3. When you exit the while loop, print the emoji string (one row is outputted).
+    2. Increment your first row counter variable by one to avoid an infinite loop.
 
 Once you have completed this part of the program, your output should look as follows (should the secret row be 3 and secret column be 2.)
 
