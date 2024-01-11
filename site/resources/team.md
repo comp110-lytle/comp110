@@ -105,5 +105,10 @@ page: resource
   <figcaption>Wisdom Okwen</figcaption>
 </figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+  <a href="/resources/profiles/aknazarj.html"><img src="/static/profile-photos/aknazarj.jpg" class="profile-image"> </a>
+  <figcaption>Aknazar Janibek</figcaption>
+</figure>
+
 </div>
 </div>
