@@ -54,7 +54,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Exercise">
 <span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Thursday 1/18)</a></span></div><div class="plan Class">
 <span class="kind">CL01 </span><span class="title">An Introduction to Coding + VS Code Tutorial</span>
-<ul class="links"><li class="link">Lecture Video</li>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/yppdsU77y4g?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL01.pdf">Lecture Slides</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-01-19" class="row itinerary-row py-2">
