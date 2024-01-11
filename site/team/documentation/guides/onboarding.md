@@ -50,3 +50,17 @@ Don’t be afraid to ask for help! If you don’t understand why the student’s
 ## What is the “all hands” meeting?
 
 All Hands is an hour-long mandatory meeting that usually happens on Sundays at 5pm. It provides a chance every week for all the 110 TAs, 211 TAs, and Kris to meet! In All Hands, we start off with small breakout rooms to let everyone get a chance to know each other better and to talk about their week in and out of office hours. Feel free to bring up any questions or concerns you have seen that week during the meeting. Usually TAs leading special teams, such as outreach or grading, can give updates on their progress and ask for suggestions. All TAs are free to voice problems they’ve seen in office hours or give input on how we as a team could do better.
+
+## Which Slack Channels should I join?
+
+You can join any channel that is public (and create your own), but some useful ones are:
+
+- `#announcements`: where Alyssa posts the most important announcements
+- `#general`: where less time-sensitive Comp 110 things are discussed
+- `#random`: general chitchat for the whole team
+- `#shift-swap`: where you post if you want another team member to swap shifts with you
+- `#open-shift-swap`: where you post to ask if you can swap a specific shift with a shift marked "open" on Homebase
+- `#drop-requests`: where you can request shifts to drop in exchange for some previous work done the week before (e.g. grading)
+- `#office-hours`: where you post questions you may have during office hours
+- `#grading`: where you can ask clarification questions about grading
+- `#content-design`: where you can ask questions about different content design tasks (e.g. practice memory diagrams)
