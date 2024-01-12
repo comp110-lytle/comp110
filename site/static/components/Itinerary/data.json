@@ -14,7 +14,7 @@
         {
             "kind": "LS",
             "n": 0,
-            "title": "Syllabus and Support (Due Wednesday 1/10)",
+            "title": "Syllabus and Support<s><i>(Due Wednesday 1/10)</i></s> (Extended to Monday 1/15)",
             "date": "2024-01-10",
             "deadline": "2024-01-10",
             "links": {
@@ -45,6 +45,16 @@
             "links": {
                 "Lecture Video": "https://youtube.com/live/yppdsU77y4g?feature=share",
                 "Lecture Slides": "/static/slides/CL01.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 1,
+            "title": "Visual Studio: Running Code (Due Monday 1/15)",
+            "date": "2024-01-12",
+            "deadline": "2024-01-15",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],
