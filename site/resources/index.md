@@ -64,7 +64,7 @@ navbar: base
 
 - _**[VIRTUAL LESSONS:](/virtual-classes/index.html)**_ Lessons for each unit 
 
--_**[CLASS SCHEDULE:](https://airtable.com/invite/l?inviteId=invBikEJ7h6TDCUa9&inviteToken=307476f2f48468ba40d1988aeb81056adfcd23fa317478168794a27745852867&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts)**_ *TENTATIVE* Class Schedule
+-_**[CLASS SCHEDULE:](https://airtable.com/appzeephpTB5Uovx7/shrxiThP0DwM10pmQ)**_ *TENTATIVE* Class Schedule
 
 </div> 
 
