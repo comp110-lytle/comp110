@@ -3,6 +3,7 @@ title: Virtual Lessons
 author:
     - Alyssa Byrnes
 page: lessons
+template: overview
 ---
 
 <div class="plan Class"><span class="kind">LS00 </span>

@@ -50,7 +50,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-01-17" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Jan 17</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL02 </span><span class="title">Objects, Data Types, Variables, and Expressions </span>
+<span class="kind">CL02 </span><span class="title">Variables, Expressions, and User Input </span>
 <ul class="links"><li class="link">Lecture Video</li>
 <li class="link">Lecture Slides</li>
 <li class="link"><a href="/lessons/expressions.html">Lecture Notes</a></li>
