@@ -15,3 +15,18 @@ page: lessons
 [Video](https://youtu.be/uJZs73924ls)
 </div>
 
+<div class="plan Class"><span class="kind">LS02 </span>
+<span class="title">Objects and Data Types:</span>
+[Notes](/lessons/objects-data-types.html) | [Video](https://youtu.be/6GxkRgIze-c)
+</div>
+
+<div class="plan Class"><span class="kind">LS03 </span>
+<span class="title">Expressions:</span>
+[Notes](/lessons/expressions.html)
+</div>
+
+<div class="plan Class"><span class="kind">LS04 </span>
+<span class="title">Variables and User Input:</span>
+[Video](https://youtu.be/GPpYSDNUtH8)
+</div>
+

@@ -1,29 +1,4 @@
 {
-    "2024-01-10": [
-        {
-            "kind": "CL",
-            "n": 0,
-            "title": "Welcome to COMP110 - An Intro to the Class",
-            "date": "2024-01-10",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/f605n4s3aw0?feature=share",
-                "Course Intro Slides": "/static/slides/CL00.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 0,
-            "title": "Syllabus and Support<s><i>(Due Wednesday 1/10)</i></s> (Extended to Monday 1/15)",
-            "date": "2024-01-10",
-            "deadline": "2024-01-10",
-            "links": {
-                "1. Read the Syllabus": "/resources/syllabus.html",
-                "2. Read Support Resources": "/support",
-                "3. Complete Lesson 00 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        }
-    ],
     "2024-01-11": [],
     "2024-01-12": [
         {
@@ -44,7 +19,8 @@
             "deadline": "None",
             "links": {
                 "Lecture Video": "https://youtube.com/live/yppdsU77y4g?feature=share",
-                "Lecture Slides": "/static/slides/CL01.pdf"
+                "Lecture Slides": "/static/slides/CL01.pdf",
+                "Lecture Notes": "/lessons/objects-data-types.html"
             }
         },
         {
@@ -62,7 +38,20 @@
     "2024-01-14": [],
     "2024-01-15": [],
     "2024-01-16": [],
-    "2024-01-17": [],
+    "2024-01-17": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Objects, Data Types, Variables, and Expressions ",
+            "date": "2024-01-17",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Lecture Slides": "",
+                "Lecture Notes": "/lessons/expressions.html"
+            }
+        }
+    ],
     "2024-01-18": [],
     "2024-01-19": [
         {

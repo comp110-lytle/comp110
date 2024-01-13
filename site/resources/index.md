@@ -59,10 +59,10 @@ navbar: base
 ## Website Navigation
 
 - _**[SYLLABUS:](/resources/syllabus.html)**_ Course Syllabus
-<!-- 
-- _**[VIRTUAL LESSONS:](/virtual-classes/index.html)**_ Lessons for each unit -->
 
 - _**[SUPPORT:](/support)**_ Information about Office Hours, Tutoring, or reaching out
+
+- _**[VIRTUAL LESSONS:](/virtual-classes/index.html)**_ Lessons for each unit 
 
 </div> 
 

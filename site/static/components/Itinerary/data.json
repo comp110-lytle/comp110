@@ -44,7 +44,8 @@
             "deadline": "None",
             "links": {
                 "Lecture Video": "https://youtube.com/live/yppdsU77y4g?feature=share",
-                "Lecture Slides": "/static/slides/CL01.pdf"
+                "Lecture Slides": "/static/slides/CL01.pdf",
+                "Lecture Notes": "/lessons/objects-data-types.html"
             }
         },
         {
@@ -62,7 +63,20 @@
     "2024-01-14": [],
     "2024-01-15": [],
     "2024-01-16": [],
-    "2024-01-17": [],
+    "2024-01-17": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Objects, Data Types, Variables, and Expressions ",
+            "date": "2024-01-17",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Lecture Slides": "",
+                "Lecture Notes": "/lessons/expressions.html"
+            }
+        }
+    ],
     "2024-01-18": [],
     "2024-01-19": [
         {

@@ -1,1 +1,27 @@
-{}
+{
+    "2024-01-10": [
+        {
+            "kind": "CL",
+            "n": 0,
+            "title": "Welcome to COMP110 - An Intro to the Class",
+            "date": "2024-01-10",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/f605n4s3aw0?feature=share",
+                "Course Intro Slides": "/static/slides/CL00.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 0,
+            "title": "Syllabus and Support<s><i>(Due Wednesday 1/10)</i></s> (Extended to Monday 1/15)",
+            "date": "2024-01-10",
+            "deadline": "2024-01-10",
+            "links": {
+                "1. Read the Syllabus": "/resources/syllabus.html",
+                "2. Read Support Resources": "/support",
+                "3. Complete Lesson 00 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ]
+}
