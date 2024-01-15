@@ -37,27 +37,21 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-12" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Jan 12</div>
-<div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Thursday 1/18)</a></span></div><div class="plan Class">
-<span class="kind">CL01 </span><span class="title">An Introduction to Coding + VS Code Tutorial</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/yppdsU77y4g?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/CL01.pdf">Lecture Slides</a></li>
-<li class="link"><a href="/lessons/objects-data-types.html">Lecture Notes</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS01 </span><span class="title"><a href="https://www.gradescope.com/">Visual Studio: Running Code (Due Monday 1/15)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-01-17" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-17" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Jan 17</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL02 </span><span class="title">Variables, Expressions, and User Input </span>
 <ul class="links"><li class="link">Lecture Video</li>
-<li class="link">Lecture Slides</li>
+<li class="link"><a href="/static/slides/CL02.pdf">Lecture Slides</a></li>
 <li class="link"><a href="/lessons/expressions.html">Lecture Notes</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-01-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 19</div>
-<div class="plans col-md-9"><div class="plan Exercise">
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL03 </span><span class="title">Conditionals</span>
+<ul class="links"><li class="link">Lecture Video</li>
+<li class="link"><a href="/static/slides/CL01-conditionals.pdf">Lecture Slides</a></li>
+</ul></div><div class="plan Exercise">
 <span class="kind">EX01 </span><span class="title"><a href="/exercises/simple-battleship.html">Simple Battleship (Due Tuesday 1/30)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-01-26" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 26</div>
@@ -85,7 +79,17 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-01-10" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-01-12" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Jan 12</div>
+<div class="plans col-md-9"><div class="plan Exercise">
+<span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Thursday 1/18)</a></span></div><div class="plan Class">
+<span class="kind">CL01 </span><span class="title">An Introduction to Coding + VS Code Tutorial</span>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/yppdsU77y4g?feature=share">Lecture Video</a></li>
+<li class="link"><a href="/static/slides/CL01.pdf">Lecture Slides</a></li>
+<li class="link"><a href="/lessons/objects-data-types.html">Lecture Notes</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS01 </span><span class="title"><a href="https://www.gradescope.com/">Visual Studio: Running Code (Due Monday 1/15)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-01-10" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Jan 10</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL00 </span><span class="title">Welcome to COMP110 - An Intro to the Class</span>

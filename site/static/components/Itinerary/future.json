@@ -1,39 +1,4 @@
 {
-    "2024-01-11": [],
-    "2024-01-12": [
-        {
-            "kind": "EX",
-            "n": 0,
-            "title": "Hello World (Due Thursday 1/18)",
-            "date": "2024-01-12",
-            "deadline": "2024-01-18",
-            "links": {
-                "": "/exercises/ex00_hello_world.html"
-            }
-        },
-        {
-            "kind": "CL",
-            "n": 1,
-            "title": "An Introduction to Coding + VS Code Tutorial",
-            "date": "2024-01-12",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/yppdsU77y4g?feature=share",
-                "Lecture Slides": "/static/slides/CL01.pdf",
-                "Lecture Notes": "/lessons/objects-data-types.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 1,
-            "title": "Visual Studio: Running Code (Due Monday 1/15)",
-            "date": "2024-01-12",
-            "deadline": "2024-01-15",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
     "2024-01-13": [],
     "2024-01-14": [],
     "2024-01-15": [],
@@ -47,13 +12,24 @@
             "deadline": "None",
             "links": {
                 "Lecture Video": "",
-                "Lecture Slides": "",
+                "Lecture Slides": "/static/slides/CL02.pdf",
                 "Lecture Notes": "/lessons/expressions.html"
             }
         }
     ],
     "2024-01-18": [],
     "2024-01-19": [
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Conditionals",
+            "date": "2024-01-19",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Lecture Slides": "/static/slides/CL01-conditionals.pdf"
+            }
+        },
         {
             "kind": "EX",
             "n": 1,

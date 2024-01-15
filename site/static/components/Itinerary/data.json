@@ -72,13 +72,24 @@
             "deadline": "None",
             "links": {
                 "Lecture Video": "",
-                "Lecture Slides": "",
+                "Lecture Slides": "/static/slides/CL02.pdf",
                 "Lecture Notes": "/lessons/expressions.html"
             }
         }
     ],
     "2024-01-18": [],
     "2024-01-19": [
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Conditionals",
+            "date": "2024-01-19",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Lecture Slides": "/static/slides/CL01-conditionals.pdf"
+            }
+        },
         {
             "kind": "EX",
             "n": 1,
