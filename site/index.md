@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/syllabus.html">LS00*(EXTENDED)* - MON, JAN 15 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS01 - MON, JAN 15 11:59pm</a></li><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - THU, JAN 18 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS02 - SAT, JAN 20 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - SAT, JAN 20 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS04 - SAT, JAN 20 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/syllabus.html">LS00*(EXTENDED)* - MON, JAN 15 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS01 - MON, JAN 15 11:59pm</a></li><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - THU, JAN 18 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS02 - THU, JAN 18 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - THU, JAN 18 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS04 - THU, JAN 18 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -45,9 +45,9 @@ template: home
 <li class="link"><a href="/static/slides/CL02.pdf">Lecture Slides</a></li>
 <li class="link"><a href="/lessons/expressions.html">Lecture Notes</a></li>
 </ul></div><div class="plan Lesson">
-<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Types (Due Saturday 1/20)</a></span></div><div class="plan Lesson">
-<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Saturday 1/20)</a></span></div><div class="plan Lesson">
-<span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Variables and User Input (Due Saturday 1/20)</a></span></div></div>
+<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Types (Due Thursday 1/18)</a></span></div><div class="plan Lesson">
+<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Thursday 1/18)</a></span></div><div class="plan Lesson">
+<span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Variables and User Input (Due Thursday 1/18)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-01-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 19</div>
 <div class="plans col-md-9"><div class="plan Class">
