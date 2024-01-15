@@ -31,3 +31,8 @@ template: overview
 [Video](https://youtu.be/GPpYSDNUtH8)
 </div>
 
+<div class="plan Class"><span class="kind">LS05 </span>
+<span class="title">Boolean Operators:</span>
+[Video](https://www.youtube.com/watch?v=_nruixZpLdQ)
+</div>
+
