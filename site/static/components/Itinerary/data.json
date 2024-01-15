@@ -117,7 +117,17 @@
             "deadline": "None",
             "links": {
                 "Lecture Video": "",
-                "Lecture Slides": "/static/slides/CL01-conditionals.pdf"
+                "Lecture Slides": "/static/slides/CL03.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Boolean Operators (Due Friday 1/19)",
+            "date": "2024-01-19",
+            "deadline": "2024-01-19",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         },
         {
