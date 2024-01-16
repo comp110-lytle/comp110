@@ -32,6 +32,11 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/bridget7.html"><img src="/static/profile-photos/bridget7.png" class="profile-image"></a> <figcaption>Bridget Lin</figcaption></figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/caitlie.html"><img src="/static/profile-photos/caitlie.png" class="profile-image"> </a>
+    <figcaption>Caitlin Estrada</figcaption>
+  </figure>
+
  <figure class="profile col-xs-12 col-sm-6 col-md-3">
     <a href="/resources/profiles/camillaf.html"><img src="/static/profile-photos/camillaf.jpg" class="profile-image"> </a>
     <figcaption>Camilla Fratta</figcaption>
