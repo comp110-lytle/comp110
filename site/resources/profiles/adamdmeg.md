@@ -1,7 +1,7 @@
 ---
 title: Megan Adams
 author:
-  - Megan Adams
+- Megan Adams
 page: profile
 template: columns-profile
 ---
