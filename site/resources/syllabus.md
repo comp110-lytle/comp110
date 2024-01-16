@@ -65,10 +65,10 @@ Quizzes and examinations are offered in-person only this semester. The format is
 * Final (FN) Exam: Fri, May 3 @ 8 AM _(Makeup Sat, May 4 @ 12 PM)_
 
 **Quiz Absence Form**
-Please fill out [this form]() if you must be absent for a quiz.
+Please fill out [this form](https://airtable.com/appLAcrgEhUfhwgpH/pagL61MnQCtPPc7T6/form) if you must be absent for a quiz.
 
 **Final Exam Makeup**
-If you have a university approved reason for needing to take the final on a makeup day, please fill out [this form]().
+If you have a university approved reason for needing to take the final on a makeup day, please fill out [this form](https://airtable.com/appLAcrgEhUfhwgpH/pag4ye0TG4Bee46KI/form).
 
 
 ## Quiz Absence Policy
@@ -77,7 +77,7 @@ The quizzes will be held during the section you are registered for and are synch
 
 If you are a part of an organization whose authorized university absences will conflict with two or more of the key dates of quizzes, you should plan on taking COMP110 in a future semester when these unfortunate, but important, conflicts will not arise.
 
-You may be absent for up to one quiz. To request absence from a quiz, you should submit this form before your absence: <>.
+You may be absent for up to one quiz. To request absence from a quiz, you should submit this form before your absence: <https://airtable.com/appLAcrgEhUfhwgpH/pagL61MnQCtPPc7T6/form>.
 
 To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 6% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
 
