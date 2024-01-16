@@ -90,6 +90,8 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/shainap.html"><img src="/static/profile-photos/shainap.jpg" class="profile-image"> </a><figcaption>Shaina Patel</figcaption></figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/sborkar.html"><img src="/static/profile-photos/sborkar.png" class="profile-image"> </a><figcaption>Siddhant Borkar</figcaption></figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/sophiejiang13.html"><img src="/static/profile-photos/sophiejiang.jpeg" class="profile-image"> </a> <figcaption>Sophie Jiang</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/tylerw1.html"><img src="/static/profile-photos/tylerw1.png" class="profile-image"> </a> <figcaption>Tyler Smith</figcaption></figure>
