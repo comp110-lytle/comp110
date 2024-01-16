@@ -1,5 +1,4 @@
 {
-    "2024-01-13": [],
     "2024-01-14": [],
     "2024-01-15": [],
     "2024-01-16": [],
@@ -19,9 +18,9 @@
         {
             "kind": "LS",
             "n": 2,
-            "title": "Objects and Types (Due Thursday 1/18)",
+            "title": "Objects and Types (Due Friday 1/19)",
             "date": "2024-01-17",
-            "deadline": "2024-01-18",
+            "deadline": "2024-01-19",
             "links": {
                 "": "https://www.gradescope.com/"
             }
@@ -29,9 +28,9 @@
         {
             "kind": "LS",
             "n": 3,
-            "title": "Expressions (Due Thursday 1/18)",
+            "title": "Expressions (Due Friday 1/19)",
             "date": "2024-01-17",
-            "deadline": "2024-01-18",
+            "deadline": "2024-01-19",
             "links": {
                 "": "https://www.gradescope.com/"
             }
@@ -39,9 +38,9 @@
         {
             "kind": "LS",
             "n": 4,
-            "title": "Variables and User Input (Due Thursday 1/18)",
+            "title": "Variables and User Input (Due Friday 1/19)",
             "date": "2024-01-17",
-            "deadline": "2024-01-18",
+            "deadline": "2024-01-19",
             "links": {
                 "": "https://www.gradescope.com/"
             }
