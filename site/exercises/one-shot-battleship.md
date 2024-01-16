@@ -11,7 +11,7 @@ template: overview
 
 Please complete all lessons before attempting to begin this exercise.
 
-The next step on our journey to implementing Battleship is to produce a program that gives the player one shot at guessing your program's secret word. (Of couse, they can play the game multiple times in order to have multiple chances.)
+The next step in our journey to implementing Battleship is to produce a program that gives the player one shot at guessing your program's secret word. (Of couse, they can play the game multiple times in order to have multiple chances.)
 
 In this exercise, you will print out a grid of boxes instead of just one line, and prompt the user for a **row** and **column** for their guess. Level up!
 
@@ -61,7 +61,7 @@ You should follow the steps below for implementing the program one step at a tim
 </div>
 </pre>
 
-Note: each time you run the game, the random secret row and column are regenerated. You might want to hard code your secret row and column for the testing of your program and then switch them back to random at the end!
+Note: You will hard code your secret row and column, however, do go about changing these values when playing with your code. Just make sure to set them to the specified values before you submit to Gradescope. 
 
 ## Permitted Constructs
 
@@ -87,15 +87,17 @@ Before beginning work on the program, you should add a _docstring_ to the top of
 
 ## Part 1. Print a Grid -- XX Points
 
-In battleship, you normally have a grid instead of just one row of ocean. Using the concept of `while` loops, you'll be able to print out a grid of the size of your choice!
+In battleship, you normally have a grid instead of just one row of ocean as seen in EX01. Using the concept of `while` loops, you'll be able to print out a grid of the size of your choice!
 
 First, you'll need to establish a few variables: an `int` for the size of your grid, `int` for secret row, `int` for secret column, `i` as a counter, and `bool` for whether the user has made a correct guess (initialize that to `False`).
 
-For debugging purposes, hard code your secret row and secret column to 3 and 2 respectively.
+You will also prompt for user input, asking for a row and column guess as below. EDITING HERE 
+
+For the purposes of the autograder, hard code your secret row and secret column to 3 and 2 respectively.
 
 Since loops are new to your repertoire, in this exercise we will give you a general strategy for accomplishing this task. Your job will be to translate this plan in English into working Python code.
 
-1. First, establish a variable to keep track how many times you've gone through the loop to print a row.
+1. First, establish a variable to keep track how many times you've iterated through the loop to print a row.
 2. _While_ the counter variable is less than the size of the grid you specified, do as follows:
     1. Test to see if the user guess for row is equal to the counter + 1 -- This is because :
         1. If so, create a another counter variable to count how many times you've printed a row.
@@ -148,9 +150,9 @@ Once you have completed this part of the program, your output should look as fol
 
 ## Part 2. Establishing a Secret and Prompting for a Guess -- 30 Points
 
-Now that you have your grid printing out, how about we add some hints to help your user. First one, the ability to try again after an invalid input!
+Now that you have your grid printing out, how about we add some guidance to help your user. First, the ability to re-input a guess after giving an invalid input!
 
-In simple battleship, you would exit if the user gave an invalid input. Now, with the help of `while` loops, see if you can continue to prompt the player until the provide a guess that within the bounds of the size of the grid you pick. Here's how your program should perform after this step:
+In simple battleship, you would exit if the user gave an invalid input. Now, with the help of `while` loops, see if you can continue to prompt the player until they provide a guess that is within the bounds of the size of the grid. Here's how your program should perform after this step:
 
 <pre>
 <div class="terminal">
