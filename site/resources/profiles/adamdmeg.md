@@ -1,12 +1,12 @@
 ---
 title: Megan Adams
 author:
-- Megan Adams
+  - Megan Adams
 page: profile
 template: columns-profile
 ---
 
-![profile-photo](../../../static/profile-photos/adamdmeg.png)
+![profile-photo](../../../static/profile-photos/adamdmeg.jpg)
 
 //split//
 
