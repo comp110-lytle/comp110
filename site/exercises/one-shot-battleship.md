@@ -20,7 +20,7 @@ You should follow the steps below for implementing the program one step at a tim
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 2
     Guess a column: 4
     🟦🟦🟦🟦
@@ -29,7 +29,7 @@ You should follow the steps below for implementing the program one step at a tim
     🟦🟦🟦🟦
     Miss!
 
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 1
     Guess a column: 2
     🟦⬜🟦🟦
@@ -38,7 +38,7 @@ You should follow the steps below for implementing the program one step at a tim
     🟦🟦🟦🟦
     Close! Correct column, wrong row.
 
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 3
     Guess a column: 3
     🟦🟦🟦🟦
@@ -47,7 +47,7 @@ You should follow the steps below for implementing the program one step at a tim
     🟦🟦🟦🟦
     Close! Correct row, wrong column.
     
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 5
     The grid is only 4 by 4. Try again: 3
     Guess a column: 6
@@ -92,19 +92,19 @@ Additionally, in simple battleship, you would exit if the user gave an invalid i
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 3
     Guess a column: 2
     Hit!
 
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 5
     The grid is only 4 by 4. Try again: 1
     Guess a column: 6
     The grid is only 4 by 4. Try again: 2
     Miss!
 
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 5
     The grid is only 4 by 4. Try again: 12390
     The grid is only 4 by 4. Try again: 3
@@ -132,7 +132,7 @@ In battleship, you normally have a grid of blue boxes instead of just one row of
 
 Since loops are new to your repertoire, we will give you a general strategy for accomplishing this task. Your job will be to translate this plan in English into working Python code.
 
-1. First, come up with a result box `str` similar to how you did in EX01, which will either be a red or white box depending on the correctness of the user's guesses.
+1. First, come up with a result box `str` similar to how you did in EX02, which will either be a red or white box depending on the correctness of the user's guesses.
 2. Then, establish an `int` counter variable to keep track how many times you've printed a row.
 3. _While_ the row counter variable is less than the size of the grid, do as follows:
     1. Test to see if the user's row guess is equal to the row counter + 1——(remember, this is because counters start at 0).
@@ -155,7 +155,7 @@ Once you have completed this part of the program, your output should look as fol
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 2
     Guess a column: 4
     🟦🟦🟦🟦
@@ -164,7 +164,7 @@ Once you have completed this part of the program, your output should look as fol
     🟦🟦🟦🟦
     Miss!
 
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 3
     Guess a column: 3
     🟦🟦🟦🟦
@@ -173,7 +173,7 @@ Once you have completed this part of the program, your output should look as fol
     🟦🟦🟦🟦
     Miss!
     
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 3
     Guess a column: 2
     🟦🟦🟦🟦
@@ -193,7 +193,7 @@ Add a couple `elif` statements to your user feedback ("Hit!" and "Miss" logic). 
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 2
     Guess a column: 4
     🟦🟦🟦🟦
@@ -202,7 +202,7 @@ Add a couple `elif` statements to your user feedback ("Hit!" and "Miss" logic). 
     🟦🟦🟦🟦
     Miss!
 
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 1
     Guess a column: 2
     🟦⬜🟦🟦
@@ -211,7 +211,7 @@ Add a couple `elif` statements to your user feedback ("Hit!" and "Miss" logic). 
     🟦🟦🟦🟦
     Close! Correct column, wrong row.
 
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 3
     Guess a column: 4
     🟦🟦🟦🟦
@@ -220,7 +220,7 @@ Add a couple `elif` statements to your user feedback ("Hit!" and "Miss" logic). 
     🟦🟦🟦🟦
     Close! Correct row, wrong column.
 
-    $ python -m exercises.ex01_one_shot_battleship
+    $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 5
     The grid is only 4 by 4. Try again:
     Guess a row: 3
