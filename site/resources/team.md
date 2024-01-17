@@ -51,6 +51,11 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/adam.html"><img src="/static/profile-photos/adamdmeg.jpg" class="profile-image"></a><figcaption>Megan Adams</figcaption></figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/mkieu03.html"><img src="/static/profile-photos/mkieu03.png" class="profile-image"> </a>
+    <figcaption>Michelle Kieu</figcaption>
+  </figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/730472629.html"><img src="/static/profile-photos/730472629.png" class="profile-image"> </a> <figcaption>Miguel Villaseñor</figcaption></figure>
 
 <!-- <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/rikhil.html"><img src="/static/profile-photos/rikhilpic.JPG" class="profile-image"> </a> <figcaption>Rikhil Fellner</figcaption></figure> -->
