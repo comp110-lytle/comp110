@@ -71,7 +71,7 @@
             "date": "2024-01-17",
             "deadline": "None",
             "links": {
-                "Lecture Video": "",
+                "Lecture Video": "https://youtube.com/live/TwT8oBikCQE?feature=share",
                 "Lecture Slides": "/static/slides/CL02.pdf",
                 "Lecture Notes": "/lessons/expressions.html"
             }

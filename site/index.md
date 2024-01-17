@@ -41,7 +41,7 @@ template: home
 <div class="date col-md-2">Wed, Jan 17</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL02 </span><span class="title">Variables, Expressions, and User Input </span>
-<ul class="links"><li class="link">Lecture Video</li>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/TwT8oBikCQE?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL02.pdf">Lecture Slides</a></li>
 <li class="link"><a href="/lessons/expressions.html">Lecture Notes</a></li>
 </ul></div><div class="plan Lesson">
