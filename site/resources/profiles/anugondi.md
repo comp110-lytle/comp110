@@ -23,7 +23,7 @@ Class of 2025
 Computer Science & Business 
 
 ## Interests
-Art, calligraphy, dancing,  
+Art, calligraphy, dancing  
 
 ## Non-academic fun fact
-I saw John Legend once when I was travelling with my family. 
+I saw John Legend once when I was travelling with my family!
