@@ -318,7 +318,7 @@ def serialize(syllabus: Dict[date, List[Plan]]):
     return serializeable_syllabus
 
 
-VL_FILE_PREFIX = '---\ntitle: Virtual Lessons\nauthor:\n    - Alyssa Byrnes\npage: lessons\ntemplate: overview\n---'
+VL_FILE_PREFIX = '---\ntitle: Virtual Lessons\nauthor:\n    - Alyssa Byrnes\npage: lessons\n---'
 
 
 def generate_VL_index_page(lesson_list: list):
