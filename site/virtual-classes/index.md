@@ -32,7 +32,12 @@ template: overview
 </div>
 
 <div class="plan Class"><span class="kind">LS05 </span>
+<span class="title">Conditionals:</span>
+[Video](https://youtu.be/1OBa8SKWK40)
+</div>
+
+<div class="plan Class"><span class="kind">LS06 </span>
 <span class="title">Boolean Operators:</span>
-[Video](https://www.youtube.com/watch?v=_nruixZpLdQ)
+[Video](https://youtu.be/tmmSlIq9I_0)
 </div>
 
