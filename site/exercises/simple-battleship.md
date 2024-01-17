@@ -23,7 +23,7 @@ To get a sense of where you are going, though, consider what we expect the outpu
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex00_simple_battleship 
+    $ python -m exercises.ex01_simple_battleship 
     Pick a secret boat location between 1 and 4: 1
     Guess a number between 1 and 4: 3
     🟦🟦⬜🟦
@@ -34,7 +34,7 @@ To get a sense of where you are going, though, consider what we expect the outpu
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex00_simple_battleship 
+    $ python -m exercises.ex01_simple_battleship 
     Pick a secret boat location between 1 and 4: 2
     Guess a number between 1 and 4: 2
     🟦🟥🟦🟦
@@ -56,7 +56,7 @@ Open the Explorer pane (click the icon with two sheets of paper or to to _View_ 
 
 Right click on the `exercises` directory and select "New File". Enter the following filename, being careful to match capitalization and punctuation:
 
-* `ex00_simple_battleship.py`
+* `ex01_simple_battleship.py`
 
 Before beginning work on the program, you should add a _docstring_ to the top of your Python _module_ just as you did in EX00. Then, you should add a line with the special variable named `__author__` assigned to be a string with your 9-digit student PID. (Disclaimer: Out in the real world the `__author__` variable is typically your name and e-mail address, but since we will grade your programs we'd like to avoid potential bias in seeing your names as part of the programs as we're grading.) Add the following lines above the line of code that calls the `print` function. Fill in _your_ 9-digit UNC PID number, without any spaces or dashes, in the `__author__` string.
 
@@ -75,15 +75,15 @@ If they give a valid input between 1 and 4, the program should exit and print no
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex00_simple_battleship 
+    $ python -m exercises.ex01_simple_battleship 
     Pick a secret boat location between 1 and 4: 0
     Error! 0 too low!
     
-    $ python -m exercises.ex00_simple_battleship 
+    $ python -m exercises.ex01_simple_battleship 
     Pick a secret boat location between 1 and 4: 5
     Error! 5 too high!
 
-    $ python -m exercises.ex00_simple_battleship 
+    $ python -m exercises.ex01_simple_battleship 
     Pick a secret boat location between 1 and 4: 3
 </div>
 </pre>
@@ -102,12 +102,12 @@ If they give a valid input between 1 and 4, the program should exit and print no
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex00_simple_battleship 
+    $ python -m exercises.ex01_simple_battleship 
     Pick a secret boat location between 1 and 4: 1
     Guess a number between 1 and 4: 0
     Error! 0 too low!
     
-    $ python -m exercises.ex00_simple_battleship 
+    $ python -m exercises.ex01_simple_battleship 
     Pick a secret boat location between 1 and 4: 1
     Guess a number between 1 and 4: 5
     Error! 5 too high!
@@ -132,7 +132,7 @@ Your goal in this part is to be able to do the following:
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex00_simple_battleship 
+    $ python -m exercises.ex01_simple_battleship 
     Pick a secret boat location between 1 and 4: 2
     Guess a number between 1 and 4: 4
     Incorrect! You missed the ship.
@@ -142,7 +142,7 @@ Your goal in this part is to be able to do the following:
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex00_simple_battleship 
+    $ python -m exercises.ex01_simple_battleship 
     Pick a secret boat location between 1 and 4: 3
     Guess a number between 1 and 4: 3
     Correct! You hit the ship.
@@ -174,7 +174,7 @@ Your goal in this part is to be able to do the following:
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex00_simple_battleship 
+    $ python -m exercises.ex01_simple_battleship 
     Pick a secret boat location between 1 and 4: 1
     Guess a number between 1 and 4: 3
     🟦🟦⬜🟦
@@ -185,7 +185,7 @@ Your goal in this part is to be able to do the following:
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex00_simple_battleship 
+    $ python -m exercises.ex01_simple_battleship 
     Pick a secret boat location between 1 and 4: 2
     Guess a number between 1 and 4: 2
     🟦🟥🟦🟦
@@ -233,7 +233,7 @@ If you _do not_ see a Terminal at the bottom of your screen, open the Command Pa
 
 Type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex00_simple_battleship.py`
+`python -m tools.submission exercises/ex01_simple_battleship.py`
 
 In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex01_simple_battleship.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
