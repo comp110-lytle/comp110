@@ -14,7 +14,7 @@ Ensure office hours operate smoothly and maintain a high quality of service for 
 
 ## Before your shift:
 
-Check Shift Overflow and verify you are the Shift Lead before your shift starts. As people swap in and out of shifts someone may have superseded you as the Shift Lead.
+Check Homebase and verify you are the Shift Lead before your shift starts. As people swap in and out of shifts someone may have superseded you as the Shift Lead.
 
 ## At the beginning of your shift:
 

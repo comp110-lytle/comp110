@@ -115,4 +115,4 @@ Detailed Issue: Running `python --version` pops open windows app store or displa
 ### git bash permission denied
 
 **Solution**: try using py instead of python
-So: py --version instead of python --version
+So: py \-\-version instead of python \-\-version
