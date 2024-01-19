@@ -1,6 +1,4 @@
 {
-    "2024-01-15": [],
-    "2024-01-16": [],
     "2024-01-17": [
         {
             "kind": "CL",
@@ -81,7 +79,11 @@
             "title": "Quiz 0",
             "date": "2024-01-26",
             "deadline": "2024-01-26",
-            "links": {}
+            "links": {
+                "What to Expect": "/resources/quiz-expectations.html",
+                "Practice Problems": "/resources/practice/sp24/qz00.html",
+                "Covered Topics: Units 0 and 1": "https://comp110-24s.github.io/resources/curriculum.html"
+            }
         }
     ],
     "2024-01-27": [],
