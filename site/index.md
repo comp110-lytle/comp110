@@ -59,7 +59,7 @@ template: home
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span>
 <ul class="links"><li class="link"><a href="/resources/quiz-expectations.html">What to Expect</a></li>
 <li class="link"><a href="/resources/practice/sp24/qz00.html">Practice Problems</a></li>
-<li class="link"><a href="https://comp110-24s.github.io/resources/curriculum.html">Covered Topics: Units 0 and 1</a></li>
+<li class="link"><a href="https://comp110-24s.github.io/resources/curriculum.html">Covered Topics: Syllabus + Units 0 and 1</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 9</div>
