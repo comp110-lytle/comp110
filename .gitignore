@@ -2,3 +2,4 @@
 **/**/.DS_store
 .DS_store
 *.pyc
+/site/__pycache__

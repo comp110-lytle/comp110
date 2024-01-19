@@ -45,6 +45,8 @@ page: resource
     <figcaption>Kate Bailey</figcaption>
   </figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/kgbro.html"><img src="/static/profile-photos/kgbro.jpg" class="profile-image"> </a><figcaption>Katie Brown</figcaption></figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/escoats.html"><img src="/static/profile-photos/escoats.png" class="profile-image"> </a><figcaption>Lizzie Coats</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/manuela7.html"><img src="/static/profile-photos/manuela7.jpg" class="profile-image"> </a> <figcaption>Manuela Danso-Fordjour</figcaption></figure>
