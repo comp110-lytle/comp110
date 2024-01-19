@@ -2,6 +2,7 @@
 title: Documentation
 author:
 - Ezri White
+- Vitor Inserra
 page: home
 template: columns
 site-branch: team
