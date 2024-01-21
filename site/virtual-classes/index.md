@@ -40,3 +40,8 @@ page: lessons
 [Video](https://youtu.be/tmmSlIq9I_0)
 </div>
 
+<div class="plan Class"><span class="kind">LS07 </span>
+<span class="title">Memory Diagrams:</span>
+[Video]()
+</div>
+

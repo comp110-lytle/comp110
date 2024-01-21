@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS02 - FRI, JAN 19 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - FRI, JAN 19 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS04 - FRI, JAN 19 11:59pm</a></li><li class="horizon-item"><a href="/resources/quiz-expectations.html">QZ00 - FRI, JAN 26 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">CQ00 - TUE, JAN 23 11:59pm</a></li><li class="horizon-item"><a href="/resources/quiz-expectations.html">QZ00 - FRI, JAN 26 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,22 +37,16 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-17" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Jan 17</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL02 </span><span class="title">Variables, Expressions, and User Input </span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/TwT8oBikCQE?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/CL02.pdf">Lecture Slides</a></li>
-<li class="link"><a href="/lessons/expressions.html">Lecture Notes</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Types (Due Friday 1/19)</a></span></div><div class="plan Lesson">
-<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Friday 1/19)</a></span></div><div class="plan Lesson">
-<span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Variables and User Input (Due Friday 1/19)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-01-19" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 19</div>
 <div class="plans col-md-9"><div class="plan Exercise">
 <span class="kind">EX01 </span><span class="title"><a href="/exercises/simple-battleship.html">Simple Battleship (Due Tuesday 1/30)</a></span></div><div class="plan Virtual Lesson">
 <span class="kind">VL00 </span><span class="title"><a href="/virtual-classes/VL00.html">Virtual Lesson</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-01-22" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Jan 22</div>
+<div class="plans col-md-9"><div class="plan Virtual Lesson">
+<span class="kind">VL01 </span><span class="title"><a href="/virtual-classes/VL01.html">Virtual Lesson</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ00 </span><span class="title"><a href="https://www.gradescope.com/">Practice Memory Diagrams (Due Tuesday 1/23)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-01-26" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 26</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -83,7 +77,18 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-01-12" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-01-17" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Jan 17</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL02 </span><span class="title">Variables, Expressions, and User Input </span>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/TwT8oBikCQE?feature=share">Lecture Video</a></li>
+<li class="link"><a href="/static/slides/CL02.pdf">Lecture Slides</a></li>
+<li class="link"><a href="/lessons/expressions.html">Lecture Notes</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Types (Due Friday 1/19)</a></span></div><div class="plan Lesson">
+<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Friday 1/19)</a></span></div><div class="plan Lesson">
+<span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Variables and User Input (Due Friday 1/19)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-01-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 12</div>
 <div class="plans col-md-9"><div class="plan Exercise">
 <span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Thursday 1/18)</a></span></div><div class="plan Class">
