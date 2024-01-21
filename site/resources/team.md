@@ -84,6 +84,8 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/upasana.html"><img src="/static/profile-photos/upasana.jpg" class="profile-image"> </a> <figcaption>Upasana Lamsal</figcaption></figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/vhunany.html"><img src="/static/profile-photos/vhunany.png" class="profile-image"> </a> <figcaption>Viktorya Hunanyan</figcaption></figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/vinceli.html"><img src="/static/profile-photos/vinceli.jpg" class="profile-image"> </a><figcaption>Vincent Li</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/inserra.html"><img src="/static/profile-photos/inserra.PNG" class="profile-image"> </a> <figcaption>Vitor Inserra</figcaption></figure>
