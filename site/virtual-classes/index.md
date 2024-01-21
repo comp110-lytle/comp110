@@ -42,6 +42,6 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS07 </span>
 <span class="title">Memory Diagrams:</span>
-[Video]()
+[Video](https://youtu.be/YKVT9mCtYPE) | [Slides](/static/slides/lessons/MemDiagrams.pdf)
 </div>
 

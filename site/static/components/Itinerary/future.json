@@ -37,7 +37,17 @@
         {
             "kind": "CQ",
             "n": 0,
-            "title": "Practice Memory Diagrams (Due Tuesday 1/23)",
+            "title": "Practice Memory Diagram (Due Tuesday 1/23)",
+            "date": "2024-01-22",
+            "deadline": "2024-01-23",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Practice Memory Diagram with Conditionals (Due Tuesday 1/23)",
             "date": "2024-01-22",
             "deadline": "2024-01-23",
             "links": {
