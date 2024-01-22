@@ -45,3 +45,8 @@ page: lessons
 [Video](https://youtu.be/YKVT9mCtYPE) | [Slides](/static/slides/lessons/MemDiagrams.pdf)
 </div>
 
+<div class="plan Class"><span class="kind">LS08 </span>
+<span class="title">Unicode, Emoji, Escape Sequences, and f-Strings:</span>
+[Reading](/lessons/strings.html)
+</div>
+
