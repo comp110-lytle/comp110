@@ -215,9 +215,9 @@ We expect you to implement this exercise using only the concepts covered in COMP
 
 ## Rubric
 
-* Part 0. Setting up the Python Program - 10 points
+* Part 0. Setting up the Python Program - 5 points
 * Part 1. Prompting for Player 1 Input - 15 points
-* Part 2. Prompting for Player 2 Input - 15 points
+* Part 2. Prompting for Player 2 Input - 10 points
 * Part 3. Checking User Input for Match - 20 points
 * Part 4. Printing A String of Boxes - 20 points
 * Part 5. Exiting Early for Invalid Inputs - 10 points
