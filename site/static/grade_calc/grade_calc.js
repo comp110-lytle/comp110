@@ -160,7 +160,6 @@ function avg_2drops(id_format, quantity) {
     if (document.getElementById("relative").getAttribute("class") === "grade-type-selected") {
         relative = true;
     }
-    console.log(sum, " sum");
     
     
     let min = [Number(document.getElementById(id_format + '0').value), Number(document.getElementById(id_format + '1').value)]
