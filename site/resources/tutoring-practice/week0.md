@@ -13,7 +13,6 @@ These questions are optional supplement which ideally help you get prepared for 
 # Questions
 These questions might not be in the same format as quizzes. Don't hesitate to bring them to Tutoring section for help.
 
-Solutions for each problem can be found at the bottom of this page.
 
 ## Objects and Data Types
 1. There is a built-in function in Python to help you learn the type classification of an object. Could you write one line code using that function to check the data type of
