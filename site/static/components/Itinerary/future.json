@@ -13,9 +13,9 @@
         {
             "kind": "VL",
             "n": 0,
-            "title": "Virtual Lesson",
+            "title": "Virtual Lesson 00 (Due Friday 1/19)",
             "date": "2024-01-19",
-            "deadline": "None",
+            "deadline": "2024-01-19",
             "links": {
                 "": "/virtual-classes/VL00.html"
             }
@@ -27,31 +27,11 @@
         {
             "kind": "VL",
             "n": 1,
-            "title": "Virtual Lesson",
+            "title": "Virtual Lesson 01 (Due Tuesday 1/23)",
             "date": "2024-01-22",
-            "deadline": "None",
+            "deadline": "2024-01-23",
             "links": {
                 "": "/virtual-classes/VL01.html"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 0,
-            "title": "Practice Memory Diagram (Due Tuesday 1/23)",
-            "date": "2024-01-22",
-            "deadline": "2024-01-23",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 1,
-            "title": "Practice Memory Diagram with Conditionals (Due Tuesday 1/23)",
-            "date": "2024-01-22",
-            "deadline": "2024-01-23",
-            "links": {
-                "": "https://www.gradescope.com/"
             }
         }
     ],

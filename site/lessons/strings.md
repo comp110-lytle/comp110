@@ -2,9 +2,12 @@
 title: Unicode, Emoji, Escape Sequences, and f-Strings
 author:
 - Kris Jordan
+- Edited by Alyssa Lytle
 page: lessons
 template: overview
 ---
+
+# Unicode, Emoji, Escape Sequences, and f-Strings
 
 As you now understand, strings are a data type for representing textual data.
 
@@ -48,9 +51,8 @@ Python's built-in function `ord`, short for "ordinal" which is the order in whic
 98
 >>> ord("z")
 122
-</pre>
 </div>
-
+</pre>
 There are a few important observations to make in the example above. 
 
 First, notice that the codes for letters _relative to one another_ is logical. In the English alphabet, A is followed directly by B, just as in integers 1 is followed by 2. Similarly, A's integer ASCII code is 65 and B's is 66. The specific numbers of either are not important, but their relationship to one another is.
