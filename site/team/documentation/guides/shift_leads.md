@@ -42,5 +42,3 @@ You should not hover over team members’ shoulders unless asked for help or men
 
 - Fill out the following form at the end of each hour to record any concerns encountered during your shift: [Shift Lead Form](https://forms.gle/aUGtnnx8AGHcGEuE7)
 - Bring any recurring problems to the attention of the next Shift Lead!
-
-Note: We are currently only filling out the shift lead form if an abnormality in OH happens.
