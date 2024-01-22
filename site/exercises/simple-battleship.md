@@ -227,7 +227,7 @@ We expect you to implement this exercise using only the concepts covered in COMP
 
 All that's left now is to hand-in your work on Gradescope for grading!
 
-Login to Gradescope and select the assignment named "EX01 - Chardle". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
+Login to Gradescope and select the assignment named "EX01 - Simple Battleship". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
 
 If you _do not_ see a Terminal at the bottom of your screen, open the Command Palette and search for "View: Toggle Integrated Terminal".
 

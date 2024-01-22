@@ -15,7 +15,7 @@ MODULE = "exercises.ex01_simple_battleship"
 module: Any  # Global variable will hold the module object which can be reloaded
 
 ### PART 0 ###
-@mark.weight(10)
+@mark.weight(5)
 def test_author(capsys: CaptureFixture, monkeypatch: MonkeyPatch):
     """Part 0 - __author__ str variable is correct PID format."""
     set_stdin(monkeypatch, ["1", "2"])  # 
@@ -103,7 +103,7 @@ def test_part_2_word_prompt(capsys, monkeypatch):
         match_found = match_found or match
     assert match_found, "Output must match expectation exactly. Check your spelling and spacing."
 
-@mark.weight(5)
+@mark.weight(2.5)
 def test_part_2_word_prompt_too_low(capsys, monkeypatch):
     """Part 2. Correctly Catching Too Low Input"""
     with pytest.raises(SystemExit) as pytest_wrapped_e:
@@ -119,7 +119,7 @@ def test_part_2_word_prompt_too_low(capsys, monkeypatch):
 
 
 
-@mark.weight(5)
+@mark.weight(2.5)
 def test_part_2_word_prompt_too_high(capsys, monkeypatch):
     """Part 2. Correctly Catching Too High Input"""
     with pytest.raises(SystemExit) as pytest_wrapped_e:
