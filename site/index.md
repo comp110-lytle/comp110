@@ -43,7 +43,7 @@ template: home
 <span class="kind">VL01 </span><span class="title"><a href="/virtual-classes/VL01.html">Virtual Lesson 01 (Due Tuesday 1/23)</a></span></div><div class="plan Class">
 <span class="kind">CL03 </span><span class="title">Practice with Memory Diagrams and Conditionals </span>
 <ul class="links"><li class="link">Lecture Video</li>
-<li class="link">Lecture Slides</li>
+<li class="link"><a href="/static/slides/CL03-MDs.pdf">Lecture Slides</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-01-26" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 26</div>
