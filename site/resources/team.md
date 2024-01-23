@@ -43,6 +43,11 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/haleygb.html"><img src="/static/profile-photos/haleygb.jpeg" class="profile-image"> </a> <figcaption>Haley Bohn</figcaption></figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/jcoury.html"><img src="/static/profile-photos/jcoury.jpg" class="profile-image"> </a>
+    <figcaption>Jack Coury</figcaption>
+  </figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/jaylim.html"><img src="/static/profile-photos/jaylim.jpg" class="profile-image"> </a><figcaption>Jayden Lim</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
