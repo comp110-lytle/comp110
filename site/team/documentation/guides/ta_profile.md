@@ -14,6 +14,8 @@ site-branch: team
 
 ## Setup
 
+<p style="color:orange">Send your `github` username through `slack` to the [website lead](/team/documentation/leads/website.html) so they can add you to the 110 team on `github`! Make sure to check your email for an invite and accept it before it expires.</p>
+
 If you have not set up the team110 repository yet navigate to [this doc](/team/documentation/guides/course_site_setup.html) and follow the instructions for cloning and installing various packages.
 
 If you have the team repo and can successfuly run either `python -m dev` or `python -m hotdev` you are good to go!
