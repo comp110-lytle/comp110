@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/virtual-classes/VL01.html">VL01 - TUE, JAN 23 11:59pm</a></li><li class="horizon-item"><a href="/resources/quiz-expectations.html">QZ00 - FRI, JAN 26 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/virtual-classes/VL01.html">VL01 - TUE, JAN 23 11:59pm</a></li><li class="horizon-item"><a href="/resources/quiz-expectations.html">QZ00 - FRI, JAN 26 11:59pm</a></li><li class="horizon-item"><a href="/exercises/simple-battleship.html">EX01 - TUE, JAN 30 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -40,7 +40,11 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Jan 22</div>
 <div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL01 </span><span class="title"><a href="/virtual-classes/VL01.html">Virtual Lesson 01 (Due Tuesday 1/23)</a></span></div></div>
+<span class="kind">VL01 </span><span class="title"><a href="/virtual-classes/VL01.html">Virtual Lesson 01 (Due Tuesday 1/23)</a></span></div><div class="plan Class">
+<span class="kind">CL03 </span><span class="title">Practice with Memory Diagrams and Conditionals </span>
+<ul class="links"><li class="link">Lecture Video</li>
+<li class="link">Lecture Slides</li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-01-26" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 26</div>
 <div class="plans col-md-9"><div class="plan Quiz">

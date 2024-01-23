@@ -1,5 +1,4 @@
 {
-    "2024-01-20": [],
     "2024-01-21": [],
     "2024-01-22": [
         {
@@ -10,6 +9,17 @@
             "deadline": "2024-01-23",
             "links": {
                 "": "/virtual-classes/VL01.html"
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Practice with Memory Diagrams and Conditionals ",
+            "date": "2024-01-22",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Lecture Slides": ""
             }
         }
     ],
