@@ -19,6 +19,11 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/anugondi.html"><img src="/static/profile-photos/anugondi.jpg" class="profile-image"></a> <figcaption>Anusha Gondi</figcaption></figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+  <a href="/resources/profiles/aknazarj.html"><img src="/static/profile-photos/aknazarj.jpg" class="profile-image"> </a>
+  <figcaption>Aknazar Janibek</figcaption>
+</figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/bridget7.html"><img src="/static/profile-photos/bridget7.png" class="profile-image"></a> <figcaption>Bridget Lin</figcaption></figure>
 
  <figure class="profile col-xs-12 col-sm-6 col-md-3">
@@ -95,11 +100,6 @@ page: resource
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
   <a href="/resources/profiles/wokwen.html"><img src="/static/profile-photos/wokwen.jpg" class="profile-image"> </a>
   <figcaption>Wisdom Okwen</figcaption>
-</figure>
-
-<figure class="profile col-xs-12 col-sm-6 col-md-3">
-  <a href="/resources/profiles/aknazarj.html"><img src="/static/profile-photos/aknazarj.jpg" class="profile-image"> </a>
-  <figcaption>Aknazar Janibek</figcaption>
 </figure>
 
 </div>
