@@ -5,6 +5,7 @@ author:
   - Ezri White
   - Jessica Bring
   - Alyssa Lytle
+  - Vitor Inserra
 page: resources
 template: columns
 navbar: base
@@ -32,6 +33,8 @@ navbar: base
 - [DIY Memory Diagram Guide](/resources/practice/MemDiagramsTemplate.html)
 
 - [Practice Memory Diagrams](/resources/practice/MemDiagrams.html)
+
+- [Tutoring Practice](/resources/tutoring-practice/tutoring-practice.html)
 
 - [Grade Estimator](/resources/grade_calc/grade_calc.html)
 
