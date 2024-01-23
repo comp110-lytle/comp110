@@ -40,7 +40,10 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Jan 22</div>
 <div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL01 </span><span class="title"><a href="/virtual-classes/VL01.html">Virtual Lesson 01 (Due Tuesday 1/23)</a></span></div><div class="plan Class">
+<span class="kind">VL01 </span><span class="title"><a href="/virtual-classes/VL01.html">Virtual Lesson 01 (Due Tuesday 1/23)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-01-24" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Jan 24</div>
+<div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL03 </span><span class="title">Practice with Memory Diagrams and Conditionals </span>
 <ul class="links"><li class="link">Lecture Video</li>
 <li class="link"><a href="/static/slides/CL03-MDs.pdf">Lecture Slides</a></li>
