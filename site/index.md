@@ -45,7 +45,7 @@ template: home
 <div class="date col-md-2">Wed, Jan 24</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL03 </span><span class="title">Practice with Memory Diagrams and Conditionals </span>
-<ul class="links"><li class="link">Lecture Video</li>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/LWPexWtwTkI?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL03-MDs.pdf">Lecture Slides</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-01-26" class="row itinerary-row py-2">
