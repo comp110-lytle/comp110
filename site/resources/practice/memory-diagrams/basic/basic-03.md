@@ -19,7 +19,8 @@ template: overview
 </code></pre>
 
 # Solution
-*(Coming Soon)*
+<img class="img-fluid" src="/static/assets/sp23/basic-03-sol.png" alt=""  /> 
 
 
-*Image Description:* 
+
+*Image Description Coming Soon.* 
