@@ -16,7 +16,7 @@ She/Her/Hers
 
 ## Hometown
 
-Yerevan, Armenia
+Chapel Hill, North Carolina
 
 ## UNC Status
 

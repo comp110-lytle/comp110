@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/virtual-classes/VL01.html">VL01 - TUE, JAN 23 11:59pm</a></li><li class="horizon-item"><a href="/resources/quiz-expectations.html">QZ00 - FRI, JAN 26 11:59pm</a></li><li class="horizon-item"><a href="/exercises/simple-battleship.html">EX01 - TUE, JAN 30 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/quiz-expectations.html">QZ00 - FRI, JAN 26 11:59pm</a></li><li class="horizon-item"><a href="/exercises/simple-battleship.html">EX01 - TUE, JAN 30 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -45,7 +45,7 @@ template: home
 <div class="date col-md-2">Wed, Jan 24</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL03 </span><span class="title">Practice with Memory Diagrams and Conditionals </span>
-<ul class="links"><li class="link">Lecture Video</li>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/LWPexWtwTkI?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL03-MDs.pdf">Lecture Slides</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-01-26" class="row itinerary-row py-2">

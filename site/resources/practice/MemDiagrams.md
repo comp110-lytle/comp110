@@ -14,8 +14,8 @@ template: overview
 ## Basics
 [Example 0](/resources/practice/memory-diagrams/basic/basic-00.html) | 
 [Example 1](/resources/practice/memory-diagrams/basic/basic-01.html) | 
-[Example 2](/resources/practice/memory-diagrams/basic/basic-02.html)
-
+[Example 2](/resources/practice/memory-diagrams/basic/basic-02.html) |
+[Example 3](/resources/practice/memory-diagrams/basic/basic-03.html) 
 
 ## Conditionals
 [Example 0](/resources/practice/memory-diagrams/conditionals/conditionals-00.html)

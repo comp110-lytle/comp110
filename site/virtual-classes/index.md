@@ -50,3 +50,8 @@ page: lessons
 [Reading](/lessons/strings.html)
 </div>
 
+<div class="plan Class"><span class="kind">LS09 </span>
+<span class="title">Relative Reassignment Operators:</span>
+[Video](https://www.youtube.com/watch?v=GOs7pwPLB1k)
+</div>
+
