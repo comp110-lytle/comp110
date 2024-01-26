@@ -37,11 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-22" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Jan 22</div>
-<div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL01 </span><span class="title"><a href="/virtual-classes/VL01.html">Virtual Lesson 01 (Due Tuesday 1/23)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-01-24" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-24" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Jan 24</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL03 </span><span class="title">Practice with Memory Diagrams and Conditionals </span>
@@ -55,7 +51,7 @@ template: home
 <ul class="links"><li class="link"><a href="/resources/quiz-expectations.html">What to Expect</a></li>
 <li class="link"><a href="/resources/practice/sp24/qz00.html">Practice Problems</a></li>
 <li class="link"><a href="https://comp110-24s.github.io/resources/curriculum.html">Covered Topics: Syllabus + Units 0 and 1</a></li>
-<li class="link"><a href="https://unc.zoom.us/j/98530896928?pwd=N1NLNzhkN1h1NEV0QjVqb25sT2dnZz09">Virtual Review Session (Thurs Jan 25, 7-8 pm)</a></li>
+<li class="link"><a href="https://unc.zoom.us/rec/share/Qn_n5MFAZUVtxLgqjSIv1eI_ueeCMNgLb0xMYf46gZ3aoQtod6mzxXnsrvzG0Ed4.pZNy8kPYnXDOzDav">Virtual Review Session (Passcode: 9&2MG!vk)</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 9</div>
@@ -79,7 +75,11 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-01-19" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-01-22" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Jan 22</div>
+<div class="plans col-md-9"><div class="plan Virtual Lesson">
+<span class="kind">VL01 </span><span class="title"><a href="/virtual-classes/VL01.html">Virtual Lesson 01 (Due Tuesday 1/23)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-01-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 19</div>
 <div class="plans col-md-9"><div class="plan Exercise">
 <span class="kind">EX01 </span><span class="title"><a href="/exercises/simple-battleship.html">Simple Battleship (Due Tuesday 1/30)</a></span></div><div class="plan Virtual Lesson">
