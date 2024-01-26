@@ -86,7 +86,7 @@ Before beginning work on the program, you should add a _docstring_ to the top of
 ## Part 1. Establishing a Secret and Prompting for a Guess -- 30 Points
 First, you'll need to establish a few variables: an `int` for the size of your grid, an `int` for a secret row, and an `int` for a secret column. For the purposes of the autograder, hard code your grid size, secret row, and secret column to 4, 3, and 2 respectively.
 
-Go ahead and prompt the user to guess a row and column as show below. Compare the guesses to the secret variables, to output "Hit!" or "Miss!".
+Go ahead and prompt the user to guess a row and column as shown below. Compare the guesses to the secret variables, to output "Hit!" or "Miss!".
 
 Additionally, in simple battleship, you would exit if the user gave an invalid input. This time around, we will add the ability to re-input a guess if given an invalid input. With the help of `while` loops, see if you can continue to prompt the player until they provide a guess that is within the bounds of the size of the grid. Here's how your program should perform after this step:
 
@@ -114,7 +114,7 @@ Additionally, in simple battleship, you would exit if the user gave an invalid i
 </div>
 </pre>
 
-Before you continue on, does this step work correctly if you change the value for the size of your grid? If you set grid size to 5, does the re-input statement say, "The grid is only 5 by 5. Try again: "? Make sure you are using the grid size variable to enforce the bounds of a valid input, and not hard coding it!
+Before you continue on, does this step work correctly if you change the value for the size of your grid? If you set grid size to 5, does the re-input statement say, "The grid is only 5 by 5. Try again: "? Make sure you are using the grid size variable to enforce the bounds of a valid input, and not hard coding a certain number!
 
 Additionally, be sure you are using `f-String` templates rather than conatenation for text output in this section as introduced in the background lesson.
 
@@ -122,7 +122,7 @@ Additionally, be sure you are using `f-String` templates rather than conatenatio
 
 ## Part 2. Print a Grid -- 30 Points
 
-In battleship, you normally have a grid of blue boxes instead of just one row of ocean as seen in EX01. Using the concept of `while` loops, you'll be able to print out any grid at the size of your choice! Remember, the location of your guess within the grid will contain a red box if you guessed correctly and a white box if not. If you haven't already, paste in the following constants:
+In battleship, you normally have a grid of blue boxes instead of just one row of ocean as seen in EX01. Using the concept of `while` loops, you'll be able to print out any grid at the size of your choice! Remember, the location of your guess within the grid will contain a red box if you guessed both column and row correctly and a white box if not. If you haven't already, paste in the following constants:
 
 ~~~
     BLUE_BOX: str = "\U0001F7E6"
@@ -132,14 +132,14 @@ In battleship, you normally have a grid of blue boxes instead of just one row of
 
 Since loops are new to your repertoire, we will give you a general strategy for accomplishing this task. Your job will be to translate this plan in English into working Python code.
 
-1. First, come up with a result box `str` similar to how you did in EX02, which will either be a red or white box depending on the correctness of the user's guesses.
-2. Then, establish an `int` counter variable to keep track how many times you've printed a row.
+1. First, come up with a result box `str` similar to how you did in EX01, which will either be a red or white box depending on the correctness of the user's guess.
+2. Then, establish an `int` counter variable to keep track of which row you are printing.
 3. _While_ the row counter variable is less than the size of the grid, do as follows:
-    1. Test to see if the user's row guess is equal to the row counter + 1——(remember, this is because counters start at 0).
+    1. Test to see if the user's row guess is equal to the row counter.
         1. If so, create a `str` to store your emoji string for a singular row.
         2. Also create a column counter variable to keep track of how many times you have concatenated an emoji box to the row string. 
             1. _While_ your column counter variable is less than the size of the grid, do as follows:
-                1. If the user guess for column is equal to the counter + 1, concatenate the result box (red or white) to the row string.
+                1. If the user guess for column is equal to the counter, concatenate the result box (red or white) to the row string.
                 2. Else, concatenate a blue box to the row string.
                 3. After the conditional, increase your row counter variable by one so that you do not have an infinite loop.
             3. Once the loop completes, print the emoji string (one row is outputted).
@@ -222,8 +222,7 @@ Add a couple `elif` statements to your user feedback ("Hit!" and "Miss" logic). 
 
     $ python -m exercises.ex02_one_shot_battleship
     Guess a row: 5
-    The grid is only 4 by 4. Try again:
-    Guess a row: 3
+    The grid is only 4 by 4. Try again: 3
     Guess a column: 3
     🟦🟦🟦🟦
     🟦🟦🟦🟦
@@ -264,7 +263,7 @@ As you make progress on this exercise, making backups is encouraged.
 
 All that's left now is to hand-in your work on Gradescope for grading!
 
-Login to Gradescope and select the assignment named "EX02 - One-shot Wordle". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
+Login to Gradescope and select the assignment named "EX02 - One-shot Battleship". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
 
 If you _do not_ see a Terminal at the bottom of your screen, open the Command Palette and search for "View: Toggle Integrated Terminal".
 
