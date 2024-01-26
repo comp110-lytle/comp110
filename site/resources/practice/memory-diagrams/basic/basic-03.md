@@ -19,7 +19,7 @@ template: overview
 </code></pre>
 
 # Solution
-<img class="img-fluid" src="/static/assets/sp23/basic-03-sol.png" alt=""  /> 
+<img class="img-fluid" src="/static/assets/sp24/basic-03-sol.png" alt=""  /> 
 
 
 
