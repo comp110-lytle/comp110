@@ -143,5 +143,20 @@
                 "": "/virtual-classes/VL01.html"
             }
         }
-    ]
+    ],
+    "2024-01-23": [],
+    "2024-01-24": [
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Practice with Memory Diagrams and Conditionals ",
+            "date": "2024-01-24",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/LWPexWtwTkI?feature=share",
+                "Lecture Slides": "/static/slides/CL03-MDs.pdf"
+            }
+        }
+    ],
+    "2024-01-25": []
 }
