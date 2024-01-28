@@ -1,19 +1,4 @@
 {
-    "2024-01-23": [],
-    "2024-01-24": [
-        {
-            "kind": "CL",
-            "n": 3,
-            "title": "Practice with Memory Diagrams and Conditionals ",
-            "date": "2024-01-24",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/LWPexWtwTkI?feature=share",
-                "Lecture Slides": "/static/slides/CL03-MDs.pdf"
-            }
-        }
-    ],
-    "2024-01-25": [],
     "2024-01-26": [
         {
             "kind": "QZ",
@@ -31,7 +16,18 @@
     ],
     "2024-01-27": [],
     "2024-01-28": [],
-    "2024-01-29": [],
+    "2024-01-29": [
+        {
+            "kind": "VL",
+            "n": 2,
+            "title": "Virtual Lesson (Due Tuesday 1/30)",
+            "date": "2024-01-29",
+            "deadline": "2024-01-30",
+            "links": {
+                "": "/virtual-classes/VL02.html"
+            }
+        }
+    ],
     "2024-01-30": [],
     "2024-01-31": [],
     "2024-02-01": [],

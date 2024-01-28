@@ -55,3 +55,18 @@ page: lessons
 [Video](https://www.youtube.com/watch?v=GOs7pwPLB1k)
 </div>
 
+<div class="plan Class"><span class="kind">LS10 </span>
+<span class="title">while Loop Statements:</span>
+[Video](https://youtu.be/iiksOU66xSw?si=qw0hZPiERbCJfkgt)
+</div>
+
+<div class="plan Class"><span class="kind">LS11 </span>
+<span class="title">elif:</span>
+[Video](https://www.youtube.com/watch?v=VIh0hc7ktE4)
+</div>
+
+<div class="plan Class"><span class="kind">LS12 </span>
+<span class="title">counters:</span>
+[Video](https://youtu.be/XQPFd1Gae9M?si=erOJqqgKJhkUyntG)
+</div>
+
