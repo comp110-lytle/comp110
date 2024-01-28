@@ -67,6 +67,6 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS12 </span>
 <span class="title">counters:</span>
-[Video](https://youtu.be/XQPFd1Gae9M?si=erOJqqgKJhkUyntG)
+[Video](https://youtu.be/XQPFd1Gae9M?si=erOJqqgKJhkUyntG) | [No Assignment But Relevant to Your Exercise!]()
 </div>
 
