@@ -133,23 +133,21 @@ In battleship, you normally have a grid of blue boxes instead of just one row of
 Since loops are new to your repertoire, we will give you a general strategy for accomplishing this task. Your job will be to translate this plan in English into working Python code.
 
 1. First, come up with a result box `str` similar to how you did in EX01, which will either be a red or white box depending on the correctness of the user's guess.
-2. Then, establish an `int` counter variable to keep track of which row you are printing.
-3. _While_ the row counter variable is less than the size of the grid, do as follows:
-    1. Test to see if the user's row guess is equal to the row counter.
-        1. If so, create a `str` to store your emoji string for a singular row.
-        2. Also create a column counter variable to keep track of how many times you have concatenated an emoji box to the row string. 
-            1. _While_ your column counter variable is less than the size of the grid, do as follows:
+2. Then, establish an `int` counter variable to keep track of which row you are printing starting with 1.
+3. _While_ the row counter variable is less than or equal to the size of the grid, do as follows:
+    1. Create a `str` to store your emoji string for a singular row.
+    2. Create a column counter variable to keep track of how many times you have concatenated an emoji box to the row string, also starting at 1. 
+    3. Test to see if the user's row guess is equal to the row counter.
+        1. If so, _while_ your column counter variable is less than or equal to the size of the grid, do as follows:
                 1. If the user guess for column is equal to the counter, concatenate the result box (red or white) to the row string.
                 2. Else, concatenate a blue box to the row string.
                 3. After the conditional, increase your row counter variable by one so that you do not have an infinite loop.
-            3. Once the loop completes, print the emoji string (one row is outputted).
     2. Otherwise: 
-        1. Still create the column counter variable and the `str` variable for a row of emojis, but this time, use the following `while` loop logic:
-        2. _While_ the column counter variable is less than the size of the grid, do the following:
+        2. _While_ the column counter variable is less than or equal to the size of the grid, do the following:
             1. Concatenate a blue box.
             2. Increment your column counter variable by one to avoid an infinite loop.
-        3. When you exit the while loop, print the emoji string (one row is outputted).
-    2. Increment your first row counter variable by one to avoid an infinite loop.
+    4. After the if-else blocks, print the emoji string (one row is outputted).
+    5. Increment your first row counter variable by one to avoid an infinite loop.
 
 Once you have completed this part of the program, your output should look as follows (should the secret row be 3 and secret column be 2.)
 
