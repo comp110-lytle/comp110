@@ -245,7 +245,7 @@ def test_part_3_correct_row(capsys, monkeypatch):
     set_stdin(monkeypatch, ["3", "1"])
     reimport_module(MODULE)
     output = _get_output(capsys)
-    regex = re.compile("(?i)Correct row, wrong column!")
+    regex = re.compile("(?i)Close! Correct row, wrong column.")
     match_found = False
     for line in output:
         match = regex.search(line) is not None
@@ -258,7 +258,7 @@ def test_part_3_correct_column(capsys, monkeypatch):
     set_stdin(monkeypatch, ["1", "2"])
     reimport_module(MODULE)
     output = _get_output(capsys)
-    regex = re.compile("(?i)Correct column, wrong row!")
+    regex = re.compile("(?i)Close! Correct column, wrong row.")
     match_found = False
     for line in output:
         match = regex.search(line) is not None
