@@ -88,22 +88,18 @@ These questions might not be in the same format as quizzes. Don't hesitate to br
 
 
 `>>> 5 % 5`
-<<<<<<< HEAD:site/resources/tutoring-practice/week0.md
 
 
-`>>> 4 // 2`
-
-`>>> 4.0 // 2.0`
-
-`>>> 2 + 4 / 2 * 2`
-
-`>>> 2 + 4 // 2 * 2`
-=======
 `>>> 5 // 2`
+
+
 `>>> 5.0 // 2.0`
+
+
 `>>> 2 + 4 / 2 * 2`
+
+
 `>>> 2 + 5 // 2 * 2`
->>>>>>> origin/tutoring-week1:site/resources/tutoring-practice/week0/week0.md
 
 4. Consider the following 4 lines of codes:
 
@@ -170,10 +166,6 @@ ou know why and how to modify it?
 
 ### Conditionals
 1. What is the output of the following codes?
-<<<<<<< HEAD:site/resources/tutoring-practice/week0.md
-
-![](../../static/tutoring-practice/code1.png)
-=======
 ~~~
 x = 10
 y = 5
@@ -185,15 +177,10 @@ if x > 5:
 else:
     print("C")
 ~~~
->>>>>>> origin/tutoring-week1:site/resources/tutoring-practice/week0/week0.md
 
 2. (Continue on Question 1:) Can you change the value of x or y so that the final output can be A? What about B?
 
 3. What is the output of the following codes?
-<<<<<<< HEAD:site/resources/tutoring-practice/week0.md
-
-![](../../static/tutoring-practice/code2.png)
-=======
 ~~~
 a = True
 b = False
@@ -203,7 +190,6 @@ if a and b or c:
 else:
     print("Y")
 ~~~
->>>>>>> origin/tutoring-week1:site/resources/tutoring-practice/week0/week0.md
 
 4. (Continue on Question 3:) Change which one of a, b or c can let the codes in Q3 print another output? 
 
