@@ -57,12 +57,12 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS10 </span>
 <span class="title">while Loop Statements:</span>
-[Video](https://youtu.be/iiksOU66xSw?si=qw0hZPiERbCJfkgt)
+[Video](https://youtu.be/iiksOU66xSw?si=qw0hZPiERbCJfkgt) | [Slides](/static/slides/while-loops.pdf)
 </div>
 
 <div class="plan Class"><span class="kind">LS11 </span>
 <span class="title">elif:</span>
-[Video](https://www.youtube.com/watch?v=VIh0hc7ktE4)
+[Video](https://www.youtube.com/watch?v=VIh0hc7ktE4) | [Slides](/static/slides/elif.pdf)
 </div>
 
 <div class="plan Class"><span class="kind">LS12 </span>
