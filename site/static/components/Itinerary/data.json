@@ -193,12 +193,12 @@
         {
             "kind": "CL",
             "n": 4,
-            "title": "Practice with bool Expressions and While Statements",
+            "title": "Practice wit while Loops",
             "date": "2024-01-31",
             "deadline": "None",
             "links": {
-                "Lecture Video": "",
-                "Lecture Slides": "/static/slides/CL03.pdf"
+                "Lecture Video": "https://youtube.com/live/IzVtEvML7tY?feature=share",
+                "Lecture Slides": "/static/slides/CL04.pdf"
             }
         },
         {
