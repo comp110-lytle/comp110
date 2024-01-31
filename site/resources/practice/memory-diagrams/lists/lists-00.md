@@ -32,3 +32,25 @@ template: overview
 
 <img class="img-fluid" src="/static/assets/f23/lists00-sol.png" alt=""  />
 
+*Image Descriptions:*
+Under Globals:
+* Variable f points to a function labeled Fn [1-4] on the Heap.
+* Variable g points to a function labeled Fn [1-6] on the Heap.
+* Variable record points to a list object on the Heap with the type list[str].
+
+The f function frame has:
+* Return Address (RA) pointing to line 13.
+* Variables x and y, with x pointing to the same list object on the Heap as the global variable record and y with a value of 1 and a crossed-out value of 0.
+* Return Value (RV) with a value of "yx".
+
+The g function frame has:
+* Return Address (RA) pointing to line 14.
+* Variables x pointing to the same list object as the global variable record and new_list pointing to a second list object on the Heap with the type list[str].
+* Variable z with a crossed-out reference to a string "xx" and updated to point to a string "yx".
+* Return Value (RV) points to the second list[str] object on the heap.
+
+The Heap section shows two list objects and two string objects:
+* The first list on the heap has two values. The first value is “xx” with a crossed-out value of “x”. The second value is “yx” with a crossed-out value of “y”.
+* The second list on the heap has two values. The first value is “xx” and the second value is “yx”.
+
+The Output section at the top first prints “yx”, then the list [“xx”,”yx”].
