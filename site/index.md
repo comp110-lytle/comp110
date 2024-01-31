@@ -44,7 +44,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-01-31" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Jan 31</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL04 </span><span class="title">Practice wit while Loops</span>
+<span class="kind">CL04 </span><span class="title">Practice with while Loops</span>
 <ul class="links"><li class="link"><a href="https://youtube.com/live/IzVtEvML7tY?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL04.pdf">Lecture Slides</a></li>
 </ul></div><div class="plan Exercise">
