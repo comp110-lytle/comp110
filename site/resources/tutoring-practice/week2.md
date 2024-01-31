@@ -73,7 +73,7 @@ c. Increment
 3. Try to evaluate the following codes:
 ~~~
 x: int = 110
-output:str = ""
+result: str = ""
 
 while x >= 0:
     if x % 3 == 0:
