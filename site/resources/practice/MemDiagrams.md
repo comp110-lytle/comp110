@@ -24,6 +24,9 @@ template: overview
 ## Conditionals + "elif"
 [Example 0](/resources/practice/memory-diagrams/elif/elif-00.html)
 
+## While loops
+[Example 0](/resources/practice/memory-diagrams/while/while-00.html)
+
 <!-- ## bool Operators
 
 ## f-strings
