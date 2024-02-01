@@ -23,4 +23,6 @@ template: overview
 
 
 
-*Image Description Coming Soon.* 
+*Image Description:* 
+
+The memory diagram consists of two sections labeled "Stack" and "Output." The Stack section has one frame titled "Globals," containing four variables with corresponding values: age with a value of 20, year with a value of 2024, older_age with a value of 30, and later_year with a value of 2034. The Output section contains a single string that reads: "In 2034 you'll be 30".
