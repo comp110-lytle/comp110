@@ -72,8 +72,8 @@ c. Increment
 
 3. Try to evaluate the following codes:
 ~~~
-x: int = 10
-result:str = ""
+x: int = 110
+result: str = ""
 
 while x > 0:
     if x % 3 == 0:
