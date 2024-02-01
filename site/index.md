@@ -37,11 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-29" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Jan 29</div>
-<div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL02 </span><span class="title"><a href="/virtual-classes/VL02.html">Virtual Lesson (Due Tuesday 1/30)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-01-31" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-01-31" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Jan 31</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL04 </span><span class="title">Practice with while Loops</span>
@@ -49,10 +45,25 @@ template: home
 <li class="link"><a href="/static/slides/CL04.pdf">Lecture Slides</a></li>
 </ul></div><div class="plan Exercise">
 <span class="kind">EX01 </span><span class="title"><a href="/exercises/one-shot-battleship.html">One-shot Battleship (Due Tuesday 2/6)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-02-02" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Feb 2</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL05 </span><span class="title">while Loops + the Debugger</span>
+<ul class="links"><li class="link">Lecture Video</li>
+</ul></div><div class="plan Reading">
+<span class="kind">RD00 </span><span class="title"><a href="https://gradescope.com">Reading: The Ethical Algorithm (Due Thursday 2/22)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-02-07" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Feb 7</div>
+<div class="plans col-md-9"><div class="plan Exercise">
+<span class="kind">EX02 </span><span class="title"><a href="/">Functional Battleship (Due Tuesday 2/13)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 9</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ01 </span><span class="title">Quiz 1</span></div></div>
+</div><div data-type="lecture" data-date="2024-02-21" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Feb 21</div>
+<div class="plans col-md-9"><div class="plan Exercise">
+<span class="kind">EX03 </span><span class="title"><a href="/">Listed Battleship (Due Tuesday 2/27)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-03-01" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Mar 1</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -71,7 +82,11 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-01-26" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-01-29" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Jan 29</div>
+<div class="plans col-md-9"><div class="plan Virtual Lesson">
+<span class="kind">VL02 </span><span class="title"><a href="/virtual-classes/VL02.html">Virtual Lesson (Due Tuesday 1/30)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-01-26" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 26</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span>
