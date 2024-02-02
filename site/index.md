@@ -49,7 +49,7 @@ template: home
 <div class="date col-md-2">Fri, Feb 2</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL05 </span><span class="title">while Loops + Debugger</span>
-<ul class="links"><li class="link">Lecture Video</li>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/1V1LKJ0ETd0?feature=share">Lecture Video</a></li>
 </ul></div><div class="plan Challenge Question">
 <span class="kind">CQ00 </span><span class="title"><a href="https://www.gradescope.com/">while Loops + Debugger (Due Tuesday 2/6)</a></span></div><div class="plan Reading">
 <span class="kind">RD00 </span><span class="title"><a href="https://gradescope.com">Reading: The Ethical Algorithm (Due Thursday 2/22)</a></span></div></div>
