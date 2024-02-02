@@ -269,7 +269,12 @@
             "title": "Quiz 1",
             "date": "2024-02-09",
             "deadline": "2024-02-09",
-            "links": {}
+            "links": {
+                "What to Expect": "/resources/quiz-expectations.html",
+                "Practice Problems": "/resources/practice/sp24/qz01.html",
+                "Covered Topics: Units 0-3B": "/resources/curriculum.html",
+                "Virtual Review Session, Thursday, Feb 8 @ 7 pm": ""
+            }
         }
     ],
     "2024-02-10": [],
