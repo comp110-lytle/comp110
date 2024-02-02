@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/">EX01 - TUE, FEB 06 11:59pm</a></li><li class="horizon-item"><a href="/challenge_questions/oop-mutable.html">CQ00 - TUE, FEB 06 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/">EX01 - TUE, FEB 06 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">CQ00 - TUE, FEB 06 11:59pm</a></li><li class="horizon-item"><span>QZ01 - FRI, FEB 09 11:59pm</span></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -51,7 +51,7 @@ template: home
 <span class="kind">CL05 </span><span class="title">while Loops + Debugger</span>
 <ul class="links"><li class="link">Lecture Video</li>
 </ul></div><div class="plan Challenge Question">
-<span class="kind">CQ00 </span><span class="title"><a href="/challenge_questions/oop-mutable.html">while Loops + Debugger (Due Tuesday 2/6)</a></span></div><div class="plan Reading">
+<span class="kind">CQ00 </span><span class="title"><a href="https://www.gradescope.com/">while Loops + Debugger (Due Tuesday 2/6)</a></span></div><div class="plan Reading">
 <span class="kind">RD00 </span><span class="title"><a href="https://gradescope.com">Reading: The Ethical Algorithm (Due Thursday 2/22)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Feb 7</div>
