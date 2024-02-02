@@ -5,6 +5,7 @@ author:
 - Audrey Salmon
 - Vrinda Desai
 page: exercises
+template: overview
 ---
 
 In this exercise, you will use the concept of *functions* to organize much of the functionality we developed in EX02. Moreover, rather than only getting one-attempt at guessing the secret boat location, you will get five! To get a sense of where you are going, here are two examples of the final game:
