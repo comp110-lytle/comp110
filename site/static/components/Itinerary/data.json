@@ -116,7 +116,7 @@
             "date": "2024-01-19",
             "deadline": "2024-01-30",
             "links": {
-                "": "/exercises/simple-battleship.html"
+                "": "/exercises/one-shot-battleship.html"
             }
         },
         {
@@ -208,7 +208,7 @@
             "date": "2024-01-31",
             "deadline": "2024-02-06",
             "links": {
-                "": "/exercises/one-shot-battleship.html"
+                "": "/"
             }
         }
     ],
@@ -217,11 +217,21 @@
         {
             "kind": "CL",
             "n": 5,
-            "title": "while Loops + the Debugger",
+            "title": "while Loops + Debugger",
             "date": "2024-02-02",
             "deadline": "None",
             "links": {
                 "Lecture Video": ""
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "while Loops + Debugger (Due Tuesday 2/6)",
+            "date": "2024-02-02",
+            "deadline": "2024-02-06",
+            "links": {
+                "": "/challenge_questions/oop-mutable.html"
             }
         },
         {
@@ -280,13 +290,22 @@
             "title": "Listed Battleship (Due Tuesday 2/27)",
             "date": "2024-02-21",
             "deadline": "2024-02-27",
-            "links": {
-                "": "/"
-            }
+            "links": {}
         }
     ],
     "2024-02-22": [],
-    "2024-02-23": [],
+    "2024-02-23": [
+        {
+            "kind": "RD",
+            "n": 1,
+            "title": "Weapons of Math Destruction (Due Thursday 3/14)",
+            "date": "2024-02-23",
+            "deadline": "2024-03-14",
+            "links": {
+                "": "https://gradescope.com"
+            }
+        }
+    ],
     "2024-02-24": [],
     "2024-02-25": [],
     "2024-02-26": [],
@@ -323,7 +342,19 @@
     "2024-03-19": [],
     "2024-03-20": [],
     "2024-03-21": [],
-    "2024-03-22": [],
+    "2024-03-22": [
+        {
+            "kind": "RD",
+            "n": 2,
+            "title": "Reading: Man versus Machine or Man + Machine? (Due Thursday 4/11)",
+            "date": "2024-03-22",
+            "deadline": "2024-04-11",
+            "links": {
+                "Article": "https://hal.pratt.duke.edu/sites/hal.pratt.duke.edu/files/u10/IS-29-05-Expert%20Opinion%5B1%5D_0.pdf",
+                "Assignment": "https://gradescope.com"
+            }
+        }
+    ],
     "2024-03-23": [],
     "2024-03-24": [],
     "2024-03-25": [],
