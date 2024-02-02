@@ -56,7 +56,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-02-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Feb 7</div>
 <div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX03 </span><span class="title"><a href="/">Functional Battleship (Due Tuesday 2/13)</a></span></div></div>
+<span class="kind">EX03 </span><span class="title"><a href="/">Structured Battleship (Due Tuesday 2/13)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 9</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -64,7 +64,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-02-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Feb 21</div>
 <div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX04 </span><span class="title"><a href="/">Listed Battleship (Due Tuesday 2/27)</a></span></div></div>
+<span class="kind">EX04 </span><span class="title"><a href="/">List Utils (Due Tuesday 2/27)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-23" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 23</div>
 <div class="plans col-md-9"><div class="plan Reading">
