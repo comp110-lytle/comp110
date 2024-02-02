@@ -1,5 +1,4 @@
 {
-    "2024-01-30": [],
     "2024-01-31": [
         {
             "kind": "CL",
@@ -42,7 +41,7 @@
             "date": "2024-02-02",
             "deadline": "2024-02-06",
             "links": {
-                "": "/challenge_questions/oop-mutable.html"
+                "": "https://www.gradescope.com/"
             }
         },
         {
