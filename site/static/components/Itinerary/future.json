@@ -63,7 +63,7 @@
         {
             "kind": "EX",
             "n": 3,
-            "title": "Functional Battleship (Due Tuesday 2/13)",
+            "title": "Structured Battleship (Due Tuesday 2/13)",
             "date": "2024-02-07",
             "deadline": "2024-02-13",
             "links": {
@@ -97,7 +97,7 @@
         {
             "kind": "EX",
             "n": 4,
-            "title": "Listed Battleship (Due Tuesday 2/27)",
+            "title": "List Utils (Due Tuesday 2/27)",
             "date": "2024-02-21",
             "deadline": "2024-02-27",
             "links": {
