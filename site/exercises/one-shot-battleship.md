@@ -141,7 +141,7 @@ Since loops are new to your repertoire, we will give you a general strategy for 
         1. If so, _while_ your column counter variable is less than or equal to the size of the grid, do as follows:
                 1. If the user guess for column is equal to the counter, concatenate the result box (red or white) to the row string.
                 2. Else, concatenate a blue box to the row string.
-                3. After the conditional, increase your row counter variable by one so that you do not have an infinite loop.
+                3. After the conditional, increase your column counter variable by one so that you do not have an infinite loop.
     2. Otherwise: 
         2. _While_ the column counter variable is less than or equal to the size of the grid, do the following:
             1. Concatenate a blue box.
