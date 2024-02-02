@@ -15,7 +15,7 @@ MODULE = "exercises.ex02_one_shot_battleship"
 module: Any  # Global variable will hold the module object which can be reloaded
 
 
-@mark.weight(1)
+@mark.weight(5)
 def test_author(capsys: CaptureFixture, monkeypatch: MonkeyPatch):
     """Part 0 - __author__ str variable is correct PID format."""
     set_stdin(monkeypatch, ["1", "2"])  
