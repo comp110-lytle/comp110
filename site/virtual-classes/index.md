@@ -70,3 +70,18 @@ page: lessons
 [Video](https://youtu.be/XQPFd1Gae9M?si=erOJqqgKJhkUyntG)
 </div>
 
+<div class="plan Class"><span class="kind">LS13 </span>
+<span class="title">Introducing Functions:</span>
+[Video](https://youtu.be/UAqFF9e6SLs) | [Slides](/static/slides/functions.pdf)
+</div>
+
+<div class="plan Class"><span class="kind">LS14 </span>
+<span class="title">Function Syntax:</span>
+[Video](https://youtu.be/gOnn7OQhaj0)
+</div>
+
+<div class="plan Class"><span class="kind">LS15 </span>
+<span class="title">Function Semantics:</span>
+[Video](https://youtu.be/2RnI4bYMZww)
+</div>
+
