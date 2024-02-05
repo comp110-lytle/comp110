@@ -212,5 +212,37 @@
             }
         }
     ],
-    "2024-02-01": []
+    "2024-02-01": [],
+    "2024-02-02": [
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "while Loops + Debugger",
+            "date": "2024-02-02",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/1V1LKJ0ETd0?feature=share"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "while Loops + Debugger (Due Tuesday 2/6)",
+            "date": "2024-02-02",
+            "deadline": "2024-02-06",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "RD",
+            "n": 0,
+            "title": "Reading: The Ethical Algorithm (Due Thursday 2/22)",
+            "date": "2024-02-02",
+            "deadline": "2024-02-22",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ]
 }
