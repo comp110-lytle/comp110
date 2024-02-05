@@ -28,21 +28,21 @@ print(foo(bar(3)))
 ~~~
 1.1 Do you know from the above codes, which function has been called the first? Foo or bar?
 
-1.2 What will be the final line’s ouput.
+1.2 What will be the final line’s output?
 
-2. This is a open end question, as we have learned the creation of function, can you think of the benefits of using functions in programming?
+2. This is an open-ended question, as we have learned the creation of function, can you think of the benefits of using functions in programming?
 
-3. Regarding the naming convention or naming rule for naming a function in Python, identify the following statements of either true or false.
+3. Regarding the naming convention or naming rule for naming a function in Python, identify the following statements as either true or false.
 - The name could start with a number, 1, 2, 3, etc
 - The name can only contain letters, numbers, and underscores
 - The name can contain any characters as long as the first one is a letter or an underscore.
-- The name can be a reserved keyword in Python which in capticalized. (such as DEF, IF, FOR)
-- It is encourage to have the first letter of the name capitalized as it is also the convention we followed in daily writing. 
+- The name can be a reserved keyword in Python that is capitalized. (such as DEF, IF, FOR)
+- It is encouraged to have the first letter of the name capitalized as it is also the convention we follow in daily writing. 
 
 4. What is the difference between a function definition and a function call?
 
 5. 
-5.1 Write a function called `odd_or_even`. Given a list of `ints` and one `string` of either `even` or `odd`, the function will return a substring contains only the even or odd numbers based on the inputed `string`.
+5.1 Write a function called `odd_or_even`. Given a list of `ints` and one `string` of either `even` or `odd`, the function will return a substring containing only the even or odd numbers based on the input `string`.
 
 5.2 Write a function called `even_and3`. Given a list of `int`s, the function should return a substring with numbers that are either `even` or at the `index of multiple of 3`.
 

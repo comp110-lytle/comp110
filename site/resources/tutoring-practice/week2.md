@@ -151,11 +151,12 @@ while True:
 
 7. Elaborate on your thought, when will the infinite loops get intentionally used in real-life scenarios?    
 
+
 # Solutions
 ### Elif
 1. `elif` is more efficient and readable than normal `if-else` statements. To achieve the function of `elif`, a deep nested `if-else` statement might be used and therefore make the code difficult to interpret. 
 
-2. The order of `elif` statements is sequential, only the first conditional statement that evaluates to `True` will get executed, the rest of the `elif` statements are skipped.
+2. The order of `elif` statements is sequential, only the first conditional statement that evaluates to `True` will get executed, and the rest of the `elif` statements are skipped.
 
 3. What would be the output of the following codes?
 3.1 
@@ -163,7 +164,7 @@ D
 
 3.2 say x=15 or any number greater than 14
 
-3.3 A, B, C will all get printed in sequence.
+3.3 A, B, and C will all get printed in sequence.
 
 4. Rewrite the following codes with `elif`:
 ~~~
@@ -197,7 +198,7 @@ c. Increment: i+=1
 4.3 Infinity
 
 5. See if there is something wrong with the following loops, if so, how can you correct them?
-5.1: No increment on i, causing infinite loop
+5.1: No increment on i, causing an infinite loop
 
 5.2: j-=1 should be placed inside the while loop.
 
@@ -205,7 +206,6 @@ c. Increment: i+=1
 
 5.4: Infinite loop
 
-7. Some taks might need to run continuously until an external condtion or event occurs. Say a server listening loops which need to continuously active to incoming request until it is turned off. 
-
+7. Some tasks might need to run continuously until an external condition or event occurs. Say a server listening loops which needs to continuously active to incoming requests until it is turned off. 
 
 
