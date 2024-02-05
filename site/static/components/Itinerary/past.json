@@ -188,5 +188,29 @@
             }
         }
     ],
-    "2024-01-30": []
+    "2024-01-30": [],
+    "2024-01-31": [
+        {
+            "kind": "CL",
+            "n": 4,
+            "title": "Practice with while Loops",
+            "date": "2024-01-31",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/IzVtEvML7tY?feature=share",
+                "Lecture Slides": "/static/slides/CL04.pdf"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "One-shot Battleship (Due Tuesday 2/6)",
+            "date": "2024-01-31",
+            "deadline": "2024-02-06",
+            "links": {
+                "": "/exercises/one-shot-battleship.html"
+            }
+        }
+    ],
+    "2024-02-01": []
 }

@@ -1,28 +1,4 @@
 {
-    "2024-01-31": [
-        {
-            "kind": "CL",
-            "n": 4,
-            "title": "Practice with while Loops",
-            "date": "2024-01-31",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/IzVtEvML7tY?feature=share",
-                "Lecture Slides": "/static/slides/CL04.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 2,
-            "title": "One-shot Battleship (Due Tuesday 2/6)",
-            "date": "2024-01-31",
-            "deadline": "2024-02-06",
-            "links": {
-                "": "/exercises/one-shot-battleship.html"
-            }
-        }
-    ],
-    "2024-02-01": [],
     "2024-02-02": [
         {
             "kind": "CL",
@@ -51,13 +27,24 @@
             "date": "2024-02-02",
             "deadline": "2024-02-22",
             "links": {
-                "": "https://gradescope.com"
+                "": "https://www.gradescope.com/"
             }
         }
     ],
     "2024-02-03": [],
     "2024-02-04": [],
-    "2024-02-05": [],
+    "2024-02-05": [
+        {
+            "kind": "VL",
+            "n": 3,
+            "title": "Virtual Lesson (Due Tuesday 2/6)",
+            "date": "2024-02-05",
+            "deadline": "2024-02-06",
+            "links": {
+                "": "/virtual-classes/VL03.html"
+            }
+        }
+    ],
     "2024-02-06": [],
     "2024-02-07": [
         {
@@ -119,7 +106,7 @@
             "date": "2024-02-23",
             "deadline": "2024-03-14",
             "links": {
-                "": "https://gradescope.com"
+                "": "https://www.gradescope.com/"
             }
         }
     ],
@@ -168,7 +155,7 @@
             "deadline": "2024-04-11",
             "links": {
                 "Article": "https://hal.pratt.duke.edu/sites/hal.pratt.duke.edu/files/u10/IS-29-05-Expert%20Opinion%5B1%5D_0.pdf",
-                "Assignment": "https://gradescope.com"
+                "Assignment": "https://www.gradescope.com/"
             }
         }
     ],
