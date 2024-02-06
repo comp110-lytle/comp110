@@ -25,7 +25,7 @@ template: overview
 </code></pre>
 
 # Solution
-
+[Video](https://youtu.be/Uj6OGZuW464?si=eAVXVmE5PGvwX-5t)
 
 <img class="img-fluid" src="/static/mem-diags/while-00.png" alt=" " />
 
