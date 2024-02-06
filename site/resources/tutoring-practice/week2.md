@@ -8,7 +8,7 @@ template: overview
 
 # Concepts Reviewed
 
-These questions are optional supplements that ideally help you get prepared for the quizzes ahead of time. Before working through these practice questions, you should get familiar with the concepts covered in the lessons of the second week (1.22 and Memory Diagrams).
+These questions are optional supplements that ideally help you get prepared for the quizzes ahead of time. Before working through these practice questions, you should get familiar with the concepts covered in the lessons of the third week.
 
 <br>
 
@@ -72,10 +72,10 @@ c. Increment
 
 3. Try to evaluate the following codes:
 ~~~
-x: int = 110
-result: str = ""
+x: int = 10
+result:str = ""
 
-while x >= 0:
+while x > 0:
     if x % 3 == 0:
         result = result + str(x)
     else:
@@ -150,5 +150,62 @@ while True:
 6.4 A loop that will print numbers from 0 all the way to negative infinity
 
 7. Elaborate on your thought, when will the infinite loops get intentionally used in real-life scenarios?    
+
+
+# Solutions
+### Elif
+1. `elif` is more efficient and readable than normal `if-else` statements. To achieve the function of `elif`, a deep nested `if-else` statement might be used and therefore make the code difficult to interpret. 
+
+2. The order of `elif` statements is sequential, only the first conditional statement that evaluates to `True` will get executed, and the rest of the `elif` statements are skipped.
+
+3. What would be the output of the following codes?
+3.1 
+D
+
+3.2 say x=15 or any number greater than 14
+
+3.3 A, B, and C will all get printed in sequence.
+
+4. Rewrite the following codes with `elif`:
+~~~
+course: int = 110
+
+if course == 110:
+    print("Welcome to COMP 110!")
+elif course < 110:
+    print("Enrolled!")
+else:
+    print("Prerequisites not satisfied")
+~~~
+
+
+### While-Loop
+1. 
+a. Repeat Block: block inside the while loop
+b. Condition: i<10
+c. Increment: i+=1
+
+2. False, if the conditional statement at the start never met, the repeat block never got executed.
+
+
+3. "12510"
+
+4. Try to count (if possible) how my iterations of do following loops have:
+4.1: 8
+
+4.2: 5
+
+4.3 Infinity
+
+5. See if there is something wrong with the following loops, if so, how can you correct them?
+5.1: No increment on i, causing an infinite loop
+
+5.2: j-=1 should be placed inside the while loop.
+
+5.3: i is not defined before the loop, meanwhile the condition of the loop will eventually lead to `IndexError`.
+
+5.4: Infinite loop
+
+7. Some tasks might need to run continuously until an external condition or event occurs. Say a server listening loops which needs to continuously active to incoming requests until it is turned off. 
 
 
