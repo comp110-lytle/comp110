@@ -42,6 +42,7 @@ def _get_output(capsys):
     lines = list(filter(lambda s: s != "", lines))
     return lines
 
+
 ### PART 1
 @mark.weight(5)
 def test_part_1_input_guess_correctly_declared(capsys, monkeypatch):
@@ -51,9 +52,10 @@ def test_part_1_input_guess_correctly_declared(capsys, monkeypatch):
     assert_parameter_list(module.input_guess, [int, str])
     assert_return_type(module.input_guess, int)
 
+
 @mark.weight(5)
 def test_part_1_input_guess_correct_column_implementation(capsys, monkeypatch):
-    """Part 1. `input_guess` - function is correctly implemented"""
+    """Part 1. `input_guess` - function is correctly implemented for row."""
     module = reimport_module(MODULE)
 
     nums: list[str] = ["12"]
@@ -77,7 +79,7 @@ def test_part_1_input_guess_correct_column_implementation(capsys, monkeypatch):
 
 @mark.weight(5)
 def test_part_1_input_guess_correct_row_implementation(capsys, monkeypatch):
-    """Part 1. `input_guess` - function is correctly implemented"""
+    """Part 1. `input_guess` - function is correctly implemented for column."""
     module = reimport_module(MODULE)
 
     nums: list[str] = ["5"]
@@ -109,7 +111,6 @@ def test_part_1_input_guess_throws():
 
 
 ### PART 2
-    
 @mark.weight(5)
 def test_part_2_checking_grid_miss_1(capsys, monkeypatch):
     """Part 2. print_grid` - correct grid is outputted for incorrectly guessed inputs."""
@@ -123,6 +124,7 @@ def test_part_2_checking_grid_miss_1(capsys, monkeypatch):
         match = regex.search(output[idx]) is not None
         match_found = match_found or match
         assert match_found, f"Output must match expectation exactly."
+
 
 @mark.weight(5)
 def test_part_2_checking_grid_miss_2(capsys, monkeypatch):
@@ -138,9 +140,10 @@ def test_part_2_checking_grid_miss_2(capsys, monkeypatch):
         match_found = match_found or match
         assert match_found, f"Output must match expectation exactly."
 
+
 @mark.weight(5)
 def test_part_2_checking_grid_hit_1(capsys, monkeypatch):
-    """Part 2. print_grid` - correct grid is outputted for incorrectly guessed inputs."""
+    """Part 2. print_grid` - correct grid is outputted for correctly guessed inputs."""
     expected: list[str] = ["🟦🟦🟦", "🟦🟥🟦", "🟦🟦🟦"]
     for idx in range(0, len(expected)):
         reimport_module(MODULE)
@@ -155,7 +158,7 @@ def test_part_2_checking_grid_hit_1(capsys, monkeypatch):
 
 @mark.weight(5)
 def test_part_2_checking_grid_hit_2(capsys, monkeypatch):
-    """Part 2. print_grid` - correct grid is outputted for incorrectly guessed inputs."""
+    """Part 2. print_grid` - correct grid is outputted for correctly guessed inputs."""
     expected: list[str] = ["🟦🟦🟦🟦🟦", "🟦🟦🟦🟦🟦", "🟦🟦🟦🟦🟦", "🟦🟦🟦🟦🟦", "🟦🟦🟦🟦🟥"]
     for idx in range(0, len(expected)):
         reimport_module(MODULE)
@@ -171,11 +174,12 @@ def test_part_2_checking_grid_hit_2(capsys, monkeypatch):
 ### PART 3
 @mark.weight(5)
 def test_part_3_correct_guess_correctly_declared():
-    """Part 1. `correct_guess` - function is correctly declared (name, parameter types, return type)."""
+    """Part 3. `correct_guess` - function is correctly declared (name, parameter types, return type)."""
     module = reimport_module(MODULE)
     assert callable(module.correct_guess)
     assert_parameter_list(module.correct_guess, [int, int, int, int])
     assert_return_type(module.correct_guess, bool)
+
 
 @mark.weight(5)
 def test_part_3_correct_guess_correctly_implemented():
@@ -202,7 +206,7 @@ def test_part_4_main_correctly_declared():
 
 @mark.weight(5)
 def test_part_4_main_correctly_implemented(capsys, monkeypatch):
-    """Part 4. `main` - game is winnable with secret "codes"."""
+    """Part 4. `main` - game is winnable after correct guess."""
     module = reimport_module(MODULE)
     nums: list[str] = ["1", "4"]
     set_stdin(monkeypatch, nums)
@@ -235,7 +239,7 @@ def test_part_4_main_correctly_implemented_multiple_guesses(capsys, monkeypatch)
 
 @mark.weight(5)
 def test_part_4_main_correctly_implemented_loses(capsys, monkeypatch):
-    """Part 4. `main` - game is lost after 5 guesses."""
+    """Part 4. `main` - game is lost after five guesses."""
     module = reimport_module(MODULE)
     words: list[str] = ["2", "2", "2", "2", "2", "2", "2", "2", "2", "2"]
     set_stdin(monkeypatch, words)
@@ -245,13 +249,13 @@ def test_part_4_main_correctly_implemented_loses(capsys, monkeypatch):
     lines: list[str] = out.split("\n")
     for i in range(1, 6):
         regex = re.compile(f"(?i)Turn {i}/5")
-        _regex_test_stdout(lines, monkeypatch, r
+        _regex_test_stdout(lines, monkeypatch, regex)
     regex = re.compile("(?i)X/5")
     _regex_test_stdout(lines, monkeypatch, regex)
 
 
 @mark.weight(5)
-def test_part_4_main_correctly_calls_functions_with_input_row(capsys, monkeypatch):
+def test_part_4_main_correctly_calls_functions_with_input_guess(capsys, monkeypatch):
     """Part 4. `main` - makes use of the `input_guess` function."""
     module = reimport_module(MODULE)
     try:
