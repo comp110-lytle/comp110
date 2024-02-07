@@ -13,7 +13,7 @@ from _pytest.capture import CaptureFixture
 from graders.helpers import author_is_a_valid_pid, mute_output, set_stdin, import_module, reimport_module, assert_parameter_list, assert_return_type
 
 
-MODULE = "exercises.ex03_battleship"
+MODULE = "exercises.ex03_functional_battleship"
 module: Any  # Global variable will hold the module object which can be reloaded
 
 
@@ -25,7 +25,7 @@ def _regex_test_stdout(lines: list[str], monkeypatch: MonkeyPatch, regex: Patter
     assert match
 
 
-@mark.weight(0)
+@mark.weight(5)
 def test_author(capsys: CaptureFixture, monkeypatch: MonkeyPatch):
     """Part 0 - __author__ str variable is correct PID format."""
     set_stdin(monkeypatch, ["python"])
@@ -43,23 +43,22 @@ def _get_output(capsys):
     return lines
 
 ### PART 1
-@mark.weight(2.5)
+@mark.weight(5)
 def test_part_1_input_guess_correctly_declared(capsys, monkeypatch):
-    """Part 1. `input_row` - function is correctly declared (name, parameter types, return type)."""
+    """Part 1. `input_guess` - function is correctly declared (name, parameter types, return type)."""
     module = reimport_module(MODULE)
-    assert callable(module.input_row)
-    assert_parameter_list(module.input_row, [int, str])
-    assert_return_type(module.input_row, int)
+    assert callable(module.input_guess)
+    assert_parameter_list(module.input_guess, [int, str])
+    assert_return_type(module.input_guess, int)
 
-#Give correct number, give incorrect number
-@mark.weight(2.5)
-def test_part_1_input_guess_correct_implementation(capsys, monkeypatch):
+@mark.weight(5)
+def test_part_1_input_guess_correct_column_implementation(capsys, monkeypatch):
     """Part 1. `input_guess` - function is correctly implemented"""
     module = reimport_module(MODULE)
 
     nums: list[str] = ["12"]
     set_stdin(monkeypatch, nums)
-    module.input_row(12, "row")
+    module.input_guess(12, "row")
     out: str
     out, _ = capsys.readouterr()
     lines: list[str] = out.split("\n")
@@ -68,7 +67,7 @@ def test_part_1_input_guess_correct_implementation(capsys, monkeypatch):
 
     nums: list[str] = ["8", "3"]
     set_stdin(monkeypatch, nums)
-    module.input_row(7, "row")
+    module.input_guess(7, "row")
     out: str
     out, _ = capsys.readouterr()
     lines: list[str] = out.split("\n")
@@ -76,14 +75,14 @@ def test_part_1_input_guess_correct_implementation(capsys, monkeypatch):
     _regex_test_stdout(lines, monkeypatch, regex)
 
 
-@mark.weight(2.5)
-def test_part_1_input_guess_correct_implementation(capsys, monkeypatch):
+@mark.weight(5)
+def test_part_1_input_guess_correct_row_implementation(capsys, monkeypatch):
     """Part 1. `input_guess` - function is correctly implemented"""
     module = reimport_module(MODULE)
 
     nums: list[str] = ["5"]
     set_stdin(monkeypatch, nums)
-    module.input_column(5, "column")
+    module.input_guess(5, "column")
     out: str
     out, _ = capsys.readouterr()
     lines: list[str] = out.split("\n")
@@ -92,7 +91,7 @@ def test_part_1_input_guess_correct_implementation(capsys, monkeypatch):
 
     nums: list[str] = ["0", "2"]
     set_stdin(monkeypatch, nums)
-    module.input_column(16, "column")
+    module.input_guess(16, "column")
     out: str
     out, _ = capsys.readouterr()
     lines: list[str] = out.split("\n")
@@ -100,8 +99,16 @@ def test_part_1_input_guess_correct_implementation(capsys, monkeypatch):
     _regex_test_stdout(lines, monkeypatch, regex)
 
 
+@mark.weight(5)
+def test_part_1_input_guess_throws():
+    """Part 1. `input_guess` - throws assertion error with wrong second argument string."""
+    module = reimport_module(MODULE)
+    input_guess = module.input_guess
+    with raises(AssertionError):
+        input_guess(3, "abc")
+
+
 ### PART 2
-#print grid functionality!
     
 @mark.weight(5)
 def test_part_2_checking_grid_miss_1(capsys, monkeypatch):
@@ -245,7 +252,7 @@ def test_part_4_main_correctly_implemented_loses(capsys, monkeypatch):
 
 @mark.weight(5)
 def test_part_4_main_correctly_calls_functions_with_input_row(capsys, monkeypatch):
-    """Part 4. `main` - makes use of the `input_row` function."""
+    """Part 4. `main` - makes use of the `input_guess` function."""
     module = reimport_module(MODULE)
     try:
         with mock.patch.object(module, "input_guess", wraps=module.input_guess) as student_input_guess:
