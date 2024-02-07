@@ -1,6 +1,4 @@
 {
-    "2024-02-03": [],
-    "2024-02-04": [],
     "2024-02-05": [
         {
             "kind": "VL",
@@ -15,6 +13,17 @@
     ],
     "2024-02-06": [],
     "2024-02-07": [
+        {
+            "kind": "CL",
+            "n": 6,
+            "title": "Practice With Functions",
+            "date": "2024-02-07",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/P7qTE-9_bGo?feature=share",
+                "Slides": "/static/slides/CL06.pdf"
+            }
+        },
         {
             "kind": "EX",
             "n": 3,
