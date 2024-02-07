@@ -44,31 +44,22 @@ def _get_output(capsys):
 
 ### PART 1
 @mark.weight(2.5)
-def test_part_1_input_row_correctly_declared(capsys, monkeypatch):
+def test_part_1_input_guess_correctly_declared(capsys, monkeypatch):
     """Part 1. `input_row` - function is correctly declared (name, parameter types, return type)."""
     module = reimport_module(MODULE)
     assert callable(module.input_row)
-    assert_parameter_list(module.input_row, [int])
+    assert_parameter_list(module.input_row, [int, str])
     assert_return_type(module.input_row, int)
-
-@mark.weight(2.5)
-def test_part_1_input_column_correctly_declared(capsys, monkeypatch):
-    """Part 1. `input_column` - function is correctly declared (name, parameter types, return type)."""
-    module = reimport_module(MODULE)
-    assert callable(module.input_column)
-    assert_parameter_list(module.input_column, [int])
-    assert_return_type(module.input_column, int)
-
 
 #Give correct number, give incorrect number
 @mark.weight(2.5)
-def test_part_1_input_row_correct_implementation(capsys, monkeypatch):
-    """Part 1. `input_row` - function is correctly implemented"""
+def test_part_1_input_guess_correct_implementation(capsys, monkeypatch):
+    """Part 1. `input_guess` - function is correctly implemented"""
     module = reimport_module(MODULE)
 
     nums: list[str] = ["12"]
     set_stdin(monkeypatch, nums)
-    module.input_row(12)
+    module.input_row(12, "row")
     out: str
     out, _ = capsys.readouterr()
     lines: list[str] = out.split("\n")
@@ -77,7 +68,7 @@ def test_part_1_input_row_correct_implementation(capsys, monkeypatch):
 
     nums: list[str] = ["8", "3"]
     set_stdin(monkeypatch, nums)
-    module.input_row(7)
+    module.input_row(7, "row")
     out: str
     out, _ = capsys.readouterr()
     lines: list[str] = out.split("\n")
@@ -86,13 +77,13 @@ def test_part_1_input_row_correct_implementation(capsys, monkeypatch):
 
 
 @mark.weight(2.5)
-def test_part_1_input_column_correct_implementation(capsys, monkeypatch):
-    """Part 1. `input_column` - function is correctly implemented"""
+def test_part_1_input_guess_correct_implementation(capsys, monkeypatch):
+    """Part 1. `input_guess` - function is correctly implemented"""
     module = reimport_module(MODULE)
 
     nums: list[str] = ["5"]
     set_stdin(monkeypatch, nums)
-    module.input_column(5)
+    module.input_column(5, "column")
     out: str
     out, _ = capsys.readouterr()
     lines: list[str] = out.split("\n")
@@ -101,7 +92,7 @@ def test_part_1_input_column_correct_implementation(capsys, monkeypatch):
 
     nums: list[str] = ["0", "2"]
     set_stdin(monkeypatch, nums)
-    module.input_column(16)
+    module.input_column(16, "column")
     out: str
     out, _ = capsys.readouterr()
     lines: list[str] = out.split("\n")
@@ -257,27 +248,13 @@ def test_part_4_main_correctly_calls_functions_with_input_row(capsys, monkeypatc
     """Part 4. `main` - makes use of the `input_row` function."""
     module = reimport_module(MODULE)
     try:
-        with mock.patch.object(module, "input_row", wraps=module.input_row) as student_input_row:
+        with mock.patch.object(module, "input_guess", wraps=module.input_guess) as student_input_guess:
             words: list[str] = ["2", "2", "2", "2", "2", "2", "2", "2", "2", "2"]
             set_stdin(monkeypatch, words)
             module.main(6, 1, 1)
-            student_input_row.assert_called()
+            student_input_guess.assert_called()
     except AssertionError as e:
-        e.args = ("Must call `input_row` from `main`.",)
-        raise e
-    
-@mark.weight(5)
-def test_part_4_main_correctly_calls_functions_with_input_column(capsys, monkeypatch):
-    """Part 4. `main` - makes use of the `input_column` function."""
-    module = reimport_module(MODULE)
-    try:
-        with mock.patch.object(module, "input_column", wraps=module.input_column) as student_input_column:
-            words: list[str] = ["2", "2", "2", "2", "2", "2", "2", "2", "2", "2"]
-            set_stdin(monkeypatch, words)
-            module.main(6, 1, 1)
-            student_input_column.assert_called()
-    except AssertionError as e:
-        e.args = ("Must call `input_column` from `main`.",)
+        e.args = ("Must call `input_guess` from `main`.",)
         raise e
     
 @mark.weight(5)

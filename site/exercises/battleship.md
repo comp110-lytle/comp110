@@ -118,7 +118,7 @@ The `main` flow of this game works as follows:
 1. The player has up to five turns.
 2. The player gets to `input_guess` a row and column within the bounds of the size of the grid.
 3. The guess is compared to the secret row and column and we `print_grid` / "codified" boxes are output
-    3. Recall, the guess location is red for hits and white for a miss which will be determined by a `correct_guess`function.
+    3. Recall, when a `correct_guess` is given, the guess location is a red box, otherwise, it is depicted as a white box.
 4. If the guess was correct, the game is over and the player wins.
 5. If the guess was incorrect, the game loop goes back to step 2 to continue on with the next turn.
 
@@ -152,7 +152,7 @@ Once you have tried implementing the function, import it for use in the REPL to 
     Python 3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
 
-    >>> from exercises.ex03_functional_battleship import input_row
+    >>> from exercises.ex03_functional_battleship import input_guess
     >>> input_guess(4, "row")
     Guess a row: 4
     4
@@ -252,7 +252,7 @@ The "state" of a game refers to the variables you need to keep track of in memor
 Then, begin the game loop `while` the user still has turns left to play _and_ the user hasn't won yet, you will want to do the following:
 
 1. Print the current turn number in a format such as `=== Turn 1/5 ===`
-2. Prompt the user for a row and column guess, relying on your functions `input_guess` to obtain a guess within the proper bounds.
+2. Prompt the user for a row and column guess, relying on your function `input_guess` to obtain a guess within the proper bounds.
 3. Verify the user's guess using `correct_guess`.
 4. Codify the emoji results of the user's guess by making use of your `print_grid` function. 
 4. If the user's guess is correct, the user has won! Print `Hit!` and `You won in N/6 turns!` where N is replaced with the number of guesses it took. End the loop by updating the appropriate variables.
