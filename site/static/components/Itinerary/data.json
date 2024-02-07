@@ -262,6 +262,17 @@
     "2024-02-06": [],
     "2024-02-07": [
         {
+            "kind": "CL",
+            "n": 6,
+            "title": "Practice With Functions",
+            "date": "2024-02-07",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/P7qTE-9_bGo?feature=share",
+                "Slides": "/static/slides/CL06.pdf"
+            }
+        },
+        {
             "kind": "EX",
             "n": 3,
             "title": "Structured Battleship<s><i>(Due Tuesday 2/13)</i></s> (Extended to Sunday 2/18)",
