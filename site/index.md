@@ -48,7 +48,7 @@ template: home
 <ul class="links"><li class="link"><a href="https://youtube.com/live/P7qTE-9_bGo?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL06.pdf">Slides</a></li>
 </ul></div><div class="plan Exercise">
-<span class="kind">EX03 </span><span class="title"><a href="/">Structured Battleship<s><i>(Due Tuesday 2/13)</i></s> (Extended to Sunday 2/18)</a></span></div></div>
+<span class="kind">EX03 </span><span class="title"><a href="/exercises/battleship.html">Structured Battleship<s><i>(Due Tuesday 2/13)</i></s> (Extended to Sunday 2/18)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 9</div>
 <div class="plans col-md-9"><div class="plan Quiz">
