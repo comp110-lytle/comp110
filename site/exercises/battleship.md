@@ -138,9 +138,9 @@ Before beginning work on the program, you should add a _docstring_ to the top of
 
 ## Part 1. `input_guess` - 20 points
 
-Declare a function named `input_guess`. The function will prompt for and eventually return the user's row or column guess. More specifically, the function takes in an `int` parameter representing the size of the grid, a `str` parameter representing  a specification of row or column, and an `int` return type. The algorithm of this function is _very similar_ to the user input logic you have already used in EX02——note how we have condensed repitive logic for inputting a row and column into one reusable function!
+Declare a function named `input_guess`. The function will prompt for and eventually return the user's row or column guess. More specifically, the function takes in an `int` parameter representing the size of the grid, a `str` parameter representing  a specification of row or column, and an `int` return type. The algorithm of this function is _very similar_ to the user input logic you have already used in EX02——note how we are condensing repetitive logic for inputting a row and column into one reusable function!
 
-Since the caller of this function can be expected to provide a correct argument for the '`str`, specifically one that is "row" or "column, we will "assert" this assumption in our code such that an error is raised if it is not found to be true. As the first line of code in your function's body, add the following assert statement and fill in the blank (`_____`) with your second parameter's name:
+Since the caller of this function can be expected to provide a correct argument for the `str` parameter, specifically one that is "row" or "column, we will "assert" this assumption in our code such that an error is raised if it is not found to be true. As the first line of code in your function's body, add the following assert statement and fill in the blank (`_____`) with your second parameter's name:
 
 `assert ______ == "row" or ______ == "column"`
 
@@ -173,26 +173,6 @@ Once you have tried implementing the function, import it for use in the REPL to 
         File "/workspace/exercises/ex03_functional_battleship.py", line 3, in input_guess
             assert type == "row" or type == "column"
     AssertionError
-    >>>quit()
-</div>
-</pre>
-
-You will do essentially the same for the `input_columns` function. Give it a whirl!
-
-<pre>
-<div class="terminal">
-    $ python                         
-    Python 3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
-    Type "help", "copyright", "credits" or "license" for more information.
-
-    >>> from exercises.ex03_functional_battleship import input_column
-    >>> input_column(4)
-    Guess a column: 0
-    The grid is only 4 by 4. Try again: 1
-    1
-    >>> input_column(3)
-    Guess a column: 3
-    3
     >>>quit()
 </div>
 </pre>
@@ -420,7 +400,7 @@ As you make progress on this exercise, making backups is encouraged.
 
 All that's left now is to hand-in your work on Gradescope for grading!
 
-Login to Gradescope and select the assignment named "EX03 - Structured Battleship". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
+Login to Gradescope and select the assignment named "EX03 - Functional Battleship". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
 
 If you _do not_ see a Terminal at the bottom of your screen, open the Command Palette and search for "View: Toggle Integrated Terminal".
 
