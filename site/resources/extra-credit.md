@@ -12,7 +12,7 @@ template: overview
 <!-- 
 - [Memory Diagram Guide](/exercises/mem-diag-ec.html) - This will add up to 5 percentage points to your Quiz 02 grade IF you score below a 60%. -->
 
-## Attend Tutoring**  
+## Attend Tutoring
 
 ### Make sure to check in on Course.Care for credit! 
 
