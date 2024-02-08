@@ -37,18 +37,14 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-02-05" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Feb 5</div>
-<div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL03 </span><span class="title"><a href="/virtual-classes/VL03.html">Virtual Lesson (Due Tuesday 2/6)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-02-07" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-02-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Feb 7</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL06 </span><span class="title">Practice With Functions</span>
 <ul class="links"><li class="link"><a href="https://youtube.com/live/P7qTE-9_bGo?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL06.pdf">Slides</a></li>
 </ul></div><div class="plan Exercise">
-<span class="kind">EX03 </span><span class="title"><a href="/exercises/battleship.html">Structured Battleship<s><i>(Due Tuesday 2/13)</i></s> (Extended to Sunday 2/18)</a></span></div></div>
+<span class="kind">EX03 </span><span class="title"><a href="/exercises/battleship.html">Functional Battleship<s><i>(Due Tuesday 2/13)</i></s> (Extended to Sunday 2/18)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 9</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -56,7 +52,7 @@ template: home
 <ul class="links"><li class="link"><a href="/resources/quiz-expectations.html">What to Expect</a></li>
 <li class="link"><a href="/resources/practice/sp24/qz01.html">Practice Problems</a></li>
 <li class="link"><a href="/resources/curriculum.html">Covered Topics: Units 0-3B</a></li>
-<li class="link">Virtual Review Session, Thursday, Feb 8 @ 7 pm</li>
+<li class="link"><a href="https://unc.zoom.us/j/96500701343?pwd=RHpSVTI5b253bVpoVm15eE83QmJOUT09">Virtual Review Session, Thursday, Feb 8 @ 7 pm</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-02-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Feb 19</div>
@@ -115,7 +111,11 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-02-02" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-02-05" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Feb 5</div>
+<div class="plans col-md-9"><div class="plan Virtual Lesson">
+<span class="kind">VL03 </span><span class="title"><a href="/virtual-classes/VL03.html">Virtual Lesson (Due Tuesday 2/6)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-02-02" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 2</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL05 </span><span class="title">while Loops + Debugger</span>
