@@ -52,7 +52,7 @@ template: home
 <ul class="links"><li class="link"><a href="/resources/quiz-expectations.html">What to Expect</a></li>
 <li class="link"><a href="/resources/practice/sp24/qz01.html">Practice Problems</a></li>
 <li class="link"><a href="/resources/curriculum.html">Covered Topics: Units 0-3B</a></li>
-<li class="link"><a href="https://unc.zoom.us/j/96500701343?pwd=RHpSVTI5b253bVpoVm15eE83QmJOUT09">Virtual Review Session, Thursday, Feb 8 @ 7 pm</a></li>
+<li class="link"><a href="https://unc.zoom.us/rec/share/m1wp9lY_pIzm4Rp1RSVLmn3ewnebFuuEgonU8DP0Gb-z3eI4_WosMR-1QBAkLYX9.eD191e6op8lTWsFD">Virtual Review Session (Passcode: a#6@NF+$)</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-02-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Feb 19</div>
