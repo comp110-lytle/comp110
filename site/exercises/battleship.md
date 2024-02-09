@@ -255,9 +255,9 @@ Then, begin the game loop `while` the user still has turns left to play _and_ th
 2. Prompt the user for a row and column guess, relying on your function `input_guess` to obtain a guess within the proper bounds.
 3. Verify the user's guess using `correct_guess`.
 4. Codify the emoji results of the user's guess by making use of your `print_grid` function. 
-4. If the user's guess is correct, the user has won! Print `Hit!` and `You won in N/6 turns!` where N is replaced with the number of guesses it took. End the loop by updating the appropriate variables.
+4. If the user's guess is correct, the user has won! Print `Hit!` and `You won in N/5 turns!` where N is replaced with the number of guesses it took. End the loop by updating the appropriate variables.
 5. Otherwise, print `Miss!` and move on to the next turn.
-6. If the user has exhuasted all turns,  print `X/6 - Better luck next time!` where `X` is literally the character `X` and end the game.
+6. If the user has exhuasted all turns,  print `X/5 - Better luck next time!` where `X` is literally the character `X` and end the game.
 
 As you are working on `main`, you can save your work and import the `main` function just like the others and try calling it:
 
@@ -350,7 +350,7 @@ As you are working on `main`, you can save your work and import the `main` funct
     🟦🟦🟦🟦
     🟦🟦🟦🟦
     Miss!
-    X/6 - Better luck next time!
+    X/5 - Better luck next time!
     >>> quit()
 </div>
 </pre>
