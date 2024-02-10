@@ -2,8 +2,7 @@
 title: Practice Memory Diagram
 author:
 - Created by Kaleb White
-- Reviewed by Rosey Anim
-- Published by Alyssa Lytle
+- Edited by Rosey Anim, Alyssa Lytle
 page: lessons
 template: overview
 ---
