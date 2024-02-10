@@ -24,7 +24,7 @@ template: overview
 # Solution
 
 
-<img class="img-fluid" src="/static/practice-mem-diagrams/nested-sol.png" alt="Image Description Here"  />
+<!-- <img class="img-fluid" src="/static/practice-mem-diagrams/nested-sol.png" alt="Image Description Here"  />
 
-## Image Description 
+## Image Description  -->
 *(Coming Soon)*

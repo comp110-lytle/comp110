@@ -29,13 +29,14 @@ def main() -> None:
     print(f"{grade} out of 3 questions correct.")
 
 
-if __name__ == "__main__":
-    main()
+main()
 ```
 
 # Solution
 
-![navyak_solution_4](navyak_solution_4.png)
+*Coming Soon*
+
+<!-- [navyak_solution_4](navyak_solution_4.png)
 
 *Image Description*
 
@@ -67,4 +68,4 @@ The check_quiz frame has 6 items including the RA and RV, and variables named re
 
 The Heap includes 2 function objects, and 2 list[bool] objects.
 
-Output includes the phrase: “2 out of 3 questions correct.”
+Output includes the phrase: “2 out of 3 questions correct.” -->

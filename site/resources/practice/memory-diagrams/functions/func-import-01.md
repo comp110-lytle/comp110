@@ -28,12 +28,14 @@ template: overview
         num1 = subtraction(num1)
         print(f"The number is {num1}")
 
-    if __name__ == "__main__":
-        main()
+    main()
 </code></pre>
 
 # Solution
 
+*Coming Soon*
+
+<!-- 
 <img class="img-fluid" src="/static/assets/f23/func-import-01-sol.png" alt="The Memory Diagram has three columns from the left to the right, including the
 Stack, the Heap and the Output.
 The Stack has 4 frames in the following order from top to bottom including,
@@ -88,4 +90,4 @@ The subtraction frame has 3 items, including x, RA, and RV.
 * RV is 7
 
 The Heap includes 3 function objects
-The Output includes the phrase: “The number is 7”
+The Output includes the phrase: “The number is 7” -->

@@ -27,8 +27,9 @@ template: overview
 
 # Solution
 
+*Coming Soon*
 
-* Note that for this solution, we did not represent the `range()` function on the heap! We instead just represented `y` as a variable on the stack that gets updated. If you chose to include a "range" object to the heap, we wouldn't take points off, but we are really just looking for the value of `y`!
+<!-- * Note that for this solution, we did not represent the `range()` function on the heap! We instead just represented `y` as a variable on the stack that gets updated. If you chose to include a "range" object to the heap, we wouldn't take points off, but we are really just looking for the value of `y`!
 
 <img class="img-fluid" src="/static/assets/f23/lists00-sol.png" alt=""  />
 
@@ -53,4 +54,4 @@ The Heap section shows two list objects and two string objects:
 * The first list on the heap has two values. The first value is “xx” with a crossed-out value of “x”. The second value is “yx” with a crossed-out value of “y”.
 * The second list on the heap has two values. The first value is “xx” and the second value is “yx”.
 
-The Output section at the top first prints “yx”, then the list [“xx”,”yx”].
+The Output section at the top first prints “yx”, then the list [“xx”,”yx”]. -->
