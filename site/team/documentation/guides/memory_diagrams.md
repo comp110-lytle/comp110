@@ -15,7 +15,7 @@ Team 110, please refer to the following instructions for creating memory diagram
 
 # Creating A Diagram
 
-If you are creating a memory diagram, you are free to do anything as long as it fulfills the [topic categories](/resources/practice/MemDiagrams.md) we are in need of and is within the scope of this course. Before you create a new memory diagram, check for notes on your previously submitted diagrams.
+If you are creating a memory diagram, you are free to do anything as long as it fulfills the [topic categories](/resources/practice/MemDiagrams.html) we are in need of and is within the scope of this course. Before you create a new memory diagram, check for notes on your previously submitted diagrams.
 
 
 
@@ -105,5 +105,5 @@ You can then add your changes to the site via a *pull request*!
 1. You might see a yellow notification box: "Your recently pushed branches...". If so select "Compare & Pull Request". If not, select "New Pull Request", and in the Compare branch drop-down select your branch.
 1. Scroll through the differences and confirm your latest changes were successfully pushed. If you don't see them, check that you committed everything you expected and pushed to your branch. Select "Create Pull Request".
 1. In the description box, briefly describe your branch.
-1. On the right-hand sidebar, select Alyssa or [the web lead](/team/documentation/leads/website.md) as a reviewer.
+1. On the right-hand sidebar, select Alyssa or [the web lead](/team/documentation/leads/website.html) as a reviewer.
 1. Create pull request!
