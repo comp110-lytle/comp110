@@ -23,8 +23,7 @@ def main():
     add_movie(my_movies, "Knives Out", 130)
     lookup_runtime(my_movies, "Clueless")
 
-if __name__ == "__main__":
-    main()
+main()
 ```
 
 # Solution

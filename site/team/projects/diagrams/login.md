@@ -31,8 +31,7 @@ def main() -> None:
     print(f"Your new password is: {new_password('110')}")
 
 
-if __name__ == "__main__":
-    main()
+main()
 ```
 
 # Solution

@@ -29,8 +29,7 @@ def main() -> None:
     print(f"{grade} out of 3 questions correct.")
 
 
-if __name__ == "__main__":
-    main()
+main()
 ```
 
 # Solution
