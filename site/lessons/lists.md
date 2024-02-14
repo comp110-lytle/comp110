@@ -53,11 +53,14 @@ Finally, remove something from your list by adding the following line *above* `p
 # Lists in Functions
 
 Functions can take lists as input
+
 ~~~
     def display(input: list[str]):
         """Print a list"""
         print(input)
 ~~~
+
+Functions can return lists
 
 ~~~
     def mimic(input: list[str]) -> list[str]:
@@ -65,16 +68,8 @@ Functions can take lists as input
         return input
 ~~~
 
-Functions can modify lists.
-~~~
-    def remove_first(input: list[str]):
-        input.pop(0)
-
-    remove_first(grocery_list)
-    print(grocery_list)
-~~~
-
 Functions can make lists
+
 ~~~
     def create(item1: str, item2: str) -> list[str]:
         """Create list of length 2."""
@@ -83,4 +78,17 @@ Functions can make lists
     
     created_list: list[str] = create("apricots", "oranges")
 ~~~
+
+
+
+Functions can modify lists.
+
+~~~
+    def remove_first(input: list[str]):
+        input.pop(0)
+
+    remove_first(grocery_list)
+    print(grocery_list)
+~~~
+
 
