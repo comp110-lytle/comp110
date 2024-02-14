@@ -12,6 +12,16 @@
                 "Lecture Video": "https://youtube.com/live/hGcGYAkLa8A?feature=share",
                 "Slides": "/static/slides/CL07.pdf"
             }
+        },
+        {
+            "kind": "LS",
+            "n": 16,
+            "title": "Lists (Due Thursday 2/15)",
+            "date": "2024-02-14",
+            "deadline": "2024-02-15",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
         }
     ],
     "2024-02-15": [],

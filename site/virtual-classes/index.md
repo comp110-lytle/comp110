@@ -85,3 +85,8 @@ page: lessons
 [Video](https://youtu.be/2RnI4bYMZww)
 </div>
 
+<div class="plan Class"><span class="kind">LS16 </span>
+<span class="title">lists:</span>
+[Video](https://youtu.be/U_GP3Jkz5lU) | [sldies](/static/slides/CL07.pdf)
+</div>
+

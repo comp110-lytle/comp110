@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="">CQ01 - FRI, FEB 16 11:59pm</a></li><li class="horizon-item"><a href="/exercises/battleship.html">EX03*(EXTENDED)* - SUN, FEB 18 11:59pm</a></li><li class="horizon-item"><span>VL04 - TUE, FEB 20 11:59pm</span></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS016 - THU, FEB 15 11:59pm</a></li><li class="horizon-item"><a href="">CQ01 - FRI, FEB 16 11:59pm</a></li><li class="horizon-item"><a href="/exercises/battleship.html">EX03*(EXTENDED)* - SUN, FEB 18 11:59pm</a></li><li class="horizon-item"><span>VL04 - TUE, FEB 20 11:59pm</span></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -43,7 +43,8 @@ template: home
 <span class="kind">CL07 </span><span class="title">Lists</span>
 <ul class="links"><li class="link"><a href="https://youtube.com/live/hGcGYAkLa8A?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL07.pdf">Slides</a></li>
-</ul></div></div>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS16 </span><span class="title"><a href="https://www.gradescope.com/">Lists (Due Thursday 2/15)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 16</div>
 <div class="plans col-md-9"><div class="plan Class">
