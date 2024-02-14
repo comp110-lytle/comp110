@@ -303,9 +303,43 @@
     "2024-02-11": [],
     "2024-02-12": [],
     "2024-02-13": [],
-    "2024-02-14": [],
+    "2024-02-14": [
+        {
+            "kind": "CL",
+            "n": 7,
+            "title": "Lists",
+            "date": "2024-02-14",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Slides": ""
+            }
+        }
+    ],
     "2024-02-15": [],
-    "2024-02-16": [],
+    "2024-02-16": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Lists Practice",
+            "date": "2024-02-16",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Slides": ""
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Lists Practice (Due Friday 2/16)",
+            "date": "2024-02-16",
+            "deadline": "2024-02-16",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-02-17": [],
     "2024-02-18": [],
     "2024-02-19": [

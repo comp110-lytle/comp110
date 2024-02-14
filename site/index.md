@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/quiz-expectations.html">QZ01 - FRI, FEB 09 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">CQ01 - FRI, FEB 16 11:59pm</a></li><li class="horizon-item"><a href="/exercises/battleship.html">EX03*(EXTENDED)* - SUN, FEB 18 11:59pm</a></li><li class="horizon-item"><span>VL04 - TUE, FEB 20 11:59pm</span></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,23 +37,21 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-02-07" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Feb 7</div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-02-14" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Feb 14</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL06 </span><span class="title">Practice With Functions</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/P7qTE-9_bGo?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/CL06.pdf">Slides</a></li>
-</ul></div><div class="plan Exercise">
-<span class="kind">EX03 </span><span class="title"><a href="/exercises/battleship.html">Functional Battleship<s><i>(Due Tuesday 2/13)</i></s> (Extended to Sunday 2/18)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Feb 9</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ01 </span><span class="title">Quiz 1</span>
-<ul class="links"><li class="link"><a href="/resources/quiz-expectations.html">What to Expect</a></li>
-<li class="link"><a href="/resources/practice/sp24/qz01.html">Practice Problems</a></li>
-<li class="link"><a href="/resources/curriculum.html">Covered Topics: Units 0-3B</a></li>
-<li class="link"><a href="https://unc.zoom.us/rec/share/m1wp9lY_pIzm4Rp1RSVLmn3ewnebFuuEgonU8DP0Gb-z3eI4_WosMR-1QBAkLYX9.eD191e6op8lTWsFD">Virtual Review Session (Passcode: a#6@NF+$)</a></li>
+<span class="kind">CL07 </span><span class="title">Lists</span>
+<ul class="links"><li class="link">Lecture Video</li>
+<li class="link">Slides</li>
 </ul></div></div>
+</div><div data-type="lecture" data-date="2024-02-16" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Feb 16</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL08 </span><span class="title">Lists Practice</span>
+<ul class="links"><li class="link">Lecture Video</li>
+<li class="link">Slides</li>
+</ul></div><div class="plan Challenge Question">
+<span class="kind">CQ01 </span><span class="title"><a href="https://www.gradescope.com/">Lists Practice (Due Friday 2/16)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Feb 19</div>
 <div class="plans col-md-9"><div class="plan Exercise">
@@ -111,7 +109,24 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-02-05" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Feb 9</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ01 </span><span class="title">Quiz 1</span>
+<ul class="links"><li class="link"><a href="/resources/quiz-expectations.html">What to Expect</a></li>
+<li class="link"><a href="/resources/practice/sp24/qz01.html">Practice Problems</a></li>
+<li class="link"><a href="/resources/curriculum.html">Covered Topics: Units 0-3B</a></li>
+<li class="link"><a href="https://unc.zoom.us/rec/share/m1wp9lY_pIzm4Rp1RSVLmn3ewnebFuuEgonU8DP0Gb-z3eI4_WosMR-1QBAkLYX9.eD191e6op8lTWsFD">Virtual Review Session (Passcode: a#6@NF+$)</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2024-02-07" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Feb 7</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL06 </span><span class="title">Practice With Functions</span>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/P7qTE-9_bGo?feature=share">Lecture Video</a></li>
+<li class="link"><a href="/static/slides/CL06.pdf">Slides</a></li>
+</ul></div><div class="plan Exercise">
+<span class="kind">EX03 </span><span class="title"><a href="/exercises/battleship.html">Functional Battleship<s><i>(Due Tuesday 2/13)</i></s> (Extended to Sunday 2/18)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-02-05" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Feb 5</div>
 <div class="plans col-md-9"><div class="plan Virtual Lesson">
 <span class="kind">VL03 </span><span class="title"><a href="/virtual-classes/VL03.html">Virtual Lesson (Due Tuesday 2/6)</a></span></div></div>
