@@ -41,17 +41,19 @@ template: home
 <div class="date col-md-2">Wed, Feb 14</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL07 </span><span class="title">Lists</span>
-<ul class="links"><li class="link">Lecture Video</li>
-<li class="link">Slides</li>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/hGcGYAkLa8A?feature=share">Lecture Video</a></li>
+<li class="link"><a href="/static/slides/CL07.pdf">Slides</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-02-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 16</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL08 </span><span class="title">Lists Practice</span>
-<ul class="links"><li class="link">Lecture Video</li>
-<li class="link">Slides</li>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/1ZxYIt6vKlg?feature=share">Lecture Video</a></li>
 </ul></div><div class="plan Challenge Question">
-<span class="kind">CQ01 </span><span class="title"><a href="https://www.gradescope.com/">Lists Practice (Due Friday 2/16)</a></span></div></div>
+<span class="kind">CQ01 </span><span class="title">Lists Practice (Due Friday 2/16)</span>
+<ul class="links"><li class="link">Instructions</li>
+<li class="link"><a href="https://www.gradescope.com/"></a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-02-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Feb 19</div>
 <div class="plans col-md-9"><div class="plan Exercise">

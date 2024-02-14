@@ -311,8 +311,8 @@
             "date": "2024-02-14",
             "deadline": "None",
             "links": {
-                "Lecture Video": "",
-                "Slides": ""
+                "Lecture Video": "https://youtube.com/live/hGcGYAkLa8A?feature=share",
+                "Slides": "/static/slides/CL07.pdf"
             }
         }
     ],
@@ -325,8 +325,7 @@
             "date": "2024-02-16",
             "deadline": "None",
             "links": {
-                "Lecture Video": "",
-                "Slides": ""
+                "Lecture Video": "https://youtube.com/live/1ZxYIt6vKlg?feature=share"
             }
         },
         {
@@ -336,6 +335,7 @@
             "date": "2024-02-16",
             "deadline": "2024-02-16",
             "links": {
+                "Instructions": "",
                 "": "https://www.gradescope.com/"
             }
         }
