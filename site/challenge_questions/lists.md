@@ -44,11 +44,32 @@ Start by opening your workspace in Visual Studio. Right click on the "lessons" f
 Set up your document by adding the docstring:
 `"""Mutating functions."""` and initializing the `__author__` variable with your PID.
 
-## Part 1. double()
+## Part 1. manual_append()
 
 Write a function definition with the following expectations:
 
-- The function name is `double` and is called with a `list[int]` as an argument.
+- The function name is `manual_append` has a `list[int]` and an `int` as parameters.
+- The function should return *nothing*.
+- The function should *mutate* its input *appending* the `int` parameter to the end of the `list[int]` parameter.
+- Explicitly type variables, parameters, and return types. 
+
+Example usage:
+<pre>
+<div class="terminal">>>> a: list[int] = [1,2,3]
+>>> manual_append(a, 2)
+>>> print(a)
+[1,2,3,2]
+</div>
+</pre>
+
+
+
+
+## Part 2. double()
+
+Write a function definition with the following expectations:
+
+- The function name is `double` and has a `list[int]` as a parameter.
 - The function should return *nothing*.
 - The function should *mutate* its input by multiplying every element in the `list[int]` parameter by 2
 - Explicitly type variables, parameters, and return types. 
@@ -62,6 +83,8 @@ Example usage:
 </div>
 </pre>
 
+
+Hint: You will need to use a `while` loop to iterate over every element in the list. 
 
 ## Submission
 
