@@ -142,6 +142,26 @@
             "links": {
                 "": "/virtual-classes/VL01.html"
             }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Practice Memory Diagram (Due Monday 1/22)",
+            "date": "2024-01-22",
+            "deadline": "2024-01-22",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Practice Memory Diagram with Conditionals (Due Monday 1/22)",
+            "date": "2024-01-22",
+            "deadline": "2024-01-22",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
         }
     ],
     "2024-01-23": [],
@@ -226,7 +246,7 @@
         },
         {
             "kind": "CQ",
-            "n": 0,
+            "n": 2,
             "title": "while Loops + Debugger (Due Tuesday 2/6)",
             "date": "2024-02-02",
             "deadline": "2024-02-06",
@@ -300,5 +320,6 @@
         }
     ],
     "2024-02-10": [],
-    "2024-02-11": []
+    "2024-02-11": [],
+    "2024-02-12": []
 }

@@ -1,5 +1,5 @@
 ---
-title: CQ08 - Lists + Functions
+title: CQ03 - Lists + Functions
 author:
   - Alyssa Lytle
 page: lessons
@@ -20,7 +20,7 @@ This last capability, *mutating* lists, is actually quite surprising! We aren't 
 For example, observe the following function:
 
 ```
-    def add_to_end(word: str):
+    def emphasize(word: str):
         word += "!"
 ```
 
@@ -29,7 +29,7 @@ When we call this function on a string, we aren't actually *mutating* the argume
 However, let's do something similar for a list!
 
 ```
-    def add_to_end(word: list):
+    def emphasize(word: list):
         word.append("!")
 ```
 

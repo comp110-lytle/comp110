@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS016 - THU, FEB 15 11:59pm</a></li><li class="horizon-item"><a href="">CQ01 - FRI, FEB 16 11:59pm</a></li><li class="horizon-item"><a href="/exercises/battleship.html">EX03*(EXTENDED)* - SUN, FEB 18 11:59pm</a></li><li class="horizon-item"><span>VL04 - TUE, FEB 20 11:59pm</span></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS016 - THU, FEB 15 11:59pm</a></li><li class="horizon-item"><a href="/challenge_questions/lists.html">CQ03 - FRI, FEB 16 11:59pm</a></li><li class="horizon-item"><a href="/exercises/battleship.html">EX03*(EXTENDED)* - SUN, FEB 18 11:59pm</a></li><li class="horizon-item"><span>VL04 - TUE, FEB 20 11:59pm</span></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD00 - THU, FEB 22 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -51,12 +51,11 @@ template: home
 <span class="kind">CL08 </span><span class="title">Lists Practice</span>
 <ul class="links"><li class="link"><a href="https://youtube.com/live/1ZxYIt6vKlg?feature=share">Lecture Video</a></li>
 </ul></div><div class="plan Challenge Question">
-<span class="kind">CQ01 </span><span class="title">Lists Practice (Due Friday 2/16)</span>
-<ul class="links"><li class="link"></li>
-</ul></div></div>
+<span class="kind">CQ03 </span><span class="title"><a href="/challenge_questions/lists.html">Lists + Functions (Due Friday 2/16)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Feb 19</div>
-<div class="plans col-md-9"><div class="plan Exercise">
+<div class="plans col-md-9"><div class="plan Virtual Lesson">
+<span class="kind">VL04 </span><span class="title">Virtual Lesson (Due Tuesday 2/20)</span></div><div class="plan Exercise">
 <span class="kind">EX04 </span><span class="title"><a href="/">List Utils (Due Sunday 2/25)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-23" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 23</div>
@@ -138,7 +137,7 @@ template: home
 <span class="kind">CL05 </span><span class="title">while Loops + Debugger</span>
 <ul class="links"><li class="link"><a href="https://youtube.com/live/1V1LKJ0ETd0?feature=share">Lecture Video</a></li>
 </ul></div><div class="plan Challenge Question">
-<span class="kind">CQ00 </span><span class="title"><a href="https://www.gradescope.com/">while Loops + Debugger (Due Tuesday 2/6)</a></span></div><div class="plan Reading">
+<span class="kind">CQ02 </span><span class="title"><a href="https://www.gradescope.com/">while Loops + Debugger (Due Tuesday 2/6)</a></span></div><div class="plan Reading">
 <span class="kind">RD00 </span><span class="title"><a href="https://www.gradescope.com/">Reading: The Ethical Algorithm (Due Thursday 2/22)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-01-31" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Jan 31</div>
@@ -171,7 +170,9 @@ template: home
 </div><div data-type="lecture" data-date="2024-01-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Jan 22</div>
 <div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL01 </span><span class="title"><a href="/virtual-classes/VL01.html">Virtual Lesson 01 (Due Tuesday 1/23)</a></span></div></div>
+<span class="kind">VL01 </span><span class="title"><a href="/virtual-classes/VL01.html">Virtual Lesson 01 (Due Tuesday 1/23)</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ00 </span><span class="title"><a href="https://www.gradescope.com/">Practice Memory Diagram (Due Monday 1/22)</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ01 </span><span class="title"><a href="https://www.gradescope.com/">Practice Memory Diagram with Conditionals (Due Monday 1/22)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-01-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jan 19</div>
 <div class="plans col-md-9"><div class="plan Exercise">
