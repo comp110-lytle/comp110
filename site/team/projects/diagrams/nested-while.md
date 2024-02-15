@@ -23,12 +23,12 @@ template: overview
 
 # Solution
 
-<!-- <img class="img-fluid" src="" alt="(Image Description as one line:) The memory diagram includes a column on the left titled Stack and a column on the right titled Output. The stack contains vars num_1 and num_2, and the output has the multiplication tables for 1-3."  /> -->
+<img class="img-fluid" src="./nested-while.jpeg" alt="(Image Description as one line:) The memory diagram includes a column on the left titled Stack and a column on the right titled Output. The stack contains vars num_1 and num_2, and the output has the multiplication tables for 1-3."  />
 
 *Image Description:* 
 
 The memory diagram includes a column on the left titled Stack and a column on the right titled Output. 
-
+`
 The stack contains:
 
 * only one frame - globals
