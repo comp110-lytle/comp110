@@ -189,14 +189,100 @@
         }
     ],
     "2024-01-30": [],
-    "2024-01-31": [],
+    "2024-01-31": [
+        {
+            "kind": "CL",
+            "n": 4,
+            "title": "Practice with while Loops",
+            "date": "2024-01-31",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/IzVtEvML7tY?feature=share",
+                "Lecture Slides": "/static/slides/CL04.pdf"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "One-shot Battleship (Due Tuesday 2/6)",
+            "date": "2024-01-31",
+            "deadline": "2024-02-06",
+            "links": {
+                "": "/exercises/one-shot-battleship.html"
+            }
+        }
+    ],
     "2024-02-01": [],
-    "2024-02-02": [],
+    "2024-02-02": [
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "while Loops + Debugger",
+            "date": "2024-02-02",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/1V1LKJ0ETd0?feature=share"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "while Loops + Debugger (Due Tuesday 2/6)",
+            "date": "2024-02-02",
+            "deadline": "2024-02-06",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "RD",
+            "n": 0,
+            "title": "Reading: The Ethical Algorithm (Due Thursday 2/22)",
+            "date": "2024-02-02",
+            "deadline": "2024-02-22",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-02-03": [],
     "2024-02-04": [],
-    "2024-02-05": [],
+    "2024-02-05": [
+        {
+            "kind": "VL",
+            "n": 3,
+            "title": "Virtual Lesson (Due Tuesday 2/6)",
+            "date": "2024-02-05",
+            "deadline": "2024-02-06",
+            "links": {
+                "": "/virtual-classes/VL03.html"
+            }
+        }
+    ],
     "2024-02-06": [],
-    "2024-02-07": [],
+    "2024-02-07": [
+        {
+            "kind": "CL",
+            "n": 6,
+            "title": "Practice With Functions",
+            "date": "2024-02-07",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/P7qTE-9_bGo?feature=share",
+                "Slides": "/static/slides/CL06.pdf"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 3,
+            "title": "Functional Battleship<s><i>(Due Tuesday 2/13)</i></s> (Extended to Sunday 2/18)",
+            "date": "2024-02-07",
+            "deadline": "2024-02-13",
+            "links": {
+                "": "/exercises/battleship.html"
+            }
+        }
+    ],
     "2024-02-08": [],
     "2024-02-09": [
         {
@@ -205,28 +291,109 @@
             "title": "Quiz 1",
             "date": "2024-02-09",
             "deadline": "2024-02-09",
-            "links": {}
+            "links": {
+                "What to Expect": "/resources/quiz-expectations.html",
+                "Practice Problems": "/resources/practice/sp24/qz01.html",
+                "Covered Topics: Units 0-3B": "/resources/curriculum.html",
+                "Virtual Review Session (Passcode: a#6@NF+$)": "https://unc.zoom.us/rec/share/m1wp9lY_pIzm4Rp1RSVLmn3ewnebFuuEgonU8DP0Gb-z3eI4_WosMR-1QBAkLYX9.eD191e6op8lTWsFD"
+            }
         }
     ],
     "2024-02-10": [],
     "2024-02-11": [],
     "2024-02-12": [],
     "2024-02-13": [],
-    "2024-02-14": [],
+    "2024-02-14": [
+        {
+            "kind": "CL",
+            "n": 7,
+            "title": "Lists",
+            "date": "2024-02-14",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/hGcGYAkLa8A?feature=share",
+                "Slides": "/static/slides/CL07.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 16,
+            "title": "Lists (Due Thursday 2/15)",
+            "date": "2024-02-14",
+            "deadline": "2024-02-15",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-02-15": [],
-    "2024-02-16": [],
+    "2024-02-16": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Lists Practice",
+            "date": "2024-02-16",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/1ZxYIt6vKlg?feature=share"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Lists Practice (Due Friday 2/16)",
+            "date": "2024-02-16",
+            "deadline": "2024-02-16",
+            "links": {
+                "": ""
+            }
+        }
+    ],
     "2024-02-17": [],
     "2024-02-18": [],
-    "2024-02-19": [],
+    "2024-02-19": [
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "List Utils (Due Sunday 2/25)",
+            "date": "2024-02-19",
+            "deadline": "2024-02-25",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-02-20": [],
     "2024-02-21": [],
     "2024-02-22": [],
-    "2024-02-23": [],
+    "2024-02-23": [
+        {
+            "kind": "RD",
+            "n": 1,
+            "title": "Weapons of Math Destruction (Due Thursday 3/14)",
+            "date": "2024-02-23",
+            "deadline": "2024-03-14",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-02-24": [],
     "2024-02-25": [],
     "2024-02-26": [],
     "2024-02-27": [],
-    "2024-02-28": [],
+    "2024-02-28": [
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "Battleship Revisited (Due Tuesday 3/5)",
+            "date": "2024-02-28",
+            "deadline": "2024-03-05",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-02-29": [],
     "2024-03-01": [
         {
@@ -242,7 +409,18 @@
     "2024-03-03": [],
     "2024-03-04": [],
     "2024-03-05": [],
-    "2024-03-06": [],
+    "2024-03-06": [
+        {
+            "kind": "EX",
+            "n": 6,
+            "title": "Dictionary Utils (Due Tuesday 3/12)",
+            "date": "2024-03-06",
+            "deadline": "2024-03-12",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-03-07": [],
     "2024-03-08": [],
     "2024-03-09": [],
@@ -256,9 +434,32 @@
     "2024-03-17": [],
     "2024-03-18": [],
     "2024-03-19": [],
-    "2024-03-20": [],
+    "2024-03-20": [
+        {
+            "kind": "EX",
+            "n": 7,
+            "title": "Dictionary Unit Tests (Due Sunday 3/31)",
+            "date": "2024-03-20",
+            "deadline": "2024-03-31",
+            "links": {
+                "": "/exercises/dict_unit_tests.html"
+            }
+        }
+    ],
     "2024-03-21": [],
-    "2024-03-22": [],
+    "2024-03-22": [
+        {
+            "kind": "RD",
+            "n": 2,
+            "title": "Reading: Man versus Machine or Man + Machine? (Due Thursday 4/11)",
+            "date": "2024-03-22",
+            "deadline": "2024-04-11",
+            "links": {
+                "Article": "https://hal.pratt.duke.edu/sites/hal.pratt.duke.edu/files/u10/IS-29-05-Expert%20Opinion%5B1%5D_0.pdf",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-03-23": [],
     "2024-03-24": [],
     "2024-03-25": [],
@@ -277,7 +478,18 @@
     "2024-03-29": [],
     "2024-03-30": [],
     "2024-03-31": [],
-    "2024-04-01": [],
+    "2024-04-01": [
+        {
+            "kind": "EX",
+            "n": 8,
+            "title": "Recursive Turtle (Due Tuesday 4/9)",
+            "date": "2024-04-01",
+            "deadline": "2024-04-09",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-04-02": [],
     "2024-04-03": [],
     "2024-04-04": [],
@@ -286,7 +498,18 @@
     "2024-04-07": [],
     "2024-04-08": [],
     "2024-04-09": [],
-    "2024-04-10": [],
+    "2024-04-10": [
+        {
+            "kind": "EX",
+            "n": 9,
+            "title": "River Simulation (Due Tuesday 4/23)",
+            "date": "2024-04-10",
+            "deadline": "2024-04-23",
+            "links": {
+                "": "/exercises/river-sim.html"
+            }
+        }
+    ],
     "2024-04-11": [],
     "2024-04-12": [],
     "2024-04-13": [],
@@ -309,7 +532,18 @@
     "2024-04-21": [],
     "2024-04-22": [],
     "2024-04-23": [],
-    "2024-04-24": [],
+    "2024-04-24": [
+        {
+            "kind": "EX",
+            "n": 10,
+            "title": "Linked Lists (Due Tuesday 4/30)",
+            "date": "2024-04-24",
+            "deadline": "2024-04-30",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-04-25": [],
     "2024-04-26": [],
     "2024-04-27": [],

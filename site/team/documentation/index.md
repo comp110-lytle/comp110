@@ -11,14 +11,21 @@ site-branch: team
 
 <div class="link-page box">
 
-### Development 
+### Logistics 
 
 * [Onboarding](/team/documentation/guides/onboarding.html)
-* [Mentorship Guide](/team/documentation/guides/mentor_guide.html)
 * [Site Dev Setup](/team/documentation/guides/course_site_setup.html)
 * [TA Profile](/team/documentation/guides/ta_profile.html)
 * [Site Markdown](/team/documentation/guides/course_site_markdown.html)
 * [Site Features](/team/documentation/guides/course_site_features.html)
+</div>
+
+<div class="link-page box">
+
+### Development
+
+* [Mentorship Guide](/team/documentation/guides/mentor_guide.html)
+* [Creating Memory Diagrams](/team/documentation/guides/memory_diagrams.html)
 <!-- * [Git Guide](/team/documentation/guides/git_guide.html) -->
 <!-- * [Shift Overflow](/team/documentation/guides/shiftoverflow_dev.html) -->
 </div>

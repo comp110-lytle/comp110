@@ -2,8 +2,7 @@
 title: Practice Memory Diagram
 author:
 - Created by Kaleb White
-- Reviewed by Rosey Anim
-- Published by Alyssa Lytle
+- Edited by Rosey Anim, Alyssa Lytle
 page: lessons
 template: overview
 ---
@@ -28,12 +27,14 @@ template: overview
         a = biggest_func(a)
         print(f"Wow! {a} is a big number!")
 
-    if __name__ == "__main__":
-        main()
+    main()
 </code></pre>
 
 # Solution
 
+*Coming Soon*
+
+<!-- 
 <img class="img-fluid" src="/static/assets/f23/func-import-00-sol.png" alt="The memory diagram is labeled Stack, Heap, and Output, on the left, center, and right of the page. Stack contains five frames, including Globals, main, biggest_func, bigger_func, and big)func, from top to bottom. 
 The frame Globals contains four references to function definitions. Function big_func points to lines 1-3 on the heap. bigger_func points to lines 5-7. biggest_func points to lines 9-11. main points to lines 13-16. 
 Each frame has a RA (return address) and RV (return value) listed on their left side. For the frame main, the RA is 19 and RV is none. main also contains the variable a, which initially is assigned 110. After the execution of all other frames, a’s value is reassigned to 50176.
@@ -54,4 +55,4 @@ The frame after biggest_func is bigger_func. bigger_func has the same names for 
 
 The last frame is the function big_func. big_func has an RA of 6 and RV of 112. It also has the parameter num with a value of 110 and local variable a with a value of 112.
 
-After all the frames below main have returned, function main will print out “Wow! 50176 is a big number!”. This sentence is listed under Output, on the right.
+After all the frames below main have returned, function main will print out “Wow! 50176 is a big number!”. This sentence is listed under Output, on the right. -->

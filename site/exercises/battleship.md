@@ -1,144 +1,128 @@
 ---
-title: EX03 - Battleship
+title: EX03 - Functional Battleship
 author:
 - Camilla Fratta
 - Audrey Salmon
+- Vrinda Desai
 page: exercises
+template: overview
 ---
 
-In this exercise, you will use the concept of *functions*, as well as those of the previous units. Please complete all lessons before attempting to begin this exercise.
-
-In this exercise, you will prompt the user for a word that matches the length of your secret word. We'll use `"codes"` for the purposes of our examples and autograding. Just like in the previous exercise, your program will be able to work with a secret word of any length, though! After submitting to autograding for full credit, you should change your word and let your friends play your new and improved game.
-
-You should follow the steps below for implementing the program function at a time. To get a sense of where you are going, here are two examples of the final game:
+In this exercise, you will use the concept of *functions* to organize much of the functionality we developed in EX02. Moreover, rather than only getting one-attempt at guessing the secret boat location, you will get five! To get a sense of where you are going, here are two examples of the final game:
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex03_battleship
-    Turn 1/6
-    Guess a column: 1
+    $ python -m exercises.ex03_functional_battleship
+    === Turn 1/5 ===
     Guess a row: 2
+    Guess a column: 1
     🟦🟦🟦🟦🟦
     ⬜🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     Miss!
-    Turn 2/6
-    Guess a column: 4
+    === Turn 2/5 ===
     Guess a row: 2
+    Guess a column: 4
     🟦🟦🟦🟦🟦
     🟦🟦🟦⬜🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
-    Close! Correct column, wrong row.
-    Turn 3/6
-    Guess a column: 1
+    Miss!
+    === Turn 3/5 ===
     Guess a row: 2
+    Guess a column: 1
     🟦🟦🟦🟦🟦
     ⬜🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
-    Turn 4/6
-    Guess a column: 9
-    The grid is only 5 by 5.
-    Guess a column: 6
-    The grid is only 5 by 5.
-    Guess a column: 4
+    Miss!
+    === Turn 4/5 ===
     Guess a row: 3
-    Hit!
-    You won in 4/6 turns!
+    Guess a column: 9
+    The grid is only 5 by 5. Try again: 6
+    The grid is only 5 by 5. Try again: 4
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟥🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
+    Hit!
+    You won in 4/5 turns!
 
-    $ python -m exercises.ex03_battleship
-    Turn 1/6
-    Guess a column: 1
+    $ python -m exercises.ex03_functional_battleship
+    === Turn 1/5 ===
     Guess a row: 1
-    Close! Right row, wrong column.
+    Guess a column: 1
     ⬜🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
-    Turn 2/6
-    Guess a column: 2
+    Miss!
+    === Turn 2/5 ===
     Guess a row: 2
+    Guess a column: 2
     🟦🟦🟦🟦🟦
     🟦⬜🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
-    Turn 3/6
-    Guess a column: 3
+    Miss!
+    === Turn 3/5 ===
     Guess a row: 3
-    Close! Right column, wrong row.
+    Guess a column: 3
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦⬜🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
-    Turn 4/6
-    Guess a column: 4
+    Miss!
+    === Turn 4/5 ===
     Guess a row: 4
+    Guess a column: 4
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦⬜🟦
     🟦🟦🟦🟦🟦
-    Turn 5/6
-    Guess a column: 5
-    Guess a row: 5
-    🟦🟦🟦🟦🟦
-    🟦🟦🟦🟦🟦
-    🟦🟦🟦🟦🟦
-    🟦🟦🟦🟦🟦
-    🟦🟦🟦🟦⬜
-    Turn 6/6
+    Miss!
+    === Turn 5/5 ===
     Guess a column: 6
-    The grid is only 5 by 5.
-    Guess a column: 6
-    The grid is only 5 by 5.
-    Guess a column: 5
-    Guess a row: 4
+    The grid is only 5 by 5. Try again: 5
+    Guess a column: 0
+    The grid is only 5 by 5. Try again: 5
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦⬜
     🟦🟦🟦🟦🟦
     Miss!
-    X/6 - Sorry, try again tomorrow!
+    X/5 - Better luck next time!
 </div>
 </pre>
 
 ## Permitted Constructs
 
-We expect you to implement this exercise using only the concepts covered in COMP110. If you have prior programming experience, restrict your implementation to only the concepts covered. While there are many ways to implement this program with additional concepts beyond those we have covered, you should not attempt to do so until after submitting this exercise for full credit once the autograder is posted. Gaining additional practice with the fundamentals may feel clunky, but will help ensure you have full command over the concepts we expect you to know. Additionally, it is good practice for working in other programming environments which are more constrained and require creativity to overcome restrictions. For this exercise, you will be penalized for using any kind of loop construct other than a `while` loop. Additionally, the `in` operator, the `break` operator, and string methods (such as `.count` and `.format`) are not permitted.
+We expect you to implement this exercise using only the concepts covered in COMP110. If you have prior programming experience, restrict your implementation to only the concepts covered. While there are many ways to implement this program with additional concepts beyond those we have covered, you should not attempt to do so until after submitting this exercise for full credit once the autograder is posted. Gaining additional practice with the fundamentals may feel clunky, but will help ensure you have full command over the concepts we expect you to know. Additionally, it is good practice for working in other programming environments which are more constrained and require creativity to overcome restrictions. For this exercise, you will be penalized for using any kind of loop construct other than a `while` loop.
 
 ## Overview
 
 In this program, you will implement a `main` function that contains Battleship's "game loop". The game loop is what controls the overall game logic:
 
-The `main` fow of this game works as follows:
+The `main` flow of this game works as follows:
 
-1. You have up to six turns
-2. Each turn the player gets to `input_row` and `input_column` each within the bounds of the size of the grid.
-    1. If either guess is out of bounds, you get to make additional guesses
-3. The guess is compared with the secret row and column and `print_grid` / "codified" boxes are output
-    1. Blue for rows & columns that don't exist in the secret.
-    2. White for misses. If either the row or column match, provide a hint to the user.
-    3. Red for hits where both the row and column match (`correct_guess`).
-4. If the guess was correct, the game is over and the player wins
-5. If the guess was incorrect, the game loop goes back to step 2 for another `one_turn` and continues with next turn
+1. The player has up to five turns.
+2. The player gets to `input_guess` a row and column within the bounds of the size of the grid.
+3. The guess is compared to the secret row and column and we `print_grid` / "codified" boxes are output
+    3. Recall, when a `correct_guess` is given, the guess location is a red box, otherwise, it is depicted as a white box.
+4. If the guess was correct, the game is over and the player wins.
+5. If the guess was incorrect, the game loop goes back to step 2 to continue on with the next turn.
 
-Each of the five `monospace font-face` words above (`main`, `input_row`, `input_column`, `print_grid`, `correct_guess`, and `one_turn`) will be implemented as a _function_ definition to more logically structure the process of your program into simpler abstractions that can be reused.
-
-You will start by building the smaller, simpler building-block functions first (`input_row`, `input_column`, `print_grid`, and `correct_guess` which helps you build `one_turn`), before finally bringing together `one_turn` for use in `main`'s game loop. This bottoms-up process helps us break down the problem into more manageable steps. Along the way, you will be refashioning the same algorithmic ideas you have already implemented in EX02, but in a program structured with functions.
+Each of the four `monospace font-face` words above (`input_guess`,`print_grid`, `correct_guess`, `main`) will be implemented as _functions_ to better structure your program into simple, reusable abstractions. Once you have created these building-blocks, you will put them together by calling them within the `main` function.
 
 ## Part 0. Setting up the Python Program
 
@@ -148,23 +132,19 @@ Open the Explorer pane (click the icon with two sheets of paper or to to _View_ 
 
 Right click on the `exercises` directory and select "New File". Enter the following filename, being careful to match capitalization and punctuation:
 
-* `ex03_battleship.py`
+* `ex03_functional_battleship.py`
 
 Before beginning work on the program, you should add a _docstring_ to the top of your Python _module_ just as you have previously. Then, you should add a line with the special variable named `__author__` assigned to be a **string** with your 9-digit student PID.
 
-## Part 1. `input_row` and `input_column` - 10 points
+## Part 1. `input_guess` - 20 points
 
-Declare a function named `input_row`. Its purpose is when given the size of the grid, it will return an integer to get the user's guess for the row. It allows the user to guess until they choose a number within the bounds of the size of the grid.
+Declare a function named `input_guess`. The function will prompt for and eventually return the user's row or column guess. More specifically, the function takes in an `int` parameter representing the size of the grid, a `str` parameter representing  a specification of row or column, and an `int` return type. The algorithm of this function is _very similar_ to the user input logic you have already used in EX02——note how we are condensing repetitive logic for inputting a row and column into one reusable function!
 
-More specifically, declare your `input_row` function such that:
+Since the caller of this function can be expected to provide a correct argument for the `str` parameter, specifically one that is "row" or "column, we will "assert" this assumption in our code such that an error is raised if it is not found to be true. As the first line of code in your function's body, add the following assert statement and fill in the blank (`_____`) with your second parameter's name:
 
-1. It has one parameter (name it descriptively) that is an `int` the size of the grid.
-2. An `int` return type
-3. A doctring description the purpose of the function in your own words
+`assert ______ == "row" or ______ == "column"`
 
-The algorithm of this function is _very similar_ to the user input logic you have already used in EX02.
-
-Once you have your best first attempt to implement this function, you can import it for use in the REPL to test it out. Save your work and then run the following commands:
+Once you have tried implementing the function, import it for use in the REPL to test it out. As featured in the example below, run the `python` command to start the REPL. Subsequently, the command `from exercises.ex03_functional_battleship import input_guess` will `import` your function definition `from` your `exercises.ex03_functional_battleship`. Type out the example _function calls_ to check that your function returns the expected values. 
 
 <pre>
 <div class="terminal">
@@ -172,190 +152,112 @@ Once you have your best first attempt to implement this function, you can import
     Python 3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
 
-    >>> from ta.battleship_3 import input_row
-    >>> print(input_row(4))
+    >>> from exercises.ex03_functional_battleship import input_guess
+    >>> input_guess(4, "row")
     Guess a row: 4
     4
-
-    >>> from ta.battleship_3 import input_row
-    >>> print(input_row(3))
-    Guess a row: 3
-    3
-</div>
-</pre>
-
-Notice, in the REPL, the line `from exercises.ex03_battleship import input_row` will `import` your function definition `from` your `exercises.ex03_battleship` so that you can make use of your function in the REPL. You can then type out example _function calls_ to test your implementation and be sure your function definition is returning the correct and expected values, as shown above. Your results must match exactly.
-
-You will need to do essentially the same function for `input_columns`. Give it a whirl!
-
-<pre>
-<div class="terminal">
-    $ python                         
-    Python 3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
-    Type "help", "copyright", "credits" or "license" for more information.
-
-    >>> from ta.battleship_3 import input_column
-    >>> print(input_row(4))
+    >>> input_guess(3, "row")
     Guess a row: 4
-    4
-    >>> from ta.battleship_3 import input_column
-    >>> print(input_row(3))
-    Guess a row: 3
+    The grid is only 3 by 3. Try again: 2
+    2
+    >>> input_guess(4, "column")
+    Guess a column: 0
+    The grid is only 4 by 4. Try again: 1
+    1
+    >>> input_guess(3, "column")
+    Guess a column: 3
     3
+    >>> input_guess(4, "rolumn")
+    Traceback (most recent call last):
+        File "<stdin>", line 1, in <module>
+        File "/workspace/exercises/ex03_functional_battleship.py", line 3, in input_guess
+            assert type == "row" or type == "column"
+    AssertionError
     >>>quit()
 </div>
 </pre>
 
 ## Part 2. `print_grid` - 20 points
 
-Declare a function named `print_grid`. Its purpose is given a red or white box (hit or miss), the size of the grid, and the user's guess for the row and column, it will return a grid of boxes with the user's red or white box included. It _codifies_ the same as you previously implemented in EX02. You should reuse the name constants you setup in EX02 for the colored emoji boxes. The body of this function must make user of your `input_row` and `input_column` functions definitions by calling it to test for the user's input. Using this description, write your function header and docstring.
+Declare a function named `print_grid`. Given the size of the grid, the user's row and column guesses, and whether the guesses were correct, the function will print a grid of boxes to represent the game board. The function has:
 
-Once you have implemented this function, you can import it for use in the REPL to test it out, just like above. Be sure to save your work each time before restarting the `python` REPL, then try the following:
+1. An `int` parameter representing the size of the grid.
+2. An `int` parameter representing the row guess.
+3. An `int` parameter representing the column guess.
+4. A `bool` parameter representing if the user's guess was correct.
+5. A `None` return type. 
+
+The body of this function should utilize the named constants you setup in EX02 for the colored emoji boxes. Just as before, you may test out this function in the REPL.
 
 <pre>
 <div class="terminal">
 $ python
 Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
->>> from ta.battleship_3 import print_grid
->>> BLUE_BOX: str = "\U0001F7E6"
->>> RED_BOX: str = "\U0001F7E5"
->>> WHITE_BOX: str = "\U00002B1C"
->>> print(print_grid(RED_BOX,4,3,2))
+>>> from exercises.ex03_functional_battleship import print_grid
+>>> print_grid(4,3,2,True)
 🟦🟦🟦🟦
 🟦🟦🟦🟦
 🟦🟥🟦🟦
 🟦🟦🟦🟦
-None
->>> print(print_grid(RED_BOX,4,3,2))
-🟦🟦🟦🟦
-🟦🟦🟦🟦
-🟦🟥🟦🟦
-🟦🟦🟦🟦
-None
->>> print(print_grid(WHITE_BOX,4,3,2))  
+>>> print_grid(5,1,1,True)
+🟥🟦🟦🟦🟦
+🟦🟦🟦🟦🟦
+🟦🟦🟦🟦🟦
+🟦🟦🟦🟦🟦
+🟦🟦🟦🟦🟦
+>>> print_grid(4,3,2,False)
 🟦🟦🟦🟦
 🟦🟦🟦🟦
 🟦⬜🟦🟦
 🟦🟦🟦🟦
-None
 </div>
 </pre>
 
-Now you have a function that, given a row and column guess, will print out a resulting grid. Notice how your `print_grid` function makes use of the simpler `input_row` and `input_column` funtion to build up more complex behavior. This is the beauty of _abstraction_!
-
-Once your `print_grid` function is working correctly as shown above, continue on.
+Notice how your `print_grid` function contains all of the logic needed to create any sort of grid representation, given just a few pieces of information. This is the beauty of _abstraction_!
 
 ## Part 3. `correct_guess` -- 10 Points
 
-Declare a function named `correct_guess`. Its purpose is given a row and column, as well as a user's guess for a row and column, it one of four statement options: "Hit!", "Close! Right row, wrong column.", "Close! Right column, wrong row.", and "Miss!". It also returns a `bool` whether the user has won (`True`) or not (`False`).
+Declare a function named `correct_guess`. Given the secret boat location and the user's guess, the function will return if the user was correct or not. The function should take in four `int` parameters representing the secret row, the secret column, the row guess, and the column guess, and it will return a `bool`.
 
 <pre>
 <div class="terminal">
     $ python
     Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> from ta.battleship_3 import correct_guess
-    >>> print(correct_guess(3,2,3,1))  
-    Close! Right row, wrong column.
+    >>> from exercises.ex03_functional_battleship import correct_guess
+    >>> correct_guess(4,4,3,1) 
     False
-    >>> print(correct_guess(3,2,1,2))  
-    Close! Right column, wrong row.
+    >>> correct_guess(3,2,1,2)
     False
-    >>> print(correct_guess(3,2,1,1))  
-    Miss!
-    False
-    >>> quit()
-    >>> print(correct_guess(3,2,3,2))
-    Hit!
+    >>> correct_guess(1,1,1,1)
     True
-</div>
-</pre>
-
-## Part 4. `one_turn` - 10 Points
-
-Declare a function named `one_turn`. Its purpose is given the size of a grid, a row and column where the boat is hidden, it will prompt the user for a guess row and column, and execute one round of the game, including printing the grid. Make `one_turn` return a `str` (you'll get why below). The implementation of this function will behave very similarly to your logic in EX02.
-
-In this version of battleship, you will allow the user to have 6 turns before exiting the game. In order to keep track of previous guesses (that are misses), create a new empty string variable in the function. Then, if the guess is a miss, update that variable with an f-string of the "coordinates" of the guess. Then, return that string. In the game loop, you'll improve this tracking.
-
-Once you have implemented this function, you can import it for use in the REPL just like the examples above. Be sure to save your work before restarting the `python` REPL, then try the following:
-
-<pre>
-<div class="terminal">
-    $ python
-    Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
-    Type "help", "copyright", "credits" or "license" for more information.
-    >>> from ta.battleship_3 import one_turn
-    >>> print(one_turn(4,3,2))
-    Guess a row: 1
-    Guess a column: 1
-    Miss!
-    ⬜🟦🟦🟦
-    🟦🟦🟦🟦
-    🟦🟦🟦🟦
-    🟦🟦🟦🟦
-    (row: 1, column: 1)
-    >>> print(one_turn(4,3,2))
-    Guess a row: 2
-    Guess a column: 3
-    Miss!
-    🟦🟦🟦🟦
-    🟦🟦⬜🟦
-    🟦🟦🟦🟦
-    🟦🟦🟦🟦
-    (row: 2, column: 3)
-    >>> print(one_turn(4,3,2))
-    Guess a row: 6
-    The grid is only 4 by 4.
-    Guess a row: 4
-    Guess a column: 9
-    The grid is only 4 by 4.
-    Guess a column: 2
-    Close! Right column, wrong row.    
-    🟦🟦🟦🟦
-    🟦🟦🟦🟦
-    🟦🟦🟦🟦
-    🟦⬜🟦🟦
-    (row: 4, column: 2)
-    >>> print(one_turn(4,3,2))
-    Guess a row: 3
-    Guess a column: 2
-    Hit!
-    🟦🟦🟦🟦
-    🟦🟦🟦🟦
-    🟦🟥🟦🟦
-    🟦🟦🟦🟦
+    >>> correct_guess(2,3,2,3)
+    True
     >>> quit()
 </div>
 </pre>
 
-## Part 5. `main` -- 20 Points
+## Part 4. `main` -- 20 Points
 
-Now it's time to pull together your functions, which are building blocks, into a `main` function that implements the high-level logic of the World game loop. The purpose of the `main` function is to establish what the secret row and columns are as a variable, keep track of how many turns the user has spent, whether the use has won the game, and control the flow of the game.
+Now, it's finally time to implement the `main` function that will pull together each of the smaller pieces that you created in your program. Similar to your other functions, the `main` functions has certain specifications including:
 
-The declaration of your `main` function is unlike the functions above because it will not have any parameters and it will return `None`. You can declare your main function as follows:
-
-<pre>
-<div class="terminal">
-def main() -> None:
-    """The entrypoint of the program and main game loop."""
-    # Your code will go here
-</div>
-</pre>
+1. An `int` parameter for grid size.
+2. An `int` paraemeter for secret row.
+3. An `int` parameter for secret column.
+4. A return type of `None`.
 
 The "state" of a game refers to the variables you need to keep track of in memory in order to run the game. What variables do you need to keep track of? Define those inside of `main`'s body first.
 
 Then, begin the game loop `while` the user still has turns left to play _and_ the user hasn't won yet, you will want to do the following:
 
-1. Print the current turn number in a format such as `=== Turn 1/6 ===`
-2. Prompt the user for a row and column guess, relying on your functions `input_row` and `input_column` to obtain a guess within bounds.
-3. Codify the emoji results of the user's guess by making use of your `print_grid` function. Print the resulting codified string.
-4. If the user's guess _is_ the secret, the user has won!
-5. Otherwise, move on to the next turn, making use of your `one_turn` function.
-
-After the game loop, if the user won, print `You won in N/6 turns!` where N is replaced with the number of guesses it took to get the word. Otherwise, when the user does not guess the word in 6 or fewer guesses, print the following message: `X/6 - Sorry, try again tomorrow!` where `X` is literally the character `X`.
-
-Let's also come back to the previous guesses. Add a new `str` variable in `main` which you'll be updating with other guesses. You should be able to update this string with simple concatination. Hint: check the return type of `one_turn`.
+1. Print the current turn number in a format such as `=== Turn 1/5 ===`
+2. Prompt the user for a row and column guess, relying on your function `input_guess` to obtain a guess within the proper bounds.
+3. Verify the user's guess using `correct_guess`.
+4. Codify the emoji results of the user's guess by making use of your `print_grid` function. 
+4. If the user's guess is correct, the user has won! Print `Hit!` and `You won in N/5 turns!` where N is replaced with the number of guesses it took. End the loop by updating the appropriate variables.
+5. Otherwise, print `Miss!` and move on to the next turn.
+6. If the user has exhuasted all turns,  print `X/5 - Better luck next time!` where `X` is literally the character `X` and end the game.
 
 As you are working on `main`, you can save your work and import the `main` function just like the others and try calling it:
 
@@ -364,81 +266,75 @@ As you are working on `main`, you can save your work and import the `main` funct
     $ python
     Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> from exercises.ex03_battleship import main
-    >>> main()
-    === Turn 1/6 ===
+    >>> from exercises.ex03_functional_battleship import main
+    >>> main(4, 2, 1)
+    === Turn 1/5 ===
     Guess a row: 3
     Guess a column: 3
-    Miss!
     🟦🟦🟦🟦
     🟦🟦🟦🟦
     🟦🟦⬜🟦
     🟦🟦🟦🟦
-    Previous guesses: (row: 3, column: 3)
-    === Turn 2/6 ===
+    Miss!
+    === Turn 2/5 ===
     Guess a row: 4
     Guess a column: 4
-    Miss!
     🟦🟦🟦🟦
     🟦🟦🟦🟦
     🟦🟦🟦🟦
     🟦🟦🟦⬜
-    Previous guesses: (row: 3, column: 3) (row: 4, column: 4)
-    === Turn 3/6 ===
+    Miss!
+    === Turn 3/5 ===
     Guess a row: 2
     Guess a column: 2
-    Close! Right row, wrong column.
     🟦🟦🟦🟦
     🟦⬜🟦🟦
     🟦🟦🟦🟦
     🟦🟦🟦🟦
-    Previous guesses: (row: 3, column: 3) (row: 4, column: 4) (row: 2, column 2)
-    === Turn 4/6 ===
+    Miss!
+    === Turn 4/5 ===
     Guess a row: 2
     Guess a column: 1
-    Hit!
     🟦🟦🟦🟦
     🟥🟦🟦🟦
     🟦🟦🟦🟦
     🟦🟦🟦🟦
-    You won in 4/6 turns!
+    Hit!
+    You won in 4/5 turns!
     >>> quit()
 
     $ python
     Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> from exercises.ex03_battleship import main
-    >>> main()
-    === Turn 1/6 ===
+    >>> from exercises.ex03_functional_battleship import main
+    >>> main(4, 4, 4)
+    === Turn 1/5 ===
     Guess a row: 1
     Guess a column: 2
-    Close! Right row, wrong column.
     🟦⬜🟦🟦
     🟦🟦🟦🟦
     🟦🟦🟦🟦
     🟦🟦🟦🟦
-    Previous guesses: (row: 1, column: 2)
-    === Turn 2/6 ===
+    Miss!
+    === Turn 2/5 ===
     Guess a row: 3
     Guess a column: 4
-    Close! Right column, wrong row.
     🟦🟦🟦🟦
     🟦🟦🟦🟦
     🟦🟦🟦⬜
     🟦🟦🟦🟦
-    Previous guesses: (row: 1, column: 2) (row: 3, column: 4)
-    === Turn 3/6 ===
+    Miss!
+    === Turn 3/5 ===
     Guess a row: 5
     The grid is only 4 by 4.
     Guess a row: 2
     Guess a column: 4
-    Close! Right column, wrong row.
     🟦🟦🟦🟦
     🟦🟦🟦⬜
     🟦🟦🟦🟦
     🟦🟦🟦🟦
-    Previous guesses: (row: 1, column: 2) (row: 3, column: 4) (row: 2, column: 4)
-    === Turn 4/6 ===
+    Miss!
+    === Turn 4/5 ===
     Guess a row: 2
     Guess a column: 3
     Miss!
@@ -446,43 +342,34 @@ As you are working on `main`, you can save your work and import the `main` funct
     🟦🟦⬜🟦
     🟦🟦🟦🟦
     🟦🟦🟦🟦
-    Previous guesses: (row: 1, column: 2) (row: 3, column: 4) (row: 2, column: 4) (row: 2, column: 3)
-    === Turn 5/6 ===
+    === Turn 5/5 ===
     Guess a row: 1
     Guess a column: 2
-    Close! Right row, wrong column.
     🟦⬜🟦🟦
     🟦🟦🟦🟦
     🟦🟦🟦🟦
     🟦🟦🟦🟦
-    Previous guesses: (row: 1, column: 2) (row: 3, column: 4) (row: 2, column: 4) (row: 2, column: 3) (row: 1, column: 2)
-
-    === Turn 6/6 ===
-    Guess a row: 4
-    Guess a column: 3
     Miss!
-    🟦🟦🟦🟦
-    🟦🟦🟦🟦
-    🟦🟦🟦🟦
-    🟦🟦⬜🟦
-    Previous guesses: (row: 1, column: 2) (row: 3, column: 4) (row: 2, column: 4) (row: 2, column: 3) (row: 1, column: 2) (row: 4, column: 3)
-    X/6 - Sorry, try again!
+    X/5 - Better luck next time!
     >>> quit()
 </div>
 </pre>
 
-Once you have your `main` function and game loop working, there's only one bit of icing left to add to your delicious code cake. We will fully explain what is going on in the following code snippet soon, but for now note that this is an idiom common to Python programs like the one you have written. We will learn it does two things: 1. it makes it possible to run your Python program as a module (if you tried `python -m exercises.ex03_battleship` right now you would see nothing happens), and 2. it makes it possible for other modules to _import_ your functions and reuse them. Add the following snippet of code as the last 2 lines of your program (notice, there are two underscores _on both sides_ of the words `name` and `main`):
+Once you have your `main` function and game loop working, there's only one bit of icing left to add to your delicious code cake. We will fully explain what is going on in the following code snippet soon, but for now note that this is an idiom common to Python programs like the one you have written. We will learn it does three things: 1. it makes it possible to run your Python program as a module (if you tried `python -m exercises.ex03_functional_battleship` right now you would see nothing happens), 2. you can actually play your game with a randomized grid size and secret boat locations unknown to you, and 3. it makes it possible for other modules to _import_ your functions and reuse them. Add the following snippet of code as the last 2 lines of your program (notice, there are two underscores _on both sides_ of the words `name` and `main`):
 
 <pre>
 <div class="terminal">
     if __name__ == "__main__":
-        main()
+        grid_size: int = random.randint(3, 5)
+        main(grid_size, random.randint(1, grid_size), random.randint(1, grid_size))
 </div>
 </pre>
 
-Now you can try running your game as a module and it should work: `python -m exercises.ex03_battleship`
+NOTE: You will also need to add `import random` somewhere at the top of your program, preferably underneath your __author__ variable.
 
-Congratulations on writing your first _structured_ program in COMP110!
+Now you can try running your game as a module and it should work: `python -m exercises.ex03_functional_battleship`
+
+Congratulations on writing your first _functional_ program in COMP110!
 
 ## Part 5. Style and Documentation Requirements -- 20 Points (Manually Graded)
 
@@ -513,13 +400,13 @@ As you make progress on this exercise, making backups is encouraged.
 
 All that's left now is to hand-in your work on Gradescope for grading!
 
-Login to Gradescope and select the assignment named "EX03 - Structured Wordle". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
+Login to Gradescope and select the assignment named "EX03 - Functional Battleship". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
 
 If you _do not_ see a Terminal at the bottom of your screen, open the Command Palette and search for "View: Toggle Integrated Terminal".
 
 Type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex03_battleship.py`
+`python -m tools.submission exercises/ex03_functional_battleship.py`
 
 In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex01_chardle.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 

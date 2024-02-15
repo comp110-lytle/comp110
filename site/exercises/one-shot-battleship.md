@@ -141,7 +141,7 @@ Since loops are new to your repertoire, we will give you a general strategy for 
         1. If so, _while_ your column counter variable is less than or equal to the size of the grid, do as follows:
                 1. If the user guess for column is equal to the counter, concatenate the result box (red or white) to the row string.
                 2. Else, concatenate a blue box to the row string.
-                3. After the conditional, increase your row counter variable by one so that you do not have an infinite loop.
+                3. After the conditional, increase your column counter variable by one so that you do not have an infinite loop.
     2. Otherwise: 
         2. _While_ the column counter variable is less than or equal to the size of the grid, do the following:
             1. Concatenate a blue box.
@@ -269,6 +269,6 @@ Type the following command (all on a single line):
 
 `python -m tools.submission exercises/ex02_one_shot_battleship.py`
 
-In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex02_one_shot_wordle.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex02_one_shot_battleship.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
-Autograding will take a few moments to complete. For this exercise there will be 20 "human graded" points. Thus, you should expect a maximum autograding score of 80 possible points on this assignment. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours!
+Autograding will take a few moments to complete.  If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours! -->

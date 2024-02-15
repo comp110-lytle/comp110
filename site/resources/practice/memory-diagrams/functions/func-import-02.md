@@ -25,11 +25,13 @@ template: overview
         (g(f("python"), "java"))
 
 
-    if __name__ == "__main__":
-        main()
+    main()
 </code></pre>
 # Solution
 
+*Coming Soon*
+
+<!-- 
 <img class="img-fluid" src="/static/assets/f23/func-import-02-sol.png" alt="The Memory Diagram includes three columns titled Stack, Heap, and Output. 
 The Stack includes 4 frames in the following order from top to bottom including Globals, main, f, and g. 
 The Globals frame has 3 variables including f, g, and main. 
@@ -81,5 +83,5 @@ The g frame has 4 items including the RA and RV and two variables named x and y.
 
 *  Previous values of x include 7, 6, and 5 which are now crossed out *  y is “java” 
 The Heap includes 3 function objects. 
-Output is empty.
+Output is empty. -->
 

@@ -57,16 +57,36 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS10 </span>
 <span class="title">while Loop Statements:</span>
-[Video](https://youtu.be/iiksOU66xSw?si=qw0hZPiERbCJfkgt)
+[Video](https://youtu.be/iiksOU66xSw?si=qw0hZPiERbCJfkgt) | [Slides](/static/slides/while-loops.pdf)
 </div>
 
 <div class="plan Class"><span class="kind">LS11 </span>
 <span class="title">elif:</span>
-[Video](https://www.youtube.com/watch?v=VIh0hc7ktE4)
+[Video](https://www.youtube.com/watch?v=VIh0hc7ktE4) | [Slides](/static/slides/elif.pdf)
 </div>
 
 <div class="plan Class"><span class="kind">LS12 </span>
 <span class="title">counters:</span>
 [Video](https://youtu.be/XQPFd1Gae9M?si=erOJqqgKJhkUyntG)
+</div>
+
+<div class="plan Class"><span class="kind">LS13 </span>
+<span class="title">Introducing Functions:</span>
+[Video](https://youtu.be/UAqFF9e6SLs) | [Slides](/static/slides/functions.pdf)
+</div>
+
+<div class="plan Class"><span class="kind">LS14 </span>
+<span class="title">Function Syntax:</span>
+[Video](https://youtu.be/gOnn7OQhaj0)
+</div>
+
+<div class="plan Class"><span class="kind">LS15 </span>
+<span class="title">Function Semantics:</span>
+[Video](https://youtu.be/2RnI4bYMZww)
+</div>
+
+<div class="plan Class"><span class="kind">LS16 </span>
+<span class="title">lists:</span>
+[Video](https://youtu.be/U_GP3Jkz5lU) | [sldies](/static/slides/CL07.pdf)
 </div>
 
