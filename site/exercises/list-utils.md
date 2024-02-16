@@ -1,17 +1,22 @@
 ---
-title: EX04 - `list` Utility Functions
+title: EX04 - list Utility Functions
 author:
   - Kris Jordan
   - Marlee Walls
+  - Alyssa Lytle
 page: exercises
 template: overview
 ---
+
+# Introduction
 
 Art students intentionally reproduce great works of art to develop their own skills and techniques. The purpose isn't to become an imitator, but to deepen an understanding of important work and styles that came before you.
 
 Reverse engineering algorithms and abstractions in computer science is of the same spirit! In this exercise you will implement algorithms to practice computational thinking. You will gain familiarity with the names and behaviors of commonly useful functions.
 
 Since the work you do is reproducing tried and true abstractions of the past, in the future you can and should use your language's preferred functions and idioms instead. In this exercise we will show you how to achieve the same functionality using idiomatic Python in the future.
+
+## Allowed Constructs
 
 Your function implementations may only make use of the built-in `len` function, and a `list` object's methods `append` and `pop`.
 
@@ -33,9 +38,9 @@ Assignment Outline
 General Notes:
 
 - You are not required to implement a `main` function for this exercise. However, it may be helpful to have one to make test function calls with lists you construct.
-- The grader will evaluate your code by **importing your functions** and calling them with our own chosen list inputs. You do not need to worry about generating lists for each of your functions to work with. These will be passed in as parameters.
+- The grader will evaluate your code by **importing your functions** and calling them with our own chosen list inputs. You do not need to create your own lists and call the functions. (However, feel free to for practice!)
 
-## 0. Establish the Python Module
+## 0. Setup
 
 In Visual Studio Code, be sure your workspace is open.
 
@@ -55,6 +60,7 @@ Given a `list` of `ints` and an `int`, `all` should return a bool indicating whe
 
 <pre>
 <div class="terminal">
+>>> from exercises.ex04_utils import all
 >>> all([1, 2, 3], 1)
 False
 >>> all([1, 1, 1], 2)
@@ -80,6 +86,7 @@ If the `list` is empty, `max` should result in a `ValueError`. We'll show you ho
 
 <pre>
 <div class="terminal">
+>>> from exercises.ex04_utils import max
 >>> max([1, 3, 2])
 3
 >>> max([100, 99, 98])
@@ -109,7 +116,35 @@ Given two `list`s of `int` values, return `True` if _every_ element at _every_ i
 
 <pre>
 <div class="terminal">
+>>> from exercises.ex04_utils import is_equal
 >>> is_equal([1, 0, 1], [1, 0, 1])
+True
+>>> is_equal([1, 1, 0], [1, 0, 1])
+False
+</div>
+</pre>
+
+Your implementation should not assume the lengths of each List are equal.
+
+This concept is called _deep equality_. Two separate `list` objects on the _heap_ may be distinct objects, such that if you changed one the other would remain the same. However, two distinct objects can be _deeply equal_ to one another if what they are made of is equal to each other in essence.
+
+Define a function with the following signature:
+
+1. Name: `is_equal`
+2. Parameters: Two lists of integers.
+3. Returns: `True` if lists are equal, `False` otherwise.
+
+Implement the `is_equal` function as described above.
+
+## 4. `extend`
+
+Given two `list`s of `int` values, *mutate* the first `list` of `int` values by appending the second `list`s values to the end of it. (Think of this is something similar to concatentation in `string`s!)
+
+<pre>
+<div class="terminal">
+>>> from exercises.ex04_utils import is_equal
+>>> a: list[]
+>>> extend([1, 0, 1], [2, 3])
 True
 >>> is_equal([1, 1, 0], [1, 0, 1])
 False
