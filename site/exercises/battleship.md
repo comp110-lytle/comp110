@@ -326,8 +326,7 @@ As you are working on `main`, you can save your work and import the `main` funct
     Miss!
     === Turn 3/5 ===
     Guess a row: 5
-    The grid is only 4 by 4.
-    Guess a row: 2
+    The grid is only 4 by 4. Try again: 2
     Guess a column: 4
     🟦🟦🟦🟦
     🟦🟦🟦⬜
