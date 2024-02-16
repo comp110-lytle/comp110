@@ -3,3 +3,5 @@
 .DS_store
 *.pyc
 /site/__pycache__
+code/autograder/exercises
+code/autograder/lessons
