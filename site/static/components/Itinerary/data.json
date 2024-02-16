@@ -383,9 +383,9 @@
         {
             "kind": "EX",
             "n": 4,
-            "title": "List Utils (Due Sunday 2/25)",
+            "title": "List Utils (Due Tuesday 2/27)",
             "date": "2024-02-19",
-            "deadline": "2024-02-25",
+            "deadline": "2024-02-27",
             "links": {
                 "": "/exercises/list-utils.html"
             }
