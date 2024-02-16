@@ -29,7 +29,7 @@ When we call this function on a string, we aren't actually *mutating* the argume
 However, let's do something similar for a list!
 
 ```
-    def emphasize(word: list):
+    def emphasize(word: list[int]):
         word.append("!")
 ```
 
