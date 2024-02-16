@@ -11,6 +11,7 @@ template: overview
 In our previous lesson, we discussed the many capabilities of functions with lists. 
 
 They can:
+
 - Take lists as arguments
 - Return (or create and return) lists 
 - Modify (or mutate) lists
