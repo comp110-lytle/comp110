@@ -30,9 +30,10 @@ Specifically off-limits in this exercise are the following constructs. You are n
 
 Assignment Outline
 
-- `all` -- 30 Points Autograded
-- `max` -- 30 Points Autograded
+- `all` -- 20 Points Autograded
+- `max` -- 20 Points Autograded
 - `is_equal` -- 20 Points Autograded
+- `extend` -- 20 Points Autograded
 - Style, Linting, Typing -- 20 Points Autograded
 
 General Notes:
@@ -52,7 +53,7 @@ Right click on the `exercises` directory and select "New File". Enter the follow
 
 Before beginning work on the program, you should add a docstring to the top of your Python module just as you have previously. Then, you should add a line with the special variable named **author** assigned to be a string with your 9-digit student PID.
 
-## 1. `all` -- 30 Points
+## 1. `all` -- 20 Points
 
 This is the first function you will write in `ex04_utils.py`. The other two functions will also be defined in this file.
 
@@ -76,7 +77,7 @@ Continue by defining a skeleton function with the following signature:
 2. Arguments: A list of integers and an int.
 3. Returns: A `bool`, `True` if all numbers match the indicated number, `False` otherwise or if the list is empty. This algorithm should work for a list of any length. Hint: remember you can return from inside of a loop to short-circuit its behavior and return immediately.
 
-## 2. `max` -- 30 Points
+## 2. `max` -- 20 Points
 
 Next, you will write a function named `max`.
 
@@ -136,34 +137,37 @@ Define a function with the following signature:
 
 Implement the `is_equal` function as described above.
 
-## 4. `extend`
+## 4. `extend` -- 20 Points
 
-Given two `list`s of `int` values, *mutate* the first `list` of `int` values by appending the second `list`s values to the end of it. (Think of this is something similar to concatentation in `string`s!)
+Given two `list`s of `int` values, *mutate* the first `list` of `int` values by appending the second `list`'s values to the end of it. (Think of this is something similar to concatentation in `string`s!)
+
+Note that this function is not *returning* anything! It is only *mutating* one of the inputs.
 
 <pre>
 <div class="terminal">
->>> from exercises.ex04_utils import is_equal
->>> a: list[]
->>> extend([1, 0, 1], [2, 3])
-True
->>> is_equal([1, 1, 0], [1, 0, 1])
-False
+>>> from exercises.ex04_utils import extend
+>>> a: list[int] = [1, 3, 5]
+>>> b: list[int] = [2, 4, 6]
+>>> extend(a, b)
+>>> a
+[1, 3, 5, 2, 4, 6]
+>>> c: list[int] = [7, 8]
+>>> extend(c, b)
+>>> c
+[7, 8, 2, 4, 6]
 </div>
 </pre>
 
-Your implementation should not assume the lengths of each List are equal.
-
-This concept is called _deep equality_. Two separate `list` objects on the _heap_ may be distinct objects, such that if you changed one the other would remain the same. However, two distinct objects can be _deeply equal_ to one another if what they are made of is equal to each other in essence.
 
 Define a function with the following signature:
 
-1. Name: `is_equal`
+1. Name: `extend`
 2. Parameters: Two lists of integers.
-3. Returns: `True` if lists are equal, `False` otherwise.
+3. Returns: Nothing.
 
-Implement the `is_equal` function as described above.
+Implement the `extend` function as described above.
 
-## 4. Make a Backup Checkpoint "Commit"
+## 5. Make a Backup Checkpoint "Commit"
 
 As you make progress on this exercise, making backups is encouraged.
 
@@ -175,9 +179,9 @@ As you make progress on this exercise, making backups is encouraged.
 5. Press the Check icon to make a _Commit_ (a version) of your work.
 6. Finally, press the Ellipses icon (...), look for "Pull/Push" submenu, and select "Push to...", and in the dropdown select your backup repository.
 
-## 5. Submit to Gradescope for Grading
+## 6. Submit to Gradescope for Grading
 
-Login to Gradescope and select the assignment named "EX04 - Lists.". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
+Login to Gradescope and select the assignment named "EX04 - Lists Utils". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
 
 If you _do not_ see a Terminal at the bottom of your screen, open the Command Palette and search for "View: Toggle Integrated Terminal".
 
