@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/battleship.html">EX03*(EXTENDED)* - SUN, FEB 18 11:59pm</a></li><li class="horizon-item"><a href="/challenge_questions/lists.html">CQ03*(EXTENDED)* - MON, FEB 19 11:59pm</a></li><li class="horizon-item"><span>VL04 - TUE, FEB 20 11:59pm</span></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD00 - THU, FEB 22 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/battleship.html">EX03*(EXTENDED)* - SUN, FEB 18 11:59pm</a></li><li class="horizon-item"><a href="/challenge_questions/lists.html">CQ03*(EXTENDED)* - MON, FEB 19 11:59pm</a></li><li class="horizon-item"><a href="/virtual-classes/VL04.html">VL04 - TUE, FEB 20 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD00 - THU, FEB 22 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,15 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-02-14" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Feb 14</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL07 </span><span class="title">Lists</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/hGcGYAkLa8A?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/CL07.pdf">Slides</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS16 </span><span class="title"><a href="https://www.gradescope.com/">Lists (Due Thursday 2/15)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-02-16" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-02-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 16</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL08 </span><span class="title">Lists Practice</span>
@@ -55,7 +47,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-02-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Feb 19</div>
 <div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL04 </span><span class="title">Virtual Lesson (Due Tuesday 2/20)</span></div><div class="plan Exercise">
+<span class="kind">VL04 </span><span class="title"><a href="/virtual-classes/VL04.html">Virtual Lesson (Due Tuesday 2/20)</a></span></div><div class="plan Exercise">
 <span class="kind">EX04 </span><span class="title"><a href="/exercises/list-utils.html">List Utils (Due Tuesday 2/27)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-23" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 23</div>
@@ -110,7 +102,15 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-02-14" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Feb 14</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL07 </span><span class="title">Lists</span>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/hGcGYAkLa8A?feature=share">Lecture Video</a></li>
+<li class="link"><a href="/static/slides/CL07.pdf">Slides</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS16 </span><span class="title"><a href="https://www.gradescope.com/">Lists (Due Thursday 2/15)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-02-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Feb 9</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ01 </span><span class="title">Quiz 1</span>

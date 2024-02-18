@@ -322,5 +322,29 @@
     "2024-02-10": [],
     "2024-02-11": [],
     "2024-02-12": [],
-    "2024-02-13": []
+    "2024-02-13": [],
+    "2024-02-14": [
+        {
+            "kind": "CL",
+            "n": 7,
+            "title": "Lists",
+            "date": "2024-02-14",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/hGcGYAkLa8A?feature=share",
+                "Slides": "/static/slides/CL07.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 16,
+            "title": "Lists (Due Thursday 2/15)",
+            "date": "2024-02-14",
+            "deadline": "2024-02-15",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-02-15": []
 }

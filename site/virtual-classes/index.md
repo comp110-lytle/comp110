@@ -90,3 +90,13 @@ page: lessons
 [Video](https://youtu.be/U_GP3Jkz5lU) | [sldies](/static/slides/CL07.pdf)
 </div>
 
+<div class="plan Class"><span class="kind">LS17 </span>
+<span class="title">Lists in Memory:</span>
+[Video](/) | [Slides](/)
+</div>
+
+<div class="plan Class"><span class="kind">LS18 </span>
+<span class="title">Importing Modules:</span>
+[Video](/)
+</div>
+

@@ -378,7 +378,9 @@
             "title": "Virtual Lesson (Due Tuesday 2/20)",
             "date": "2024-02-19",
             "deadline": "2024-02-20",
-            "links": {}
+            "links": {
+                "": "/virtual-classes/VL04.html"
+            }
         },
         {
             "kind": "EX",
