@@ -13,6 +13,13 @@ site-branch: team
 
 Team 110, please refer to the following instructions for creating memory diagrams. Once a memory diagram or practice problem is fully reviewed, it will be posted on the 110 website for student-use. Refer to the #content-design Slack channel to see which topics to focus on every few weeks. 
 
+# Quick Links
+
+- [Memory Diagram Table](https://docs.google.com/spreadsheets/d/1O5yaFVEdeX7CQDvhyLis0WJG6_i8piesP23BrgvNpC0/edit#gid=0)
+- [Image Description Guide](/team/documentation/guides/image_descriptions.html)
+- [Creating a Pull Request](#creating-a-pull-request) 
+- [Team Github Repo](https://github.com/comp110-lytle/comp110/pulls)
+
 # Creating A Diagram
 
 If you are creating a memory diagram, you are free to do anything as long as it fulfills the [topic categories](/resources/practice/MemDiagrams.html) we are in need of and is within the scope of this course. Before you create a new memory diagram, check for notes on your previously submitted diagrams.
