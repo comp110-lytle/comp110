@@ -92,11 +92,11 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS17 </span>
 <span class="title">Lists in Memory:</span>
-[Video](/) | [Slides](/)
+[Video](https://youtu.be/WCvrVTUZ-Ac)
 </div>
 
 <div class="plan Class"><span class="kind">LS18 </span>
 <span class="title">Importing Modules:</span>
-[Video](/)
+[Video](https://youtu.be/-Q-9HmzEb38)
 </div>
 

@@ -1,26 +1,4 @@
 {
-    "2024-02-16": [
-        {
-            "kind": "CL",
-            "n": 8,
-            "title": "Lists Practice",
-            "date": "2024-02-16",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/1ZxYIt6vKlg?feature=share"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 3,
-            "title": "Lists + Functions<s><i>(Due Friday 2/16)</i></s> (Extended to Monday 2/19)",
-            "date": "2024-02-16",
-            "deadline": "2024-02-16",
-            "links": {
-                "": "/challenge_questions/lists.html"
-            }
-        }
-    ],
     "2024-02-17": [],
     "2024-02-18": [],
     "2024-02-19": [
