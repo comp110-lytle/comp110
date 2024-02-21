@@ -447,7 +447,7 @@
             "date": "2024-03-06",
             "deadline": "2024-03-12",
             "links": {
-                "": "/"
+                "": "/exercises/dict-utils.html"
             }
         }
     ],
@@ -472,7 +472,7 @@
             "date": "2024-03-20",
             "deadline": "2024-03-31",
             "links": {
-                "": "/exercises/dict_unit_tests.html"
+                "": "/exercises/dict-utests.html"
             }
         }
     ],
