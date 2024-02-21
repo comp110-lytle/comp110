@@ -394,9 +394,42 @@
         }
     ],
     "2024-02-20": [],
-    "2024-02-21": [],
+    "2024-02-21": [
+        {
+            "kind": "CL",
+            "n": 9,
+            "title": "for loops",
+            "date": "2024-02-21",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/U6lfZU9q668?feature=share",
+                "Slides": "/static/slides/CL09.pdf"
+            }
+        }
+    ],
     "2024-02-22": [],
     "2024-02-23": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "for ... in range(...) loops",
+            "date": "2024-02-23",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/yM12Oxam8Og?feature=share",
+                "Slides": "/static/slides/CL10.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "For Loops<s><i>(Due Friday 2/23)</i></s> (Extended to Monday 2/26)",
+            "date": "2024-02-23",
+            "deadline": "2024-02-23",
+            "links": {
+                "": "/"
+            }
+        },
         {
             "kind": "RD",
             "n": 1,
