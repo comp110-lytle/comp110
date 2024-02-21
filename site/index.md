@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">RD00 - THU, FEB 22 11:59pm</a></li><li class="horizon-item"><a href="/">CQ04*(EXTENDED)* - MON, FEB 26 11:59pm</a></li><li class="horizon-item"><a href="/exercises/list-utils.html">EX04 - TUE, FEB 27 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">RD00 - THU, FEB 22 11:59pm</a></li><li class="horizon-item"><a href="/">CQ04 - FRI, FEB 23 11:59pm</a></li><li class="horizon-item"><a href="/exercises/list-utils.html">EX04 - TUE, FEB 27 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -56,7 +56,7 @@ template: home
 <ul class="links"><li class="link"><a href="https://youtube.com/live/yM12Oxam8Og?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL10.pdf">Slides</a></li>
 </ul></div><div class="plan Challenge Question">
-<span class="kind">CQ04 </span><span class="title"><a href="/">For Loops<s><i>(Due Friday 2/23)</i></s> (Extended to Monday 2/26)</a></span></div><div class="plan Reading">
+<span class="kind">CQ04 </span><span class="title"><a href="/">For Loops (Due Friday 2/23)</a></span></div><div class="plan Reading">
 <span class="kind">RD01 </span><span class="title"><a href="https://www.gradescope.com/">Weapons of Math Destruction (Due Thursday 3/14)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-28" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Feb 28</div>
