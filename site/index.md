@@ -65,10 +65,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-03-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Mar 22</div>
 <div class="plans col-md-9"><div class="plan Reading">
-<span class="kind">RD02 </span><span class="title">Reading: Man versus Machine or Man + Machine? (Due Thursday 4/11)</span>
-<ul class="links"><li class="link"><a href="https://hal.pratt.duke.edu/sites/hal.pratt.duke.edu/files/u10/IS-29-05-Expert%20Opinion%5B1%5D_0.pdf">Article</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div></div>
+<span class="kind">RD02 </span><span class="title"><a href="https://www.gradescope.com/">Reading: Man versus Machine or Man + Machine? (Due Thursday 4/11)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-03-27" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Mar 27</div>
 <div class="plans col-md-9"><div class="plan Quiz">
