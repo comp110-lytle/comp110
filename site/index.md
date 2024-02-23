@@ -56,7 +56,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-02-28" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Feb 28</div>
 <div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX05 </span><span class="title"><a href="/">Battleship Revisited (Due Tuesday 3/5)</a></span></div></div>
+<span class="kind">EX05 </span><span class="title"><a href="/">Big-O Analysis (Due Tuesday 3/5)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-03-01" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Mar 1</div>
 <div class="plans col-md-9"><div class="plan Quiz">
