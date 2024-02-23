@@ -365,10 +365,33 @@
             "date": "2024-02-16",
             "deadline": "2024-02-16",
             "links": {
-                "": "/challenge_questions/lists.html"
+                "": "/cqs/lists.html"
             }
         }
     ],
     "2024-02-17": [],
-    "2024-02-18": []
+    "2024-02-18": [],
+    "2024-02-19": [
+        {
+            "kind": "VL",
+            "n": 4,
+            "title": "Virtual Lesson (Due Tuesday 2/20)",
+            "date": "2024-02-19",
+            "deadline": "2024-02-20",
+            "links": {
+                "": "/virtual-classes/VL04.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "List Utils (Due Tuesday 2/27)",
+            "date": "2024-02-19",
+            "deadline": "2024-02-27",
+            "links": {
+                "": "/exercises/list-utils.html"
+            }
+        }
+    ],
+    "2024-02-20": []
 }

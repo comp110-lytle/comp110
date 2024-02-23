@@ -1,27 +1,4 @@
 {
-    "2024-02-19": [
-        {
-            "kind": "VL",
-            "n": 4,
-            "title": "Virtual Lesson (Due Tuesday 2/20)",
-            "date": "2024-02-19",
-            "deadline": "2024-02-20",
-            "links": {
-                "": "/virtual-classes/VL04.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 4,
-            "title": "List Utils (Due Tuesday 2/27)",
-            "date": "2024-02-19",
-            "deadline": "2024-02-27",
-            "links": {
-                "": "/exercises/list-utils.html"
-            }
-        }
-    ],
-    "2024-02-20": [],
     "2024-02-21": [
         {
             "kind": "CL",
@@ -55,7 +32,7 @@
             "date": "2024-02-23",
             "deadline": "2024-02-23",
             "links": {
-                "": "/"
+                "": "/cqs/for-loops.html"
             }
         },
         {

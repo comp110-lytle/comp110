@@ -365,7 +365,7 @@
             "date": "2024-02-16",
             "deadline": "2024-02-16",
             "links": {
-                "": "/challenge_questions/lists.html"
+                "": "/cqs/lists.html"
             }
         }
     ],
@@ -427,7 +427,7 @@
             "date": "2024-02-23",
             "deadline": "2024-02-23",
             "links": {
-                "": "/"
+                "": "/cqs/for-loops.html"
             }
         },
         {
