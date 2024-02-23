@@ -22,9 +22,7 @@ You will find the starter files needed by "pulling" from the course workspace re
 4. If you do not see the `ex08` directory, try once more but selecting `"Pull From"` and select `origin` in step 2.
 
 ### Troubleshooting
-If you're having trouble pulling, try these:
-
-* Try running `git config pull.rebase true` in your terminal and pull again!
+If you're having trouble pulling, try:
 
 * In your Visual Studio command center, select `Pull From...` -> `Upstream` -> `Upstream/Head`
 
