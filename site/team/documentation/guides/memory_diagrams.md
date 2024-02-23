@@ -72,11 +72,11 @@ Save your solution as a .JPG or .PNG file in the site repo inside the folder sit
 <Image description goes here.>
 ~~~
 
-Finish up by [creating a pull request](#creating-a-pull-request) and changing the entry status to "Needs Review".
+Finish up by [creating a pull request](#creating-a-pull-request) and changing the entry status to "In Proposal".
 
 # Reviewing A Solution
 
-Use this process to review any entry on the table marked "Needs Review".
+Use this process to review any entry on the table marked "In Proposal".
 
 If you are reviewing a memory diagram snippet with an existing solution, you should still write out your own solution. Compare your solution to the solution provided. Check for correctness as well as the proper format described in Creating a Diagram. *This includes checking the following Image Description and making sure that it matches a correct solution!* 
 
