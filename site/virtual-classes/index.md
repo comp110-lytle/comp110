@@ -102,11 +102,11 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS19 </span>
 <span class="title">Dictionaries:</span>
-[Video](https://www.youtube.com/watch?v=PHkFp_T--yk)
+[Video](https://www.youtube.com/watch?v=PHkFp_T--yk) | [Slides](/static/slides/LS19.pdf)
 </div>
 
 <div class="plan Class"><span class="kind">LS20 </span>
 <span class="title">Dictionaries in Memory:</span>
-[Video](/)
+[Video](https://youtu.be/tlfJfLBsuX0)
 </div>
 

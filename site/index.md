@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/list-utils.html">EX04 - TUE, FEB 27 11:59pm</a></li><li class="horizon-item"><a href="/virtual-classes/VL04.html">VL05 - TUE, FEB 27 11:59pm</a></li><li class="horizon-item"><span>QZ02 - FRI, MAR 01 11:59pm</span></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/list-utils.html">EX04 - TUE, FEB 27 11:59pm</a></li><li class="horizon-item"><a href="/virtual-classes/VL05.html">VL05 - TUE, FEB 27 11:59pm</a></li><li class="horizon-item"><span>QZ02 - FRI, MAR 01 11:59pm</span></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -49,10 +49,14 @@ template: home
 </div><div data-type="lecture" data-date="2024-02-26" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Feb 26</div>
 <div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL05 </span><span class="title"><a href="/virtual-classes/VL04.html">Virtual Lesson (Due Tuesday 2/27)</a></span></div></div>
+<span class="kind">VL05 </span><span class="title"><a href="/virtual-classes/VL05.html">Virtual Lesson (Due Tuesday 2/27)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-28" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Feb 28</div>
-<div class="plans col-md-9"><div class="plan Exercise">
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL11 </span><span class="title">Dictionaries + for loops</span>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/yM12Oxam8Og?feature=share">Lecture Video</a></li>
+<li class="link"><a href="/static/slides/CL10.pdf">Slides</a></li>
+</ul></div><div class="plan Exercise">
 <span class="kind">EX05 </span><span class="title"><a href="/exercises/dict-utils.html">Dictionary Utils (Due Tuesday 3/5)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-03-01" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Mar 1</div>

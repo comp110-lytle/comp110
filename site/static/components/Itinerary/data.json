@@ -451,12 +451,23 @@
             "date": "2024-02-26",
             "deadline": "2024-02-27",
             "links": {
-                "": "/virtual-classes/VL04.html"
+                "": "/virtual-classes/VL05.html"
             }
         }
     ],
     "2024-02-27": [],
     "2024-02-28": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "Dictionaries + for loops",
+            "date": "2024-02-28",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/yM12Oxam8Og?feature=share",
+                "Slides": "/static/slides/CL10.pdf"
+            }
+        },
         {
             "kind": "EX",
             "n": 5,
