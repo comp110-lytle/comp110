@@ -1,5 +1,5 @@
 ---
-title: EX07 - `dict` Unit Tests
+title: EX06 - `dict` Unit Tests
 author:
 - Vrinda Desai
 page: exercises
@@ -8,7 +8,7 @@ template: overview
 
 In this exercise, you will return to the dictionary functions you built in the previous exercise. You will practice writing *unit tests* for each of these functions, checking if your solutions work under a variety of circumstances. The unit tests will make testing your functions easier and will reassure you of their correctness.
 
-As a reminder, the autograder from EX06 only tested function signatures and very basic functionality. Thus, you may realize some of your functions do not actually work as you expected! Good test cases will be important, especially as the autograder for EX07 is much more stringent.
+As a reminder, the autograder from EX06 only tested function signatures and very basic functionality. Thus, you may realize some of your functions do not actually work as you expected! Good test cases will be important, especially as the autograder for EX06 is much more stringent.
 
 Note: Even if your functions are not 100% correct or finished, you can still get full credit for the *unit tests* if you set up a function skeleton and write your tests assuming correct functionality.
 
@@ -76,7 +76,7 @@ As you make progress on this exercise, making backups is encouraged.
 
 ## 3. Submit to Gradescope for Grading
 
-Login to Gradescope and select the assignment named "EX07 - Dictionary Unit Tests". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
+Login to Gradescope and select the assignment named "EX06 - Dictionary Unit Tests". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
 
 If you _do not_ see a Terminal at the bottom of your screen, open the Command Palette and search for "View: Toggle Integrated Terminal".
 

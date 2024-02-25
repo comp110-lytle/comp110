@@ -1,18 +1,4 @@
 {
-    "2024-02-21": [
-        {
-            "kind": "CL",
-            "n": 9,
-            "title": "for loops",
-            "date": "2024-02-21",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/U6lfZU9q668?feature=share",
-                "Slides": "/static/slides/CL09.pdf"
-            }
-        }
-    ],
-    "2024-02-22": [],
     "2024-02-23": [
         {
             "kind": "CL",
@@ -48,17 +34,28 @@
     ],
     "2024-02-24": [],
     "2024-02-25": [],
-    "2024-02-26": [],
+    "2024-02-26": [
+        {
+            "kind": "VL",
+            "n": 5,
+            "title": "Virtual Lesson (Due Tuesday 2/27)",
+            "date": "2024-02-26",
+            "deadline": "2024-02-27",
+            "links": {
+                "": "/virtual-classes/VL04.html"
+            }
+        }
+    ],
     "2024-02-27": [],
     "2024-02-28": [
         {
             "kind": "EX",
             "n": 5,
-            "title": "Big-O Analysis (Due Tuesday 3/5)",
+            "title": "Dictionary Utils (Due Tuesday 3/5)",
             "date": "2024-02-28",
             "deadline": "2024-03-05",
             "links": {
-                "": "/"
+                "": "/exercises/dict-utils.html"
             }
         }
     ],
@@ -81,11 +78,11 @@
         {
             "kind": "EX",
             "n": 6,
-            "title": "Dictionary Utils (Due Tuesday 3/12)",
+            "title": "Dictionary Unit Tests (Due Tuesday 3/12)",
             "date": "2024-03-06",
             "deadline": "2024-03-12",
             "links": {
-                "": "/exercises/dict-utils.html"
+                "": "/exercises/dict-utests.html"
             }
         }
     ],
@@ -106,11 +103,11 @@
         {
             "kind": "EX",
             "n": 7,
-            "title": "Dictionary Unit Tests (Due Sunday 3/31)",
+            "title": "Runtime Analysis (Due Sunday 3/31)",
             "date": "2024-03-20",
             "deadline": "2024-03-31",
             "links": {
-                "": "/exercises/dict-utests.html"
+                "": "/"
             }
         }
     ],

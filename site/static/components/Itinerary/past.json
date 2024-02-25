@@ -393,5 +393,19 @@
             }
         }
     ],
-    "2024-02-20": []
+    "2024-02-20": [],
+    "2024-02-21": [
+        {
+            "kind": "CL",
+            "n": 9,
+            "title": "for loops",
+            "date": "2024-02-21",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/U6lfZU9q668?feature=share",
+                "Slides": "/static/slides/CL09.pdf"
+            }
+        }
+    ],
+    "2024-02-22": []
 }
