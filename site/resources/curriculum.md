@@ -77,18 +77,18 @@ Here is the basic breakdown of concepts covered in this class. We know Unit 0 se
    - Knowing usage of `if __name__ == "__main__":` 
 
 ## Unit 4: 'for' loops, Lists, Dictionaries, and Unit Tests
-- Lists
+- A. Lists
    - Basic list syntax and typing
    - Indexing on lists and updating values at an index (subscription notation)
    - `len()` function
    - methods: `.append()` and `.pop()`
-- Lists in Memory
+- B. Lists in Memory
    - Memory Diagrams with lists
    - Writing functions with lists (both modifying existing lists or creating new lists)
-- for loops
+- C. for loops
    - Using `for ... in ...` syntax in memory diagrams and writing functions
    - Using `for ... in range(...)` syntax in memory diagrams and writing functions
-- Dictionaries
+- D. Dictionaries
    - Basic list syntax and typing
    - Accessing, adding, and modifying values at an index (subscription notation)
    - function: `len()`
@@ -96,7 +96,7 @@ Here is the basic breakdown of concepts covered in this class. We know Unit 0 se
    - using the boolean expression: `elem in dictionary`
    - Memory Diagrams with dictionaries
    - Using a for loop to iterate through a dictionary's keys
-- Unit Tests
+- E. Unit Tests
 
 
 ## Unit 5 - Algorithms and Runtime Analysis

@@ -487,7 +487,11 @@
             "title": "Quiz 2",
             "date": "2024-03-01",
             "deadline": "2024-03-01",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/sp24/qz02.html",
+                "Covered Topics: Units 0 - 4C": "https://comp110-24s.github.io/resources/curriculum.html",
+                "Virtual Review Session (Passcode: 9&2MG!vk)": "https://unc.zoom.us/rec/share/Qn_n5MFAZUVtxLgqjSIv1eI_ueeCMNgLb0xMYf46gZ3aoQtod6mzxXnsrvzG0Ed4.pZNy8kPYnXDOzDav"
+            }
         }
     ],
     "2024-03-02": [],
