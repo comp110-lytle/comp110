@@ -22,7 +22,7 @@ template: overview
         return list_1
 
 
-    def increase (a_list: list[int], x: int) -> None:
+    def increase(a_list: list[int], x: int) -> None:
         """Lets pump it up!"""
         i: int = 0
         while i < len(a_list):
@@ -37,15 +37,13 @@ template: overview
         list_2: list[int] = list_1
         list_1 = create()
         increase(list_1, 2)
-
         print(list_1)
         print(list_2)
 
 
-    if __name__ == "__main__":
-        main()
+    main()
 </code></pre>
 
 # Solution
 
-
+<img class="img-fluid" src="/static/practice-mem-diagrams/refs.png" alt=""/>
