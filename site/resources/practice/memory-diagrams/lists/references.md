@@ -1,5 +1,6 @@
 ---
 title: Practice Memory Diagram
+author: Alyssa Lytle
 page: lessons
 template: overview
 ---

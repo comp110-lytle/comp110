@@ -1,5 +1,8 @@
 ---
 title: Practice Memory Diagram
+author:
+- Kris Jordan
+- Alyssa Lytle
 page: lessons
 template: overview
 ---
