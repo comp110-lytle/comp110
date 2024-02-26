@@ -45,10 +45,10 @@ C) extend()
 D) join()
 
 8. Identify the following statements regarding list slicing are True or False:
-1. list[::2] returns items at even indices only.
-2. list[::-1] reverses the list.
-3. list[1:3] returns the first three items.
-4. list[:3] returns the last three items.
+8.1 list[::2] returns items at even indices only.
+8.2 list[::-1] reverses the list.
+8.3 list[1:3] returns the first three items.
+8.4 list[:3] returns the last three items.
 
 9. 
 ~~~
@@ -64,10 +64,10 @@ Considering the above codes, what would be the outputs of the last two print() f
 
 11. Identify the following statements are True or False:
 
-1. Lists can contain elements of different data types.
-2. Lists are mutable.
-3. The + operator can be used to append elements to a list.
-4. Lists can be nested within other lists.
+11.1 Lists can contain elements of different data types.
+11.2 Lists are mutable.
+11.3 The + operator can be used to append elements to a list.
+11.4 Lists can be nested within other lists.
 
 12. 
 ~~~
@@ -108,7 +108,7 @@ D) [1, 3]
 8.3 False
 8.4 False
 
-9. [1, 2, 3] and [5, 2, 3, 5, 2, 3]
+9. [1, 2, 3] and [5, 2, 3, 1, 2, 3]
 
 10. .insert()
 
