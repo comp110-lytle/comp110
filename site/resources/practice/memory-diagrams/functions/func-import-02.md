@@ -29,17 +29,17 @@ template: overview
 </code></pre>
 # Solution
 
-*Coming Soon*
+<img class="img-fluid" src="/static/practice-mem-diagrams/func-import-02-sol.jpg" alt=""/>
 
 <!-- 
 <img class="img-fluid" src="/static/assets/f23/func-import-02-sol.png" alt="The Memory Diagram includes three columns titled Stack, Heap, and Output. 
 The Stack includes 4 frames in the following order from top to bottom including Globals, main, f, and g. 
 The Globals frame has 3 variables including f, g, and main. 
-*  f points to a function on the Heap (lines 1-2). 
-*  g points to a function on the Heap (lines 5-8). 
-*  main points to a function on the Heap (lines 11-12). 
+*  f has id 0, it is a function on the Heap (lines 1-2). 
+*  g has id 1, it is a function on the Heap (lines 5-8). 
+*  main has id 2, it is a function on the Heap (lines 11-12). 
 The main frame has 2 items including the RA and RV. 
-*  The RA is defined at line 16. 
+*  The RA is defined at line 15. 
 *  The RV is None. 
 The f frame has 3 items including the RA and RV and a variable named x. *  The RA is defined at line 12. 
 *  The RV is 7. 
@@ -50,7 +50,7 @@ The g frame has 4 items including the RA and RV and two variables named x and y.
 *  Previous values of x include 7, 6, and 5 which are now crossed out *  y is “java” 
 The Heap includes 3 function objects. 
 Output is empty.
-"  />
+"  />-->
 
 *Image Description* 
 
@@ -60,13 +60,13 @@ The Stack includes 4 frames in the following order from top to bottom including 
 
 The Globals frame has 3 variables including f, g, and main. 
 
-*  f points to a function on the Heap (lines 1-2). 
-*  g points to a function on the Heap (lines 5-8). 
-*  main points to a function on the Heap (lines 11-12). 
+*  f has id 0, it is a function on the Heap (lines 1-2). 
+*  g has id 1, it is a function on the Heap (lines 5-8). 
+*  main has id 2, it is a function on the Heap (lines 11-12).  
 
 The main frame has 2 items including the RA and RV. 
 
-*  The RA is defined at line 16. 
+*  The RA is defined at line 15. 
 *  The RV is None. 
 
 The f frame has 3 items including the RA and RV and a variable named x. 
@@ -83,5 +83,5 @@ The g frame has 4 items including the RA and RV and two variables named x and y.
 
 *  Previous values of x include 7, 6, and 5 which are now crossed out *  y is “java” 
 The Heap includes 3 function objects. 
-Output is empty. -->
+Output is empty. 
 
