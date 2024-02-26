@@ -40,4 +40,4 @@ template: overview
 
 # Solution
 
-
+<img class="img-fluid" src="/static/practice-mem-diagrams/change-and-check.png" alt="Image Description Here"  />
