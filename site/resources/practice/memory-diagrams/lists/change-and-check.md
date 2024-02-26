@@ -40,7 +40,6 @@ template: overview
 
 
     main()
-```
 </code></pre>
 
 # Solution

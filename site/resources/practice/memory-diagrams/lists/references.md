@@ -1,6 +1,8 @@
 ---
 title: Practice Memory Diagram
-author: Alyssa Lytle
+author: 
+- Kris Jordan
+- Alyssa Lytle
 page: lessons
 template: overview
 ---
@@ -42,7 +44,6 @@ template: overview
 
     if __name__ == "__main__":
         main()
-```
 </code></pre>
 
 # Solution
