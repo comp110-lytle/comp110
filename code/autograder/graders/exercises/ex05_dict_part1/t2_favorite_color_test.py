@@ -6,7 +6,7 @@ from pytest import mark
 from graders.helpers import assert_parameter_list, reimport_module
 from graders.helpers import assert_return_type
 
-MODULE = "exercises.ex06.dictionary"
+MODULE = "exercises.ex05.dictionary"
 
 
 @mark.weight(3)
@@ -26,6 +26,6 @@ def test_favorite_color_return_type():
 @mark.weight(3)
 def test_tie():
     """favorite_color - favorite_color returns the most frequently appearing color."""
-    from exercises.ex06.dictionary import favorite_color
+    from exercises.ex05.dictionary import favorite_color
     tied: dict[str, str] = {"John": "purple", "Mary": "red", "Joseph": "purple", "George": "yellow"}
     assert favorite_color(tied) == "purple"
