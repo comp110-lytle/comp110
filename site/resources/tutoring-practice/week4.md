@@ -8,7 +8,7 @@ template: overview
 
 # Concepts Reviewed
 
-These questions are optional supplements that ideally help you get prepared for the quizzes ahead of time. Before working through these practice questions, you should get familiar with the concepts covered in the lessons of the fourth week.
+These questions are optional supplements that ideally help you get prepared for the quizzes ahead of time. (Some of them are also designed for elaboration purposes as you can see from the tag. Don't worry them if you just want to get prepared for the quizzes) Before working through these practice questions, you should get familiar with the concepts covered in the lessons of the fourth week.
 
 <br>
 
@@ -37,14 +37,14 @@ A) [1, 2, 3, 4, 5] B) [1, 2, 3, 4] C) [5, 4, 3, 2, 1] D) Error
 
 6. Identify the usage and difference of `pop()` and `append()` in list.
 
-7. In Python, which method can be used to combine two lists into a single list?
+7. (For elaboration)In Python, which method can be used to combine two lists into a single list?
 
 A) combine()
 B) append()
 C) extend()
 D) join()
 
-8. Identify the following statements regarding list slicing are True or False:
+8. (For elaboration)Identify the following statements regarding list slicing are True or False:
 8.1 list[::2] returns items at even indices only.
 8.2 list[::-1] reverses the list.
 8.3 list[1:3] returns the first three items.

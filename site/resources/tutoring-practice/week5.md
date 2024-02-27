@@ -8,7 +8,7 @@ template: overview
 
 # Concepts Reviewed
 
-These questions are optional supplements that ideally help you get prepared for the quizzes ahead of time. Before working through these practice questions, you should get familiar with the concepts covered in the lessons of the Fifth Week.
+These questions are optional supplements that ideally help you get prepared for the quizzes ahead of time.(Some of them are also designed for elaboration purposes as you can see from the tag. Don't worry them if you just want to get prepared for the quizzes) Before working through these practice questions, you should get familiar with the concepts covered in the lessons of the Fifth Week.
 
 <br>
 
