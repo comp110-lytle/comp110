@@ -7,7 +7,7 @@ from graders.helpers import assert_parameter_list, reimport_module
 from graders.helpers import assert_return_type
 
 
-MODULE = "exercises.ex06.dictionary"
+MODULE = "exercises.ex05.dictionary"
 
 
 @mark.weight(3)
@@ -27,6 +27,6 @@ def test_alphabetizer_return_type():
 @mark.weight(3)
 def test_alphabetizer_1():
     """alphabetizer - alphabetizer correctly returns a dictionary of sorted words."""
-    from exercises.ex06.dictionary import alphabetizer
+    from exercises.ex05.dictionary import alphabetizer
     words = ["cherry", "hello", "mine", "hot", "marshmallow", "crayola"]
     assert alphabetizer(words) == {"c": ["cherry", "crayola"], "h": ["hello", "hot"], "m": ["mine", "marshmallow"]}
