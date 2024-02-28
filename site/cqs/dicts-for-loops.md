@@ -8,7 +8,7 @@ template: overview
 
 # Dictionary Challenge Question
 
-For this challenge question, you are going to write a function that creates a dictionary!
+For this challenge question, you are going to write a function that iterates over a dictionary!
 
 ## Part 0. Setup
 

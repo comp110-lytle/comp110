@@ -20,16 +20,16 @@
             "date": "2024-02-28",
             "deadline": "None",
             "links": {
-                "Lecture Video": "/",
+                "Lecture Video": "https://youtube.com/live/VUo2ikqmVgI?feature=share",
                 "Slides": "/static/slides/CL11.pdf"
             }
         },
         {
             "kind": "CQ",
             "n": 5,
-            "title": "Dictionaries + for Loops (Due Friday 3/1)",
+            "title": "Dictionaries + for Loops (Due Sunday 3/3)",
             "date": "2024-02-28",
-            "deadline": "2024-03-01",
+            "deadline": "2024-03-03",
             "links": {
                 "": "/cqs/dicts-for-loops.html"
             }
