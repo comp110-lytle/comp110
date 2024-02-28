@@ -27,7 +27,7 @@ template: overview
 
 # Solution
 
-<img class="img-fluid" src="/static/assets/f23/dicts00-sol.png" alt=""  />
+<img class="img-fluid" src="/static/practice-mem-diagrams/record-sol.png" alt=""  />
 
 *Image Description:*
 The memory diagram is divided into three segments: Output, Stack, and Heap.

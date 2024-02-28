@@ -23,7 +23,7 @@ template: overview
 
 # Solution
 
-<img class="img-fluid" src="/static/assets/f23/dicts01-sol.png" alt=""  />
+<img class="img-fluid" src="/static/practice-mem-diagrams/mystery-dict-sol.png" alt=""  />
 
 *Image Description:*
 The memory diagram provided displays elements in the Output, Stack, and Heap sections.
