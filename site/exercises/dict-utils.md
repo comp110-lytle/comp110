@@ -127,7 +127,7 @@ Given a `dict[str, list[str]]`, this function will _mutate_ and return that dict
    - `dict[str, list[str]]` - an existing dictionary that contains days of the week as keys and a list of students who were in _attendance_ as the values
    - `str` - a day of the week
    - `str` - a student who attended class
-2. Update the `dict[str, list[str]]` that was passed in with the new attendance information, then return it.
+2. Update the `dict[str, list[str]]` that was passed in with the new attendance information, then return `None`.
 
 An example:
 
