@@ -64,7 +64,7 @@ Example usage:
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission lessons/zip.py```
+```python -m tools.submission lessons/unzip.py```
 
 Then, drag and drop that .zip file into Gradescope!
 
