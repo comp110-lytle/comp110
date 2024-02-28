@@ -60,7 +60,7 @@ Example usage:
 </pre>
 
 
-## Submission
+## Submission Instructions
 
 Create a .zip file by running the following command in your terminal:
 
