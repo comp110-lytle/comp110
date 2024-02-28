@@ -1,39 +1,4 @@
 {
-    "2024-02-23": [
-        {
-            "kind": "CL",
-            "n": 10,
-            "title": "for ... in range(...) loops",
-            "date": "2024-02-23",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/yM12Oxam8Og?feature=share",
-                "Slides": "/static/slides/CL10.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 4,
-            "title": "For Loops (Due Friday 2/23)",
-            "date": "2024-02-23",
-            "deadline": "2024-02-23",
-            "links": {
-                "": "/cqs/for-loops.html"
-            }
-        },
-        {
-            "kind": "RD",
-            "n": 1,
-            "title": "Weapons of Math Destruction (Due Thursday 3/14)",
-            "date": "2024-02-23",
-            "deadline": "2024-03-14",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-02-24": [],
-    "2024-02-25": [],
     "2024-02-26": [
         {
             "kind": "VL",
@@ -55,8 +20,18 @@
             "date": "2024-02-28",
             "deadline": "None",
             "links": {
-                "Lecture Video": "https://youtube.com/live/yM12Oxam8Og?feature=share",
-                "Slides": "/static/slides/CL10.pdf"
+                "Lecture Video": "/",
+                "Slides": "/static/slides/CL11.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 5,
+            "title": "Dictionaries + for Loops (Due Sunday 3/3)",
+            "date": "2024-02-28",
+            "deadline": "2024-03-03",
+            "links": {
+                "": "/cqs/dicts-cq.html"
             }
         },
         {
