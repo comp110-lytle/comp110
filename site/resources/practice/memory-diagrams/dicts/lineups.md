@@ -11,20 +11,19 @@ template: overview
 
 ```
     starting = dict[str, list[str]] = {}
-    starting["2017"] = ["Berry", "Meeks", "Jackson", "Pinson", "Hicks"]
-    starting["2023"] = ["Love", "Bacot", "Black", "Nance", "Davis"]
+    starting["2017"] = ["Berry", "Meeks", "Jackson"]
+    starting["2023"] = ["Love", "Bacot", "Black"]
 
-    if __name__ == "__main__":
-        print(starting["2017"][2])
-        print(starting["2023"])
-        starting["2023"][3] = "Johnson"
-        print(starting["2023"])
+    print(starting["2017"][2])
+    print(starting["2023"])
+    starting["2023"][2] = "Johnson"
+    print(starting["2023"])
 ```
 
 # Solution
 <img class="img-fluid" src="/static/practice-mem-diagrams/lineup-sol.png" alt="Image Description Here"  />
 
-*Image Description:*
+<!-- *Image Description:*
 The memory diagram provided contains three main components: Stack, Heap, and Output.
 
 Stack:
@@ -40,4 +39,4 @@ Heap:
 The output section has three outputs:
 * The string “Jackson”
 * The list [“Love”, “Bacot”, “Black”, “Nance”, “Davis”]
-* The list [“Love”, “Bacot”, “Black”, “Johnson”, “Davis”]
+* The list [“Love”, “Bacot”, “Black”, “Johnson”, “Davis”] -->
