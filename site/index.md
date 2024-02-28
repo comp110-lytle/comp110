@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/practice/sp24/qz02.html">QZ02 - FRI, MAR 01 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils.html">EX05 - TUE, MAR 05 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/dicts-for-loops.html">CQ05 - FRI, MAR 01 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/sp24/qz02.html">QZ02 - FRI, MAR 01 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils.html">EX05 - TUE, MAR 05 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -47,7 +47,8 @@ template: home
 <span class="kind">CL11 </span><span class="title">Dictionaries + for loops</span>
 <ul class="links"><li class="link"><a href="/">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL11.pdf">Slides</a></li>
-</ul></div><div class="plan Exercise">
+</ul></div><div class="plan Challenge Question">
+<span class="kind">CQ05 </span><span class="title"><a href="/cqs/dicts-for-loops.html">Dictionaries + for Loops (Due Friday 3/1)</a></span></div><div class="plan Exercise">
 <span class="kind">EX05 </span><span class="title"><a href="/exercises/dict-utils.html">Dictionary Utils (Due Tuesday 3/5)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-03-01" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Mar 1</div>

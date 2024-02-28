@@ -469,6 +469,16 @@
             }
         },
         {
+            "kind": "CQ",
+            "n": 5,
+            "title": "Dictionaries + for Loops (Due Friday 3/1)",
+            "date": "2024-02-28",
+            "deadline": "2024-03-01",
+            "links": {
+                "": "/cqs/dicts-for-loops.html"
+            }
+        },
+        {
             "kind": "EX",
             "n": 5,
             "title": "Dictionary Utils (Due Tuesday 3/5)",
