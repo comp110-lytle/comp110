@@ -50,7 +50,7 @@ template: overview
 [Example 0](/resources/practice/memory-diagrams/lists/lists-00.html) |
 [Example 1](/resources/practice/memory-diagrams/lists/lists-01.html) |
 [Example 2](/resources/practice/memory-diagrams/lists/references.html) |
-[Example 3](/resources/practice/memory-diagrams/lists/change-and-check.html)
+[Example 3](/resources/practice/memory-diagrams/lists/change-and-check.html) |
 
 
 ## Dictionaries

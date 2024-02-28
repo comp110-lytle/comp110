@@ -32,8 +32,7 @@ template: overview
         return word
 
 
-    if __name__ == "__main__":
-        main()
+    main()
 </code></pre>
 
 # Solution
