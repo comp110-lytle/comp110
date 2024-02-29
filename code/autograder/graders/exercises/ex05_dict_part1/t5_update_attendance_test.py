@@ -19,7 +19,7 @@ def test_update_attendance_params():
 
 @mark.weight(3)
 def test_update_attendance_return_type():
-    """update_attendance - update_attendance returns a dict[str, list[str]]."""
+    """update_attendance - update_attendance returns None."""
     module = reimport_module(MODULE)
     assert_return_type(module.update_attendance, None)
 

@@ -64,9 +64,6 @@ Create a function in your `dictionary.py` file called `favorite_color`. It has t
 - Parameter: `dict[str, str]` - dictionary of names and favorite colors
 - Return Type: `str` - the most popular color
 
-
-You can also check the correctness of your `favorite_color` function by calling it in `main`, printing the result, then running the program with the same command from above.
-
 An example:
 
 ```
