@@ -68,9 +68,9 @@
         {
             "kind": "EX",
             "n": 6,
-            "title": "Dictionary Unit Tests (Due Tuesday 3/12)",
+            "title": "Dictionary Unit Tests (Due Tuesday 3/19)",
             "date": "2024-03-06",
-            "deadline": "2024-03-12",
+            "deadline": "2024-03-19",
             "links": {
                 "": "/exercises/dict-utests.html"
             }

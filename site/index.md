@@ -61,7 +61,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-03-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Mar 6</div>
 <div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX06 </span><span class="title"><a href="/exercises/dict-utests.html">Dictionary Unit Tests (Due Tuesday 3/12)</a></span></div></div>
+<span class="kind">EX06 </span><span class="title"><a href="/exercises/dict-utests.html">Dictionary Unit Tests (Due Tuesday 3/19)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-03-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Mar 20</div>
 <div class="plans col-md-9"><div class="plan Exercise">
@@ -104,7 +104,7 @@ template: home
 <li class="link"><a href="/static/slides/CL10.pdf">Slides</a></li>
 </ul></div><div class="plan Challenge Question">
 <span class="kind">CQ04 </span><span class="title"><a href="/cqs/for-loops.html">For Loops (Due Friday 2/23)</a></span></div><div class="plan Reading">
-<span class="kind">RD01 </span><span class="title"><a href="https://www.gradescope.com/">Weapons of Math Destruction (Due Thursday 3/14)</a></span></div></div>
+<span class="kind">RD01 </span><span class="title"><a href="https://www.gradescope.com/">Weapons of Math Destruction<s><i>(Due Thursday 3/14)</i></s> (Extended to Monday 3/18)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-02-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Feb 21</div>
 <div class="plans col-md-9"><div class="plan Class">
