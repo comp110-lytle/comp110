@@ -1,5 +1,5 @@
 ---
-title: EX05 - Dictionary Functions
+title: EX05 - Dictionary Utils
 author:
   - Kaki Ryan
   - Vrinda Desai
