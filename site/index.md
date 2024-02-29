@@ -56,7 +56,7 @@ template: home
 <span class="kind">QZ02 </span><span class="title">Quiz 2</span>
 <ul class="links"><li class="link"><a href="/resources/practice/sp24/qz02.html">Practice Problems</a></li>
 <li class="link"><a href="https://comp110-24s.github.io/resources/curriculum.html">Covered Topics: Units 0 - 4C</a></li>
-<li class="link"><a href="https://unc.zoom.us/rec/share/Qn_n5MFAZUVtxLgqjSIv1eI_ueeCMNgLb0xMYf46gZ3aoQtod6mzxXnsrvzG0Ed4.pZNy8kPYnXDOzDav">Virtual Review Session (Passcode: 9&2MG!vk)</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/94400379939?pwd=SFhkL3p3bHNqMGhXUE8vVUQxalU5Zz09">Virtual Review Session Thursday @ 7 pm</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-03-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Mar 6</div>
