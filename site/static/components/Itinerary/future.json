@@ -1,17 +1,4 @@
 {
-    "2024-02-26": [
-        {
-            "kind": "VL",
-            "n": 5,
-            "title": "Virtual Lesson (Due Tuesday 2/27)",
-            "date": "2024-02-26",
-            "deadline": "2024-02-27",
-            "links": {
-                "": "/virtual-classes/VL05.html"
-            }
-        }
-    ],
-    "2024-02-27": [],
     "2024-02-28": [
         {
             "kind": "CL",
@@ -56,21 +43,32 @@
             "links": {
                 "Practice Problems": "/resources/practice/sp24/qz02.html",
                 "Covered Topics: Units 0 - 4C": "https://comp110-24s.github.io/resources/curriculum.html",
-                "Virtual Review Session Thursday @ 7 pm": "https://unc.zoom.us/j/94400379939?pwd=SFhkL3p3bHNqMGhXUE8vVUQxalU5Zz09"
+                "Virtual Review Session (Passcode: 3bQcXYz*)": "https://unc.zoom.us/rec/share/uJpFoC0a4ROk1eSU4baPxbtF2whm4iPVA_T7HPHPi5_1tQ2XaQc1hSfZS8z5DW6B.Lo_WpUq9SZfigTnY"
             }
         }
     ],
     "2024-03-02": [],
     "2024-03-03": [],
-    "2024-03-04": [],
+    "2024-03-04": [
+        {
+            "kind": "VL",
+            "n": 6,
+            "title": "Virtual Lesson (Due Tuesday 3/5)",
+            "date": "2024-03-04",
+            "deadline": "2024-03-05",
+            "links": {
+                "": "/virtual-classes/VL06.html"
+            }
+        }
+    ],
     "2024-03-05": [],
     "2024-03-06": [
         {
             "kind": "EX",
             "n": 6,
-            "title": "Dictionary Unit Tests (Due Tuesday 3/19)",
+            "title": "Dictionary Unit Tests (Due Thursday 3/21)",
             "date": "2024-03-06",
-            "deadline": "2024-03-19",
+            "deadline": "2024-03-21",
             "links": {
                 "": "/exercises/dict-utests.html"
             }
@@ -89,20 +87,19 @@
     "2024-03-17": [],
     "2024-03-18": [],
     "2024-03-19": [],
-    "2024-03-20": [
+    "2024-03-20": [],
+    "2024-03-21": [],
+    "2024-03-22": [
         {
             "kind": "EX",
             "n": 7,
             "title": "Runtime Analysis (Due Sunday 3/31)",
-            "date": "2024-03-20",
+            "date": "2024-03-22",
             "deadline": "2024-03-31",
             "links": {
                 "": "/"
             }
-        }
-    ],
-    "2024-03-21": [],
-    "2024-03-22": [
+        },
         {
             "kind": "RD",
             "n": 2,
