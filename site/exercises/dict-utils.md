@@ -7,7 +7,7 @@ author:
 page: exercises
 template: overview
 ---
-# EX05 - Dictionary Functions
+# EX05 - Dictionary Utility Functions
 
 In this exercise you will get some practice with dictionary functions!
 
