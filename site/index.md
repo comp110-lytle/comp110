@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/practice/sp24/qz02.html">QZ02 - FRI, MAR 01 11:59pm</a></li><li class="horizon-item"><a href="/cqs/dicts-for-loops.html">CQ05 - SUN, MAR 03 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils.html">EX05 - TUE, MAR 05 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/practice/sp24/qz02.html">QZ02 - FRI, MAR 01 11:59pm</a></li><li class="horizon-item"><a href="/cqs/dicts-for-loops.html">CQ05 - SUN, MAR 03 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils.html">EX05 - TUE, MAR 05 11:59pm</a></li><li class="horizon-item"><a href="/virtual-classes/VL06.html">VL06 - TUE, MAR 05 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -54,17 +54,18 @@ template: home
 <li class="link"><a href="https://comp110-24s.github.io/resources/curriculum.html">Covered Topics: Units 0 - 4C</a></li>
 <li class="link"><a href="https://unc.zoom.us/rec/share/uJpFoC0a4ROk1eSU4baPxbtF2whm4iPVA_T7HPHPi5_1tQ2XaQc1hSfZS8z5DW6B.Lo_WpUq9SZfigTnY">Virtual Review Session (Passcode: 3bQcXYz*)</a></li>
 </ul></div></div>
+</div><div data-type="lecture" data-date="2024-03-04" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Mar 4</div>
+<div class="plans col-md-9"><div class="plan Virtual Lesson">
+<span class="kind">VL06 </span><span class="title"><a href="/virtual-classes/VL06.html">Virtual Lesson (Due Tuesday 3/5)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-03-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Mar 6</div>
 <div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX06 </span><span class="title"><a href="/exercises/dict-utests.html">Dictionary Unit Tests (Due Tuesday 3/19)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-03-20" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Mar 20</div>
-<div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX07 </span><span class="title"><a href="/">Runtime Analysis (Due Sunday 3/31)</a></span></div></div>
+<span class="kind">EX06 </span><span class="title"><a href="/exercises/dict-utests.html">Dictionary Unit Tests (Due Thursday 3/21)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-03-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Mar 22</div>
-<div class="plans col-md-9"><div class="plan Reading">
+<div class="plans col-md-9"><div class="plan Exercise">
+<span class="kind">EX07 </span><span class="title"><a href="/">Runtime Analysis (Due Sunday 3/31)</a></span></div><div class="plan Reading">
 <span class="kind">RD02 </span><span class="title"><a href="https://www.gradescope.com/">Reading: Man versus Machine or Man + Machine? (Due Thursday 4/11)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-03-27" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Mar 27</div>
