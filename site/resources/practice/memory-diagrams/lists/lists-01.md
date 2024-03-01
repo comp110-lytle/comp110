@@ -13,16 +13,16 @@ template: overview
 
 <pre>
 <code class="python">    def check_quiz(responses: list[bool]) -> int:
-    answer_key: list[bool] = [True, True, False]
-    correct: int = 0
-    idx: int = 0
-    while idx < len(responses):
-        if responses[idx] == answer_key[idx]:
-            correct += 1
-            idx += 1
-        else:
-            idx += 1
-    return correct
+        answer_key: list[bool] = [True, True, False]
+        correct: int = 0
+        idx: int = 0
+        while idx < len(responses):
+            if responses[idx] == answer_key[idx]:
+                correct += 1
+                idx += 1
+            else:
+                idx += 1
+        return correct
 
     def main() -> None:
         my_quiz: list[bool] = [True, True, True]
