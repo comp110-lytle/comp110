@@ -1,5 +1,5 @@
 ---
-title: Week 2 Practice
+title: Week 6 Practice
 author:
   - Vincent Li
 page: resources
