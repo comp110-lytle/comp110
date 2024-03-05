@@ -16,3 +16,4 @@ template: overview
 - [week 4](/resources/tutoring-practice/week4.html)
 - [week 5](/resources/tutoring-practice/week5.html)
 - [week 6](/resources/tutoring-practice/week6.html)
+- [week 7](/resources/tutoring-practice/week7.html)
