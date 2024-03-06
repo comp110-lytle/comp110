@@ -35,8 +35,7 @@ Include descriptive function names and docstrings, so that it captures what is b
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission lessons```
+```python -m tools.submission lessons/garden```
 
-(For this assignment, you'll have to submit your entire lessons folder! Gradescope will give you the option to select what files to delete within that folder by clicking an "x". Make sure you include garden_helpers_test.py and garden_helpers.py!)
 
 Then, drag and drop that .zip file into Gradescope!

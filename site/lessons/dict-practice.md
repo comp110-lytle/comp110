@@ -12,7 +12,7 @@ This is an example mini-exercise that we will go through together in class to ge
 
 ## Part 0. Setup
 
-Start by opening your workspace in Visual Studio. Right click on the "lessons" folder and select "add file". Your file will be named `garden_helpers.py`.
+Start by opening your workspace in Visual Studio. Right click on the "lessons" folder and select "add folder". Create a folder called "garden". Then, right click on the "garden folder and select "add file". Your file will be named `garden_helpers.py`.
 
 Set up your document by adding the docstring:
 `"""Some functions for my garden plan!"""` and initializing the `__author__` variable with your PID.
