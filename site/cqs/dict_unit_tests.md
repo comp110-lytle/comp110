@@ -30,6 +30,7 @@ The 2 unit tests should consist of:
 
 Include descriptive function names and docstrings, so that it captures what is being tested.
 
+*Also, be sure to not just copy the examples used in class for your cases! We will be checking for that!*
 
 ## Submission
 
