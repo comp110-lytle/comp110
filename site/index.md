@@ -45,7 +45,7 @@ template: home
 <div class="date col-md-2">Wed, Mar 6</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL12 </span><span class="title">Practice Writing Functions</span>
-<ul class="links"><li class="link">Lecture Video</li>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/PvigMl-M4i8?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/lessons/dict-practice.html">Instructions</a></li>
 </ul></div><div class="plan Exercise">
 <span class="kind">EX06 </span><span class="title"><a href="/exercises/dict-utests.html">Dictionary Unit Tests (Due Thursday 3/21)</a></span></div></div>
