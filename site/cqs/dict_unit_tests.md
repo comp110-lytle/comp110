@@ -12,7 +12,7 @@ For this challenge question, you are going to *test* the functions we just wrote
 
 ## Part 0. Setup
 
-Start by opening your workspace in Visual Studio. Right click on the "lessons" folder and select "add file". Your file will be named `garden_helpers_test.py`.
+Start by opening your workspace in Visual Studio. Right click on the "garden" folder in "lessons" and select "add file". Your file will be named `garden_helpers_test.py`.
 
 Set up your document by adding the docstring:
 `"""Test my garden functions."""` and initializing the `__author__` variable with your PID.
