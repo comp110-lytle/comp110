@@ -1,54 +1,4 @@
 {
-    "2024-02-28": [
-        {
-            "kind": "CL",
-            "n": 11,
-            "title": "Dictionaries + for loops",
-            "date": "2024-02-28",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/VUo2ikqmVgI?feature=share",
-                "Slides": "/static/slides/CL11.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 5,
-            "title": "Dictionaries + for Loops (Due Sunday 3/3)",
-            "date": "2024-02-28",
-            "deadline": "2024-03-03",
-            "links": {
-                "": "/cqs/dicts-for-loops.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 5,
-            "title": "Dictionary Utils (Due Tuesday 3/5)",
-            "date": "2024-02-28",
-            "deadline": "2024-03-05",
-            "links": {
-                "": "/exercises/dict-utils.html"
-            }
-        }
-    ],
-    "2024-02-29": [],
-    "2024-03-01": [
-        {
-            "kind": "QZ",
-            "n": 2,
-            "title": "Quiz 2",
-            "date": "2024-03-01",
-            "deadline": "2024-03-01",
-            "links": {
-                "Practice Problems": "/resources/practice/sp24/qz02.html",
-                "Covered Topics: Units 0 - 4C": "https://comp110-24s.github.io/resources/curriculum.html",
-                "Virtual Review Session (Passcode: 3bQcXYz*)": "https://unc.zoom.us/rec/share/uJpFoC0a4ROk1eSU4baPxbtF2whm4iPVA_T7HPHPi5_1tQ2XaQc1hSfZS8z5DW6B.Lo_WpUq9SZfigTnY"
-            }
-        }
-    ],
-    "2024-03-02": [],
-    "2024-03-03": [],
     "2024-03-04": [
         {
             "kind": "VL",
@@ -63,6 +13,17 @@
     ],
     "2024-03-05": [],
     "2024-03-06": [
+        {
+            "kind": "CL",
+            "n": 12,
+            "title": "Practice Writing Functions",
+            "date": "2024-03-06",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Instructions": "/lessons/dict-practice.html"
+            }
+        },
         {
             "kind": "EX",
             "n": 6,

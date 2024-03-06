@@ -521,6 +521,17 @@
     "2024-03-05": [],
     "2024-03-06": [
         {
+            "kind": "CL",
+            "n": 12,
+            "title": "Practice Writing Functions",
+            "date": "2024-03-06",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Instructions": "/lessons/dict-practice.html"
+            }
+        },
+        {
             "kind": "EX",
             "n": 6,
             "title": "Dictionary Unit Tests (Due Thursday 3/21)",
