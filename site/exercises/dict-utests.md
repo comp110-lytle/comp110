@@ -1,5 +1,5 @@
 ---
-title: EX06 - `dict` Unit Tests
+title: EX05 - `dict` Unit Tests
 author:
 - Vrinda Desai
 page: exercises
@@ -8,9 +8,9 @@ template: overview
 
 In this exercise, you will return to the dictionary functions you built in the previous exercise. You will practice writing *unit tests* for each of these functions, checking if your solutions work under a variety of circumstances. The unit tests will make testing your functions easier and will reassure you of their correctness.
 
-As a reminder, the autograder from EX06 only tested function signatures and very basic functionality. Thus, you may realize some of your functions do not actually work as you expected! Good test cases will be important, especially as the autograder for EX06 is much more stringent.
+As a reminder, the autograder from EX05 - Dictionary Utils only tested function signatures and very basic functionality. Thus, you may realize some of your functions do not actually work as you expected! Good test cases will be important, especially as the autograder for EX05 - Dictionary Unit Tests is much more stringent.
 
-Note: Even if your functions are not 100% correct or finished, you can still get full credit for the *unit tests* if you set up a function skeleton and write your tests assuming correct functionality.
+Note: Even if your functions are not 100% correct or finished, you can still get full credit for the *unit tests* if you set up a function skeleton and write your tests assuming correct functionality. 
 
 Assignment Outline
 
@@ -31,7 +31,7 @@ Assignment Outline
 
 ## 0. Testing Setup
 
-Inside the `exercises/ex06` directory which you created in the previous exercise, create a file named `dictionary_test.py`. Add a docstring and establish an `__author__` variable to be assigned a string with the digits of your PID. This is where you will write unit tests for the 5 functions defined in the `dictionary.py` file.
+Inside the `exercises/ex05` directory which you created in the previous exercise, create a file named `dictionary_test.py`. Add a docstring and establish an `__author__` variable to be assigned a string with the digits of your PID. This is where you will write unit tests for the 5 functions defined in the `dictionary.py` file.
 
 ## 1. Writing Unit Tests
 
@@ -44,7 +44,7 @@ The 3 unit tests should consist of:
 
 Include descriptive function names and docstrings, so that it captures what is being tested.
 
-The command to run your tests is `python -m pytest exercises/ex06/dictionary_test.py` or you can run them using the beaker tab in VSCode if it is working (do note the VSCode testing feature tends to be a bit flaky).
+The command to run your tests is `python -m pytest exercises/ex05/dictionary_test.py` or you can run them using the beaker tab in VSCode if it is working (do note the VSCode testing feature tends to be a bit flaky).
 
 If your screen is large enough, you are encouraged to open these files side-by-side in VSCode by dragging the tab of one to the right side of VSCode so that it changes to a split pane view. Closing your file explorer can help give you additional horizontal space.
 
@@ -76,15 +76,15 @@ As you make progress on this exercise, making backups is encouraged.
 
 ## 3. Submit to Gradescope for Grading
 
-Login to Gradescope and select the assignment named "EX06 - Dictionary Unit Tests". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
+Login to Gradescope and select the assignment named "EX05 - Dictionary Unit Tests". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
 
 If you _do not_ see a Terminal at the bottom of your screen, open the Command Palette and search for "View: Toggle Integrated Terminal".
 
 Type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex06`
+`python -m tools.submission exercises/ex05`
 
-In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex06.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex05.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
 Autograding will take a few moments to complete. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours!
 
@@ -92,4 +92,4 @@ Autograding will take a few moments to complete. If there are issues reported, y
 
 If you're not passing autograder tests and don't know why, try locally running your pytests to see if that gives you more insight! You can do that with the following command in your terminal: 
 
-`python -m pytest exercises/ex06/dictionary_test.py`
+`python -m pytest exercises/ex05/dictionary_test.py`
