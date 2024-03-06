@@ -32,6 +32,12 @@ Include descriptive function names and docstrings, so that it captures what is b
 
 *Also, be sure to not just copy the examples used in class for your cases! We will be checking for that!*
 
+### Try your unit tests!
+
+You can try your unit tests to see if they work by running:
+
+`python -m pytest lessons/garden/garden_helpers_test.py`
+
 ## Submission
 
 Create a .zip file by running the following command in your terminal:
