@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/dict_unit_tests.html">CQ06 - FRI, MAR 08 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -49,6 +49,10 @@ template: home
 <li class="link"><a href="/lessons/dict-practice.html">Instructions</a></li>
 </ul></div><div class="plan Exercise">
 <span class="kind">EX06 </span><span class="title"><a href="/exercises/dict-utests.html">Dictionary Unit Tests (Due Thursday 3/21)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-03-08" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Mar 8</div>
+<div class="plans col-md-9"><div class="plan Challenge Question">
+<span class="kind">CQ06 </span><span class="title"><a href="/cqs/dict_unit_tests.html">Dictionary Unit Tests Practice (Due Friday 3/8)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-03-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Mar 22</div>
 <div class="plans col-md-9"><div class="plan Exercise">
