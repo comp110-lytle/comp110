@@ -17,7 +17,7 @@ Start by opening your workspace in Visual Studio. Right click on the "garden" fo
 Set up your document by adding the docstring:
 `"""Test my garden functions."""` and initializing the `__author__` variable with your PID.
 
-Also don't forget to import your functions from `lessons.garden_helpers`!
+Also don't forget to import your functions from `lessons.garden.garden_helpers`!
 
 ## Part 1-3. unit tests
 
