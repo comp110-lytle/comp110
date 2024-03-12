@@ -30,7 +30,7 @@ Example usage:
 
 <pre>
 <div class="terminal">python
->>> from lessons.garden_helpers import add_by_kind
+>>> from lessons.garden.garden_helpers import add_by_kind
 >>> by_kind: dict[str, list[str]] = {"flower": ["marigold", "zinnia"], "vegetable": ["carrots"]}
 >>> add_by_kind(by_kind, "flower", "daisy")
 >>> by_kind
@@ -43,7 +43,7 @@ Example usage:
 
 ## Part 2. `add_by_date()`
 
-We are going to write a function that adds a plant to a garden dictionary that is sorted by the date in which the seeds should be sown. For example, given the dictionary ``, say we want to add another `"flower"`, like a daisy. This function should allow us to do that by *mutating* the input dictionary.
+We are going to write a function that adds a plant to a garden dictionary that is sorted by the date in which the seeds should be sown. For example, given the dictionary, say we want to add another `"flower"`, like a daisy. This function should allow us to do that by *mutating* the input dictionary.
 
 - Function name: `add_by_kind`
 - Parameters: `dict[str, list[str]]`, `str`, `str`
@@ -53,7 +53,7 @@ Example usage:
 
 <pre>
 <div class="terminal">python
->>> from lessons.garden_helpers import add_by_date
+>>> from lessons.garden.garden_helpers import add_by_date
 >>> by_date: dict[str, list[str]] = {"April": ["marigold"], "June": ["carrots"]}
 >>> add_by_date(by_date, "April", "daisy")
 >>> by_date
@@ -76,7 +76,7 @@ Example usage:
 
 <pre>
 <div class="terminal">python
->>> from lessons.garden_helpers import add_by_date
+>>> from lessons.garden.garden_helpers import add_by_date
 >>> by_kind: dict[str, list[str]] = {"flower": ["marigold", "zinnia"], "vegetable": ["carrots"]}
 >>> by_date: dict[str, list[str]] = {"April": ["marigold"], "June": ["carrots"]}
 >>> lookup_by_kind_and_date(by_kind, by_date, "flower", "April")
