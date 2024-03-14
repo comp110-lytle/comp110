@@ -115,3 +115,13 @@ page: lessons
 [Video](https://youtu.be/d4RRQmNg5s4)
 </div>
 
+<div class="plan Class"><span class="kind">LS22 </span>
+<span class="title">Mutable vs. Immutable Objects:</span>
+[Video](/) | [Slides](/static/slides/lessons/MutableObjects.pdf)
+</div>
+
+<div class="plan Class"><span class="kind">LS23 </span>
+<span class="title">More on Unit Tests:</span>
+[Video](/)
+</div>
+

@@ -547,7 +547,7 @@
         {
             "kind": "CQ",
             "n": 6,
-            "title": "Dictionary Unit Tests Practice (Due Friday 3/8)",
+            "title": "Dictionary Unit Tests Practice<s><i>(Due Friday 3/8)</i></s> (Extended to Tuesday 3/19)",
             "date": "2024-03-08",
             "deadline": "2024-03-08",
             "links": {
@@ -564,7 +564,18 @@
     "2024-03-15": [],
     "2024-03-16": [],
     "2024-03-17": [],
-    "2024-03-18": [],
+    "2024-03-18": [
+        {
+            "kind": "VL",
+            "n": 7,
+            "title": "Virtual Lesson 07 (Due Tuesday 3/19)",
+            "date": "2024-03-18",
+            "deadline": "2024-03-19",
+            "links": {
+                "": "/virtual-classes/VL07.html"
+            }
+        }
+    ],
     "2024-03-19": [],
     "2024-03-20": [],
     "2024-03-21": [],

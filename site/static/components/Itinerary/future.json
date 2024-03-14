@@ -1,63 +1,22 @@
 {
-    "2024-03-04": [
-        {
-            "kind": "VL",
-            "n": 6,
-            "title": "Virtual Lesson (Due Tuesday 3/5)",
-            "date": "2024-03-04",
-            "deadline": "2024-03-05",
-            "links": {
-                "": "/virtual-classes/VL06.html"
-            }
-        }
-    ],
-    "2024-03-05": [],
-    "2024-03-06": [
-        {
-            "kind": "CL",
-            "n": 12,
-            "title": "Practice Writing Functions",
-            "date": "2024-03-06",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/PvigMl-M4i8?feature=share",
-                "Instructions": "/lessons/dict-practice.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 6,
-            "title": "Dictionary Unit Tests (Due Thursday 3/21)",
-            "date": "2024-03-06",
-            "deadline": "2024-03-21",
-            "links": {
-                "": "/exercises/dict-utests.html"
-            }
-        }
-    ],
-    "2024-03-07": [],
-    "2024-03-08": [
-        {
-            "kind": "CQ",
-            "n": 6,
-            "title": "Dictionary Unit Tests Practice (Due Friday 3/8)",
-            "date": "2024-03-08",
-            "deadline": "2024-03-08",
-            "links": {
-                "": "/cqs/dict_unit_tests.html"
-            }
-        }
-    ],
-    "2024-03-09": [],
-    "2024-03-10": [],
-    "2024-03-11": [],
     "2024-03-12": [],
     "2024-03-13": [],
     "2024-03-14": [],
     "2024-03-15": [],
     "2024-03-16": [],
     "2024-03-17": [],
-    "2024-03-18": [],
+    "2024-03-18": [
+        {
+            "kind": "VL",
+            "n": 7,
+            "title": "Virtual Lesson 07 (Due Tuesday 3/19)",
+            "date": "2024-03-18",
+            "deadline": "2024-03-19",
+            "links": {
+                "": "/virtual-classes/VL07.html"
+            }
+        }
+    ],
     "2024-03-19": [],
     "2024-03-20": [],
     "2024-03-21": [],
