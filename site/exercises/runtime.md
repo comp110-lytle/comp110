@@ -120,15 +120,15 @@ Now, repeat these steps, but for insertion sort!
 Now, we are going to analyze the memory usage of the algorithms! You will import and call the `evaluate_memory_usage` function from `runtime_analysis_functions.py`. This function uses a python library called `tracemalloc` to measure how many blocks of memory your function call is using. Similar to `evaluate_runtime`, it measures memory usage for an increasing number of input sizes so we can visualize how memory usage changes as input size changes.
 
 ```
-usage = evaluate_memory_usage("selection_sort", [l], START_SIZE, END_SIZE)
-plt.plot(usage)
-plt.title("Memory Usage Analysis of Selection Sort - ONYEN")
-plt.show()
+    usage = evaluate_memory_usage("selection_sort", [l], START_SIZE, END_SIZE)
+    plt.plot(usage)
+    plt.title("Memory Usage Analysis of Selection Sort - ONYEN")
+    plt.show()
 
-usage = evaluate_memory_usage("insertion_sort", [l], START_SIZE, END_SIZE)
-plt.plot(usage)
-plt.title("Memory Usage Analysis of Insertion Sort - ONYEN")
-plt.show()
+    usage = evaluate_memory_usage("insertion_sort", [l], START_SIZE, END_SIZE)
+    plt.plot(usage)
+    plt.title("Memory Usage Analysis of Insertion Sort - ONYEN")
+    plt.show()
 ```
 
 ## Submission
