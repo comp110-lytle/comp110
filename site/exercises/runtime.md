@@ -23,7 +23,7 @@ Note that there are *two* types of submission for this assignment! (You will see
 
 ## 0. Pull the skeleton code
 
-You will find the starter files needed by "pulling" from the course workspace repository. Before beginning, be sure to:
+You will find the starter files needed by "pulling" from the course workspace repository. Follow these steps: 
 
 0. Be sure you are in your course workspace. Open the file explorer and you should see your work for the course. If you do not, open your course workspace through File > Open Recent.
 1. Open the _Source Control View_ by clicking the 3-node (circles) graph (connected by lines) icon in your sidebar or opening the command palatte and searching for _Source Control_.
