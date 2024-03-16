@@ -9,21 +9,13 @@ site-branch: team
 ---
 
 
-<div class="link-page box">
 
-### Logistics 
-
-* [Onboarding](/team/documentation/guides/onboarding.html)
-* [Site Dev Setup](/team/documentation/guides/course_site_setup.html)
-* [TA Profile](/team/documentation/guides/ta_profile.html)
-* [Site Markdown](/team/documentation/guides/course_site_markdown.html)
-* [Site Features](/team/documentation/guides/course_site_features.html)
-</div>
 
 <div class="link-page box">
 
 ### Development
 
+* [Onboarding](/team/documentation/guides/onboarding.html)
 * [Mentorship Guide](/team/documentation/guides/mentor_guide.html)
 * [Creating Memory Diagrams](/team/documentation/guides/memory_diagrams.html)
 <!-- * [Git Guide](/team/documentation/guides/git_guide.html) -->
@@ -32,15 +24,27 @@ site-branch: team
 
 <div class="link-page box">
 
-### Teaching and Office Hours
+### Working With The Course Site
+
+
+* [Site Dev Setup](/team/documentation/guides/course_site_setup.html)
+* [TA Profile](/team/documentation/guides/ta_profile.html)
+* [Site Markdown](/team/documentation/guides/course_site_markdown.html)
+* [Site Features](/team/documentation/guides/course_site_features.html)
+</div>
+
+
+
+//split//
+<div class="link-page box">
+
+### Teaching and Office Hours Guides
 
 * [Best Practice](/team/documentation/guides/best_practices.html)
 * [Shift Leads](/team/documentation/guides/shift_leads.html)
 * [Setup Issues](/team/documentation/guides/setup_issues.html)
 <!-- * [Diagnostic Tool](/team/documentation/guides/diagnostic_tool.html) -->
 </div>
-
-//split//
 
 <div class="link-page box">
 
