@@ -64,9 +64,6 @@ Quizzes and examinations are offered in-person only this semester. The format is
 * Quiz (QZ) 04: Fri, Apr 19
 * Final (FN) Exam: Fri, May 3 @ 8 AM _(Makeup Sat, May 4 @ 12 PM)_
 
-**Quiz Absence Form**
-Please fill out [this form](https://airtable.com/appLAcrgEhUfhwgpH/pagL61MnQCtPPc7T6/form) if you must be absent for a quiz.
-
 **Final Exam Makeup**
 If you have a university approved reason for needing to take the final on a makeup day, please fill out [this form](https://airtable.com/appLAcrgEhUfhwgpH/pag4ye0TG4Bee46KI/form).
 
