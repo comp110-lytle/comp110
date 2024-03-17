@@ -117,11 +117,11 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS22 </span>
 <span class="title">Mutable vs. Immutable Objects:</span>
-[Video](/) | [Slides](/static/slides/lessons/MutableObjects.pdf)
+[Video](https://youtu.be/izMVYxP7pPA) | [Slides](/static/slides/MutableObjects.pdf)
 </div>
 
 <div class="plan Class"><span class="kind">LS23 </span>
 <span class="title">More on Unit Tests:</span>
-[Video](/)
+[Video](https://youtu.be/_WNcQzdTvxM?si=SeJ--BxpOwjo7Qlh)
 </div>
 
