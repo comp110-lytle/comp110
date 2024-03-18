@@ -28,7 +28,7 @@ You will find the starter files needed by "pulling" from the course workspace re
 0. Be sure you are in your course workspace. Open the file explorer and you should see your work for the course. If you do not, open your course workspace through File > Open Recent.
 1. Open the _Source Control View_ by clicking the 3-node (circles) graph (connected by lines) icon in your sidebar or opening the command palatte and searching for _Source Control_.
 2. Click the Ellipses in the Source Control pane and select "Pull" from the drop-down menu. This will begin the pulling process from the course repository. It should silently succeed.
-3. Return to the File Explorer pane and open the `exercises` directory. You should see it now contains another directory named `ex08`. If you expand that directory, you should see the starter files for the code you'll be writing.
+3. Return to the File Explorer pane and open the `exercises` directory. You should see it now contains another directory named `ex07`. If you expand that directory, you should see the starter files for the code you'll be writing.
 4. If you do not see the `ex07` directory, try once more but selecting `"Pull From"` and select `origin` in step 2.
 
 ### Troubleshooting
@@ -64,12 +64,28 @@ For both selection and insertion sort, we want to analyze how *fast* they are in
 (TODO: add explanation of why decreasing is worst possible input.)
 
 In `runtime_analysis_functions.py` you will see the skeleton for a function called `random_descending_list`. (There are other functions in there, too, but we will talk about those in a bit!)
-You are going to give `runtime_analysis_functions.py` some functionality!
+You are going to give `random_descending_list` some functionality!
 The goal is to **create** and **return** a list of length `n` of random numbers in decreasing order. You will see a global constant established of MAX_VAL. Let that be the *first* element of your list, and then append randomly decreasing numbers. 
 
-(TODO: Add usage examples.)
-
 (Hint: You will want to import and use the `randint` function from the `random` library.)
+
+You can implement the "randomness" how you choose. The main goal is that the output is different each time and strictly decreasing!
+
+Here's an example of usage. (Note that your results will be different since this is a *randomized* function.)
+
+<pre>
+<div class="terminal">    $ python
+    >>> from exercises.ex07.runtime_analysis_functions import random_descending_list
+    >>> random_descending_list(10)
+    [100000, 99987, 99957, 99919, 99905, 99892, 99809, 99742, 99684, 99662]
+    >>> random_descending_list(10)
+    [100000, 99920, 99876, 99848, 99814, 99747, 99701, 99691, 99596, 99502]
+    >>> random_descending_list(3)
+    [100000, 99988, 99906]
+</div>
+</pre>
+
+
 
 ## Part 3. Analyzing Runtime + Memory Usage
 
@@ -89,7 +105,7 @@ Start by adding an `__author__` variable and the following constants:
 ```
 
 
-You can call this function and visualize the result with the following code. Replace ONYEN in line 3 with your ONYEN:
+You can call this function and visualize the result with the following code. *Replace ONYEN in line 3 with your ONYEN!*
 (You will need to import `evalute_runtime` from `runtime_analysis_functions.py` first!)
 
 ```
@@ -101,7 +117,7 @@ You can call this function and visualize the result with the following code. Rep
 
 It should generate an image that looks something like this:
 
-(TODO: Add pic.)
+<img class="img-fluid" src="/static/assets/ex-runtime/sel_sort_runtime.png" />
 
 Save this image and upload it to Gradescope under the assignment EX07 - Part A.
 
