@@ -23,7 +23,7 @@ Note that there are *two* types of submission for this assignment! (You will see
 
 ## 0. Pull the skeleton code
 
-You will find the starter files needed by "pulling" from the course workspace repository. Before beginning, be sure to:
+You will find the starter files needed by "pulling" from the course workspace repository. Follow these steps: 
 
 0. Be sure you are in your course workspace. Open the file explorer and you should see your work for the course. If you do not, open your course workspace through File > Open Recent.
 1. Open the _Source Control View_ by clicking the 3-node (circles) graph (connected by lines) icon in your sidebar or opening the command palatte and searching for _Source Control_.
@@ -47,7 +47,30 @@ The first algorithm you're going to be implementing is Selection Sort!
 
 The *skeleton* for this function already exists in `sort_functions.py`. *This is the only file in the EX07 directory you should worry about at this point! We will get to the rest later!* You will add functionality to it by completing the body of the code!
 
-*TODO: add more instruction and usage example*
+Based on our class discussion, selection sort is an algorithm that repeatedly finds the minimum element in an unsorted portion of our list and swapping it with the element at the beginning of the unsorted portion (if it is smaller). Selection sort an in-place sorting aglorithm which it means it will modify and return the list that is passed in as a parameter. It also means you will not create additional instances of lists in your implementation. Your implementation can be broken down into a few steps:
+
+1. Create a counter variable to track the indices of the list. 
+2. Set up an overaching loop to iterate through the list. 
+3. Find the index of the minimum element only from the portion of your list that is greater than the counter value (the unsorted portion). 
+    3.1 You cannot use Python's built-in `min()` function. You will need another loop, a secondary counter set to the value of the first counter, and a variable to store the index of the minimum element. 
+4. The current element is the value in the list at the index of the counter value.
+5. Compare the minumum element to the current element, if the minumum element is smaller, swap them.
+    5.1 Swapping means taking the value at two different indices and replacing the first index with element at the second while also replacing the second index with the element that was at the first. You will need a temporary `int` variable to accomplish this.
+6. Increment your counter (if necessary), the indices in the list that are less than the counter value are the sorted portion. 
+
+<pre>
+<div class="terminal">
+>>> from exercises.ex07.sort_functions.py import selection_sort
+>>> list1: list[int] = [2, 4, 3, 6]
+>>> selection_sort(list1)
+>>> print(list1)
+[2, 3, 4, 6]
+>>> list2: list[int] = [-7, -8, -9, -10]
+>>> selection_sort(list2)
+>>> print(list2)
+[-10, -9, -8, -7]
+</div>
+</pre>
 
 ### 1b. Insertion Sort
 
@@ -55,37 +78,54 @@ The first algorithm you're going to be implementing is Selection Sort!
 
 The *skeleton* for this function already exists in `sort_functions.py`. You will add functionality to it by completing the body of the code!
 
-*TODO: add more instruction and usage example*
+Rather than finding the minimum element in the unsorted portion of the list, you will iterate through the unsorted portion and place elements where they belong in the sorted portion. Just like selection sort, insertion sort is also an in-place sorting aglorithm. Keep in mind the zeroeth element in the list is already sorted. Your implementation can be broken down into a few steps:
+
+1. Create a index variable to track the sorted indicies in the list. 
+2. Set up an overaching loop to iterate through the list except the final element. Create another index variable to track the unsorted indices in the list, it is 1 greater than the value of the sorted index. 
+3. The current element is the value in the list at the index of the unsorted index value.
+4. Now, moving "backwards" (by descending indices), you will compare the current element to all elements in the sorted part of the list and make swaps as you go.
+    4.1 Set up a loop that checks if your unsorted index is greater than zero and the current element is greater than the one directly before it.
+    4.2 Just as you did in selection sort, swap the two elements. 
+    4.3 Decrement the unsorted index variable. 
+5. Increment the sorted index variable. 
+
+<pre>
+<div class="terminal">
+>>> from exercises.ex07.sort_functions.py import insertion_sort
+>>> list1: list[int] = [2, 4, 3, 6]
+>>> insertion_sort(list1)
+>>> print(list1)
+[2, 3, 4, 6]
+>>> list2: list[int] = [-7, -8, -9, -10]
+>>> insertion_sort(list2)
+>>> print(list2)
+[-10, -9, -8, -7]
+</div>
+</pre>
 
 ## Part 2. Generating Worst-Case Inputs
 
 For both selection and insertion sort, we want to analyze how *fast* they are in terms of runtime. More specifically, we want to measure their Big-O runtime. This is the amount of time it would take to run this algorithm given the *worst possible input*.
 
-(TODO: add explanation of why decreasing is worst possible input.)
+For example, a list in decreasing order would be the worst possible input (i.e. [6, 5, 4, 3, 2]). For insertion sort, we would need to compare every number in the list to all of the numbers in the sorted portion and also make as many swaps (discounting the zeroeth number). Consider how many comparisons and swaps would be needed for an already sorted list (a list in increasing order). That's right, there would be as many comparisons as numbers in the list (discounting the zeroeth number) and no swaps! 
 
 In `runtime_analysis_functions.py` you will see the skeleton for a function called `random_descending_list`. (There are other functions in there, too, but we will talk about those in a bit!)
-You are going to give `random_descending_list` some functionality!
+You are going to give `runtime_analysis_functions.py` some functionality!
 The goal is to **create** and **return** a list of length `n` of random numbers in decreasing order. You will see a global constant established of MAX_VAL. Let that be the *first* element of your list, and then append randomly decreasing numbers. 
 
-(Hint: You will want to import and use the `randint` function from the `random` library.)
-
-You can implement the "randomness" how you choose. The main goal is that the output is different each time and strictly decreasing!
-
-Here's an example of usage. (Note that your results will be different since this is a *randomized* function.)
-
 <pre>
-<div class="terminal">    $ python
-    >>> from exercises.ex07.runtime_analysis_functions import random_descending_list
-    >>> random_descending_list(10)
-    [100000, 99987, 99957, 99919, 99905, 99892, 99809, 99742, 99684, 99662]
-    >>> random_descending_list(10)
-    [100000, 99920, 99876, 99848, 99814, 99747, 99701, 99691, 99596, 99502]
-    >>> random_descending_list(3)
-    [100000, 99988, 99906]
+<div class="terminal">
+>>> from exercises.ex07.runtime_analysis_functions.py import random_list, random_list_with_exclusion, random_descending_list
+>>> random_list(5)
+[40590, 44443, 81514, 42736, 47259]
+>>> random_list_with_exclusion(3, 59038)
+[82597, 95670, 8469]
+>>> random_descending_list(4)
+[4535, -74690, -157006, -183592]
 </div>
 </pre>
 
-
+(Hint: You will want to import and use the `randint` function from the `random` library.)
 
 ## Part 3. Analyzing Runtime + Memory Usage
 
@@ -105,7 +145,7 @@ Start by adding an `__author__` variable and the following constants:
 ```
 
 
-You can call this function and visualize the result with the following code. *Replace ONYEN in line 3 with your ONYEN!*
+You can call this function and visualize the result with the following code. Replace ONYEN in line 3 with your ONYEN:
 (You will need to import `evalute_runtime` from `runtime_analysis_functions.py` first!)
 
 ```
@@ -117,7 +157,7 @@ You can call this function and visualize the result with the following code. *Re
 
 It should generate an image that looks something like this:
 
-<img class="img-fluid" src="/static/assets/ex-runtime/sel_sort_runtime.png" />
+![example-pic](../static/assets/ex-runtime/sel_sort_runtime.png)
 
 Save this image and upload it to Gradescope under the assignment EX07 - Part A.
 
