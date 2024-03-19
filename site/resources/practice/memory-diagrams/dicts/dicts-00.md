@@ -26,6 +26,7 @@ template: overview
 ```
 
 # Solution
+[Video](https://youtu.be/pyl28ClXwfY?si=QwIDQdlgjupNA1R3)
 
 <img class="img-fluid" src="/static/practice-mem-diagrams/record-sol.png" alt=""  />
 

@@ -32,4 +32,6 @@ template: overview
 
 # Solution
 
+[Video](https://youtu.be/TOeZrIu0GnQ?si=uKDO2Ym6Wdi3RBKT)
+
 <img class="img-fluid" src="/static/practice-mem-diagrams/func-import-00-sol.png" alt=""/>

@@ -46,4 +46,6 @@ template: overview
 
 # Solution
 
+[Video](https://youtu.be/WxRQAmKlESU?si=G-i5_TWdt_Uc9n9n)
+
 <img class="img-fluid" src="/static/practice-mem-diagrams/refs.png" alt=""/>

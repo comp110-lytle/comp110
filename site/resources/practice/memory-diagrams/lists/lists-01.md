@@ -35,6 +35,8 @@ template: overview
 
 # Solution
 
+[Video](https://youtu.be/ZAH1mpf6GKc?si=8BgFglBAlJ4QJJQS)
+
 <img class="img-fluid" src="/static/practice-mem-diagrams/lists-01-sol.jpg" alt=""/>
 
 

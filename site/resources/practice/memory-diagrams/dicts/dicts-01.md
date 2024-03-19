@@ -23,6 +23,7 @@ template: overview
 
 # Solution
 
+
 <img class="img-fluid" src="/static/practice-mem-diagrams/mystery-dict-sol.png" alt=""  />
 
 *Image Description:*
