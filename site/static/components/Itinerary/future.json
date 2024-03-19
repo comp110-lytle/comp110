@@ -1,7 +1,4 @@
 {
-    "2024-03-14": [],
-    "2024-03-15": [],
-    "2024-03-16": [],
     "2024-03-17": [],
     "2024-03-18": [
         {
@@ -51,7 +48,11 @@
             "title": "Quiz 3",
             "date": "2024-03-27",
             "deadline": "2024-03-27",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/sp24/qz03.html",
+                "Covered Topics: Units 0 - 5": "https://comp110-24s.github.io/resources/curriculum.html",
+                "Virtual Review Session": "/"
+            }
         }
     ],
     "2024-03-28": [],
