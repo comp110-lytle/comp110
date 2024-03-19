@@ -13,9 +13,32 @@
         }
     ],
     "2024-03-19": [],
-    "2024-03-20": [],
+    "2024-03-20": [
+        {
+            "kind": "CL",
+            "n": 13,
+            "title": "Big-O Notation",
+            "date": "2024-03-20",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "/",
+                "Lecture Slides": "/static/slides/CL13.pdf"
+            }
+        }
+    ],
     "2024-03-21": [],
     "2024-03-22": [
+        {
+            "kind": "CL",
+            "n": 14,
+            "title": "More on Big-O Notation + Search Algorithms",
+            "date": "2024-03-22",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "/",
+                "Lecture Slides": "/static/slides/CL14.pdf"
+            }
+        },
         {
             "kind": "EX",
             "n": 7,

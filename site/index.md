@@ -41,9 +41,20 @@ template: home
 <div class="date col-md-2">Mon, Mar 18</div>
 <div class="plans col-md-9"><div class="plan Virtual Lesson">
 <span class="kind">VL07 </span><span class="title"><a href="/virtual-classes/VL07.html">Virtual Lesson 07 (Due Tuesday 3/19)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-03-20" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Mar 20</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL13 </span><span class="title">Big-O Notation</span>
+<ul class="links"><li class="link"><a href="/">Lecture Video</a></li>
+<li class="link"><a href="/static/slides/CL13.pdf">Lecture Slides</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-03-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Mar 22</div>
-<div class="plans col-md-9"><div class="plan Exercise">
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL14 </span><span class="title">More on Big-O Notation + Search Algorithms</span>
+<ul class="links"><li class="link"><a href="/">Lecture Video</a></li>
+<li class="link"><a href="/static/slides/CL14.pdf">Lecture Slides</a></li>
+</ul></div><div class="plan Exercise">
 <span class="kind">EX07 </span><span class="title"><a href="/">Runtime Analysis (Due Sunday 3/31)</a></span></div><div class="plan Reading">
 <span class="kind">RD02 </span><span class="title"><a href="https://www.gradescope.com/">Reading: Man versus Machine or Man + Machine? (Due Thursday 4/11)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-03-27" class="row itinerary-row py-2">
