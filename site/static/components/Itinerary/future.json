@@ -1,5 +1,4 @@
 {
-    "2024-03-17": [],
     "2024-03-18": [
         {
             "kind": "VL",
@@ -21,7 +20,7 @@
             "date": "2024-03-20",
             "deadline": "None",
             "links": {
-                "Lecture Video": "/",
+                "Lecture Video": "https://youtube.com/live/qpxq1ZL43EU?feature=share",
                 "Lecture Slides": "/static/slides/CL13.pdf"
             }
         }
