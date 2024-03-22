@@ -48,7 +48,7 @@ template: home
 <div class="date col-md-2">Fri, Mar 22</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL14 </span><span class="title">More on Big-O Notation + Search Algorithms</span>
-<ul class="links"><li class="link"><a href="/">Lecture Video</a></li>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/sNBSqW2RWCE?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL14.pdf">Lecture Slides</a></li>
 </ul></div><div class="plan Exercise">
 <span class="kind">EX07 </span><span class="title"><a href="/exercises/runtime.html">Runtime Analysis (Due Tuesday 4/2)</a></span></div><div class="plan Reading">
