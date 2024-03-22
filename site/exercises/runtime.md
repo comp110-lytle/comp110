@@ -159,7 +159,7 @@ It should generate an image that looks something like this:
 
 ![example-pic](../static/assets/ex-runtime/sel_sort_runtime.png)
 
-Save this image and upload it to Gradescope under the assignment EX07 - Part A.
+Save this image and upload it to Gradescope under the assignment EX07 - Part B.
 
 Now, repeat these steps, but for insertion sort!
 
@@ -175,6 +175,8 @@ Now, repeat these steps, but for insertion sort!
 
 Now, we are going to analyze the memory usage of the algorithms! You will import and call the `evaluate_memory_usage` function from `runtime_analysis_functions.py`. This function uses a python library called `tracemalloc` to measure how many blocks of memory your function call is using. Similar to `evaluate_runtime`, it measures memory usage for an increasing number of input sizes so we can visualize how memory usage changes as input size changes.
 
+This graph should look *linear*!
+
 ```
     usage = evaluate_memory_usage("selection_sort", [l], START_SIZE, END_SIZE)
     plt.plot(usage)
@@ -187,6 +189,12 @@ Now, we are going to analyze the memory usage of the algorithms! You will import
     plt.show()
 ```
 
+Save these images and upload them to Gradescope under the assignment EX07 - Part B.
+
 ## Submission
 
-TODO
+To produce a zip file for `ex07`, type the following command (all on a single line):
+
+`python -m tools.submission exercises/ex07`
+
+Upload this to Gradescope under "EX07 - Part A".
