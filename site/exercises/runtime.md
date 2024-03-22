@@ -35,9 +35,7 @@ You will find the starter files needed by "pulling" from the course workspace re
 If you're having trouble pulling:
 
 * Make sure you PUSHED all of your changes to backup first!!!
-
 * In your terminal, type `git config pull.rebase false`
-
 * In your Visual Studio command center, select `Pull From...` -> `Upstream` -> `Upstream/Head`
 
 If you're still having issues, come to office hours!
