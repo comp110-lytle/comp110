@@ -32,9 +32,11 @@ You will find the starter files needed by "pulling" from the course workspace re
 4. If you do not see the `ex07` directory, try once more but selecting `"Pull From"` and select `origin` in step 2.
 
 ### Troubleshooting
-If you're having trouble pulling, try:
+If you're having trouble pulling:
 
-* In your Visual Studio command center, select `Pull From...` -> `Upstream` -> `Upstream/Head`
+* Make sure you PUSHED all of your changes to backup first!!!
+* In your terminal, type `git config pull.rebase false`
+* In your Visual Studio command center, select `Pull From...` -> `Upstream` -> `Upstream/Head`. (If not an option, do `Origin` -> `Main`.) 
 
 If you're still having issues, come to office hours!
 
@@ -175,6 +177,8 @@ Now, repeat these steps, but for insertion sort!
 
 Now, we are going to analyze the memory usage of the algorithms! You will import and call the `evaluate_memory_usage` function from `runtime_analysis_functions.py`. This function uses a python library called `tracemalloc` to measure how many blocks of memory your function call is using. Similar to `evaluate_runtime`, it measures memory usage for an increasing number of input sizes so we can visualize how memory usage changes as input size changes.
 
+This graph should look *linear*!
+
 ```
     usage = evaluate_memory_usage("selection_sort", [l], START_SIZE, END_SIZE)
     plt.plot(usage)
@@ -187,6 +191,12 @@ Now, we are going to analyze the memory usage of the algorithms! You will import
     plt.show()
 ```
 
+Save these images and upload them to Gradescope under the assignment EX07 - Part B.
+
 ## Submission
 
-TODO
+To produce a zip file for `ex07`, type the following command (all on a single line):
+
+`python -m tools.submission exercises/ex07`
+
+Upload this to Gradescope under "EX07 - Part A".
