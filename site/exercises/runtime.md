@@ -76,7 +76,7 @@ Based on our class discussion, selection sort is an algorithm that repeatedly fi
 
 ### 1b. Insertion Sort
 
-The first algorithm you're going to be implementing is Selection Sort!
+The next algorithm you're going to be implementing is Insertion Sort!
 
 The *skeleton* for this function already exists in `sort_functions.py`. You will add functionality to it by completing the body of the code!
 
