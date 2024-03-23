@@ -36,7 +36,7 @@ If you're having trouble pulling:
 
 * Make sure you PUSHED all of your changes to backup first!!!
 * In your terminal, type `git config pull.rebase false`
-* In your Visual Studio command center, select `Pull From...` -> `Upstream` -> `Upstream/Head`
+* In your Visual Studio command center, select `Pull From...` -> `Upstream` -> `Upstream/Head`. (If not an option, do `Origin` -> `Main`.) 
 
 If you're still having issues, come to office hours!
 
