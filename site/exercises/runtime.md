@@ -180,12 +180,12 @@ Now, we are going to analyze the memory usage of the algorithms! You will import
 This graph should look *linear*!
 
 ```
-    usage = evaluate_memory_usage("selection_sort", [l], START_SIZE, END_SIZE)
+    usage = evaluate_memory_usage("selection_sort", START_SIZE, END_SIZE)
     plt.plot(usage)
     plt.title("Memory Usage Analysis of Selection Sort - ONYEN")
     plt.show()
 
-    usage = evaluate_memory_usage("insertion_sort", [l], START_SIZE, END_SIZE)
+    usage = evaluate_memory_usage("insertion_sort", START_SIZE, END_SIZE)
     plt.plot(usage)
     plt.title("Memory Usage Analysis of Insertion Sort - ONYEN")
     plt.show()
