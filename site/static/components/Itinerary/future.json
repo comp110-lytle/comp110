@@ -1,54 +1,18 @@
 {
-    "2024-03-20": [
-        {
-            "kind": "CL",
-            "n": 13,
-            "title": "Big-O Notation",
-            "date": "2024-03-20",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/qpxq1ZL43EU?feature=share",
-                "Lecture Slides": "/static/slides/CL13.pdf"
-            }
-        }
-    ],
-    "2024-03-21": [],
-    "2024-03-22": [
-        {
-            "kind": "CL",
-            "n": 14,
-            "title": "More on Big-O Notation + Search Algorithms",
-            "date": "2024-03-22",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/sNBSqW2RWCE?feature=share",
-                "Lecture Slides": "/static/slides/CL14.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 7,
-            "title": "Runtime Analysis (Due Tuesday 4/2)",
-            "date": "2024-03-22",
-            "deadline": "2024-04-02",
-            "links": {
-                "": "/exercises/runtime.html"
-            }
-        },
-        {
-            "kind": "RD",
-            "n": 2,
-            "title": "Reading: Man versus Machine or Man + Machine? (Due Thursday 4/11)",
-            "date": "2024-03-22",
-            "deadline": "2024-04-11",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
     "2024-03-23": [],
     "2024-03-24": [],
-    "2024-03-25": [],
+    "2024-03-25": [
+        {
+            "kind": "CL",
+            "n": 15,
+            "title": "VIRTUAL quiz review 2:30-4:25",
+            "date": "2024-03-25",
+            "deadline": "None",
+            "links": {
+                "Zoom Link": "https://unc.zoom.us/j/98098611900?pwd=SENDZVl5a21XUEN4VXpTU01sUEJoQT09"
+            }
+        }
+    ],
     "2024-03-26": [],
     "2024-03-27": [
         {
@@ -60,7 +24,7 @@
             "links": {
                 "Practice Problems": "/resources/practice/sp24/qz03.html",
                 "Covered Topics: Units 0 - 5": "https://comp110-24s.github.io/resources/curriculum.html",
-                "Virtual Review Session": "/"
+                "IN CLASS Virtual Review Session": "https://unc.zoom.us/j/98098611900?pwd=SENDZVl5a21XUEN4VXpTU01sUEJoQT09"
             }
         }
     ],

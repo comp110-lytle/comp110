@@ -37,29 +37,19 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-03-20" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Mar 20</div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-03-25" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Mar 25</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL13 </span><span class="title">Big-O Notation</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/qpxq1ZL43EU?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/CL13.pdf">Lecture Slides</a></li>
+<span class="kind">CL15 </span><span class="title">VIRTUAL quiz review 2:30-4:25</span>
+<ul class="links"><li class="link"><a href="https://unc.zoom.us/j/98098611900?pwd=SENDZVl5a21XUEN4VXpTU01sUEJoQT09">Zoom Link</a></li>
 </ul></div></div>
-</div><div data-type="lecture" data-date="2024-03-22" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Mar 22</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL14 </span><span class="title">More on Big-O Notation + Search Algorithms</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/sNBSqW2RWCE?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/CL14.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Exercise">
-<span class="kind">EX07 </span><span class="title"><a href="/exercises/runtime.html">Runtime Analysis (Due Tuesday 4/2)</a></span></div><div class="plan Reading">
-<span class="kind">RD02 </span><span class="title"><a href="https://www.gradescope.com/">Reading: Man versus Machine or Man + Machine? (Due Thursday 4/11)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-03-27" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Mar 27</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>
 <ul class="links"><li class="link"><a href="/resources/practice/sp24/qz03.html">Practice Problems</a></li>
 <li class="link"><a href="https://comp110-24s.github.io/resources/curriculum.html">Covered Topics: Units 0 - 5</a></li>
-<li class="link"><a href="/">Virtual Review Session</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/98098611900?pwd=SENDZVl5a21XUEN4VXpTU01sUEJoQT09">IN CLASS Virtual Review Session</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-04-03" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Apr 3</div>
@@ -83,7 +73,23 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-03-18" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-03-22" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Mar 22</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL14 </span><span class="title">More on Big-O Notation + Search Algorithms</span>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/sNBSqW2RWCE?feature=share">Lecture Video</a></li>
+<li class="link"><a href="/static/slides/CL14.pdf">Lecture Slides</a></li>
+</ul></div><div class="plan Exercise">
+<span class="kind">EX07 </span><span class="title"><a href="/exercises/runtime.html">Runtime Analysis (Due Tuesday 4/2)</a></span></div><div class="plan Reading">
+<span class="kind">RD02 </span><span class="title"><a href="https://www.gradescope.com/">Reading: Man versus Machine or Man + Machine? (Due Thursday 4/11)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-03-20" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Mar 20</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL13 </span><span class="title">Big-O Notation</span>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/qpxq1ZL43EU?feature=share">Lecture Video</a></li>
+<li class="link"><a href="/static/slides/CL13.pdf">Lecture Slides</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2024-03-18" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Mar 18</div>
 <div class="plans col-md-9"><div class="plan Virtual Lesson">
 <span class="kind">VL07 </span><span class="title"><a href="/virtual-classes/VL07.html">Virtual Lesson 07 (Due Tuesday 3/19)</a></span></div></div>

@@ -576,5 +576,52 @@
             }
         }
     ],
-    "2024-03-19": []
+    "2024-03-19": [],
+    "2024-03-20": [
+        {
+            "kind": "CL",
+            "n": 13,
+            "title": "Big-O Notation",
+            "date": "2024-03-20",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/qpxq1ZL43EU?feature=share",
+                "Lecture Slides": "/static/slides/CL13.pdf"
+            }
+        }
+    ],
+    "2024-03-21": [],
+    "2024-03-22": [
+        {
+            "kind": "CL",
+            "n": 14,
+            "title": "More on Big-O Notation + Search Algorithms",
+            "date": "2024-03-22",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/sNBSqW2RWCE?feature=share",
+                "Lecture Slides": "/static/slides/CL14.pdf"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 7,
+            "title": "Runtime Analysis (Due Tuesday 4/2)",
+            "date": "2024-03-22",
+            "deadline": "2024-04-02",
+            "links": {
+                "": "/exercises/runtime.html"
+            }
+        },
+        {
+            "kind": "RD",
+            "n": 2,
+            "title": "Reading: Man versus Machine or Man + Machine? (Due Thursday 4/11)",
+            "date": "2024-03-22",
+            "deadline": "2024-04-11",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ]
 }

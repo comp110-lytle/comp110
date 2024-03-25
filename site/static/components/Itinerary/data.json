@@ -626,7 +626,18 @@
     ],
     "2024-03-23": [],
     "2024-03-24": [],
-    "2024-03-25": [],
+    "2024-03-25": [
+        {
+            "kind": "CL",
+            "n": 15,
+            "title": "VIRTUAL quiz review 2:30-4:25",
+            "date": "2024-03-25",
+            "deadline": "None",
+            "links": {
+                "Zoom Link": "https://unc.zoom.us/j/98098611900?pwd=SENDZVl5a21XUEN4VXpTU01sUEJoQT09"
+            }
+        }
+    ],
     "2024-03-26": [],
     "2024-03-27": [
         {
@@ -638,7 +649,7 @@
             "links": {
                 "Practice Problems": "/resources/practice/sp24/qz03.html",
                 "Covered Topics: Units 0 - 5": "https://comp110-24s.github.io/resources/curriculum.html",
-                "Virtual Review Session": "/"
+                "IN CLASS Virtual Review Session": "https://unc.zoom.us/j/98098611900?pwd=SENDZVl5a21XUEN4VXpTU01sUEJoQT09"
             }
         }
     ],
