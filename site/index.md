@@ -41,7 +41,7 @@ template: home
 <div class="date col-md-2">Mon, Mar 25</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL15 </span><span class="title">VIRTUAL quiz review 2:30-4:25</span>
-<ul class="links"><li class="link"><a href="https://unc.zoom.us/j/98098611900?pwd=SENDZVl5a21XUEN4VXpTU01sUEJoQT09">Zoom Link</a></li>
+<ul class="links"><li class="link"><a href="https://unc.zoom.us/rec/share/odtEUuVl-Oi5KJhBMBPTS7xvMqWd_iUkM1nBpDFa24w5lz9YhSm5wjkSLmbWjKh0.MNdE0B4PLlj6Pmkj">Recording (Passcode: n6fsTE=3)</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-03-27" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Mar 27</div>
@@ -49,7 +49,7 @@ template: home
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>
 <ul class="links"><li class="link"><a href="/resources/practice/sp24/qz03.html">Practice Problems</a></li>
 <li class="link"><a href="https://comp110-24s.github.io/resources/curriculum.html">Covered Topics: Units 0 - 5</a></li>
-<li class="link"><a href="https://unc.zoom.us/j/98098611900?pwd=SENDZVl5a21XUEN4VXpTU01sUEJoQT09">IN CLASS Virtual Review Session</a></li>
+<li class="link"><a href="https://unc.zoom.us/rec/share/odtEUuVl-Oi5KJhBMBPTS7xvMqWd_iUkM1nBpDFa24w5lz9YhSm5wjkSLmbWjKh0.MNdE0B4PLlj6Pmkj">Review Session Recording (Passcode: n6fsTE=3)</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-04-03" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Apr 3</div>
