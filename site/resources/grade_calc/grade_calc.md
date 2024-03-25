@@ -1,7 +1,7 @@
 ---
 title: Grade Calculator
 author:
-- Vitor Inserrra
+- Vitor Inserra
 page: logistics
 template: overview
 ---
