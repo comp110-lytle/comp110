@@ -62,7 +62,7 @@ Based on our class discussion, selection sort is an algorithm that repeatedly fi
 
 <pre>
 <div class="terminal">
->>> from exercises.ex07.sort_functions.py import selection_sort
+>>> from exercises.ex07.sort_functions import selection_sort
 >>> list1: list[int] = [2, 4, 3, 6]
 >>> selection_sort(list1)
 >>> list1
@@ -93,7 +93,7 @@ Rather than finding the minimum element in the unsorted portion of the list, you
 
 <pre>
 <div class="terminal">
->>> from exercises.ex07.sort_functions.py import insertion_sort
+>>> from exercises.ex07.sort_functions import insertion_sort
 >>> list1: list[int] = [2, 4, 3, 6]
 >>> insertion_sort(list1)
 >>> list1
@@ -119,7 +119,7 @@ The goal is to **create** and **return** a list of length `n` of random numbers 
 
 <pre>
 <div class="terminal">
->>> from exercises.ex07.runtime_analysis_functions.py import random_descending_list
+>>> from exercises.ex07.runtime_analysis_functions import random_descending_list
 >>> random_descending_list(3)
 [27044, 19412, -79086]
 >>> random_descending_list(4)
