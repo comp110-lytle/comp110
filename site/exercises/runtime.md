@@ -141,14 +141,22 @@ For this part, you are going to *use* the `evaluate_runtime` function defined in
 
 Create a new file in your `ex07` directory called `evaluate_algorithms.py`.
 
-Start by adding an `__author__` variable and the following constants:
+Start by adding an `__author__` variable and then copy the following import statement: 
+
+```
+
+import matplotlib.pyplot as plt
+```
+
+You will also need to import `evalute_runtime` from `runtime_analysis_functions.py`. Include the following constants:
 
 ```
     START_SIZE: int = 0
     END_SIZE: int = 1000
 ```
 
-Then import `evalute_runtime` from `runtime_analysis_functions.py`. Finally, call the `evaluate_runtime` function and visualize the result with the following code. Replace ONYEN in line 3 with your ONYEN:
+
+Finally, call the `evaluate_runtime` function and visualize the result with the following code. Replace ONYEN in line 3 with your ONYEN:
 
 ```
     times = evaluate_runtime("selection_sort", START_SIZE, END_SIZE)
