@@ -1,38 +1,20 @@
 {
-    "2024-03-23": [],
-    "2024-03-24": [],
-    "2024-03-25": [
-        {
-            "kind": "CL",
-            "n": 15,
-            "title": "VIRTUAL quiz review 2:30-4:25",
-            "date": "2024-03-25",
-            "deadline": "None",
-            "links": {
-                "Recording (Passcode: n6fsTE=3)": "https://unc.zoom.us/rec/share/odtEUuVl-Oi5KJhBMBPTS7xvMqWd_iUkM1nBpDFa24w5lz9YhSm5wjkSLmbWjKh0.MNdE0B4PLlj6Pmkj"
-            }
-        }
-    ],
-    "2024-03-26": [],
-    "2024-03-27": [
-        {
-            "kind": "QZ",
-            "n": 3,
-            "title": "Quiz 3",
-            "date": "2024-03-27",
-            "deadline": "2024-03-27",
-            "links": {
-                "Practice Problems": "/resources/practice/sp24/qz03.html",
-                "Covered Topics: Units 0 - 5": "https://comp110-24s.github.io/resources/curriculum.html",
-                "Review Session Recording (Passcode: n6fsTE=3)": "https://unc.zoom.us/rec/share/odtEUuVl-Oi5KJhBMBPTS7xvMqWd_iUkM1nBpDFa24w5lz9YhSm5wjkSLmbWjKh0.MNdE0B4PLlj6Pmkj"
-            }
-        }
-    ],
     "2024-03-28": [],
     "2024-03-29": [],
     "2024-03-30": [],
     "2024-03-31": [],
-    "2024-04-01": [],
+    "2024-04-01": [
+        {
+            "kind": "VL",
+            "n": 8,
+            "title": "Virtual Lesson 08 (Due Tuesday 4/2)",
+            "date": "2024-04-01",
+            "deadline": "2024-04-02",
+            "links": {
+                "": "/virtual-classes/VL08.html"
+            }
+        }
+    ],
     "2024-04-02": [],
     "2024-04-03": [
         {
@@ -42,7 +24,7 @@
             "date": "2024-04-03",
             "deadline": "2024-04-11",
             "links": {
-                "": "/"
+                "": "/exercises/turtle.html"
             }
         }
     ],

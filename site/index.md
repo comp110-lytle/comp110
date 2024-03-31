@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/practice/sp24/qz03.html">QZ03 - WED, MAR 27 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/runtime.html">EX07 - TUE, APR 02 11:59pm</a></li><li class="horizon-item"><a href="/virtual-classes/VL08.html">VL08 - TUE, APR 02 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,24 +37,14 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-03-25" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Mar 25</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL15 </span><span class="title">VIRTUAL quiz review 2:30-4:25</span>
-<ul class="links"><li class="link"><a href="https://unc.zoom.us/rec/share/odtEUuVl-Oi5KJhBMBPTS7xvMqWd_iUkM1nBpDFa24w5lz9YhSm5wjkSLmbWjKh0.MNdE0B4PLlj6Pmkj">Recording (Passcode: n6fsTE=3)</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2024-03-27" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Mar 27</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ03 </span><span class="title">Quiz 3</span>
-<ul class="links"><li class="link"><a href="/resources/practice/sp24/qz03.html">Practice Problems</a></li>
-<li class="link"><a href="https://comp110-24s.github.io/resources/curriculum.html">Covered Topics: Units 0 - 5</a></li>
-<li class="link"><a href="https://unc.zoom.us/rec/share/odtEUuVl-Oi5KJhBMBPTS7xvMqWd_iUkM1nBpDFa24w5lz9YhSm5wjkSLmbWjKh0.MNdE0B4PLlj6Pmkj">Review Session Recording (Passcode: n6fsTE=3)</a></li>
-</ul></div></div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-04-01" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Apr 1</div>
+<div class="plans col-md-9"><div class="plan Virtual Lesson">
+<span class="kind">VL08 </span><span class="title"><a href="/virtual-classes/VL08.html">Virtual Lesson 08 (Due Tuesday 4/2)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-04-03" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Apr 3</div>
 <div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX08 </span><span class="title"><a href="/">Recursive Turtle (Due Thursday 4/11)</a></span></div></div>
+<span class="kind">EX08 </span><span class="title"><a href="/exercises/turtle.html">Recursive Turtle (Due Thursday 4/11)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-04-10" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Apr 10</div>
 <div class="plans col-md-9"><div class="plan Exercise">
@@ -73,7 +63,21 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-03-22" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-03-27" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Mar 27</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ03 </span><span class="title">Quiz 3</span>
+<ul class="links"><li class="link"><a href="/resources/practice/sp24/qz03.html">Practice Problems</a></li>
+<li class="link"><a href="https://comp110-24s.github.io/resources/curriculum.html">Covered Topics: Units 0 - 5</a></li>
+<li class="link"><a href="https://unc.zoom.us/rec/share/odtEUuVl-Oi5KJhBMBPTS7xvMqWd_iUkM1nBpDFa24w5lz9YhSm5wjkSLmbWjKh0.MNdE0B4PLlj6Pmkj">Review Session Recording (Passcode: n6fsTE=3)</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2024-03-25" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Mar 25</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL15 </span><span class="title">VIRTUAL quiz review 2:30-4:25</span>
+<ul class="links"><li class="link"><a href="https://unc.zoom.us/rec/share/odtEUuVl-Oi5KJhBMBPTS7xvMqWd_iUkM1nBpDFa24w5lz9YhSm5wjkSLmbWjKh0.MNdE0B4PLlj6Pmkj">Recording (Passcode: n6fsTE=3)</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2024-03-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Mar 22</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL14 </span><span class="title">More on Big-O Notation + Search Algorithms</span>
