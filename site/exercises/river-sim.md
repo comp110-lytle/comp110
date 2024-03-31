@@ -22,12 +22,13 @@ You will find the starter files needed by "pulling" from the course workspace re
 4. If you do not see the `ex09` directory, try once more but selecting `"Pull From"` and select `origin` in step 2.
 
 ### Troubleshooting
-If you're having trouble pulling, try:
+If you're having trouble pulling:
 
-* In your Visual Studio command center, select `Pull From...` -> `Upstream` -> `Upstream/Head`
+* Make sure you PUSHED all of your changes to backup first!!!
+* In your terminal, type `git config pull.rebase false`
+* In your Visual Studio command center, select `Pull From...` -> `Upstream` -> `Upstream/Head`. (If not an option, do `Origin` -> `Main`.) 
 
 If you're still having issues, come to office hours!
-
 
 
 ## 1. Create Bear Class
