@@ -45,8 +45,8 @@ template: home
 <div class="date col-md-2">Wed, Apr 3</div>
 <div class="plans col-md-9"><div class="plan Exercise">
 <span class="kind">EX08 </span><span class="title"><a href="/exercises/turtle.html">Recursive Turtle (Due Thursday 4/11)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-04-10" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Apr 10</div>
+</div><div data-type="lecture" data-date="2024-04-12" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Apr 12</div>
 <div class="plans col-md-9"><div class="plan Exercise">
 <span class="kind">EX09 </span><span class="title"><a href="/exercises/river-sim.html">River Simulation (Due Tuesday 4/23)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-04-19" class="row itinerary-row py-2">
