@@ -127,6 +127,6 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS24 </span>
 <span class="title">Introduction to Recursion:</span>
-[Video Pt 1.]() | [Video Pt. 2]() | [Slides](/static/slides/Recursion.pdf)
+[Video Pt 1.](https://youtu.be/5mVmXIrG5ec) | [Video Pt. 2](https://youtu.be/lWwCoD9EV9g) | [Slides](/static/slides/Recursion.pdf)
 </div>
 
