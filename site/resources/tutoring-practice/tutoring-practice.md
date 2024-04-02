@@ -18,3 +18,4 @@ template: overview
 - [week 6](/resources/tutoring-practice/week6.html)
 - [week 7](/resources/tutoring-practice/week7.html)
 - [week 9](/resources/tutoring-practice/week9.html)
+- [week 11](/resources/tutoring-practice/week11.html)
