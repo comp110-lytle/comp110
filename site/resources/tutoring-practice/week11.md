@@ -16,7 +16,7 @@ These questions are optional supplements that ideally help you get prepared for 
 ### Recursion
 
 ##### Conceptual:
-1. There are two essential components of a recursive function, what are them (Hint: Phrase that ends with `case`)?
+1. There are two essential components of a recursive function, what are they (Hint: Phrase that ends with `case`)?
 
 2. (Continue on Q1) Explain the importance of each of these two cases.
 
@@ -44,8 +44,8 @@ C) Iteration
 D) Break statement
 
 3. What happens if a recursive function lacks a base case?
-A) It runs indefinitely and lead to runtime error.
-B) It throws an error before the code executed.
+A) It runs indefinitely and leads to runtime error.
+B) It throws an error before the code is executed.
 C) It executes the recursive case repeatedly.
 D) It returns None.
 
@@ -115,7 +115,7 @@ D) There is no bug; the function is correct.
 ##### Function Writing
 1.  Write a recursive function in Python that calculates the sum of the first `n` negative integers.
 
-2. Convert the following simple while loop to recursive function:
+2. Convert the following simple while loop to a recursive function:
 ~~~
 def print_numbers_while(n):
     i = 1
@@ -124,7 +124,7 @@ def print_numbers_while(n):
         i += 1
 ~~~
 
-3. Convert the following simple recursive function to while loop
+3. Convert the following simple recursive function to a while loop
 ~~~
 def factorial_recursive(n):
     if n == 0:
@@ -139,15 +139,15 @@ def factorial_recursive(n):
 ### Conceptual:
 1. The two essential components of a recursive function are the `base case` and the `recursive case`.
 
-2. The `base case` serves as the termination condition that stops the recursion from continuing indefinitely and eventually lead to stack overflow erro. The `recursive case` is where the function calls itself with different arguments, moving towards the base case.
+2. The `base case` serves as the termination condition that stops the recursion from continuing indefinitely and eventually leads to stack overflow error. The `recursive case` is where the function calls itself with different arguments, moving towards the base case.
 
 3. Yes, there is a maximum recursion depth in Python by default, which is `typically set to 1000`. This limit is in place to prevent a stack overflow error.
 
-4. Therodically, coversion between these two are possible. However, in the real life scenario, due to the overhead associated with recursive calls and the call stack limit, it is not practical to do this kind of conversion effectively everytime.
+4. Theoretically, conversion between these two is possible. However, in a real-life scenario, due to the overhead associated with recursive calls and the call stack limit, it is not practical to do this kind of conversion effectively every time.
 
 5. We prefer `recursion` over loops when the problem can be naturally expressed as smaller instances of the same problem, such as with factorial calculation, or the Fibonacci sequence. `Loops`, on the other hand, are more straightforward and therefore can be more friendly to use when dealing with complicated questions.
 
-6. Since each recursive call adds a new layer to the call stack. Think of the `Memory Diagram`, you would create new function call frame in the stack for each recursive step.
+6. Since each recursive call adds a new layer to the call stack. Think of the `Memory Diagram`, you would create a new function call frame in the stack for each recursive step.
 
 ### Multiple Choices:
 1. B) A programming technique where a function calls itself to solve a problem.
