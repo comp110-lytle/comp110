@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/runtime.html">EX07 - TUE, APR 02 11:59pm</a></li><li class="horizon-item"><a href="/virtual-classes/VL08.html">VL08 - TUE, APR 02 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -43,7 +43,11 @@ template: home
 <span class="kind">VL08 </span><span class="title"><a href="/virtual-classes/VL08.html">Virtual Lesson 08 (Due Tuesday 4/2)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-04-03" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Apr 3</div>
-<div class="plans col-md-9"><div class="plan Exercise">
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL16 </span><span class="title">Reverse Engineering A Recursive Function</span>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/Aw3EPrnO6iQ?feature=share">Lecture Video</a></li>
+<li class="link"><a href="/static/slides/CL15.pdf">Lecture Slides</a></li>
+</ul></div><div class="plan Exercise">
 <span class="kind">EX08 </span><span class="title"><a href="/exercises/turtle.html">Recursive Turtle (Due Thursday 4/11)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-04-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Apr 12</div>
