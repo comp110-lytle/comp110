@@ -119,4 +119,9 @@ page: resource
 </div>
 </div>
 
+
+<br>
+
+<div class="container" >
 Interested in [joining Team 110](/resources/join-the-team.html)?
+</div>

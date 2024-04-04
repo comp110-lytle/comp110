@@ -54,20 +54,13 @@ navbar: base
 <!-- </div> -->
 
 //split//
-
-<!-- ADD AS EXERCISES ARE RELEASED -->
-
 <div class="link-page box">
 
-## Website Navigation
-
-- _**[SYLLABUS:](/resources/syllabus.html)**_ Course Syllabus
-
-- _**[SUPPORT:](/support)**_ Information about Office Hours, Tutoring, or reaching out
+## Course Basics
 
 - _**[VIRTUAL LESSONS:](/virtual-classes/index.html)**_ Lessons for each unit 
 
-- _**[CLASS SCHEDULE:](https://airtable.com/appzeephpTB5Uovx7/shrxiThP0DwM10pmQ)**_ *TENTATIVE* Class Schedule
+- _**[CLASS SCHEDULE:](https://airtable.com/appzeephpTB5Uovx7/shrxiThP0DwM10pmQ)**_ *Tentative* Class Schedule
 
 </div> 
 
@@ -85,6 +78,7 @@ navbar: base
 
 * [Tips for Success](/resources/tips-for-success.html)
 
+* [Joining Team 110](/resources/join-the-team.html)
 </div>
 
 
