@@ -45,7 +45,7 @@ template: home
 <div class="date col-md-2">Wed, Apr 3</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL16 </span><span class="title">Reverse Engineering A Recursive Function</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/Aw3EPrnO6iQ?feature=share">Lecture Video</a></li>
+<ul class="links"><li class="link"><a href="/">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL15.pdf">Lecture Slides</a></li>
 </ul></div><div class="plan Exercise">
 <span class="kind">EX08 </span><span class="title"><a href="/exercises/turtle.html">Recursive Turtle (Due Thursday 4/11)</a></span></div></div>
