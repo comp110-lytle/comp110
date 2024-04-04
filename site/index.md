@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/recursive-fns.html">CQ07 - FRI, APR 05 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD02 - THU, APR 11 11:59pm</a></li><li class="horizon-item"><a href="/exercises/turtle.html">EX08 - THU, APR 11 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,18 +37,21 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-04-01" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Apr 1</div>
-<div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL08 </span><span class="title"><a href="/virtual-classes/VL08.html">Virtual Lesson 08 (Due Tuesday 4/2)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-04-03" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-04-03" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Apr 3</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL16 </span><span class="title">Reverse Engineering A Recursive Function</span>
-<ul class="links"><li class="link"><a href="/">Lecture Video</a></li>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/Aw3EPrnO6iQ?feature=share">Lecture Video</a></li>
 <li class="link"><a href="/static/slides/CL15.pdf">Lecture Slides</a></li>
 </ul></div><div class="plan Exercise">
 <span class="kind">EX08 </span><span class="title"><a href="/exercises/turtle.html">Recursive Turtle (Due Thursday 4/11)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-04-05" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Apr 5</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL17 </span><span class="title">Back to Defining A Function Recursively</span>
+<ul class="links"><li class="link"><a href="/">Lecture Video</a></li>
+</ul></div><div class="plan Challenge Question">
+<span class="kind">CQ07 </span><span class="title"><a href="/cqs/recursive-fns.html">Defining a Function Recursively (Due Friday 4/5)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-04-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Apr 12</div>
 <div class="plans col-md-9"><div class="plan Exercise">
@@ -67,7 +70,11 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-03-27" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-04-01" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Apr 1</div>
+<div class="plans col-md-9"><div class="plan Virtual Lesson">
+<span class="kind">VL08 </span><span class="title"><a href="/virtual-classes/VL08.html">Virtual Lesson 08 (Due Tuesday 4/2)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-03-27" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Mar 27</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>

@@ -678,7 +678,7 @@
             "date": "2024-04-03",
             "deadline": "None",
             "links": {
-                "Lecture Video": "/",
+                "Lecture Video": "https://youtube.com/live/Aw3EPrnO6iQ?feature=share",
                 "Lecture Slides": "/static/slides/CL15.pdf"
             }
         },
@@ -694,7 +694,28 @@
         }
     ],
     "2024-04-04": [],
-    "2024-04-05": [],
+    "2024-04-05": [
+        {
+            "kind": "CL",
+            "n": 17,
+            "title": "Back to Defining A Function Recursively",
+            "date": "2024-04-05",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 7,
+            "title": "Defining a Function Recursively (Due Friday 4/5)",
+            "date": "2024-04-05",
+            "deadline": "2024-04-05",
+            "links": {
+                "": "/cqs/recursive-fns.html"
+            }
+        }
+    ],
     "2024-04-06": [],
     "2024-04-07": [],
     "2024-04-08": [],
