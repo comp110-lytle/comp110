@@ -63,7 +63,9 @@ template: overview
 
 ## Recursion
 [Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
-[Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html)
+[Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
+[Example 1](/resources/practice/memory-diagrams/recursion/pow.html)
+
 <!-- 
 ### Extras 
 (These are unreviewed, so please let us know if you find any mistakes!)
