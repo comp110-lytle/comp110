@@ -16,7 +16,7 @@ This is exactly what we did in the [virtual lesson](https://comp110-24s.github.i
 
 The function we will be defining recursively is:
 
-$$f(n, k) = n \times k$$, with recursion on $$n \geq 0$$.
+$f(n, k) = n \times k$, with recursion on $n \geq 0$.
 
 This is how the *standard function* will look as a Python function:
 
@@ -46,7 +46,7 @@ Looking at the standard function definition, fill in the sequence:
 
 You can find the recursive rule by observing how you get from one output to another. 
 
-For example, if I want to know the pattern for getting $$f(n,k)$$ from $$f(n-1,k)$$, I could ask "How do I get from $$f(2,k)$$ to $$f(3,k)$$? How do I get from $$f(3,k)$$ to $$f(4,k)$$?" and so on. These are just the values in the bottom row, so see if you can find the pattern!
+For example, if I want to know the pattern for getting from $f(n-1,k)$ to $f(n,k)$, I could ask "How do I get from $f(2,k)$ to $f(3,k)$? How do I get from $f(3,k)$ to $f(4,k)$?" and so on. These are just the values in the bottom row, so see if you can find the pattern!
  
 This will help you find out your *recursive definition* and you can use that to write your function!
 
