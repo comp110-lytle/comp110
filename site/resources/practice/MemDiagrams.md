@@ -59,6 +59,11 @@ template: overview
 [Example 0](/resources/practice/memory-diagrams/dicts/dicts-00.html) |
 [Example 1](/resources/practice/memory-diagrams/dicts/dicts-01.html) |
 [Example 2](/resources/practice/memory-diagrams/dicts/lineups.html)
+
+
+## Recursion
+[Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
+[Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html)
 <!-- 
 ### Extras 
 (These are unreviewed, so please let us know if you find any mistakes!)
@@ -79,11 +84,12 @@ template: overview
 [Example 0](/resources/practice/memory-diagrams/oop-advanced/team.html) |
 [Example 1](/resources/practice/memory-diagrams/oop-advanced/playlist.html) 
 
-## Recursion
-[Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
-[Example 1](/resources/practice/memory-diagrams/recursion/list-len.html) |
-[Example 2](/resources/practice/memory-diagrams/recursion/silly-loop.html)
+
 
 ## Nested Data Structures
 [Example 0](/resources/practice/memory-diagrams/nested-structures/data.html) |
 [Example 1](/resources/practice/memory-diagrams/nested-structures/nested.html) -->
+
+<!-- ## Recursive Structures
+
+[Example 1](/resources/practice/memory-diagrams/recursion/list-len.html) | -->

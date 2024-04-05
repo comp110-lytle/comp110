@@ -19,9 +19,9 @@ template: overview
 ```
 
 # Solution
-*(This was done in class so you can also look at the lecture video!)*
 
-<img class="img-fluid" src="/static/practice-mem-diagrams/rec-loop.png" alt="Image Description Here"  />
+
+<img class="img-fluid" src="" alt="Image Description Here"  />
 
 ## Image Description 
 *(Coming Soon)*

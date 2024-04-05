@@ -21,7 +21,7 @@ template: overview
 # Solution
 [Solution Video](https://youtu.be/mr_7bk3F6to)
 
-<img class="img-fluid" src="/static/practice-mem-diagrams/silly-loop-sol.png" alt="Image Description Here"  /> 
+<img class="img-fluid" src="" alt="Image Description Here"  /> 
 
 ## Image Description 
 *(Coming Soon)*
