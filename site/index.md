@@ -49,7 +49,7 @@ template: home
 <div class="date col-md-2">Fri, Apr 5</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL17 </span><span class="title">Back to Defining A Function Recursively</span>
-<ul class="links"><li class="link"><a href="/">Lecture Video</a></li>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/lrmMM63lo9s">Lecture Video</a></li>
 </ul></div><div class="plan Challenge Question">
 <span class="kind">CQ07 </span><span class="title"><a href="/cqs/recursive-fns.html">Defining a Function Recursively (Due Friday 4/5)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-04-12" class="row itinerary-row py-2">
