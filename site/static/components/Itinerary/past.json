@@ -669,5 +669,29 @@
             }
         }
     ],
-    "2024-04-02": []
+    "2024-04-02": [],
+    "2024-04-03": [
+        {
+            "kind": "CL",
+            "n": 16,
+            "title": "Reverse Engineering A Recursive Function",
+            "date": "2024-04-03",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/Aw3EPrnO6iQ?feature=share",
+                "Lecture Slides": "/static/slides/CL15.pdf"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 8,
+            "title": "Recursive Turtle (Due Thursday 4/11)",
+            "date": "2024-04-03",
+            "deadline": "2024-04-11",
+            "links": {
+                "": "/exercises/turtle.html"
+            }
+        }
+    ],
+    "2024-04-04": []
 }
