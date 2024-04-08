@@ -130,3 +130,8 @@ page: lessons
 [Video Pt 1.](https://youtu.be/5mVmXIrG5ec) | [Video Pt. 2](https://youtu.be/lWwCoD9EV9g) | [Slides](/static/slides/Recursion.pdf)
 </div>
 
+<div class="plan Class"><span class="kind">LS25 </span>
+<span class="title">Introduction to Object Oriented Programming:</span>
+[Video](https://www.youtube.com/watch?v=DmYPEH8qkRI) | [Slides](/)
+</div>
+

@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">RD02 - THU, APR 11 11:59pm</a></li><li class="horizon-item"><a href="/exercises/turtle.html">EX08 - THU, APR 11 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/virtual-classes/VL09.html">VL09 - TUE, APR 09 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD02 - THU, APR 11 11:59pm</a></li><li class="horizon-item"><a href="/exercises/turtle.html">EX08 - THU, APR 11 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -44,6 +44,10 @@ template: home
 <ul class="links"><li class="link"><a href="https://youtube.com/live/lrmMM63lo9s">Lecture Video</a></li>
 </ul></div><div class="plan Challenge Question">
 <span class="kind">CQ07 </span><span class="title"><a href="/cqs/recursive-fns.html">Defining a Function Recursively (Due Friday 4/5)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-04-08" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Apr 8</div>
+<div class="plans col-md-9"><div class="plan Virtual Lesson">
+<span class="kind">VL09 </span><span class="title"><a href="/virtual-classes/VL09.html">Virtual Lesson 09 (Due Tuesday 4/9)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-04-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Apr 12</div>
 <div class="plans col-md-9"><div class="plan Exercise">
