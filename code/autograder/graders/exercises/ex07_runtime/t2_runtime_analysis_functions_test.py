@@ -7,19 +7,19 @@ from pytest import mark
 MODULE = "exercises.ex07.runtime_analysis_functions"
 
 
-@mark.weight(9)
+@mark.weight(10)
 def test_random_descending_list_1():
     """random_descending_list - random_descending_list correctly generates an n-length list."""
     from exercises.ex07.runtime_analysis_functions import random_descending_list
     assert len(random_descending_list(50)) == 50
 
-@mark.weight(9)
+@mark.weight(10)
 def test_random_descending_list_2():
     """random_descending_list - random_descending_list correctly generates an n-length list."""
     from exercises.ex07.runtime_analysis_functions import random_descending_list
     assert len(random_descending_list(37)) == 37
 
-@mark.weight(9)
+@mark.weight(10)
 def test_random_descending_list_3():
     """random_descending_list - random_descending_list correctly generates a descending list."""
     from exercises.ex07.runtime_analysis_functions import random_descending_list
@@ -29,7 +29,7 @@ def test_random_descending_list_3():
         assert generated[i] >= generated[i+1]
         i += 1
 
-@mark.weight(9)
+@mark.weight(10)
 def test_random_descending_list_4():
     """random_descending_list - random_descending_list correctly generates a descending list."""
     from exercises.ex07.runtime_analysis_functions import random_descending_list

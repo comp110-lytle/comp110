@@ -7,7 +7,7 @@ from pytest import mark
 MODULE = "exercises.ex07.sort_functions"
 
 
-@mark.weight(9)
+@mark.weight(10)
 def test_selection_sort_1():
     """selection_sort - selection_sort correctly sorts a list."""
     from exercises.ex07.sort_functions import selection_sort
@@ -16,7 +16,7 @@ def test_selection_sort_1():
     assert lista == [1, 2, 3, 4, 7, 8, 9, 10]
 
 
-@mark.weight(9)
+@mark.weight(10)
 def test_selection_sort_2():
     """selection_sort - selection_sort correctly sorts a list with negatives."""
     from exercises.ex07.sort_functions import selection_sort
@@ -25,7 +25,7 @@ def test_selection_sort_2():
     assert lista == [-1000, -100, -98, -67, -33, -1]
 
 
-@mark.weight(9)
+@mark.weight(10)
 def test_selection_sort_3():
     """selection_sort - selection_sort correctly sorts a list with duplicates."""
     from exercises.ex07.sort_functions import selection_sort
@@ -34,7 +34,7 @@ def test_selection_sort_3():
     assert lista == [1, 1, 1, 3, 3, 3]
 
 
-@mark.weight(9)
+@mark.weight(10)
 def test_insertion_sort_1():
     """insertion_sort - insertion_sort correctly sorts a list."""
     from exercises.ex07.sort_functions import insertion_sort
@@ -43,7 +43,7 @@ def test_insertion_sort_1():
     assert lista == [1, 2, 3, 4, 7, 8, 9, 10]
 
 
-@mark.weight(9)
+@mark.weight(10)
 def test_insertion_sort_2():
     """insertion_sort - insertion_sort correctly sorts a list with negatives."""
     from exercises.ex07.sort_functions import insertion_sort
@@ -52,7 +52,7 @@ def test_insertion_sort_2():
     assert lista == [-1000, -100, -98, -67, -33, -1]
     
 
-@mark.weight(9)
+@mark.weight(10)
 def test_insertion_sort_3():
     """insertion_sort - insertion_sort correctly sorts a list with duplicates."""
     from exercises.ex07.sort_functions import insertion_sort
