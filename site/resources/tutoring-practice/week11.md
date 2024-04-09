@@ -134,6 +134,83 @@ def factorial_recursive(n):
 ~~~
 <br>
 
+##### Convert Standard Functions to Recursive Functions
+
+1. Factorial <br>
+Standard Function Definition: The function calculates the factorial of a number n, defined as n! = n × (n-1) × ... × 1. <br>
+Standard Function: 
+~~~
+def factorial(n: int) -> int:
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+~~~
+Convert it to recursive function:
+~~~
+def factorial(n: int) -> int:
+    if n == 0: # Base Case
+        # Something here
+    else:
+        return # Something here
+~~~
+
+2. Power of a Number <br>
+Standard Function Definition: The function calculates a to the power of b (a^b). <br>
+Standard Function:
+~~~
+def power(a: int, b: int) -> int:
+    return a ** b
+~~~
+Convert it to recursive function:
+~~~
+def power(a: int, b: int) -> int:
+    if b == 0: # Base Case
+        # Something here
+    else:
+        return # Something here
+~~~
+
+3. Counting Backwards <br>
+Standard Function Definition: The function prints numbers from n down to 1. <br>
+Standar Function:
+~~~
+def count_down(n: int):
+    i: int = n
+    while i > 0:
+        print(i)
+        i -= 1
+~~~
+Convert it to recursive function:
+~~~
+def count_down(n: int):
+    if n == 0: # Base Case
+        # Something here
+    else:
+        # Something here
+~~~
+
+4. Multiplication using Addition <br>
+Standard Function: The function multiplies two integers using the addition method. <br>
+Standard Function:
+~~~
+def multiply(a: int, b: int) -> int:
+    result = 0
+    for _ in range(b):
+        result += a
+    return result
+~~~
+Convert it to recursive function
+~~~
+def multiply(a: int, b: int) -> int:
+    if b == 0: # Base Case
+        # Something here
+    else:
+        # Something here
+~~~
+
+<br>
+
 # Solutions
 
 ### Conceptual:
@@ -192,4 +269,42 @@ def factorial_iterative(n):
         result *= n
         n -= 1
     return result
+~~~
+
+### Convert
+1. 
+~~~
+def factorial(n: int) -> int:
+    if n == 0:
+        return 1  # Factorial of 0 is 1
+    else:
+        return n * factorial(n - 1)  # Factorial of n is n times factorial of n-1
+~~~
+
+2. 
+~~~
+def power(a: int, b: int) -> int:
+    if b == 0:
+        return 1  # Any number to the power of 0 is 1
+    else:
+        return a * power(a, b - 1)  # a to the power b is a times a to the power (b-1)
+~~~
+
+3. 
+~~~
+def count_down(n: int):
+    if n == 0:
+        return  # Base case to stop recursion
+    else:
+        print(n)
+        count_down(n - 1)  # Recursive step
+~~~
+
+4. 
+~~~
+def multiply(a: int, b: int) -> int:
+    if b == 0:
+        return 0  # Multiplying by 0 results in 0
+    else:
+        return a + multiply(a, b - 1)  # Add a to the result of multiplying a by (b-1)
 ~~~
