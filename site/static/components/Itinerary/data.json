@@ -731,7 +731,19 @@
         }
     ],
     "2024-04-09": [],
-    "2024-04-10": [],
+    "2024-04-10": [
+        {
+            "kind": "CL",
+            "n": 18,
+            "title": "Practice With OOP",
+            "date": "2024-04-10",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "/",
+                "Slides": "/static/slides/OOP-practice.pdf"
+            }
+        }
+    ],
     "2024-04-11": [],
     "2024-04-12": [
         {

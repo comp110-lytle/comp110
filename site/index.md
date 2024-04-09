@@ -37,17 +37,17 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-04-05" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Apr 5</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL17 </span><span class="title">Back to Defining A Function Recursively</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/lrmMM63lo9s">Lecture Video</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ07 </span><span class="title"><a href="/cqs/recursive-fns.html">Defining a Function Recursively (Due Friday 4/5)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-04-08" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-04-08" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Apr 8</div>
 <div class="plans col-md-9"><div class="plan Virtual Lesson">
 <span class="kind">VL09 </span><span class="title"><a href="/virtual-classes/VL09.html">Virtual Lesson 09 (Due Tuesday 4/9)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-04-10" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Apr 10</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL18 </span><span class="title">Practice With OOP</span>
+<ul class="links"><li class="link"><a href="/">Lecture Video</a></li>
+<li class="link"><a href="/static/slides/OOP-practice.pdf">Slides</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-04-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Apr 12</div>
 <div class="plans col-md-9"><div class="plan Exercise">
@@ -66,7 +66,14 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-04-03" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-04-05" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Apr 5</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL17 </span><span class="title">Back to Defining A Function Recursively</span>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/lrmMM63lo9s">Lecture Video</a></li>
+</ul></div><div class="plan Challenge Question">
+<span class="kind">CQ07 </span><span class="title"><a href="/cqs/recursive-fns.html">Defining a Function Recursively (Due Friday 4/5)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-04-03" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Apr 3</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL16 </span><span class="title">Reverse Engineering A Recursive Function</span>

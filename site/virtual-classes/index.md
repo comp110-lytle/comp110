@@ -132,6 +132,6 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS25 </span>
 <span class="title">Introduction to Object Oriented Programming:</span>
-[Video](https://www.youtube.com/watch?v=DmYPEH8qkRI) | [Slides](/)
+[Video](https://www.youtube.com/watch?v=DmYPEH8qkRI) | [Slides](/static/slides/OOP.pdf)
 </div>
 

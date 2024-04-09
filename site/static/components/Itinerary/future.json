@@ -1,27 +1,4 @@
 {
-    "2024-04-05": [
-        {
-            "kind": "CL",
-            "n": 17,
-            "title": "Back to Defining A Function Recursively",
-            "date": "2024-04-05",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/lrmMM63lo9s"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 7,
-            "title": "Defining a Function Recursively (Due Friday 4/5)",
-            "date": "2024-04-05",
-            "deadline": "2024-04-05",
-            "links": {
-                "": "/cqs/recursive-fns.html"
-            }
-        }
-    ],
-    "2024-04-06": [],
     "2024-04-07": [],
     "2024-04-08": [
         {
@@ -36,7 +13,19 @@
         }
     ],
     "2024-04-09": [],
-    "2024-04-10": [],
+    "2024-04-10": [
+        {
+            "kind": "CL",
+            "n": 18,
+            "title": "Practice With OOP",
+            "date": "2024-04-10",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "/",
+                "Slides": "/static/slides/OOP-practice.pdf"
+            }
+        }
+    ],
     "2024-04-11": [],
     "2024-04-12": [
         {
