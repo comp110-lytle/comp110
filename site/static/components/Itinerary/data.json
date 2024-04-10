@@ -739,7 +739,7 @@
             "date": "2024-04-10",
             "deadline": "None",
             "links": {
-                "Lecture Video": "/",
+                "Lecture Video": "https://youtube.com/live/bIuZTsTGp6k?feature=share",
                 "Slides": "/static/slides/OOP-practice.pdf"
             }
         }
