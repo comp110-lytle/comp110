@@ -46,7 +46,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL18 </span><span class="title">Practice With OOP</span>
 <ul class="links"><li class="link"><a href="https://youtube.com/live/bIuZTsTGp6k?feature=share">Lecture Video</a></li>
-<li class="link"><a href="/static/slides/OOP-practice.pdf">Slides</a></li>
+<li class="link"><a href="/static/slides/OOP-Practice.pdf">Slides</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-04-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Apr 12</div>
