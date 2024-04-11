@@ -747,6 +747,16 @@
     "2024-04-11": [],
     "2024-04-12": [
         {
+            "kind": "CQ",
+            "n": 8,
+            "title": "Practice With OOP (Due Friday 4/12)",
+            "date": "2024-04-12",
+            "deadline": "2024-04-12",
+            "links": {
+                "": "/cqs/oop-mutable.html"
+            }
+        },
+        {
             "kind": "EX",
             "n": 9,
             "title": "River Simulation (Due Tuesday 4/23)",

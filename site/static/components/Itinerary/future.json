@@ -1,16 +1,4 @@
 {
-    "2024-04-08": [
-        {
-            "kind": "VL",
-            "n": 9,
-            "title": "Virtual Lesson 09 (Due Tuesday 4/9)",
-            "date": "2024-04-08",
-            "deadline": "2024-04-09",
-            "links": {
-                "": "/virtual-classes/VL09.html"
-            }
-        }
-    ],
     "2024-04-09": [],
     "2024-04-10": [
         {
@@ -27,6 +15,16 @@
     ],
     "2024-04-11": [],
     "2024-04-12": [
+        {
+            "kind": "CQ",
+            "n": 8,
+            "title": "Practice With OOP (Due Friday 4/12)",
+            "date": "2024-04-12",
+            "deadline": "2024-04-12",
+            "links": {
+                "": "/cqs/oop-mutable.html"
+            }
+        },
         {
             "kind": "EX",
             "n": 9,
