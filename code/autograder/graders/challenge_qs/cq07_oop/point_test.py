@@ -1,4 +1,4 @@
-"""Tests for CQ05 - dicts Practice."""
+"""Tests for OOP Challenge Question."""
 
 __author__ = "Alyssa Lytle <abyrnes1@cs.unc.edu>"
 
@@ -10,7 +10,7 @@ from graders.helpers import assert_return_type
 import inspect
 
 
-MODULE = "lessons.CQ07.point"
+MODULE = "lessons.CQ08.point"
 
 
 @mark.weight(0)
@@ -34,14 +34,14 @@ def test_constructor_params():
 @mark.weight(1)
 def test_make_point_x():
     """Part 1. Testing that x attribute is initialized correctly in __init__"""
-    from lessons.CQ07.point import Point
+    from lessons.CQ08.point import Point
     test_point: Point = Point(1.0,2.0)
     assert test_point.x == 1.0
 
 @mark.weight(1)
 def test_make_point_y():
     """Part 1. Testing that y attribute is initialized correctly in __init__"""
-    from lessons.CQ07.point import Point
+    from lessons.CQ08.point import Point
     test_point: Point = Point(1.0,2.0)
     assert test_point.y == 2.0
 
@@ -69,7 +69,7 @@ def test_scale_by_signature():
 @mark.weight(1)
 def test_scale_by_x():
     """Part 2. Testing that scale_by modifies x attribute correctly"""
-    from lessons.CQ07.point import Point
+    from lessons.CQ08.point import Point
     test_point: Point = Point(1.0,2.0)
     test_point.scale_by(3)
     assert test_point.x == 3.0
@@ -77,7 +77,7 @@ def test_scale_by_x():
 @mark.weight(1)
 def test_scale_by_y():
     """Part 2. Testing that scale_by modifies y attribute correctly"""
-    from lessons.CQ07.point import Point
+    from lessons.CQ08.point import Point
     test_point: Point = Point(1.0,2.0)
     test_point.scale_by(3)
     assert test_point.y == 6.0
@@ -102,7 +102,7 @@ def test_scale_by_signature():
 @mark.weight(1)
 def test_scale_mutation():
     """Part 3. Testing that scale does not modify input"""
-    from lessons.CQ07.point import Point
+    from lessons.CQ08.point import Point
     test_point: Point = Point(1.0,2.0)
     test_point.scale(3)
     assert test_point.x == 1.0
@@ -111,7 +111,7 @@ def test_scale_mutation():
 @mark.weight(1)
 def test_scale_x():
     """Part 3. Testing that scale correctly creates new point with updated x attribute"""
-    from lessons.CQ07.point import Point
+    from lessons.CQ08.point import Point
     test_point: Point = Point(1.0,2.0)
     test_point2: Point = test_point.scale(4)
     assert test_point2.x == 4.0
@@ -119,7 +119,7 @@ def test_scale_x():
 @mark.weight(1)
 def test_scale_y():
     """Part 3. Testing that scale correctly creates new point with updated y attribute"""
-    from lessons.CQ07.point import Point
+    from lessons.CQ08.point import Point
     test_point: Point = Point(1.0,2.0)
     test_point2: Point = test_point.scale(4)
     assert test_point2.y == 8.0

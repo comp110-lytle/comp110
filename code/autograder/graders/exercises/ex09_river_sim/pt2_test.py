@@ -7,9 +7,9 @@ from _pytest.capture import CaptureFixture
 from typing import Any
 import inspect
 
-RIV_MODULE = "exercises.ex08.river"
-BEAR_MODULE = "exercises.ex08.bear"
-FISH_MODULE = "exercises.ex08.fish"
+RIV_MODULE = "exercises.ex09.river"
+BEAR_MODULE = "exercises.ex09.bear"
+FISH_MODULE = "exercises.ex09.fish"
 RIVER_CLASS = "River"
 BEAR_CLASS = "Bear"
 FISH_CLASS = "Fish"
