@@ -45,7 +45,7 @@ It'll should the following properties:
 
 
 
-## 3. Mutating Method: `Point#scale`
+## 3. Non-Mutating Method: `Point#scale`
 
 Now, you are going to write a method that belongs to the Point class and instead of *mutating* a `Point`, it creates a new `Point`. 
 
