@@ -791,7 +791,11 @@
             "title": "Quiz 4",
             "date": "2024-04-19",
             "deadline": "2024-04-19",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/sp24/qz04.html",
+                "Covered Topics: Units 0 - 7": "https://comp110-24s.github.io/resources/curriculum.html",
+                "Review Session (Thursday @ 7pm)": "/"
+            }
         }
     ],
     "2024-04-20": [],
