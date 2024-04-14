@@ -135,3 +135,13 @@ page: lessons
 [Video](https://www.youtube.com/watch?v=DmYPEH8qkRI) | [Slides](/static/slides/OOP.pdf)
 </div>
 
+<div class="plan Class"><span class="kind">LS26 </span>
+<span class="title">Magic Methods:</span>
+[Video](https://www.youtube.com/watch?v=YvfnVMuwSEA)
+</div>
+
+<div class="plan Class"><span class="kind">LS27 </span>
+<span class="title">Operator Overload:</span>
+[Video](https://www.youtube.com/watch?v=kMrRsmFzZBY)
+</div>
+
