@@ -21,7 +21,7 @@ template: overview
 # Solution
 
 
-<img class="img-fluid" src="" alt="Image Description Here"  />
+<img class="img-fluid" src="/static/practice-mem-diagrams/basic-loop.png" alt="Image Description Here"  />
 
 ## Image Description 
 *(Coming Soon)*

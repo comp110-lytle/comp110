@@ -9,11 +9,11 @@ template: overview
 # Snippet
 
 ```
-    def f(x: int) -> int:
-        if x == 0:
+    def f(n: int) -> int:
+        if n == 0:
             return 1
         else:
-            return f(x-1) * 2
+            return f(n-1) * 2
 
     print(f(3))
 ```
@@ -21,7 +21,7 @@ template: overview
 # Solution
 
 
-<img class="img-fluid" src="" alt="Image Description Here"  />
+<img class="img-fluid" src="/static/practice-mem-diagrams/pow.png" alt="Image Description Here"  />
 
 ## Image Description 
 *(Coming Soon)*
