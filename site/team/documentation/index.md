@@ -33,6 +33,14 @@ site-branch: team
 * [Site Features](/team/documentation/guides/course_site_features.html)
 </div>
 
+<div class="link-page box">
+
+### Grading
+
+* [Generate Grading CSV](/team/documentation/guides/grading_csv.html) 
+
+</div>
+
 
 
 //split//
