@@ -37,11 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-04-15" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Apr 15</div>
-<div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL10 </span><span class="title"><a href="/virtual-classes/VL10.html">Virtual Lesson 10 (Due Tuesday 4/16)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-04-17" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-04-17" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Apr 17</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL19 </span><span class="title">Practice With Magic Methods + Operator Overloads</span>
@@ -54,7 +50,7 @@ template: home
 <span class="kind">QZ04 </span><span class="title">Quiz 4</span>
 <ul class="links"><li class="link"><a href="/resources/practice/sp24/qz04.html">Practice Problems</a></li>
 <li class="link"><a href="https://comp110-24s.github.io/resources/curriculum.html">Covered Topics: Units 0 - 7</a></li>
-<li class="link"><a href="/">Review Session (Thursday @ 7pm)</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/98240643290?pwd=Vm9TZWZGTEpuazdxb3dsZ3A4bC9FQT09">Review Session (Thursday @ 7pm)</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-04-24" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Apr 24</div>
@@ -66,7 +62,11 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-04-12" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-04-15" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Apr 15</div>
+<div class="plans col-md-9"><div class="plan Virtual Lesson">
+<span class="kind">VL10 </span><span class="title"><a href="/virtual-classes/VL10.html">Virtual Lesson 10 (Due Tuesday 4/16)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-04-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Apr 12</div>
 <div class="plans col-md-9"><div class="plan Challenge Question">
 <span class="kind">CQ08 </span><span class="title"><a href="/cqs/oop-mutable.html">Practice With OOP (Due Friday 4/12)</a></span></div><div class="plan Exercise">
