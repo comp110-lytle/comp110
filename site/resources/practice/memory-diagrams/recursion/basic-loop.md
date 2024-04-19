@@ -20,7 +20,7 @@ template: overview
 
 # Solution
 
-
+[Video](https://youtu.be/15mYJuQlsro?si=75MCvjxDPp1LYAVp)
 <img class="img-fluid" src="/static/practice-mem-diagrams/basic-loop.png" alt="Image Description Here"  />
 
 ## Image Description 
