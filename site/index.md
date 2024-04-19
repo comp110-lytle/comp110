@@ -50,7 +50,7 @@ template: home
 <span class="kind">QZ04 </span><span class="title">Quiz 4</span>
 <ul class="links"><li class="link"><a href="/resources/practice/sp24/qz04.html">Practice Problems</a></li>
 <li class="link"><a href="https://comp110-24s.github.io/resources/curriculum.html">Covered Topics: Units 0 - 7</a></li>
-<li class="link"><a href="https://unc.zoom.us/rec/share/GH1by2C_pEHs8xOqVoEu7ZZzb2kY8770BUEvpANvcfa7yKrr1dUe_BTgXykv6u5O.v-6e-lftYq_BRQi0">Review Session (Passcode: fbV0JY$C)</a></li>
+<li class="link"><a href="https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d3cd3d8f-698f-435f-bc16-b15700145bad">Review Session</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-04-24" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Apr 24</div>
