@@ -780,5 +780,20 @@
                 "": "/virtual-classes/VL10.html"
             }
         }
-    ]
+    ],
+    "2024-04-16": [],
+    "2024-04-17": [
+        {
+            "kind": "CL",
+            "n": 19,
+            "title": "Practice With Magic Methods + Operator Overloads",
+            "date": "2024-04-17",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/QA3A0JxEhPM?feature=share",
+                "Slides": "/static/slides/MagicMethods.pdf"
+            }
+        }
+    ],
+    "2024-04-18": []
 }
