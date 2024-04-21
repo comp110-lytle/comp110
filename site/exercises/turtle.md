@@ -4,6 +4,7 @@ author:
 - Kris Jordan
 - Ezri White
 - Alyssa Lytle
+- Vrinda Desai
 page: projects
 template: overview
 ---
@@ -42,7 +43,7 @@ Have a `main` _function_ whose purpose is to construct any `Turtle` objects and 
 
 Call at least one of your four required component procedures twice to place that component twice in your scene in different locations.
 
-### 3. recursion usage (10 points total):
+### 3. Recursion usage (10 points total):
 
 Use recursion to avoid repetitive code and/or to create an interesting structure in some part of your scene. You can simply use it to replace a loop in your code, or you could leverage the nature of recursion to draw something recursive in structure! For the latter, think of things made up of smaller versions of themselves (e.g. tree branches are made of smaller branches, target signs are just circles inside bigger circles, etc.)
 
@@ -156,7 +157,7 @@ After defining this procedure we could call it from the _body_ of the `main` fun
 
 To prepare your scene for submission, be sure to add a docstring to your module (at the top of the file) and a global `__author__` variable set to a string which contains your 9-digit PID. If you are attempting the final 15% of the project, also be sure to describe what to look for in your program per the instructions above. Add that description to your docstring.
 
-The programmer's job is not completed merely by achieving some desired functionality. Programming is a craft and a programmer's work should be documented and adhere to common stylistic rules. Autograding for this assignment performs checks for the 25 points dedicated to such concerns: _linting_ and _static type checking_. These checks are focused on nit-picky improvements. Developing good habits around fixing these concerns as you move through your programming career will pay dividends, just like brushing your teeth.
+The programmer's job is not completed merely by achieving some desired functionality. Programming is a craft and a programmer's work should be documented and adhere to common stylistic rules. Autograding for this assignment performs checks for the 10 points dedicated to such concerns: _linting_ and _static type checking_. These checks are focused on nit-picky improvements. Developing good habits around fixing these concerns as you move through your programming career will pay dividends, just like brushing your teeth.
 
 Here are a few suggestions for cleaning up your code in anticipation of _static type checking_:
 
