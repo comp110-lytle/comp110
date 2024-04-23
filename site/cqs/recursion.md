@@ -16,7 +16,6 @@ In the `exercises` directory, create a directory named `ex10`. In the `ex10` dir
 """Utility functions for working with Linked Lists."""
 
 from __future__ import annotations
-from typing import Optional
 
 __author__ = "Your PID"
 
@@ -24,9 +23,9 @@ __author__ = "Your PID"
 class Node:
     """An item in a singly-linked list."""
     data: int
-    next: Optional[Node]
+    next: Node | None
 
-    def __init__(self, data: int, next: Optional[Node]):
+    def __init__(self, data: int, next: Node | None):
         """Construct a singly linked list. Use None for 2nd argument if tail."""
         self.data = data
         self.next = next
