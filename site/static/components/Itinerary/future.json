@@ -1,19 +1,4 @@
 {
-    "2024-04-19": [
-        {
-            "kind": "QZ",
-            "n": 4,
-            "title": "Quiz 4",
-            "date": "2024-04-19",
-            "deadline": "2024-04-19",
-            "links": {
-                "Practice Problems": "/resources/practice/sp24/qz04.html",
-                "Covered Topics: Units 0 - 7": "https://comp110-24s.github.io/resources/curriculum.html",
-                "Review Session": "https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d3cd3d8f-698f-435f-bc16-b15700145bad"
-            }
-        }
-    ],
-    "2024-04-20": [],
     "2024-04-21": [],
     "2024-04-22": [
         {
@@ -30,6 +15,26 @@
     "2024-04-23": [],
     "2024-04-24": [
         {
+            "kind": "CL",
+            "n": 20,
+            "title": "Recursive Structures + EX10 Prep",
+            "date": "2024-04-24",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 9,
+            "title": "Recursive Structures Node Class (Due Wednesday 4/24)",
+            "date": "2024-04-24",
+            "deadline": "2024-04-24",
+            "links": {
+                "": "/cqs/recursion.html"
+            }
+        },
+        {
             "kind": "EX",
             "n": 10,
             "title": "Linked Lists (Due Tuesday 4/30)",
@@ -41,7 +46,18 @@
         }
     ],
     "2024-04-25": [],
-    "2024-04-26": [],
+    "2024-04-26": [
+        {
+            "kind": "CL",
+            "n": 21,
+            "title": "Practice with Recursive Structures",
+            "date": "2024-04-26",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "/"
+            }
+        }
+    ],
     "2024-04-27": [],
     "2024-04-28": [],
     "2024-04-29": [],
