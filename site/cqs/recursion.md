@@ -1,5 +1,5 @@
 ---
-title: Node Class
+title: Recursive Structures Challenge Question
 author:
 - Alyssa Byrnes
 - Vrinda Desai
