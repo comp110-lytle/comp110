@@ -66,15 +66,6 @@ template: overview
 [Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
 [Example 1](/resources/practice/memory-diagrams/recursion/pow.html)
 
-<!-- 
-### Extras 
-(These are unreviewed, so please let us know if you find any mistakes!)
-
-* [Code Snippet](/static/practice-mem-diagrams/pallavi1.png) | [Solution](/static/practice-mem-diagrams/pallavi1_sol.png)
-* [Code Snippet](/static/practice-mem-diagrams/chloe1.png) | [Solution](/static/practice-mem-diagrams/Chloe1_sol.png) 
-* [Code Snippet](/static/practice-mem-diagrams/vrinda2.pdf) | [Solution](/static/practice-mem-diagrams/vrinda2_sol.pdf) 
-* [Code Snippet](/static/practice-mem-diagrams/Pallavi3.png) | [Solution](/static/practice-mem-diagrams/Pallavi3_sol.pdf) 
-* [Code Snippet](/static/practice-mem-diagrams/Pallavi4.png) | [Solution](/static/practice-mem-diagrams/Pallavi4_sol.pdf) 
 
 ## Classes
 
@@ -90,7 +81,7 @@ template: overview
 
 ## Nested Data Structures
 [Example 0](/resources/practice/memory-diagrams/nested-structures/data.html) |
-[Example 1](/resources/practice/memory-diagrams/nested-structures/nested.html) -->
+[Example 1](/resources/practice/memory-diagrams/nested-structures/nested.html) 
 
 <!-- ## Recursive Structures
 

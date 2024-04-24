@@ -36,5 +36,5 @@ template: overview
 ```
 
 # Solution
-[Solution Video](https://youtu.be/boGourwMcNc)
-<img class="img-fluid" src="/static/assets/f23/team_sol.png" alt=""  />
+<!-- [Solution Video](https://youtu.be/boGourwMcNc)
+<img class="img-fluid" src="/static/assets/f23/team_sol.png" alt=""  /> -->

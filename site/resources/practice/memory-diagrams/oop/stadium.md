@@ -43,4 +43,4 @@ template: overview
 
 # Solution
 
-<img class="img-fluid" src="/static/practice-mem-diagrams/stadium-sol.png" alt=""  /> 
+<!-- <img class="img-fluid" src="/static/practice-mem-diagrams/stadium-sol.png" alt=""  />  -->
