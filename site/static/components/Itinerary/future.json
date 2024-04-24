@@ -27,9 +27,9 @@
         {
             "kind": "CQ",
             "n": 9,
-            "title": "Recursive Structures Node Class (Due Wednesday 4/24)",
+            "title": "Recursive Structures Node Class (Due Friday 4/26)",
             "date": "2024-04-24",
-            "deadline": "2024-04-24",
+            "deadline": "2024-04-26",
             "links": {
                 "": "/cqs/recursion.html"
             }

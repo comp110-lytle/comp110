@@ -9,12 +9,10 @@ import inspect
 import types
 from lessons.recursion.node import Node
 
-MODULE = "lessons.recursion.node"
+MODULE = "exercises.ex10.linked_list"
 
 
-# riv_module: Any
-# bear_module: Any
-# fish_module: Any
+
 
 def _equal(ll1: Node, ll2: Node):
     """Checks if two linked lists are equal"""
