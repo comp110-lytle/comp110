@@ -10,9 +10,9 @@ template: overview
 
 ## Overview
 
-In these exercises you will implement a few algorithms to process a singly-linked list data structure. **If you have not completed CQ20 yet, go ahead do that first.** 
+In these exercises you will implement a few algorithms to process a singly-linked list data structure. **If you have not completed CQ09 yet, go ahead do that first.** 
 
-Recall in CQ20, we were modifying and writing methods for the `Node` class. In this exercise, you will not be creating new methods, but rather, functions that take in or return `Node` objects. To create functions in the same `linked_list.py` file, make sure you are outside of the body of the class definition. You must use **recursive function calls** to implement the functions below. If you use loops, your work for that function will be disqualified.
+Recall in CQ09, we were modifying and writing methods for the `Node` class. In this exercise, you will not be creating new methods, but rather, functions that take in or return `Node` objects. To create functions in the same `linked_list.py` file, make sure you are outside of the body of the class definition. You must use **recursive function calls** to implement the functions below. If you use loops, your work for that function will be disqualified.
 
 ## `value_at` 
 
