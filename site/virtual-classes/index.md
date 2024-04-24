@@ -147,6 +147,6 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS28 </span>
 <span class="title">Recursive Structures:</span>
-[Video](https://youtu.be/3WHUAPJmWKo)
+[Video](https://youtu.be/3WHUAPJmWKo) | [slides](/static/slides/RecursiveStructures.pdf)
 </div>
 
