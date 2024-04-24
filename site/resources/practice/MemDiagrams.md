@@ -67,12 +67,12 @@ template: overview
 [Example 1](/resources/practice/memory-diagrams/recursion/pow.html)
 
 
-## Classes
+## OOP 
 
 [Example 0](/resources/practice/memory-diagrams/oop/tweets.html) | 
 [Example 1](/resources/practice/memory-diagrams/oop/stadium.html)
 
-## Magic Methods, Operator Overloads, and Default Parameters
+## Magic Methods and Operator Overloads
 
 [Example 0](/resources/practice/memory-diagrams/oop-advanced/team.html) |
 [Example 1](/resources/practice/memory-diagrams/oop-advanced/playlist.html) 
