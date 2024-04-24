@@ -5,6 +5,7 @@ author:
 - Kaki Ryan
 - Vrinda Desai
 page: exercises
+template: overview
 ---
 
 ## Overview
@@ -26,13 +27,14 @@ Hint #2: A second base case occurs when the index is 0. Here you should return t
 Skeleton function implementation:
 
 ~~~
-def value_at(head: Node | None, index: int) -> int:
-    raise IndexError("Index is out of bounds on the list.")
+    def value_at(head: Node | None, index: int) -> int:
+        raise IndexError("Index is out of bounds on the list.")
 ~~~
 
 Example usage:
 
-~~~
+<pre>
+<div class="terminal">
 >>> from exercises.ex10.linked_list import Node, value_at
 >>> value_at(Node(10, Node(20, Node(30, None))), 0)
 10
@@ -42,7 +44,8 @@ Example usage:
 30
 >>> value_at(Node(10, Node(20, Node(30, None))), 3)
 IndexError: Index is out of bounds on the list.
-~~~
+</div>
+</pre>
 
 ## `max` 
 
@@ -51,11 +54,12 @@ Given a `head` `Node`, return the maximum data value in the linked list. If the 
 Skeleton function implementation:
 
 ~~~
-def max(head: Node | None) -> int:
-    raise ValueError("Cannot call max with None")
+    def max(head: Node | None) -> int:
+        raise ValueError("Cannot call max with None")
 ~~~
 
-~~~
+<pre>
+<div class="terminal">
 >>> from exercises.ex10.linked_list import Node, max
 >>> max(Node(10, Node(20, Node(30, None))))
 30
@@ -65,7 +69,8 @@ def max(head: Node | None) -> int:
 30
 >>> max(None)
 ValueError: Cannot call max with None.
-~~~
+</div>
+</pre>
 
 
 ## `linkify` 
@@ -75,13 +80,14 @@ Given a `list[int]`, your `linkify` function should return a Linked List of Node
 A skeleton for `linkify` is:
 
 ~~~
-def linkify(items: list[int]) -> Node | None:
-    return None
+    def linkify(items: list[int]) -> Node | None:
+        return None
 ~~~
 
 You will find it helpful to use Python's slice subscription notation here, which we haven't discussed in full but you should now be able to pickup quickly. Try the following in the REPL:
 
-~~~
+<pre>
+<div class="terminal">
 >>> items = [10, 20, 30, 40]
 >>> items[1]
 20
@@ -91,17 +97,20 @@ You will find it helpful to use Python's slice subscription notation here, which
 [10, 20, 30]
 >>> items[1:]
 [20, 30, 40]
-~~~
+</div>
+</pre>
 
 Notice when using slice notation a new `list` is returned to you whose values start with the first index number, inclusive, and end with the index number following the colon, exclusive. If you leave off the starting index, it defaults to `0`. If you leave off the ending index, it defaults to the `len` of the `list`.
 
 Example usage:
 
-~~~
+<pre>
+<div class="terminal">
 >>> from exercises.ex10.linked_list import linkify
 >>> linkify([1, 2, 3])
 1 -> 2 -> 3 -> None
-~~~
+</div>
+</pre>
 
 After you are certain of the correctness of your `linkify` function, you may find it valuable to use in writing test cases for the following functions.
 
@@ -112,17 +121,19 @@ Given a head `Node` of a linked list and a `int` `factor` to scale by, return a 
 Skeleton function implementation:
 
 ~~~
-def scale(head: Node | None, factor: int) -> Node | None:
-    return None
+    def scale(head: Node | None, factor: int) -> Node | None:
+        return None
 ~~~
 
 Example usage:
 
-~~~
+<pre>
+<div class="terminal">
 >>> from exercises.ex10.linked_list import scale, linkify
 >>> scale(linkify([1, 2, 3]), 2)
 2 -> 4 -> 6 -> None
-~~~
+</div>
+</pre>
 
 
 ## Linting and Type Correctness 
