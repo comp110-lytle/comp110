@@ -1,5 +1,5 @@
 ---
-title: EX08 - Linked List Utils
+title: Linked List Utils
 author:
 - Kris Jordan
 - Kaki Ryan
