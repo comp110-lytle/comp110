@@ -69,6 +69,7 @@ For example, without a `__str__` method defined on our Node class, we would expe
 <div class="terminal">$ python 
 >>> from exercises.ex10.linked_list import Node
 >>> example_node = Node(3, Node(2, None))
+>>> print(example_node)
 <Node object at 0x7f959129e130>
 </div>
 </pre>
@@ -79,6 +80,7 @@ But if we have the `__str__` method defined as above, we should get:
 <div class="terminal">$ python 
 >>> from exercises.ex10.linked_list import Node
 >>> example_node = Node(3, Node(2, None))
+>>> print(example_node)
 3 -> 2 -> None
 </div>
 </pre>
