@@ -862,17 +862,29 @@
         {
             "kind": "CL",
             "n": 21,
-            "title": "Practice with Recursive Structures",
+            "title": "Practice with OOP",
             "date": "2024-04-26",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "/",
+                "Practice Problem": "/resources/practice/sp24/fn-practice-prob.html"
+            }
+        }
+    ],
+    "2024-04-27": [],
+    "2024-04-28": [],
+    "2024-04-29": [
+        {
+            "kind": "CL",
+            "n": 22,
+            "title": "(Virtual) Final Exam Review",
+            "date": "2024-04-29",
             "deadline": "None",
             "links": {
                 "Lecture Video": "/"
             }
         }
     ],
-    "2024-04-27": [],
-    "2024-04-28": [],
-    "2024-04-29": [],
     "2024-04-30": [],
     "2024-05-03": [
         {
