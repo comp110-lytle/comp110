@@ -8,7 +8,7 @@ template: overview
 
 # Join Team 110!
 
-<img src="/static/team/hack110-f23.jpg" style="width: 51vw; max-width: 51vw">
+<img class="img-fluid" src="/static/team/hack110-f23.jpg" />
 
 Interested in being part of the 110 magic? We'd love to have you join as a TA in future semesters! 
 
@@ -16,7 +16,7 @@ Interested in being part of the 110 magic? We'd love to have you join as a TA in
 
 Why become a part of Team 110? You can help be part of a dynamic, diverse group of students working together to create a wonderful learning experience for other students! It also helps to have your own little community of people interested in computing! Many people find their closest friends in Team 110!
 
-<img src="/static/team/prom110.jpg" style="width: 30vw; max-width: 30vw">
+<img class="img-fluid" src="/static/team/prom110.jpg" />
 
 - Lasting Friendships 
 - Team 110 Events
@@ -27,4 +27,6 @@ Why become a part of Team 110? You can help be part of a dynamic, diverse group 
 
 ## Apply
 
-The application for Fall 2024 is currently not live yet! It will be posted here near the end of Spring 2024 semester!
+1. Login to csxl.unc.eduhttps://csxl.unc.edu/ via your ONYEN
+2. After logging in, navigate to Academics
+3. Look for the Become a TA! pane and complete your application
