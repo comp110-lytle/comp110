@@ -54,7 +54,7 @@ rm_all_except_hidden_in() {
 }
 
 pandoc_md_to_html() {
-    python3 -m pip install jinja2
+    sudo -H python3 -m pip install jinja2
     pushd "${1}" >/dev/null
     local opts="--standalone --template=layout.html --toc --toc-depth=3"
     find . | grep -E "\.md$" | sed 's/\.md$//' | xargs -I {} python3 -m prod {}  # pandoc $opts -o {}.html {}.md
