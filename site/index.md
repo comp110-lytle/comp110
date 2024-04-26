@@ -51,6 +51,7 @@ template: home
 <span class="kind">CL21 </span><span class="title">Practice with OOP</span>
 <ul class="links"><li class="link"><a href="/">Lecture Video</a></li>
 <li class="link"><a href="/resources/practice/sp24/fn-practice-prob.html">Practice Problem</a></li>
+<li class="link"><a href="/">Practice Diagram</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-04-29" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Apr 29</div>

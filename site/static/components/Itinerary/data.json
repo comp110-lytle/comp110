@@ -867,7 +867,8 @@
             "deadline": "None",
             "links": {
                 "Lecture Video": "/",
-                "Practice Problem": "/resources/practice/sp24/fn-practice-prob.html"
+                "Practice Problem": "/resources/practice/sp24/fn-practice-prob.html",
+                "Practice Diagram": "/"
             }
         }
     ],
