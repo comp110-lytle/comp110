@@ -54,7 +54,7 @@ rm_all_except_hidden_in() {
 }
 
 pandoc_md_to_html() {
-    apt install python
+    apt install python3
     python3 -m pip install jinja2
     pushd "${1}" >/dev/null
     local opts="--standalone --template=layout.html --toc --toc-depth=3"
