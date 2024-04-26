@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: PlaneTicket Practice Problem 
 author:
 - Alyssa Lytle
@@ -6,6 +6,9 @@ page: lessons
 template: overview
 ---
 
+Practice Problem 
+
+<!-- 
 # Instructions
 
 ## Writing class, methods, and functions
