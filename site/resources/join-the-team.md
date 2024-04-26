@@ -8,7 +8,7 @@ template: overview
 
 # Join Team 110!
 
-<img class="img-fluid" src="/static/team/hack110-f23.jpg" />
+<!-- <img class="img-fluid" src="/static/team/hack110-f23.jpg" /> -->
 
 Interested in being part of the 110 magic? We'd love to have you join as a TA in future semesters! 
 
@@ -16,7 +16,7 @@ Interested in being part of the 110 magic? We'd love to have you join as a TA in
 
 Why become a part of Team 110? You can help be part of a dynamic, diverse group of students working together to create a wonderful learning experience for other students! It also helps to have your own little community of people interested in computing! Many people find their closest friends in Team 110!
 
-<img class="img-fluid" src="/static/team/prom110.jpg" />
+<!-- <img class="img-fluid" src="/static/team/prom110.jpg" /> -->
 
 - Lasting Friendships 
 - Team 110 Events
@@ -27,6 +27,6 @@ Why become a part of Team 110? You can help be part of a dynamic, diverse group 
 
 ## Apply
 
-1. Login to [csxl.unc.edu](https://csxl.unc.edu/) via your ONYEN
-2. After logging in, navigate to Academics
-3. Look for the Become a TA! pane and complete your application
+- Login to [csxl.unc.edu](https://csxl.unc.edu/) via your ONYEN
+- After logging in, navigate to Academics
+- Look for the Become a TA! pane and complete your application
