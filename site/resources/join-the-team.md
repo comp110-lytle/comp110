@@ -26,7 +26,7 @@ Why become a part of Team 110? You can help be part of a dynamic, diverse group 
     - Within Team 110 there are many opportunities to focus on specific aspects of the course such as content design, office hours, tutoring, grading, and so on. You can serve as a Team Lead, taking on specific responsibilities and even building your own committees!
 
 ## Apply
-
+<!-- 
 - Login to [csxl.unc.edu](https://csxl.unc.edu/) via your ONYEN
 - After logging in, navigate to Academics
-- Look for the Become a TA! pane and complete your application
+- Look for the Become a TA! pane and complete your application -->
