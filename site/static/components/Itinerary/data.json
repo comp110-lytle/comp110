@@ -866,9 +866,7 @@
             "date": "2024-04-26",
             "deadline": "None",
             "links": {
-                "Lecture Video": "/resources/practice/sp24/fn-practice-prob.html",
-                "Practice Problem": "/resources/practice/sp24/fn-practice-prob.html",
-                "Practice Diagram": "/resources/practice/sp24/fn-practice-prob.html"
+                "Lecture Video": "/"
             }
         }
     ],
