@@ -1,4 +1,4 @@
----
+<!-- ---
 title: PlaneTicket Practice Problem 
 author:
 - Alyssa Lytle
@@ -84,4 +84,4 @@ template: overview
 <!-- # Memory Diagram
 Per request, I made a memory diagram of this code (skipping the second calls to `__init__` and `__str__`).
 
-1. [Code Snippet 1](/static/practice-mem-diagrams/planess1.png) | [Code Snippet 2](/static/practice-mem-diagrams/planess2.png) | [Solution](/static/practice-mem-diagrams/planemd.pdf)  -->
+1. [Code Snippet 1](/static/practice-mem-diagrams/planess1.png) | [Code Snippet 2](/static/practice-mem-diagrams/planess2.png) | [Solution](/static/practice-mem-diagrams/planemd.pdf)  --> -->
