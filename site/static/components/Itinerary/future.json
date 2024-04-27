@@ -35,7 +35,10 @@
             "title": "Final @ 8:00AM",
             "date": "2024-05-03",
             "deadline": "None",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/sp23/fn.html",
+                "Review Session (Virtual During Monday's Class)": "/"
+            }
         }
     ]
 }

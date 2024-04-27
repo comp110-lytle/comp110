@@ -19,7 +19,7 @@ Interested in being part of the 110 magic? We'd love to have you join as a TA in
 
 Why become a part of Team 110? You can help be part of a dynamic, diverse group of students working together to create a wonderful learning experience for other students! It also helps to have your own little community of people interested in computing! Many people find their closest friends in Team 110! 
 
-<img class="img-fluid" src="/static/team/prom110.jpg" /> -->
+<img class="img-fluid" src="/static/team/prom110.jpg" /> 
 
 - Lasting Friendships 
 - Team 110 Events

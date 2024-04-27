@@ -53,7 +53,10 @@ template: home
 </div><div data-type="lecture" data-date="2024-05-03" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 3</div>
 <div class="plans col-md-9"><div class="plan Final">
-<span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
+<span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span>
+<ul class="links"><li class="link"><a href="/resources/practice/sp23/fn.html">Practice Problems</a></li>
+<li class="link"><a href="/">Review Session (Virtual During Monday's Class)</a></li>
+</ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
 <h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-04-24" class="row itinerary-row py-2">
