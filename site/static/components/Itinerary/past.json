@@ -824,5 +824,37 @@
             }
         }
     ],
-    "2024-04-23": []
+    "2024-04-23": [],
+    "2024-04-24": [
+        {
+            "kind": "CL",
+            "n": 20,
+            "title": "Recursive Structures + EX10 Prep",
+            "date": "2024-04-24",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/l6mpmswAKjk?feature=share"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 9,
+            "title": "Recursive Structures Node Class (Due Friday 4/26)",
+            "date": "2024-04-24",
+            "deadline": "2024-04-26",
+            "links": {
+                "": "/cqs/recursion.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 10,
+            "title": "Linked Lists (Due Tuesday 4/30)",
+            "date": "2024-04-24",
+            "deadline": "2024-04-30",
+            "links": {
+                "": "/exercises/linked-list-utils.html"
+            }
+        }
+    ]
 }

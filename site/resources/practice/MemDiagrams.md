@@ -75,8 +75,8 @@ template: overview
 ## Magic Methods and Operator Overloads
 
 [Example 0](/resources/practice/memory-diagrams/oop-advanced/team.html) |
-[Example 1](/resources/practice/memory-diagrams/oop-advanced/playlist.html) 
-
+[Example 1](/resources/practice/memory-diagrams/oop-advanced/playlist.html) |
+[Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html)
 
 
 ## Nested Data Structures

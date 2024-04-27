@@ -1,36 +1,4 @@
 {
-    "2024-04-24": [
-        {
-            "kind": "CL",
-            "n": 20,
-            "title": "Recursive Structures + EX10 Prep",
-            "date": "2024-04-24",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/l6mpmswAKjk?feature=share"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 9,
-            "title": "Recursive Structures Node Class (Due Friday 4/26)",
-            "date": "2024-04-24",
-            "deadline": "2024-04-26",
-            "links": {
-                "": "/cqs/recursion.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 10,
-            "title": "Linked Lists (Due Tuesday 4/30)",
-            "date": "2024-04-24",
-            "deadline": "2024-04-30",
-            "links": {
-                "": "/exercises/linked-list-utils.html"
-            }
-        }
-    ],
     "2024-04-25": [],
     "2024-04-26": [
         {
@@ -40,9 +8,8 @@
             "date": "2024-04-26",
             "deadline": "None",
             "links": {
-                "Lecture Video": "/",
                 "Practice Problem": "/resources/practice/sp24/fn-practice-prob.html",
-                "Practice Diagram": "/resources/practice/sp24/fn-practice-prob.html"
+                "Practice Diagram": "/resources/practice/memory-diagrams/oop-advanced/board-games.html"
             }
         }
     ],

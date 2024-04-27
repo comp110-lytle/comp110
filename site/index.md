@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/recursion.html">CQ09 - FRI, APR 26 11:59pm</a></li><li class="horizon-item"><a href="/exercises/linked-list-utils.html">EX010 - TUE, APR 30 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/linked-list-utils.html">EX010 - TUE, APR 30 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,21 +37,12 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-04-24" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Apr 24</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL20 </span><span class="title">Recursive Structures + EX10 Prep</span>
-<ul class="links"><li class="link"><a href="https://youtube.com/live/l6mpmswAKjk?feature=share">Lecture Video</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ09 </span><span class="title"><a href="/cqs/recursion.html">Recursive Structures Node Class (Due Friday 4/26)</a></span></div><div class="plan Exercise">
-<span class="kind">EX10 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked Lists (Due Tuesday 4/30)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-04-26" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-04-26" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Apr 26</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL21 </span><span class="title">Practice with OOP</span>
-<ul class="links"><li class="link"><a href="/">Lecture Video</a></li>
-<li class="link"><a href="/resources/practice/sp24/fn-practice-prob.html">Practice Problem</a></li>
-<li class="link"><a href="/resources/practice/sp24/fn-practice-prob.html">Practice Diagram</a></li>
+<ul class="links"><li class="link"><a href="/resources/practice/sp24/fn-practice-prob.html">Practice Problem</a></li>
+<li class="link"><a href="/resources/practice/memory-diagrams/oop-advanced/board-games.html">Practice Diagram</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-04-29" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Apr 29</div>
@@ -65,7 +56,15 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-04-22" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-04-24" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Apr 24</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL20 </span><span class="title">Recursive Structures + EX10 Prep</span>
+<ul class="links"><li class="link"><a href="https://youtube.com/live/l6mpmswAKjk?feature=share">Lecture Video</a></li>
+</ul></div><div class="plan Challenge Question">
+<span class="kind">CQ09 </span><span class="title"><a href="/cqs/recursion.html">Recursive Structures Node Class (Due Friday 4/26)</a></span></div><div class="plan Exercise">
+<span class="kind">EX10 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked Lists (Due Tuesday 4/30)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-04-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Apr 22</div>
 <div class="plans col-md-9"><div class="plan Virtual Lesson">
 <span class="kind">VL11 </span><span class="title"><a href="/virtual-classes/VL11.html">Virtual Lesson 11 (Due Tuesday 4/23)</a></span></div></div>
