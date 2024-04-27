@@ -30,10 +30,9 @@ Practice Problem
 
 
 
-<!-- # Solution
+# Solution
 
 
-    from __future__ import annotations
 
     class PlaneTicket:
         
@@ -82,7 +81,7 @@ Practice Problem
 
     other_ticket: PlaneTicket = PlaneTicket("Orlando", "San Fransisco", 1100, 100.50)
 
-    print(compare_prices(my_ticket, other_ticket)) -->
+    print(find_cheapest_ticket([my_ticket, other_ticket]))
 
 <!-- # Memory Diagram
 Per request, I made a memory diagram of this code (skipping the second calls to `__init__` and `__str__`).
