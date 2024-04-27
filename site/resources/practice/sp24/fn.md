@@ -63,7 +63,7 @@ Example: `reverse_multiply([1, 2, 3])` should return `[6, 4, 2]`.
             `"A <flavor> cocoa without whip, <marshmallow_count> marshmallows, and level <sweetness> sweetness.`
     e. Write an `order_cost` *function* that takes as input a `list` of `HotCocoa` objects to represent an order and returns the total cost of the order. A `HotCocoa` with whip is $2.50 and without whip is $2.00.
 
-7. Create a class called `TimeSpent` with the following specifications:
+2. Create a class called `TimeSpent` with the following specifications:
     a. Each `TimeSpent` object has a `str` attribute called `name`, a `str` attribute called `purpose`, and an `int` attribute called `minutes`.
     b. The class should have a constructor that takes in and sets up each of its attribute’s values.
     c. Write a method called `add_time` that takes in an `int` and increases the `minutes` attribute by this amount. The method should return `None`.
@@ -132,14 +132,68 @@ Example: `reverse_multiply([1, 2, 3])` should return `[6, 4, 2]`.
         return max_key
 ```
 
-3. Coming Soon
+3. 
 
+```
+    def reverse_multiply(vals: list[int]) -> list[int]:
+        """Reverse the list and double all elements."""
+        # iterate through the list backwards
+        idx: int = len(vals) - 1 # index of last element
+        new_vals: list[int] = []
+        while idx >= 0:
+            new_vals.append(vals[idx] * 2)
+            idx -= 1
+        return new_vals
+```
+
+```
+    def reverse_multiply(vals: list[int]) -> list[int]:
+        """Reverse the list and double all elements."""
+        # iterate through the list forwards, but get index of the "opposite" element 
+        idx: int = 0 # index of last element
+        new_vals: list[int] = []
+        while idx < len(vals):
+            idx_of_opposite: int = len(vals) - 1 - idx
+            new_vals.append(vals[idx_of_opposite] * 2)
+            idx += 1
+        return new_vals
+```
 
 ## Class Writing Solutions
 
-Coming Soon
+1.
+```
+    class HotCocoa:
+        
+        has_whip: bool
+        flavor: str
+        marshmallow_count: int
+        sweetness: int
+        
+        def __init__(self, whip: bool, flavor: str, marshmallows: int, sweetness: int):
+            self.has_whip = whip
+            self.flavor = flavor
+            self.marshmallow_count = marshmallows
+            self.sweetness = sweetness
+        
+        def mallow_adder(self, mallows: int) -> None:
+            self.marshmallow_count += mallows
+            self.sweetness += (mallows * 2)
+            
+        def __str__(self) -> str:
+            if self.has_whip:
+                return f"A {self.flavor} cocoa with whip, {self.marshmallow_count} marshmallows, and level {self.sweetness} sweetness."
+            else:
+                return f"A {self.flavor} cocoa without whip, {self.marshmallow_count} marshmallows, and level {self.sweetness} sweetness."
+            
+    def order_cost(order: list[HotCocoa]) -> float:
+        cost: float = 0.0
+        for cocoa in order:
+            if cocoa.has_whip:
+                cost += 2.50
+            else:
+                cost += 2.00
+        return cost
+```
 
-<!-- 6. ![](/static/practice_worksheets/fa21/final-solution5.png)
-
-7. ![](/static/practice_worksheets/fa21/final-solution6.png)
- --> -->
+2. Coming soon
