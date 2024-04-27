@@ -33,7 +33,7 @@ Practice Problem
 # Solution
 
 
-
+```
     class PlaneTicket:
         
         departure_city: str
@@ -64,12 +64,12 @@ Practice Problem
             #If discounting by .15, then multiply by (1-.15) 
             self.ticket_cost = self.ticket_cost * (1 - discount)
             
-    def compare_prices(ticket1: PlaneTicket, ticket2: PlaneTicket) -> PlaneTicket:
-        """Return the cheaper ticket"""
-        if ticket1.ticket_cost < ticket2.ticket_cost: 
-            return ticket1
-        else: #ticket1 cost >= ticket2
-            return ticket2
+    def find_cheapest_ticket(tickets: list[PlaneTicket]) -> PlaneTicket:
+        min_ticket: PlaneTicket = tickets[0]
+        for t in tickets:
+            if t.ticket_cost < min_ticket.ticket_cost:
+                min_ticket = t
+        return min_ticket
             
 
     my_ticket: PlaneTicket = PlaneTicket("Raleigh", "New Orleans", 1000, 85.25)
@@ -82,6 +82,8 @@ Practice Problem
     other_ticket: PlaneTicket = PlaneTicket("Orlando", "San Fransisco", 1100, 100.50)
 
     print(find_cheapest_ticket([my_ticket, other_ticket]))
+```
+
 
 <!-- # Memory Diagram
 Per request, I made a memory diagram of this code (skipping the second calls to `__init__` and `__str__`).
