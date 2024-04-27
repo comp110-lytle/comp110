@@ -54,7 +54,7 @@ template: home
 <div class="date col-md-2">Fri, May 3</div>
 <div class="plans col-md-9"><div class="plan Final">
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span>
-<ul class="links"><li class="link"><a href="/resources/practice/sp23/fn.html">Practice Problems</a></li>
+<ul class="links"><li class="link"><a href="/resources/practice/sp24/fn.html">Practice Problems</a></li>
 <li class="link"><a href="/">Review Session (Virtual During Monday's Class)</a></li>
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
