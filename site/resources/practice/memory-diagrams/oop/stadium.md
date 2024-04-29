@@ -15,11 +15,11 @@ template: overview
         has_roof: bool
         ticket_price: int
 
-        def __init__(self, s: str, c: int, h: bool, t: int = 20):
+        def __init__(self, s: str, c: int, h: bool):
             self.sponsor = s
             self.capacity = c
             self.has_roof = h
-            self.ticket_price = t
+            self.ticket_price = 20
         
         def upgrade(self) -> None:
             if self.capacity > 75000:
@@ -43,4 +43,4 @@ template: overview
 
 # Solution
 
-<!-- <img class="img-fluid" src="/static/practice-mem-diagrams/stadium-sol.png" alt=""  />  -->
+<img class="img-fluid" src="/static/practice-mem-diagrams/Stadium.png" alt=""  /> 
