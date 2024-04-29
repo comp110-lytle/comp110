@@ -79,9 +79,9 @@ template: overview
 [Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html)
 
 
-## Nested Data Structures
+<!-- ## Nested Data Structures
 [Example 0](/resources/practice/memory-diagrams/nested-structures/data.html) |
-[Example 1](/resources/practice/memory-diagrams/nested-structures/nested.html) 
+[Example 1](/resources/practice/memory-diagrams/nested-structures/nested.html)  -->
 
 <!-- ## Recursive Structures
 
