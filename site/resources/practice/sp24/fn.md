@@ -196,4 +196,41 @@ Example: `reverse_multiply([1, 2, 3])` should return `[6, 4, 2]`.
         return cost
 ```
 
-2. Coming soon
+2. 
+```
+    class TimeSpent:
+        
+        name: str
+        purpose: str
+        minutes: int
+        
+        def __init__(self, name: str, purpose: str, minutes: int):
+            self.name = name
+            self.purpose = purpose
+            self.minutes = minutes
+
+        def add_time(self, increase: int) -> None:
+            self.minutes += increase
+        
+        def __add__(self, added_minutes: int) -> TimeSpent:
+            return TimeSpent(self.name, self.purpose, self.minutes + added_minutes)
+        
+        def reset(self) -> None:
+            old_value: int = self.minutes
+            self.minutes = 0
+            return old_value
+        
+        def __str__(self) -> str:
+            minutes: int = self.time % 60
+            hours: int = (self.time - minutes)/ 60
+            return f"{self.name} has spent {hours} hours and {minutes} minutes on screen time."
+
+    def most_by_purpose(times: list[TimeSpent], activity: str) -> str:
+        max_time: int = 0
+        max_name: str = ""
+        for elem in times:
+            if (elem.purpose == activity) and (elem.minutes > max_time):
+                max_time = elem.minutes
+                max_name = elem.name
+        return max_name
+```
