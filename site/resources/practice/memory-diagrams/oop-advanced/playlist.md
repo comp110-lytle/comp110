@@ -43,4 +43,4 @@ template: overview
 
 
 
-<!-- <img class="img-fluid" src="/static/practice-mem-diagrams/playlist_sol.png" alt=""  />  -->
+<img class="img-fluid" src="/static/practice-mem-diagrams/Playlist.png" alt=""  />  
