@@ -48,14 +48,14 @@ template: home
 <div class="date col-md-2">Mon, Apr 29</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL22 </span><span class="title">(Virtual) Final Exam Review</span>
-<ul class="links"><li class="link"><a href="/">Lecture Video</a></li>
+<ul class="links"><li class="link"><a href="https://unc.zoom.us/j/96124980069?pwd=eFI2eWV2YzllUWNhb0h6MjVEb1dqQT09">Lecture Video</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-05-03" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 3</div>
 <div class="plans col-md-9"><div class="plan Final">
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span>
 <ul class="links"><li class="link"><a href="/resources/practice/sp24/fn.html">Practice Problems</a></li>
-<li class="link"><a href="/">Review Session (Virtual During Monday's Class)</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/96124980069?pwd=eFI2eWV2YzllUWNhb0h6MjVEb1dqQT09">Review Session (Virtual During Monday's Class)</a></li>
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>

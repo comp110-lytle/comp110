@@ -1,5 +1,4 @@
 {
-    "2024-04-25": [],
     "2024-04-26": [
         {
             "kind": "CL",
@@ -23,7 +22,7 @@
             "date": "2024-04-29",
             "deadline": "None",
             "links": {
-                "Lecture Video": "/"
+                "Lecture Video": "https://unc.zoom.us/j/96124980069?pwd=eFI2eWV2YzllUWNhb0h6MjVEb1dqQT09"
             }
         }
     ],
@@ -37,7 +36,7 @@
             "deadline": "None",
             "links": {
                 "Practice Problems": "/resources/practice/sp24/fn.html",
-                "Review Session (Virtual During Monday's Class)": "/"
+                "Review Session (Virtual During Monday's Class)": "https://unc.zoom.us/j/96124980069?pwd=eFI2eWV2YzllUWNhb0h6MjVEb1dqQT09"
             }
         }
     ]
