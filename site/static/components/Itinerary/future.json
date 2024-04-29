@@ -1,17 +1,4 @@
 {
-    "2024-04-26": [
-        {
-            "kind": "CL",
-            "n": 21,
-            "title": "Practice with OOP",
-            "date": "2024-04-26",
-            "deadline": "None",
-            "links": {
-                "Practice Problem": "/resources/practice/sp24/fn-practice-prob.html",
-                "Practice Diagram": "/resources/practice/memory-diagrams/oop-advanced/board-games.html"
-            }
-        }
-    ],
     "2024-04-27": [],
     "2024-04-28": [],
     "2024-04-29": [
@@ -22,7 +9,7 @@
             "date": "2024-04-29",
             "deadline": "None",
             "links": {
-                "Lecture Video": "https://unc.zoom.us/j/96124980069?pwd=eFI2eWV2YzllUWNhb0h6MjVEb1dqQT09"
+                "Lecture Video": "https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b6408b4e-29a9-465c-8554-b16101555ef5"
             }
         }
     ],
@@ -36,7 +23,7 @@
             "deadline": "None",
             "links": {
                 "Practice Problems": "/resources/practice/sp24/fn.html",
-                "Review Session (Virtual During Monday's Class)": "https://unc.zoom.us/j/96124980069?pwd=eFI2eWV2YzllUWNhb0h6MjVEb1dqQT09"
+                "Review Session Recording": "https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b6408b4e-29a9-465c-8554-b16101555ef5"
             }
         }
     ]
