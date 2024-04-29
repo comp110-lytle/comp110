@@ -38,4 +38,8 @@ template: overview
 
 # Solution
 
-<!-- <img class="img-fluid" src="/static/practice-mem-diagrams/playlist_sol.png" alt=""  />  -->
+
+
+<img class="img-fluid" src="/static/practice-mem-diagrams/Boardgames.png" alt=""  /> 
+
+[Video Solution](https://youtu.be/233MVVMYpDY)
