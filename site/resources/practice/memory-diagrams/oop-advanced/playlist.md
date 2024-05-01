@@ -44,3 +44,5 @@ template: overview
 
 
 <img class="img-fluid" src="/static/practice-mem-diagrams/Playlist.png" alt=""  />  
+
+Here's a [video recording](https://youtu.be/nNYH85ax1I0) of the solution!
