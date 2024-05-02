@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/linked-list-utils.html">EX010 - TUE, APR 30 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,13 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-04-29" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Apr 29</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL22 </span><span class="title">(Virtual) Final Exam Review</span>
-<ul class="links"><li class="link"><a href="https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b6408b4e-29a9-465c-8554-b16101555ef5">Lecture Video</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2024-05-03" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-05-03" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 3</div>
 <div class="plans col-md-9"><div class="plan Final">
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span>
@@ -52,7 +46,13 @@ template: home
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-04-26" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-04-29" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Apr 29</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL22 </span><span class="title">(Virtual) Final Exam Review</span>
+<ul class="links"><li class="link"><a href="https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b6408b4e-29a9-465c-8554-b16101555ef5">Lecture Video</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2024-04-26" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Apr 26</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL21 </span><span class="title">Practice with OOP</span>
@@ -131,7 +131,7 @@ template: home
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>
 <ul class="links"><li class="link"><a href="/resources/practice/sp24/qz03.html">Practice Problems</a></li>
 <li class="link"><a href="https://comp110-24s.github.io/resources/curriculum.html">Covered Topics: Units 0 - 5</a></li>
-<li class="link"><a href="https://unc.zoom.us/rec/share/odtEUuVl-Oi5KJhBMBPTS7xvMqWd_iUkM1nBpDFa24w5lz9YhSm5wjkSLmbWjKh0.MNdE0B4PLlj6Pmkj">Review Session Recording (Passcode: n6fsTE=3)</a></li>
+<li class="link"><a href="https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fd9a922d-7d6c-4839-a755-b13e0152dc4a">Review Session Recording</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-03-25" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Mar 25</div>
