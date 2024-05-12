@@ -1,902 +1,107 @@
 {
-    "2024-01-10": [
+    "2024-05-15": [
         {
             "kind": "CL",
             "n": 0,
             "title": "Welcome to COMP110 - An Intro to the Class",
-            "date": "2024-01-10",
+            "date": "2024-05-15",
             "deadline": "None",
             "links": {
-                "Lecture Video": "https://youtube.com/live/f605n4s3aw0?feature=share",
-                "Course Intro Slides": "/static/slides/CL00.pdf"
+                "Course Intro Slides": "/"
             }
         },
         {
             "kind": "LS",
             "n": 0,
-            "title": "Syllabus and Support<s><i>(Due Wednesday 1/10)</i></s> (Extended to Monday 1/15)",
-            "date": "2024-01-10",
-            "deadline": "2024-01-10",
+            "title": "Syllabus and Support (Due Wednesday 5/15)",
+            "date": "2024-05-15",
+            "deadline": "2024-05-15",
             "links": {
                 "1. Read the Syllabus": "/resources/syllabus.html",
                 "2. Read Support Resources": "/support",
                 "3. Complete Lesson 00 Responses on Gradescope": "https://www.gradescope.com/"
             }
-        }
-    ],
-    "2024-01-11": [],
-    "2024-01-12": [
+        },
         {
             "kind": "EX",
             "n": 0,
-            "title": "Hello World (Due Thursday 1/18)",
-            "date": "2024-01-12",
-            "deadline": "2024-01-18",
+            "title": "Hello World (Due Tuesday 5/21)",
+            "date": "2024-05-15",
+            "deadline": "2024-05-21",
             "links": {
                 "": "/exercises/ex00_hello_world.html"
             }
-        },
-        {
-            "kind": "CL",
-            "n": 1,
-            "title": "An Introduction to Coding + VS Code Tutorial",
-            "date": "2024-01-12",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/yppdsU77y4g?feature=share",
-                "Lecture Slides": "/static/slides/CL01.pdf",
-                "Lecture Notes": "/lessons/objects-data-types.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 1,
-            "title": "Visual Studio: Running Code<s><i>(Due Monday 1/15)</i></s> (Extended to Wednesday 1/17)",
-            "date": "2024-01-12",
-            "deadline": "2024-01-15",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
         }
     ],
-    "2024-01-13": [],
-    "2024-01-14": [],
-    "2024-01-15": [],
-    "2024-01-16": [],
-    "2024-01-17": [
-        {
-            "kind": "CL",
-            "n": 2,
-            "title": "Variables, Expressions, and User Input ",
-            "date": "2024-01-17",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/TwT8oBikCQE?feature=share",
-                "Lecture Slides": "/static/slides/CL02.pdf",
-                "Lecture Notes": "/lessons/expressions.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 2,
-            "title": "Objects and Types (Due Friday 1/19)",
-            "date": "2024-01-17",
-            "deadline": "2024-01-19",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 3,
-            "title": "Expressions (Due Friday 1/19)",
-            "date": "2024-01-17",
-            "deadline": "2024-01-19",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 4,
-            "title": "Variables and User Input (Due Friday 1/19)",
-            "date": "2024-01-17",
-            "deadline": "2024-01-19",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-01-18": [],
-    "2024-01-19": [
-        {
-            "kind": "EX",
-            "n": 1,
-            "title": "Simple Battleship (Due Tuesday 1/30)",
-            "date": "2024-01-19",
-            "deadline": "2024-01-30",
-            "links": {
-                "": "/exercises/simple-battleship.html"
-            }
-        },
-        {
-            "kind": "VL",
-            "n": 0,
-            "title": "Virtual Lesson 00 (Due Friday 1/19)",
-            "date": "2024-01-19",
-            "deadline": "2024-01-19",
-            "links": {
-                "": "/virtual-classes/VL00.html"
-            }
-        }
-    ],
-    "2024-01-20": [],
-    "2024-01-21": [],
-    "2024-01-22": [
-        {
-            "kind": "VL",
-            "n": 1,
-            "title": "Virtual Lesson 01 (Due Tuesday 1/23)",
-            "date": "2024-01-22",
-            "deadline": "2024-01-23",
-            "links": {
-                "": "/virtual-classes/VL01.html"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 0,
-            "title": "Practice Memory Diagram (Due Monday 1/22)",
-            "date": "2024-01-22",
-            "deadline": "2024-01-22",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 1,
-            "title": "Practice Memory Diagram with Conditionals (Due Monday 1/22)",
-            "date": "2024-01-22",
-            "deadline": "2024-01-22",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-01-23": [],
-    "2024-01-24": [
-        {
-            "kind": "CL",
-            "n": 3,
-            "title": "Practice with Memory Diagrams and Conditionals ",
-            "date": "2024-01-24",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/LWPexWtwTkI?feature=share",
-                "Lecture Slides": "/static/slides/CL03-MDs.pdf"
-            }
-        }
-    ],
-    "2024-01-25": [],
-    "2024-01-26": [
+    "2024-05-16": [],
+    "2024-05-17": [],
+    "2024-05-18": [],
+    "2024-05-19": [],
+    "2024-05-20": [],
+    "2024-05-21": [],
+    "2024-05-22": [],
+    "2024-05-23": [],
+    "2024-05-24": [
         {
             "kind": "QZ",
             "n": 0,
             "title": "Quiz 0",
-            "date": "2024-01-26",
-            "deadline": "2024-01-26",
-            "links": {
-                "What to Expect": "/resources/quiz-expectations.html",
-                "Practice Problems": "/resources/practice/sp24/qz00.html",
-                "Covered Topics: Syllabus + Units 0 and 1": "https://comp110-24s.github.io/resources/curriculum.html",
-                "Virtual Review Session (Passcode: 9&2MG!vk)": "https://unc.zoom.us/rec/share/Qn_n5MFAZUVtxLgqjSIv1eI_ueeCMNgLb0xMYf46gZ3aoQtod6mzxXnsrvzG0Ed4.pZNy8kPYnXDOzDav"
-            }
+            "date": "2024-05-24",
+            "deadline": "2024-05-24",
+            "links": {}
         }
     ],
-    "2024-01-27": [],
-    "2024-01-28": [],
-    "2024-01-29": [
-        {
-            "kind": "VL",
-            "n": 2,
-            "title": "Virtual Lesson (Due Tuesday 1/30)",
-            "date": "2024-01-29",
-            "deadline": "2024-01-30",
-            "links": {
-                "": "/virtual-classes/VL02.html"
-            }
-        }
-    ],
-    "2024-01-30": [],
-    "2024-01-31": [
-        {
-            "kind": "CL",
-            "n": 4,
-            "title": "Practice with while Loops",
-            "date": "2024-01-31",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/IzVtEvML7tY?feature=share",
-                "Lecture Slides": "/static/slides/CL04.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 2,
-            "title": "One-shot Battleship (Due Tuesday 2/6)",
-            "date": "2024-01-31",
-            "deadline": "2024-02-06",
-            "links": {
-                "": "/exercises/one-shot-battleship.html"
-            }
-        }
-    ],
-    "2024-02-01": [],
-    "2024-02-02": [
-        {
-            "kind": "CL",
-            "n": 5,
-            "title": "while Loops + Debugger",
-            "date": "2024-02-02",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/1V1LKJ0ETd0?feature=share"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 2,
-            "title": "while Loops + Debugger (Due Tuesday 2/6)",
-            "date": "2024-02-02",
-            "deadline": "2024-02-06",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "RD",
-            "n": 0,
-            "title": "Reading: The Ethical Algorithm (Due Thursday 2/22)",
-            "date": "2024-02-02",
-            "deadline": "2024-02-22",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-02-03": [],
-    "2024-02-04": [],
-    "2024-02-05": [
-        {
-            "kind": "VL",
-            "n": 3,
-            "title": "Virtual Lesson (Due Tuesday 2/6)",
-            "date": "2024-02-05",
-            "deadline": "2024-02-06",
-            "links": {
-                "": "/virtual-classes/VL03.html"
-            }
-        }
-    ],
-    "2024-02-06": [],
-    "2024-02-07": [
-        {
-            "kind": "CL",
-            "n": 6,
-            "title": "Practice With Functions",
-            "date": "2024-02-07",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/P7qTE-9_bGo?feature=share",
-                "Slides": "/static/slides/CL06.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 3,
-            "title": "Functional Battleship<s><i>(Due Tuesday 2/13)</i></s> (Extended to Sunday 2/18)",
-            "date": "2024-02-07",
-            "deadline": "2024-02-13",
-            "links": {
-                "": "/exercises/battleship.html"
-            }
-        }
-    ],
-    "2024-02-08": [],
-    "2024-02-09": [
+    "2024-05-25": [],
+    "2024-05-26": [],
+    "2024-05-27": [],
+    "2024-05-28": [],
+    "2024-05-29": [],
+    "2024-05-30": [],
+    "2024-05-31": [
         {
             "kind": "QZ",
             "n": 1,
             "title": "Quiz 1",
-            "date": "2024-02-09",
-            "deadline": "2024-02-09",
-            "links": {
-                "What to Expect": "/resources/quiz-expectations.html",
-                "Practice Problems": "/resources/practice/sp24/qz01.html",
-                "Covered Topics: Units 0-3B": "/resources/curriculum.html",
-                "Virtual Review Session (Passcode: a#6@NF+$)": "https://unc.zoom.us/rec/share/m1wp9lY_pIzm4Rp1RSVLmn3ewnebFuuEgonU8DP0Gb-z3eI4_WosMR-1QBAkLYX9.eD191e6op8lTWsFD"
-            }
+            "date": "2024-05-31",
+            "deadline": "2024-05-31",
+            "links": {}
         }
     ],
-    "2024-02-10": [],
-    "2024-02-11": [],
-    "2024-02-12": [],
-    "2024-02-13": [],
-    "2024-02-14": [
-        {
-            "kind": "CL",
-            "n": 7,
-            "title": "Lists",
-            "date": "2024-02-14",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/hGcGYAkLa8A?feature=share",
-                "Slides": "/static/slides/CL07.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 16,
-            "title": "Lists (Due Thursday 2/15)",
-            "date": "2024-02-14",
-            "deadline": "2024-02-15",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-02-15": [],
-    "2024-02-16": [
-        {
-            "kind": "CL",
-            "n": 8,
-            "title": "Lists Practice",
-            "date": "2024-02-16",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/1ZxYIt6vKlg?feature=share"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 3,
-            "title": "Lists + Functions<s><i>(Due Friday 2/16)</i></s> (Extended to Monday 2/19)",
-            "date": "2024-02-16",
-            "deadline": "2024-02-16",
-            "links": {
-                "": "/cqs/lists.html"
-            }
-        }
-    ],
-    "2024-02-17": [],
-    "2024-02-18": [],
-    "2024-02-19": [
-        {
-            "kind": "VL",
-            "n": 4,
-            "title": "Virtual Lesson (Due Tuesday 2/20)",
-            "date": "2024-02-19",
-            "deadline": "2024-02-20",
-            "links": {
-                "": "/virtual-classes/VL04.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 4,
-            "title": "List Utils (Due Tuesday 2/27)",
-            "date": "2024-02-19",
-            "deadline": "2024-02-27",
-            "links": {
-                "": "/exercises/list-utils.html"
-            }
-        }
-    ],
-    "2024-02-20": [],
-    "2024-02-21": [
-        {
-            "kind": "CL",
-            "n": 9,
-            "title": "for loops",
-            "date": "2024-02-21",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/U6lfZU9q668?feature=share",
-                "Slides": "/static/slides/CL09.pdf"
-            }
-        }
-    ],
-    "2024-02-22": [],
-    "2024-02-23": [
-        {
-            "kind": "CL",
-            "n": 10,
-            "title": "for ... in range(...) loops",
-            "date": "2024-02-23",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/yM12Oxam8Og?feature=share",
-                "Slides": "/static/slides/CL10.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 4,
-            "title": "For Loops (Due Friday 2/23)",
-            "date": "2024-02-23",
-            "deadline": "2024-02-23",
-            "links": {
-                "": "/cqs/for-loops.html"
-            }
-        },
-        {
-            "kind": "RD",
-            "n": 1,
-            "title": "Weapons of Math Destruction<s><i>(Due Thursday 3/14)</i></s> (Extended to Monday 3/18)",
-            "date": "2024-02-23",
-            "deadline": "2024-03-14",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-02-24": [],
-    "2024-02-25": [],
-    "2024-02-26": [
-        {
-            "kind": "VL",
-            "n": 5,
-            "title": "Virtual Lesson (Due Tuesday 2/27)",
-            "date": "2024-02-26",
-            "deadline": "2024-02-27",
-            "links": {
-                "": "/virtual-classes/VL05.html"
-            }
-        }
-    ],
-    "2024-02-27": [],
-    "2024-02-28": [
-        {
-            "kind": "CL",
-            "n": 11,
-            "title": "Dictionaries + for loops",
-            "date": "2024-02-28",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/VUo2ikqmVgI?feature=share",
-                "Slides": "/static/slides/CL11.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 5,
-            "title": "Dictionaries + for Loops (Due Sunday 3/3)",
-            "date": "2024-02-28",
-            "deadline": "2024-03-03",
-            "links": {
-                "": "/cqs/dicts-for-loops.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 5,
-            "title": "Dictionary Utils (Due Tuesday 3/5)",
-            "date": "2024-02-28",
-            "deadline": "2024-03-05",
-            "links": {
-                "": "/exercises/dict-utils.html"
-            }
-        }
-    ],
-    "2024-02-29": [],
-    "2024-03-01": [
+    "2024-06-01": [],
+    "2024-06-02": [],
+    "2024-06-03": [],
+    "2024-06-04": [],
+    "2024-06-05": [],
+    "2024-06-06": [],
+    "2024-06-07": [
         {
             "kind": "QZ",
             "n": 2,
             "title": "Quiz 2",
-            "date": "2024-03-01",
-            "deadline": "2024-03-01",
-            "links": {
-                "Practice Problems": "/resources/practice/sp24/qz02.html",
-                "Covered Topics: Units 0 - 4C": "https://comp110-24s.github.io/resources/curriculum.html",
-                "Virtual Review Session (Passcode: 3bQcXYz*)": "https://unc.zoom.us/rec/share/uJpFoC0a4ROk1eSU4baPxbtF2whm4iPVA_T7HPHPi5_1tQ2XaQc1hSfZS8z5DW6B.Lo_WpUq9SZfigTnY"
-            }
+            "date": "2024-06-07",
+            "deadline": "2024-06-07",
+            "links": {}
         }
     ],
-    "2024-03-02": [],
-    "2024-03-03": [],
-    "2024-03-04": [
-        {
-            "kind": "VL",
-            "n": 6,
-            "title": "Virtual Lesson (Due Tuesday 3/5)",
-            "date": "2024-03-04",
-            "deadline": "2024-03-05",
-            "links": {
-                "": "/virtual-classes/VL06.html"
-            }
-        }
-    ],
-    "2024-03-05": [],
-    "2024-03-06": [
-        {
-            "kind": "CL",
-            "n": 12,
-            "title": "Practice Writing Functions",
-            "date": "2024-03-06",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/PvigMl-M4i8?feature=share",
-                "Instructions": "/lessons/dict-practice.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 6,
-            "title": "Dictionary Unit Tests (Due Thursday 3/21)",
-            "date": "2024-03-06",
-            "deadline": "2024-03-21",
-            "links": {
-                "": "/exercises/dict-utests.html"
-            }
-        }
-    ],
-    "2024-03-07": [],
-    "2024-03-08": [
-        {
-            "kind": "CQ",
-            "n": 6,
-            "title": "Dictionary Unit Tests Practice<s><i>(Due Friday 3/8)</i></s> (Extended to Tuesday 3/19)",
-            "date": "2024-03-08",
-            "deadline": "2024-03-08",
-            "links": {
-                "": "/cqs/dict_unit_tests.html"
-            }
-        }
-    ],
-    "2024-03-09": [],
-    "2024-03-10": [],
-    "2024-03-11": [],
-    "2024-03-12": [],
-    "2024-03-13": [],
-    "2024-03-14": [],
-    "2024-03-15": [],
-    "2024-03-16": [],
-    "2024-03-17": [],
-    "2024-03-18": [
-        {
-            "kind": "VL",
-            "n": 7,
-            "title": "Virtual Lesson 07 (Due Tuesday 3/19)",
-            "date": "2024-03-18",
-            "deadline": "2024-03-19",
-            "links": {
-                "": "/virtual-classes/VL07.html"
-            }
-        }
-    ],
-    "2024-03-19": [],
-    "2024-03-20": [
-        {
-            "kind": "CL",
-            "n": 13,
-            "title": "Big-O Notation",
-            "date": "2024-03-20",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/qpxq1ZL43EU?feature=share",
-                "Lecture Slides": "/static/slides/CL13.pdf"
-            }
-        }
-    ],
-    "2024-03-21": [],
-    "2024-03-22": [
-        {
-            "kind": "CL",
-            "n": 14,
-            "title": "More on Big-O Notation + Search Algorithms",
-            "date": "2024-03-22",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/sNBSqW2RWCE?feature=share",
-                "Lecture Slides": "/static/slides/CL14.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 7,
-            "title": "Runtime Analysis (Due Tuesday 4/2)",
-            "date": "2024-03-22",
-            "deadline": "2024-04-02",
-            "links": {
-                "": "/exercises/runtime.html"
-            }
-        },
-        {
-            "kind": "RD",
-            "n": 2,
-            "title": "Reading: Man versus Machine or Man + Machine? (Due Thursday 4/11)",
-            "date": "2024-03-22",
-            "deadline": "2024-04-11",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-03-23": [],
-    "2024-03-24": [],
-    "2024-03-25": [
-        {
-            "kind": "CL",
-            "n": 15,
-            "title": "VIRTUAL quiz review 2:30-4:25",
-            "date": "2024-03-25",
-            "deadline": "None",
-            "links": {
-                "Recording (Passcode: n6fsTE=3)": "https://unc.zoom.us/rec/share/odtEUuVl-Oi5KJhBMBPTS7xvMqWd_iUkM1nBpDFa24w5lz9YhSm5wjkSLmbWjKh0.MNdE0B4PLlj6Pmkj"
-            }
-        }
-    ],
-    "2024-03-26": [],
-    "2024-03-27": [
-        {
-            "kind": "QZ",
-            "n": 3,
-            "title": "Quiz 3",
-            "date": "2024-03-27",
-            "deadline": "2024-03-27",
-            "links": {
-                "Practice Problems": "/resources/practice/sp24/qz03.html",
-                "Covered Topics: Units 0 - 5": "https://comp110-24s.github.io/resources/curriculum.html",
-                "Review Session Recording": "https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fd9a922d-7d6c-4839-a755-b13e0152dc4a"
-            }
-        }
-    ],
-    "2024-03-28": [],
-    "2024-03-29": [],
-    "2024-03-30": [],
-    "2024-03-31": [],
-    "2024-04-01": [
-        {
-            "kind": "VL",
-            "n": 8,
-            "title": "Virtual Lesson 08 (Due Tuesday 4/2)",
-            "date": "2024-04-01",
-            "deadline": "2024-04-02",
-            "links": {
-                "": "/virtual-classes/VL08.html"
-            }
-        }
-    ],
-    "2024-04-02": [],
-    "2024-04-03": [
-        {
-            "kind": "CL",
-            "n": 16,
-            "title": "Reverse Engineering A Recursive Function",
-            "date": "2024-04-03",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/Aw3EPrnO6iQ?feature=share",
-                "Lecture Slides": "/static/slides/CL15.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 8,
-            "title": "Recursive Turtle (Due Thursday 4/11)",
-            "date": "2024-04-03",
-            "deadline": "2024-04-11",
-            "links": {
-                "": "/exercises/turtle.html"
-            }
-        }
-    ],
-    "2024-04-04": [],
-    "2024-04-05": [
-        {
-            "kind": "CL",
-            "n": 17,
-            "title": "Back to Defining A Function Recursively",
-            "date": "2024-04-05",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/lrmMM63lo9s"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 7,
-            "title": "Defining a Function Recursively (Due Friday 4/5)",
-            "date": "2024-04-05",
-            "deadline": "2024-04-05",
-            "links": {
-                "": "/cqs/recursive-fns.html"
-            }
-        }
-    ],
-    "2024-04-06": [],
-    "2024-04-07": [],
-    "2024-04-08": [
-        {
-            "kind": "VL",
-            "n": 9,
-            "title": "Virtual Lesson 09 (Due Tuesday 4/9)",
-            "date": "2024-04-08",
-            "deadline": "2024-04-09",
-            "links": {
-                "": "/virtual-classes/VL09.html"
-            }
-        }
-    ],
-    "2024-04-09": [],
-    "2024-04-10": [
-        {
-            "kind": "CL",
-            "n": 18,
-            "title": "Practice With OOP",
-            "date": "2024-04-10",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/bIuZTsTGp6k?feature=share",
-                "Slides": "/static/slides/OOP-Practice.pdf"
-            }
-        }
-    ],
-    "2024-04-11": [],
-    "2024-04-12": [
-        {
-            "kind": "CQ",
-            "n": 8,
-            "title": "Practice With OOP (Due Friday 4/12)",
-            "date": "2024-04-12",
-            "deadline": "2024-04-12",
-            "links": {
-                "": "/cqs/oop-mutable.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 9,
-            "title": "River Simulation (Due Tuesday 4/23)",
-            "date": "2024-04-12",
-            "deadline": "2024-04-23",
-            "links": {
-                "": "/exercises/river-sim.html"
-            }
-        }
-    ],
-    "2024-04-13": [],
-    "2024-04-14": [],
-    "2024-04-15": [
-        {
-            "kind": "VL",
-            "n": 10,
-            "title": "Virtual Lesson 10 (Due Tuesday 4/16)",
-            "date": "2024-04-15",
-            "deadline": "2024-04-16",
-            "links": {
-                "": "/virtual-classes/VL10.html"
-            }
-        }
-    ],
-    "2024-04-16": [],
-    "2024-04-17": [
-        {
-            "kind": "CL",
-            "n": 19,
-            "title": "Practice With Magic Methods + Operator Overloads",
-            "date": "2024-04-17",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/QA3A0JxEhPM?feature=share",
-                "Slides": "/static/slides/MagicMethods.pdf"
-            }
-        }
-    ],
-    "2024-04-18": [],
-    "2024-04-19": [
-        {
-            "kind": "QZ",
-            "n": 4,
-            "title": "Quiz 4",
-            "date": "2024-04-19",
-            "deadline": "2024-04-19",
-            "links": {
-                "Practice Problems": "/resources/practice/sp24/qz04.html",
-                "Covered Topics: Units 0 - 7": "https://comp110-24s.github.io/resources/curriculum.html",
-                "Review Session": "https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d3cd3d8f-698f-435f-bc16-b15700145bad"
-            }
-        }
-    ],
-    "2024-04-20": [],
-    "2024-04-21": [],
-    "2024-04-22": [
-        {
-            "kind": "VL",
-            "n": 11,
-            "title": "Virtual Lesson 11 (Due Tuesday 4/23)",
-            "date": "2024-04-22",
-            "deadline": "2024-04-23",
-            "links": {
-                "": "/virtual-classes/VL11.html"
-            }
-        }
-    ],
-    "2024-04-23": [],
-    "2024-04-24": [
-        {
-            "kind": "CL",
-            "n": 20,
-            "title": "Recursive Structures + EX10 Prep",
-            "date": "2024-04-24",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/l6mpmswAKjk?feature=share"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 9,
-            "title": "Recursive Structures Node Class (Due Friday 4/26)",
-            "date": "2024-04-24",
-            "deadline": "2024-04-26",
-            "links": {
-                "": "/cqs/recursion.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 10,
-            "title": "Linked Lists (Due Tuesday 4/30)",
-            "date": "2024-04-24",
-            "deadline": "2024-04-30",
-            "links": {
-                "": "/exercises/linked-list-utils.html"
-            }
-        }
-    ],
-    "2024-04-25": [],
-    "2024-04-26": [
-        {
-            "kind": "CL",
-            "n": 21,
-            "title": "Practice with OOP",
-            "date": "2024-04-26",
-            "deadline": "None",
-            "links": {
-                "Practice Problem": "/resources/practice/sp24/fn-practice-prob.html",
-                "Practice Diagram": "/resources/practice/memory-diagrams/oop-advanced/board-games.html"
-            }
-        }
-    ],
-    "2024-04-27": [],
-    "2024-04-28": [],
-    "2024-04-29": [
-        {
-            "kind": "CL",
-            "n": 22,
-            "title": "(Virtual) Final Exam Review",
-            "date": "2024-04-29",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b6408b4e-29a9-465c-8554-b16101555ef5"
-            }
-        }
-    ],
-    "2024-04-30": [],
-    "2024-05-03": [
+    "2024-06-08": [],
+    "2024-06-09": [],
+    "2024-06-10": [],
+    "2024-06-11": [],
+    "2024-06-12": [],
+    "2024-06-13": [],
+    "2024-06-14": [],
+    "2024-06-15": [],
+    "2024-06-16": [],
+    "2024-06-17": [],
+    "2024-06-18": [],
+    "2024-06-21": [
         {
             "kind": "FN",
             "n": 0,
             "title": "Final @ 8:00AM",
-            "date": "2024-05-03",
+            "date": "2024-06-21",
             "deadline": "None",
-            "links": {
-                "Practice Problems": "/resources/practice/sp24/fn.html",
-                "Review Session Recording": "https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b6408b4e-29a9-465c-8554-b16101555ef5"
-            }
+            "links": {}
         }
     ]
 }
