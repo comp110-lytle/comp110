@@ -11,11 +11,17 @@ template: overview
 
 # General Course Info
 
+Course: Introduction to Programming
+
 Term: Summer Session 1 2024
 
 Department: COMP
 
 Course Number: 110
+
+Credit Hours: 3
+
+Location: FB007
 
 Course Website: <https://comp110-24ss1.github.io>
 
@@ -27,6 +33,8 @@ Sections:
 
 Instructor: [Alyssa Lytle](https://alyssalytle.github.io/)
 
+* Office: FB 136
+* Office Hours: [By Appointment](https://alyssalytle.github.io/schedule.html)
 * E-mail: <comp110help@gmail.com>
 
 ## Curriculum
@@ -37,7 +45,9 @@ A list of concepts covered in this class can be found [here](/resources/curricul
 
 COMP110 introduces students to programming and data science from a computational perspective. With an emphasis on modern applications in society, students gain experience with problem decomposition, algorithms for data analysis, abstraction design, and ethics in computing. No prior programming experience is expected or needed. Foundational concepts include data types, sequences, boolean logic, control flow, functions/methods, classes/objects, input/output, data organization, transformations, and visualizations.
 
-Pre-requisite: A C or better in one of the following courses: MATH 130, 152, 210, 231, 129P, or PHIL 155, or STOR 112, 113, 120, 151, 155.
+* IDEAs in Action General Education logo IDEAs in Action Gen Ed: FC-QUANT.
+* Making Connections Gen Ed: QR. 
+* Pre-requisite: A C or better in one of the following courses: MATH 130, 152, 210, 231, 129P, or PHIL 155, or STOR 112, 113, 120, 151, 155.
 
 ## Goals and Key Learning Objectives
 
@@ -107,7 +117,7 @@ To do well in this course you must come to your own individual mastery of introd
 
 
 * 35% - (EX) Programming Exercises
-* 5% - (RD) 3x Reading Responses
+* 5% - (RD) 2x Reading Responses
 * 10% - (LS) Async Lesson Responses on Gradescope (Graded for Correctness)
 * 10% - (CQ) Challenge Question Responses on Gradescope (Graded for Correctness)
 * 30% - 3x Quizzes
