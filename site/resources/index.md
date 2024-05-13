@@ -60,7 +60,7 @@ navbar: base
 
 - _**[VIRTUAL LESSONS:](/virtual-classes/index.html)**_ Lessons for each unit 
 
-- _**[CLASS SCHEDULE:](https://airtable.com/appzeephpTB5Uovx7/shrxiThP0DwM10pmQ)**_ *Tentative* Class Schedule
+- _**[CLASS SCHEDULE:](https://docs.google.com/spreadsheets/d/1agt8Kyrn2Vp83pzsCUXZH9L8Q689iFdPc22ZnTTAUYM/edit?usp=sharing)**_ *Tentative* Class Schedule
 
 </div> 
 
