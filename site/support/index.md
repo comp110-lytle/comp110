@@ -11,7 +11,7 @@ template: columns
 
 
 
-# Office Hours + Tutoring
+# Office Hours 
 
 Come drop-in for one-on-one support in office hours with a member of the [COMP110 team](/resources/team.html). Except for on due dates, the average wait time is typically less than five minutes.
 
@@ -44,7 +44,7 @@ To participate in in-person office hours:
 6. After the 15-minute walk-in appointment concludes, return back to the lobby to continue working.
 
 
-## Tutoring
+<!-- ## Tutoring
 
 <a href="https://course.care/ng/course/94" target="_blank">Come to tutoring hours for conceptual help</a> with members of the COMP110 UTA team and small groups of your peers. You can find these locations and links on <a href="https://course.care/ng/course/94" target="_blank">Course.Care</a>, just like office hours. If you are feeling a little behind or like you could use some extra practice tutoring is for you! Tutoring does not have time constraints outside of the hours it is open for.
 
@@ -52,7 +52,7 @@ Tutoring is a great opportunity to find help with:
 
 * Conceptual Questions
 * Lecture Review
-* Practice
+* Practice -->
 
 
 # Email
@@ -72,19 +72,18 @@ If you have suggestions on how to improve the course or just want to leave some 
 # Where Do I Go For Help?
 
 * Office Hours: Setup, homework + conceptual questions
-* Tutoring: Conceptual questions + concept review
-* Email TAs: Logistical concerns
+<!-- * Tutoring: Conceptual questions + concept review -->
+<!-- * Email TAs: Logistical concerns -->
 * Email <comp110help@gmail.com>: Assignment extension requests and logistical concerns
 * Email <abyrnes1@cs.unc.edu>: Personal issues and emergencies that impact performance in the course
 
 ## In-Person Office Hours Schedule
 
-* _Monday: 11:00 AM - 5:00 PM_
-* _Tuesday: 11:00 AM - 7:00 PM_
-* _Wednesday: 11:00 AM - 5:00 PM_
-* _Thursday: 11:00 AM - 5:00 PM_
-* _Friday: 11:00 AM - 5:00 PM_
-* _Sunday: 1:00 PM - 5:00 PM_
+* _Monday: 11:00 AM - 1:30 PM_
+* _Tuesday: 11:30 AM - 1:00 PM_
+* _Wednesday: 11:30 AM - 3:30 PM_
+* _Thursday: 11:30 AM - 1:00 PM_
+* _Friday: 11:30 AM - 1:00 PM_
 
 
 
