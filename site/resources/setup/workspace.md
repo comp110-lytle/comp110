@@ -56,7 +56,7 @@ VSCode can be customized with extensions specific to the types of work you use i
    - Mac: `Command+Shift+P`
 3. Type in "Git: Clone" (without the quotes) and press `Enter`.
    - If you do not see this option after installing course software previously, try rebooting your computer.
-4. Copy the following URL: `https://github.com/comp110-24ss1-003/comp110-24ss1-workspace.git`
+4. Copy the following URL: `https://github.com/comp110-24ss1/comp110-24ss1-workspace.git`
    - Right Click and Paste the copied URL into the text box that appeared in VS Code after the previous step.
    - Or use the Paste keyboard shortcut: `Control+V` Windows / `Command+V` Mac
 5. Press Enter and you will be asked where you want your course workspace repository to be saved on your computer. Accepting the default suggestion is OK, but if you have a folder you would prefer to keep the course work go ahead and select it. Trying to move your workspace after this step and should be avoided until the semester ends.
@@ -64,11 +64,11 @@ VSCode can be customized with extensions specific to the types of work you use i
 
 ## 5. Setup your Backup Workspace on GitHub
 
-1. Navigate a web browser to <a href="https://classroom.github.com/a/utWLp0_i" target="_blank">https://classroom.github.com/a/utWLp0_i</a>
+1. Navigate a web browser to <a href="https://classroom.github.com/a/2wmd5wZ1" target="_blank">https://classroom.github.com/a/utWLp0_i</a>
 2. Click "Skip to the next step" when prompted to select your user / identification
 3. Click "Accept this Assignment"
 4. When the workspace is getting setup you may need to refresh until it tells you you're ready to go!
-5. Click the link to your personal backup repository that looks something like this `https://github.com/comp110-24ss1-003/comp110-24ss1-workspace-KrisJordan` (except instead of `KrisJordan` you will see your GitHub username).
+5. Click the link to your personal backup repository that looks something like this `https://github.com/comp110-24ss1/comp110-24ss1-workspace-KrisJordan` (except instead of `KrisJordan` you will see your GitHub username).
 6. Look for the "Quick setup- if you've done this kind of thing before" box. You will see the same link that you clicked on to get here in step 5. Copy that text or click the copy to clipboard (overlapping squares) button.
 7. In VSCode, open the _View_ menu and select _Command Palette_, the shortcut for this menu is:
    - Windows: `Control+Shift+P`
@@ -89,6 +89,6 @@ Now, let's try opening your workspace in a Dev Container. The Dev Container mode
 
 Let's run the welcome program! Open the terminal by going to the Terminal menu and selecting New Terminal. You should see a terminal window open at the bottom of VSCode. In the terminal, type `python -m welcome` and press enter. You should see a welcome message printed to the terminal!
 
-Let's be sure you are able to exit out of VSCode and find your work again. Go ahead and close VSCode. It will take a few seconds for your DevContainer to fully shut down in the background, so count to ten, take a few deep breaths, and be proud of setting up a modern, professional software development environment on your personal laptop! Then open VS Code again. If you see the same files in the left-hand sidebar, and "Dev Container: comp110-24ss1-003" in the bottom left corner: great! Keep reading, though, so you know what to do in the future if you do not see your workspace.
+Let's be sure you are able to exit out of VSCode and find your work again. Go ahead and close VSCode. It will take a few seconds for your DevContainer to fully shut down in the background, so count to ten, take a few deep breaths, and be proud of setting up a modern, professional software development environment on your personal laptop! Then open VS Code again. If you see the same files in the left-hand sidebar, and "Dev Container: comp110-24ss1" in the bottom left corner: great! Keep reading, though, so you know what to do in the future if you do not see your workspace.
 
 If you do not see your workspace files in the Explorer sidebar, go to File, select Open Recent, and look for the topmost entry that has `comp110-24ss1-workspace` in it and ends in `[Dev Container]` and select it. This is how you can get back to your workspace most easily in the future.
