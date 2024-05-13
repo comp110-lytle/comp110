@@ -212,6 +212,15 @@ In order to do well in this course, you must come to your own individual underst
 
 Make sure that you are familiar with The [UNC Honor Code](https://studentconduct.unc.edu/). You will be required to sign an Honor Code pledge to hand in with every quiz and the final as well as "sign" the code you submit for grading by filling in your PID in the required `__author__` variable. Failing to do so may result in no credit assigned for the assignment.
 
+## Permitted Constructs
+
+If we see the use of an outside contruct before it's been covered in class (e.g. for loops), we may assume the usage of unpermitted aid and will deduct points accordingly
+
+## Use of Artificial Intelligence 
+
+Use of generative AI tools of any kind is not permitted in this course. Any use of these tools will be considered an instance of academic dishonesty and will be referred to the Honor System.
+
+
 ## Collaboration Policy on Ungraded, General Course Concepts
 
 You absolutely may, and are encouraged to, discuss general course concepts (i.e. not assignment-specific) material with anyone, including other current students and tutors. This includes going over lecture slides, documentation, code examples covered in lecture, study guides, etc. The examples you use to discuss general course materials must be from lecture or your own creativity, you cannot use examples directly drawn from any assignments handed in.

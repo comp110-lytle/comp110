@@ -11,18 +11,6 @@
             }
         },
         {
-            "kind": "LS",
-            "n": 0,
-            "title": "Syllabus and Support (Due Wednesday 5/15)",
-            "date": "2024-05-15",
-            "deadline": "2024-05-15",
-            "links": {
-                "1. Read the Syllabus": "/resources/syllabus.html",
-                "2. Read Support Resources": "/support",
-                "3. Complete Lesson 00 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        },
-        {
             "kind": "EX",
             "n": 0,
             "title": "Hello World (Due Tuesday 5/21)",
