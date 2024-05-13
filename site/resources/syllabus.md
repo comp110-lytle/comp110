@@ -94,7 +94,7 @@ You may have an unexcused absence for up to one quiz.
 
 If this is an *excused* absence (university or instructor approved), you should submit this form with attached documentation: <https://airtable.com/appLAcrgEhUfhwgpH/pagL61MnQCtPPc7T6/form>.
 
-To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 6% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
+To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 10% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
 
 We can offer everyone absent from a quiz the same learning experience of sitting for the quiz at some later date and receiving feedback on it, but a quiz taken in this fashion is not for credit and will not count toward nor against your mastery grade to ensure fairness to all students.
 
