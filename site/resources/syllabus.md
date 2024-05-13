@@ -53,6 +53,15 @@ COMP110 introduces students to programming and data science from a computational
 
 This course is intended to teach basic computer programming skills to students ranging from those with no prior programming experience to those with some prior experience. This course aims to teach general programming language concepts and semantics, problem definition, problem solving, logical and recursive thinking, through algorithm development and writing programs. Additionally, the course offers broad exposure to some of today's key issues of computing in society.
 
+The course also adresses the following IDEAs in Action General Education Quantitative Reasoning Learning outcomes:
+
+1. Summarize, interpret, and present quantitative data in mathematical forms, such as graphs, diagrams, tables, or mathematical text.
+2. Develop or compute representations of data using mathematical forms or equations as models, and use statistical methods to assess their validity.
+3. Make and evaluate important assumptions in the estimation, modeling, and analysis of data, and recognize the limitations of the results.
+4. Apply mathematical concepts, data, procedures, and solutions to make judgments and draw conclusions.
+5. Synthesize and present quantitative data to others to explain findings or to provide quantitative evidence in support of a position.
+
+
 
 # Course Structure
 
@@ -96,6 +105,10 @@ The most valuable resources in COMP110 are office hours and tutoring. The resour
 ## Textbooks and Resources
 
 The web page is the primary resource for this course. There is no textbook for COMP110. We will distribute occasional readings, reference material, and tutorials via the course website and Canvas.
+
+## Course Schedule
+
+You can find the most up-to-date course schedule [here](https://comp110-24ss1.github.io/).
 
 
 # Course Expectations + Grading
@@ -197,7 +210,7 @@ In cases of fractional points, grades will be rounded up if greater than 0.49999
 
 In order to do well in this course, you must come to your own individual understanding of the material. As such, collaboration is prohibited outside of the following policies.
 
-Make sure that you are familiar with The UNC Honor Code. You will be required to sign an Honor Code pledge to hand in with every quiz and the final as well as "sign" the code you submit for grading by filling in your PID in the required `__author__` variable. Failing to do so may result in no credit assigned for the assignment.
+Make sure that you are familiar with The [UNC Honor Code](https://studentconduct.unc.edu/). You will be required to sign an Honor Code pledge to hand in with every quiz and the final as well as "sign" the code you submit for grading by filling in your PID in the required `__author__` variable. Failing to do so may result in no credit assigned for the assignment.
 
 ## Collaboration Policy on Ungraded, General Course Concepts
 
@@ -235,6 +248,17 @@ I reserve the right to, at any time, ask you to submit to a "code review" test w
 
 
 
+# Other Policies
+
+## University Attendance Policy
+
+University Policy: As stated in the University’s [Class Attendance Policy](https://catalog.unc.edu/policies-procedures/attendance-grading-examination/#text), no right or privilege exists that permits a student to be absent from any class meetings, except for these University Approved Absences:
+
+1. Authorized University activities: [University Approved Absence Office (UAAO) website](https://uaao.unc.edu/) provides information and [FAQs for students](https://uaao.unc.edu/faqs-for-students/) and [FAQs for faculty](https://uaao.unc.edu/faqs-for-faculty/) related to University Approved Absences
+
+2. Disability/religious observance/pregnancy, as required by law and approved by [Accessibility Resources and Services](https://ars.unc.edu/) and/or the [Equal Opportunity and Compliance Office](https://eoc.unc.edu/what-we-do/accommodations/) (EOC)
+
+3. Significant health condition and/or personal/family emergency as approved by the [Office of the Dean of Students](https://odos.unc.edu/), [Gender Violence Service Coordinators](https://gvsc.unc.edu/), and/or the [Equal Opportunity and Compliance Office](https://eoc.unc.edu/what-we-do/accommodations/) (EOC).
 
 
 
@@ -244,6 +268,12 @@ I reserve the right to, at any time, ask you to submit to a "code review" test w
 ## Feedback
 
 If you have suggestions on how to improve the course or just want to leave some positive, encouraging feedback for the TAs or I, please give us feedback. If you make a suggestion we're able to act on, while we still have time to, we're more than happy to!
+
+## Accessibility Resources & Services
+
+[Accessibility Resources and Service](ars@unc.edu) (ARS) receives requests for accommodations, and through the Student and Applicant Accommodations Policy determines eligibility and identifies reasonable accommodations for students with disabilities and/or chronic medical conditions to mitigate or remove the barriers experienced in accessing University courses, programs and activities.
+
+ARS also offers its Testing Center resources to students and instructors to facilitate the implementation of testing accommodations. **Please book your quizzes and final at the testing center at the beginning of the semester!**
 
 ## Title IX Resources
 
