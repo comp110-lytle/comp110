@@ -28,8 +28,7 @@ navbar: base
 
 ## Practice + Tools
 
-- [Extra Credit Opportunities](/resources/extra-credit.html)
-
+<!-- - [Extra Credit Opportunities](/resources/extra-credit.html) -->
 - [DIY Memory Diagram Guide](/resources/practice/MemDiagramsTemplate.html)
 
 - [Practice Memory Diagrams](/resources/practice/MemDiagrams.html)
