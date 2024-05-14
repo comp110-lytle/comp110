@@ -42,8 +42,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL00 </span><span class="title">Welcome to COMP110 - An Intro to the Class</span>
 <ul class="links"><li class="link"><a href="/">Course Intro Slides</a></li>
-</ul></div><div class="plan Exercise">
-<span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Tuesday 5/21)</a></span></div></div>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-05-24" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 24</div>
 <div class="plans col-md-9"><div class="plan Quiz">

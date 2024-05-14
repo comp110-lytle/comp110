@@ -9,16 +9,6 @@
             "links": {
                 "Course Intro Slides": "/"
             }
-        },
-        {
-            "kind": "EX",
-            "n": 0,
-            "title": "Hello World (Due Tuesday 5/21)",
-            "date": "2024-05-15",
-            "deadline": "2024-05-21",
-            "links": {
-                "": "/exercises/ex00_hello_world.html"
-            }
         }
     ],
     "2024-05-16": [],
