@@ -36,7 +36,7 @@ page: resource
     <figcaption>Camilla Fratta</figcaption>
   </figure> -->
 
-<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/"><img src="/static/profile-photos/carmine.png" class="profile-image"></a> <figcaption>Carmine Anderson - Falconi</figcaption></figure>
+<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/cdander9.html"><img src="/static/profile-photos/cdander9.png" class="profile-image"></a> <figcaption>Carmine Anderson - Falconi</figcaption></figure>
 
 <!-- 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/csabato.html"><img src="/static/profile-photos/csabato.jpg" class="profile-image"></a> <figcaption>Chiara Sabato</figcaption></figure>
