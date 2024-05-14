@@ -28,7 +28,7 @@ Once open, from the "File" menu, select "Open Recent...". After completing the s
 
 You should be greeted with window that looks like the following (if tabs are open in the main part of the window, you can close them):
 
-![VSCode Dev Container](/static/exercises/ex00/vscode-dev-container.png)
+<img class="img-fluid" src="/static/exercises/ex00/vscode-dev-container.png" >
 
 There are three important parts to recognize in this window you will make use of through the semester:
 
