@@ -15,64 +15,60 @@ Welcome to COMP110 - Introduction to Programming at UNC Chapel Hill!
 Before continuing on, be sure you've completed each of the following steps to prepare your computer for the course's programming assignments:
 
 0. [Update your Operating System](/resources/setup/os-update.html)
-1. [Install Needed Software Development Tools (Python 3.11, Visual Studio Code, and git)](/resources/setup/software.html)
+1. [Install Needed Software Development Tools](/resources/setup/software.html)
 2. [Setup a Workspace](/resources/setup/workspace.html)
 
-## 1. Write Your First Program!
+## 1. Starting from the Trailhead
 
-Now for the main attraction! Let's write a classic "hello world" program.
+Before opening up VSCode, you will want to be sure Docker Desktop is running on your computer. On a Mac, you can check this by looking for the whale with boxes icon in your top menu bar. On Windows, you can check this by looking for the whale with boxes icon in your system tray. If you do not see the icon, open the Docker Desktop application from your start menu or applications folder.
 
-In Visual Studio Code, be sure your workspace is open. (Reminder: File > Open Recent > comp110-YYS-workspace is a quick way to reopen it! Where YY is the current year and S is the semeseter: S for Spring, F for Fall, SSX for Summer Session X.)
+Our programming journey begins in Visual Studio Code, a free, leading text-editor designed for software development. Go ahead and open Visual Studio Code!
 
-Open the Explorer pane (click the icon with two sheets of paper or to to _View_ > _Explorer_) and expand the _Workspace_ directory.
+Once open, from the "File" menu, select "Open Recent...". After completing the setup instructions above, you should see two entries with `comp110-24s-workspace-[Your GitHub Username]`. You want to select the one with `[Dev Container]` at the end of it. Go ahead and open it up!
 
-Right click on the `exercises` directory, then select create new file and name it `ex00_hello_world.py`.
+You should be greeted with window that looks like the following (if tabs are open in the main part of the window, you can close them):
 
-An empty file opens. The `.py` file extension is standard for Python programs.
+![VSCode Dev Container](/static/exercises/ex00/vscode-dev-container.png)
 
-For the past 50 or so years it's a tradition in the programming world for your first program to print the words "Hello, world." We won't break it.
+There are three important parts to recognize in this window you will make use of through the semester:
 
-Write the line of code below in your file:
+1. In the bottom left corner, you should see "Dev Container: comp110-24s-003" as shown in the photo above. If you only see the `><` icon, open the VSCode command palette by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) and type "Reopen in Container". This will open the Dev Container and you should see the "Dev Container: comp110-24s-003" appear.
 
-~~~ {.python .numberLines startFrom="1"}
-print("Hello, world.")
-~~~
+2. In the top left corner, you will see an icon with two files that represents the "File Explorer". Clicking it will open, or toggle closed if it is already open, a panel that shows the files and directories in your workspace.
 
-Next, **save your program** (shortcuts on Windows: `Control+S`, Mac: `Command+S`).
+3. Finally, there is a sidebar button with a Play icon and a bug for the "Run and Debug" panel. This panel is where you will start the Trailhead app from. You will learn about additional "debugging" capabilities found in this panel soon.
 
-To run your program, first open a terminal: _Terminal_ > _New Terminal_
+## 2. Starting Trailhead
 
-Then, in the Terminal, type out the following command and press enter: 
+Open the "Run and Debug" pane, as discussed above, and press the green play button. You should see a new terminal window open in the bottom of the screen and a message that says "Starting Trailhead server at http://localhost:1110" appear in a terminal. You can close this terminal pane with the X after seeing this message.
 
-`python -m exercises.ex00_hello_world`
+<iframe style="aspect-ratio: 16/9; width:100%;" src="https://www.youtube.com/embed/Ul9ompArzpY?si=ag3p72ENJ3ZziqeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-If it works, you should see the text "Hello, world." printed in your terminal! If it doesn't work, it's likely a minor issue somewhere. Programming is very precise, go back through and try each instruction again checking for exact punctuation, capitalization, and spelling matches. Even a minor discrepency will cause it to go awry. On a Mac, you _may_ need to run `python3 -m exercises.ex00_hello_world` instead. If that works, from here on use the command `python3` wherever you see us use `python`.
+As shown in the video above, your next step is to open a web browser (Google Chrome is recommended for our course) and navigate to `http://localhost:1110`. You should see Trailhead's home page! If you do not, try the address `http://127.0.0.1:1110` instead. These two web addresses, `localhost` and `127.0.0.1` refer to your personal computer and the `:1110` refers to the "port number" Trailhead is running on. One-thousand 110, hopefully a memorable number :)
 
-If you are stuck, come see us in office hours by following the instructions posted on the support page. We'll be able to work it out with you! As you know, there were a lot of steps to get to this point, so it's not uncommon for something super minor to be off somewhere. The good news is, once your setup is working you'll be in good shape moving forward for the course.
+From the "Trailhead" home screen, your workspace's modules are listed. The "welcome" module refers to the `welcome.py` found in the "File Explorer" pane of VSCode. Opening the ".py" file, you can see the code which resulted in the message being displayed in Trailhead.
 
-Congratulations, you've written and run your first Python program! Try running it again by pressing the up arrow on your keyboard, noticing the same command you ran last is filled in, and pressing enter again.
+We recommend keeping VSCode and your browser, with Trailhead open, side-by-side such that you can see both at the same time. As you are writing programs, you will want to see and interact with the results of your work in the Trailhead browser window.
 
-What is the command you wrote doing? The first word `python` is the program responsible for interpretting your code. The second symbol, `-m`, is what we call an "option" that is short for "run as _`m`odule_". You'll learn all about modules soon. Lastly, `exercises.ex00_hello_world` is referring to the file you created! Notice you created the file `ex00_hello_world.py` in the `exercises` directory, or "folder". This is the module you are asking `python` to interpret!
+## 3. Writing Your First Program
 
-Try changing the text inside of the double quotes (but be sure to keep the words `hello` and `world` somewhere), saving again, and rerunning your program.
+In Trailhead, navigate back to the home page by clicking "Trailhead" in the navigation.
 
-What is this line of code doing? You are _calling_ a _function_ named `print`. The `print` function is [built-in to the Python programming language](https://docs.python.org/3/library/functions.html#print) and results in data being "printed" out _somewhere_. By default, that _somewhere_ is on your screen in the Terminal. The parentheses following the word `print` indicate extra information being given to the `print` function. In this example, you are giving a piece of textual information to print which is called a "string" and denoted by the double quotes surrounding the textual data. Don't worry, we will break down all of this into more tangible detail soon!
+In VSCode, open the "File Explorer" pane and right-click in the blank space. Select "New File" and name the file `ex00_hello_world.py`. Double check that the filename exactly matches what is specified here. In Trailhead, you will see the your new module appear. If you click to open it, you will see that the "module exited without output." This is because the file is empty.
 
-Your first program is _almost complete_! However, before submitting it there are a couple more style and documentation steps to complete.
+Open the `ex00_hello_world.py` file in VSCode and type the following:
 
-First, you should add a special kind of string value, called a _docstring_ short for documentation string, to the top of your program file, which is a Python _module_. Then, you should add a line with a special variable named `__author__` assigned to be your 9-digit student PID. (Disclaimer: Out in the real world the `__author__` variable is typically your name and e-mail address, but since we will grade your programs we'd like to avoid potential bias in seeing your names as part of the programs as we're grading.) Add the following lines above the line of code that calls the `print` function. Fill in _your_ 9-digit UNC PID number, without any spaces or dashes, in the `__author__` string.
+```python
+print("Hello, world!")
+```
 
-~~~ {.python .numberLines startFrom="1"}
-"""My first program for COMP110."""
+What is this line of code doing? You are calling a *function* named `print`. The `print` function is built-in to the Python programming language and results in data being “printed” out somewhere. By default, that somewhere is on your screen in the Terminal. The parentheses following the word `print` indicate extra information being given to the `print` function. In this example, you are giving a piece of textual information to print which is called a “string” and denoted by the double quotes surrounding the textual data. Don’t worry, we will break down all of this into more tangible detail soon!
 
-__author__ = "1234567890"
+Save the file again, by pressing `Ctrl+S` (or `Cmd+S` on Mac). In Trailhead, you should see the message "Hello, world!" now appear as output. This should happen automatically upon saving, but you can also manually run the program again with the green "Run Again" or "Rerun" button.
 
+Congratulations! You have written your first program in Python! For over fifty years, it's been a rite of passage for new programmers' first program to print "Hello, world!" to the screen. Wooo! You've taken your first step on the trail to becoming a programmer!
 
-~~~
-
-Save your program again and re-run it. You should still only see your printed output message. What must that mean about the two lines of code you just added? They're for documentation purposes and must not impact the _printed output_ of the program.
-
-## 3. Make a Backup Checkpoint "Commit"
+## 4. Make a Backup Checkpoint "Commit"
 
 Now that your first program is complete, let's practice making a backup. Visual Studio Code has built-in support for `git` source control management (SCM). SCM tools are made to help create versioned checkpoints of a project's source code (your program is source code!) amont other uses. The current de facto SCM is called `git`. As one more piece of terminology, a checkpointed version in git is called a `commit`. Once your work is in a `commit` checkpoint, you can always return back to your project at that point in time without the risk of losing work. We encourage committing work to backup _at least_ each time you submit a project for grading or are finishing out a working session for the day. Commits are free to make and can only help you avoid losing work; use them liberally!
 
@@ -91,7 +87,7 @@ Now that your first program is complete, let's practice making a backup. Visual 
 
 To see your commit on Github, in a web browser, navigate to `https://github.com/comp110-24s/comp110-workspace-USERNAME` and substitute `USERNAME` with your GitHub username. Open the `comp110` directory, then `exercises`, and `ex0_hello_world.py` you'll see the work you just completed backed up to GitHub. Notice above the file's content's you'll see your commit message.
 
-## 4. Submit to Gradescope for Grading
+## 5. Submit to Gradescope for Grading
 
 All that's left now is to hand-in your work on Gradescope for grading!
 
@@ -109,6 +105,6 @@ In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exerc
 
 Autograding will take a few moments to complete. For this exercise there will be no "human graded" component, but in future exercises and projects there will. Thus, you should expect to score 100 out of 100 possible points on this assignment. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours!
 
-## 5. Congratulations!
+## 6. Congratulations!
 
 There were _a lot_ of steps and new concepts thrown at you in this initial exercise. Gearing up is half the battle! The amount of setup involved in a modern development environment can be a little overwhelming to a first-time programmer. You are not expected to understand the intricacies of all the processes and software you just followed and setup. That will come with time. For now, focus on the big win that is having written a Python program in a professional code editor, run it, and backed it up using git! Programming gets way more fun, and way more creatively rewarding, as we make our way up the mountain from here.

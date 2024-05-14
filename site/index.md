@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/syllabus.html">LS00 - WED, MAY 15 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/syllabus.html">LS00 - WED, MAY 15 11:59pm</a></li><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - THU, MAY 16 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -50,7 +50,8 @@ template: home
 <ul class="links"><li class="link"><a href="/resources/syllabus.html">1. Read the Syllabus</a></li>
 <li class="link"><a href="/support">2. Read Support Resources</a></li>
 <li class="link"><a href="https://www.gradescope.com/">3. Complete Lesson 00 Responses on Gradescope</a></li>
-</ul></div></div>
+</ul></div><div class="plan Exercise">
+<span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Thursday 5/16)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-05-24" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 24</div>
 <div class="plans col-md-9"><div class="plan Quiz">
