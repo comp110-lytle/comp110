@@ -99,7 +99,7 @@ If you _do not_ see a Terminal at the bottom of your screen, open the Command Pa
 
 Type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex00_hello_world.py`
+`python -m tools.submission ex00_hello_world.py`
 
 In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex00_hello_world.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
