@@ -24,7 +24,7 @@ Before opening up VSCode, you will want to be sure Docker Desktop is running on 
 
 Our programming journey begins in Visual Studio Code, a free, leading text-editor designed for software development. Go ahead and open Visual Studio Code!
 
-Once open, from the "File" menu, select "Open Recent...". After completing the setup instructions above, you should see two entries with `comp110-24s-workspace-[Your GitHub Username]`. You want to select the one with `[Dev Container]` at the end of it. Go ahead and open it up!
+Once open, from the "File" menu, select "Open Recent...". After completing the setup instructions above, you should see two entries with `comp110-24ss1-workspace-[Your GitHub Username]`. You want to select the one with `[Dev Container]` at the end of it. Go ahead and open it up!
 
 You should be greeted with window that looks like the following (if tabs are open in the main part of the window, you can close them):
 
@@ -32,7 +32,7 @@ You should be greeted with window that looks like the following (if tabs are ope
 
 There are three important parts to recognize in this window you will make use of through the semester:
 
-1. In the bottom left corner, you should see "Dev Container: comp110-24s-003" as shown in the photo above. If you only see the `><` icon, open the VSCode command palette by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) and type "Reopen in Container". This will open the Dev Container and you should see the "Dev Container: comp110-24s-003" appear.
+1. In the bottom left corner, you should see "Dev Container: comp110-24ss1" as shown in the photo above. If you only see the `><` icon, open the VSCode command palette by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) and type "Reopen in Container". This will open the Dev Container and you should see the "Dev Container: comp110-24ss1" appear.
 
 2. In the top left corner, you will see an icon with two files that represents the "File Explorer". Clicking it will open, or toggle closed if it is already open, a panel that shows the files and directories in your workspace.
 
@@ -85,7 +85,7 @@ Now that your first program is complete, let's practice making a backup. Visual 
 8. Select the `backup` remote that is your personal workspace on GitHub. If you do not see `backup` listed, see the instructions below on _Setup Backup Course Material Repository_.
    - You may see a spinning "refresh" icon in your status bar at the bottom of VSCode. Unless an error backing up occurs, you will not see any confirmation.
 
-To see your commit on Github, in a web browser, navigate to `https://github.com/comp110-24s/comp110-workspace-USERNAME` and substitute `USERNAME` with your GitHub username. Open the `comp110` directory, then `exercises`, and `ex0_hello_world.py` you'll see the work you just completed backed up to GitHub. Notice above the file's content's you'll see your commit message.
+To see your commit on Github, in a web browser, navigate to `https://github.com/comp110-24ss1/comp110-workspace-USERNAME` and substitute `USERNAME` with your GitHub username. Open the `comp110` directory, then `exercises`, and `ex0_hello_world.py` you'll see the work you just completed backed up to GitHub. Notice above the file's content's you'll see your commit message.
 
 ## 5. Submit to Gradescope for Grading
 
