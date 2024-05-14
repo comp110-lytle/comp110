@@ -92,3 +92,7 @@ Let's run the welcome program! Open the terminal by going to the Terminal menu a
 Let's be sure you are able to exit out of VSCode and find your work again. Go ahead and close VSCode. It will take a few seconds for your DevContainer to fully shut down in the background, so count to ten, take a few deep breaths, and be proud of setting up a modern, professional software development environment on your personal laptop! Then open VS Code again. If you see the same files in the left-hand sidebar, and "Dev Container: comp110-24ss1" in the bottom left corner: great! Keep reading, though, so you know what to do in the future if you do not see your workspace.
 
 If you do not see your workspace files in the Explorer sidebar, go to File, select Open Recent, and look for the topmost entry that has `comp110-24ss1-workspace` in it and ends in `[Dev Container]` and select it. This is how you can get back to your workspace most easily in the future.
+
+## Issues
+
+Please check out [this page](/setup/commonissues.html) if any issues arise. If you're still stuck, please head to office hours for help!
