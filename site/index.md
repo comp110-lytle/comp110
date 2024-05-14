@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/syllabus.html">LS00 - WED, MAY 15 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -41,7 +41,15 @@ template: home
 <div class="date col-md-2">Wed, May 15</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL00 </span><span class="title">Welcome to COMP110 - An Intro to the Class</span>
-<ul class="links"><li class="link"><a href="/">Course Intro Slides</a></li>
+<ul class="links"><li class="link"><a href="/static/slides/SSI-CL00.pdf">Course Intro Slides</a></li>
+<li class="link"><a href="/resources/setup/os-update.html">Setup Part 0: Update Operating System</a></li>
+<li class="link"><a href="/resources/setup/software.html">Setup Part 1: Install Needed Software</a></li>
+<li class="link"><a href="/resources/setup/workspace.html">Setup Part 2: Setup your Workspace</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS00 </span><span class="title">Syllabus and Support (Due Wednesday 5/15)</span>
+<ul class="links"><li class="link"><a href="/resources/syllabus.html">1. Read the Syllabus</a></li>
+<li class="link"><a href="/support">2. Read Support Resources</a></li>
+<li class="link"><a href="https://www.gradescope.com/">3. Complete Lesson 00 Responses on Gradescope</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-05-24" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 24</div>
