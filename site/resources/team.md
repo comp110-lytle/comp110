@@ -19,6 +19,11 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/alyssabyrnes.html"><img src="/static/profile-photos/alyssabyrnes.jpeg" class="profile-image"></a> <figcaption>Alyssa Lytle</figcaption></figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/oxiao.html"><img src="/static/profile-photos/alexxiao.jpg" class="profile-image"> </a>
+  <figcaption>Alex Xiao</figcaption>
+</figure>
+
 <!-- <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/ajval02.html"><img src="/static/profile-photos/ajval02.JPG" class="profile-image"></a> <figcaption>Anthony Valentino</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/anugondi.html"><img src="/static/profile-photos/anugondi.jpg" class="profile-image"></a> <figcaption>Anusha Gondi</figcaption></figure>
