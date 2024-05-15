@@ -45,7 +45,8 @@
             "deadline": "None",
             "links": {
                 "Lecture Slides": "/static/slides/SS1-CL01.pdf",
-                "Lecture Notes": "/lessons/objects-data-types.html"
+                "Objects + Data Types Lecture Notes": "/lessons/objects-data-types.html",
+                "Expressions Lecture Notes": "/lessons/expressions.html"
             }
         },
         {
@@ -79,7 +80,38 @@
             }
         }
     ],
-    "2024-05-17": [],
+    "2024-05-17": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Boolean Operators + Conditionals",
+            "date": "2024-05-17",
+            "deadline": "None",
+            "links": {
+                "Lecture Slides": "/static/slides/SS1-CL02.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 4,
+            "title": "Boolean Operators (Due Friday 5/17)",
+            "date": "2024-05-17",
+            "deadline": "2024-05-17",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "while Loop Statements (Due Friday 5/17)",
+            "date": "2024-05-17",
+            "deadline": "2024-05-17",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-05-18": [],
     "2024-05-19": [],
     "2024-05-20": [],
