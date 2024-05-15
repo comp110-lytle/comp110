@@ -68,6 +68,18 @@ Save the file again, by pressing `Ctrl+S` (or `Cmd+S` on Mac). In Trailhead, you
 
 Congratulations! You have written your first program in Python! For over fifty years, it's been a rite of passage for new programmers' first program to print "Hello, world!" to the screen. Wooo! You've taken your first step on the trail to becoming a programmer!
 
+Your first program is almost complete! However, before submitting it there are a couple more style and documentation steps to complete.
+
+First, you should add a special kind of string value, called a *docstring* short for documentation string, to the top of your program file, which is a Python module. Then, you should add a line with a special variable named __author__ assigned to be your 9-digit student PID. (Disclaimer: Out in the real world the `__author__` variable is typically your name and e-mail address, but since we will grade your programs we’d like to avoid potential bias in seeing your names as part of the programs as we’re grading.) Add the following lines above the line of code that calls the print function. Fill in your 9-digit UNC PID number, without any spaces or dashes, in the `__author__` string.
+
+```
+"""My first program for COMP110."""
+ 
+__author__ = "1234567890"
+```
+
+Save your program again and re-run it. You should still only see your printed output message. What must that mean about the two lines of code you just added? They’re for documentation purposes and must not impact the printed output of the program.
+
 ## 4. Make a Backup Checkpoint "Commit"
 
 Now that your first program is complete, let's practice making a backup. Visual Studio Code has built-in support for `git` source control management (SCM). SCM tools are made to help create versioned checkpoints of a project's source code (your program is source code!) amont other uses. The current de facto SCM is called `git`. As one more piece of terminology, a checkpointed version in git is called a `commit`. Once your work is in a `commit` checkpoint, you can always return back to your project at that point in time without the risk of losing work. We encourage committing work to backup _at least_ each time you submit a project for grading or are finishing out a working session for the day. Commits are free to make and can only help you avoid losing work; use them liberally!
