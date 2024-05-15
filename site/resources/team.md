@@ -15,8 +15,6 @@ page: resource
 <div class="container" >
 <div class="row justify-content-center">
 
-<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/"><img src="/static/profile-photos/alexxiao.png" class="profile-image"></a> <figcaption>Alex Xiao</figcaption></figure>
-
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/alyssabyrnes.html"><img src="/static/profile-photos/alyssabyrnes.jpeg" class="profile-image"></a> <figcaption>Alyssa Lytle</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
