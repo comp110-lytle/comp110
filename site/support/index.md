@@ -79,11 +79,11 @@ If you have suggestions on how to improve the course or just want to leave some 
 
 ## Office Hours Schedule
 
-* _Monday: 11:00 AM - 1:30 PM_
-* _Tuesday: 11:30 AM - 1:00 PM_
-* _Wednesday: 11:00 AM - 3:30 PM_
-* _Thursday: 11:30 AM - 1:00 PM_
-* _Friday: 11:30 AM - 1:00 PM_
+* _Monday: 11:00 AM - 2:00 PM_
+* _Tuesday: 11:30 AM - 1:30 PM_
+* _Wednesday: 11:00 AM - 4:00 PM_
+* _Thursday: 11:30 AM - 1:30 PM_
+* _Friday: 11:30 AM - 1:30 PM_
 
 
 
