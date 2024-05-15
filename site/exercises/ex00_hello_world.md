@@ -87,6 +87,19 @@ Now that your first program is complete, let's practice making a backup. Visual 
 
 To see your commit on Github, in a web browser, navigate to `https://github.com/comp110-24ss1/comp110-workspace-USERNAME` and substitute `USERNAME` with your GitHub username. Open the `comp110` directory, then `exercises`, and `ex0_hello_world.py` you'll see the work you just completed backed up to GitHub. Notice above the file's content's you'll see your commit message.
 
+### If you get an error
+
+If you get an error when trying to commit try typing the following two lines in your terminal:
+
+<pre>
+<div class="terminal">
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+</div>
+</pre>
+
+Replacing "Your Name" with your name and "you@example.com" with your UNC email.
+
 ## 5. Submit to Gradescope for Grading
 
 All that's left now is to hand-in your work on Gradescope for grading!
