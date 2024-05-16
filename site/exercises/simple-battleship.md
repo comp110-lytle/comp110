@@ -153,6 +153,26 @@ We expect you to implement this exercise using only the concepts covered in COMP
 * Part 5. Exiting Early for Invalid Inputs - 10 points
 * Part 6. Type Safety and Linting - 10 points
 
+## 4. Make a Backup Checkpoint "Commit"
+
+Now you can commit your new work to Github! This will back up your work online!
+
+1. Open the Source Control panel (Command Palette: "Show SCM" or click the icon with three circles and lines on the activity panel).
+2. Notice the files listed under Changes. These are files you've made modifications to since your last backup.
+3. Move your mouse's cursor over the word _Changes_ and notice the + symbol that appears. Click that plus symbol to add all changes to the next backup. You will now see the files listed under "Staged Changes".
+   - If you do not want to backup _all_ changed files, you can select them individually. For this course you're encouraged to back everything up.
+4. In the Message box, give a brief description of what you've changed and are backing up. This will help you find a specific backup (called a "commit") if needed. In this case a message such as, "Finished Exercise 00!" will suffice.
+5. Press the Check icon to make a _Commit_ (a version) of your work.
+6. Open the _View_ menu and select _Command Palette_, the shortcut for this menu is:
+   - Windows: `Control+Shift+P`
+   - Mac: `Command+Shift+P`
+7. Begin typing in: `Git: Push to...` and press `Enter` once it is the first option.
+8. Select the `backup` remote that is your personal workspace on GitHub. If you do not see `backup` listed, see the instructions below on _Setup Backup Course Material Repository_.
+   - You may see a spinning "refresh" icon in your status bar at the bottom of VSCode. Unless an error backing up occurs, you will not see any confirmation.
+
+To see your commit on Github, in a web browser, navigate to `https://github.com/comp110-24ss1/comp110-workspace-USERNAME` and substitute `USERNAME` with your GitHub username. Open the `comp110` directory and `ex00_hello_world.py` you'll see the work you just completed backed up to GitHub. Notice above the file's content's you'll see your commit message.
+
+
 ## Submit to Gradescope for Grading
 
 All that's left now is to hand-in your work on Gradescope for grading!
