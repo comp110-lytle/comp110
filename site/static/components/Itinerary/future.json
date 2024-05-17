@@ -58,33 +58,13 @@
             "links": {
                 "": "https://www.gradescope.com/"
             }
-        },
-        {
-            "kind": "LS",
-            "n": 2,
-            "title": "Expressions (Due Thursday 5/16)",
-            "date": "2024-05-16",
-            "deadline": "2024-05-16",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 3,
-            "title": "Variables and User Input (Due Thursday 5/16)",
-            "date": "2024-05-16",
-            "deadline": "2024-05-16",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
         }
     ],
     "2024-05-17": [
         {
             "kind": "CL",
             "n": 2,
-            "title": "Boolean Operators + Conditionals",
+            "title": "Expressions, Variables, + Conditionals",
             "date": "2024-05-17",
             "deadline": "None",
             "links": {
@@ -93,8 +73,8 @@
         },
         {
             "kind": "LS",
-            "n": 4,
-            "title": "Boolean Operators (Due Friday 5/17)",
+            "n": 2,
+            "title": "Expressions (Due Friday 5/17)",
             "date": "2024-05-17",
             "deadline": "2024-05-17",
             "links": {
@@ -103,8 +83,8 @@
         },
         {
             "kind": "LS",
-            "n": 5,
-            "title": "while Loop Statements (Due Friday 5/17)",
+            "n": 3,
+            "title": "Variables and User Input (Due Friday 5/17)",
             "date": "2024-05-17",
             "deadline": "2024-05-17",
             "links": {

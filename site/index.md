@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/syllabus.html">LS00 - WED, MAY 15 11:59pm</a></li><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - THU, MAY 16 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS01 - THU, MAY 16 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS02 - THU, MAY 16 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - THU, MAY 16 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS04 - FRI, MAY 17 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS05 - FRI, MAY 17 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - THU, MAY 16 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS01 - THU, MAY 16 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS02 - FRI, MAY 17 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - FRI, MAY 17 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -60,17 +60,15 @@ template: home
 <li class="link"><a href="/lessons/objects-data-types.html">Objects + Data Types Lecture Notes</a></li>
 <li class="link"><a href="/lessons/expressions.html">Expressions Lecture Notes</a></li>
 </ul></div><div class="plan Lesson">
-<span class="kind">LS01 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Data Types (Due Thursday 5/16)</a></span></div><div class="plan Lesson">
-<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Thursday 5/16)</a></span></div><div class="plan Lesson">
-<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Variables and User Input (Due Thursday 5/16)</a></span></div></div>
+<span class="kind">LS01 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Data Types (Due Thursday 5/16)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-05-17" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 17</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL02 </span><span class="title">Boolean Operators + Conditionals</span>
+<span class="kind">CL02 </span><span class="title">Expressions, Variables, + Conditionals</span>
 <ul class="links"><li class="link"><a href="/static/slides/SS1-CL02.pdf">Lecture Slides</a></li>
 </ul></div><div class="plan Lesson">
-<span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Boolean Operators (Due Friday 5/17)</a></span></div><div class="plan Lesson">
-<span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">while Loop Statements (Due Friday 5/17)</a></span></div></div>
+<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Friday 5/17)</a></span></div><div class="plan Lesson">
+<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Variables and User Input (Due Friday 5/17)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-05-24" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 24</div>
 <div class="plans col-md-9"><div class="plan Quiz">
