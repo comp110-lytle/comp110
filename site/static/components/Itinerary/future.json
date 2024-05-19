@@ -1,41 +1,4 @@
 {
-    "2024-05-15": [
-        {
-            "kind": "CL",
-            "n": 0,
-            "title": "Welcome to COMP110 - An Intro to the Class",
-            "date": "2024-05-15",
-            "deadline": "None",
-            "links": {
-                "Course Intro Slides": "/static/slides/SSI-CL00.pdf",
-                "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
-                "Setup Part 1: Install Needed Software": "/resources/setup/software.html",
-                "Setup Part 2: Setup your Workspace": "/resources/setup/workspace.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 0,
-            "title": "Syllabus and Support (Due Wednesday 5/15)",
-            "date": "2024-05-15",
-            "deadline": "2024-05-15",
-            "links": {
-                "1. Read the Syllabus": "/resources/syllabus.html",
-                "2. Read Support Resources": "/support",
-                "3. Complete Lesson 00 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 0,
-            "title": "Hello World (Due Thursday 5/16)",
-            "date": "2024-05-15",
-            "deadline": "2024-05-16",
-            "links": {
-                "": "/exercises/ex00_hello_world.html"
-            }
-        }
-    ],
     "2024-05-16": [
         {
             "kind": "CL",
@@ -94,7 +57,18 @@
     ],
     "2024-05-18": [],
     "2024-05-19": [],
-    "2024-05-20": [],
+    "2024-05-20": [
+        {
+            "kind": "VL",
+            "n": 0,
+            "title": "Virtual Lesson (Due Tuesday 5/21)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-21",
+            "links": {
+                "": "/virtual-classes/VL00.html"
+            }
+        }
+    ],
     "2024-05-21": [],
     "2024-05-22": [],
     "2024-05-23": [],
