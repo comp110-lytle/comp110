@@ -1,28 +1,4 @@
 {
-    "2024-05-16": [
-        {
-            "kind": "CL",
-            "n": 1,
-            "title": "An Introduction to Coding + Beginning Concepts",
-            "date": "2024-05-16",
-            "deadline": "None",
-            "links": {
-                "Lecture Slides": "/static/slides/SS1-CL01.pdf",
-                "Objects + Data Types Lecture Notes": "/lessons/objects-data-types.html",
-                "Expressions Lecture Notes": "/lessons/expressions.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 1,
-            "title": "Objects and Data Types (Due Thursday 5/16)",
-            "date": "2024-05-16",
-            "deadline": "2024-05-16",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
     "2024-05-17": [
         {
             "kind": "CL",

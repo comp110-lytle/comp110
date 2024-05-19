@@ -11,8 +11,8 @@ page: lessons
 </div>
 
 <div class="plan Class"><span class="kind">LS01 </span>
-<span class="title">Running a Program + The Terminal *(Coming Soon)*:</span>
-[Video](/)
+<span class="title">Running a Program + The Terminal:</span>
+[Video](https://youtu.be/2IAQbE3afEI)
 </div>
 
 <div class="plan Class"><span class="kind">LS02 </span>

@@ -37,16 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-05-16" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, May 16</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL01 </span><span class="title">An Introduction to Coding + Beginning Concepts</span>
-<ul class="links"><li class="link"><a href="/static/slides/SS1-CL01.pdf">Lecture Slides</a></li>
-<li class="link"><a href="/lessons/objects-data-types.html">Objects + Data Types Lecture Notes</a></li>
-<li class="link"><a href="/lessons/expressions.html">Expressions Lecture Notes</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS01 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Data Types (Due Thursday 5/16)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-05-17" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-05-17" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 17</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL02 </span><span class="title">Expressions, Variables, + Conditionals</span>
@@ -76,7 +67,16 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-05-15" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-05-16" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, May 16</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL01 </span><span class="title">An Introduction to Coding + Beginning Concepts</span>
+<ul class="links"><li class="link"><a href="/static/slides/SS1-CL01.pdf">Lecture Slides</a></li>
+<li class="link"><a href="/lessons/objects-data-types.html">Objects + Data Types Lecture Notes</a></li>
+<li class="link"><a href="/lessons/expressions.html">Expressions Lecture Notes</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS01 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Data Types (Due Thursday 5/16)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-05-15" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, May 15</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL00 </span><span class="title">Welcome to COMP110 - An Intro to the Class</span>
