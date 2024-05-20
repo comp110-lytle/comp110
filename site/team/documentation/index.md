@@ -37,7 +37,7 @@ site-branch: team
 
 ### Grading
 
-* [Generate Grading CSV](/team/documentation/guides/grading_csv.html) 
+* [Grading Documentation](/team/documentation/guides/grading_csv.html) 
 
 </div>
 
