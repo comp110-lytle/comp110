@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/virtual-classes/VL00.html">VL00 - TUE, MAY 21 11:59pm</a></li><li class="horizon-item"><span>QZ00 - FRI, MAY 24 11:59pm</span></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/virtual-classes/VL00.html">VL00 - MON, MAY 20 11:59pm</a></li><li class="horizon-item"><span>LS05 - MON, MAY 20 11:59pm</span></li><li class="horizon-item"><span>LS06 - MON, MAY 20 11:59pm</span></li><li class="horizon-item"><span>LS07 - MON, MAY 20 11:59pm</span></li><li class="horizon-item"><span>LS08 - MON, MAY 20 11:59pm</span></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS08 - TUE, MAY 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS09 - TUE, MAY 21 11:59pm</a></li><li class="horizon-item"><span>QZ00 - FRI, MAY 24 11:59pm</span></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,18 +37,22 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-05-17" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, May 17</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL02 </span><span class="title">Expressions, Variables, + Conditionals</span>
-<ul class="links"><li class="link"><a href="/static/slides/SS1-CL02.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Friday 5/17)</a></span></div><div class="plan Lesson">
-<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Variables and User Input (Due Friday 5/17)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-05-20" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-05-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, May 20</div>
 <div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL00 </span><span class="title"><a href="/virtual-classes/VL00.html">Virtual Lesson (Due Tuesday 5/21)</a></span></div></div>
+<span class="kind">VL00 </span><span class="title"><a href="/virtual-classes/VL00.html">Virtual Lesson (Due Monday 5/20)</a></span></div><div class="plan Lesson">
+<span class="kind">LS05 </span><span class="title">Running a Program + The Terminal (Due Monday 5/20)</span></div><div class="plan Lesson">
+<span class="kind">LS06 </span><span class="title">Boolean Operators (Due Monday 5/20)</span></div><div class="plan Lesson">
+<span class="kind">LS07 </span><span class="title">Unicode, Emoji, Escape Sequences, and f-Strings (Due Monday 5/20)</span></div><div class="plan Lesson">
+<span class="kind">LS08 </span><span class="title">Memory Diagrams (Due Monday 5/20)</span></div></div>
+</div><div data-type="lecture" data-date="2024-05-21" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, May 21</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL03 </span><span class="title">Conditionals and while Loops</span>
+<ul class="links"><li class="link"><a href="/static/slides/SS1-CL03.pdf">Lecture Slides</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS08 </span><span class="title"><a href="https://www.gradescope.com/">Conditionals (Due Tuesday 5/21)</a></span></div><div class="plan Lesson">
+<span class="kind">LS09 </span><span class="title"><a href="https://www.gradescope.com/">While Loops (Due Tuesday 5/21)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-05-24" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 24</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -67,7 +71,15 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-05-16" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-05-17" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, May 17</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL02 </span><span class="title">Expressions, Variables, + Conditionals</span>
+<ul class="links"><li class="link"><a href="/static/slides/SS1-CL02.pdf">Lecture Slides</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Friday 5/17)</a></span></div><div class="plan Lesson">
+<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Variables and User Input (Due Friday 5/17)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-05-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, May 16</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL01 </span><span class="title">An Introduction to Coding + Beginning Concepts</span>

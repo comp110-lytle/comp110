@@ -59,5 +59,37 @@
                 "": "https://www.gradescope.com/"
             }
         }
+    ],
+    "2024-05-17": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Expressions, Variables, + Conditionals",
+            "date": "2024-05-17",
+            "deadline": "None",
+            "links": {
+                "Lecture Slides": "/static/slides/SS1-CL02.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Expressions (Due Friday 5/17)",
+            "date": "2024-05-17",
+            "deadline": "2024-05-17",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Variables and User Input (Due Friday 5/17)",
+            "date": "2024-05-17",
+            "deadline": "2024-05-17",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
     ]
 }

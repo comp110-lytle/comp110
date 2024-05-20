@@ -98,15 +98,78 @@
         {
             "kind": "VL",
             "n": 0,
-            "title": "Virtual Lesson (Due Tuesday 5/21)",
+            "title": "Virtual Lesson (Due Monday 5/20)",
             "date": "2024-05-20",
-            "deadline": "2024-05-21",
+            "deadline": "2024-05-20",
             "links": {
                 "": "/virtual-classes/VL00.html"
             }
+        },
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Running a Program + The Terminal (Due Monday 5/20)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-20",
+            "links": {}
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Boolean Operators (Due Monday 5/20)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-20",
+            "links": {}
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Unicode, Emoji, Escape Sequences, and f-Strings (Due Monday 5/20)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-20",
+            "links": {}
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Memory Diagrams (Due Monday 5/20)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-20",
+            "links": {}
         }
     ],
-    "2024-05-21": [],
+    "2024-05-21": [
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Conditionals and while Loops",
+            "date": "2024-05-21",
+            "deadline": "None",
+            "links": {
+                "Lecture Slides": "/static/slides/SS1-CL03.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Conditionals (Due Tuesday 5/21)",
+            "date": "2024-05-21",
+            "deadline": "2024-05-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "While Loops (Due Tuesday 5/21)",
+            "date": "2024-05-21",
+            "deadline": "2024-05-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-05-22": [],
     "2024-05-23": [],
     "2024-05-24": [
