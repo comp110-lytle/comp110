@@ -189,7 +189,10 @@
             "title": "Quiz 0",
             "date": "2024-05-24",
             "deadline": "2024-05-24",
-            "links": {}
+            "links": {
+                "What to Expect": "/resources/quiz-expectations.html",
+                "Practice Problems": "/resources/practice/ss24/qz00.html"
+            }
         }
     ],
     "2024-05-25": [],

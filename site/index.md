@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/virtual-classes/VL00.html">VL00 - MON, MAY 20 11:59pm</a></li><li class="horizon-item"><span>LS05 - MON, MAY 20 11:59pm</span></li><li class="horizon-item"><span>LS06 - MON, MAY 20 11:59pm</span></li><li class="horizon-item"><span>LS07 - MON, MAY 20 11:59pm</span></li><li class="horizon-item"><span>LS08 - MON, MAY 20 11:59pm</span></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS08 - TUE, MAY 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS09 - TUE, MAY 21 11:59pm</a></li><li class="horizon-item"><a href="/exercises/simple-battleship.html">EX01 - FRI, MAY 24 11:59pm</a></li><li class="horizon-item"><span>QZ00 - FRI, MAY 24 11:59pm</span></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/virtual-classes/VL00.html">VL00 - MON, MAY 20 11:59pm</a></li><li class="horizon-item"><span>LS05 - MON, MAY 20 11:59pm</span></li><li class="horizon-item"><span>LS06 - MON, MAY 20 11:59pm</span></li><li class="horizon-item"><span>LS07 - MON, MAY 20 11:59pm</span></li><li class="horizon-item"><span>LS08 - MON, MAY 20 11:59pm</span></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS08 - TUE, MAY 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS09 - TUE, MAY 21 11:59pm</a></li><li class="horizon-item"><a href="/exercises/simple-battleship.html">EX01 - FRI, MAY 24 11:59pm</a></li><li class="horizon-item"><a href="/resources/quiz-expectations.html">QZ00 - FRI, MAY 24 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -57,7 +57,10 @@ template: home
 </div><div data-type="lecture" data-date="2024-05-24" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 24</div>
 <div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ00 </span><span class="title">Quiz 0</span></div></div>
+<span class="kind">QZ00 </span><span class="title">Quiz 0</span>
+<ul class="links"><li class="link"><a href="/resources/quiz-expectations.html">What to Expect</a></li>
+<li class="link"><a href="/resources/practice/ss24/qz00.html">Practice Problems</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-05-31" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 31</div>
 <div class="plans col-md-9"><div class="plan Quiz">
