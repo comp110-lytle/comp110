@@ -11,7 +11,7 @@ from _pytest.monkeypatch import MonkeyPatch
 from _pytest.capture import CaptureFixture
 from graders.helpers import author_is_a_valid_pid, mute_output, set_stdin, import_module, reimport_module
 
-MODULE = "exercises.ex01_simple_battleship"
+MODULE = "ex01_simple_battleship"
 module: Any  # Global variable will hold the module object which can be reloaded
 
 ### PART 0 ###
