@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS09 - TUE, MAY 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS010 - TUE, MAY 21 11:59pm</a></li><li class="horizon-item"><a href="/exercises/simple-battleship.html">EX01 - FRI, MAY 24 11:59pm</a></li><li class="horizon-item"><a href="/resources/ss-quiz-expectations.html">QZ00 - FRI, MAY 24 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS09 - TUE, MAY 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS010 - TUE, MAY 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.youtube.com/watch?v=GOs7pwPLB1k">LS011 - WED, MAY 22 11:59pm</a></li><li class="horizon-item"><a href="https://www.youtube.com/watch?v=XQPFd1Gae9M">LS012 - WED, MAY 22 11:59pm</a></li><li class="horizon-item"><a href="/exercises/simple-battleship.html">EX01 - FRI, MAY 24 11:59pm</a></li><li class="horizon-item"><a href="/resources/ss-quiz-expectations.html">QZ00 - FRI, MAY 24 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -66,6 +66,21 @@ template: home
 <span class="kind">LS09 </span><span class="title"><a href="https://www.gradescope.com/">Conditionals (Due Tuesday 5/21)</a></span></div><div class="plan Lesson">
 <span class="kind">LS10 </span><span class="title"><a href="https://www.gradescope.com/">While Loops (Due Tuesday 5/21)</a></span></div><div class="plan Exercise">
 <span class="kind">EX01 </span><span class="title"><a href="/exercises/simple-battleship.html">Simple Battleship (Due Friday 5/24)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-05-22" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, May 22</div>
+<div class="plans col-md-9"><div class="plan Lesson">
+<span class="kind">LS11 </span><span class="title">Relative Reassignment Operators (Due Wednesday 5/22)</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=GOs7pwPLB1k">Video</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS12 </span><span class="title">Counters (Due Wednesday 5/22)</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=XQPFd1Gae9M">Video</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2024-05-23" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, May 23</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL04 </span><span class="title">While Loops + Counters, Quiz Review</span>
+<ul class="links"><li class="link"><a href="/">Lecture Slides</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-05-24" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 24</div>
 <div class="plans col-md-9"><div class="plan Quiz">

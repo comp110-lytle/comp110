@@ -201,8 +201,40 @@
             }
         }
     ],
-    "2024-05-22": [],
-    "2024-05-23": [],
+    "2024-05-22": [
+        {
+            "kind": "LS",
+            "n": 11,
+            "title": "Relative Reassignment Operators (Due Wednesday 5/22)",
+            "date": "2024-05-22",
+            "deadline": "2024-05-22",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=GOs7pwPLB1k"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 12,
+            "title": "Counters (Due Wednesday 5/22)",
+            "date": "2024-05-22",
+            "deadline": "2024-05-22",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=XQPFd1Gae9M"
+            }
+        }
+    ],
+    "2024-05-23": [
+        {
+            "kind": "CL",
+            "n": 4,
+            "title": "While Loops + Counters, Quiz Review",
+            "date": "2024-05-23",
+            "deadline": "None",
+            "links": {
+                "Lecture Slides": "/"
+            }
+        }
+    ],
     "2024-05-24": [
         {
             "kind": "QZ",
