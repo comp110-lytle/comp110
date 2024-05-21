@@ -96,22 +96,15 @@
     "2024-05-19": [],
     "2024-05-20": [
         {
-            "kind": "VL",
-            "n": 0,
-            "title": "Virtual Lesson (Due Monday 5/20)",
-            "date": "2024-05-20",
-            "deadline": "2024-05-20",
-            "links": {
-                "": "/virtual-classes/VL00.html"
-            }
-        },
-        {
             "kind": "LS",
             "n": 5,
             "title": "Running a Program + The Terminal (Due Monday 5/20)",
             "date": "2024-05-20",
             "deadline": "2024-05-20",
-            "links": {}
+            "links": {
+                "Video": "https://youtu.be/2IAQbE3afEI",
+                "Assignment": "https://www.gradescope.com/"
+            }
         },
         {
             "kind": "LS",
@@ -119,7 +112,10 @@
             "title": "Boolean Operators (Due Monday 5/20)",
             "date": "2024-05-20",
             "deadline": "2024-05-20",
-            "links": {}
+            "links": {
+                "Video": "https://youtu.be/tmmSlIq9I_0",
+                "Assignment": "https://www.gradescope.com/"
+            }
         },
         {
             "kind": "LS",
@@ -127,7 +123,10 @@
             "title": "Unicode, Emoji, Escape Sequences, and f-Strings (Due Monday 5/20)",
             "date": "2024-05-20",
             "deadline": "2024-05-20",
-            "links": {}
+            "links": {
+                "Notes": "https://comp110-24s.github.io/lessons/strings.html",
+                "Assignment": "https://www.gradescope.com/"
+            }
         },
         {
             "kind": "LS",
@@ -135,7 +134,29 @@
             "title": "Memory Diagrams (Due Monday 5/20)",
             "date": "2024-05-20",
             "deadline": "2024-05-20",
-            "links": {}
+            "links": {
+                "Video": "https://youtu.be/YKVT9mCtYPE"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Practice Memory Diagram (Due Monday 5/20)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-20",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Practice Memory Diagram with Conditionals (Due Monday 5/20)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-20",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
         }
     ],
     "2024-05-21": [

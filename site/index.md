@@ -39,12 +39,24 @@ template: home
 <!-- Current Week and Future -->
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-05-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, May 20</div>
-<div class="plans col-md-9"><div class="plan Virtual Lesson">
-<span class="kind">VL00 </span><span class="title"><a href="/virtual-classes/VL00.html">Virtual Lesson (Due Monday 5/20)</a></span></div><div class="plan Lesson">
-<span class="kind">LS05 </span><span class="title">Running a Program + The Terminal (Due Monday 5/20)</span></div><div class="plan Lesson">
-<span class="kind">LS06 </span><span class="title">Boolean Operators (Due Monday 5/20)</span></div><div class="plan Lesson">
-<span class="kind">LS07 </span><span class="title">Unicode, Emoji, Escape Sequences, and f-Strings (Due Monday 5/20)</span></div><div class="plan Lesson">
-<span class="kind">LS08 </span><span class="title">Memory Diagrams (Due Monday 5/20)</span></div></div>
+<div class="plans col-md-9"><div class="plan Lesson">
+<span class="kind">LS05 </span><span class="title">Running a Program + The Terminal (Due Monday 5/20)</span>
+<ul class="links"><li class="link"><a href="https://youtu.be/2IAQbE3afEI">Video</a></li>
+<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS06 </span><span class="title">Boolean Operators (Due Monday 5/20)</span>
+<ul class="links"><li class="link"><a href="https://youtu.be/tmmSlIq9I_0">Video</a></li>
+<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS07 </span><span class="title">Unicode, Emoji, Escape Sequences, and f-Strings (Due Monday 5/20)</span>
+<ul class="links"><li class="link"><a href="https://comp110-24s.github.io/lessons/strings.html">Notes</a></li>
+<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS08 </span><span class="title">Memory Diagrams (Due Monday 5/20)</span>
+<ul class="links"><li class="link"><a href="https://youtu.be/YKVT9mCtYPE">Video</a></li>
+</ul></div><div class="plan Challenge Question">
+<span class="kind">CQ00 </span><span class="title"><a href="https://www.gradescope.com/">Practice Memory Diagram (Due Monday 5/20)</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ01 </span><span class="title"><a href="https://www.gradescope.com/">Practice Memory Diagram with Conditionals (Due Monday 5/20)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-05-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, May 21</div>
 <div class="plans col-md-9"><div class="plan Class">
