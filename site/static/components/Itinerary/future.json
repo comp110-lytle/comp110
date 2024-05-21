@@ -1,5 +1,4 @@
 {
-    "2024-05-18": [],
     "2024-05-19": [],
     "2024-05-20": [
         {
@@ -58,7 +57,7 @@
         },
         {
             "kind": "LS",
-            "n": 8,
+            "n": 9,
             "title": "Conditionals (Due Tuesday 5/21)",
             "date": "2024-05-21",
             "deadline": "2024-05-21",
@@ -68,7 +67,7 @@
         },
         {
             "kind": "LS",
-            "n": 9,
+            "n": 10,
             "title": "While Loops (Due Tuesday 5/21)",
             "date": "2024-05-21",
             "deadline": "2024-05-21",
@@ -97,7 +96,7 @@
             "date": "2024-05-24",
             "deadline": "2024-05-24",
             "links": {
-                "What to Expect": "/resources/quiz-expectations.html",
+                "What to Expect": "/resources/ss-quiz-expectations.html",
                 "Practice Problems": "/resources/practice/ss24/qz00.html"
             }
         }
