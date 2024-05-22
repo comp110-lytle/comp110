@@ -233,6 +233,16 @@
             "links": {
                 "Lecture Slides": "/static/slides/SS1-CL04.pdf"
             }
+        },
+        {
+            "kind": "RD",
+            "n": 0,
+            "title": "Reading: The Ethical Algorithm (Due Thursday 6/6)",
+            "date": "2024-05-23",
+            "deadline": "2024-06-06",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
         }
     ],
     "2024-05-24": [

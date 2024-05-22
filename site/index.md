@@ -80,7 +80,8 @@ template: home
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL04 </span><span class="title">While Loops + Counters, Quiz Review</span>
 <ul class="links"><li class="link"><a href="/static/slides/SS1-CL04.pdf">Lecture Slides</a></li>
-</ul></div></div>
+</ul></div><div class="plan Reading">
+<span class="kind">RD00 </span><span class="title"><a href="https://www.gradescope.com/">Reading: The Ethical Algorithm (Due Thursday 6/6)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-05-24" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 24</div>
 <div class="plans col-md-9"><div class="plan Quiz">
