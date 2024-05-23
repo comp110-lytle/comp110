@@ -67,7 +67,7 @@ navbar: base
 <div class="link-page box">
 ## FAQ
 
-* [What to expect on quizzes?](/resources/quiz-expectations.html)
+* [What to expect on quizzes?](/resources/ss-quiz-expectations.html)
 
 * [Style, Linting and Reading the Autograder](/resources/style-guide.html)
 
