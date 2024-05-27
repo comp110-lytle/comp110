@@ -1,172 +1,49 @@
 {
-    "2024-05-20": [
-        {
-            "kind": "LS",
-            "n": 5,
-            "title": "Running a Program + The Terminal (Due Monday 5/20)",
-            "date": "2024-05-20",
-            "deadline": "2024-05-20",
-            "links": {
-                "Video": "https://youtu.be/2IAQbE3afEI",
-                "Assignment": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 6,
-            "title": "Boolean Operators (Due Monday 5/20)",
-            "date": "2024-05-20",
-            "deadline": "2024-05-20",
-            "links": {
-                "Video": "https://youtu.be/tmmSlIq9I_0",
-                "Assignment": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 7,
-            "title": "Unicode, Emoji, Escape Sequences, and f-Strings (Due Monday 5/20)",
-            "date": "2024-05-20",
-            "deadline": "2024-05-20",
-            "links": {
-                "Notes": "https://comp110-24s.github.io/lessons/strings.html",
-                "Assignment": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 8,
-            "title": "Memory Diagrams (Due Monday 5/20)",
-            "date": "2024-05-20",
-            "deadline": "2024-05-20",
-            "links": {
-                "Video": "https://youtu.be/YKVT9mCtYPE"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 0,
-            "title": "Practice Memory Diagram (Due Monday 5/20)",
-            "date": "2024-05-20",
-            "deadline": "2024-05-20",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 1,
-            "title": "Practice Memory Diagram with Conditionals (Due Monday 5/20)",
-            "date": "2024-05-20",
-            "deadline": "2024-05-20",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-05-21": [
+    "2024-05-25": [],
+    "2024-05-26": [],
+    "2024-05-27": [],
+    "2024-05-28": [
         {
             "kind": "CL",
-            "n": 3,
-            "title": "Conditionals and while Loops",
-            "date": "2024-05-21",
+            "n": 5,
+            "title": "Introduction to Functions + Function Syntax",
+            "date": "2024-05-28",
             "deadline": "None",
             "links": {
-                "Lecture Slides": "/static/slides/SS1-CL03.pdf"
+                "Lecture Slides": "/static/slides/SS1-CL05.pdf"
             }
         },
         {
             "kind": "LS",
-            "n": 9,
-            "title": "Conditionals (Due Tuesday 5/21)",
-            "date": "2024-05-21",
-            "deadline": "2024-05-21",
+            "n": 13,
+            "title": "Introduction to Functions (Due Tuesday 5/28)",
+            "date": "2024-05-28",
+            "deadline": "2024-05-28",
             "links": {
                 "": "https://www.gradescope.com/"
             }
         },
         {
             "kind": "LS",
-            "n": 10,
-            "title": "While Loops (Due Tuesday 5/21)",
-            "date": "2024-05-21",
-            "deadline": "2024-05-21",
+            "n": 14,
+            "title": "Function Syntax (Due Tuesday 5/28)",
+            "date": "2024-05-28",
+            "deadline": "2024-05-28",
             "links": {
                 "": "https://www.gradescope.com/"
             }
         },
         {
             "kind": "EX",
-            "n": 1,
-            "title": "Simple Battleship (Due Friday 5/24)",
-            "date": "2024-05-21",
-            "deadline": "2024-05-24",
+            "n": 2,
+            "title": "One-shot Battleship (Due Friday 5/31)",
+            "date": "2024-05-28",
+            "deadline": "2024-05-31",
             "links": {
-                "": "/exercises/simple-battleship.html"
+                "": "/exercises/one-shot-battleship.html"
             }
         }
     ],
-    "2024-05-22": [
-        {
-            "kind": "LS",
-            "n": 11,
-            "title": "Relative Reassignment Operators (Due Wednesday 5/22)",
-            "date": "2024-05-22",
-            "deadline": "2024-05-22",
-            "links": {
-                "Video": "https://www.youtube.com/watch?v=GOs7pwPLB1k"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 12,
-            "title": "Counters (Due Wednesday 5/22)",
-            "date": "2024-05-22",
-            "deadline": "2024-05-22",
-            "links": {
-                "Video": "https://www.youtube.com/watch?v=XQPFd1Gae9M"
-            }
-        }
-    ],
-    "2024-05-23": [
-        {
-            "kind": "CL",
-            "n": 4,
-            "title": "While Loops + Counters, Quiz Review",
-            "date": "2024-05-23",
-            "deadline": "None",
-            "links": {
-                "Lecture Slides": "/static/slides/SS1-CL04.pdf"
-            }
-        },
-        {
-            "kind": "RD",
-            "n": 0,
-            "title": "Reading: The Ethical Algorithm (Due Thursday 6/6)",
-            "date": "2024-05-23",
-            "deadline": "2024-06-06",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-05-24": [
-        {
-            "kind": "QZ",
-            "n": 0,
-            "title": "Quiz 0",
-            "date": "2024-05-24",
-            "deadline": "2024-05-24",
-            "links": {
-                "What to Expect": "/resources/ss-quiz-expectations.html",
-                "Practice Problems": "/resources/practice/ss24/qz00.html"
-            }
-        }
-    ],
-    "2024-05-25": [],
-    "2024-05-26": [],
-    "2024-05-27": [],
-    "2024-05-28": [],
     "2024-05-29": [],
     "2024-05-30": [],
     "2024-05-31": [

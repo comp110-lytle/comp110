@@ -261,7 +261,48 @@
     "2024-05-25": [],
     "2024-05-26": [],
     "2024-05-27": [],
-    "2024-05-28": [],
+    "2024-05-28": [
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "Introduction to Functions + Function Syntax",
+            "date": "2024-05-28",
+            "deadline": "None",
+            "links": {
+                "Lecture Slides": "/static/slides/SS1-CL05.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Introduction to Functions (Due Tuesday 5/28)",
+            "date": "2024-05-28",
+            "deadline": "2024-05-28",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 14,
+            "title": "Function Syntax (Due Tuesday 5/28)",
+            "date": "2024-05-28",
+            "deadline": "2024-05-28",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "One-shot Battleship (Due Friday 5/31)",
+            "date": "2024-05-28",
+            "deadline": "2024-05-31",
+            "links": {
+                "": "/exercises/one-shot-battleship.html"
+            }
+        }
+    ],
     "2024-05-29": [],
     "2024-05-30": [],
     "2024-05-31": [
