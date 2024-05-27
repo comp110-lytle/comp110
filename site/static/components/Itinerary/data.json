@@ -315,12 +315,33 @@
             "links": {
                 "Practice Problems": "/resources/practice/ss24/qz01.html"
             }
+        },
+        {
+            "kind": "EX",
+            "n": 3,
+            "title": "Functional Battleship (Due Tuesday 6/4)",
+            "date": "2024-05-31",
+            "deadline": "2024-06-04",
+            "links": {
+                "": "/"
+            }
         }
     ],
     "2024-06-01": [],
     "2024-06-02": [],
     "2024-06-03": [],
-    "2024-06-04": [],
+    "2024-06-04": [
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "List Utils (Due Friday 6/7)",
+            "date": "2024-06-04",
+            "deadline": "2024-06-07",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-06-05": [],
     "2024-06-06": [],
     "2024-06-07": [
