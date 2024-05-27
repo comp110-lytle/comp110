@@ -12,15 +12,15 @@ template: overview
 
 Please complete all lessons before attempting to begin this exercise.
 
-The next step in our journey to implementing Battleship is to produce a program that gives the player one shot at guessing your program's secret boat location. (Of couse, they can play the game multiple times in order to have multiple chances.)
+The next step in our journey to implementing Battleship is to produce a program that gives the player one shot at guessing your program's secret boat location. (Of course, they can play the game multiple times in order to have multiple chances.)
 
 In this exercise, you will print out a grid of boxes instead of just one line, and prompt the user for a **row** and **column** for their guess. Level up!
 
-You should follow the steps below for implementing the program one step at a time. To get a sense of where you are going, here is an example of the final game:
+You should follow the steps below for implementing the program one step at a time. You will find that you'll be able to copy-paste some code from your previous exercise, Simple Battleship, but only certain parts. To get a sense of where you are going, here is an example of the final game:
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 2
     Guess a column: 4
     🟦🟦🟦🟦
@@ -29,7 +29,7 @@ You should follow the steps below for implementing the program one step at a tim
     🟦🟦🟦🟦
     Miss!
 
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 1
     Guess a column: 2
     🟦⬜🟦🟦
@@ -38,7 +38,7 @@ You should follow the steps below for implementing the program one step at a tim
     🟦🟦🟦🟦
     Close! Correct column, wrong row.
 
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 3
     Guess a column: 3
     🟦🟦🟦🟦
@@ -47,7 +47,7 @@ You should follow the steps below for implementing the program one step at a tim
     🟦🟦🟦🟦
     Close! Correct row, wrong column.
     
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 5
     The grid is only 4 by 4. Try again: 3
     Guess a column: 6
@@ -72,11 +72,11 @@ Before beginning work on this exercise, you might want to reread the following l
 
 ## Part 0. Setting up the Python Program
 
-In Visual Studio Code, be sure your workspace is open. (Reminder: File > Open Recent > comp110-YYS-workspace is a quick way to reopen it! Where YY is the current year and S is the semeseter: S for Spring, F for Fall.)
+In Visual Studio Code, be sure your workspace is open. (Reminder: File > Open Recent > comp110-YYS-workspace is a quick way to reopen it! Where YY is the current year and S is the semeseter: S for Spring, F for Fall, SS# for Summer Session.)
 
 Open the Explorer pane (click the icon with two sheets of paper or to to _View_ > _Explorer_) and expand the _Workspace_ directory.
 
-Right click on the `exercises` directory and select "New File". Enter the following filename, being careful to match capitalization and punctuation:
+Right click in the workspace directory and select "New File". Enter the following filename, being careful to match capitalization and punctuation:
 
 * `ex02_one_shot_battleship.py`
 
@@ -92,19 +92,19 @@ Additionally, in simple battleship, you would exit if the user gave an invalid i
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 3
     Guess a column: 2
     Hit!
 
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 5
     The grid is only 4 by 4. Try again: 1
     Guess a column: 6
     The grid is only 4 by 4. Try again: 2
     Miss!
 
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 5
     The grid is only 4 by 4. Try again: 12390
     The grid is only 4 by 4. Try again: 3
@@ -153,7 +153,7 @@ Once you have completed this part of the program, your output should look as fol
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 2
     Guess a column: 4
     🟦🟦🟦🟦
@@ -162,7 +162,7 @@ Once you have completed this part of the program, your output should look as fol
     🟦🟦🟦🟦
     Miss!
 
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 3
     Guess a column: 3
     🟦🟦🟦🟦
@@ -171,7 +171,7 @@ Once you have completed this part of the program, your output should look as fol
     🟦🟦🟦🟦
     Miss!
     
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 3
     Guess a column: 2
     🟦🟦🟦🟦
@@ -191,7 +191,7 @@ Add a couple `elif` statements to your user feedback ("Hit!" and "Miss" logic). 
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 2
     Guess a column: 4
     🟦🟦🟦🟦
@@ -200,7 +200,7 @@ Add a couple `elif` statements to your user feedback ("Hit!" and "Miss" logic). 
     🟦🟦🟦🟦
     Miss!
 
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 1
     Guess a column: 2
     🟦⬜🟦🟦
@@ -209,7 +209,7 @@ Add a couple `elif` statements to your user feedback ("Hit!" and "Miss" logic). 
     🟦🟦🟦🟦
     Close! Correct column, wrong row.
 
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 3
     Guess a column: 4
     🟦🟦🟦🟦
@@ -218,7 +218,7 @@ Add a couple `elif` statements to your user feedback ("Hit!" and "Miss" logic). 
     🟦🟦🟦🟦
     Close! Correct row, wrong column.
 
-    $ python -m exercises.ex02_one_shot_battleship
+    $ python -m ex02_one_shot_battleship
     Guess a row: 5
     The grid is only 4 by 4. Try again: 3
     Guess a column: 3
@@ -267,8 +267,8 @@ If you _do not_ see a Terminal at the bottom of your screen, open the Command Pa
 
 Type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex02_one_shot_battleship.py`
+`python -m tools.submission ex02_one_shot_battleship.py`
 
-In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex02_one_shot_battleship.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-ex02_one_shot_battleship.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
-Autograding will take a few moments to complete.  If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours! -->
+Autograding will take a few moments to complete.  If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours! 
