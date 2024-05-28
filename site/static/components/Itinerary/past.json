@@ -97,7 +97,7 @@
     "2024-05-20": [
         {
             "kind": "LS",
-            "n": 5,
+            "n": 4,
             "title": "Running a Program + The Terminal (Due Monday 5/20)",
             "date": "2024-05-20",
             "deadline": "2024-05-20",
@@ -108,7 +108,7 @@
         },
         {
             "kind": "LS",
-            "n": 6,
+            "n": 5,
             "title": "Boolean Operators (Due Monday 5/20)",
             "date": "2024-05-20",
             "deadline": "2024-05-20",
@@ -119,7 +119,7 @@
         },
         {
             "kind": "LS",
-            "n": 7,
+            "n": 6,
             "title": "Unicode, Emoji, Escape Sequences, and f-Strings (Due Monday 5/20)",
             "date": "2024-05-20",
             "deadline": "2024-05-20",
@@ -130,7 +130,7 @@
         },
         {
             "kind": "LS",
-            "n": 8,
+            "n": 7,
             "title": "Memory Diagrams (Due Monday 5/20)",
             "date": "2024-05-20",
             "deadline": "2024-05-20",

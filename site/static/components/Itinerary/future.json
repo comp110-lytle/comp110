@@ -68,18 +68,18 @@
         {
             "kind": "LS",
             "n": 17,
-            "title": "Importing Functions (Due Wednesday 5/29)",
+            "title": "Importing Functions + Modules (Due Wednesday 5/29)",
             "date": "2024-05-29",
             "deadline": "2024-05-29",
             "links": {
-                "Video *(Coming Soon)*": "/",
+                "Video": "https://youtu.be/-Q-9HmzEb38?si=SncXUf4VSfgUZrex",
                 "Assignment": "https://www.gradescope.com/"
             }
         },
         {
             "kind": "LS",
             "n": 18,
-            "title": "Importing Functions in the Trailhead (Due Wednesday 5/29)",
+            "title": "Importing Functions in the REPL + the Trailhead (Due Wednesday 5/29)",
             "date": "2024-05-29",
             "deadline": "2024-05-29",
             "links": {
