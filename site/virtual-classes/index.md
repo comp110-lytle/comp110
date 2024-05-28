@@ -82,7 +82,7 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS15 </span>
 <span class="title">Union Types:</span>
-[Video *(Coming Soon)*](/)
+[Video](https://youtu.be/J-iR9m3o1-s)
 </div>
 
 <div class="plan Class"><span class="kind">LS16 </span>
@@ -92,6 +92,6 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS17 </span>
 <span class="title">Importing Functions in the REPL + the Trailhead:</span>
-[Video *(Coming Soon)*](/)
+[Video](https://youtu.be/s9nFWKB8MXk)
 </div>
 
