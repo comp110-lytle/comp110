@@ -303,7 +303,50 @@
             }
         }
     ],
-    "2024-05-29": [],
+    "2024-05-29": [
+        {
+            "kind": "LS",
+            "n": 15,
+            "title": "Function Semantics (Due Wednesday 5/29)",
+            "date": "2024-05-29",
+            "deadline": "2024-05-29",
+            "links": {
+                "In-Class Recording": "https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2dbef2ad-1af1-4f44-86a6-b17e00fb3de9",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 16,
+            "title": "Union Types (Due Wednesday 5/29)",
+            "date": "2024-05-29",
+            "deadline": "2024-05-29",
+            "links": {
+                "Video *(Coming Soon)*": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 17,
+            "title": "Importing Functions (Due Wednesday 5/29)",
+            "date": "2024-05-29",
+            "deadline": "2024-05-29",
+            "links": {
+                "Video *(Coming Soon)*": "/",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 18,
+            "title": "Importing Functions in the Trailhead (Due Wednesday 5/29)",
+            "date": "2024-05-29",
+            "deadline": "2024-05-29",
+            "links": {
+                "Video *(Coming Soon)*": "/"
+            }
+        }
+    ],
     "2024-05-30": [],
     "2024-05-31": [
         {
