@@ -87,6 +87,16 @@
     ],
     "2024-05-30": [
         {
+            "kind": "CL",
+            "n": 6,
+            "title": "Challenge Question + Quiz Review",
+            "date": "2024-05-30",
+            "deadline": "None",
+            "links": {
+                "": "/cqs/functions.html"
+            }
+        },
+        {
             "kind": "CQ",
             "n": 2,
             "title": "Functions Practice (Due Thursday 5/30)",

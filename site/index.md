@@ -65,7 +65,8 @@ template: home
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-05-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, May 30</div>
-<div class="plans col-md-9"><div class="plan Challenge Question">
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL06 </span><span class="title"><a href="/cqs/functions.html">Challenge Question + Quiz Review</a></span></div><div class="plan Challenge Question">
 <span class="kind">CQ02 </span><span class="title"><a href="/cqs/functions.html">Functions Practice (Due Thursday 5/30)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-05-31" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 31</div>
