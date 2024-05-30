@@ -23,7 +23,7 @@ Now, write a function called `display_evens` that takes as input an integer and 
 - prints all even numbers less than or equal to that input number in decreasing order down to 0 and 
 - returns the original number.
 
-For example, `get_evens(6)` should print:
+For example, `display_evens(6)` should print:
 
 `6`
 
