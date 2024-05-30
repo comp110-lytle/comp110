@@ -347,7 +347,18 @@
             }
         }
     ],
-    "2024-05-30": [],
+    "2024-05-30": [
+        {
+            "kind": "CQ",
+            "n": 2,
+            "title": "Functions Practice (Due Thursday 5/30)",
+            "date": "2024-05-30",
+            "deadline": "2024-05-30",
+            "links": {
+                "": "/cqs/functions.html"
+            }
+        }
+    ],
     "2024-05-31": [
         {
             "kind": "QZ",

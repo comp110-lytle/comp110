@@ -1,7 +1,7 @@
 ---
 title: Challenge Question 
 author:
-- Alyssa Byrnes
+- Alyssa Lytle
 page: lessons
 template: overview
 ---
