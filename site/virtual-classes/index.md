@@ -95,3 +95,13 @@ page: lessons
 [Video](https://youtu.be/s9nFWKB8MXk)
 </div>
 
+<div class="plan Class"><span class="kind">LS18 </span>
+<span class="title">Lists:</span>
+[Video](https://www.youtube.com/watch?v=U_GP3Jkz5lU)
+</div>
+
+<div class="plan Class"><span class="kind">LS19 </span>
+<span class="title">Lists in Memory:</span>
+[Video](https://www.youtube.com/watch?v=WCvrVTUZ-Ac)
+</div>
+
