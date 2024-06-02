@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.youtube.com/watch?v=U_GP3Jkz5lU">LS019 - MON, JUN 03 11:59pm</a></li><li class="horizon-item"><a href="https://www.youtube.com/watch?v=WCvrVTUZ-Ac">LS020 - MON, JUN 03 11:59pm</a></li><li class="horizon-item"><a href="/cqs/lists.html">CQ03 - MON, JUN 03 11:59pm</a></li><li class="horizon-item"><a href="/exercises/battleship.html">EX03 - TUE, JUN 04 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD00 - THU, JUN 06 11:59pm</a></li><li class="horizon-item"><a href="/">EX04 - FRI, JUN 07 11:59pm</a></li><li class="horizon-item"><span>QZ02 - FRI, JUN 07 11:59pm</span></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.youtube.com/watch?v=U_GP3Jkz5lU">LS019 - MON, JUN 03 11:59pm</a></li><li class="horizon-item"><a href="https://www.youtube.com/watch?v=WCvrVTUZ-Ac">LS020 - MON, JUN 03 11:59pm</a></li><li class="horizon-item"><a href="/cqs/lists.html">CQ03 - MON, JUN 03 11:59pm</a></li><li class="horizon-item"><a href="/exercises/battleship.html">EX03 - TUE, JUN 04 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD00 - THU, JUN 06 11:59pm</a></li><li class="horizon-item"><a href="/exercises/list-utils.html">EX04 - FRI, JUN 07 11:59pm</a></li><li class="horizon-item"><span>QZ02 - FRI, JUN 07 11:59pm</span></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -59,7 +59,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-06-04" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Jun 4</div>
 <div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX04 </span><span class="title"><a href="/">List Utils (Due Friday 6/7)</a></span></div></div>
+<span class="kind">EX04 </span><span class="title"><a href="/exercises/list-utils.html">List Utils (Due Friday 6/7)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-06-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jun 7</div>
 <div class="plans col-md-9"><div class="plan Quiz">
