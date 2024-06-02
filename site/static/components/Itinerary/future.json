@@ -45,6 +45,16 @@
                 "Video": "https://www.youtube.com/watch?v=WCvrVTUZ-Ac",
                 "Assignment": "https://www.gradescope.com/"
             }
+        },
+        {
+            "kind": "CQ",
+            "n": 3,
+            "title": "Lists Practice (Due Monday 6/3)",
+            "date": "2024-06-03",
+            "deadline": "2024-06-03",
+            "links": {
+                "": "/cqs/lists.html"
+            }
         }
     ],
     "2024-06-04": [
