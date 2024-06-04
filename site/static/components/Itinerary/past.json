@@ -368,5 +368,28 @@
                 "": "/cqs/functions.html"
             }
         }
-    ]
+    ],
+    "2024-05-31": [
+        {
+            "kind": "QZ",
+            "n": 1,
+            "title": "Quiz 1",
+            "date": "2024-05-31",
+            "deadline": "2024-05-31",
+            "links": {
+                "Practice Problems": "/resources/practice/ss24/qz01.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 3,
+            "title": "Functional Battleship (Due Tuesday 6/4)",
+            "date": "2024-05-31",
+            "deadline": "2024-06-04",
+            "links": {
+                "": "/exercises/battleship.html"
+            }
+        }
+    ],
+    "2024-06-01": []
 }

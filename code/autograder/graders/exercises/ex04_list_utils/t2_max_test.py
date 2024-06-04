@@ -4,12 +4,13 @@ __author__ = "730225231"
 
 import pytest
 from pytest import mark
-
+from graders.helpers import import_module, reimport_module, assert_return_type
+MODULE = "ex04_utils"
 
 def _test_max(list: list[int], expected: int) -> None:
     """Helper function for necessary checks"""
-    from exercises.ex04_utils import max
-    assert max(list) == expected
+    module = import_module(MODULE)
+    assert module.max(list) == expected
 
 
 @mark.timeout(3)

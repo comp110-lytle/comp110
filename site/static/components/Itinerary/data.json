@@ -437,6 +437,27 @@
             "links": {
                 "": "/exercises/list-utils.html"
             }
+        },
+        {
+            "kind": "CL",
+            "n": 7,
+            "title": "for Loops + range",
+            "date": "2024-06-04",
+            "deadline": "None",
+            "links": {
+                "Slides (Part A)": "/static/slides/CL07-A.pdf",
+                "Slides (Part B)": "/static/slides/CL07-B.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "for loops practice (Due Tuesday 6/4)",
+            "date": "2024-06-04",
+            "deadline": "2024-06-04",
+            "links": {
+                "": "/cqs/for-loops.html"
+            }
         }
     ],
     "2024-06-05": [],
