@@ -1,4 +1,4 @@
-"""Autograder for Exercise 03 - Structured Wordle."""
+"""Autograder for Turtle Project"""
 
 __author__ = "Kris Jordan <kris@cs.unc.edu>"
 
@@ -9,8 +9,8 @@ configuration = autograde.Configuration(
     src_path="exercises/",
     test_path=path.dirname(path.realpath(__file__)),
     pytest_points=0.0,
-    typecheck_points=10.0,
-    lint_points=15.0,
+    typecheck_points=5.0,
+    lint_points=5.0,
     ec_date_1="2022-02-13",
     ec_date_2="2022-02-15"
 )

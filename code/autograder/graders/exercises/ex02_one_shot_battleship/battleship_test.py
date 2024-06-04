@@ -11,7 +11,7 @@ from _pytest.capture import CaptureFixture
 from graders.helpers import author_is_a_valid_pid, mute_output, set_stdin, import_module, reimport_module
 
 
-MODULE = "exercises.ex02_one_shot_battleship"
+MODULE = "ex02_one_shot_battleship"
 module: Any  # Global variable will hold the module object which can be reloaded
 
 

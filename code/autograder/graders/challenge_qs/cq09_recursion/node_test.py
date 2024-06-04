@@ -7,14 +7,19 @@ from _pytest.capture import CaptureFixture
 from typing import Any
 import inspect
 import types
-from lessons.recursion.node import Node
+from exercises.ex10.linked_list import Node
 
-MODULE = "lessons.recursion.node"
+MODULE = "exercises.ex10.linked_list"
 
+@mark.weight(0)
+def test_author(capsys: CaptureFixture, monkeypatch: MonkeyPatch):
+    """0. __author__ str variable is correct PID format."""
+    set_stdin(monkeypatch, ["hello", "z"])  # 
+    mute_output(capsys)
+    module = import_module(MODULE)
+    mute_output(capsys)
+    assert author_is_a_valid_pid(module)
 
-# riv_module: Any
-# bear_module: Any
-# fish_module: Any
 
 def _equal(ll1: Node, ll2: Node):
     """Checks if two linked lists are equal"""
@@ -26,15 +31,7 @@ def _equal(ll1: Node, ll2: Node):
     else:
         return (ll1.data == ll2.data) and _equal(ll1.next, ll2.next)
 
-@mark.weight(0)
-def test_author(capsys: CaptureFixture, monkeypatch: MonkeyPatch):
-    """0. __author__ str variable is correct PID format."""
-    set_stdin(monkeypatch, ["hello", "z"])  # 
-    mute_output(capsys)
-    global module
-    module = import_module(MODULE)
-    mute_output(capsys)
-    assert author_is_a_valid_pid(module)
+
 
 
 @mark.weight(1)

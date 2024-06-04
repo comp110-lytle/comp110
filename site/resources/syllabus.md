@@ -11,23 +11,30 @@ template: overview
 
 # General Course Info
 
-Term: Spring 2024
+Course: Introduction to Programming
+
+Term: Summer Session 1 2024
 
 Department: COMP
 
 Course Number: 110
 
-Course Website: <https://comp110-24s.github.io>
+Credit Hours: 3
+
+Location: FB007
+
+Course Website: <https://comp110-24ss1.github.io>
 
 
 Sections:
 
-1. 001 - Async Mondays, Sync Wednesdays and Fridays - 2:30 PM - 3:20 PM
-2. 002 - Async Mondays, Sync Wednesdays and Fridays - 3:35PM - 4:25PM
+1. 001 - Async Mondays and Wednesdays, Sync Tuesdays, Thursdays, and Fridays - 09:45 AM-11:15 AM
 
 
 Instructor: [Alyssa Lytle](https://alyssalytle.github.io/)
 
+* Office: FB 136
+* Office Hours: [By Appointment](https://alyssalytle.github.io/schedule.html)
 * E-mail: <comp110help@gmail.com>
 
 ## Curriculum
@@ -38,18 +45,29 @@ A list of concepts covered in this class can be found [here](/resources/curricul
 
 COMP110 introduces students to programming and data science from a computational perspective. With an emphasis on modern applications in society, students gain experience with problem decomposition, algorithms for data analysis, abstraction design, and ethics in computing. No prior programming experience is expected or needed. Foundational concepts include data types, sequences, boolean logic, control flow, functions/methods, classes/objects, input/output, data organization, transformations, and visualizations.
 
-Pre-requisite: A C or better in one of the following courses: MATH 130, 152, 210, 231, 129P, or PHIL 155, or STOR 112, 113, 120, 151, 155.
+* IDEAs in Action General Education logo IDEAs in Action Gen Ed: FC-QUANT.
+* Making Connections Gen Ed: QR. 
+* Pre-requisite: A C or better in one of the following courses: MATH 130, 152, 210, 231, 129P, or PHIL 155, or STOR 112, 113, 120, 151, 155.
 
 ## Goals and Key Learning Objectives
 
 This course is intended to teach basic computer programming skills to students ranging from those with no prior programming experience to those with some prior experience. This course aims to teach general programming language concepts and semantics, problem definition, problem solving, logical and recursive thinking, through algorithm development and writing programs. Additionally, the course offers broad exposure to some of today's key issues of computing in society.
+
+The course also adresses the following IDEAs in Action General Education Quantitative Reasoning Learning outcomes:
+
+1. Summarize, interpret, and present quantitative data in mathematical forms, such as graphs, diagrams, tables, or mathematical text.
+2. Develop or compute representations of data using mathematical forms or equations as models, and use statistical methods to assess their validity.
+3. Make and evaluate important assumptions in the estimation, modeling, and analysis of data, and recognize the limitations of the results.
+4. Apply mathematical concepts, data, procedures, and solutions to make judgments and draw conclusions.
+5. Synthesize and present quantitative data to others to explain findings or to provide quantitative evidence in support of a position.
+
 
 
 # Course Structure
 
 ## Instructional Format
 
-Most new concepts will be introduced asynchronously and remote via prerecorded lessons that enable you to pause, rewind, slow down (or speed up!) and complete with more flexibility than a fixed lecture format permits. **Mondays** will be led this way. The rest of the course, **Wednesdays** and **Fridays**, will serve as days to practice, reinforce, and extend the concepts introduced on Mondays. These days will be held in-person such that you can be surrounded by peers and Undergraduate Teaching Assistants to collaboratively work through challenges together.
+Most new concepts will be introduced asynchronously and remote via prerecorded lessons that enable you to pause, rewind, slow down (or speed up!) and complete with more flexibility than a fixed lecture format permits. **Mondays** and **Wednesdays** will be led this way. The rest of the course, **Tuesdays**, **Thursdays**, and **Fridays**, will serve as days to practice, reinforce, and extend the concepts introduced on virtual days. These days will be held in-person such that you can be surrounded by peers and Undergraduate Teaching Assistants to collaboratively work through challenges together.
 
 ## Quizzes and Required Synchronous Days
 
@@ -57,18 +75,13 @@ Quizzes and examinations are offered in-person only this semester. The format is
 
 **Quiz Dates**
 
-* Quiz (QZ) 00: Fri, Jan 26
-* Quiz (QZ) 01: Fri, Feb 9 
-* Quiz (QZ) 02: Fri, Mar 1
-* Quiz (QZ) 03: Wed, Mar 27
-* Quiz (QZ) 04: Fri, Apr 19
-* Final (FN) Exam: Fri, May 3 @ 8 AM _(Makeup Sat, May 4 @ 12 PM)_
-
-**Quiz Absence Form**
-Please fill out [this form](https://airtable.com/appLAcrgEhUfhwgpH/pagL61MnQCtPPc7T6/form) if you must be absent for a quiz.
-
+* Quiz (QZ) 00: Fri, May 24
+* Quiz (QZ) 01: Fri, May 31 
+* Quiz (QZ) 02: Fri, Jun 7
+* Final (FN) Exam: Fri, Jun 21 @ 8 AM 
+<!-- 
 **Final Exam Makeup**
-If you have a university approved reason for needing to take the final on a makeup day, please fill out [this form](https://airtable.com/appLAcrgEhUfhwgpH/pag4ye0TG4Bee46KI/form).
+If you have a university approved reason for needing to take the final on a makeup day, please fill out [this form](https://airtable.com/appLAcrgEhUfhwgpH/pag4ye0TG4Bee46KI/form). -->
 
 
 ## Quiz Absence Policy
@@ -77,19 +90,25 @@ The quizzes will be held during the section you are registered for and are synch
 
 If you are a part of an organization whose authorized university absences will conflict with two or more of the key dates of quizzes, you should plan on taking COMP110 in a future semester when these unfortunate, but important, conflicts will not arise.
 
-You may be absent for up to one quiz. To request absence from a quiz, you should submit this form before your absence: <https://airtable.com/appLAcrgEhUfhwgpH/pagL61MnQCtPPc7T6/form>.
+You may have an unexcused absence for up to one quiz. 
 
-To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 6% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
+If this is an *excused* absence (university or instructor approved), you should submit this form with attached documentation: <https://airtable.com/appLAcrgEhUfhwgpH/pagL61MnQCtPPc7T6/form>.
+
+To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 10% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
 
 We can offer everyone absent from a quiz the same learning experience of sitting for the quiz at some later date and receiving feedback on it, but a quiz taken in this fashion is not for credit and will not count toward nor against your mastery grade to ensure fairness to all students.
 
 ## Office Hours and Tutoring
 
-The most valuable resources in COMP110 are office hours and tutoring. The resources are offered strictly in-person. Information and times can be found here: <https://comp110-24s.github.io/support/>.
+The most valuable resources in COMP110 are office hours and tutoring. The resources are offered strictly in-person. Information and times can be found [here](/support).
 
 ## Textbooks and Resources
 
 The web page is the primary resource for this course. There is no textbook for COMP110. We will distribute occasional readings, reference material, and tutorials via the course website and Canvas.
+
+## Course Schedule
+
+You can find the most up-to-date course schedule [here](https://comp110-24ss1.github.io/).
 
 
 # Course Expectations + Grading
@@ -111,18 +130,18 @@ To do well in this course you must come to your own individual mastery of introd
 
 
 * 35% - (EX) Programming Exercises
-* 5% - (RD) 3x Reading Responses
+* 5% - (RD) 2x Reading Responses
 * 10% - (LS) Async Lesson Responses on Gradescope (Graded for Correctness)
 * 10% - (CQ) Challenge Question Responses on Gradescope (Graded for Correctness)
-* 30% - 5x Quizzes
+* 30% - 3x Quizzes
 * 10% - Final Exam
 
 The quiz/final exam grading policy is updated to the following:
-The cumulative final exam is worth 40% of your final grade at the start of the term. Each quiz you take accounts for 6% of your final grade and reduces the weight of your final examination by 6%. There are no drops.
+The cumulative final exam is worth 40% of your final grade at the start of the term. Each quiz you take accounts for 10% of your final grade and reduces the weight of your final examination by 10%. There are no drops.
 
-For example: By taking all 5 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the four quizzes you take will account for 24% of your final grade and your final exam will account for 16%.
+For example: By taking all 3 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the four quizzes you take will account for 20% of your final grade and your final exam will account for 20%.
 
-If, and only if, you take all three quizzes and your final examination score exceeds your lowest quiz score, then we will retroactively grant you an absence for the lowest quiz score and your final exam score will be worth 20%.
+If, and only if, you take all quizzes and your final examination score exceeds your lowest quiz score, then we will retroactively grant you an absence for the lowest quiz score and your final exam score will be worth 20%.
 
 
 ## Course Passage Policy
@@ -130,7 +149,7 @@ If, and only if, you take all three quizzes and your final examination score exc
 In order to pass COMP110, you must:
 
 * Have a passing grade given the rubric of weights above and grading scale below,
-* Take at least 4 quizzes,
+* Take at least 2 quizzes,
 * Score greater than 50% on the final exam.
 
 ## Autograding and Resubmissions
@@ -191,7 +210,16 @@ In cases of fractional points, grades will be rounded up if greater than 0.49999
 
 In order to do well in this course, you must come to your own individual understanding of the material. As such, collaboration is prohibited outside of the following policies.
 
-Make sure that you are familiar with The UNC Honor Code. You will be required to sign an Honor Code pledge to hand in with every quiz and the final as well as "sign" the code you submit for grading by filling in your PID in the required `__author__` variable. Failing to do so may result in no credit assigned for the assignment.
+Make sure that you are familiar with The [UNC Honor Code](https://studentconduct.unc.edu/). You will be required to sign an Honor Code pledge to hand in with every quiz and the final as well as "sign" the code you submit for grading by filling in your PID in the required `__author__` variable. Failing to do so may result in no credit assigned for the assignment.
+
+## Permitted Constructs
+
+If we see the use of an outside contruct before it's been covered in class (e.g. for loops), we may assume the usage of unpermitted aid and will deduct points accordingly
+
+## Use of Artificial Intelligence 
+
+Use of generative AI tools of any kind is not permitted in this course. Any use of these tools will be considered an instance of academic dishonesty and will be referred to the Honor System.
+
 
 ## Collaboration Policy on Ungraded, General Course Concepts
 
@@ -229,6 +257,17 @@ I reserve the right to, at any time, ask you to submit to a "code review" test w
 
 
 
+# Other Policies
+
+## University Attendance Policy
+
+University Policy: As stated in the University’s [Class Attendance Policy](https://catalog.unc.edu/policies-procedures/attendance-grading-examination/#text), no right or privilege exists that permits a student to be absent from any class meetings, except for these University Approved Absences:
+
+1. Authorized University activities: [University Approved Absence Office (UAAO) website](https://uaao.unc.edu/) provides information and [FAQs for students](https://uaao.unc.edu/faqs-for-students/) and [FAQs for faculty](https://uaao.unc.edu/faqs-for-faculty/) related to University Approved Absences
+
+2. Disability/religious observance/pregnancy, as required by law and approved by [Accessibility Resources and Services](https://ars.unc.edu/) and/or the [Equal Opportunity and Compliance Office](https://eoc.unc.edu/what-we-do/accommodations/) (EOC)
+
+3. Significant health condition and/or personal/family emergency as approved by the [Office of the Dean of Students](https://odos.unc.edu/), [Gender Violence Service Coordinators](https://gvsc.unc.edu/), and/or the [Equal Opportunity and Compliance Office](https://eoc.unc.edu/what-we-do/accommodations/) (EOC).
 
 
 
@@ -238,6 +277,12 @@ I reserve the right to, at any time, ask you to submit to a "code review" test w
 ## Feedback
 
 If you have suggestions on how to improve the course or just want to leave some positive, encouraging feedback for the TAs or I, please give us feedback. If you make a suggestion we're able to act on, while we still have time to, we're more than happy to!
+
+## Accessibility Resources & Services
+
+[Accessibility Resources and Service](ars@unc.edu) (ARS) receives requests for accommodations, and through the Student and Applicant Accommodations Policy determines eligibility and identifies reasonable accommodations for students with disabilities and/or chronic medical conditions to mitigate or remove the barriers experienced in accessing University courses, programs and activities.
+
+ARS also offers its Testing Center resources to students and instructors to facilitate the implementation of testing accommodations. **Please book your quizzes and final at the testing center at the beginning of the semester!**
 
 ## Title IX Resources
 
