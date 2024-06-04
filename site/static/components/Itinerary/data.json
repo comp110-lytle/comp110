@@ -460,7 +460,19 @@
             }
         }
     ],
-    "2024-06-05": [],
+    "2024-06-05": [
+        {
+            "kind": "LS",
+            "n": 21,
+            "title": "Unit Tests (Due Wednesday 6/5)",
+            "date": "2024-06-05",
+            "deadline": "2024-06-05",
+            "links": {
+                "Video": "https://youtu.be/T_9JaV2aIS0",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-06-06": [],
     "2024-06-07": [
         {
