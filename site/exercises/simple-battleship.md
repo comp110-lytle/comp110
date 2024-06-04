@@ -21,26 +21,7 @@ You can follow the steps below for implementing the program one step at a time.
 To get a sense of where you are going, though, consider what we expect the output to be given some example inputs:
 
 
-<pre>
-<div class="terminal">
-    $ python -m exercises.ex01_simple_battleship 
-    Pick a secret boat location between 1 and 4: 1
-    Guess a number between 1 and 4: 3
-    🟦🟦⬜🟦
-    Incorrect! You missed the ship.
-</div>
-</pre>
-
-
-<pre>
-<div class="terminal">
-    $ python -m exercises.ex01_simple_battleship 
-    Pick a secret boat location between 1 and 4: 2
-    Guess a number between 1 and 4: 2
-    🟦🟥🟦🟦
-    Correct! You hit the ship.
-</div>
-</pre>
+<iframe style="aspect-ratio: 16/9; width:100%;" src="https://www.youtube.com/embed/bd6t-h-QEOQ?si=eGWCj9ns6Ezpn-MV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Background Lesson: Emoji
 
@@ -54,7 +35,7 @@ In Visual Studio Code, be sure your workspace is open. (Reminder: File > Open Re
 
 Open the Explorer pane (click the icon with two sheets of paper or to to _View_ > _Explorer_) and expand the _Workspace_ directory.
 
-Right click on the `exercises` directory and select "New File". Enter the following filename, being careful to match capitalization and punctuation:
+Right click in your workspace directory and select "New File". Enter the following filename, being careful to match capitalization and punctuation:
 
 * `ex01_simple_battleship.py`
 
@@ -68,29 +49,23 @@ Before beginning work on the program, you should add a _docstring_ to the top of
 ~~~
 
 ## Part 1. Prompting for Player 1 Input - 15 points
-Using the concepts you learned in [User Input and Variables](https://youtu.be/GPpYSDNUtH8), you will want to ask the first user to "Pick a secret boat location between 1 and 4: ", storing their input it as an `int` variable. 
+Using the concepts you learned about User Input and Variables, you will want to ask the first user to "Pick a secret boat location between 1 and 4: ", storing their input it as an `int` variable. 
 **Please choose meaningful, descriptive names for your variables.** 
 
 If they give a valid input between 1 and 4, the program should exit and print nothing. However, if their input is too low or too high, it should print an error message. Write your prompts and diagnostic message such that you can reproduce the following in the shell after saving and running your program:
 
-<pre>
-<div class="terminal">
-    $ python -m exercises.ex01_simple_battleship 
-    Pick a secret boat location between 1 and 4: 0
-    Error! 0 too low!
-    
-    $ python -m exercises.ex01_simple_battleship 
-    Pick a secret boat location between 1 and 4: 5
-    Error! 5 too high!
 
-    $ python -m exercises.ex01_simple_battleship 
-    Pick a secret boat location between 1 and 4: 3
-</div>
-</pre>
+### Example of too low an input:
+
+<img class="img-fluid" src="/static/exercises/ex01/ex01-pt1-a.png" >
+
+### Example of too high an input:
+
+<img class="img-fluid" src="/static/exercises/ex01/ex01-pt1-b.png" >
 
 *(Hint: f-strings are useful for creating these outputs!)*
 
-**WARNING:** Autograding will very specifically be looking for _exactly_ the format of lines output shown above. You will not see the `$` at your command-line prompt in VSCode, you can ignore that part. Otherwise, when you run the program on your machine with the same inputs as above, your printed results should match exactly.
+**WARNING:** Autograding will very specifically be looking for _exactly_ the format of lines output shown above. When you run the program on your machine with the same inputs as above, your printed results should match exactly.
 
 ## Part 2. Prompting for Player 2 Input - 15 points
 
@@ -99,22 +74,9 @@ Now, you will do the same to prompt the second user for input with "Guess a numb
 
 If they give a valid input between 1 and 4, the program should exit and print nothing. However, if their input is too low or too high, it should print an error message. Write your prompts and diagnostic message such that you can reproduce the following in the shell after saving and running your program:
 
+<img class="img-fluid" src="/static/exercises/ex01/pt2-a.png" >
 
-<pre>
-<div class="terminal">
-    $ python -m exercises.ex01_simple_battleship 
-    Pick a secret boat location between 1 and 4: 1
-    Guess a number between 1 and 4: 0
-    Error! 0 too low!
-    
-    $ python -m exercises.ex01_simple_battleship 
-    Pick a secret boat location between 1 and 4: 1
-    Guess a number between 1 and 4: 5
-    Error! 5 too high!
-</div>
-</pre>
-
-**WARNING:** Autograding will very specifically be looking for _exactly_ the format of lines output shown above. You will not see the `$` at your command-line prompt in VSCode, you can ignore that part. Otherwise, when you run the program on your machine with the same inputs as above, your printed results should match exactly.
+**WARNING:** Autograding will very specifically be looking for _exactly_ the format of lines output shown above. When you run the program on your machine with the same inputs as above, your printed results should match exactly.
 
 ## Part 3. Checking User Input for Match - 20 points
 
@@ -122,32 +84,19 @@ Now that you have gathered your inputs from Part 1 and Part 2 and stored them as
 
 * [Expressions](/lessons/expressions.html)
     * Relational Operators - Equality
-* [Conditional if-else Statements](https://www.youtube.com/watch?v=395mlzouM00)
+* Conditional if-else Statements
 
 You'll have to translate the following English logic into Python:
 _If_ the user's input is equal to the secret number, _then_ you should print out a message indicating that the user correctly hit the ship. _Else_, you should print out a statement that they missed the ship.
 
 Your goal in this part is to be able to do the following:
 
+### Incorrect Guess:
+<img class="img-fluid" src="/static/exercises/ex01/pt3-a.png" >
 
-<pre>
-<div class="terminal">
-    $ python -m exercises.ex01_simple_battleship 
-    Pick a secret boat location between 1 and 4: 2
-    Guess a number between 1 and 4: 4
-    Incorrect! You missed the ship.
-</div>
-</pre>
+### Correct Guess:
+<img class="img-fluid" src="/static/exercises/ex01/pt3-b.png" >
 
-
-<pre>
-<div class="terminal">
-    $ python -m exercises.ex01_simple_battleship 
-    Pick a secret boat location between 1 and 4: 3
-    Guess a number between 1 and 4: 3
-    Correct! You hit the ship.
-</div>
-</pre>
 
 
 ## Part 4. Printing A String of Boxes - 20 points
@@ -170,28 +119,9 @@ _If_ Player 2's guess equals 1, concatenate the guess box to the resulting emoji
 
 The logic is similar for all other possible box numbers. After checking for each posible box, print the resulting emoji string of boxes.
 
-Your goal in this part is to be able to do the following:
+Your result should resemble the demo from the beginning of this writeup:
 
-<pre>
-<div class="terminal">
-    $ python -m exercises.ex01_simple_battleship 
-    Pick a secret boat location between 1 and 4: 1
-    Guess a number between 1 and 4: 3
-    🟦🟦⬜🟦
-    Incorrect! You missed the ship.
-</div>
-</pre>
-
-
-<pre>
-<div class="terminal">
-    $ python -m exercises.ex01_simple_battleship 
-    Pick a secret boat location between 1 and 4: 2
-    Guess a number between 1 and 4: 2
-    🟦🟥🟦🟦
-    Correct! You hit the ship.
-</div>
-</pre>
+<iframe style="aspect-ratio: 16/9; width:100%;" src="https://www.youtube.com/embed/bd6t-h-QEOQ?si=eGWCj9ns6Ezpn-MV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Part 5. Exiting Early for Invalid Inputs - 10 points
@@ -223,6 +153,26 @@ We expect you to implement this exercise using only the concepts covered in COMP
 * Part 5. Exiting Early for Invalid Inputs - 10 points
 * Part 6. Type Safety and Linting - 10 points
 
+## 4. Make a Backup Checkpoint "Commit"
+
+Now you can commit your new work to Github! This will back up your work online!
+
+1. Open the Source Control panel (Command Palette: "Show SCM" or click the icon with three circles and lines on the activity panel).
+2. Notice the files listed under Changes. These are files you've made modifications to since your last backup.
+3. Move your mouse's cursor over the word _Changes_ and notice the + symbol that appears. Click that plus symbol to add all changes to the next backup. You will now see the files listed under "Staged Changes".
+   - If you do not want to backup _all_ changed files, you can select them individually. For this course you're encouraged to back everything up.
+4. In the Message box, give a brief description of what you've changed and are backing up. This will help you find a specific backup (called a "commit") if needed. In this case a message such as, "Finished Exercise 00!" will suffice.
+5. Press the Check icon to make a _Commit_ (a version) of your work.
+6. Open the _View_ menu and select _Command Palette_, the shortcut for this menu is:
+   - Windows: `Control+Shift+P`
+   - Mac: `Command+Shift+P`
+7. Begin typing in: `Git: Push to...` and press `Enter` once it is the first option.
+8. Select the `backup` remote that is your personal workspace on GitHub. If you do not see `backup` listed, see the instructions below on _Setup Backup Course Material Repository_.
+   - You may see a spinning "refresh" icon in your status bar at the bottom of VSCode. Unless an error backing up occurs, you will not see any confirmation.
+
+To see your commit on Github, in a web browser, navigate to `https://github.com/comp110-24ss1/comp110-workspace-USERNAME` and substitute `USERNAME` with your GitHub username. Open the `comp110` directory and `ex00_hello_world.py` you'll see the work you just completed backed up to GitHub. Notice above the file's content's you'll see your commit message.
+
+
 ## Submit to Gradescope for Grading
 
 All that's left now is to hand-in your work on Gradescope for grading!
@@ -233,8 +183,8 @@ If you _do not_ see a Terminal at the bottom of your screen, open the Command Pa
 
 Type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex01_simple_battleship.py`
+`python -m tools.submission ex01_simple_battleship.py`
 
-In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex01_simple_battleship.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex01_simple_battleship.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. Upload this file to Gradescope to submit your work for this exercise.
 
 Autograding will take a few moments to complete. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours!

@@ -1,10 +1,10 @@
 """Unit tests for extend."""
 
-__author__ = "730225231"
+__author__ = "720310785"
 
 from pytest import mark
 from graders.helpers import import_module, reimport_module, assert_return_type
-MODULE = "exercises.ex04_utils"
+MODULE = "ex04_utils"
 
 def _test_extend(list1: list[int], list2: list[int], expected: bool) -> None:
     """extend - Helper function for necessary checks"""

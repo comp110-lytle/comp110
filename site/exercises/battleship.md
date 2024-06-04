@@ -4,6 +4,8 @@ author:
 - Camilla Fratta
 - Audrey Salmon
 - Vrinda Desai
+- Alyssa Lytle
+- Viktorya Hunanyan
 page: exercises
 template: overview
 ---
@@ -12,7 +14,7 @@ In this exercise, you will use the concept of *functions* to organize much of th
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex03_functional_battleship
+    $ python -m ex03_functional_battleship
     === Turn 1/5 ===
     Guess a row: 2
     Guess a column: 1
@@ -53,7 +55,7 @@ In this exercise, you will use the concept of *functions* to organize much of th
     Hit!
     You won in 4/5 turns!
 
-    $ python -m exercises.ex03_functional_battleship
+    $ python -m ex03_functional_battleship
     === Turn 1/5 ===
     Guess a row: 1
     Guess a column: 1
@@ -130,7 +132,7 @@ In Visual Studio Code, be sure your workspace is open. (Reminder: File > Open Re
 
 Open the Explorer pane (click the icon with two sheets of paper or to to _View_ > _Explorer_) and expand the _Workspace_ directory.
 
-Right click on the `exercises` directory and select "New File". Enter the following filename, being careful to match capitalization and punctuation:
+Right click in the workspace directory and select "New File". Enter the following filename, being careful to match capitalization and punctuation:
 
 * `ex03_functional_battleship.py`
 
@@ -144,7 +146,7 @@ Since the caller of this function can be expected to provide a correct argument 
 
 `assert ______ == "row" or ______ == "column"`
 
-Once you have tried implementing the function, import it for use in the REPL to test it out. As featured in the example below, run the `python` command to start the REPL. Subsequently, the command `from exercises.ex03_functional_battleship import input_guess` will `import` your function definition `from` your `exercises.ex03_functional_battleship`. Type out the example _function calls_ to check that your function returns the expected values. 
+Once you have tried implementing the function, import it for use in the REPL to test it out. As featured in the example below, run the `python` command to start the REPL. Subsequently, the command `from ex03_functional_battleship import input_guess` will `import` your function definition `from` your `ex03_functional_battleship`. Type out the example _function calls_ to check that your function returns the expected values. 
 
 <pre>
 <div class="terminal">
@@ -152,7 +154,7 @@ Once you have tried implementing the function, import it for use in the REPL to 
     Python 3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
 
-    >>> from exercises.ex03_functional_battleship import input_guess
+    >>> from ex03_functional_battleship import input_guess
     >>> input_guess(4, "row")
     Guess a row: 4
     4
@@ -170,7 +172,7 @@ Once you have tried implementing the function, import it for use in the REPL to 
     >>> input_guess(4, "rolumn")
     Traceback (most recent call last):
         File "<stdin>", line 1, in <module>
-        File "/workspace/exercises/ex03_functional_battleship.py", line 3, in input_guess
+        File "/workspace/ex03_functional_battleship.py", line 3, in input_guess
             assert type == "row" or type == "column"
     AssertionError
     >>>quit()
@@ -194,7 +196,7 @@ The body of this function should utilize the named constants you setup in EX02 f
 $ python
 Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
->>> from exercises.ex03_functional_battleship import print_grid
+>>> from ex03_functional_battleship import print_grid
 >>> print_grid(4,3,2,True)
 🟦🟦🟦🟦
 🟦🟦🟦🟦
@@ -225,7 +227,7 @@ Declare a function named `correct_guess`. Given the secret boat location and the
     $ python
     Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> from exercises.ex03_functional_battleship import correct_guess
+    >>> from ex03_functional_battleship import correct_guess
     >>> correct_guess(4,4,3,1) 
     False
     >>> correct_guess(3,2,1,2)
@@ -266,7 +268,7 @@ As you are working on `main`, you can save your work and import the `main` funct
     $ python
     Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> from exercises.ex03_functional_battleship import main
+    >>> from ex03_functional_battleship import main
     >>> main(4, 2, 1)
     === Turn 1/5 ===
     Guess a row: 3
@@ -306,7 +308,7 @@ As you are working on `main`, you can save your work and import the `main` funct
     $ python
     Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> from exercises.ex03_functional_battleship import main
+    >>> from ex03_functional_battleship import main
     >>> main(4, 4, 4)
     === Turn 1/5 ===
     Guess a row: 1
@@ -336,11 +338,11 @@ As you are working on `main`, you can save your work and import the `main` funct
     === Turn 4/5 ===
     Guess a row: 2
     Guess a column: 3
-    Miss!
     🟦🟦🟦🟦
     🟦🟦⬜🟦
     🟦🟦🟦🟦
     🟦🟦🟦🟦
+    Miss!
     === Turn 5/5 ===
     Guess a row: 1
     Guess a column: 2
@@ -354,7 +356,7 @@ As you are working on `main`, you can save your work and import the `main` funct
 </div>
 </pre>
 
-Once you have your `main` function and game loop working, there's only one bit of icing left to add to your delicious code cake. We will fully explain what is going on in the following code snippet soon, but for now note that this is an idiom common to Python programs like the one you have written. We will learn it does three things: 1. it makes it possible to run your Python program as a module (if you tried `python -m exercises.ex03_functional_battleship` right now you would see nothing happens), 2. you can actually play your game with a randomized grid size and secret boat locations unknown to you, and 3. it makes it possible for other modules to _import_ your functions and reuse them. Add the following snippet of code as the last 2 lines of your program (notice, there are two underscores _on both sides_ of the words `name` and `main`):
+Once you have your `main` function and game loop working, there's only one bit of icing left to add to your delicious code cake. We will fully explain what is going on in the following code snippet soon, but for now note that this is an idiom common to Python programs like the one you have written. We will learn it does three things: 1. it makes it possible to run your Python program as a module (if you tried `python -m ex03_functional_battleship` right now you would see nothing happens), 2. you can actually play your game with a randomized grid size and secret boat locations unknown to you, and 3. it makes it possible for other modules to _import_ your functions and reuse them. Add the following snippet of code as the last 2 lines of your program (notice, there are two underscores _on both sides_ of the words `name` and `main`):
 
 <pre>
 <div class="terminal">
@@ -366,7 +368,7 @@ Once you have your `main` function and game loop working, there's only one bit o
 
 NOTE: You will also need to add `import random` somewhere at the top of your program, preferably underneath your __author__ variable.
 
-Now you can try running your game as a module and it should work: `python -m exercises.ex03_functional_battleship`
+Now you can try running your game as a module and it should work: `python -m ex03_functional_battleship`
 
 Congratulations on writing your first _functional_ program in COMP110!
 
@@ -405,8 +407,8 @@ If you _do not_ see a Terminal at the bottom of your screen, open the Command Pa
 
 Type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex03_functional_battleship.py`
+`python -m tools.submission ex03_functional_battleship.py`
 
-In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex01_chardle.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-ex03_functional_battleship.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
 Autograding will take a few moments to complete. For this exercise there will be 20 "human graded" points. Thus, you should expect a maximum autograding score of 80 possible points on this assignment. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours!

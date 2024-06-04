@@ -11,7 +11,7 @@ template: columns
 
 
 
-# Office Hours + Tutoring
+# Office Hours 
 
 Come drop-in for one-on-one support in office hours with a member of the [COMP110 team](/resources/team.html). Except for on due dates, the average wait time is typically less than five minutes.
 
@@ -30,7 +30,7 @@ Office hours appointments for programming exercises are limited to 15 minutes an
 
 In order to serve every student in the course as best we can, we must enforce a 1-hour wait period between appointments with the same student. During this time, we expect you to continue making substantive progress on your programming exercise. If you anticipate needing significant amounts of help on an assignment, please start as far in advance as possible so you will have multiple opportunities to ask questions as they arise. Realizing you need help more than once in a given day is an indication you would benefit from a stronger conceptual understanding of the material in question and it would be great for you to come work with us during tutoring hours!
 
-To work with us in office hours, <a href="https://course.care/register-details?enrollCode=54185B" target="_blank">register for Course.Care via this link</a> or register with enroll code 54185B.
+To work with us in office hours, <a href="https://course.care/register-details?enrollCode=3B7906" target="_blank">register for Course.Care via this link</a> or register with enroll code 3B7906.
 
 
 ## Office Hours
@@ -38,13 +38,13 @@ To participate in in-person office hours:
 
 1. Come to the lower-level lobby in Sitterson Hall
 2. Please do not make a ticket until you are in the lobby area of Sitterson Hall hours and ready to work with a TA.
-3. <a href="https://course.care/ng/course/94" target="_blank">Open Course.Care click "Check-in" for currently open office hours</a>. Select what kind of help you are seeking. Be detailed and descriptive in your request for help. If you fail to make an honest effort to describe the purpose of the meeting, TAs are instructed to cancel your request.
+3. <a href="https://course.care/ng/course/105" target="_blank">Open Course.Care click "Check-in" for currently open office hours</a>. Select what kind of help you are seeking. Be detailed and descriptive in your request for help. If you fail to make an honest effort to describe the purpose of the meeting, TAs are instructed to cancel your request.
 4. Wait in the lobby area until course.care says a TA is ready to work with you and then head into SN008.
 5. Our teaching team will get to you as soon as we can! When your ticket is called, please come in to Sitterson 008.
 6. After the 15-minute walk-in appointment concludes, return back to the lobby to continue working.
 
 
-## Tutoring
+<!-- ## Tutoring
 
 <a href="https://course.care/ng/course/94" target="_blank">Come to tutoring hours for conceptual help</a> with members of the COMP110 UTA team and small groups of your peers. You can find these locations and links on <a href="https://course.care/ng/course/94" target="_blank">Course.Care</a>, just like office hours. If you are feeling a little behind or like you could use some extra practice tutoring is for you! Tutoring does not have time constraints outside of the hours it is open for.
 
@@ -52,7 +52,7 @@ Tutoring is a great opportunity to find help with:
 
 * Conceptual Questions
 * Lecture Review
-* Practice
+* Practice -->
 
 
 # Email
@@ -72,27 +72,26 @@ If you have suggestions on how to improve the course or just want to leave some 
 # Where Do I Go For Help?
 
 * Office Hours: Setup, homework + conceptual questions
-* Tutoring: Conceptual questions + concept review
-* Email TAs: Logistical concerns
+<!-- * Tutoring: Conceptual questions + concept review -->
+<!-- * Email TAs: Logistical concerns -->
 * Email <comp110help@gmail.com>: Assignment extension requests and logistical concerns
 * Email <abyrnes1@cs.unc.edu>: Personal issues and emergencies that impact performance in the course
 
-## In-Person Office Hours Schedule
+## Office Hours Schedule
 
-* _Monday: 11:00 AM - 5:00 PM_
-* _Tuesday: 11:00 AM - 7:00 PM_
-* _Wednesday: 11:00 AM - 5:00 PM_
-* _Thursday: 11:00 AM - 5:00 PM_
-* _Friday: 11:00 AM - 5:00 PM_
-* _Sunday: 1:00 PM - 5:00 PM_
-
+* _Monday: 11:00 AM - 2:00 PM_
+* _Tuesday: 11:30 AM - 1:30 PM_
+* _Wednesday: 11:00 AM - 4:00 PM_
+* _Thursday: 11:30 AM - 1:30 PM_
+* _Friday: 11:30 AM - 1:30 PM_
 
 
-## Tutoring Schedule
+
+<!-- ## Tutoring Schedule
  *Tutoring takes place in Room SN011!*
 
 * _Monday: 5:00 PM -  7:00 PM_
 * _Wednesday: 5:00 PM -  7:00 PM_
-* _Thursday: 5:00 PM - 7:00 PM_
+* _Thursday: 5:00 PM - 7:00 PM_ -->
 </div>
 

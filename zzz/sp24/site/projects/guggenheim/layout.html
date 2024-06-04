@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$ - COMP110 - Fall 2020</title>
+    <link rel="icon" type="image/png" href="/static/brand.png" />
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css?v=1">
+
+</head>
+
+
+<body id="$if(page)$$page$$endif$-page">
+    <a name="top"></a>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/students"><img class="img-fluid logo" src="/static/brand.png"
+                        alt="COMP110 - Summer Session 2 - 2020"></a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/students/resources/">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/students/support/">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/students/logistics/">Logistics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/students/guggenheim/">MOTA</a>
+                        </li>
+                    </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row px-4 pt-4">
+            <div class="col-12">
+                <h1 class="display-5">$title$</h1>
+                <hr class="title">
+            </div>
+        </div>
+
+        <div class="row px-4">
+            $body$
+        </div>
+
+        <footer>
+            <p>&copy; 2020 <a href="https://krisjordan.com">Kris Jordan</a> - <a href="#top">Scroll back to Top</a> - <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScQMteEvnQpBfGsAYP5TpuqokQenhZUIf8CNvfAUUZEjMCWZQ/viewform?usp=sf_link">Feedback
+                    Form</a> - Made with ❤️ in <a href="https://cs.unc.edu/">Chapel Hill</a></p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"
+        integrity="sha256-5oApc/wMda1ntIEK4qoWJ4YItnV4fBHMwywunj8gPqc=" crossorigin="anonymous"></script>
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

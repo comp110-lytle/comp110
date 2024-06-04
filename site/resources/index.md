@@ -28,8 +28,7 @@ navbar: base
 
 ## Practice + Tools
 
-- [Extra Credit Opportunities](/resources/extra-credit.html)
-
+<!-- - [Extra Credit Opportunities](/resources/extra-credit.html) -->
 - [DIY Memory Diagram Guide](/resources/practice/MemDiagramsTemplate.html)
 
 - [Practice Memory Diagrams](/resources/practice/MemDiagrams.html)
@@ -60,7 +59,7 @@ navbar: base
 
 - _**[VIRTUAL LESSONS:](/virtual-classes/index.html)**_ Lessons for each unit 
 
-- _**[CLASS SCHEDULE:](https://airtable.com/appzeephpTB5Uovx7/shrxiThP0DwM10pmQ)**_ *Tentative* Class Schedule
+- _**[CLASS SCHEDULE:](https://docs.google.com/spreadsheets/d/1agt8Kyrn2Vp83pzsCUXZH9L8Q689iFdPc22ZnTTAUYM/edit?usp=sharing)**_ *Tentative* Class Schedule
 
 </div> 
 
@@ -68,7 +67,7 @@ navbar: base
 <div class="link-page box">
 ## FAQ
 
-* [What to expect on quizzes?](/resources/quiz-expectations.html)
+* [What to expect on quizzes?](/resources/ss-quiz-expectations.html)
 
 * [Style, Linting and Reading the Autograder](/resources/style-guide.html)
 

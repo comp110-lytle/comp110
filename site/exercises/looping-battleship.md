@@ -1,5 +1,5 @@
 ---
-title: EX03 - Battleship
+title: EX03 - Functional Battleship
 author:
 - Camilla Fratta
 - Audrey Salmon
@@ -14,7 +14,7 @@ You should follow the steps below for implementing the program function at a tim
 
 <pre>
 <div class="terminal">
-    $ python -m exercises.ex03_battleship
+    $ python -m ex03_battleship
     Turn 1/6
     Guess a column: 1
     Guess a row: 2
@@ -56,7 +56,7 @@ You should follow the steps below for implementing the program function at a tim
     🟦🟦🟦🟦🟦
     🟦🟦🟦🟦🟦
 
-    $ python -m exercises.ex03_battleship
+    $ python -m ex03_battleship
     Turn 1/6
     Guess a column: 1
     Guess a row: 1
@@ -142,11 +142,11 @@ You will start by building the smaller, simpler building-block functions first (
 
 ## Part 0. Setting up the Python Program
 
-In Visual Studio Code, be sure your workspace is open. (Reminder: File > Open Recent > comp110-YYS-workspace is a quick way to reopen it! Where YY is the current year and S is the semeseter: S for Spring, F for Fall.)
+In Visual Studio Code, be sure your workspace is open. (Reminder: File > Open Recent > comp110-YYS-workspace is a quick way to reopen it! Where YY is the current year and S is the semeseter: S for Spring, F for Fall, SS# for Summer Session.)
 
-Open the Explorer pane (click the icon with two sheets of paper or to to _View_ > _Explorer_) and expand the _Workspace_ directory.
+Open the Explorer pane (click the icon with two sheets of paper or to  _View_ > _Explorer_) and expand the _Workspace_ directory.
 
-Right click on the `exercises` directory and select "New File". Enter the following filename, being careful to match capitalization and punctuation:
+Right click in the workspace directory and select "New File". Enter the following filename, being careful to match capitalization and punctuation:
 
 * `ex03_battleship.py`
 
@@ -184,7 +184,7 @@ Once you have your best first attempt to implement this function, you can import
 </div>
 </pre>
 
-Notice, in the REPL, the line `from exercises.ex03_battleship import input_row` will `import` your function definition `from` your `exercises.ex03_battleship` so that you can make use of your function in the REPL. You can then type out example _function calls_ to test your implementation and be sure your function definition is returning the correct and expected values, as shown above. Your results must match exactly.
+Notice, in the REPL, the line `from ex03_battleship import input_row` will `import` your function definition `from` your `ex03_battleship` so that you can make use of your function in the REPL. You can then type out example _function calls_ to test your implementation and be sure your function definition is returning the correct and expected values, as shown above. Your results must match exactly.
 
 You will need to do essentially the same function for `input_columns`. Give it a whirl!
 
@@ -364,7 +364,7 @@ As you are working on `main`, you can save your work and import the `main` funct
     $ python
     Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> from exercises.ex03_battleship import main
+    >>> from ex03_battleship import main
     >>> main()
     === Turn 1/6 ===
     Guess a row: 3
@@ -407,7 +407,7 @@ As you are working on `main`, you can save your work and import the `main` funct
     $ python
     Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> from exercises.ex03_battleship import main
+    >>> from ex03_battleship import main
     >>> main()
     === Turn 1/6 ===
     Guess a row: 1
@@ -471,7 +471,7 @@ As you are working on `main`, you can save your work and import the `main` funct
 </div>
 </pre>
 
-Once you have your `main` function and game loop working, there's only one bit of icing left to add to your delicious code cake. We will fully explain what is going on in the following code snippet soon, but for now note that this is an idiom common to Python programs like the one you have written. We will learn it does two things: 1. it makes it possible to run your Python program as a module (if you tried `python -m exercises.ex03_battleship` right now you would see nothing happens), and 2. it makes it possible for other modules to _import_ your functions and reuse them. Add the following snippet of code as the last 2 lines of your program (notice, there are two underscores _on both sides_ of the words `name` and `main`):
+Once you have your `main` function and game loop working, there's only one bit of icing left to add to your delicious code cake. We will fully explain what is going on in the following code snippet soon, but for now note that this is an idiom common to Python programs like the one you have written. We will learn it does two things: 1. it makes it possible to run your Python program as a module (if you tried `python -m ex03_battleship` right now you would see nothing happens), and 2. it makes it possible for other modules to _import_ your functions and reuse them. Add the following snippet of code as the last 2 lines of your program (notice, there are two underscores _on both sides_ of the words `name` and `main`):
 
 <pre>
 <div class="terminal">
@@ -480,7 +480,7 @@ Once you have your `main` function and game loop working, there's only one bit o
 </div>
 </pre>
 
-Now you can try running your game as a module and it should work: `python -m exercises.ex03_battleship`
+Now you can try running your game as a module and it should work: `python -m ex03_battleship`
 
 Congratulations on writing your first _structured_ program in COMP110!
 
@@ -519,8 +519,8 @@ If you _do not_ see a Terminal at the bottom of your screen, open the Command Pa
 
 Type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex03_battleship.py`
+`python -m tools.submission ex03_battleship.py`
 
-In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex01_chardle.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-ex03_battleship.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
 Autograding will take a few moments to complete. For this exercise there will be 20 "human graded" points. Thus, you should expect a maximum autograding score of 80 possible points on this assignment. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours!

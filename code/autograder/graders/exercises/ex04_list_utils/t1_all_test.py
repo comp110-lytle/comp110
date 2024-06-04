@@ -3,12 +3,13 @@
 __author__ = "730225231"
 
 from pytest import mark
-
+from graders.helpers import import_module, reimport_module, assert_return_type
+MODULE = "ex04_utils"
 
 def _test_all(list: list[int], num: int, expected: int) -> None:
     """Helper function for necessary checks"""
-    from exercises.ex04_utils import all
-    assert all(list, num) == expected
+    module = import_module(MODULE)
+    assert module.all(list, num) == expected
 
 
 @mark.timeout(3)
