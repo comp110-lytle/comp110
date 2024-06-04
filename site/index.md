@@ -51,13 +51,13 @@ template: home
 <span class="kind">CQ03 </span><span class="title"><a href="/cqs/lists.html">Lists Practice (Due Monday 6/3)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-06-04" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Jun 4</div>
-<div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX04 </span><span class="title"><a href="/exercises/list-utils.html">List Utils (Due Friday 6/7)</a></span></div><div class="plan Class">
+<div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL07 </span><span class="title">for Loops + range</span>
 <ul class="links"><li class="link"><a href="/static/slides/CL07-A.pdf">Slides (Part A)</a></li>
 <li class="link"><a href="/static/slides/CL07-B.pdf">Slides (Part B)</a></li>
 </ul></div><div class="plan Challenge Question">
-<span class="kind">CQ04 </span><span class="title"><a href="/cqs/for-loops.html">for loops practice (Due Tuesday 6/4)</a></span></div></div>
+<span class="kind">CQ04 </span><span class="title"><a href="/cqs/for-loops.html">for loops practice (Due Tuesday 6/4)</a></span></div><div class="plan Exercise">
+<span class="kind">EX04 </span><span class="title"><a href="/exercises/list-utils.html">List Utils (Due Friday 6/7)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-06-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jun 7</div>
 <div class="plans col-md-9"><div class="plan Quiz">

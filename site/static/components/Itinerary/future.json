@@ -36,16 +36,6 @@
     ],
     "2024-06-04": [
         {
-            "kind": "EX",
-            "n": 4,
-            "title": "List Utils (Due Friday 6/7)",
-            "date": "2024-06-04",
-            "deadline": "2024-06-07",
-            "links": {
-                "": "/exercises/list-utils.html"
-            }
-        },
-        {
             "kind": "CL",
             "n": 7,
             "title": "for Loops + range",
@@ -64,6 +54,16 @@
             "deadline": "2024-06-04",
             "links": {
                 "": "/cqs/for-loops.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "List Utils (Due Friday 6/7)",
+            "date": "2024-06-04",
+            "deadline": "2024-06-07",
+            "links": {
+                "": "/exercises/list-utils.html"
             }
         }
     ],
