@@ -29,6 +29,8 @@ template: overview
 </code></pre>
 # Solution
 
+[Video](https://youtu.be/RQ9EpsOj8Kg?si=saVymQoQwl7t69wu)
+
 <img class="img-fluid" src="/static/practice-mem-diagrams/func-import-02-sol.jpg" alt=""/>
 
 <!-- 
