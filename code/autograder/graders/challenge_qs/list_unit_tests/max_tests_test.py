@@ -91,9 +91,9 @@ def test_max_ret():
     
 @mark.weight(1)
 def test_max_mutate():
-    """Part 1. find_and_remove_max should remove first instance of max value from list of ints."""
+    """Part 1. find_and_remove_max should remove all instances of max value from list of ints."""
     module = reimport_module(MODULE)
-    a: list[int] = [1,8,2,3,8,3]
+    a: list[int] = [1,8,8,2,3,8,3]
     module.find_and_remove_max(a)
     assert a == [1,2,3,3]
 

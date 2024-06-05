@@ -41,7 +41,7 @@ Here is some example behavior:
 </div>
 </pre>
 
-*(Hint 0: I recommend using a `while` loop for the part in the function where you are removing the max value.)*
+*(Hint: I recommend using a `while` loop for the part in the function where you are removing the max value.)*
 
 
 
@@ -61,7 +61,7 @@ You should write:
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission lessons.CQ05```
+```python -m tools.submission lessons/CQ05```
 
 (For this assignment, you'll have to submit your entire CQ05 folder!)
 
