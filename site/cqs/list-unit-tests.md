@@ -20,7 +20,7 @@ In this file, you will write one function definition called `find_and_remove_max
 
 - It will take a `list[int]` as input and return an `int`.
 - It will *find* and *return* the largest number in the input list.
-- It will also *remove* the *first* instance of the largest number from the input list.
+- It will also *remove* all instances of the largest number from the input list.
 - If the input list is empty, return -1 and don't modify the input list.
 
 Here is some example behavior: 
@@ -37,9 +37,10 @@ Here is some example behavior:
 >>> find_and_remove_max(b)
 10
 >>> b
-[9, 8, 7, 10]
+[9, 8, 7]
 </div>
 </pre>
+
 
 ## Part 2. Unit Tests
 
