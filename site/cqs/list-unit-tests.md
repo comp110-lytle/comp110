@@ -41,6 +41,7 @@ Here is some example behavior:
 </div>
 </pre>
 
+*(Hint: I recommend using a `while` loop for the part in the function where you are removing the max value.)*
 
 ## Part 2. Unit Tests
 
