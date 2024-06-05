@@ -43,7 +43,7 @@ Here is some example behavior:
 
 *(Hint 0: I recommend using a `while` loop for the part in the function where you are removing the max value.)*
 
-*(Hint 1: It might help to index backwards for the part in the function where you are removing the max value.)*
+
 
 ## Part 2. Unit Tests
 
