@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/for-loops.html">CQ04 - WED, JUN 05 11:59pm</a></li><li class="horizon-item"><a href="https://youtu.be/T_9JaV2aIS0">LS021 - WED, JUN 05 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD00 - THU, JUN 06 11:59pm</a></li><li class="horizon-item"><a href="/cqs/list-unit-tests.html">CQ05 - THU, JUN 06 11:59pm</a></li><li class="horizon-item"><a href="/exercises/list-utils.html">EX04 - FRI, JUN 07 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/ss24/qz02.html">QZ02 - FRI, JUN 07 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">RD00 - THU, JUN 06 11:59pm</a></li><li class="horizon-item"><a href="/cqs/list-unit-tests.html">CQ05 - THU, JUN 06 11:59pm</a></li><li class="horizon-item"><a href="/exercises/list-utils.html">EX04 - FRI, JUN 07 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/ss24/qz02.html">QZ02 - FRI, JUN 07 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,19 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-06-03" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Jun 3</div>
-<div class="plans col-md-9"><div class="plan Lesson">
-<span class="kind">LS19 </span><span class="title">Lists (Due Monday 6/3)</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=U_GP3Jkz5lU">Video</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS20 </span><span class="title">Lists in Memory (Due Monday 6/3)</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=WCvrVTUZ-Ac">Video</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ03 </span><span class="title"><a href="/cqs/lists.html">Lists Practice (Due Monday 6/3)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-04" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-06-04" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Jun 4</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL07 </span><span class="title">for Loops + range</span>
@@ -74,14 +62,27 @@ template: home
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ02 </span><span class="title">Quiz 2</span>
 <ul class="links"><li class="link"><a href="/resources/practice/ss24/qz02.html">Practice Problems</a></li>
-</ul></div></div>
+</ul></div><div class="plan Reading">
+<span class="kind">RD01 </span><span class="title"><a href="https://www.gradescope.com/">Reading: Man versus Machine or Man + Machine (Due Friday 6/21)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-06-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jun 21</div>
 <div class="plans col-md-9"><div class="plan Final">
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-05-31" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-06-03" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Jun 3</div>
+<div class="plans col-md-9"><div class="plan Lesson">
+<span class="kind">LS19 </span><span class="title">Lists (Due Monday 6/3)</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=U_GP3Jkz5lU">Video</a></li>
+<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS20 </span><span class="title">Lists in Memory (Due Monday 6/3)</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=WCvrVTUZ-Ac">Video</a></li>
+<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
+</ul></div><div class="plan Challenge Question">
+<span class="kind">CQ03 </span><span class="title"><a href="/cqs/lists.html">Lists Practice (Due Monday 6/3)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-05-31" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, May 31</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ01 </span><span class="title">Quiz 1</span>

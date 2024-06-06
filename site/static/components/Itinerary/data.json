@@ -495,6 +495,16 @@
             "links": {
                 "Practice Problems": "/resources/practice/ss24/qz02.html"
             }
+        },
+        {
+            "kind": "RD",
+            "n": 1,
+            "title": "Reading: Man versus Machine or Man + Machine (Due Friday 6/21)",
+            "date": "2024-06-07",
+            "deadline": "2024-06-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
         }
     ],
     "2024-06-08": [],
