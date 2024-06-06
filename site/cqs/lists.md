@@ -34,7 +34,7 @@ However, let's do something similar for a list!
         word.append("!")
 ```
 
-This will actually mutate the list used as an argument in the function call!
+This will actually *mutate* the list used as an argument in the function call!
 
 For this challenge question, you are going to practice writing a function that *mutates* its input!
 
