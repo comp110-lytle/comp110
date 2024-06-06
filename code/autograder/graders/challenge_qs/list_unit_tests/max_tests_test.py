@@ -10,7 +10,7 @@ import pytest
 pytestmark = pytest.mark.timeout(3)
 
 MODULE = "lessons.CQ05.find_max"
-
+TESTMODULE = "lessons.CQ05.max_test"
 
 @mark.weight(0)
 def test_author():
@@ -31,7 +31,7 @@ tests = []
 def tests():
     """Get test fns from the test file."""
     tests = []
-    module = reimport_module(MODULE)
+    module = reimport_module(TESTMODULE)
     functions = inspect.getmembers(module, inspect.isfunction)
     for function in functions:
         # check if test is in the fn name to exclude imports
@@ -101,6 +101,6 @@ def test_max_mutate():
 def test_zip_unit_tests(tests):
     """At least 3 unit tests for find_and_remove_max."""
     call_count: int = get_call_count(tests, "find_and_remove_max")
-    assert call_count >= 3, f"Need at least 3 tests for zip, detected {call_count}"
+    assert call_count >= 3, f"Need at least 3 tests for find_and_remove_max, detected {call_count}"
 
 
