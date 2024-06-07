@@ -39,22 +39,25 @@ site-branch: team
 
 <div class="link-page box">
 
-### Team-Specific Guides
-
-* [Grading Documentation](/team/documentation/guides/grading_csv.html) 
-
-</div>
-
-
-
-//split//
-<div class="link-page box">
-
 ### Resources for Office Hours
 
 
 * [Setup Issues](/team/documentation/guides/setup_issues.html)
 <!-- * [Diagnostic Tool](/team/documentation/guides/diagnostic_tool.html) -->
+</div>
+
+
+//split//
+
+
+<div class="link-page box">
+
+
+
+### Team-Specific Guides
+
+* [Grading Documentation](/team/documentation/guides/grading_csv.html) 
+
 </div>
 
 <div class="link-page box">
