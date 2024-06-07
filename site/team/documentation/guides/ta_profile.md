@@ -1,10 +1,11 @@
 ---
 title: Set Up Your TA Profile
-date: 2020-09-27
+date: 2022-4-27
 author:
   - Ezri White
   - Kaki Ryan
   - Meghan Sun
+  - Alyssa Lytle
 page: logistics
 template: overview
 site-branch: team
