@@ -10,7 +10,7 @@ site-branch: team
 
 # Making Contributions to the 110 Site
 
-If you have already set up your [TA profile](/team/documentation/guides/ta_profile.html), you've already done all of these steps! This just generalizes the steps in case you are modifying anything else on the site!
+If you have already set up your [TA profile](/team/documentation/guides/ta_profile.html), you've already done all of these steps! This just generalizes the steps in case you are modifying anything else on the site! (If you haven't set up your profile, do that first!)
 
 ## Create a branch
 

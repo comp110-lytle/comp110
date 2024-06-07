@@ -13,11 +13,13 @@ site-branch: team
 
 <div class="link-page box">
 
-### Development
+### Basic Member Guides
 
 * [Onboarding](/team/documentation/guides/onboarding.html)
 * [Mentorship Guide](/team/documentation/guides/mentor_guide.html)
-* [Creating Memory Diagrams](/team/documentation/guides/memory_diagrams.html)
+* [Best Practice](/team/documentation/guides/best_practices.html)
+* [Shift Leads](/team/documentation/guides/shift_leads.html)
+
 <!-- * [Git Guide](/team/documentation/guides/git_guide.html) -->
 <!-- * [Shift Overflow](/team/documentation/guides/shiftoverflow_dev.html) -->
 </div>
@@ -30,12 +32,14 @@ site-branch: team
 * [Site Dev Setup](/team/documentation/guides/course_site_setup.html)
 * [TA Profile](/team/documentation/guides/ta_profile.html)
 * [Site Markdown](/team/documentation/guides/course_site_markdown.html)
-* [Site Features](/team/documentation/guides/course_site_features.html)
+* [Creating Memory Diagrams](/team/documentation/guides/memory_diagrams.html)
+* [Contributing to the Site](/team/documentation/guides/contributing_to_site.html)
+<!-- * [Site Features](/team/documentation/guides/course_site_features.html) -->
 </div>
 
 <div class="link-page box">
 
-### Grading
+### Team-Specific Guides
 
 * [Grading Documentation](/team/documentation/guides/grading_csv.html) 
 
@@ -46,10 +50,9 @@ site-branch: team
 //split//
 <div class="link-page box">
 
-### Teaching and Office Hours Guides
+### Resources for Office Hours
 
-* [Best Practice](/team/documentation/guides/best_practices.html)
-* [Shift Leads](/team/documentation/guides/shift_leads.html)
+
 * [Setup Issues](/team/documentation/guides/setup_issues.html)
 <!-- * [Diagnostic Tool](/team/documentation/guides/diagnostic_tool.html) -->
 </div>
