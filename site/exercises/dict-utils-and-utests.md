@@ -13,9 +13,9 @@ In this exercise you will get some practice with dictionary functions AND write 
 
 ## 0. Setup
 
-Create a new **directory** in `exercises` named `ex05`.
+Create a new **directory** named `ex05`.
 
-Inside the `exercises/ex05` directory, create a file named `dictionary.py`. Add a docstring and establish an `__author__` variable to be assigned a string with the digits of your PID. This is where you will implement your function skeletons and implementations below.
+Inside the `ex05` directory, create a file named `dictionary.py`. Add a docstring and establish an `__author__` variable to be assigned a string with the digits of your PID. This is where you will implement your function skeletons and implementations below.
 
 Additionally, create a file named `dictionary_test.py`. Add a docstring and establish an `__author__` variable to be assigned a string with the digits of your PID. This is where you will write unit tests for the 5 functions you define in the `dictionary.py` file.
 
