@@ -426,5 +426,63 @@
                 "": "/cqs/lists.html"
             }
         }
+    ],
+    "2024-06-04": [
+        {
+            "kind": "CL",
+            "n": 7,
+            "title": "for Loops + range",
+            "date": "2024-06-04",
+            "deadline": "None",
+            "links": {
+                "Slides (Part A)": "/static/slides/CL07-A.pdf",
+                "Slides (Part B)": "/static/slides/CL07-B.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "for loops practice (Due Wednesday 6/5)",
+            "date": "2024-06-04",
+            "deadline": "2024-06-05",
+            "links": {
+                "": "/cqs/for-loops.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "List Utils (Due Friday 6/7)",
+            "date": "2024-06-04",
+            "deadline": "2024-06-07",
+            "links": {
+                "": "/exercises/list-utils.html"
+            }
+        }
+    ],
+    "2024-06-05": [
+        {
+            "kind": "LS",
+            "n": 21,
+            "title": "Unit Tests (Due Wednesday 6/5)",
+            "date": "2024-06-05",
+            "deadline": "2024-06-05",
+            "links": {
+                "Video": "https://youtu.be/T_9JaV2aIS0",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-06-06": [
+        {
+            "kind": "CQ",
+            "n": 5,
+            "title": "Unit Tests (Due Thursday 6/6)",
+            "date": "2024-06-06",
+            "deadline": "2024-06-06",
+            "links": {
+                "": "/cqs/list-unit-tests.html"
+            }
+        }
     ]
 }

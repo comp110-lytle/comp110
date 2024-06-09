@@ -110,3 +110,13 @@ page: lessons
 [Video](https://youtu.be/T_9JaV2aIS0)
 </div>
 
+<div class="plan Class"><span class="kind">LS21 </span>
+<span class="title">Dictionaries:</span>
+[Video](https://www.youtube.com/watch?v=PHkFp_T--yk)
+</div>
+
+<div class="plan Class"><span class="kind">LS22 </span>
+<span class="title">Dictionaries in Memory:</span>
+[Video](https://youtu.be/tlfJfLBsuX0)
+</div>
+

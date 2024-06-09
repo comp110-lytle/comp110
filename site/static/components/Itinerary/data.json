@@ -509,8 +509,62 @@
     ],
     "2024-06-08": [],
     "2024-06-09": [],
-    "2024-06-10": [],
-    "2024-06-11": [],
+    "2024-06-10": [
+        {
+            "kind": "LS",
+            "n": 22,
+            "title": "Dictionaries (Due Monday 6/10)",
+            "date": "2024-06-10",
+            "deadline": "2024-06-10",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=PHkFp_T--yk",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 23,
+            "title": "Dictionaries in Memory (Due Monday 6/10)",
+            "date": "2024-06-10",
+            "deadline": "2024-06-10",
+            "links": {
+                "Video": "https://youtu.be/tlfJfLBsuX0",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "Dictionary Utils + Unit Tests (Due Friday 6/14)",
+            "date": "2024-06-10",
+            "deadline": "2024-06-14",
+            "links": {
+                "": "/exercises/dict-utils-and-utests.html"
+            }
+        }
+    ],
+    "2024-06-11": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Dictionaries + For Loops",
+            "date": "2024-06-11",
+            "deadline": "None",
+            "links": {
+                "Slides": "/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 6,
+            "title": "Dictionary Practice (Due Tuesday 6/11)",
+            "date": "2024-06-11",
+            "deadline": "2024-06-11",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-06-12": [],
     "2024-06-13": [],
     "2024-06-14": [],
