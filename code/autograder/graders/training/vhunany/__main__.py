@@ -4,7 +4,7 @@ import os
 from grading.autograde import Configuration, run
 
 results = run(Configuration(
-   src_path="training/vhunany.py",
+   src_path="lessons/list_repeats.py",
    test_path=os.path.dirname(os.path.realpath(__file__)),
    pytest_points=70.0,
    typecheck_points=15.0,

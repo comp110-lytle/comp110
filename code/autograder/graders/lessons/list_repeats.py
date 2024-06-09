@@ -1,7 +1,8 @@
-"""Description of module goes here."""
+"""remove_repeats practice CQ."""
 
 __author__ = "Viktorya Hunanyan vhunany@unc.edu"
 
+MODULE = "lessons.list_repeats"
 
 def remove_repeats(inp_list: list[int]) -> None: 
     """Mutates inp_list to remove any repeating numbers.

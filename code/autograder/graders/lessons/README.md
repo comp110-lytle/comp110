@@ -39,7 +39,7 @@ For this assignment we will be checking that your function correctly mutates the
 ### Submit to gradescope
 Create a .zip file by running the following command in your terminal:
 
-python -m tools.submission lessons/remove_repeats
+python -m tools.submission lessons/list_repeats.py
 
 Then, go to Gradescope and click on the assignment. Then click on a the file box and search for the zip file you just created. 
 Requirements: Technical requirements the unit tests will certainly check for.
