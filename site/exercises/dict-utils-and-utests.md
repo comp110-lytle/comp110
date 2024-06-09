@@ -22,6 +22,8 @@ Additionally, create a file named `dictionary_test.py`. Add a docstring and esta
 
 ## 1. `count`
 
+This is the first function you will write in dictionary.py. The other four functions will also be defined in this file.
+
 Given a `list[str]`, this function will produce a `dict[str, int]` where each key is a unique value in the given list and each value associated is the _count_ of the number of times that value appeared in the input list.
 
 - Function name: `count`
@@ -58,8 +60,6 @@ Example usage:
 Hint: The built-in Python method `.lower()` takes in no arguments and returns the lower cased string of a given string.
 
 ## 3. `invert`
-
-This is the first function you will write in `dictionary.py`. The other two functions will also be defined in this file.
 
 Given a `dictionary` of `[str, str]`, `invert` should return a `dict[str, str]` that inverts the keys and the values. The keys of the input list becomes the values of the output list and vice versa.
 
@@ -105,13 +105,13 @@ The results of which would look like:
 
 
 <pre>
-<div class="terminal">$ python -m exercises.ex05.favorite_color
+<div class="terminal">$ python -m ex05.favorite_color
 blue
 </div></pre>
 
 ## 5. `update_attendance`
 
-Given a `dict[str, list[str]]`, this function will _mutate_ and return that dictionary. It should meet the following specifications:
+Given a `dict[str, list[str]]`, this function will _mutate_ that dictionary. It should meet the following specifications:
 
 1. It has three parameters:
    - `dict[str, list[str]]` - an existing dictionary that contains days of the week as keys and a list of students who were in _attendance_ as the values
@@ -131,7 +131,7 @@ An example:
 The results of which would look like:
 
 <pre>
-<div class="terminal">$ python -m exercises.ex05.update_attendance
+<div class="terminal">$ python -m ex05.update_attendance
 {'Monday': ['Vrinda', 'Kaleb'], 'Tuesday': ['Alyssa', 'Vrinda'], 'Wednesday': ['Kaleb']}
 </div>
 </pre>
@@ -148,7 +148,7 @@ The 3 unit tests should consist of:
 
 Include descriptive function names and docstrings, so that it captures what is being tested.
 
-The command to run your tests is `python -m pytest exercises/ex05/dictionary_test.py` or you can run them using the beaker tab in VSCode if it is working (do note the VSCode testing feature tends to be a bit flaky).
+The command to run your tests is `python -m pytest ex05/dictionary_test.py` or you can run them using the beaker tab in VSCode if it is working (do note the VSCode testing feature tends to be a bit flaky).
 
 If your screen is large enough, you are encouraged to open these files side-by-side in VSCode by dragging the tab of one to the right side of VSCode so that it changes to a split pane view. Closing your file explorer can help give you additional horizontal space.
 
@@ -186,9 +186,9 @@ If you _do not_ see a Terminal at the bottom of your screen, open the Command Pa
 
 Type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex05`
+`python -m tools.submission ex05`
 
-In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex05.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-ex05.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
 Autograding will take a few moments to complete. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours!
 
@@ -196,4 +196,4 @@ Autograding will take a few moments to complete. If there are issues reported, y
 
 If you're not passing autograder tests and don't know why, try locally running your pytests to see if that gives you more insight! You can do that with the following command in your terminal: 
 
-`python -m pytest exercises/ex05/dictionary_test.py`
+`python -m pytest ex05/dictionary_test.py`

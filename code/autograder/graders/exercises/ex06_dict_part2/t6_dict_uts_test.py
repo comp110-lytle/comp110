@@ -9,7 +9,7 @@ from pytest import mark, fixture
 import pytest
 #pytestmark = pytest.mark.timeout(3)
 
-MODULE = "exercises.ex05.dictionary_test"
+MODULE = "ex05.dictionary_test"
 
 tests = []
 
