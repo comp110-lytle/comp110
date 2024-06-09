@@ -53,7 +53,6 @@ template: home
 </ul></div><div class="plan Lesson">
 <span class="kind">LS23 </span><span class="title">Dictionaries in Memory (Due Monday 6/10)</span>
 <ul class="links"><li class="link"><a href="https://youtu.be/tlfJfLBsuX0">Video</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
 </ul></div><div class="plan Exercise">
 <span class="kind">EX05 </span><span class="title"><a href="/exercises/dict-utils-and-utests.html">Dictionary Utils + Unit Tests (Due Friday 6/14)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-06-11" class="row itinerary-row py-2">
