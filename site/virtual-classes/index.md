@@ -105,3 +105,28 @@ page: lessons
 [Video](https://www.youtube.com/watch?v=WCvrVTUZ-Ac)
 </div>
 
+<div class="plan Class"><span class="kind">LS20 </span>
+<span class="title">Unit Tests:</span>
+[Video](https://youtu.be/T_9JaV2aIS0)
+</div>
+
+<div class="plan Class"><span class="kind">LS21 </span>
+<span class="title">Dictionaries:</span>
+[Video](https://www.youtube.com/watch?v=PHkFp_T--yk)
+</div>
+
+<div class="plan Class"><span class="kind">LS22 </span>
+<span class="title">Dictionaries in Memory:</span>
+[Video](https://youtu.be/tlfJfLBsuX0)
+</div>
+
+<div class="plan Class"><span class="kind">LS23 </span>
+<span class="title">Intro to OOP:</span>
+[Video](https://www.youtube.com/watch?v=DmYPEH8qkRI)
+</div>
+
+<div class="plan Class"><span class="kind">LS24 </span>
+<span class="title">Classes in Memory:</span>
+[Video](/)
+</div>
+

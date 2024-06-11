@@ -1,93 +1,127 @@
 {
-    "2024-06-02": [],
-    "2024-06-03": [
+    "2024-06-09": [],
+    "2024-06-10": [
         {
             "kind": "LS",
-            "n": 19,
-            "title": "Lists (Due Monday 6/3)",
-            "date": "2024-06-03",
-            "deadline": "2024-06-03",
+            "n": 22,
+            "title": "Dictionaries (Due Monday 6/10)",
+            "date": "2024-06-10",
+            "deadline": "2024-06-10",
             "links": {
-                "Video": "https://www.youtube.com/watch?v=U_GP3Jkz5lU",
+                "Video": "https://www.youtube.com/watch?v=PHkFp_T--yk",
                 "Assignment": "https://www.gradescope.com/"
             }
         },
         {
             "kind": "LS",
-            "n": 20,
-            "title": "Lists in Memory (Due Monday 6/3)",
-            "date": "2024-06-03",
-            "deadline": "2024-06-03",
+            "n": 23,
+            "title": "Dictionaries in Memory (Due Monday 6/10)",
+            "date": "2024-06-10",
+            "deadline": "2024-06-10",
             "links": {
-                "Video": "https://www.youtube.com/watch?v=WCvrVTUZ-Ac",
-                "Assignment": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 3,
-            "title": "Lists Practice (Due Monday 6/3)",
-            "date": "2024-06-03",
-            "deadline": "2024-06-03",
-            "links": {
-                "": "/cqs/lists.html"
-            }
-        }
-    ],
-    "2024-06-04": [
-        {
-            "kind": "CL",
-            "n": 7,
-            "title": "for Loops + range",
-            "date": "2024-06-04",
-            "deadline": "None",
-            "links": {
-                "Slides (Part A)": "/static/slides/CL07-A.pdf",
-                "Slides (Part B)": "/static/slides/CL07-B.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 4,
-            "title": "for loops practice (Due Wednesday 6/5)",
-            "date": "2024-06-04",
-            "deadline": "2024-06-05",
-            "links": {
-                "": "/cqs/for-loops.html"
+                "Video": "https://youtu.be/tlfJfLBsuX0"
             }
         },
         {
             "kind": "EX",
-            "n": 4,
-            "title": "List Utils (Due Friday 6/7)",
-            "date": "2024-06-04",
-            "deadline": "2024-06-07",
+            "n": 5,
+            "title": "Dictionary Utils + Unit Tests (Due Friday 6/14)",
+            "date": "2024-06-10",
+            "deadline": "2024-06-14",
             "links": {
-                "": "/exercises/list-utils.html"
+                "": "/exercises/dict-utils-and-utests.html"
             }
         }
     ],
-    "2024-06-05": [],
-    "2024-06-06": [],
-    "2024-06-07": [
+    "2024-06-11": [
         {
-            "kind": "QZ",
-            "n": 2,
-            "title": "Quiz 2",
-            "date": "2024-06-07",
-            "deadline": "2024-06-07",
+            "kind": "CL",
+            "n": 8,
+            "title": "Dictionaries + For Loops",
+            "date": "2024-06-11",
+            "deadline": "None",
             "links": {
-                "Practice Problems": "/resources/practice/ss24/qz02.html"
+                "Slides": "/static/slides/CL11.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 6,
+            "title": "Dictionary Practice (Due Tuesday 6/11)",
+            "date": "2024-06-11",
+            "deadline": "2024-06-11",
+            "links": {
+                "": "/cqs/dicts-for-loops.html"
             }
         }
     ],
-    "2024-06-08": [],
-    "2024-06-09": [],
-    "2024-06-10": [],
-    "2024-06-11": [],
-    "2024-06-12": [],
-    "2024-06-13": [],
-    "2024-06-14": [],
+    "2024-06-12": [
+        {
+            "kind": "LS",
+            "n": 24,
+            "title": "Intro to OOP (Due Wednesday 6/12)",
+            "date": "2024-06-12",
+            "deadline": "2024-06-12",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=DmYPEH8qkRI",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 25,
+            "title": "Classes in Memory (Due Wednesday 6/12)",
+            "date": "2024-06-12",
+            "deadline": "2024-06-12",
+            "links": {
+                "Video": "/"
+            }
+        }
+    ],
+    "2024-06-13": [
+        {
+            "kind": "CL",
+            "n": 9,
+            "title": "Practice with OOP",
+            "date": "2024-06-13",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL09-SS1.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 7,
+            "title": "Practice with OOP (Due Thursday 6/13)",
+            "date": "2024-06-13",
+            "deadline": "2024-06-13",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
+    "2024-06-14": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "Magic Methods + Operator Overloads",
+            "date": "2024-06-14",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 8,
+            "title": "Practice with Magic Methods (Due Friday 6/14)",
+            "date": "2024-06-14",
+            "deadline": "2024-06-14",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-06-15": [],
     "2024-06-16": [],
     "2024-06-17": [],

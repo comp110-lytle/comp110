@@ -19,6 +19,5 @@ This is a hub of resources, documents and links for the amazing teaching assista
 
 <h4 ><a href="/">Return to course site</a></h4>
 
-*More links to be added soon! :) *
 
 </div>

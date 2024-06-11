@@ -40,7 +40,7 @@ In order to run the dev server, pandoc is needed and can be downloaded [here](ht
 ## Run the Development Script
 
 - Make sure your terminal is in the `site` directory. If you type `pwd` in the terminal it should print `/Some/Path/.../team110/site`. If you do not see this, trash the terminal and create a new one. Then try typing `cd site` to navigate into the `site` directory.
-- In your terminal run: `python -m dev`. If the script runs without any problems you should see "\* Running on <_a-server_>". Command or Control click on the server to open the site in your browser.
+- In your terminal run: `python -m dev`. If the script runs without any problems you should see "\* Running on <_a-server_>". Command or Control click on the server to open the site in your browser. This will make it so you can check all of your changes *before* pushing them to the site!
 - To view any changes you are making, navigate to the file you have changed and reload the page if you do not see your updates.
 
 > Note: When making CSS changes a "hard refresh" will often be needed to view any differences. To do this hold shift while reloading your browser (Safari does this automatically).

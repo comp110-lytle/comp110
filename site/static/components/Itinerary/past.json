@@ -391,5 +391,121 @@
             }
         }
     ],
-    "2024-06-01": []
+    "2024-06-01": [],
+    "2024-06-02": [],
+    "2024-06-03": [
+        {
+            "kind": "LS",
+            "n": 19,
+            "title": "Lists (Due Monday 6/3)",
+            "date": "2024-06-03",
+            "deadline": "2024-06-03",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=U_GP3Jkz5lU",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 20,
+            "title": "Lists in Memory (Due Monday 6/3)",
+            "date": "2024-06-03",
+            "deadline": "2024-06-03",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=WCvrVTUZ-Ac",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 3,
+            "title": "Lists Practice (Due Monday 6/3)",
+            "date": "2024-06-03",
+            "deadline": "2024-06-03",
+            "links": {
+                "": "/cqs/lists.html"
+            }
+        }
+    ],
+    "2024-06-04": [
+        {
+            "kind": "CL",
+            "n": 7,
+            "title": "for Loops + range",
+            "date": "2024-06-04",
+            "deadline": "None",
+            "links": {
+                "Slides (Part A)": "/static/slides/CL07-A.pdf",
+                "Slides (Part B)": "/static/slides/CL07-B.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "for loops practice (Due Wednesday 6/5)",
+            "date": "2024-06-04",
+            "deadline": "2024-06-05",
+            "links": {
+                "": "/cqs/for-loops.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "List Utils (Due Friday 6/7)",
+            "date": "2024-06-04",
+            "deadline": "2024-06-07",
+            "links": {
+                "": "/exercises/list-utils.html"
+            }
+        }
+    ],
+    "2024-06-05": [
+        {
+            "kind": "LS",
+            "n": 21,
+            "title": "Unit Tests (Due Wednesday 6/5)",
+            "date": "2024-06-05",
+            "deadline": "2024-06-05",
+            "links": {
+                "Video": "https://youtu.be/T_9JaV2aIS0",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-06-06": [
+        {
+            "kind": "CQ",
+            "n": 5,
+            "title": "Unit Tests (Due Thursday 6/6)",
+            "date": "2024-06-06",
+            "deadline": "2024-06-06",
+            "links": {
+                "": "/cqs/list-unit-tests.html"
+            }
+        }
+    ],
+    "2024-06-07": [
+        {
+            "kind": "QZ",
+            "n": 2,
+            "title": "Quiz 2",
+            "date": "2024-06-07",
+            "deadline": "2024-06-07",
+            "links": {
+                "Practice Problems": "/resources/practice/ss24/qz02.html"
+            }
+        },
+        {
+            "kind": "RD",
+            "n": 1,
+            "title": "Reading: Man versus Machine or Man + Machine (Due Friday 6/21)",
+            "date": "2024-06-07",
+            "deadline": "2024-06-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-06-08": []
 }
