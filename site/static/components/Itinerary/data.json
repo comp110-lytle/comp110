@@ -629,6 +629,16 @@
             "links": {
                 "": "/"
             }
+        },
+        {
+            "kind": "EX",
+            "n": 6,
+            "title": "River Simulation (Due Thursday 6/20)",
+            "date": "2024-06-14",
+            "deadline": "2024-06-20",
+            "links": {
+                "": "/"
+            }
         }
     ],
     "2024-06-15": [],

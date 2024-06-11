@@ -74,7 +74,8 @@ template: home
 <div class="date col-md-2">Fri, Jun 14</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL10 </span><span class="title"><a href="/">Magic Methods + Operator Overloads</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ08 </span><span class="title"><a href="/">Practice with Magic Methods (Due Friday 6/14)</a></span></div></div>
+<span class="kind">CQ08 </span><span class="title"><a href="/">Practice with Magic Methods (Due Friday 6/14)</a></span></div><div class="plan Exercise">
+<span class="kind">EX06 </span><span class="title"><a href="/">River Simulation (Due Thursday 6/20)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-06-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jun 21</div>
 <div class="plans col-md-9"><div class="plan Final">
