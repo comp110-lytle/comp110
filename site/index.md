@@ -68,7 +68,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-06-13" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jun 13</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL09 </span><span class="title"><a href="/">Practice with OOP</a></span></div><div class="plan Challenge Question">
+<span class="kind">CL09 </span><span class="title"><a href="/static/slides/CL09-SS1.pdf">Practice with OOP</a></span></div><div class="plan Challenge Question">
 <span class="kind">CQ07 </span><span class="title"><a href="/">Practice with OOP (Due Thursday 6/13)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-06-14" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jun 14</div>
