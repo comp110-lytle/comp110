@@ -27,6 +27,7 @@ Write a function definition with the following expectations:
 - If the input dict is empty, it should return an empty list.
 - The function should not mutate (modify) the input dictionary.
 - Explicitly type variables, parameters, and return types. 
+- Do *not* use the built-in .values() or .keys() methods!
 
 Example usage:
 <pre>
@@ -49,6 +50,7 @@ Write a function definition with the following expectations:
 - If the input dict is empty, it should return an empty list.
 - The function should not mutate (modify) the input dictionary.
 - Explicitly type variables, parameters, and return types. 
+- Do *not* use the built-in .values() or .keys() methods!
 
 Example usage:
 <pre>
