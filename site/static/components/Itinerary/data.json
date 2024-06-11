@@ -583,7 +583,7 @@
             "date": "2024-06-12",
             "deadline": "2024-06-12",
             "links": {
-                "Video": "/"
+                "Video": "https://youtu.be/FM29tHBFBc8"
             }
         }
     ],
@@ -605,7 +605,7 @@
             "date": "2024-06-13",
             "deadline": "2024-06-13",
             "links": {
-                "": "/"
+                "": "/cqs/oop-mutable.html"
             }
         }
     ],

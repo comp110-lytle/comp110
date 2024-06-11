@@ -127,6 +127,6 @@ page: lessons
 
 <div class="plan Class"><span class="kind">LS24 </span>
 <span class="title">Classes in Memory:</span>
-[Video](/)
+[Video](https://youtu.be/FM29tHBFBc8)
 </div>
 
