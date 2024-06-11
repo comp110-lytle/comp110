@@ -105,7 +105,7 @@ The results of which would look like:
 
 
 <pre>
-<div class="terminal">$ python -m ex05.favorite_color
+<div class="terminal">$ python -m ex05.dictionary
 blue
 </div></pre>
 
@@ -131,7 +131,7 @@ An example:
 The results of which would look like:
 
 <pre>
-<div class="terminal">$ python -m ex05.update_attendance
+<div class="terminal">$ python -m ex05.dictionary
 {'Monday': ['Vrinda', 'Kaleb'], 'Tuesday': ['Alyssa', 'Vrinda'], 'Wednesday': ['Kaleb']}
 </div>
 </pre>
