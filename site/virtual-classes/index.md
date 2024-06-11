@@ -120,3 +120,13 @@ page: lessons
 [Video](https://youtu.be/tlfJfLBsuX0)
 </div>
 
+<div class="plan Class"><span class="kind">LS23 </span>
+<span class="title">Intro to OOP:</span>
+[Video](https://www.youtube.com/watch?v=DmYPEH8qkRI)
+</div>
+
+<div class="plan Class"><span class="kind">LS24 </span>
+<span class="title">Classes in Memory:</span>
+[Video](/)
+</div>
+

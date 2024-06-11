@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/dicts-for-loops.html">CQ06 - TUE, JUN 11 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils-and-utests.html">EX05 - FRI, JUN 14 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/dicts-for-loops.html">CQ06 - TUE, JUN 11 11:59pm</a></li><li class="horizon-item"><a href="https://www.youtube.com/watch?v=DmYPEH8qkRI">LS024 - WED, JUN 12 11:59pm</a></li><li class="horizon-item"><a href="/">LS025 - WED, JUN 12 11:59pm</a></li><li class="horizon-item"><a href="/">CQ07 - THU, JUN 13 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils-and-utests.html">EX05 - FRI, JUN 14 11:59pm</a></li><li class="horizon-item"><a href="/">CQ08 - FRI, JUN 14 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -55,6 +55,26 @@ template: home
 <ul class="links"><li class="link"><a href="/static/slides/CL11.pdf">Slides</a></li>
 </ul></div><div class="plan Challenge Question">
 <span class="kind">CQ06 </span><span class="title"><a href="/cqs/dicts-for-loops.html">Dictionary Practice (Due Tuesday 6/11)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-06-12" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Jun 12</div>
+<div class="plans col-md-9"><div class="plan Lesson">
+<span class="kind">LS24 </span><span class="title">Intro to OOP (Due Wednesday 6/12)</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=DmYPEH8qkRI">Video</a></li>
+<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS25 </span><span class="title">Classes in Memory (Due Wednesday 6/12)</span>
+<ul class="links"><li class="link"><a href="/">Video</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2024-06-13" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Jun 13</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL09 </span><span class="title"><a href="/">Practice with OOP</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ07 </span><span class="title"><a href="/">Practice with OOP (Due Thursday 6/13)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-06-14" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Jun 14</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL10 </span><span class="title"><a href="/">Magic Methods + Operator Overloads</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ08 </span><span class="title"><a href="/">Practice with Magic Methods (Due Friday 6/14)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-06-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jun 21</div>
 <div class="plans col-md-9"><div class="plan Final">
