@@ -20,7 +20,9 @@ template: overview
 8. Constructors must take at least one parameter other than the self parameter. (T/F)
 9. Objects are passed into functions by reference. (T/F)
 10. The type of an object is the same as the name of the class it is an instance of. (T/F)
-
+11. `__init__` doesn't take `self` as an argument when the constructor is called, but it does have it as a parameter. (T/F)
+12. `__init__` doesn't contain a `return` statement, but it does return something. (T/F)
+13. Similar to how a function is first *defined* then *called*, a class is first *defined* then ____.
 
 # Answers
 
@@ -34,3 +36,6 @@ template: overview
 8. False
 9. True
 10. True
+11. True
+12. True
+13. Instantiated
