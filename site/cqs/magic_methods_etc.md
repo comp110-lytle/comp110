@@ -81,26 +81,8 @@ x: 4.0; y: 5.0
 Now, modify `__add__` so that the `factor` parameter can be either a `float` or an `int`!
 
 
-## 3: Default Parameters
 
-Now, you are going to set default parameters for `Point()` so that when no arguments are given to the constructor, the default values of the `x` and `y` attributes are `0.0`.
-
-### Example Usage
-
-
-<pre>
-<div class="terminal">$ python 
->>> from lessons.CQ08.point import Point
->>> my_point: Point = Point()
->>> print(my_point)
-x: 0.0; y: 0.0
->>> my_other_point: Point = Point(2.0, 1.0)
->>> print(my_other_point)
-x: 2.0; y: 1.0
-</div>
-</pre>
-
-## 4: Submission
+## 3: Submission
 
 Create your submission with the following command:
 
