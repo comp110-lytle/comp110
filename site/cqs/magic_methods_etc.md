@@ -8,7 +8,7 @@ template: overview
 
 # Magic Methods, Operator Overloads, and Union Types
 
-For this challenge question, you're going to modify the `Point` class you previously wrote to add more functionality! (This will mean modifying the `point.py` file inside `lessons/CQ07`. If you weren't able to get full points for CQ07, you can use [this file](/challenge_questions/point.html) as a baseline.)
+For this challenge question, you're going to modify the `Point` class you previously wrote to add more functionality! (This will mean modifying the `point.py` file inside `lessons/CQ08`.)
 
 ## 0: `__str__()`
 
@@ -22,7 +22,7 @@ where `<x value>` and `<y value>` are the `x` and `y` attributes of the `Point`,
 
 <pre>
 <div class="terminal">$ python 
->>> from lessons.CQ07.point import Point
+>>> from lessons.CQ08.point import Point
 >>> my_point: Point = Point(1.0, 2.0)
 >>> print(str(my_point))
 x: 1.0; y: 2.0
@@ -39,7 +39,7 @@ The goal is that when multiplying a `Point` object with a `factor: int`, it shou
 
 <pre>
 <div class="terminal">$ python 
->>> from lessons.CQ07.point import Point
+>>> from lessons.CQ08.point import Point
 >>> my_point: Point = Point(1.0, 2.0)
 >>> new_point: Point = my_point * 3
 >>> print(new_point)
@@ -53,7 +53,7 @@ Now, modify `__mul__` so that the `factor` parameter can be either a `float` or 
 ### Example Usage:
 <pre>
 <div class="terminal">$ python 
->>> from lessons.CQ07.point import Point
+>>> from lessons.CQ08.point import Point
 >>> my_point: Point = Point(1.0, 2.0)
 >>> new_point: Point = my_point * 3.0
 >>> print(new_point)
@@ -69,7 +69,7 @@ It should behave similarly to multiplication, where it creates a new `Point`, bu
 
 <pre>
 <div class="terminal">$ python 
->>> from lessons.CQ07.point import Point
+>>> from lessons.CQ08.point import Point
 >>> my_point: Point = Point(1.0, 2.0)
 >>> new_point: Point = my_point + 3.0
 >>> print(new_point)
@@ -90,7 +90,7 @@ Now, you are going to set default parameters for `Point()` so that when no argum
 
 <pre>
 <div class="terminal">$ python 
->>> from lessons.CQ07.point import Point
+>>> from lessons.CQ08.point import Point
 >>> my_point: Point = Point()
 >>> print(my_point)
 x: 0.0; y: 0.0
@@ -105,5 +105,5 @@ x: 2.0; y: 1.0
 Create your submission with the following command:
 
 ```
-python -m tools.submission lessons/CQ07
+python -m tools.submission lessons/CQ08
 ```

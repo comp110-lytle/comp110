@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/oop-mutable.html">CQ07 - THU, JUN 13 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils-and-utests.html">EX05 - FRI, JUN 14 11:59pm</a></li><li class="horizon-item"><a href="/">CQ08 - FRI, JUN 14 11:59pm</a></li><li class="horizon-item"><a href="/">EX06 - THU, JUN 20 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/oop-mutable.html">CQ07 - THU, JUN 13 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils-and-utests.html">EX05 - FRI, JUN 14 11:59pm</a></li><li class="horizon-item"><a href="/cqs/magic_methods_etc.html">CQ08 - FRI, JUN 14 11:59pm</a></li><li class="horizon-item"><a href="/">EX06 - THU, JUN 20 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -63,7 +63,7 @@ template: home
 <div class="date col-md-2">Fri, Jun 14</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL10 </span><span class="title"><a href="/">Magic Methods + Operator Overloads</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ08 </span><span class="title"><a href="/">Practice with Magic Methods (Due Friday 6/14)</a></span></div><div class="plan Exercise">
+<span class="kind">CQ08 </span><span class="title"><a href="/cqs/magic_methods_etc.html">Practice with Magic Methods (Due Friday 6/14)</a></span></div><div class="plan Exercise">
 <span class="kind">EX06 </span><span class="title"><a href="/">River Simulation (Due Thursday 6/20)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-06-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jun 21</div>
