@@ -8,7 +8,7 @@ from typing import Any
 import inspect
 import types
 
-POINT_MODULE = "lessons.CQ07.point"
+POINT_MODULE = "lessons.CQ08.point"
 POINT_CLASS = "Point"
 
 # riv_module: Any
@@ -67,7 +67,7 @@ def test_mul_method_functionality():
     sig = inspect.signature(module.Point.__mul__)
     assert sig.return_annotation == 'Point'
     
-@mark.weight(1)
+@mark.weight(2)
 def test_mul_params():
     """1.1: __mul__ should take the union of int and float as a parameter."""
     module = reimport_module(POINT_MODULE)
@@ -94,7 +94,7 @@ def test_add_method_functionality():
     sig = inspect.signature(module.Point.__add__)
     assert sig.return_annotation == 'Point'
     
-@mark.weight(1)
+@mark.weight(2)
 def test_add_params():
     """2.1: __add__ should take the union of int and float as a parameter."""
     module = reimport_module(POINT_MODULE)
@@ -105,102 +105,24 @@ def test_add_params():
     assert sig.parameters[vals].annotation == "int | float"
     
 
-@mark.weight(1)
-def test_default_params():
-    """3: Point contructor should have default values of 0.0 for both x and y"""
-    point_module = reimport_module(POINT_MODULE)
-    try:
-        my_point = point_module.Point()
-    except:
-        assert False
-    assert my_point.x == 0.0
-    assert my_point.y == 0.0
+# @mark.weight(1)
+# def test_default_params():
+#     """3: Point contructor should have default values of 0.0 for both x and y"""
+#     point_module = reimport_module(POINT_MODULE)
+#     try:
+#         my_point = point_module.Point()
+#     except:
+#         assert False
+#     assert my_point.x == 0.0
+#     assert my_point.y == 0.0
     
-@mark.weight(1)
-def test_default_params_constructor():
-    """3: Default values shouldn't have impacted existing constructor"""
-    point_module = reimport_module(POINT_MODULE)
-    try:
-        my_point = point_module.Point(2.0,2.0)
-    except:
-        assert False
-    assert my_point.x == 2.0
-    assert my_point.y == 2.0
-
-# @mark.weight(5)
-# def test_bear_create(capsys,monkeypatch):
-#     """Part I: 1.1 + 1.2 A new Bear should have age 0 and hunger_score"""
-#     bear_module = import_module(BEAR_MODULE)
-#     new_bear = bear_module.Bear()
-#     assert new_bear.age == 0
-#     assert new_bear.hunger_score == 0
-    
-# @mark.weight(4)
-# def test_fish_create(capsys,monkeypatch):
-#     """Part I: 2.1 + 2.2 A new Fish should have age 0"""
-#     fish_module = import_module(FISH_MODULE)
-#     new_fish = fish_module.Fish()
-#     assert new_fish.age == 0
-    
-# # def _test_river_create(num_fish, num_bears):
-# #     river_module = import_module(RIV_MODULE)
-# #     new_river = river_module.River(num_fish, num_bears)
-# #     assert new_river.day == 0
-# #     assert len(new_river.fish) == num_fish
-# #     assert len(new_river.bears) == num_bears
-
-# # @mark.weight(0)
-# # def test_river_create1(capsys,monkeypatch):
-# #     """3.1 + 3.2 A new River should have day = 0, and the correct number of fish and bears"""
-# #     _test_river_create(3,2)
-
-# def _test_view_river(num_fish, num_bears):
-#     """returns the expected string output for view_river"""
-#     x = f"~~~ Day {0}: ~~~"
-#     y = f"Fish population: {num_fish}"
-#     z = f"Bear population: {num_bears}"
-#     return [x,y,z]
-
-# @mark.weight(10)
-# def test_view_river(capsys,monkeypatch):
-#     """Part I: 3.3 view_river Output Should Work for Any Amount of Fish and Bears"""
-#     river_module = import_module(RIV_MODULE)
-#     new_river = river_module.River(10, 11)
-#     new_river.view_river()
-#     output = _get_output(capsys)
-#     [x,y,z] = _test_view_river(10, 11)
-#     regex = re.compile(f"(?i){x}")
-#     match = regex.search(output[0]) is not None
-#     assert match, "Output must match expectation exactly. Check your spelling and spacing."
-#     regex = re.compile(f"(?i){y}")
-#     match = regex.search(output[1]) is not None
-#     assert match, "Output must match expectation exactly. Check your spelling and spacing."
-#     regex = re.compile(f"(?i){z}")
-#     match = regex.search(output[2]) is not None
-#     assert match, "Output must match expectation exactly. Check your spelling and spacing."
-
-# @mark.weight(5)
-# def test_bear_one_day(capsys):
-#     """Part I: 4.1 Calling one_day() in the Bear class should age Bear by one"""
-#     bear_module = import_module(BEAR_MODULE)
-#     new_bear = bear_module.Bear()
-#     new_bear.one_day()
-#     assert new_bear.age == 1
-    
-# @mark.weight(5)
-# def test_fish_one_day(capsys):
-#     """Part I: 4.2 Calling one_day() in the Fish class should age Fish by one"""
-#     fish_module = import_module(FISH_MODULE)
-#     new_fish = fish_module.Fish()
-#     new_fish.one_day()
-#     assert new_fish.age == 1
-    
-# @mark.weight(10)
-# def test_river_one_week(capsys):
-#      """Part I: 4.3 One River Week Should End With day = 7"""
-#      river_module = import_module(RIV_MODULE)
-#      new_river = river_module.River(1,1)
-#      new_river.one_river_week()
-#      print(new_river.day)
-#      assert new_river.day == 7
-     
+# @mark.weight(1)
+# def test_default_params_constructor():
+#     """3: Default values shouldn't have impacted existing constructor"""
+#     point_module = reimport_module(POINT_MODULE)
+#     try:
+#         my_point = point_module.Point(2.0,2.0)
+#     except:
+#         assert False
+#     assert my_point.x == 2.0
+#     assert my_point.y == 2.0
