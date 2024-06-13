@@ -652,7 +652,9 @@
             "title": "Final @ 8:00AM",
             "date": "2024-06-21",
             "deadline": "None",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/ss24/fn.html"
+            }
         }
     ]
 }

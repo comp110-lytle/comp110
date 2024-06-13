@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/dicts-for-loops.html">CQ06 - TUE, JUN 11 11:59pm</a></li><li class="horizon-item"><a href="https://www.youtube.com/watch?v=DmYPEH8qkRI">LS024 - WED, JUN 12 11:59pm</a></li><li class="horizon-item"><a href="https://youtu.be/FM29tHBFBc8">LS025 - WED, JUN 12 11:59pm</a></li><li class="horizon-item"><a href="/cqs/oop-mutable.html">CQ07 - THU, JUN 13 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils-and-utests.html">EX05 - FRI, JUN 14 11:59pm</a></li><li class="horizon-item"><a href="/">CQ08 - FRI, JUN 14 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/oop-mutable.html">CQ07 - THU, JUN 13 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils-and-utests.html">EX05 - FRI, JUN 14 11:59pm</a></li><li class="horizon-item"><a href="/">CQ08 - FRI, JUN 14 11:59pm</a></li><li class="horizon-item"><a href="/">EX06 - THU, JUN 20 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,18 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-06-10" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Jun 10</div>
-<div class="plans col-md-9"><div class="plan Lesson">
-<span class="kind">LS22 </span><span class="title">Dictionaries (Due Monday 6/10)</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=PHkFp_T--yk">Video</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS23 </span><span class="title">Dictionaries in Memory (Due Monday 6/10)</span>
-<ul class="links"><li class="link"><a href="https://youtu.be/tlfJfLBsuX0">Video</a></li>
-</ul></div><div class="plan Exercise">
-<span class="kind">EX05 </span><span class="title"><a href="/exercises/dict-utils-and-utests.html">Dictionary Utils + Unit Tests (Due Friday 6/14)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-11" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-06-11" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Jun 11</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL08 </span><span class="title">Dictionaries + For Loops</span>
@@ -79,10 +68,23 @@ template: home
 </div><div data-type="lecture" data-date="2024-06-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jun 21</div>
 <div class="plans col-md-9"><div class="plan Final">
-<span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
+<span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span>
+<ul class="links"><li class="link"><a href="/resources/practice/ss24/fn.html">Practice Problems</a></li>
+</ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-06-07" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-06-10" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Jun 10</div>
+<div class="plans col-md-9"><div class="plan Lesson">
+<span class="kind">LS22 </span><span class="title">Dictionaries (Due Monday 6/10)</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=PHkFp_T--yk">Video</a></li>
+<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS23 </span><span class="title">Dictionaries in Memory (Due Monday 6/10)</span>
+<ul class="links"><li class="link"><a href="https://youtu.be/tlfJfLBsuX0">Video</a></li>
+</ul></div><div class="plan Exercise">
+<span class="kind">EX05 </span><span class="title"><a href="/exercises/dict-utils-and-utests.html">Dictionary Utils + Unit Tests (Due Friday 6/14)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-06-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jun 7</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ02 </span><span class="title">Quiz 2</span>

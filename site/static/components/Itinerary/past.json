@@ -507,5 +507,39 @@
             }
         }
     ],
-    "2024-06-08": []
+    "2024-06-08": [],
+    "2024-06-09": [],
+    "2024-06-10": [
+        {
+            "kind": "LS",
+            "n": 22,
+            "title": "Dictionaries (Due Monday 6/10)",
+            "date": "2024-06-10",
+            "deadline": "2024-06-10",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=PHkFp_T--yk",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 23,
+            "title": "Dictionaries in Memory (Due Monday 6/10)",
+            "date": "2024-06-10",
+            "deadline": "2024-06-10",
+            "links": {
+                "Video": "https://youtu.be/tlfJfLBsuX0"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "Dictionary Utils + Unit Tests (Due Friday 6/14)",
+            "date": "2024-06-10",
+            "deadline": "2024-06-14",
+            "links": {
+                "": "/exercises/dict-utils-and-utests.html"
+            }
+        }
+    ]
 }
