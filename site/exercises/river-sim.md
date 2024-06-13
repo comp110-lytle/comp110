@@ -184,7 +184,7 @@ Modify the `repopulate_bears` method so that it has the following functionality.
 Modify the `repopulate_fish` method so that it has the following functionality. Each *pair* of fish will produce 4 offspring. In other words, if there are 2 fish, 
 4 new fish will be born and added to `fish`. To generalize, for `n` fish, there will be `(n//2) * 4` new `Fish` added to `fish`. 
 
-## Autograding
+## Submission
 
 
 Login to Gradescope and select the assignment named "EX09 - River Simulation". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
