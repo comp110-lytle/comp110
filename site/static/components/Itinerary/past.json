@@ -541,5 +541,27 @@
                 "": "/exercises/dict-utils-and-utests.html"
             }
         }
+    ],
+    "2024-06-11": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Dictionaries + For Loops",
+            "date": "2024-06-11",
+            "deadline": "None",
+            "links": {
+                "Slides": "/static/slides/CL11.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 6,
+            "title": "Dictionary Practice (Due Tuesday 6/11)",
+            "date": "2024-06-11",
+            "deadline": "2024-06-11",
+            "links": {
+                "": "/cqs/dicts-for-loops.html"
+            }
+        }
     ]
 }
