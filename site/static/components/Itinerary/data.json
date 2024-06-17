@@ -668,7 +668,28 @@
             }
         }
     ],
-    "2024-06-18": [],
+    "2024-06-18": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "More on Recursion",
+            "date": "2024-06-18",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 9,
+            "title": "Recursion Practice (Due Tuesday 6/18)",
+            "date": "2024-06-18",
+            "deadline": "2024-06-18",
+            "links": {
+                "": "/cqs/recursive-fns.html"
+            }
+        }
+    ],
     "2024-06-21": [
         {
             "kind": "FN",

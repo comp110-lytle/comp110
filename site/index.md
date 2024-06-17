@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/magic_methods_etc.html">CQ08 - MON, JUN 17 11:59pm</a></li><li class="horizon-item"><a href="https://www.youtube.com/watch?v=5mVmXIrG5ec">LS026 - MON, JUN 17 11:59pm</a></li><li class="horizon-item"><a href="/exercises/river-sim.html">EX06 - THU, JUN 20 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD01 - FRI, JUN 21 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/magic_methods_etc.html">CQ08 - MON, JUN 17 11:59pm</a></li><li class="horizon-item"><a href="https://www.youtube.com/watch?v=5mVmXIrG5ec">LS026 - MON, JUN 17 11:59pm</a></li><li class="horizon-item"><a href="/cqs/recursive-fns.html">CQ09 - TUE, JUN 18 11:59pm</a></li><li class="horizon-item"><a href="/exercises/river-sim.html">EX06 - THU, JUN 20 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD01 - FRI, JUN 21 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,13 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-06-14" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Jun 14</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL10 </span><span class="title"><a href="/static/slides/CL10-SS1.pdf">Magic Methods + Operator Overloads</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ08 </span><span class="title"><a href="/cqs/magic_methods_etc.html">Practice with Magic Methods (Due Monday 6/17)</a></span></div><div class="plan Exercise">
-<span class="kind">EX06 </span><span class="title"><a href="/exercises/river-sim.html">River Simulation (Due Thursday 6/20)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-17" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-06-17" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Jun 17</div>
 <div class="plans col-md-9"><div class="plan Lesson">
 <span class="kind">LS26 </span><span class="title">Recursion (Due Monday 6/17)</span>
@@ -52,6 +46,11 @@ template: home
 <li class="link"><a href="/static/slides/Recursion.pdf">Slides</a></li>
 <li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
 </ul></div></div>
+</div><div data-type="lecture" data-date="2024-06-18" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Jun 18</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL11 </span><span class="title"><a href="/">More on Recursion</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ09 </span><span class="title"><a href="/cqs/recursive-fns.html">Recursion Practice (Due Tuesday 6/18)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-06-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jun 21</div>
 <div class="plans col-md-9"><div class="plan Final">
@@ -60,7 +59,13 @@ template: home
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-06-13" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-06-14" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Jun 14</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL10 </span><span class="title"><a href="/static/slides/CL10-SS1.pdf">Magic Methods + Operator Overloads</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ08 </span><span class="title"><a href="/cqs/magic_methods_etc.html">Practice with Magic Methods (Due Monday 6/17)</a></span></div><div class="plan Exercise">
+<span class="kind">EX06 </span><span class="title"><a href="/exercises/river-sim.html">River Simulation (Due Thursday 6/20)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-06-13" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jun 13</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL09 </span><span class="title"><a href="/static/slides/CL09-SS1.pdf">Practice with OOP</a></span></div><div class="plan Challenge Question">

@@ -1,36 +1,4 @@
 {
-    "2024-06-14": [
-        {
-            "kind": "CL",
-            "n": 10,
-            "title": "Magic Methods + Operator Overloads",
-            "date": "2024-06-14",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/CL10-SS1.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 8,
-            "title": "Practice with Magic Methods (Due Monday 6/17)",
-            "date": "2024-06-14",
-            "deadline": "2024-06-17",
-            "links": {
-                "": "/cqs/magic_methods_etc.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 6,
-            "title": "River Simulation (Due Thursday 6/20)",
-            "date": "2024-06-14",
-            "deadline": "2024-06-20",
-            "links": {
-                "": "/exercises/river-sim.html"
-            }
-        }
-    ],
     "2024-06-15": [],
     "2024-06-16": [],
     "2024-06-17": [
@@ -48,7 +16,28 @@
             }
         }
     ],
-    "2024-06-18": [],
+    "2024-06-18": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "More on Recursion",
+            "date": "2024-06-18",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 9,
+            "title": "Recursion Practice (Due Tuesday 6/18)",
+            "date": "2024-06-18",
+            "deadline": "2024-06-18",
+            "links": {
+                "": "/cqs/recursive-fns.html"
+            }
+        }
+    ],
     "2024-06-21": [
         {
             "kind": "FN",
