@@ -26,11 +26,21 @@
             }
         },
         {
+            "kind": "LS",
+            "n": 1,
+            "title": "Syllabus and Support (Due Wednesday 5/15)",
+            "date": "2024-05-15",
+            "deadline": "2024-05-15",
+            "links": {
+                "syllabus": "/resources/syllabus.html"
+            }
+        },
+        {
             "kind": "EX",
             "n": 0,
-            "title": "Hello World (Due Thursday 5/16)",
+            "title": "Hello World (Due Saturday 5/18)",
             "date": "2024-05-15",
-            "deadline": "2024-05-16",
+            "deadline": "2024-05-18",
             "links": {
                 "": "/exercises/ex00_hello_world.html"
             }
@@ -51,7 +61,7 @@
         },
         {
             "kind": "LS",
-            "n": 1,
+            "n": 2,
             "title": "Objects and Data Types (Due Thursday 5/16)",
             "date": "2024-05-16",
             "deadline": "2024-05-16",
@@ -73,7 +83,7 @@
         },
         {
             "kind": "LS",
-            "n": 2,
+            "n": 3,
             "title": "Expressions (Due Friday 5/17)",
             "date": "2024-05-17",
             "deadline": "2024-05-17",
@@ -83,7 +93,7 @@
         },
         {
             "kind": "LS",
-            "n": 3,
+            "n": 4,
             "title": "Variables and User Input (Due Friday 5/17)",
             "date": "2024-05-17",
             "deadline": "2024-05-17",
@@ -97,7 +107,7 @@
     "2024-05-20": [
         {
             "kind": "LS",
-            "n": 4,
+            "n": 5,
             "title": "Running a Program + The Terminal (Due Monday 5/20)",
             "date": "2024-05-20",
             "deadline": "2024-05-20",
@@ -108,7 +118,7 @@
         },
         {
             "kind": "LS",
-            "n": 5,
+            "n": 6,
             "title": "Boolean Operators (Due Monday 5/20)",
             "date": "2024-05-20",
             "deadline": "2024-05-20",
@@ -119,7 +129,7 @@
         },
         {
             "kind": "LS",
-            "n": 6,
+            "n": 7,
             "title": "Unicode, Emoji, Escape Sequences, and f-Strings (Due Monday 5/20)",
             "date": "2024-05-20",
             "deadline": "2024-05-20",
@@ -130,7 +140,7 @@
         },
         {
             "kind": "LS",
-            "n": 7,
+            "n": 8,
             "title": "Memory Diagrams (Due Monday 5/20)",
             "date": "2024-05-20",
             "deadline": "2024-05-20",
@@ -623,9 +633,9 @@
         {
             "kind": "CQ",
             "n": 8,
-            "title": "Practice with Magic Methods (Due Friday 6/14)",
+            "title": "Practice with Magic Methods (Due Monday 6/17)",
             "date": "2024-06-14",
-            "deadline": "2024-06-14",
+            "deadline": "2024-06-17",
             "links": {
                 "": "/cqs/magic_methods_etc.html"
             }
@@ -643,7 +653,21 @@
     ],
     "2024-06-15": [],
     "2024-06-16": [],
-    "2024-06-17": [],
+    "2024-06-17": [
+        {
+            "kind": "LS",
+            "n": 26,
+            "title": "Recursion (Due Monday 6/17)",
+            "date": "2024-06-17",
+            "deadline": "2024-06-17",
+            "links": {
+                "Video Pt. 1": "https://www.youtube.com/watch?v=5mVmXIrG5ec",
+                "Video Pt. 2": "https://www.youtube.com/watch?v=lWwCoD9EV9g",
+                "Slides": "/static/slides/Recursion.pdf",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-06-18": [],
     "2024-06-21": [
         {

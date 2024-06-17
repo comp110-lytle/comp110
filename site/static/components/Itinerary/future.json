@@ -1,49 +1,4 @@
 {
-    "2024-06-12": [
-        {
-            "kind": "LS",
-            "n": 24,
-            "title": "Intro to OOP (Due Wednesday 6/12)",
-            "date": "2024-06-12",
-            "deadline": "2024-06-12",
-            "links": {
-                "Video": "https://www.youtube.com/watch?v=DmYPEH8qkRI",
-                "Assignment": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 25,
-            "title": "Classes in Memory (Due Wednesday 6/12)",
-            "date": "2024-06-12",
-            "deadline": "2024-06-12",
-            "links": {
-                "Video": "https://youtu.be/FM29tHBFBc8"
-            }
-        }
-    ],
-    "2024-06-13": [
-        {
-            "kind": "CL",
-            "n": 9,
-            "title": "Practice with OOP",
-            "date": "2024-06-13",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/CL09-SS1.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 7,
-            "title": "Practice with OOP (Due Thursday 6/13)",
-            "date": "2024-06-13",
-            "deadline": "2024-06-13",
-            "links": {
-                "": "/cqs/oop-mutable.html"
-            }
-        }
-    ],
     "2024-06-14": [
         {
             "kind": "CL",
@@ -58,9 +13,9 @@
         {
             "kind": "CQ",
             "n": 8,
-            "title": "Practice with Magic Methods (Due Friday 6/14)",
+            "title": "Practice with Magic Methods (Due Monday 6/17)",
             "date": "2024-06-14",
-            "deadline": "2024-06-14",
+            "deadline": "2024-06-17",
             "links": {
                 "": "/cqs/magic_methods_etc.html"
             }
@@ -78,7 +33,21 @@
     ],
     "2024-06-15": [],
     "2024-06-16": [],
-    "2024-06-17": [],
+    "2024-06-17": [
+        {
+            "kind": "LS",
+            "n": 26,
+            "title": "Recursion (Due Monday 6/17)",
+            "date": "2024-06-17",
+            "deadline": "2024-06-17",
+            "links": {
+                "Video Pt. 1": "https://www.youtube.com/watch?v=5mVmXIrG5ec",
+                "Video Pt. 2": "https://www.youtube.com/watch?v=lWwCoD9EV9g",
+                "Slides": "/static/slides/Recursion.pdf",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-06-18": [],
     "2024-06-21": [
         {

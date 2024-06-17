@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/dict-utils-and-utests.html">EX05 - FRI, JUN 14 11:59pm</a></li><li class="horizon-item"><a href="/cqs/magic_methods_etc.html">CQ08 - FRI, JUN 14 11:59pm</a></li><li class="horizon-item"><a href="/exercises/river-sim.html">EX06 - THU, JUN 20 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD01 - FRI, JUN 21 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/magic_methods_etc.html">CQ08 - MON, JUN 17 11:59pm</a></li><li class="horizon-item"><a href="https://www.youtube.com/watch?v=5mVmXIrG5ec">LS026 - MON, JUN 17 11:59pm</a></li><li class="horizon-item"><a href="/exercises/river-sim.html">EX06 - THU, JUN 20 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD01 - FRI, JUN 21 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,7 +37,35 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-06-12" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-06-14" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Jun 14</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL10 </span><span class="title"><a href="/static/slides/CL10-SS1.pdf">Magic Methods + Operator Overloads</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ08 </span><span class="title"><a href="/cqs/magic_methods_etc.html">Practice with Magic Methods (Due Monday 6/17)</a></span></div><div class="plan Exercise">
+<span class="kind">EX06 </span><span class="title"><a href="/exercises/river-sim.html">River Simulation (Due Thursday 6/20)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-06-17" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Jun 17</div>
+<div class="plans col-md-9"><div class="plan Lesson">
+<span class="kind">LS26 </span><span class="title">Recursion (Due Monday 6/17)</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=5mVmXIrG5ec">Video Pt. 1</a></li>
+<li class="link"><a href="https://www.youtube.com/watch?v=lWwCoD9EV9g">Video Pt. 2</a></li>
+<li class="link"><a href="/static/slides/Recursion.pdf">Slides</a></li>
+<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2024-06-21" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Jun 21</div>
+<div class="plans col-md-9"><div class="plan Final">
+<span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span>
+<ul class="links"><li class="link"><a href="/resources/practice/ss24/fn.html">Practice Problems</a></li>
+</ul></div></div>
+</div><!-- The Past section --><div id='past' class="pb-2"></div>
+<hr>
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-06-13" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Jun 13</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL09 </span><span class="title"><a href="/static/slides/CL09-SS1.pdf">Practice with OOP</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ07 </span><span class="title"><a href="/cqs/oop-mutable.html">Practice with OOP (Due Thursday 6/13)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-06-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Jun 12</div>
 <div class="plans col-md-9"><div class="plan Lesson">
 <span class="kind">LS24 </span><span class="title">Intro to OOP (Due Wednesday 6/12)</span>
@@ -47,26 +75,7 @@ template: home
 <span class="kind">LS25 </span><span class="title">Classes in Memory (Due Wednesday 6/12)</span>
 <ul class="links"><li class="link"><a href="https://youtu.be/FM29tHBFBc8">Video</a></li>
 </ul></div></div>
-</div><div data-type="lecture" data-date="2024-06-13" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Jun 13</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL09 </span><span class="title"><a href="/static/slides/CL09-SS1.pdf">Practice with OOP</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ07 </span><span class="title"><a href="/cqs/oop-mutable.html">Practice with OOP (Due Thursday 6/13)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-14" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Jun 14</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL10 </span><span class="title"><a href="/static/slides/CL10-SS1.pdf">Magic Methods + Operator Overloads</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ08 </span><span class="title"><a href="/cqs/magic_methods_etc.html">Practice with Magic Methods (Due Friday 6/14)</a></span></div><div class="plan Exercise">
-<span class="kind">EX06 </span><span class="title"><a href="/exercises/river-sim.html">River Simulation (Due Thursday 6/20)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-21" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Jun 21</div>
-<div class="plans col-md-9"><div class="plan Final">
-<span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span>
-<ul class="links"><li class="link"><a href="/resources/practice/ss24/fn.html">Practice Problems</a></li>
-</ul></div></div>
-</div><!-- The Past section --><div id='past' class="pb-2"></div>
-<hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-06-11" class="row itinerary-row py-2">
+</div><div data-type="lecture" data-date="2024-06-11" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Jun 11</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL08 </span><span class="title">Dictionaries + For Loops</span>
@@ -196,19 +205,19 @@ template: home
 </div><div data-type="lecture" data-date="2024-05-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, May 20</div>
 <div class="plans col-md-9"><div class="plan Lesson">
-<span class="kind">LS04 </span><span class="title">Running a Program + The Terminal (Due Monday 5/20)</span>
+<span class="kind">LS05 </span><span class="title">Running a Program + The Terminal (Due Monday 5/20)</span>
 <ul class="links"><li class="link"><a href="https://youtu.be/2IAQbE3afEI">Video</a></li>
 <li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
 </ul></div><div class="plan Lesson">
-<span class="kind">LS05 </span><span class="title">Boolean Operators (Due Monday 5/20)</span>
+<span class="kind">LS06 </span><span class="title">Boolean Operators (Due Monday 5/20)</span>
 <ul class="links"><li class="link"><a href="https://youtu.be/tmmSlIq9I_0">Video</a></li>
 <li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
 </ul></div><div class="plan Lesson">
-<span class="kind">LS06 </span><span class="title">Unicode, Emoji, Escape Sequences, and f-Strings (Due Monday 5/20)</span>
+<span class="kind">LS07 </span><span class="title">Unicode, Emoji, Escape Sequences, and f-Strings (Due Monday 5/20)</span>
 <ul class="links"><li class="link"><a href="https://comp110-24s.github.io/lessons/strings.html">Notes</a></li>
 <li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
 </ul></div><div class="plan Lesson">
-<span class="kind">LS07 </span><span class="title">Memory Diagrams (Due Monday 5/20)</span>
+<span class="kind">LS08 </span><span class="title">Memory Diagrams (Due Monday 5/20)</span>
 <ul class="links"><li class="link"><a href="https://youtu.be/YKVT9mCtYPE">Video</a></li>
 </ul></div><div class="plan Challenge Question">
 <span class="kind">CQ00 </span><span class="title"><a href="https://www.gradescope.com/">Practice Memory Diagram (Due Monday 5/20)</a></span></div><div class="plan Challenge Question">
@@ -219,8 +228,8 @@ template: home
 <span class="kind">CL02 </span><span class="title">Expressions, Variables, + Conditionals</span>
 <ul class="links"><li class="link"><a href="/static/slides/SS1-CL02.pdf">Lecture Slides</a></li>
 </ul></div><div class="plan Lesson">
-<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Friday 5/17)</a></span></div><div class="plan Lesson">
-<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Variables and User Input (Due Friday 5/17)</a></span></div></div>
+<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Friday 5/17)</a></span></div><div class="plan Lesson">
+<span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Variables and User Input (Due Friday 5/17)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-05-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, May 16</div>
 <div class="plans col-md-9"><div class="plan Class">
@@ -229,7 +238,7 @@ template: home
 <li class="link"><a href="/lessons/objects-data-types.html">Objects + Data Types Lecture Notes</a></li>
 <li class="link"><a href="/lessons/expressions.html">Expressions Lecture Notes</a></li>
 </ul></div><div class="plan Lesson">
-<span class="kind">LS01 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Data Types (Due Thursday 5/16)</a></span></div></div>
+<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Data Types (Due Thursday 5/16)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-05-15" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, May 15</div>
 <div class="plans col-md-9"><div class="plan Class">
@@ -243,7 +252,10 @@ template: home
 <ul class="links"><li class="link"><a href="/resources/syllabus.html">1. Read the Syllabus</a></li>
 <li class="link"><a href="/support">2. Read Support Resources</a></li>
 <li class="link"><a href="https://www.gradescope.com/">3. Complete Lesson 00 Responses on Gradescope</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS01 </span><span class="title">Syllabus and Support (Due Wednesday 5/15)</span>
+<ul class="links"><li class="link"><a href="/resources/syllabus.html">syllabus</a></li>
 </ul></div><div class="plan Exercise">
-<span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Thursday 5/16)</a></span></div></div>
+<span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Saturday 5/18)</a></span></div></div>
 </div></div>
 </div>
