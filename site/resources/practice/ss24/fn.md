@@ -28,7 +28,7 @@ The best resources for studying are:
 - [Dictionary Conceptual Questions](/resources/practice/dicts.html)
 - [Function Writing](/resources/practice/function-writing.html)
 - [OOP Conceptual Questions](/resources/practice/oop.html)
-- [Class Writing](/resources/practice/oop.html)
+- [Class Writing](/resources/practice/class-writing.html)
 
 
 
