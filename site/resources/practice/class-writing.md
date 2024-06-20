@@ -71,39 +71,49 @@ Practice calling these methods by instantiating a new car object and calling the
 
 Create a class called `HotCocoa` with the following specifications:
 
-    a. Each `HotCocoa` object has a `bool` attribute called `has_whip`, a `str` attribute called `flavor`, and two `int` attributes called `marshmallow_count` and `sweetness`.
+a. Each `HotCocoa` object has a `bool` attribute called `has_whip`, a `str` attribute called `flavor`, and two `int` attributes called `marshmallow_count` and `sweetness`.
 
-    b. The class should have a constructor that takes in and sets up each of its attribute’s values.
+b. The class should have a constructor that takes in and sets up each of its attribute’s values.
 
-    c. Write a method called `mallow_adder` that takes in an `int` called `mallows`, increases the `marshmallow_count` by that amount, and increases the `sweetness` by that amount times 2.
+c. Write a method called `mallow_adder` that takes in an `int` called `mallows`, increases the `marshmallow_count` by that amount, and increases the `sweetness` by that amount times 2.
 
-    d. Write a `__str__` magic method that displays (aka returns a string with) the details of the hot cocoa order mimicing the following:
-    
-        - If it has whipped cream:
-            `"A <flavor> cocoa with whip, <marshmallow_count> marshmallows, and level <sweetness> sweetness.`
-        - If it doesn't have whipped cream:
-            `"A <flavor> cocoa without whip, <marshmallow_count> marshmallows, and level <sweetness> sweetness.`
+d. Write a `__str__` magic method that displays (aka returns a string with) the details of the hot cocoa order mimicing the following: 
+    - If it has whipped cream:
+        `"A <flavor> cocoa with whip, <marshmallow_count> marshmallows, and level <sweetness> sweetness.`
+    - If it doesn't have whipped cream:
+        `"A <flavor> cocoa without whip, <marshmallow_count> marshmallows, and level <sweetness> sweetness.`
 
-    e. Write an `order_cost` *function* that takes as input a `list` of `HotCocoa` objects to represent an order and returns the total cost of the order. A `HotCocoa` with whip is $2.50 and without whip is $2.00.
+e. Write an `order_cost` *function* that takes as input a `list` of `HotCocoa` objects to represent an order and returns the total cost of the order. A `HotCocoa` with whip is $2.50 and without whip is $2.00.
 
+#### Instantiation Practice
+
+- Create an instance of `HotCocoa` called `my_order` with no whip, `"vanilla"` flavor, 5 marshmallows, and sweetness level 2.
+
+- Add whipped cream. (Change `has_whip` to `True`.)
+
+- Add 2 marshmallows using `mallow_adder`.
+
+- Calculate the cost by calling `order_cost`.
+
+- Print out the details of the `HotCocoa` instance `my_order`.
 
 ### `TimeSpent`
 
 Create a class called `TimeSpent` with the following specifications:
 
-    a. Each `TimeSpent` object has a `str` attribute called `name`, a `str` attribute called `purpose`, and an `int` attribute called `minutes`.
+a. Each `TimeSpent` object has a `str` attribute called `name`, a `str` attribute called `purpose`, and an `int` attribute called `minutes`.
 
-    b. The class should have a constructor that takes in and sets up each of its attribute’s values.
+b. The class should have a constructor that takes in and sets up each of its attribute’s values.
 
-    c. Write a method called `add_time` that takes in an `int` and increases the `minutes` attribute by this amount. The method should return `None`.
+c. Write a method called `add_time` that takes in an `int` and increases the `minutes` attribute by this amount. The method should return `None`.
 
-    d. Write an `__add__` magic method that takes in an `int` called `added_minutes` and returns a new `TimeSpent` object with the same attribute values except that `minutes` is increased by `added_minutes`.
+d. Write an `__add__` magic method that takes in an `int` called `added_minutes` and returns a new `TimeSpent` object with the same attribute values except that `minutes` is increased by `added_minutes`.
 
-    e. Write a method called `reset` that resets the amount of time that is stored in the `minutes` attribute.  The method should also return the amount that was stored in `minutes`. 
+e. Write a method called `reset` that resets the amount of time that is stored in the `minutes` attribute.  The method should also return the amount that was stored in `minutes`. 
 
-    f. Write a `__str__` magic method returns a line reporting information about the current `TimeSpent` object.  Suppose a `TimeSpent` object has `name` = `“Ariana”`, `purpose` = `“screen time”`, and `minutes` = `130`.  The method should return: `“Ariana has spent 2 hours and 10 minutes on screen time.”`
-    
-    g. Write a *function* called `most_by_purpose` that takes as input a `list` of `TimeSpent` objects and a `str` to represent a purpose, and returns the name of the person who spent the most time doing that specific activity. 
+f. Write a `__str__` magic method returns a line reporting information about the current `TimeSpent` object.  Suppose a `TimeSpent` object has `name` = `“Ariana”`, `purpose` = `“screen time”`, and `minutes` = `130`.  The method should return: `“Ariana has spent 2 hours and 10 minutes on screen time.”`
+
+g. Write a *function* called `most_by_purpose` that takes as input a `list` of `TimeSpent` objects and a `str` to represent a purpose, and returns the name of the person who spent the most time doing that specific activity. 
     - Example usage: 
     <pre>
     <div class="terminal">
