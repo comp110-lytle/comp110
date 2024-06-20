@@ -21,7 +21,6 @@ The best resources for studying are:
     - [QZ00](/resources/practice/ss24/qz00.html)
     - [QZ01](/resources/practice/ss24/qz01.html)
     - [QZ02](/resources/practice/ss24/qz02.html)
-    - [QZ03](/resources/practice/ss24/qz03.html)
 
 # Practice Problems
 
