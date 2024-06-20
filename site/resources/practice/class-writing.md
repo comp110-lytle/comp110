@@ -291,6 +291,27 @@ to practice instantiating:
         return cost
 ```
 
+#### Instantiation
+
+```
+    my_order: HotCocoa = HotCocoa(False, "vanilla", 5, 2)
+
+    # Add whipped cream. (Change has_whip to True.)
+    my_order.has_whip = True
+
+    # Add 2 marshmallows using mallow_adder.
+    my_order.mallow_adder(2)
+
+    # Create viktoryas_order with whip, "peppermint" flavor, 10 marshmallows, and sweetness level 2.
+    viktoryas_order: HotCocoa = HotCocoa(True, "peppermint", 10, 2)
+
+    # Calculate the cost of [my_order, viktoryas_order] by calling order_cost.
+    order_cost([my_order, viktoryas_order])
+
+    # Print out the details of my_order.
+    print(my_order) # or print(str(my_order))
+```
+
 ### `TimeSpent` solution
 
 ```
