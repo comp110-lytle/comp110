@@ -93,7 +93,9 @@ e. Write an `order_cost` *function* that takes as input a `list` of `HotCocoa` o
 
 - Add 2 marshmallows using `mallow_adder`.
 
-- Calculate the cost by calling `order_cost`.
+- Create another `HotCocoa` instance called `viktoryas_order` with whip, `"peppermint"` flavor, 10 marshmallows, and sweetness level 2.
+
+- Calculate the cost of `[my_order, viktoryas_order]` by calling `order_cost`.
 
 - Print out the details of the `HotCocoa` instance `my_order`.
 
