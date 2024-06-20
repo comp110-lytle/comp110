@@ -21,14 +21,13 @@ The best resources for studying are:
     - [QZ00](/resources/practice/ss24/qz00.html)
     - [QZ01](/resources/practice/ss24/qz01.html)
     - [QZ02](/resources/practice/ss24/qz02.html)
-    - [QZ03](/resources/practice/ss24/qz03.html)
 
 # Practice Problems
 
 - [Dictionary Conceptual Questions](/resources/practice/dicts.html)
 - [Function Writing](/resources/practice/function-writing.html)
 - [OOP Conceptual Questions](/resources/practice/oop.html)
-- [Class Writing](/resources/practice/function-writing.html)
+- [Class Writing](/resources/practice/class-writing.html)
 
 
 
