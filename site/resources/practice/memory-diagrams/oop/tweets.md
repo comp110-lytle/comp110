@@ -35,4 +35,6 @@ template: overview
 ```
 
 # Solution
+[Video](https://youtu.be/MsxvXjYM8jo?si=SWlxs4pP0qNJljuU)
+
 <img class="img-fluid" src="/static/practice-mem-diagrams/Profile.png" alt=""  /> 
