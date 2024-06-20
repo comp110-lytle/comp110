@@ -101,7 +101,41 @@ Example: `merge_lists([“blue”, “yellow”, “red”], [5, 2, 4])` should 
 
 ### `multiples` solution
 
-*(Coming Soon)*
+```
+def multiples(vals: list[int]) -> list[bool]:
+    mults: list[bool] = []
+    # check first value against last value
+    # a is a multiple of b means a % b == 0
+    mults.append(vals[0] % vals[len(vals) - 1] == 0)
+    # start idx at 1 since we already checked idx 0
+    idx: int = 1
+    while idx < len(vals):
+        # a is a multiple of b means a % b == 0
+        mults.append(vals[idx] % vals[idx - 1] == 0)
+        idx += 1
+    return mults
+```
+
+```
+def multiples(vals: list[int]) -> list[bool]:
+    mults: list[bool] = []
+    # check first value against last value
+    # a is a multiple of b means a % b == 0
+    if vals[0] % vals[len(vals) - 1] == 0:
+        mults.append(True)
+    else:
+        mults.append(False)
+    # start idx at 1 since we already checked idx 0
+    idx: int = 1
+    while idx < len(vals):
+        # a is a multiple of b means a % b == 0
+        if vals[idx] % vals[idx - 1] == 0:
+            mults.append(True)
+        else:
+            mults.append(False)
+        idx += 1
+    return mults
+```
 
 ### `reverse_multiply` solution
 
