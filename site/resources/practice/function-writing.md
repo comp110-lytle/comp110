@@ -19,7 +19,7 @@ template: overview
  Write a function called `multiples`. Given a `list[int]`, `multiples` should return a `list[bool]` that tells whether each `int` value is a multiple of the previous value.  For the first number in the list, you should wrap around the list and compare this `int` to the last number in the list.  
 Example: `multiples([2, 3, 4, 8, 16, 2, 4, 2])` should return `[True, False, False, True, True, False, True, False]`.
 
-
+[Solution](#multiples-solution)
 
 ### `reverse_multiply`
 
@@ -91,7 +91,7 @@ Example: `max_key({"a": [1,2,3], "b": [4,5,6]})` should return `"b"` because the
 Write a function called `merge_lists`. Given a `list[str]` and a `list[int]`, `merge_lists` should return a `dict[str, int]` that maps each item in the first list to its corresponding item in the second (based on index).  If the lists are not the same size, the function should return an empty dictionary.  
 Example: `merge_lists([“blue”, “yellow”, “red”], [5, 2, 4])` should return `{"blue": 5, "yellow": 2, "red": 4}`.
 
-
+[Solution](#merge_lists-solution)
 
 
 
@@ -101,7 +101,41 @@ Example: `merge_lists([“blue”, “yellow”, “red”], [5, 2, 4])` should 
 
 ### `multiples` solution
 
-*(Coming Soon)*
+```
+    def multiples(vals: list[int]) -> list[bool]:
+        mults: list[bool] = []
+        # check first value against last value
+        # a is a multiple of b means a % b == 0
+        mults.append(vals[0] % vals[len(vals) - 1] == 0)
+        # start idx at 1 since we already checked idx 0
+        idx: int = 1
+        while idx < len(vals):
+            # a is a multiple of b means a % b == 0
+            mults.append(vals[idx] % vals[idx - 1] == 0)
+            idx += 1
+        return mults
+```
+
+```
+    def multiples(vals: list[int]) -> list[bool]:
+        mults: list[bool] = []
+        # check first value against last value
+        # a is a multiple of b means a % b == 0
+        if vals[0] % vals[len(vals) - 1] == 0:
+            mults.append(True)
+        else:
+            mults.append(False)
+        # start idx at 1 since we already checked idx 0
+        idx: int = 1
+        while idx < len(vals):
+            # a is a multiple of b means a % b == 0
+            if vals[idx] % vals[idx - 1] == 0:
+                mults.append(True)
+            else:
+                mults.append(False)
+            idx += 1
+        return mults
+```
 
 ### `reverse_multiply` solution
 
@@ -222,5 +256,17 @@ Example: `merge_lists([“blue”, “yellow”, “red”], [5, 2, 4])` should 
 
 ### `merge_lists` solution
 
-*(Coming Soon.)*
+```
+    def merge_lists(words: list[str], vals: list[int]) -> dict[str, int]:
+        # If the lists are not same size return empty dict
+        if len(words) != len(vals):
+            return {}
+        idx: int = 0
+        merged: dict[str, int] = {}
+        while idx < len(words):
+            # at key words[idx] store the number at vals[idx]
+            merged[words[idx]] = vals[idx]
+            idx += 1
+        return merged
+```
 
