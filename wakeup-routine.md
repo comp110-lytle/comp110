@@ -71,7 +71,7 @@ author:
   * GitHub
     * Create a new org: comp110-YYt eg comp110-20f
     * Upgrade the org here: https://education.github.com/toolbox/offers/github-org-upgrades
-    * Create a PUBLIC github org site repo: comp110-YYt.github.io
+    * Create a PUBLIC github org site repo: comp110-YYt.github.io (make sure it belongs to the organization)
     * Touch one file in this repo so that it's not a bare/empty repo
     * Update the args in `.github/actions/deploy-site/action.yml` for building site via Github Actions
     * Setup DNS to point to the correct new site
