@@ -1,0 +1,120 @@
+---
+title: Quiz 01 Practice
+author:
+- Megan Zhang
+- David Karash
+- Alyssa Byrnes
+page: lessons
+template: overview
+---
+
+These questions are designed to be similar in difficulty (perhaps a bit harder) than the questions on the quiz.
+
+**Also remember to look over the concepts listed under Quiz 1 Concepts!**
+
+# Questions
+
+## Memory Diagrams
+
+1. Produce a memory diagram for the following code snippet, being sure to include its stack and output.  
+![](/static/practice_worksheets/sp23/q1.png)
+
+1.1 What would happen if `while l1_idx < len(WORD)` in line 8 was replaced with `while l1_idx < len(WORD) - 1`? Why?
+
+1.2 What would happen if `l2_idx=0` was moved to inside the while loop on line 13? In other words, what if lines 11-13 were changed to:
+![](/static/practice_worksheets/sp23/q1_1.png)
+
+1.3 What would happen if, in line 16, `if (t1 == t2) and (l1_idx != l2_idx):` was replaced with `if (t1 == t2):`? Why?
+
+1.4 What would happen if line 18 was removed? Why?
+
+1.5. What would happen if the `<` symbol in line 8 was replaced with `<=`? Why?
+
+2. Produce a memory diagram for the following code snippet, being sure to include its stack, heap, and output.  
+![](/static/practice_worksheets/sp23/q2.png)
+
+2.1 Why is it that main() is defined above f() and g(), but we are able to call f() and g() inside main without errors?
+
+2.2 On line 5, when `print(g(f(3)))` is called, is the code block inside of the `while` loop ever entered? Why or why not?
+
+2.3 What would happen if a line 22 was added that said `print(x)`. Why?
+
+## Boolean Operators
+3. What is the result of the following boolean expressions?  
+3.1. `((not False) and True) == True`  
+3.2. `(not False) or (True and False)`  
+3.3. `True and (7 < 3 * 4 / 6)`  
+3.4. `(not False) != True`  
+3.5. `not(True and False) and (False or not False)`  
+
+## Conditionals
+4. Every `if` statement must have a paired `else` branch. (T/F)
+5. Lines contained in an `else` branch in Python do not have to be indented. (T/F)
+6. You can name a variable `else` in your program without Python confusing your variable's name and the `else` keyword. (T/F)
+7. Given the following code snippet, what is the printed output with the specified values for `x` and `y`?  
+![](/static/practice_worksheets/fa21/qz01-question7.png)  
+7.1. When x = 3, y = 5?  
+7.2. When x = 5, y = 3?  
+7.3. When x = -5, y = 1?  
+7.4. When x = 13, y = 8?  
+7.5. When x = 4, y = 3?
+
+## While Loops
+8. Given the following code snippet, what is the printed output once it completes?  
+![](/static/practice_worksheets/fa21/qz01-question8.png)
+
+9. Given the following code snippet, what is the printed output once it completes?  
+![](/static/practice_worksheets/fa21/qz01-question9.png)
+
+# Solutions
+
+## Memory Diagrams
+
+
+1. [Solution](/static/practice_worksheets/sp23/q1_sol1.png) 
+(We do not *require* that you write out all interim values as long as the initial and final values are correct like in [this solution](/static/practice_worksheets/sp23/q1_sol2.jpg). However, writing the interim values will help for practice purposes and to avoid mistakes!)
+
+**Here's a link to a [video of the solution](https://www.youtube.com/watch?v=NqNuPjnq-UE)!**
+
+1.1 "y appears 1 times." would not print. This is because `l1_idx` will not enter the while loop for `l1_idx = 4`. (For more practice, it'd be good to diagram this instance out to see how it would impact the final values of other variables.)
+
+1.2 An infinite loop would occur because `l2_idx` would always equal `1` when returning to the top of the loop, and therefore `l2_idx < len(WORD)` will always be True.
+
+1.3 If `l1_idx != l2_idx` is no longer required, this means that each letter can count itself twice. For example, `WORD[0] == WORD[0]` is true, so `n_appearances` for `"h"` would increase to `2`.
+
+1.4 There would be an infinite loop because `l2_idx` will never increase, and therefore `l2_idx < len(WORD)` will always be True.
+
+1.5 There would be an index error because there would be the case where `l1_idx = 5`, so on line 9 `WORD[5]` would be searching for the element at index 5 in `"happy"`, when the indexes only go up to 4.
+
+2. [Solution](/static/practice_worksheets/sp23/q2_sol.jpg)
+
+2.1 Even though `main` is defined before `f` and `g`, it isn't **called** until after `f` and `g` are defined.
+
+2.2 No because `x = 4`, so `x % 2 == 1` is False, and therefore the code block inside is never run.
+
+2.3 There would be an error because `x` is a local variable inside both `f` and `g`. In other words, `x` is *NOT* a global variable. Therefore, the program does not recognize that `x` exists in this context.
+
+## Boolean Operators
+3. 
+3.1. `True`  
+3.2. `True`  
+3.3. `False`  
+3.4. `False`  
+3.5. `True`
+
+## Conditionals
+4. False
+5. False
+6. False
+7. 
+7.1. 16.0  
+7.2. 2.0  
+7.3. -3.0  
+7.4. 3.0  
+7.5. 1
+
+## While Loops
+8. 3   
+3  
+"1303132"
+9. "036910875421"

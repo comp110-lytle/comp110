@@ -1,0 +1,705 @@
+{
+    "2024-05-15": [
+        {
+            "kind": "CL",
+            "n": 0,
+            "title": "Welcome to COMP110 - An Intro to the Class",
+            "date": "2024-05-15",
+            "deadline": "None",
+            "links": {
+                "Course Intro Slides": "/static/slides/SSI-CL00.pdf",
+                "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
+                "Setup Part 1: Install Needed Software": "/resources/setup/software.html",
+                "Setup Part 2: Setup your Workspace": "/resources/setup/workspace.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 0,
+            "title": "Syllabus and Support (Due Wednesday 5/15)",
+            "date": "2024-05-15",
+            "deadline": "2024-05-15",
+            "links": {
+                "1. Read the Syllabus": "/resources/syllabus.html",
+                "2. Read Support Resources": "/support",
+                "3. Complete Lesson 00 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 1,
+            "title": "Syllabus and Support (Due Wednesday 5/15)",
+            "date": "2024-05-15",
+            "deadline": "2024-05-15",
+            "links": {
+                "syllabus": "/resources/syllabus.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 0,
+            "title": "Hello World (Due Saturday 5/18)",
+            "date": "2024-05-15",
+            "deadline": "2024-05-18",
+            "links": {
+                "": "/exercises/ex00_hello_world.html"
+            }
+        }
+    ],
+    "2024-05-16": [
+        {
+            "kind": "CL",
+            "n": 1,
+            "title": "An Introduction to Coding + Beginning Concepts",
+            "date": "2024-05-16",
+            "deadline": "None",
+            "links": {
+                "Lecture Slides": "/static/slides/SS1-CL01.pdf",
+                "Objects + Data Types Lecture Notes": "/lessons/objects-data-types.html",
+                "Expressions Lecture Notes": "/lessons/expressions.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Objects and Data Types (Due Thursday 5/16)",
+            "date": "2024-05-16",
+            "deadline": "2024-05-16",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-05-17": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Expressions, Variables, + Conditionals",
+            "date": "2024-05-17",
+            "deadline": "None",
+            "links": {
+                "Lecture Slides": "/static/slides/SS1-CL02.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Expressions (Due Friday 5/17)",
+            "date": "2024-05-17",
+            "deadline": "2024-05-17",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 4,
+            "title": "Variables and User Input (Due Friday 5/17)",
+            "date": "2024-05-17",
+            "deadline": "2024-05-17",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-05-18": [],
+    "2024-05-19": [],
+    "2024-05-20": [
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Running a Program + The Terminal (Due Monday 5/20)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-20",
+            "links": {
+                "Video": "https://youtu.be/2IAQbE3afEI",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Boolean Operators (Due Monday 5/20)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-20",
+            "links": {
+                "Video": "https://youtu.be/tmmSlIq9I_0",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Unicode, Emoji, Escape Sequences, and f-Strings (Due Monday 5/20)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-20",
+            "links": {
+                "Notes": "https://comp110-24s.github.io/lessons/strings.html",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Memory Diagrams (Due Monday 5/20)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-20",
+            "links": {
+                "Video": "https://youtu.be/YKVT9mCtYPE"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Practice Memory Diagram (Due Monday 5/20)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-20",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Practice Memory Diagram with Conditionals (Due Monday 5/20)",
+            "date": "2024-05-20",
+            "deadline": "2024-05-20",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-05-21": [
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Conditionals and while Loops",
+            "date": "2024-05-21",
+            "deadline": "None",
+            "links": {
+                "Lecture Slides": "/static/slides/SS1-CL03.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "Conditionals (Due Tuesday 5/21)",
+            "date": "2024-05-21",
+            "deadline": "2024-05-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 10,
+            "title": "While Loops (Due Tuesday 5/21)",
+            "date": "2024-05-21",
+            "deadline": "2024-05-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 1,
+            "title": "Simple Battleship (Due Friday 5/24)",
+            "date": "2024-05-21",
+            "deadline": "2024-05-24",
+            "links": {
+                "": "/exercises/simple-battleship.html"
+            }
+        }
+    ],
+    "2024-05-22": [
+        {
+            "kind": "LS",
+            "n": 11,
+            "title": "Relative Reassignment Operators (Due Wednesday 5/22)",
+            "date": "2024-05-22",
+            "deadline": "2024-05-22",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=GOs7pwPLB1k"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 12,
+            "title": "Counters (Due Wednesday 5/22)",
+            "date": "2024-05-22",
+            "deadline": "2024-05-22",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=XQPFd1Gae9M"
+            }
+        }
+    ],
+    "2024-05-23": [
+        {
+            "kind": "CL",
+            "n": 4,
+            "title": "While Loops + Counters, Quiz Review",
+            "date": "2024-05-23",
+            "deadline": "None",
+            "links": {
+                "Lecture Slides": "/static/slides/SS1-CL04.pdf"
+            }
+        },
+        {
+            "kind": "RD",
+            "n": 0,
+            "title": "Reading: The Ethical Algorithm (Due Thursday 6/6)",
+            "date": "2024-05-23",
+            "deadline": "2024-06-06",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-05-24": [
+        {
+            "kind": "QZ",
+            "n": 0,
+            "title": "Quiz 0",
+            "date": "2024-05-24",
+            "deadline": "2024-05-24",
+            "links": {
+                "What to Expect": "/resources/ss-quiz-expectations.html",
+                "Practice Problems": "/resources/practice/ss24/qz00.html"
+            }
+        }
+    ],
+    "2024-05-25": [],
+    "2024-05-26": [],
+    "2024-05-27": [],
+    "2024-05-28": [
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "Introduction to Functions + Function Syntax",
+            "date": "2024-05-28",
+            "deadline": "None",
+            "links": {
+                "Lecture Slides": "/static/slides/SS1-CL05.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Introduction to Functions (Due Tuesday 5/28)",
+            "date": "2024-05-28",
+            "deadline": "2024-05-28",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 14,
+            "title": "Function Syntax (Due Tuesday 5/28)",
+            "date": "2024-05-28",
+            "deadline": "2024-05-28",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "One-shot Battleship (Due Friday 5/31)",
+            "date": "2024-05-28",
+            "deadline": "2024-05-31",
+            "links": {
+                "": "/exercises/one-shot-battleship.html"
+            }
+        }
+    ],
+    "2024-05-29": [
+        {
+            "kind": "LS",
+            "n": 15,
+            "title": "Function Semantics (Due Wednesday 5/29)",
+            "date": "2024-05-29",
+            "deadline": "2024-05-29",
+            "links": {
+                "In-Class Recording": "https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2dbef2ad-1af1-4f44-86a6-b17e00fb3de9",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 16,
+            "title": "Union Types (Due Wednesday 5/29)",
+            "date": "2024-05-29",
+            "deadline": "2024-05-29",
+            "links": {
+                "Video": "https://youtu.be/J-iR9m3o1-s"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 17,
+            "title": "Importing Functions + Modules (Due Wednesday 5/29)",
+            "date": "2024-05-29",
+            "deadline": "2024-05-29",
+            "links": {
+                "Video": "https://youtu.be/-Q-9HmzEb38?si=SncXUf4VSfgUZrex",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 18,
+            "title": "Importing Functions in the REPL + the Trailhead (Due Wednesday 5/29)",
+            "date": "2024-05-29",
+            "deadline": "2024-05-29",
+            "links": {
+                "Video": "https://youtu.be/s9nFWKB8MXk"
+            }
+        }
+    ],
+    "2024-05-30": [
+        {
+            "kind": "CL",
+            "n": 6,
+            "title": "Challenge Question + Quiz Review",
+            "date": "2024-05-30",
+            "deadline": "None",
+            "links": {
+                "": "/cqs/functions.html"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 2,
+            "title": "Functions Practice (Due Thursday 5/30)",
+            "date": "2024-05-30",
+            "deadline": "2024-05-30",
+            "links": {
+                "": "/cqs/functions.html"
+            }
+        }
+    ],
+    "2024-05-31": [
+        {
+            "kind": "QZ",
+            "n": 1,
+            "title": "Quiz 1",
+            "date": "2024-05-31",
+            "deadline": "2024-05-31",
+            "links": {
+                "Practice Problems": "/resources/practice/ss24/qz01.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 3,
+            "title": "Functional Battleship (Due Tuesday 6/4)",
+            "date": "2024-05-31",
+            "deadline": "2024-06-04",
+            "links": {
+                "": "/exercises/battleship.html"
+            }
+        }
+    ],
+    "2024-06-01": [],
+    "2024-06-02": [],
+    "2024-06-03": [
+        {
+            "kind": "LS",
+            "n": 19,
+            "title": "Lists (Due Monday 6/3)",
+            "date": "2024-06-03",
+            "deadline": "2024-06-03",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=U_GP3Jkz5lU",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 20,
+            "title": "Lists in Memory (Due Monday 6/3)",
+            "date": "2024-06-03",
+            "deadline": "2024-06-03",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=WCvrVTUZ-Ac",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 3,
+            "title": "Lists Practice (Due Monday 6/3)",
+            "date": "2024-06-03",
+            "deadline": "2024-06-03",
+            "links": {
+                "": "/cqs/lists.html"
+            }
+        }
+    ],
+    "2024-06-04": [
+        {
+            "kind": "CL",
+            "n": 7,
+            "title": "for Loops + range",
+            "date": "2024-06-04",
+            "deadline": "None",
+            "links": {
+                "Slides (Part A)": "/static/slides/CL07-A.pdf",
+                "Slides (Part B)": "/static/slides/CL07-B.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "for loops practice (Due Wednesday 6/5)",
+            "date": "2024-06-04",
+            "deadline": "2024-06-05",
+            "links": {
+                "": "/cqs/for-loops.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "List Utils (Due Friday 6/7)",
+            "date": "2024-06-04",
+            "deadline": "2024-06-07",
+            "links": {
+                "": "/exercises/list-utils.html"
+            }
+        }
+    ],
+    "2024-06-05": [
+        {
+            "kind": "LS",
+            "n": 21,
+            "title": "Unit Tests (Due Wednesday 6/5)",
+            "date": "2024-06-05",
+            "deadline": "2024-06-05",
+            "links": {
+                "Video": "https://youtu.be/T_9JaV2aIS0",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-06-06": [
+        {
+            "kind": "CQ",
+            "n": 5,
+            "title": "Unit Tests (Due Thursday 6/6)",
+            "date": "2024-06-06",
+            "deadline": "2024-06-06",
+            "links": {
+                "": "/cqs/list-unit-tests.html"
+            }
+        }
+    ],
+    "2024-06-07": [
+        {
+            "kind": "QZ",
+            "n": 2,
+            "title": "Quiz 2",
+            "date": "2024-06-07",
+            "deadline": "2024-06-07",
+            "links": {
+                "Practice Problems": "/resources/practice/ss24/qz02.html"
+            }
+        },
+        {
+            "kind": "RD",
+            "n": 1,
+            "title": "Reading: Man versus Machine or Man + Machine (Due Friday 6/21)",
+            "date": "2024-06-07",
+            "deadline": "2024-06-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-06-08": [],
+    "2024-06-09": [],
+    "2024-06-10": [
+        {
+            "kind": "LS",
+            "n": 22,
+            "title": "Dictionaries (Due Monday 6/10)",
+            "date": "2024-06-10",
+            "deadline": "2024-06-10",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=PHkFp_T--yk",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 23,
+            "title": "Dictionaries in Memory (Due Monday 6/10)",
+            "date": "2024-06-10",
+            "deadline": "2024-06-10",
+            "links": {
+                "Video": "https://youtu.be/tlfJfLBsuX0"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "Dictionary Utils + Unit Tests (Due Friday 6/14)",
+            "date": "2024-06-10",
+            "deadline": "2024-06-14",
+            "links": {
+                "": "/exercises/dict-utils-and-utests.html"
+            }
+        }
+    ],
+    "2024-06-11": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Dictionaries + For Loops",
+            "date": "2024-06-11",
+            "deadline": "None",
+            "links": {
+                "Slides": "/static/slides/CL11.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 6,
+            "title": "Dictionary Practice (Due Tuesday 6/11)",
+            "date": "2024-06-11",
+            "deadline": "2024-06-11",
+            "links": {
+                "": "/cqs/dicts-for-loops.html"
+            }
+        }
+    ],
+    "2024-06-12": [
+        {
+            "kind": "LS",
+            "n": 24,
+            "title": "Intro to OOP (Due Wednesday 6/12)",
+            "date": "2024-06-12",
+            "deadline": "2024-06-12",
+            "links": {
+                "Video": "https://www.youtube.com/watch?v=DmYPEH8qkRI",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 25,
+            "title": "Classes in Memory (Due Wednesday 6/12)",
+            "date": "2024-06-12",
+            "deadline": "2024-06-12",
+            "links": {
+                "Video": "https://youtu.be/FM29tHBFBc8"
+            }
+        }
+    ],
+    "2024-06-13": [
+        {
+            "kind": "CL",
+            "n": 9,
+            "title": "Practice with OOP",
+            "date": "2024-06-13",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL09-SS1.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 7,
+            "title": "Practice with OOP (Due Thursday 6/13)",
+            "date": "2024-06-13",
+            "deadline": "2024-06-13",
+            "links": {
+                "": "/cqs/oop-mutable.html"
+            }
+        }
+    ],
+    "2024-06-14": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "Magic Methods + Operator Overloads",
+            "date": "2024-06-14",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL10-SS1.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 8,
+            "title": "Practice with Magic Methods (Due Monday 6/17)",
+            "date": "2024-06-14",
+            "deadline": "2024-06-17",
+            "links": {
+                "": "/cqs/magic_methods_etc.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 6,
+            "title": "River Simulation (Due Thursday 6/20)",
+            "date": "2024-06-14",
+            "deadline": "2024-06-20",
+            "links": {
+                "": "/exercises/river-sim.html"
+            }
+        }
+    ],
+    "2024-06-15": [],
+    "2024-06-16": [],
+    "2024-06-17": [
+        {
+            "kind": "LS",
+            "n": 26,
+            "title": "Recursion (Due Monday 6/17)",
+            "date": "2024-06-17",
+            "deadline": "2024-06-17",
+            "links": {
+                "Video Pt. 1": "https://www.youtube.com/watch?v=5mVmXIrG5ec",
+                "Video Pt. 2": "https://www.youtube.com/watch?v=lWwCoD9EV9g",
+                "Slides": "/static/slides/Recursion.pdf",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-06-18": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "More on Recursion",
+            "date": "2024-06-18",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 9,
+            "title": "Recursion Practice (Due Tuesday 6/18)",
+            "date": "2024-06-18",
+            "deadline": "2024-06-18",
+            "links": {
+                "": "/cqs/recursive-fns.html"
+            }
+        }
+    ],
+    "2024-06-21": [
+        {
+            "kind": "FN",
+            "n": 0,
+            "title": "Final @ 8:00AM",
+            "date": "2024-06-21",
+            "deadline": "None",
+            "links": {
+                "Practice Problems": "/resources/practice/ss24/fn.html"
+            }
+        }
+    ]
+}

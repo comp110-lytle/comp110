@@ -1,0 +1,53 @@
+{
+    "2024-06-15": [],
+    "2024-06-16": [],
+    "2024-06-17": [
+        {
+            "kind": "LS",
+            "n": 26,
+            "title": "Recursion (Due Monday 6/17)",
+            "date": "2024-06-17",
+            "deadline": "2024-06-17",
+            "links": {
+                "Video Pt. 1": "https://www.youtube.com/watch?v=5mVmXIrG5ec",
+                "Video Pt. 2": "https://www.youtube.com/watch?v=lWwCoD9EV9g",
+                "Slides": "/static/slides/Recursion.pdf",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-06-18": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "More on Recursion",
+            "date": "2024-06-18",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 9,
+            "title": "Recursion Practice (Due Tuesday 6/18)",
+            "date": "2024-06-18",
+            "deadline": "2024-06-18",
+            "links": {
+                "": "/cqs/recursive-fns.html"
+            }
+        }
+    ],
+    "2024-06-21": [
+        {
+            "kind": "FN",
+            "n": 0,
+            "title": "Final @ 8:00AM",
+            "date": "2024-06-21",
+            "deadline": "None",
+            "links": {
+                "Practice Problems": "/resources/practice/ss24/fn.html"
+            }
+        }
+    ]
+}
