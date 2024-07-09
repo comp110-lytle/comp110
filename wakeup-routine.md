@@ -2,6 +2,7 @@
 title: Bedtime Routine
 author:
 - Kris Jordan
+- Alyssa Lytle
 ---
 
 
@@ -11,6 +12,9 @@ author:
 ## Bedtime
 
 * Put the previous semester to bed via `bedtime-routine.md`
+
+
+
 
 ## On-ramp New Team Members
   * Acceptance Message
@@ -61,7 +65,7 @@ author:
   * Link with Gradescope to create Gradecope course
 
   * In Gradescope
-    * When ready for students import from Sakai
+    * When ready for students import from Canvas
   * Course.Care
     
   * GitHub
@@ -72,7 +76,7 @@ author:
     * Update the args in `.github/actions/deploy-site/action.yml` for building site via Github Actions
     * Setup DNS to point to the correct new site
       * CNAME that points to comp110-YYt.github.io for 1 day
-    * Enable GitHub Pages
+    * Enable GitHub Pages in the new repo
       * Pages -> Source -> main (root)
       * Custom Domain: YYt.comp110.com
       * Enforce HTTPS
@@ -86,9 +90,7 @@ author:
       * Copy workspace starter URL and update documentation (and README in workspace)
       
 
-  
-
-
 ## Scheduling
   * Schedule tutoring room
   * Schedule all-hands meeting room
+  * Schedule final exam makeup room
