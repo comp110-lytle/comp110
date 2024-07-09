@@ -6,5 +6,5 @@ runs:
   image: 'Dockerfile'
   args:
     - site                  # subdir in this repo
-    - comp110-2024f          # target github user/org
+    - comp110-24f          # target github user/org
     - comp110-24f.github.io # target github repo
