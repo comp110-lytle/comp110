@@ -1,37 +1,72 @@
 Date,Weekday,Plan
 Week 0
-May-15,Wed,FDOC
+Aug-19,Mon,FDOC
 ,,Day 00
-May-16,Thu,Drop Period Ends
-,,Widthdraw Period Ends
-,,Day 01
-May-17,Fri,Day 02
+Aug-21,Wed,Day 01
+Aug-23,Fri,Day 02
 Week 1
-May-20,Mon,Day 03
-May-21,Tue,Day 04
-May-22,Wed,Day 05
-May-23,Thu,Day 06
-May-24,Fri,Day 07
+Aug-26,Mon,Day 03
+Aug-28,Wed,Day 04
+Aug-30,Fri,Drop Period Ends
+,,Day 05
 Week 2
-May-27,Mon,University Holiday
-May-28,Tue,Day 08
-May-29,Wed,Day 09
-May-30,Thu,Day 10
-May-31,Fri,Day 11
+Sep-02,Mon,University Holiday
+Sep-03,Tue,University Holiday
+Sep-04,Wed,Day 06
+Sep-06,Fri,Day 07
 Week 3
-Jun-03,Mon,Day 12
-Jun-04,Tue,Day 13
-Jun-05,Wed,Day 14
-Jun-06,Thu,Day 15
-Jun-07,Fri,Day 16
+Sep-09,Mon,Day 08
+Sep-11,Wed,Day 09
+Sep-13,Fri,Day 10
 Week 4
-Jun-10,Mon,Day 17
-Jun-11,Tue,Day 18
-Jun-12,Wed,Day 19
-Jun-13,Thu,Day 20
-Jun-14,Fri,Day 21
+Sep-16,Mon,Day 11
+Sep-18,Wed,Day 12
+Sep-20,Fri,Day 13
 Week 5
-Jun-17,Mon,Day 22
-Jun-18,Tue,LDOC
-,,Day 23
-Jun-21,Fri,Final @ 8:00AM
+Sep-23,Mon,University Holiday
+Sep-25,Wed,Day 14
+Sep-27,Fri,Day 15
+Week 6
+Sep-30,Mon,Day 16
+Oct-02,Wed,Day 17
+Oct-04,Fri,Day 18
+Week 7
+Oct-07,Mon,Day 19
+Oct-09,Wed,Day 20
+Oct-11,Fri,University Holiday
+,,Widthdraw Period Ends
+Week 8
+Oct-14,Mon,Day 21
+Oct-16,Wed,Day 22
+Oct-17,Thu,University Holiday
+Oct-18,Fri,University Holiday
+Week 9
+Oct-21,Mon,Day 23
+Oct-23,Wed,Day 24
+Oct-25,Fri,Day 25
+Week 10
+Oct-28,Mon,Day 26
+Oct-30,Wed,Day 27
+Nov-01,Fri,Day 28
+Week 11
+Nov-04,Mon,Day 29
+Nov-06,Wed,Day 30
+Nov-08,Fri,Day 31
+Week 12
+Nov-11,Mon,Day 32
+Nov-13,Wed,Day 33
+Nov-15,Fri,Day 34
+Week 13
+Nov-18,Mon,Day 35
+Nov-20,Wed,Day 36
+Nov-22,Fri,Day 37
+Week 14
+Nov-25,Mon,Day 38
+Nov-27,Wed,University Holiday
+Nov-28,Thu,University Holiday
+Nov-29,Fri,University Holiday
+Week 15
+Dec-02,Mon,Day 39
+Dec-04,Wed,LDOC
+,,Day 40
+Dec-07,Sat,Final @ 8:00AM
