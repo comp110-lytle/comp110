@@ -37,8 +37,8 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-08-30" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Aug 30</div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-09-06" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Sep 6</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span></div></div>
 </div><div data-type="lecture" data-date="2024-09-20" class="row itinerary-row py-2">
