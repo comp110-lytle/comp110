@@ -65,6 +65,7 @@ site-branch: team
 
 ### Team Leads
 
+* [Graduate TA](/team/documentation/leads/graduate-TA.html)
 * [Curriculum Design](/team/documentation/leads/curriculum.html) 
 * [Grading](/team/documentation/leads/grading.html)
 * [Team Building](/team/documentation/leads/team-building.html)
