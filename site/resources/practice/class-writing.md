@@ -28,14 +28,15 @@ template: overview
 
 ## Class Writing
 
-### `ChristmasTreeFarm`
+<!-- ### `ChristmasTreeFarm`
 
 This class is slightly challenging, but take it step by step! Create a `ChristmasTreeFarm` class with the following specifications:
-    a. The `ChristmasTreeFarm` class should have one attribute: a `list[int]` named `plots`. 
-        * Basic behavior of `plots` (you will define this later):
-            * This list will hold values that represent the size of the tree planted in each plot. 
-            * If the value at an index of the list is 0, then the plot at that index is empty (does not have a tree). 
-            * Any value other than 0 indicates that a tree is growing in that plot!
+
+a. The `ChristmasTreeFarm` class should have one attribute: a `list[int]` named `plots`. 
+    * Basic behavior of `plots` (you will define this later):
+    * This list will hold values that represent the size of the tree planted in each plot. 
+    * If the value at an index of the list is 0, then the plot at that index is empty (does not have a tree). 
+    * Any value other than 0 indicates that a tree is growing in that plot!
     b. The *constructor* for the class should take two arguments: `plots: int` and `initial_planting: int`, both of type int. 
         * The first parameter, `plots`, represents the *total* number of plots in the farm. (Notice that the attribute `plots` and the parameter `plots` for this constructor are different, and represent different things!) 
         * The second parameter, `initial_planting`, represents the number of plots that that will have trees already planted in them. These initially planted plots will be trees of size 1.
@@ -48,10 +49,10 @@ This class is slightly challenging, but take it step by step! Create a `Christma
     e. The class should define a method called `harvest`. 
         * This method should have a parameter `replant` of type `bool` that will determine whether this method replants trees (sets them to size 1 after harvest) or leaves the plots empty (sets them to size 0 after harvest). 
         * For this method, trees that are at least size 5 will be harvested. The method will `return` the count of how many trees were successfully harvested (type `int`).
-    <!-- f. The class should *overload* the addition operator. 
+    f. The class should *overload* the addition operator. 
         * This method should work between two objects of type `ChristmasTreeFarm`. 
         * The method should return a new `ChristmasTreeFarm` object whose size is the sum of the given `ChristmasTreeFarm`'s, and whose initial plantings are the sum of the number of planted trees in the given `ChristmasTreeFarm`s.
-     -->
+     --> 
 
 
 ### `Car`
@@ -66,6 +67,7 @@ Write a Python class called `Car` that represents a basic model of a car with th
 
 Practice calling these methods by instantiating a new car object and calling them! 
 
+## Class Writing + Magic Methods
 
 ### `HotCocoa`
 
@@ -166,7 +168,7 @@ g. Write a *function* called `most_by_purpose` that takes as input a `list` of `
 ## Class Writing
 
 
-### `ChristmasTreeFarm` solution
+<!-- ### `ChristmasTreeFarm` solution
 
 ```
     """Diagraming practice for Quiz 03."""
@@ -213,7 +215,7 @@ g. Write a *function* called `most_by_purpose` that takes as input a `list` of `
                 i += 1
             return total
 
-```
+``` -->
 
 ### `Car` solution
 
