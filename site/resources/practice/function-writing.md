@@ -14,6 +14,48 @@ template: overview
 
 ## Lists
 
+
+### `odd_and_even`
+
+* The function name is `odd_and_even` and has a `list[int]` parameter. 
+* The function should return a `list[int]`. 
+* The function should return a new `list` containing the elements of the input list that are *odd* and have an *even* index. 
+* The function should not mutate (modify) the input list. 
+* Explicitly type variables, parameters, and return types. 
+* The following REPL examples demonstrate expected functionality of your `value\_exists` function:
+
+<pre>
+<div class="terminal">
+>>> odd_and_even([2,3,4,5])
+[]
+>>> odd_and_even([7, 8, 10, 10, 5, 12, 3, 2, 11, 8])
+[7, 5, 3, 11]
+</div>
+</pre>
+
+[Solution](#odd_and_even-solution)
+
+### `short_words`
+
+* The function name is `short_words` and has a `list[str]` as a parameter. 
+* The function should return a new `list[str]` of the words from the input list that are shorter than 5 characters. 
+* If a word is not added to the new list because it is too long,the function should print a string stating that it was too long. 
+* The function should not mutate(modify) the input list. 
+* Explicitly type variables, parameters, andreturn types. 
+* Include a Docstring that says: Returns list of words that are shorter than 5 characters. 
+* The following REPL examples demonstrate expected functionality of your function:
+
+<pre>
+<div class="terminal">
+>>> weather: list[str] = ["sun", "cloud", "sky"]
+>>> short_words(weather)
+cloud is too long!
+['sun', 'sky']
+</div>
+</pre>
+
+[Solution](#short_words-solution)
+
 ### `multiples`
 
  Write a function called `multiples`. Given a `list[int]`, `multiples` should return a `list[bool]` that tells whether each `int` value is a multiple of the previous value.  For the first number in the list, you should wrap around the list and compare this `int` to the last number in the list.  
@@ -97,7 +139,40 @@ Example: `merge_lists([“blue”, “yellow”, “red”], [5, 2, 4])` should 
 
 # Solutions
 
+Note:  Your solution does not need to be identical to these, these are just examples of one of many possible solutions!
+
 ## Lists
+
+
+### `odd_and_even` solution
+
+```
+    def odd_and_even(list1: list[int]) -> list[int]:
+        """Find the odd elements with even indexes."""
+        i: int = 0
+        list2: list[int] = []
+
+        while i < len(list1):
+            if list1[i] % 2 == 1 and i % 2 == 0:
+                list2.append(list1[i])
+            i += 1
+
+        return list2
+```
+
+### `short_words` solution
+
+```
+    def short_words(inp_list: list[str]) -> list[str]:
+        """Filter out the shorter words"""
+        ret_list: list[str] = []
+        for x in inp_list:
+            if len(x) < 5:
+                ret_list.append(x)
+            else:
+                print(f"{x} is too long!")
+        return ret_list
+```
 
 ### `multiples` solution
 

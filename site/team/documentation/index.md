@@ -16,6 +16,7 @@ site-branch: team
 ### Basic Member Guides
 
 * [Onboarding](/team/documentation/guides/onboarding.html)
+* [Dropping and Swapping Shifts](/team/documentation/guides/shift-drop.html)
 * [Mentorship Guide](/team/documentation/guides/mentor_guide.html)
 * [Best Practice](/team/documentation/guides/best_practices.html)
 * [Shift Leads](/team/documentation/guides/shift_leads.html)
@@ -64,11 +65,11 @@ site-branch: team
 
 ### Team Leads
 
+* [Graduate TA](/team/documentation/leads/graduate-TA.html)
 * [Curriculum Design](/team/documentation/leads/curriculum.html) 
 * [Grading](/team/documentation/leads/grading.html)
 * [Team Building](/team/documentation/leads/team-building.html)
 * [Office Hours](/team/documentation/leads/office-hours.html)
-* [Accessibility](/team/documentation/leads/accessibility.html)
 * [Website](/team/documentation/leads/website.html)
 * [Tutoring](/team/documentation/leads/tutoring.html)
 * [Outreach](/team/documentation/leads/outreach.html)

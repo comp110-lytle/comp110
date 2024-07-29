@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/magic_methods_etc.html">CQ08 - MON, JUN 17 11:59pm</a></li><li class="horizon-item"><a href="https://www.youtube.com/watch?v=5mVmXIrG5ec">LS026 - MON, JUN 17 11:59pm</a></li><li class="horizon-item"><a href="/cqs/recursive-fns.html">CQ09 - TUE, JUN 18 11:59pm</a></li><li class="horizon-item"><a href="/exercises/river-sim.html">EX06 - THU, JUN 20 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">RD01 - FRI, JUN 21 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,230 +37,29 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-06-17" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Jun 17</div>
-<div class="plans col-md-9"><div class="plan Lesson">
-<span class="kind">LS26 </span><span class="title">Recursion (Due Monday 6/17)</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=5mVmXIrG5ec">Video Pt. 1</a></li>
-<li class="link"><a href="https://www.youtube.com/watch?v=lWwCoD9EV9g">Video Pt. 2</a></li>
-<li class="link"><a href="/static/slides/Recursion.pdf">Slides</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2024-06-18" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Jun 18</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL11 </span><span class="title"><a href="/">More on Recursion</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ09 </span><span class="title"><a href="/cqs/recursive-fns.html">Recursion Practice (Due Tuesday 6/18)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-21" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Jun 21</div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-09-06" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Sep 6</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ00 </span><span class="title">Quiz 0</span></div></div>
+</div><div data-type="lecture" data-date="2024-09-20" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Sep 20</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ01 </span><span class="title">Quiz 1</span></div></div>
+</div><div data-type="lecture" data-date="2024-10-25" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Oct 25</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ02 </span><span class="title">Quiz 2</span></div></div>
+</div><div data-type="lecture" data-date="2024-11-08" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Nov 8</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ03 </span><span class="title">Quiz 3</span></div></div>
+</div><div data-type="lecture" data-date="2024-11-22" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Nov 22</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ04 </span><span class="title">Quiz 4</span></div></div>
+</div><div data-type="lecture" data-date="2024-12-07" class="row itinerary-row py-2">
+<div class="date col-md-2">Sat, Dec 7</div>
 <div class="plans col-md-9"><div class="plan Final">
-<span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span>
-<ul class="links"><li class="link"><a href="/resources/practice/ss24/fn.html">Practice Problems</a></li>
-</ul></div></div>
-</div><!-- The Past section --><div id='past' class="pb-2"></div>
-<hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-06-14" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Jun 14</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL10 </span><span class="title"><a href="/static/slides/CL10-SS1.pdf">Magic Methods + Operator Overloads</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ08 </span><span class="title"><a href="/cqs/magic_methods_etc.html">Practice with Magic Methods (Due Monday 6/17)</a></span></div><div class="plan Exercise">
-<span class="kind">EX06 </span><span class="title"><a href="/exercises/river-sim.html">River Simulation (Due Thursday 6/20)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-13" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Jun 13</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL09 </span><span class="title"><a href="/static/slides/CL09-SS1.pdf">Practice with OOP</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ07 </span><span class="title"><a href="/cqs/oop-mutable.html">Practice with OOP (Due Thursday 6/13)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-12" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Jun 12</div>
-<div class="plans col-md-9"><div class="plan Lesson">
-<span class="kind">LS24 </span><span class="title">Intro to OOP (Due Wednesday 6/12)</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=DmYPEH8qkRI">Video</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS25 </span><span class="title">Classes in Memory (Due Wednesday 6/12)</span>
-<ul class="links"><li class="link"><a href="https://youtu.be/FM29tHBFBc8">Video</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2024-06-11" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Jun 11</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL08 </span><span class="title">Dictionaries + For Loops</span>
-<ul class="links"><li class="link"><a href="/static/slides/CL11.pdf">Slides</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ06 </span><span class="title"><a href="/cqs/dicts-for-loops.html">Dictionary Practice (Due Tuesday 6/11)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-10" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Jun 10</div>
-<div class="plans col-md-9"><div class="plan Lesson">
-<span class="kind">LS22 </span><span class="title">Dictionaries (Due Monday 6/10)</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=PHkFp_T--yk">Video</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS23 </span><span class="title">Dictionaries in Memory (Due Monday 6/10)</span>
-<ul class="links"><li class="link"><a href="https://youtu.be/tlfJfLBsuX0">Video</a></li>
-</ul></div><div class="plan Exercise">
-<span class="kind">EX05 </span><span class="title"><a href="/exercises/dict-utils-and-utests.html">Dictionary Utils + Unit Tests (Due Friday 6/14)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-07" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Jun 7</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ02 </span><span class="title">Quiz 2</span>
-<ul class="links"><li class="link"><a href="/resources/practice/ss24/qz02.html">Practice Problems</a></li>
-</ul></div><div class="plan Reading">
-<span class="kind">RD01 </span><span class="title"><a href="https://www.gradescope.com/">Reading: Man versus Machine or Man + Machine (Due Friday 6/21)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-06" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Jun 6</div>
-<div class="plans col-md-9"><div class="plan Challenge Question">
-<span class="kind">CQ05 </span><span class="title"><a href="/cqs/list-unit-tests.html">Unit Tests (Due Thursday 6/6)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-05" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Jun 5</div>
-<div class="plans col-md-9"><div class="plan Lesson">
-<span class="kind">LS21 </span><span class="title">Unit Tests (Due Wednesday 6/5)</span>
-<ul class="links"><li class="link"><a href="https://youtu.be/T_9JaV2aIS0">Video</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2024-06-04" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Jun 4</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL07 </span><span class="title">for Loops + range</span>
-<ul class="links"><li class="link"><a href="/static/slides/CL07-A.pdf">Slides (Part A)</a></li>
-<li class="link"><a href="/static/slides/CL07-B.pdf">Slides (Part B)</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ04 </span><span class="title"><a href="/cqs/for-loops.html">for loops practice (Due Wednesday 6/5)</a></span></div><div class="plan Exercise">
-<span class="kind">EX04 </span><span class="title"><a href="/exercises/list-utils.html">List Utils (Due Friday 6/7)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-06-03" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Jun 3</div>
-<div class="plans col-md-9"><div class="plan Lesson">
-<span class="kind">LS19 </span><span class="title">Lists (Due Monday 6/3)</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=U_GP3Jkz5lU">Video</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS20 </span><span class="title">Lists in Memory (Due Monday 6/3)</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=WCvrVTUZ-Ac">Video</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ03 </span><span class="title"><a href="/cqs/lists.html">Lists Practice (Due Monday 6/3)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-05-31" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, May 31</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ01 </span><span class="title">Quiz 1</span>
-<ul class="links"><li class="link"><a href="/resources/practice/ss24/qz01.html">Practice Problems</a></li>
-</ul></div><div class="plan Exercise">
-<span class="kind">EX03 </span><span class="title"><a href="/exercises/battleship.html">Functional Battleship (Due Tuesday 6/4)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-05-30" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, May 30</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL06 </span><span class="title"><a href="/cqs/functions.html">Challenge Question + Quiz Review</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ02 </span><span class="title"><a href="/cqs/functions.html">Functions Practice (Due Thursday 5/30)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-05-29" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, May 29</div>
-<div class="plans col-md-9"><div class="plan Lesson">
-<span class="kind">LS15 </span><span class="title">Function Semantics (Due Wednesday 5/29)</span>
-<ul class="links"><li class="link"><a href="https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2dbef2ad-1af1-4f44-86a6-b17e00fb3de9">In-Class Recording</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS16 </span><span class="title">Union Types (Due Wednesday 5/29)</span>
-<ul class="links"><li class="link"><a href="https://youtu.be/J-iR9m3o1-s">Video</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS17 </span><span class="title">Importing Functions + Modules (Due Wednesday 5/29)</span>
-<ul class="links"><li class="link"><a href="https://youtu.be/-Q-9HmzEb38?si=SncXUf4VSfgUZrex">Video</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS18 </span><span class="title">Importing Functions in the REPL + the Trailhead (Due Wednesday 5/29)</span>
-<ul class="links"><li class="link"><a href="https://youtu.be/s9nFWKB8MXk">Video</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2024-05-28" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, May 28</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL05 </span><span class="title">Introduction to Functions + Function Syntax</span>
-<ul class="links"><li class="link"><a href="/static/slides/SS1-CL05.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS13 </span><span class="title"><a href="https://www.gradescope.com/">Introduction to Functions (Due Tuesday 5/28)</a></span></div><div class="plan Lesson">
-<span class="kind">LS14 </span><span class="title"><a href="https://www.gradescope.com/">Function Syntax (Due Tuesday 5/28)</a></span></div><div class="plan Exercise">
-<span class="kind">EX02 </span><span class="title"><a href="/exercises/one-shot-battleship.html">One-shot Battleship (Due Friday 5/31)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-05-24" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, May 24</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ00 </span><span class="title">Quiz 0</span>
-<ul class="links"><li class="link"><a href="/resources/ss-quiz-expectations.html">What to Expect</a></li>
-<li class="link"><a href="/resources/practice/ss24/qz00.html">Practice Problems</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2024-05-23" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, May 23</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL04 </span><span class="title">While Loops + Counters, Quiz Review</span>
-<ul class="links"><li class="link"><a href="/static/slides/SS1-CL04.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Reading">
-<span class="kind">RD00 </span><span class="title"><a href="https://www.gradescope.com/">Reading: The Ethical Algorithm (Due Thursday 6/6)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-05-22" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, May 22</div>
-<div class="plans col-md-9"><div class="plan Lesson">
-<span class="kind">LS11 </span><span class="title">Relative Reassignment Operators (Due Wednesday 5/22)</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=GOs7pwPLB1k">Video</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS12 </span><span class="title">Counters (Due Wednesday 5/22)</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=XQPFd1Gae9M">Video</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2024-05-21" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, May 21</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL03 </span><span class="title">Conditionals and while Loops</span>
-<ul class="links"><li class="link"><a href="/static/slides/SS1-CL03.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS09 </span><span class="title"><a href="https://www.gradescope.com/">Conditionals (Due Tuesday 5/21)</a></span></div><div class="plan Lesson">
-<span class="kind">LS10 </span><span class="title"><a href="https://www.gradescope.com/">While Loops (Due Tuesday 5/21)</a></span></div><div class="plan Exercise">
-<span class="kind">EX01 </span><span class="title"><a href="/exercises/simple-battleship.html">Simple Battleship (Due Friday 5/24)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-05-20" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, May 20</div>
-<div class="plans col-md-9"><div class="plan Lesson">
-<span class="kind">LS05 </span><span class="title">Running a Program + The Terminal (Due Monday 5/20)</span>
-<ul class="links"><li class="link"><a href="https://youtu.be/2IAQbE3afEI">Video</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS06 </span><span class="title">Boolean Operators (Due Monday 5/20)</span>
-<ul class="links"><li class="link"><a href="https://youtu.be/tmmSlIq9I_0">Video</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS07 </span><span class="title">Unicode, Emoji, Escape Sequences, and f-Strings (Due Monday 5/20)</span>
-<ul class="links"><li class="link"><a href="https://comp110-24s.github.io/lessons/strings.html">Notes</a></li>
-<li class="link"><a href="https://www.gradescope.com/">Assignment</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS08 </span><span class="title">Memory Diagrams (Due Monday 5/20)</span>
-<ul class="links"><li class="link"><a href="https://youtu.be/YKVT9mCtYPE">Video</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ00 </span><span class="title"><a href="https://www.gradescope.com/">Practice Memory Diagram (Due Monday 5/20)</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ01 </span><span class="title"><a href="https://www.gradescope.com/">Practice Memory Diagram with Conditionals (Due Monday 5/20)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-05-17" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, May 17</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL02 </span><span class="title">Expressions, Variables, + Conditionals</span>
-<ul class="links"><li class="link"><a href="/static/slides/SS1-CL02.pdf">Lecture Slides</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Friday 5/17)</a></span></div><div class="plan Lesson">
-<span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Variables and User Input (Due Friday 5/17)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-05-16" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, May 16</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL01 </span><span class="title">An Introduction to Coding + Beginning Concepts</span>
-<ul class="links"><li class="link"><a href="/static/slides/SS1-CL01.pdf">Lecture Slides</a></li>
-<li class="link"><a href="/lessons/objects-data-types.html">Objects + Data Types Lecture Notes</a></li>
-<li class="link"><a href="/lessons/expressions.html">Expressions Lecture Notes</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Data Types (Due Thursday 5/16)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-05-15" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, May 15</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL00 </span><span class="title">Welcome to COMP110 - An Intro to the Class</span>
-<ul class="links"><li class="link"><a href="/static/slides/SSI-CL00.pdf">Course Intro Slides</a></li>
-<li class="link"><a href="/resources/setup/os-update.html">Setup Part 0: Update Operating System</a></li>
-<li class="link"><a href="/resources/setup/software.html">Setup Part 1: Install Needed Software</a></li>
-<li class="link"><a href="/resources/setup/workspace.html">Setup Part 2: Setup your Workspace</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS00 </span><span class="title">Syllabus and Support (Due Wednesday 5/15)</span>
-<ul class="links"><li class="link"><a href="/resources/syllabus.html">1. Read the Syllabus</a></li>
-<li class="link"><a href="/support">2. Read Support Resources</a></li>
-<li class="link"><a href="https://www.gradescope.com/">3. Complete Lesson 00 Responses on Gradescope</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS01 </span><span class="title">Syllabus and Support (Due Wednesday 5/15)</span>
-<ul class="links"><li class="link"><a href="/resources/syllabus.html">syllabus</a></li>
-</ul></div><div class="plan Exercise">
-<span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Saturday 5/18)</a></span></div></div>
-</div></div>
+<span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
+</div><!-- The Past section --></div>
 </div>

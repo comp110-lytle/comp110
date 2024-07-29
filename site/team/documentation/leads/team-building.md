@@ -8,31 +8,35 @@ template: columns-profile
 site-branch: team
 ---
 
+
 ## About Me
-<img class="img-fluid" src="/static/profile-photos/sophiejiang.jpeg"/>
+<img class="img-fluid" src="/static/profile-photos/kalebw02.jpg"/>
 
 
 //split//
 
-### Sophie Jiang
+### Kaleb White
 
-Graduation Year: 2024
+Graduation Year: 2025
 
-Semesters on Team 110: 6 🤯
+Semesters on Team 110: 3
 
-Why I <3 Team 110: Team 110 was one of the first places I met other CS students. Everyone was so welcoming and I loved the community feel of the team!
+Why I <3 Team 110: I must keep the family legacy going. The site is plagued with the name Ezri White. Now it will be stamped with the name Kaleb White.
 
-Fun Fact: 
+Fun Fact: I recently paid $420 dollars to the university for parking tickets because they sent it to collections on my sister. My relationship with my parents will never be the same, nor will my sister's relation with her credit score.
 
 //split//
 
 ## Responsibilities
-1. Events - organize team-building events throughout the semester
-2. All-Hands - plan icebreakers and encourage turnout to all-hands
-3. Team Morale - build a community for the team!
 
+1. Make sure that everyone is content with whatever scheduling platform is currenty being used to the best of my abilties.
+2. Building more sustainable infrastructure for scheduling in the future.
+3. Keep up with common issues in office hours to keep the process smooth. 
+4. Encourage more student engagement with office hours. 
 
 ## Goals
-1. Improve team morale and bonding!
-2. Increase team participation and motivation towards attending team-building events
-3. Bring back Prom110
+
+1. Get shiftoverflow up and runnninngggggggg!!!!!
+2. Keep up with issues posted in the office hours slack.
+3. Work to make the team page remains a useful resource.
+4. Work on increasing office hour engagement throughout the semester.
