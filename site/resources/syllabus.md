@@ -93,7 +93,7 @@ If you are a part of an organization whose authorized university absences will c
 
 You may have an unexcused absence for up to one quiz. 
 
-If this is an *excused* absence (university or instructor approved), you should submit this form with attached documentation: <https://airtable.com/appLAcrgEhUfhwgpH/pagL61MnQCtPPc7T6/form>.
+If this is an *excused* absence (university or instructor approved), you should submit this form with attached documentation: *(link coming soon)*.
 
 To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 8% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
 
@@ -109,7 +109,7 @@ The web page is the primary resource for this course. There is no textbook for C
 
 ## Course Schedule
 
-You can find the most up-to-date course schedule [here](https://comp110-24ss1.github.io/).
+You can find the most up-to-date course schedule [here](https://airtable.com/appzeephpTB5Uovx7/shrYkitDOXgUaCEb9).
 
 
 # Course Expectations + Grading
