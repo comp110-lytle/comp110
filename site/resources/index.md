@@ -17,9 +17,11 @@ navbar: base
 
 - [Operating System Update](/resources/setup/os-update.html)
 
-- [Install Required Software](/resources/setup/software.html)
+- [Install Required Software *Coming Soon*](/)
+<!-- (/resources/setup/software.html) -->
 
-- [Setup Your Course Workspace](/resources/setup/workspace.html)
+- [Setup Your Course Workspace *Coming Soon*](/)
+<!-- (/resources/setup/workspace.html) -->
 
 </div>
 
@@ -37,7 +39,7 @@ navbar: base
 
 - [Extra Practice](/resources/tutoring-practice/tutoring-practice.html)
 
-- [Grade Estimator](/resources/grade_calc/grade_calc.html)
+<!-- - [Grade Estimator](/resources/grade_calc/grade_calc.html) -->
 
 </div>
 
@@ -59,9 +61,9 @@ navbar: base
 
 ## Course Basics
 
-- _**[VIRTUAL LESSONS:](/virtual-classes/index.html)**_ Lessons for each unit 
+<!-- - _**[VIRTUAL LESSONS:](/virtual-classes/index.html)**_ Lessons for each unit  -->
 
-- _**[CLASS SCHEDULE:](https://docs.google.com/spreadsheets/d/1agt8Kyrn2Vp83pzsCUXZH9L8Q689iFdPc22ZnTTAUYM/edit?usp=sharing)**_ *Tentative* Class Schedule
+- _**[CLASS SCHEDULE:](https://airtable.com/appzeephpTB5Uovx7/shrYkitDOXgUaCEb9)**_ *Tentative* Class Schedule
 
 </div> 
 
