@@ -40,26 +40,39 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-09-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Sep 6</div>
 <div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ00 </span><span class="title">Quiz 0</span></div></div>
+<span class="kind">QZ00 </span><span class="title">Quiz 0</span>
+<ul class="links"><li class="link"><a href="/resources/quiz-expectations.html">What to Expect</a></li>
+<li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-09-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Sep 20</div>
 <div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ01 </span><span class="title">Quiz 1</span></div></div>
+<span class="kind">QZ01 </span><span class="title">Quiz 1</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-10-25" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Oct 25</div>
 <div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ02 </span><span class="title">Quiz 2</span></div></div>
+<span class="kind">QZ02 </span><span class="title">Quiz 2</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-11-08" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Nov 8</div>
 <div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ03 </span><span class="title">Quiz 3</span></div></div>
+<span class="kind">QZ03 </span><span class="title">Quiz 3</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-11-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Nov 22</div>
 <div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ04 </span><span class="title">Quiz 4</span></div></div>
+<span class="kind">QZ04 </span><span class="title">Quiz 4</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-12-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Sat, Dec 7</div>
 <div class="plans col-md-9"><div class="plan Final">
-<span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span></div></div>
+<span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+</ul></div></div>
 </div><!-- The Past section --></div>
 </div>
