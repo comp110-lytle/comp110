@@ -116,11 +116,11 @@ You can find the most up-to-date course schedule [here](https://comp110-24ss1.gi
 
 ## Course Load Expectation
 
-COMP110 is a rigorous introductory STEM course. Learning how to program is an acquired, practiced skill much like playing a musical instrument or learning a new craft. The amount of time you individually spend practicing programing and working on assignments, outside of any other help, will significantly impact your success in the course. You should expect to spend 2.5 hours per week on lecture and async lessons ON TOP OF about 9 hours per week outside of lecture working on assignments and studying. We DO NOT recommended taking COMP110 in a semester when you are enrolled in 17 or more credit hours.
+COMP110 is a rigorous introductory STEM course. Learning how to program is an acquired, practiced skill much like playing a musical instrument or learning a new craft. The amount of time you individually spend practicing programing and working on assignments, outside of any other help, will significantly impact your success in the course. You should expect to spend 2.5 hours per week on lecture ON TOP OF about 9 hours per week outside of lecture working on assignments and studying. We DO NOT recommended taking COMP110 in a semester when you are enrolled in 17 or more credit hours.
 
 ## Course Requirements and Policies
 
-You should complete all asynchronous lessons and related questions on time. You should attend all synchronous lessons (all days except those shown above) and check the course page for announcements and updates. You should complete all programming and reading assignments on time.
+You should plan to attend all in person lectures and check the course page for announcements and updates. You should complete all programming and reading assignments on time.
 
 For in-person lectures, please show up at least five minutes early so that the class can begin promptly at its scheduled start time.
 
