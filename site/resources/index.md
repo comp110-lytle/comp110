@@ -33,7 +33,9 @@ navbar: base
 
 - [Practice Memory Diagrams](/resources/practice/MemDiagrams.html)
 
-- [Tutoring Practice](/resources/tutoring-practice/tutoring-practice.html)
+- [Practice Problems](/resources/practice/practice-problems.html)
+
+- [Extra Practice](/resources/tutoring-practice/tutoring-practice.html)
 
 - [Grade Estimator](/resources/grade_calc/grade_calc.html)
 
