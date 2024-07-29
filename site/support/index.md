@@ -96,9 +96,10 @@ If you have suggestions on how to improve the course or just want to leave some 
 
 ## Office Hours Schedule
 
-* _Monday - Friday: 11:00 AM - 5:00 PM_
-* _Sunday 1:00 PM - 5:00 PM_
+<!-- * _Monday - Friday: 11:00 AM - 5:00 PM_
+* _Sunday 1:00 PM - 5:00 PM_ -->
 
+*TBA*
 
 **Last day of office hours and tutoring is Dec. 4!**
 
