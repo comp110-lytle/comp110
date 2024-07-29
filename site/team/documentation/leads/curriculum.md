@@ -9,35 +9,38 @@ site-branch: team
 ---
 
 ## About Me
-<img class="img-fluid" src="/static/profile-photos/vrinda.jpg"/>
+<img class="img-fluid" src="/static/profile-photos/vhunanytwo.jpg"/>
 
 
 //split//
 
-### Vrinda Desai
+### Viktorya Hunanyan
 
-Graduation Year: 2024
+Graduation Year: 2027
 
-Semesters on Team 110: 6
+Semesters on Team 110: 1 Semester and 1 summer session
 
-Why I <3 Team 110: When I had to set up the projector at Hack 110, two other 110 TAs helped me fidget with the remote and read an instructional email. We didn't end up figuring it out, but my team members stuck with me all the way through——friendship and support is endless in Team 110.
+Why I <3 Team 110: I cannot express in words how much this family means to me. If anyone knows me, they know I can go on and on about my past schools and how much I hated them because of how competitive they were. Friendships were always transactional, and I always yearned to be part of a team. I literally commit everything to this team, and I am so lucky to work alongside these people, especially having Alyssa as a role model. 
 
-Fun Fact: I run an 11-minute mile!
+Fun Fact: I will spiral into an oblivion knowing that I can't do everything and anthing all at once. I HATED CS before 110. Oh, also my screentime is on average 2 minutes :P. 
 
 //split//
 
 ## Responsibilities
 
-I help make the autograders for student assignments——sometimes it's scary sometimes it isn't.
+NEW CONTENT WILL BE UP AND IN ORDER! 
 
-I also help refactor the semester's schedule, create quizzes, and update or roll out new exercises.  
-
+Update, add, and fix quiz questions. Creating CQs and new exercise ideas, along with developing autograders for them. Making video solutions of CQs, quiz practice problems, and memory diagrams. Hosting review sessions. 
 
 
 ## Goals
+QUIZ GRADES WILL GO UP
 
-Officially replace the Wordle exercises with our new Battleship series (designed by Audrey Salmon and Camilla Fratta). 
+The same problem that has been used for the past three semesters and has appeared on BOTH a quiz AND the final exam will not have the worst score but the best score!
 
-Come up with some other assignments to bring in next semester——maybe a Buzzfeed quiz or a recursive variant of Turtle. 
+I want to introduce a new CQ format where students write a code solution and then draw a memory diagram based on their solution.
 
-Continue to aid Alyssa in showcasing how programming is interesting and powerful!
+
+Push students a bit to be able to handle more on their CQs. This doesn't mean more challenging, but a bit more heavy on cenceptual details. 
+
+Be able to push students to be able to explain their code, not merely read off what is happening, but understand why and how things are happening. This will help them start thinking computationally!
