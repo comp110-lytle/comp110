@@ -13,7 +13,7 @@ template: overview
 
 Course: Introduction to Programming
 
-Term: Summer Session 1 2024
+Term: Fall 2024
 
 Department: COMP
 
@@ -28,7 +28,8 @@ Course Website: <https://comp110-24ss1.github.io>
 
 Sections:
 
-1. 001 - Async Mondays and Wednesdays, Sync Tuesdays, Thursdays, and Fridays - 09:45 AM-11:15 AM
+1. 001 - Monday/Wednesday/Friday 9:05AM - 9:55AM, Hamilton Hall Rm 0100
+2. 002 - Monday/Wednesday/Friday 11:15AM - 12:05PM, Genome Sciences Rm G100
 
 
 Instructor: [Alyssa Lytle](https://alyssalytle.github.io/)
@@ -67,7 +68,7 @@ The course also adresses the following IDEAs in Action General Education Quantit
 
 ## Instructional Format
 
-Most new concepts will be introduced asynchronously and remote via prerecorded lessons that enable you to pause, rewind, slow down (or speed up!) and complete with more flexibility than a fixed lecture format permits. **Mondays** and **Wednesdays** will be led this way. The rest of the course, **Tuesdays**, **Thursdays**, and **Fridays**, will serve as days to practice, reinforce, and extend the concepts introduced on virtual days. These days will be held in-person such that you can be surrounded by peers and Undergraduate Teaching Assistants to collaboratively work through challenges together.
+Most weeks will be structured in the following way: One day will be dedicated to learning new concepts and completing a lesson assignment (LS), and one-two days will be dedicated to reinforcing and practicing those concepts. This will involve in-class practice problems and coding Challenge Questions (CQ).
 
 ## Quizzes and Required Synchronous Days
 
@@ -75,10 +76,12 @@ Quizzes and examinations are offered in-person only this semester. The format is
 
 **Quiz Dates**
 
-* Quiz (QZ) 00: Fri, May 24
-* Quiz (QZ) 01: Fri, May 31 
-* Quiz (QZ) 02: Fri, Jun 7
-* Final (FN) Exam: Fri, Jun 21 @ 8 AM 
+* Quiz (QZ) 00: Fri, Sept 6
+* Quiz (QZ) 01: Fri, Sept 20 
+* Quiz (QZ) 02: Fri, Oct 25
+* Quiz (QZ) 03: Fri, Nov 8
+* Quiz (QZ) 04: Fri, Nov 22
+* Final (FN) Exam: Sat Dec 7 @ 8 AM (Makeup Wed Dec 11 @ 12 pm)
 <!-- 
 **Final Exam Makeup**
 If you have a university approved reason for needing to take the final on a makeup day, please fill out [this form](https://airtable.com/appLAcrgEhUfhwgpH/pag4ye0TG4Bee46KI/form). -->
@@ -94,7 +97,7 @@ You may have an unexcused absence for up to one quiz.
 
 If this is an *excused* absence (university or instructor approved), you should submit this form with attached documentation: <https://airtable.com/appLAcrgEhUfhwgpH/pagL61MnQCtPPc7T6/form>.
 
-To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 10% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
+To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 8% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
 
 We can offer everyone absent from a quiz the same learning experience of sitting for the quiz at some later date and receiving feedback on it, but a quiz taken in this fashion is not for credit and will not count toward nor against your mastery grade to ensure fairness to all students.
 
@@ -129,28 +132,20 @@ To do well in this course you must come to your own individual mastery of introd
 
 
 
-* 35% - (EX) Programming Exercises
+* 25% - (EX) Programming Exercises
 * 5% - (RD) 2x Reading Responses
-* 10% - (LS) Async Lesson Responses on Gradescope (Graded for Correctness)
-* 10% - (CQ) Challenge Question Responses on Gradescope (Graded for Correctness)
-* 30% - 3x Quizzes
+* 10% - (LS) Lessons
+* 10% - (CQ) Challenge Questions
+* 40% - 5x Quizzes
 * 10% - Final Exam
 
 The quiz/final exam grading policy is updated to the following:
-The cumulative final exam is worth 40% of your final grade at the start of the term. Each quiz you take accounts for 10% of your final grade and reduces the weight of your final examination by 10%. There are no drops.
+The cumulative final exam is worth 50% of your final grade at the start of the term. Each quiz you take accounts for 8% of your final grade and reduces the weight of your final examination by 8%. There are no drops.
 
-For example: By taking all 3 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the four quizzes you take will account for 20% of your final grade and your final exam will account for 20%.
+For example: By taking all 5 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the four quizzes you take will account for 32% of your final grade and your final exam will account for 18%.
 
-If, and only if, you take all quizzes and your final examination score exceeds your lowest quiz score, then we will retroactively grant you an absence for the lowest quiz score and your final exam score will be worth 20%.
+If, and only if, you take all quizzes and your final examination score exceeds your lowest quiz score, then we will retroactively grant you an absence for the lowest quiz score and your final exam score will be worth 18%.
 
-
-## Course Passage Policy
-
-In order to pass COMP110, you must:
-
-* Have a passing grade given the rubric of weights above and grading scale below,
-* Take at least 2 quizzes,
-* Score greater than 50% on the final exam.
 
 ## Autograding and Resubmissions
 
