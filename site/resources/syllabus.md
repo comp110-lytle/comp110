@@ -21,12 +21,10 @@ Course Number: 110
 
 Credit Hours: 3
 
-Location: FB007
-
-Course Website: <https://comp110-24ss1.github.io>
+Course Website: <https://comp110-24f.github.io/>
 
 
-Sections:
+Sections Time and Location:
 
 1. 001 - Monday/Wednesday/Friday 9:05AM - 9:55AM, Hamilton Hall Rm 0100
 2. 002 - Monday/Wednesday/Friday 11:15AM - 12:05PM, Genome Sciences Rm G100
