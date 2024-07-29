@@ -24,10 +24,7 @@
             "title": "Quiz 0",
             "date": "2024-09-06",
             "deadline": "2024-09-06",
-            "links": {
-                "What to Expect": "/resources/quiz-expectations.html",
-                "Practice Problems": "/resources/practice/practice-problems.html"
-            }
+            "links": {}
         }
     ],
     "2024-09-07": [],
@@ -50,9 +47,7 @@
             "title": "Quiz 1",
             "date": "2024-09-20",
             "deadline": "2024-09-20",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html"
-            }
+            "links": {}
         }
     ],
     "2024-09-21": [],
@@ -96,9 +91,7 @@
             "title": "Quiz 2",
             "date": "2024-10-25",
             "deadline": "2024-10-25",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html"
-            }
+            "links": {}
         }
     ],
     "2024-10-26": [],
@@ -121,9 +114,7 @@
             "title": "Quiz 3",
             "date": "2024-11-08",
             "deadline": "2024-11-08",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html"
-            }
+            "links": {}
         }
     ],
     "2024-11-09": [],
@@ -146,9 +137,7 @@
             "title": "Quiz 4",
             "date": "2024-11-22",
             "deadline": "2024-11-22",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html"
-            }
+            "links": {}
         }
     ],
     "2024-11-23": [],
@@ -170,9 +159,7 @@
             "title": "Final @ 8:00AM",
             "date": "2024-12-07",
             "deadline": "None",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html"
-            }
+            "links": {}
         }
     ]
 }
