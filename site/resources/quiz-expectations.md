@@ -12,7 +12,7 @@ All you need to bring are your ONECard, 2x Sharpened Pencils, Working Eraser. We
 
 ### Quiz Seats are Assigned and Randomized
 
-Your assigned seat will be emailed to you in advance. Please know your seat _before_ arriving in Hamilton 100. You should receive these seats by Monday at 11:59pm.
+Your assigned seat will be emailed to you in advance. Please know your seat _before_ arriving to the classroom. You should receive these seats by Thursday at 11:59pm.
 
 ### Arrive Early!
 
@@ -34,6 +34,8 @@ Yes! Read through the instructions for each question and questions carefully. Do
 
 Often times you may find reminders of concepts in other places on the quiz, such as syntax for code writing problems.
 
+Quizzes are printed in black and white, so you won't have syntax highlighting available. If you want, you can bring highlighters to help you parse the code!
+
 ### Are there recommended quiz preparation strategies?
 
 Yes! 
@@ -41,7 +43,7 @@ Yes!
 * Review the lessons and challenge questions you submitted
 * Review exercises submitted 
 * Work through any currently released exercises you have not completed
-* Complete the review questions (they will post a day or two before the quiz, to the course itinerary, listed underneath the quiz entry).
+* Complete the review questions and practice memory diagrams.
 * Stop by office hours and/or tutoring with conceptual questions
 
 Additionally, after quizzes are returned, you should review and understand all questions missed as preparation for the following quiz. The content in COMP110 is cumulative, so you do not want to continue making the same mistakes through the semester!
