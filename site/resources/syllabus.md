@@ -152,16 +152,16 @@ If, and only if, you take all quizzes and your final examination score exceeds y
 Grades on programming assignments have two components: autograded points and manually graded points. You should take note of how many autograded vs. manually graded points there are ahead of submission. You are permitted, and encouraged, to resubmit your programming assignments as many times as you need in order to earn full credit on the autograded points of an assignment. There is no penalty for resubmission. The autograder will run and assign a score within a few minutes of submission. We will not go back and manually assign any credit for autograder points you failed to earn, so you can know and be aware of your autograded points upon submission. If you do not understand the error output of some autograded point deduction, please come see us in office hours!
 
 
-## Early submission of programming assignments
+<!-- ## Early submission of programming assignments
 
-Programming assignments (exercises and projects) whose final submission is made 48 hours, or more, before their deadline will receive a 5% early hand-in bonus on the assignment’s autograded score. Submissions that fall within the early window of 24-48 hours before the deadline will receive a 3% early hand-in bonus. Submissions made within 24 hours of the deadline are not subject to any bonus. The early hand-in bonus does not apply to manually graded points on projects.
+Programming assignments (exercises and projects) whose final submission is made 48 hours, or more, before their deadline will receive a 5% early hand-in bonus on the assignment’s autograded score. Submissions that fall within the early window of 24-48 hours before the deadline will receive a 3% early hand-in bonus. Submissions made within 24 hours of the deadline are not subject to any bonus. The early hand-in bonus does not apply to manually graded points on projects. -->
 
 ## Regrade Requests
 
 Regrade requests for quizzes and other manually graded assignments are open for 72 hours following the release of the grade. If you missed any of the points on a given assignment, you should review work as soon as grades are posted to be sure you understand why you missed something. This will help bring your understanding of concepts closer to comprehension faster. In the event we graded something improperly, select the specific question on gradescope and click the “Regrade Request” button at the bottom. If there are multiple questions, submit multiple requests one per question, rather than batching them together. Do not use regrade requests to ask why something is wrong, come work with us in tutoring or office hours to understand the problem at hand.
 
 
-## Late policies
+## Late policies and Drops
 
 All assignments, outside of assessments such as quizzes and the final exam, will have an 11:59pm deadline on their due date.
 
@@ -169,10 +169,10 @@ Lesson responses and programming exercises will all have deadlines and late peri
 
 Lesson and Challenge Question responses on Gradescope are assigned on lecture days and must be completed before 11:59pm the same day unless noted otherwise. If handed in after the 1-hour grace period described above, a maximum 15% late penalty will be applied. No lesson responses will be accepted beyond 11:59pm two days following the original deadline. To ensure fairness to everyone, as emergencies may arise, we will drop the 2 lowest lesson scores and the 1 lowest challenge question score, including zeros.
 
-Programming and reading assignments - submissions made after the deadline will have a 15% late penalty applied at the end of the semester. Exercises and projects cannot be handed in beyond their 6-day late period, which follows the original deadline. **The lowest exercise score, including a zero, will be dropped.**
+Programming and reading assignments - submissions made after the deadline will have a 5% late penalty applied per day late, capping at a lowest grade of 80%. Exercises and projects cannot be handed in beyond their 6-day late period, which follows the original deadline. **The lowest exercise score, including a zero, will be dropped.**
 
 
-## Late Point Forgiveness Insurance
+<!-- ## Late Point Forgiveness Insurance
 
 As “insurance” against illness, computer crashes, sporting events, conflicts with other coursework, and *waves arms around in the air* life, every student in the course is automatically forgiven the following points worth of late penalties on assignments at the end of the term: 
 
@@ -181,7 +181,7 @@ As “insurance” against illness, computer crashes, sporting events, conflicts
 * Exercises: forgiven up to 2 late exercise penalties
 * Readings: forgiven up to 1 late reading assignment penalty
 
-Like real insurance, there is no reward for not needing to use these points and you should try to avoid using them outside of unpredictable, emergency situations like a computer needing repair. 
+Like real insurance, there is no reward for not needing to use these points and you should try to avoid using them outside of unpredictable, emergency situations like a computer needing repair.  -->
 
 
 ## Grading Scale Breakdown

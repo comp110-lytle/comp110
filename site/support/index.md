@@ -54,6 +54,23 @@ Tutoring is a great opportunity to find help with:
 * Lecture Review
 * Practice
 
+# EdStem
+
+We're using [Ed Discussion](https://edstem.org/us/join/nWVCDK) for class Q&A.
+
+This is the best place to ask questions about the course, whether curricular or administrative. You will get faster answers here from staff and peers than through email.
+
+Here are some tips:
+
+* Search before you post
+* Heart questions and answers you find useful
+* Answer questions you feel confident answering (I keep an eye on this to inform who would make a good TA in the future!)
+* Share interesting course related content with staff and peers
+* Post logistical questions about the course under "Logistical Questions"
+* Post conceptual questions about topics covered under "Conceptual Questions"
+* Post assignment-specific questions under "Assignment Help". **MAKE THIS POST PRIVATE IF YOU ARE SHARING CODE OR ANSWERS.** We are only able to help with short questions online. If you have a longer form question, you will likely be redirected to office hours. *Please remember that your emergencies are not our emergencies!* In other words, it is not up to the TAs to answer a question hours/minutes before a deadline. Please start assignments as early as possible so you have time to get help in office hours!
+
+Finally, though you can post anonymously, the 110 team is still able to see who posted what, so please keep that in mind! 
 
 # Email
 
@@ -61,7 +78,7 @@ In general, we cannot help with programming or assignment questions via e-mail a
 
 # Feedback
 
-If you have suggestions on how to improve the course or just want to leave some positive, encouraging feedback for the TAs or Alyssa, please give us feedback. If you make a suggestion we’re able to act on while we still have time to, we’re more than happy to!
+If you have suggestions on how to improve the course or just want to leave some positive, encouraging feedback for the TAs or Alyssa, please give us feedback! If you make a suggestion we’re able to act on while we still have time to, we’re more than happy to!
 </div>
 //split// 
 
@@ -72,28 +89,29 @@ If you have suggestions on how to improve the course or just want to leave some 
 # Where Do I Go For Help?
 
 * Office Hours: Setup, homework + conceptual questions
-<!-- * Tutoring: Conceptual questions + concept review -->
-<!-- * Email TAs: Logistical concerns -->
+* Tutoring: Conceptual questions + concept review
+* Email TAs: Logistical concerns
 * Email <comp110help@gmail.com>: Assignment extension requests and logistical concerns
 * Email <abyrnes1@cs.unc.edu>: Personal issues and emergencies that impact performance in the course
 
 ## Office Hours Schedule
 
-* _Monday: 11:00 AM - 2:00 PM_
-* _Tuesday: 11:30 AM - 1:30 PM_
-* _Wednesday: 11:00 AM - 4:00 PM_
-* _Thursday: 11:30 AM - 1:30 PM_
-* _Friday: 11:30 AM - 1:30 PM_
+* _Monday - Friday: 11:00 AM - 5:00 PM_
+* _Sunday 1:00 PM - 5:00 PM_
 
-** Last day of office hours and tutoring is **
+
+**Last day of office hours and tutoring is Dec. 4!**
 
 ## Tutoring Schedule
- *Tutoring takes place in Room SN011!*
 
-* _Monday: 5:00 PM -  7:00 PM_
+*TBA*
+
+ <!-- *Tutoring takes place in Room SN011!* -->
+
+<!-- * _Monday: 5:00 PM -  7:00 PM_
 * _Wednesday: 5:00 PM -  7:00 PM_
-* _Thursday: 5:00 PM - 7:00 PM_ 
+* _Thursday: 5:00 PM - 7:00 PM_  -->
 
-** Last day of office hours and tutoring is **
+**Last day of office hours and tutoring is Dec. 4!**
 </div>
 
