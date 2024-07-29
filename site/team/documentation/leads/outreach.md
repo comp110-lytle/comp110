@@ -1,6 +1,6 @@
 ---
 title: Outreach Lead
-date: 2024-01-06
+date: 2024-07-29
 author:
 - Sarah Chocron
 page: team
@@ -18,11 +18,11 @@ site-branch: team
 
 Graduation Year: 2025
 
-Semesters on Team 110: 3
+Semesters on Team 110: 4
 
-Why I <3 Team 110: Working with students is my favorite part of COMP 110- no student intereaction is the same and I'm always learning from and with them. 
+Why I <3 Team 110: Working with students is my favorite part of COMP 110- no student interaction is the same and I'm always learning from and with them. 
 
-Fun Fact: I worked in a cemetery this past summer!
+Fun Fact: I don't have a thyroid :0
 
 //split//
 
@@ -36,4 +36,4 @@ Offering help to students struggling in the class during 1-on-1 meetings.
 
 ## Goals
 
-My main goal for the semester is to encourage studentst to advocate for themselves when they are struggling and to emphasize the resources we have to offer.
+My main goal for the semester is to encourage students to advocate for themselves when they are struggling. Secondly, I want to empower students to uniquely find their way in programming even if it is unconventional.
