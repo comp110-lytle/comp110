@@ -96,4 +96,4 @@ If you do not see your workspace files in the Explorer sidebar, go to File, sele
 
 ## Issues
 
-Please check out [this page](/setup/commonissues.html) if any issues arise. If you're still stuck, please head to office hours for help!
+Please check out [this page](/resources/setup/commonissues.html) if any issues arise. If you're still stuck, please head to office hours for help!
