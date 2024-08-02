@@ -8,7 +8,7 @@ template: overview
 
 ## 0. Gearing Up
 
-Campers, wecome to Summer CAMP110! By this point, you should be fully geared with your laptop's [operating system up-to-date](/resources/setup/os-update.html), [software installed](/resources/setup/software.html), and [workspace](/resources/setup/workspace.html) ready to go. If you have not completed those steps yet, please do so before journeying off into this exercise.
+Welcome to Comp110! By this point, you should be fully geared with your laptop's [operating system up-to-date](/resources/setup/os-update.html), [software installed](/resources/setup/software.html), and [workspace](/resources/setup/workspace.html) ready to go. If you have not completed those steps yet, please do so before journeying off into this exercise.
 
 ## 1. Starting from the Trailhead
 
@@ -20,7 +20,9 @@ Once open, from the "File" menu, select "Open Recent...". After completing the s
 
 You should be greeted with window that looks like the following (if tabs are open in the main part of the window, you can close them):
 
-![VSCode Dev Container](/static/exercises/ex00/vscode-dev-container.png)
+
+<img class="img-fluid" src="/static/exercises/ex00/vscode-dev-container.png" alt="VSCode Dev Container">
+
 
 There are three important parts to recognize in this window you will make use of through the semester:
 
@@ -46,9 +48,9 @@ We recommend keeping VSCode and your browser, with Trailhead open, side-by-side 
 
 In Trailhead, navigate back to the home page by clicking "Trailhead" in the navigation.
 
-In VSCode, open the "File Explorer" pane and right-click in the blank space. Select "New File" and name the file `ex00_hello_world.py`. Double check that the filename exactly matches what is specified here. In Trailhead, you will see the your new module appear. If you click to open it, you will see that the "module exited without output." This is because the file is empty.
+In VSCode, open the "Explorer" pane. Inside the "exercises" folder, you should see a module titled `ex00_hello_world.py`. Double click that filename to open and edit it. In Trailhead, you should also see this module. If you click to open it, you will see that the "module exited without output." This is because the file is empty.
 
-Open the `ex00_hello_world.py` file in VSCode and type the following:
+In the `ex00_hello_world.py` file in VSCode and type the following:
 
 ```python
 print("Hello, world!")
@@ -70,11 +72,11 @@ def greet(name: str) -> str:
     return "Hello, " + name + "!"
 ```
 
-When you save the file, in Trailhead you will see that the module once again exits without output. That is OK! We have defined a function, but we have not yet called it. Let's do that now.
+When you save the file, in Trailhead you will see that the module once again exits without output. That is OK! We have *defined* a function, but we have not yet *called* it. Let's do that now.
 
 In Trailhead, switch to the "Interact" tab. This tab allows you to interact with your Python module using what is known as a "REPL", short for a "Read, Evaluate, Print" loop. From the "Interact" tab, you will see the `greet` function you defined listed in "Globals".
 
-Let's try making use of this function! In the text box, try typing the following _function call expression_ and pressing enter:
+Let's try making use of this function by *calling* it! In the text box, try typing the following _function call expression_ and pressing enter:
 
 ```python
 greet(name="Campers")
@@ -90,9 +92,10 @@ Feel free to try calling the function with other names, as well!
 
 Your interactions should look something like this:
 
-![`greet` REPL Interactions](/static/exercises/ex00/repl-greet.png)
+<img class="img-fluid" src="/static/exercises/ex00/repl-greet.png" alt="`greet` REPL Interactions">
 
-<div class="turtle-talk">
+
+<!-- <div class="turtle-talk">
 <figure>
 ![Turtle Talk](/static/camp110/cozy-turtle.png)
 </figure>
@@ -103,11 +106,13 @@ I'm here to help you slow down and think through the details of what you are lea
 
 At times, this can feel tedious, but when you understanding and appreciate the details, you will have the confidence to take on bigger challenges!
 </div>
-</div>
+</div> -->
+
+### What exactly is happening here?
 
 Let's break down what is happening here by starting with the function definition in VSCode. The following image points out the important parts of this function definition:
 
-![`greet` Function Definition](/static/exercises/ex00/function-syntax.png)
+<img class="img-fluid" src="/static/exercises/ex00/function-syntax.png">
 
 A function definition is like a cooking recipe: it has a name, some required ingredients, and an expected result. Inside the definition are one or more steps the recipe follows to produce a result. For now, our functions will be simple, single-step recipes, but as you learn more about programming, you will learn how to write more complex functions. Importantly, a function definition does not actually do or produce anything until it is "called" or "invoked", like a printed recipe does not produce any food until it is "followed" or "cooked".
 
@@ -127,7 +132,7 @@ A function definition is like a cooking recipe: it has a name, some required ing
 
 Now that you have a sense of the key parts of this function definition, let's break down the function call expressions you typed into the REPL and understand how they relate to the function definition.
 
-![`greet` Function Call Expression](/static/exercises/ex00/function-call-syntax.png)
+<img class="img-fluid" src="/static/exercises/ex00/function-call-syntax.png">
 
 If defining a function is like writing down a recipe for biscuits, _calling a function is like baking the biscuits_. Mmm... let's bake some biscuits! 
 
@@ -141,7 +146,7 @@ When you press enter, this function call expression is evaluated. Python will be
 
 3. The **Return Value** from the evaluated function call is then displayed in the REPL as soon as the function call completes. In Trailhead, when you _evaluate_ an expression in the REPL, the result is displayed in a blue box with a lightning bolt icon. This is to indicate that the code you entered into the REPL was an expression and the visualization indicates both the returned value, as well as its type.
 
-<div class="fox-talk">
+<!-- <div class="fox-talk">
 <figure>
 ![Fox Talk](/static/camp110/cozy-fox.png)
 </figure>
@@ -156,10 +161,10 @@ You should try experimenting in either the REPL, or your Python program code, to
 
 **Fern Question 1.** If an argument can be an expression, as claimed above, can you think of an example expression to use as the `name` argument in a call to your `greet` that is **not** just a `str` literal? This is a way of _proving_ to yourself that an argument _can be an expression_. Try this in the REPL!
 
-**Fern Question 2.** If a function call to `greet` is an expression, can you use the resulting value of a call to `greet` as the `name` argument to _another call_ to `greet`? Try this in the REPL!
+**Fern Question 2.** If a function call to `greet` is an expression, can you use the resulting value of a call to `greet` as the `name` argument to _another call_ to `greet`? Try this in the REPL! -->
 
 
-## 5. Ceremonial Program Structure
+<!-- ## 5. Ceremonial Program Structure
 
 Changing tabs back to the "Run" tab in Trailhead, you will see that the module still exits without any output. This is because in your module, you have not made use of the function definition; you were experimenting with it in the REPL. This is not only OK, it's a common strategy for writing programs: start with small functions, test them out to be sure they work, and build larger programs with them.
 
@@ -212,9 +217,9 @@ We can try to bring these successive evaluations together into a single sequence
 4. None, but output to the screen: Hello, Campers!
 ~~~
 
-Why did you need to call `print` here, but not when using the REPL? If you recall, the REPL is short for "Read-Evaluate-Print-Loop". The "Print" step is built-in, and automatically "Prints" the evaluation of your expressions, so that you do not need to print the result of an expression yourself. In Trailhead, we highlight this difference and denote the automatically printed expression output in blue. If you switch back to the REPL and try evaluting, `print("Hello")` and then `"Hello"` as two separate expressions, you will see the difference. We will talk more about this in class because the distinction is both important and often a conceptual hurdle for new programmers.
+Why did you need to call `print` here, but not when using the REPL? If you recall, the REPL is short for "Read-Evaluate-Print-Loop". The "Print" step is built-in, and automatically "Prints" the evaluation of your expressions, so that you do not need to print the result of an expression yourself. In Trailhead, we highlight this difference and denote the automatically printed expression output in blue. If you switch back to the REPL and try evaluting, `print("Hello")` and then `"Hello"` as two separate expressions, you will see the difference. We will talk more about this in class because the distinction is both important and often a conceptual hurdle for new programmers. -->
 
-## 6. Module Documentation and Attribution
+## 5. Module Documentation and Attribution
 
 One other convention in Python, and COMP110, is to add some documentation to the top of your module. Add the following lines of code above the `greet` function definition in your `ex00_hello_world.py` file:
 
@@ -252,11 +257,11 @@ Now that your first program is complete, let's practice making a backup. Visual 
 5. Press the Commit button to make a _Commit_ (a version) of your work.
 6. In the Terminal, type the command `git push`. If your terminal was closed, go to the Terminal menu and select "New Terminal". This command "pushed" your changes to your backup repository on GitHub.
 
-To see your commit on Github, in a web browser, navigate to `https://github.com/` and open your COMP110 course repository. You should see your work in `ex0_hello_world.py` backed up to GitHub. Notice above the file's content's you'll see your commit message.
+To see your commit on Github, in a web browser, navigate to `https://github.com/` and open your COMP110 course repository. You should see your work in `ex00_hello_world.py` backed up to GitHub. Notice above the file's content's you'll see your commit message.
 
 ## 8. Congratulations!
 
-<div class="owl-talk">
+<!-- <div class="owl-talk">
 <figure>
 ![Owl Talk](/static/camp110/cozy-owl.png)
 </figure>
@@ -267,17 +272,18 @@ I'm here to help you think about the big picture of what you are learning. I'll 
 
 It is important to take a step back and see the forest for the trees. Connecting how the pieces fit together will help you achieve great things!
 </div>
-</div>
+</div> -->
 
-HOO! You have completed your first exercise in the course! Most exercises will require you to write functions on your own, but as we are getting started we wanted to guide you through each of these steps with narrative so that you could learn some important fundaments.
+You have completed your first exercise in the course! Most exercises will require you to write functions on your own, but as we are getting started we wanted to guide you through each of these steps with narrative so that you could learn some important fundaments.
 
 In this exercise, you experienced many big ideas you will encounter frequently in the trails ahead:
 
 * Defining a Function with a single parameter, return type, doc string, and return statement
 * Calling a Function Definition with a Keyword Argument
 * Using the REPL to Interact with Functions and Expressions
-* Making a module runnable as a program (the `if __name__ == "__main__":` part)
-* Prompting the user for `input` and `print`ing output
 * Documenting a module with a doc string and author attribution
 * Submitting a COMP110 program to Gradescope for autograding
 * Backing up your work to GitHub
+
+<!-- * Making a module runnable as a program (the `if __name__ == "__main__":` part)
+* Prompting the user for `input` and `print`ing output -->
