@@ -79,7 +79,7 @@ Quizzes and examinations are offered in-person only this semester. The format is
 * Quiz (QZ) 02: Fri, Oct 25
 * Quiz (QZ) 03: Fri, Nov 8
 * Quiz (QZ) 04: Fri, Nov 22
-* Final (FN) Exam: Sat Dec 7 @ 8 AM (Makeup Wed Dec 11 @ 12 pm)
+* Final (FN) Exam: Sat Dec 7 @ 8 AM (Makeup Wed Dec 11 @ 12 pm in SN014)
 
 **Final Exam Makeup**
 You must have a [university approved](https://dos.unc.edu/student-support/class-absences-final-exam-rescheduling/) reason for needing to take the final on a makeup day. If this applies to you, please fill out [this form](https://airtable.com/appTwO14JeejMY84t/pagx5jCpDmqzD2ueT/form).
