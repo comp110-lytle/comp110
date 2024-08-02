@@ -19,8 +19,7 @@ navbar: base
 
 - [Install Required Software](/resources/setup/software.html)
 
-- [Setup Your Course Workspace *Coming Soon*](/)
-<!-- (/resources/setup/workspace.html) -->
+- [Setup Your Course Workspace](/resources/setup/workspace.html)
 
 </div>
 
