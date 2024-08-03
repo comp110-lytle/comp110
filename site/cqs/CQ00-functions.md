@@ -30,13 +30,13 @@ The function should simply return `message` back to you!
 
 You can test this function by *calling* it under the "Interact" tab of your trailhead! You should get behavior looking something like this: 
 
-<img class="img-fluid" src="/static/cqs/cq00/mimic.PNG">
+<img class="img-fluid" src="/static/cqs/cq00/mimic.png">
 
 ## Calling Your Function Inside the File
 
 Before you do anything else, try clicking on the "Run" tab in your trailhead. You'll see something like this.
 
-<img class="img-fluid" src="/static/cqs/cq00/no-output.PNG">
+<img class="img-fluid" src="/static/cqs/cq00/no-output.png">
 
 This is to be expected because `cq00_functions.py` only contains a function definition; nothing has been called or printed!
 
@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
 Before revealing what this code is doing, please try saving your code and look under the "Run" tab in the Trailhead. You should see something like this:
 
-<img class="img-fluid" src="/static/cqs/cq00/mimic-module-call.PNG">
+<img class="img-fluid" src="/static/cqs/cq00/mimic-module-call.png">
 
 Now, come back to the code, and try and break down the second line for yourself. Just like in math, you can expect to work your way from the innermost parentheses outward.
 
