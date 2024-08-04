@@ -65,7 +65,7 @@ VSCode can be customized with extensions specific to the types of work you use i
 
 ## 5. Setup your Backup Workspace on GitHub
 
-1. Navigate a web browser to <a href="https://classroom.github.com/classrooms/175164484-comp110-24f-classroom-738795" target="_blank">https://classroom.github.com/classrooms/175164484-comp110-24f-classroom-738795</a>
+1. Navigate a web browser to <a href="https://classroom.github.com/a/srbJNnQy" target="_blank">https://classroom.github.com/a/srbJNnQy</a>
 2. Click "Skip to the next step" when prompted to select your user / identification
 3. Click "Accept this Assignment"
 4. When the workspace is getting setup you may need to refresh until it tells you you're ready to go!
