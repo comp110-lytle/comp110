@@ -1,32 +1,33 @@
 ---
 title: Tutoring Lead
-date: 2024-01-08
+date: 2024-08-06
 author:
-- Vincent Li
+- Jack Coury
 page: team
 template: columns-profile
 site-branch: team
 ---
 
 ## About Me
-<img class="img-fluid" src="/static/profile-photos/vinceli.jpg"/>
+<img class="img-fluid" src="/static/profile-photos/jcoury.jpg"/>
 
 
 //split//
 
-### Vincent Li
+### Jack Coury
 
 Graduation Year: 2026
 
-Semesters on Team 110: 3
+Semesters on Team 110: 2
 
-Major: CS & STOR
+Major: Computer Science
+Minor: Data Science
 
-Why I <3 Team 110: This welcoming team offers me the chance to not only work with peers who share similar passions but also help students by solving their confusion and witnessing the progression of their programming skills.
+Why I <3 Team 110: Team 110 is the reason I continued my studies in computer programming. Having no prior coding experience and being an nontraditional student, Comp 110 was a challenge for me. The UTA's in Team 110 were encouraging, helpful, and welcoming, which helped me build the confidence and direction I needed to move foward. The collaborative and supportive environment in Team 110 is a worthy standard I hope to see students take out and uphold in the wider Computer Science field. 
 
-Fun Fact: Gaming is one the major reasons that made me get interested in learning Computer Science
+Fun Fact: I initially went to school for violin performance, and still know my way around a fingerboard. 
 
-Hobbies: Gaming, Cycling, Snowboarding
+Hobbies: My dog, cooking, cycling, and board games.
 
 //split//
 
@@ -38,6 +39,6 @@ Hobbies: Gaming, Cycling, Snowboarding
 
 ## Goals
 
-- Better organizing the tutoring section to more efficiently help students solve conceptual confusion.
-- Helping students prepare for the exams ahead of time to build more confidence.
-- Let people with no coding experience feel more comfortable and prepared for this brand-new subject.
+- Raising awareness of tutoring availability, and who it benefits.
+- Building students confidence in larger concepts in order to bolster problem solving skills needed for coursework. 
+- Creating an environment that welcomes students of all levels of CS experience, assists them with their needs, and connects them to other resources if needed. 
