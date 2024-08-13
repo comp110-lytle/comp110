@@ -129,8 +129,7 @@ To do well in this course you must come to your own individual mastery of introd
 
 
 
-* 25% - (EX) Programming Exercises
-* 5% - (RD) 2x Reading Responses
+* 30% - (EX) Programming Exercises
 * 10% - (LS) Lessons
 * 10% - (CQ) Challenge Questions
 * 40% - 5x Quizzes
