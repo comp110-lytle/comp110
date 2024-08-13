@@ -79,10 +79,10 @@ Quizzes and examinations are offered in-person only this semester. The format is
 * Quiz (QZ) 02: Fri, Oct 25
 * Quiz (QZ) 03: Fri, Nov 8
 * Quiz (QZ) 04: Fri, Nov 22
-* Final (FN) Exam: Sat Dec 7 @ 8 AM (Makeup Wed Dec 11 @ 12 pm)
-<!-- 
+* Final (FN) Exam: Sat Dec 7 @ 8 AM (Makeup Wed Dec 11 @ 12 pm in SN014)
+
 **Final Exam Makeup**
-If you have a university approved reason for needing to take the final on a makeup day, please fill out [this form](https://airtable.com/appLAcrgEhUfhwgpH/pag4ye0TG4Bee46KI/form). -->
+You must have a [university approved](https://dos.unc.edu/student-support/class-absences-final-exam-rescheduling/) reason for needing to take the final on a makeup day. If this applies to you, please fill out [this form](https://airtable.com/appTwO14JeejMY84t/pagx5jCpDmqzD2ueT/form).
 
 
 ## Quiz Absence Policy
@@ -93,7 +93,6 @@ If you are a part of an organization whose authorized university absences will c
 
 You may have an unexcused absence for up to one quiz. 
 
-If this is an *excused* absence (university or instructor approved), you should submit this form with attached documentation: *(link coming soon)*.
 
 To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 8% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
 

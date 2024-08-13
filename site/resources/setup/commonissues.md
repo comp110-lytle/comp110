@@ -51,3 +51,4 @@ If you are on an Intel-based mac and seeing issues in VSCode, changing the follo
 2. Uncheck the box "Use Virtualization Framework"
 
 Click the "Apply and Restart" button to make the changes in Docker save and restart Docker. After doing so, reopen VSCode and try again. If this still does not resolve the issue, it is worth trying the [Common Fix: Resetting the Container](#resetting-the-container)
+

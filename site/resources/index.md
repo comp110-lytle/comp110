@@ -17,11 +17,9 @@ navbar: base
 
 - [Operating System Update](/resources/setup/os-update.html)
 
-- [Install Required Software *Coming Soon*](/)
-<!-- (/resources/setup/software.html) -->
+- [Install Required Software](/resources/setup/software.html)
 
-- [Setup Your Course Workspace *Coming Soon*](/)
-<!-- (/resources/setup/workspace.html) -->
+- [Setup Your Course Workspace](/resources/setup/workspace.html)
 
 </div>
 
