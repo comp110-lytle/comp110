@@ -96,22 +96,18 @@ If you have suggestions on how to improve the course or just want to leave some 
 
 ## Office Hours Schedule
 
-<!-- * _Monday - Friday: 11:00 AM - 5:00 PM_
-* _Sunday 1:00 PM - 5:00 PM_ -->
-
-*TBA*
+* _Monday - Friday: 11:00 AM - 5:00 PM_
+* _Sunday 1:00 PM - 5:00 PM_
 
 **Last day of office hours and tutoring is Dec. 4!**
 
 ## Tutoring Schedule
 
-*TBA*
+*(Tutoring takes place in Room SN115!)*
 
- <!-- *Tutoring takes place in Room SN011!* -->
-
-<!-- * _Monday: 5:00 PM -  7:00 PM_
+* _Monday: 5:00 PM -  7:00 PM_
 * _Wednesday: 5:00 PM -  7:00 PM_
-* _Thursday: 5:00 PM - 7:00 PM_  -->
+* _Thursday: 5:00 PM - 7:00 PM_ 
 
 **Last day of office hours and tutoring is Dec. 4!**
 </div>
