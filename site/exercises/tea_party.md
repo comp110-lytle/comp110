@@ -6,7 +6,7 @@ page: exercises
 template: overview
 ---
 
-![](/static/exercises/ex01/banner.png)
+<!-- ![](/static/exercises/ex01/banner.png) -->
 
 ## Overview
 
@@ -91,7 +91,7 @@ Once you have implemented your function definition, save your file, and test it 
 
 Try a few additional function calls to be sure your function is working as you expect!
 
-<div class="fox-talk">
+<!-- <div class="fox-talk">
 <figure>
 ![Fox Talk](/static/camp110/cozy-fox.png)
 </figure>
@@ -100,7 +100,9 @@ Try a few additional function calls to be sure your function is working as you e
 
 Why do you think we are making use of a call to the `tea_bags` function when implementing the `treats` function? Could you imagine implementing `treats` without calling `tea_bags`? If so, suppose you later discovered your guests drank 3 teas each instead of 2. How many places in your program would you need to update to account for this change?
 </div>
-</div>
+</div> -->
+
+*Why do you think we are making use of a call to the `tea_bags` function when implementing the `treats` function? Could you imagine implementing `treats` without calling `tea_bags`? If so, suppose you later discovered your guests drank 3 teas each instead of 2. How many places in your program would you need to update to account for this change?*
 
 ## 3. Defining the `cost` Function
 
@@ -154,16 +156,18 @@ After adding these lines to the end of your program, you should now be able to g
 
 Congrats! You can now plan a cozy tea party with your woodland CAMP110 friends!
 
-<div class="fox-talk">
+<!-- <div class="fox-talk">
 <figure>
 ![Fox Talk](/static/camp110/cozy-fox.png)
 </figure>
 <div class="message">
 **Fern the Philosophical Fox**
 
-Why do you think you cannot place the lines `if __name__ == "__main__":` followed by `meal_planner(...)` at the top of your program? What happens if you try? Hint: Think about the rules of your environment diagram. What rules apply when the call to `meal_planner` are made? Specifically: what happens when following the Name Resolution rules?
+
 </div>
-</div>
+</div> -->
+
+*Why do you think you cannot place the lines `if __name__ == "__main__":` followed by `meal_planner(...)` at the top of your program? What happens if you try? Hint: Think about the rules of your environment diagram. What rules apply when the call to `meal_planner` are made? Specifically: what happens when following the Name Resolution rules?*
 
 ## 6. Submitting Your Work to Gradescope
 
@@ -195,19 +199,10 @@ To see your commit on Github, in a web browser, navigate to `https://github.com/
 
 ## 8. Congratulations!
 
-<div class="owl-talk">
-<figure>
-![Owl Talk](/static/camp110/cozy-owl.png)
-</figure>
-<div class="message">
-Hi, I'm **Owlivia the Observant**!
-
-HOO! You have completed your first _real_ exercise in the course!  In this exercise, you experienced many big ideas you will encounter frequently on the trails ahead:
+You have completed your first _real_ exercise in the course!  In this exercise, you experienced many big ideas you will encounter frequently on the trails ahead:
 
 * Defining a Function with a one _or more_ parameters, return type, doc string, and return statement
 * Defining a function and testing it in the REPL
 * Defining a function that calls another function
 * Defining a "main" function that produces output and "delegates" its primary logic to other simpler functions
 * Defining a function that returns `None` and produces output (a "side-effect"!)
-</div>
-</div>
