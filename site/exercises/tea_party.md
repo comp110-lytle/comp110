@@ -6,7 +6,7 @@ page: exercises
 template: overview
 ---
 
-<!-- ![](/static/exercises/ex01/banner.png) -->
+<!-- ![](/static/exercises/tea-party/banner.png) -->
 
 ## Overview
 
@@ -14,7 +14,8 @@ In this exercise, you will write a program to help you plan a cozy tea party. Th
 
 Here's an example of using the program if you imagine we are trying to throw a giant tea party for you and 333 of your friends:
 
-![Example Run](/static/exercises/ex01/example_run.png)
+<img class="img-fluid" src="/static/exercises/tea-party/example_run.png">
+
 
 _Now you just need $1,085.50 to bring this dream to life!_
 
@@ -65,7 +66,7 @@ Assume everyone at the tea party will drink two cups of tea and, therefore, we s
 
 Once you have implemented your function definition, save your file, and test it out in the Trailhead Interact REPL. You should expect to be able to make calls and see their return values like below:
 
-![`tea_bags` REPL Examples](/static/exercises/ex01/tea_bags_repl.png)
+<img class="img-fluid" src="/static/exercises/tea-party/tea_bags_repl.png">
 
 Try a few additional function calls to be sure your function is working as you expect!
 
@@ -87,7 +88,7 @@ You want to be careful of the _data type_ returned by your `treats` function. Yo
 
 Once you have implemented your function definition, save your file, and test it out in the Trailhead Interact REPL. You should expect to be able to make calls and see their return values like below:
 
-![`treats` REPL Examples](/static/exercises/ex01/treats_repl.png)
+<img class="img-fluid" src="/static/exercises/tea-party/treats_repl.png">
 
 Try a few additional function calls to be sure your function is working as you expect!
 
@@ -119,7 +120,7 @@ The `cost` function will assume _each tea bag costs $0.50 and each treat costs $
 
 Once you have implemented your function definition, save your file, and test it out in the Trailhead Interact REPL. You should expect to be able to make calls and see their return values like below:
 
-![`cost` REPL Examples](/static/exercises/ex01/cost_repl.png)
+<img class="img-fluid" src="/static/exercises/tea-party/cost_repl.png">
 
 ## 4. Defining the `main_planner` Function
 
@@ -139,7 +140,8 @@ There is something new and different about this function than the others you hav
 
 This function body will have multiple lines following the Docstring. Each line will be a `print` statement with a string literal concatenated with the results of **calling your function definitions**. The string literals should be formatted to match the exact output of the uses shown below:
 
-![`main_planner` REPL Examples](/static/exercises/ex01/main_planner_repl.png)
+
+<img class="img-fluid" src="/static/exercises/tea-party/main_planner_repl.png">
 
 **You should not be performing any arithmetic computations in `main_planner`, all of the arithmetic is handled in your functions `tea_bags`, `treats`, and `cost`. Your `main_planner` function must call the other function definitions you have written to perform these calculations.**
 
@@ -156,18 +158,15 @@ After adding these lines to the end of your program, you should now be able to g
 
 Congrats! You can now plan a cozy tea party with your woodland CAMP110 friends!
 
-<!-- <div class="fox-talk">
-<figure>
-![Fox Talk](/static/camp110/cozy-fox.png)
-</figure>
+<div class="fox-talk">
+
 <div class="message">
-**Fern the Philosophical Fox**
-
-
-</div>
-</div> -->
-
 *Why do you think you cannot place the lines `if __name__ == "__main__":` followed by `meal_planner(...)` at the top of your program? What happens if you try? Hint: Think about the rules of your environment diagram. What rules apply when the call to `meal_planner` are made? Specifically: what happens when following the Name Resolution rules?*
+</div>
+</div>
+
+<!-- 
+*Why do you think you cannot place the lines `if __name__ == "__main__":` followed by `meal_planner(...)` at the top of your program? What happens if you try? Hint: Think about the rules of your environment diagram. What rules apply when the call to `meal_planner` are made? Specifically: what happens when following the Name Resolution rules?* -->
 
 ## 6. Submitting Your Work to Gradescope
 
