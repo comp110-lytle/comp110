@@ -28,6 +28,8 @@ Sections Time and Location:
 
 1. 001 - Monday/Wednesday/Friday 9:05AM - 9:55AM, Hamilton Hall Rm 0100
 2. 002 - Monday/Wednesday/Friday 11:15AM - 12:05PM, Genome Sciences Rm G100
+3. 003 - Monday/Wednesday/Friday 8:00AM - 8:50AM, Coker Hall Rm 0201
+4. 004 - Monday/Wednesday/Friday 2:30PM - 3:20PM, Global Education, FedEx Rm 1015
 
 
 Instructor: [Alyssa Lytle](https://alyssalytle.github.io/)
