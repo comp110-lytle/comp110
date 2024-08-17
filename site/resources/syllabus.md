@@ -3,6 +3,7 @@ title: Syllabus
 author:
 - Kris Jordan 
 - Alyssa Lytle
+- Izzi Hinks
 page: logistics
 template: overview
 ---
@@ -32,10 +33,18 @@ Sections Time and Location:
 4. 004 - Monday/Wednesday/Friday 2:30PM - 3:20PM, Global Education, FedEx Rm 1015
 
 
-Instructor: [Alyssa Lytle](https://alyssalytle.github.io/)
+Instructors: 
+
+[Alyssa Lytle](https://alyssalytle.github.io/) (Sections 001 and 002)
 
 * Office: FB 136
 * Office Hours: [By Appointment](https://alyssalytle.github.io/schedule.html)
+* E-mail: <comp110help@gmail.com>
+
+[Isabella ("Izzi") Hinks](https://www.isabellahinks.com/) (Sections 003 and 004)
+
+* Office: Sitterson (SN) 149
+* Office Hours: [By Appointment](https://calendar.app.google/SYouVVGYSi92qMSK6)
 * E-mail: <comp110help@gmail.com>
 
 ## Curriculum
@@ -81,7 +90,7 @@ Quizzes and examinations are offered in-person only this semester. The format is
 * Quiz (QZ) 02: Fri, Oct 25
 * Quiz (QZ) 03: Fri, Nov 8
 * Quiz (QZ) 04: Fri, Nov 22
-* Final (FN) Exam: Sat Dec 7 @ 8 AM (Makeup Wed Dec 11 @ 12 pm in SN014)
+* Final (FN) Exam: Sat Dec 7 @ 8 AM (Makeup: Wed Dec 11 @ 12 pm in SN014)
 
 **Final Exam Makeup**
 You must have a [university approved](https://dos.unc.edu/student-support/class-absences-final-exam-rescheduling/) reason for needing to take the final on a makeup day. If this applies to you, please fill out [this form](https://airtable.com/appTwO14JeejMY84t/pagx5jCpDmqzD2ueT/form).
@@ -269,7 +278,7 @@ University Policy: As stated in the University’s [Class Attendance Policy](htt
 
 ## Feedback
 
-If you have suggestions on how to improve the course or just want to leave some positive, encouraging feedback for the TAs or I, please give us feedback. If you make a suggestion we're able to act on, while we still have time to, we're more than happy to!
+If you have suggestions on how to improve the course or just want to leave some positive, encouraging feedback for the TAs or me, please give us feedback. If you make a suggestion we're able to act on, while we still have time to, we're more than happy to!
 
 ## Accessibility Resources & Services
 
