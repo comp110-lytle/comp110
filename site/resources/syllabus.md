@@ -93,19 +93,20 @@ Quizzes and examinations are offered in-person only this semester. The format is
 * Final (FN) Exam: Sat Dec 7 @ 8 AM (Makeup: Wed Dec 11 @ 12 pm in SN014)
 
 **Final Exam Makeup**
+
 You must have a [university approved](https://dos.unc.edu/student-support/class-absences-final-exam-rescheduling/) reason for needing to take the final on a makeup day. If this applies to you, please fill out [this form](https://airtable.com/appTwO14JeejMY84t/pagx5jCpDmqzD2ueT/form).
 
 
 ## Quiz Absence Policy
 
-The quizzes will be held during the section you are registered for and are synchronous, in-person for both sections 001 and 002. 
+The quizzes will be held during the section you are registered for and are synchronous, in-person for all sections (001, 002, 003, and 004). 
 
 If you are a part of an organization whose authorized university absences will conflict with two or more of the key dates of quizzes, you should plan on taking COMP110 in a future semester when these unfortunate, but important, conflicts will not arise.
 
 You may have an unexcused absence for up to one quiz. 
 
 
-To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 8% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
+To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the 8% of your total course credit for this quiz will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
 
 We can offer everyone absent from a quiz the same learning experience of sitting for the quiz at some later date and receiving feedback on it, but a quiz taken in this fashion is not for credit and will not count toward nor against your mastery grade to ensure fairness to all students.
 
@@ -242,7 +243,7 @@ The following are not permitted resources on coursework handed in for credit and
 
 * Asking for help on an assignment or assessment on GroupMe, or any other mobile or web application, groupchat, or forum.
 * Talking about specific assignments with peers in the course or anyone outside the course with the exception of UTAs.
-* Looking at someone else's screen, whether in person or shared remotely, while working on a an assignment. Letting someone else look at or share your screen.
+* Looking at someone else's screen, whether in person or shared remotely, while working on an assignment. Letting someone else look at or share your screen.
 * Copying code found on any website or community such as StackOverflow, Github, Chegg, or CourseHero.
 * Sharing or reusing code with any peer currently in the course or anyone who has previously taken the course.
 
