@@ -175,9 +175,9 @@ All assignments, outside of assessments such as quizzes and the final exam, will
 
 Lesson responses and programming exercises will all have deadlines and late periods. The following policies apply:
 
-Lesson and Challenge Question responses on Gradescope are assigned on lecture days and must be completed before 11:59pm the same day unless noted otherwise. If handed in after the 1-hour grace period described above, a maximum 15% late penalty will be applied. No lesson responses will be accepted beyond 11:59pm two days following the original deadline. To ensure fairness to everyone, as emergencies may arise, we will drop the 2 lowest lesson scores and the 1 lowest challenge question score, including zeros.
+Lesson and Challenge Question responses on Gradescope are assigned on lecture days and must be completed before 11:59pm the same day unless noted otherwise. To ensure fairness to everyone, as emergencies may arise, we will drop the 2 lowest lesson scores and the 1 lowest challenge question score, including zeros.
 
-Programming and reading assignments - submissions made after the deadline will have a 5% late penalty applied per day late, capping at a lowest grade of 80%. Exercises and projects cannot be handed in beyond their 6-day late period, which follows the original deadline. **The lowest exercise score, including a zero, will be dropped.**
+For all assignments, submissions made after the deadline will have a 5% late penalty applied per day late, capping at a lowest grade of 80%. Exercises and projects cannot be handed in beyond their 6-day late period, which follows the original deadline. **The lowest exercise score, including a zero, will be dropped.**
 
 
 <!-- ## Late Point Forgiveness Insurance
