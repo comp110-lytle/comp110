@@ -6,7 +6,7 @@ page: profile
 template: columns-profile
 ---
 
-![profile-photo](../../../static/profile-photos/jaylim.jpg)
+![profile-photo](../../../static/profile-photos/jaylim.PNG)
 
 ## Pronouns
 
