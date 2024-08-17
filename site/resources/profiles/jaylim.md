@@ -6,7 +6,7 @@ page: profile
 template: columns-profile
 ---
 
-![profile-photo](../../../static/profile-photos/jaylim.jpg)
+![profile-photo](../../../static/profile-photos/jaylim.PNG)
 
 ## Pronouns
 
@@ -30,8 +30,8 @@ Computer Science and Statistics Double-major, Chinese Minor
 
 ## Interests
 
-Soccer, Basketball, Taekwondo, Weightlifting, FPS Games(COD, Star Wars Battlefront II, Apex Legends), and Anything Water-related
+Jesus, Soccer, Basketball, Fishing, Weightlifting, Cooking, Gaming
 
 ## Non-academic fun fact
 
-I am remotely related to a famous actress.
+I am distantly related to a famous actress.
