@@ -77,7 +77,7 @@ Now let's implement a function to compute the number of treats needed based on t
 * Name: `treats`
 * Parameters:
     1. `people` parameter of type: `int` - the number of guests attending the tea party
-* Return Type: `int`
+* Return Type: `float`
 * Add a Docstring describing the purpose of the function
 
 The `treats` function will assume _for each tea a guest drinks, they will, on average, want 1.5 treats to accompany it_.

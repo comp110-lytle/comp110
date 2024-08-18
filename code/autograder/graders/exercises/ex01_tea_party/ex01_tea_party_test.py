@@ -27,7 +27,7 @@ def assert_function_defined(module, fn_identifier) -> None:
 MODULE = "exercises.ex01_tea_party"
 
 
-@mark.weight(2.5)
+@mark.weight(2)
 def test_doc_string(capsys: CaptureFixture[str]):
     """Part 0. Doc String for module must be set and non-empty."""
     module = reimport_module(MODULE)
@@ -35,21 +35,21 @@ def test_doc_string(capsys: CaptureFixture[str]):
     assert len(getattr(module, "__doc__")) > 0, "Module-level Doc String is required"
 
 
-@mark.weight(2.5)
+@mark.weight(2)
 def test_author(capsys: CaptureFixture[str]):
     """Part 0. __author__ global variable is present and correct format."""
     module = reimport_module(MODULE)
     assert author_is_a_valid_pid(module), "Valid 9-digit PID is required"
 
 
-@mark.weight(2.5)
+@mark.weight(2)
 def test_tea_bags_defined():
     """Part 1. `tea_bags` - function is declared."""
     module = reimport_module(MODULE)
     assert_function_defined(module, "tea_bags")
 
 
-@mark.weight(2.5)
+@mark.weight(2)
 def test_tea_bags_parameter():
     """Part 1. `tea_bags` - function has correct parameter type."""
     module = reimport_module(MODULE)
@@ -57,7 +57,7 @@ def test_tea_bags_parameter():
     assert_parameter_list(module.tea_bags, [int])
 
 
-@mark.weight(2.5)
+@mark.weight(2)
 def test_tea_bags_return_type():
     """Part 1. `tea_bags` - function has correct return type."""
     module = reimport_module(MODULE)
@@ -65,7 +65,7 @@ def test_tea_bags_return_type():
     assert_return_type(module.tea_bags, int)
 
 
-@mark.weight(2.5)
+@mark.weight(2)
 def test_tea_bags_doc_string():
     """Part 1. `tea_bags` - function has a docstring."""
     module = reimport_module(MODULE)
@@ -77,7 +77,7 @@ rand_arg = randint(1, 1000)
 rand_rv = rand_arg * 2
 
 
-@mark.weight(2.5)
+@mark.weight(2)
 @mark.parametrize(
     "argument, expected_return_value",
     [(0, 0), (10, 20), (123, 246), (rand_arg, rand_rv)],
@@ -91,14 +91,14 @@ def test_tea_bags(argument, expected_return_value):
     ), f"Expected tea_bags({argument}) to return {expected_return_value}"
 
 
-@mark.weight(2.5)
+@mark.weight(2)
 def test_treats_defined():
     """Part 2. `treats` - function is declared."""
     module = reimport_module(MODULE)
     assert_function_defined(module, "treats")
 
 
-@mark.weight(2.5)
+@mark.weight(3)
 def test_treats_parameter():
     """Part 2. `treats` - function has correct parameter type."""
     module = reimport_module(MODULE)
@@ -106,7 +106,7 @@ def test_treats_parameter():
     assert_parameter_list(module.treats, [int])
 
 
-@mark.weight(2.5)
+@mark.weight(3)
 def test_treats_return_type():
     """Part 2. `treats` - function has correct return type."""
     module = reimport_module(MODULE)
@@ -114,7 +114,7 @@ def test_treats_return_type():
     assert_return_type(module.treats, int)
 
 
-@mark.weight(2.5)
+@mark.weight(2)
 def test_treats_doc_string():
     """Part 2. `treats` - function has a docstring."""
     module = reimport_module(MODULE)
@@ -126,7 +126,7 @@ rand_arg = randint(1, 1000)
 rand_rv = round(rand_arg * 2 * 1.5)
 
 
-@mark.weight(2.5)
+@mark.weight(2)
 @mark.parametrize(
     "argument, expected_return_value",
     [(0, 0), (1, 3), (2, 6), (3, 9), (rand_arg, rand_rv)],
@@ -140,7 +140,7 @@ def test_treats(argument, expected_return_value):
     ), f"Expected treats({argument}) to return {expected_return_value}"
 
 
-@mark.weight(-10.0)
+@mark.weight(2)
 def test_treats_calls_tea_bags():
     """Part 2. `treats` - must be implmented in terms of a call to `tea_bags` and use a keyword argument"""
     module = reimport_module(MODULE)
@@ -151,14 +151,14 @@ def test_treats_calls_tea_bags():
         mock_tea_bags.assert_called_once_with(people=1)
 
 
-@mark.weight(2.5)
+@mark.weight(0.5)
 def test_cost_defined():
     """Part 3. `cost` - function is declared."""
     module = reimport_module(MODULE)
     assert_function_defined(module, "cost")
 
 
-@mark.weight(2.5)
+@mark.weight(2.0)
 def test_cost_parameter():
     """Part 3. `cost` - function has correct parameter types."""
     module = reimport_module(MODULE)
@@ -276,7 +276,7 @@ def test_main_planner(guests, expected_output_strings, capsys: CaptureFixture):
         ), f'Printed Output: "{output[i]}" expected to find in this line "{expected_output_strings[i]}". Double check your spelling, punctuation, and spacing!'
 
 
-@mark.weight(-10.0)
+@mark.weight(0.5)
 def test_main_planner_calls_functions(capsys: CaptureFixture):
     """Part 4. `main_planner` - must be implmented in terms of a calls to other functions using keyword arguments"""
     module = reimport_module(MODULE)
@@ -297,9 +297,9 @@ def test_main_planner_calls_functions(capsys: CaptureFixture):
                 _ = _get_output(capsys)  # Avoids showing stdout in Gradescope
 
 
-@mark.weight(2.5)
+@mark.weight(5)
 def test_run_as_module(capsys: CaptureFixture, monkeypatch: MonkeyPatch):
-    """Part 5. Running Program Should Ask User for number of guessts and call `main_planner`."""
+    """Part 5. Running Program Should Ask User for number of guests and call `main_planner`."""
     arg = "300"
     set_stdin(monkeypatch, [arg])
 
@@ -324,9 +324,9 @@ def test_run_as_module(capsys: CaptureFixture, monkeypatch: MonkeyPatch):
     ), f"Run as a program, input '{arg}', was expecting to produce message '{expected_output}'. Got: '{output}'."
 
 
-@mark.weight(-25.0)
+@mark.weight(5)
 def test_does_not_use_assignment():
-    """Part 6. No forbidden constructs used."""
+    """No forbidden constructs used (e.g. variable assignment)."""
     from graders.exercises.ex01_tea_party.no_variables import (
         assert_no_variable_assignment,
     )
