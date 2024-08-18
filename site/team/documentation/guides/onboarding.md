@@ -8,16 +8,18 @@ page: logistics
 template: overview
 site-branch: team
 ---
-## Spring 2024 To-Dos
+## Fall 2024 To-Dos
 
-These are your action items for Spring 2024 Onboarding!
+These are your action items for Fall 2024 Onboarding!
 
-* Fill out your weekly availability for all-hands [here](http://whenisgood.net/khacb8f)
-* Fill out the beginning of semester form. (This will be released at the first All-Hands)
+* Fill out your weekly availability for all-hands [here](https://whenisgood.net/fk7ay2a)
+* Fill out the [beginning of semester form](https://airtable.com/appqyLFGfW9bcHCI7/pagRJsIQeOFLLv03B/form) (do this *after* the all hands!). 
 * Set your availability on [homebase](https://app.joinhomebase.com/accounts/sign-in)
 * Complete your I-9 Documentation (You should be getting an email for this.)
-* Join the team Slack, add a profile picture, and join the `#new-members` channel.
-* Attend the first All-Hands *Tuesday, Jan 9 at 6:30 pm in FB 144*!
+* Join the team Slack, add a profile picture, and join the `#f24-new-members` channel.
+* Attend the orientation + All-Hands *Sun Aug 18 at 4:30 pm in FB 144*!
+* Join Course.Care using code 4B7EBD. 
+* Within the next couple weeks, [add your profile to the team site](/team/documentation/guides/ta_profile.html)!
 
 ## How do I schedule shifts for office hours? What if I can’t make my office hours and need to reschedule?
 
