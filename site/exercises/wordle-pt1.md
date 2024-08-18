@@ -83,9 +83,9 @@ Before you begin working on the program, you should add a _docstring_ to the top
 **Important:** As you progress through the exercise, comment your code! As a general rule, if 2 or more minutes are spent thinking about how to write a particular line or block of code, it’s a good idea to add a comment. Commenting is mandatory as it should be an integral part of the problem-solving process. More information on how commenting will be graded can be found in part 7. 
 
 
-## Part 1. Prompting for an Input Word -- 10 Points
+## Part 1. Prompting for an Input Word 
 
-The first task of this program is to create a function, `input_word`, that will gather an input from the user. Using the concepts you learned in [LS04 - User Input and Variables](https://youtu.be/GPpYSDNUtH8), your function is responsible for asking the user to enter a 5-character word. This input should be stored as a `str` local variable within your `input_word` function. **Please choose meaningful, descriptive names for your variables.** Write your prompts and diagnostic message such that you can reproduce the following in the shell after saving and running your program. Here is an example usage:
+The first task of this program is to create a function, `input_word`, that will gather an input from the user. Your function is responsible for asking the user to enter a 5-character word. This input should be stored as a `str` local variable within your `input_word` function. **Please choose meaningful, descriptive names for your variables.** Write your prompts and diagnostic message such that you can reproduce the following in the shell after saving and running your program. Here is an example usage:
 
 ~~~ {.plaintext}
     >>> input_word()
@@ -113,7 +113,7 @@ So far, we have not implemented the 'checking' system for when a word is of vali
 **WARNING:** Autograding will very specifically be looking for _exactly_ the format of lines output shown above. You will not see the `$` at your command-line prompt in VSCode, you can ignore that part. Otherwise, when you run the program on your machine with the same inputs as above, your printed results should look exactly the same.
 
 
-## Part 2. Prompting for an Input Character -- 10 Points
+## Part 2. Prompting for an Input Character 
 
 Now that we can obtain a word from the user and verify its length, we will do the same for obtaining a character. Create a function called `input_letter` that gathers input from the user. Like the `input_word` function, `input_letter` should prompt the user to enter a single character. This input should be stored as a local `str` variable within your `input_letter` function. Below is an example usage you should be able to reproduce exactly:
 
@@ -134,18 +134,9 @@ Now that we can obtain a word from the user and verify its length, we will do th
 ~~~
 
 
-## Part 3. Checking Indices for Matches -- 20 Points
+## Part 3. Checking Indices for Matches
 
 Now that we are able to gather input from `input_guess` and `input_letter`, our next task is to check if the input character matches any of the characters within the input word. Begin by defining a function named `contains_char`. This function will take two parameters: one that will store the input word and another for the letter guess, both of which are strings. The function won’t return any value. You will then need to check each index of the `word_guess` to see if it matches (hint: *is equal to*) the character in `letter_guess`.
-
-These checks will involve combining concepts of:
-
-
-* [LS02 - Objects and Data Types](/lessons/objects-data-types.html)
-    * Strings - A `str` is a _Sequence_ of Characters 
-* [LS03 - Expressions](/lessons/expressions.html)
-    * Relational Operators - Equality
-* [LS05 - Conditional if-else Statements](https://www.youtube.com/watch?v=395mlzouM00)
 
 Soon you will learn a more efficient way of performing these checks using a concept called a _loop_. For now, you will need to check each of the five indices of the word string to see if it is equal to the character string. _If_ so, _then_ you should print out a message indicating the letter being searched for was found at a given index. Your goal in this part is to be able to do the following:
 
@@ -182,7 +173,7 @@ Soon you will learn a more efficient way of performing these checks using a conc
     z found at index 4
 ~~~
 
-## Part 4. Counting Matching Indices -- 20 Points
+## Part 4. Counting Matching Indices 
 
 **Be sure you have completed Part 3 before beginning Part 4!**
 
@@ -228,7 +219,7 @@ You will need to exactly match the output formatting of the examples below. Spec
     3 instances of z found in pzazz
 ~~~
 
-## Part 5. Exiting Early for Invalid Inputs - 10 points
+## Part 5. Exiting Early for Invalid Inputs 
 
 What happens if you input a word with fewer than 5 characters? Or you input a "char" that is more than one character, or none at all? As seen in part 3, when the user put in 'ducks' as the single character, they were able to recieve the error message but the code continued to run as the call to `contains_char` was still executed. We don't want this to happen. It's good practice to handle bad input from an end-user gracefully in your programs. Our strategy, for now, will be to simply print an error message and then exit the program early. 
 
@@ -274,7 +265,7 @@ Here is how your program should work after completing this part:
 ~~~
 
 
-## Part 6. Putting everything together - 10 points
+## Part 6. Putting everything together 
 
 The `main` function is the entry point of the Chardle game. It coordinates the flow of the game by calling other functions to gather user inputs and perform the necessary operations. Instead of repeatedly calling each function individually, which can be cumbersome (as seen from the previous example usages), the `main` function simplifies this process. When called, it automatically handles all the function calls and variable assignments needed to run the game smoothly.
 
@@ -347,9 +338,8 @@ Now you can try running your game as a module and it should work: `python -m exe
     Error: Character must be a single character.
 ~~~
 
-Congratulations on writing your first _structured_ program in COMP110!
 
-## Part 7. Style and Documentation Requirements -- 10 Points (Manually Graded)
+## Part 7. Style and Documentation Requirements (Manually Graded)
 
 We will manually grade your code and are looking for good choices of meaningful variable names. Your variable names should be descriptive of their purposes. You should also use the Python `snake_case` convention where variable names are all lowercase and new words are separated by underscores. You should not make excessive use of variables where single variables will suffice (e.g. you only need one counting variable for counting the instances in Part 3).
 
@@ -364,7 +354,7 @@ Comments don't need to be extensive, but they should reflect a genuine effort to
 We expect you to implement this exercise using only the concepts covered in COMP110. If you have prior programming experience, restrict your implementation to only the concepts covered. While there are many ways to implement this program with additional concepts beyond those we have covered, you should not attempt to do so until after submitting this exercise for full credit once the autograder is posted. Gaining additional practice with the fundamentals may feel clunky, but will help ensure you have full command over the concepts we expect you to know. Additionally, it is good practice for working in other programming environments which are more constrained and require creativity to overcome restrictions. 
 
 
-## Part 8. Type Safety and Linting - 9 Points
+## Part 8. Type Safety and Linting 
 
 The autograder uses industry standard tools for checking the type safety of your programs (e.g. being sure you're using variables of the correct data types in valid ways) and linting style rules. If you have point deductions on Type Safety or Linting, read through the feedback the autograder gives and it should direct you to the line number in your program with the issue.
 
