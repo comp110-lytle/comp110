@@ -1,5 +1,5 @@
 ---
-title: EX02 - Chardle - Input, Variables, and Conditionals
+title: EX02 - Chardle 
 author:
 - Kris Jordan
 - Viktorya Hunanyan
@@ -85,7 +85,11 @@ Before you begin working on the program, you should add a _docstring_ to the top
 
 ## Part 1. Prompting for an Input Word 
 
-The first task of this program is to create a function, `input_word`, that will gather an input from the user. Your function is responsible for asking the user to enter a 5-character word. This input should be stored as a `str` local variable within your `input_word` function. **Please choose meaningful, descriptive names for your variables.** Write your prompts and diagnostic message such that you can reproduce the following in the shell after saving and running your program. Here is an example usage:
+The first task of this program is to create a function, `input_word`, that will gather an input from the user. It has *no* parameters and a `str` return type! Instead of a parameter, it'll just use user input to determine a local variable.  
+
+Your function is responsible for asking the user to enter a 5-character word. This input should be stored as a `str` local variable within your `input_word` function. **Please choose meaningful, descriptive names for your variables.** 
+
+Write your prompts and diagnostic message such that you can reproduce the following in the shell after saving and running your program. Here is an example usage:
 
 ~~~ {.plaintext}
     >>> input_word()
@@ -103,9 +107,12 @@ The first task of this program is to create a function, `input_word`, that will 
     'ducky'
 ~~~
 
-As seen in the final example usage (where the user entered 'ducky'), once the word length was valid, the function `return`ed the word the user entered. 
+If the input word has a length of 5, it should return that input word.
+If the input word has a length of anything other than 5, it should return that input word, but first it should print: `Error: Word must contain 5 characters.`
 
-So far, we have not implemented the 'checking' system for when a word is of valid length. To do this, once you have gathered the input, the function should also check _if_ the length of the word is exactly 5 characters. You will need to use the `len` function, as described in [Lesson 2 - Objects and Data Types](/lessons/objects-data-types.html), in order to find the length of your input strings. Think about how you should implement this. Should you check that every word entered is of length 5 characters? Why or why not? Think about the _if_ of each scenario. 
+As seen in the final example usage (where the user entered 'ducky'), the word *length* was valid, so the function `return`ed the word the user entered without printing the error message. 
+
+So far, we have not implemented the 'checking' system for when a word is of valid length. To do this, once you have gathered the input, the function should also check _if_ the length of the word is exactly 5 characters. You will need to use the `len` function, as described in the Objects and Data Types lesson, in order to find the length of your input strings. Think about how you should implement this. Should you check that every word entered is of length 5 characters? Why or why not? Think about the _if_ of each scenario. 
     _If_ is the user input is 5 characters long, what would you like to do? 
     _If_ is the user input is not 5 characters long, what would you like to do? 
 
@@ -141,30 +148,22 @@ Now that we are able to gather input from `input_guess` and `input_letter`, our 
 Soon you will learn a more efficient way of performing these checks using a concept called a _loop_. For now, you will need to check each of the five indices of the word string to see if it is equal to the character string. _If_ so, _then_ you should print out a message indicating the letter being searched for was found at a given index. Your goal in this part is to be able to do the following:
 
 ~~~ {.plaintext}
-    >>> word: str = input_word()
-    Enter a 5-character word: bones
-    >>> char: str = input_letter()
-    Enter a single character: e
-    >>> contains_char(word, char)
-    Searching for e in bones
-    e found at index 3
-
-    >>> contains_char("kitty", "z")
+    >>> contains_char(word="kitty", letter="z")
     Searching for z in kitty
 
-    >>> contains_char(input_guess(), input_letter())
+    >>> contains_char(word=input_guess(), letter=input_letter())
     Enter a 5-character word: ponds
     Enter a single character: ducks
     Error: Character must be a single character.
     Searching for ducks in ponds
 
-    >>> contains_char(input_guess(), input_letter())
+    >>> contains_char(word=input_guess(), letter=input_letter())
     Enter a 5-character word: ponds
     Enter a single character: ducks
     Error: Character must be a single character.
     Searching for ducks in ponds
 
-    >>> contains_char(input_guess(), input_letter())
+    >>> contains_char(word=input_guess(), letter=input_letter())
     Enter a 5-character word: pzazz
     Enter a single character: z
     Searching for z in pzazz
@@ -182,34 +181,25 @@ Working in the same function, `contains_char`, establish a variable to _count_ t
 You will need to exactly match the output formatting of the examples below. Specifically, notice that there are different messages depending on whether no matches are found, a singular match is found, or multiple matches are found (i.e., *No instances* vs. *1 instance* vs. *2 instances*).
 
 ~~~ {.plaintext}
-    >>> word: str = input_word()
-    Enter a 5-character word: bones
-    >>> char: str = input_letter()
-    Enter a single character: e
-    >>> contains_char(word, char)
-    Searching for e in bones
-    e found at index 3
-    1 instance of e found in bones
-
     >>> contains_char("kitty", "z")
     Searching for z in kitty
     No instances of z found in kitty
 
-    >>> contains_char(input_word(), input_letter())
+    >>> contains_char(word=input_word(), letter=input_letter())
     Enter a 5-character word: ponds
     Enter a single character: ducks
     Error: Character must be a single character.
     Searching for ducks in ponds
     No instances of ducks found in ponds
 
-    >>> contains_char(input_word(), input_letter())
+    >>> contains_char(word=input_word(), letter=input_letter())
     Enter a 5-character word: ponds
     Enter a single character: ducks
     Error: Character must be a single character.
     Searching for ducks in ponds
     No instances of ducks found in ponds
 
-    >>> contains_char(input_word(), input_letter())
+    >>> contains_char(word=input_word(), letter=input_letter())
     Enter a 5-character word: pzazz
     Enter a single character: z
     Searching for z in pzazz
@@ -221,7 +211,7 @@ You will need to exactly match the output formatting of the examples below. Spec
 
 ## Part 5. Exiting Early for Invalid Inputs 
 
-What happens if you input a word with fewer than 5 characters? Or you input a "char" that is more than one character, or none at all? As seen in part 3, when the user put in 'ducks' as the single character, they were able to recieve the error message but the code continued to run as the call to `contains_char` was still executed. We don't want this to happen. It's good practice to handle bad input from an end-user gracefully in your programs. Our strategy, for now, will be to simply print an error message and then exit the program early. 
+What happens if you input a word with fewer than 5 characters? Or you input a "char" that is more than one character, or none at all? As seen in part 3, when the user put in 'ducks' as the single character, they were able to recieve the error message but the code continued to run as the call to `contains_char` was still executed. We don't want this to happen. It's good practice to handle bad input from an end-user gracefully in your programs. Our strategy, for now, will be to modify both `input_word` and `input_letter` to exit the program early after it prints the error message but *before* it returns something. 
 
 There is a special built-in function called `exit()` that will send a signal to your system and tell the program to quit at that point, not continuing on further in the program. Before attempting to implement the following behavior in your program, think about where it logically _makes sense_ to try adding these checks for correct input. 
 
@@ -229,39 +219,13 @@ There is a special built-in function called `exit()` that will send a signal to 
 Here is how your program should work after completing this part:
 
 ~~~ {.plaintext}
-    >>> contains_char(input_word(), input_letter())
+    >>> input_word()
     Enter a 5-character word: pzazzzz
     Error: Word must contain 5 characters.
 
-    >>> contains_char(input_word(), input_letter())
-    Enter a 5-character word: heels
+    >>> input_letter()
     Enter a single character: tar
     Error: Character must be a single character.
-
-    >>> contains_char(input_word(), input_letter())
-    Enter a 5-character word: heels
-    Enter a single character: 
-    Error: Character must be a single character.
-
-    >>> contains_char(input_word(), input_letter())
-    Enter a 5-character word: heels
-    Enter a single character: h
-    Searching for h in heels
-    h found at index 0
-    1 instance of h found in heels
-
-    >>> word: str = input_word()
-    Enter a 5-character word: bones
-    >>> char: str = input_letter()
-    Enter a single character: e
-    >>> contains_char(word, char)
-    Searching for e in bones
-    e found at index 3
-    1 instance of e found in bones
-
-    >>> contains_char("kitty", "z")
-    Searching for z in kitty
-    No instances of z found in kitty
 ~~~
 
 
@@ -269,9 +233,10 @@ Here is how your program should work after completing this part:
 
 The `main` function is the entry point of the Chardle game. It coordinates the flow of the game by calling other functions to gather user inputs and perform the necessary operations. Instead of repeatedly calling each function individually, which can be cumbersome (as seen from the previous example usages), the `main` function simplifies this process. When called, it automatically handles all the function calls and variable assignments needed to run the game smoothly.
 
-Start by defining a function named `main` that does not return any value. Call `input_word` to obtain a 5-character word from the user. Make sure to store this word. Next, do the same for `input_letter`. Once you have stored both the word and character, you can now check the indicies of the word to see if there are any matches to the character. To do this, we made a function called `contains_char`. 
+Start by defining a function named `main` that does not take any parameters as input and does not return any value. It should simply call the functions we just defined:
 
-Once your `main` method is defined, all you need to do is call it in order to test your code. 
+`contains_char(word=input_guess(), letter=input_letter())`
+
 Here is how your program should work after completing this part:
 
 ~~~ {.plaintext}
