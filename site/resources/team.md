@@ -65,6 +65,12 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/escoats.html"><img src="/static/profile-photos/escoats.png" class="profile-image"> </a><figcaption>Lizzie Coats</figcaption></figure> 
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+  <a href="/resources/profiles/lynnlee3.html"><img src="/static/profile-photos/lynnlee3.jpg" class="profile-image"> </a>
+  <figcaption>Lynn Lee</figcaption>
+</figure>
+
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"> 
     <a href="/resources/profiles/mrodriguez.html"><img src="/static/profile-photos/mrodriguez.JPG" class="profile-image"> </a>
     <figcaption>Mariana Rodriguez</figcaption>
