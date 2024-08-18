@@ -156,7 +156,7 @@ if __name__ == "__main__":
 
 After adding these lines to the end of your program, you should now be able to go to the "Run" tab of your program, be prompted for a guests count, and see the output of your program.
 
-Congrats! You can now plan a cozy tea party with your woodland CAMP110 friends!
+Congrats! You can now plan a cozy tea party with your COMP110 friends!
 
 <div class="fox-talk">
 
