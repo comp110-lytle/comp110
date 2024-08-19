@@ -77,7 +77,7 @@ Now let's implement a function to compute the number of treats needed based on t
 * Name: `treats`
 * Parameters:
     1. `people` parameter of type: `int` - the number of guests attending the tea party
-* Return Type: `float`
+* Return Type: `int`
 * Add a Docstring describing the purpose of the function
 
 The `treats` function will assume _for each tea a guest drinks, they will, on average, want 1.5 treats to accompany it_.
@@ -168,7 +168,16 @@ Congrats! You can now plan a cozy tea party with your COMP110 friends!
 <!-- 
 *Why do you think you cannot place the lines `if __name__ == "__main__":` followed by `meal_planner(...)` at the top of your program? What happens if you try? Hint: Think about the rules of your environment diagram. What rules apply when the call to `meal_planner` are made? Specifically: what happens when following the Name Resolution rules?* -->
 
-## 6. Submitting Your Work to Gradescope
+## Part 6. Style and Documentation Requirements (Manually Graded)
+
+As part of the manual grading, we will be looking to see if you have commented on your code! No comments imply that there were no challenges or moments spent considering how to approach a code. It is quite rare to complete every exercise, challenge question, and practice problem without engaging in some form of problem-solving. Even the most experienced programmers use a piece of paper to map out their approach when working on practice problems, often leading to comments being added to code. 
+
+As a general rule, if 2 or more minutes are spent thinking about how to write a particular line or block of code, it’s a good idea to add a comment. Explain what’s happening on that line, how the solution was reached, the reasoning behind the approach, or provide a note for future reference to recall the problem-solving steps. If you received help from office hours or tutoring, go back to the code you were stuck on and explain it to yourself. If you see that you need a second to understand what is going on, comment! 
+
+Comments don't need to be extensive, but they should reflect a genuine effort to explain the process in your own words. Commenting should be an integral part of the problem-solving process. 
+
+
+## 7. Submitting Your Work to Gradescope
 
 Now is a good time to submit your work to the autograder!
 
@@ -182,7 +191,7 @@ You will notice a file appeared in your workspace named `24.mm.dd-hh.mm.ss-ex01_
 
 In Gradescope, open assignment "EX01 - Tea Party Planner". You should see an area to upload a zip file. Click this area and browse to your course's workspace directory on your computer. You should see the zip file you just created. Select it and upload it to Gradescope. Autograding should complete within about a minute and you should see a score of 100%, or more if you are submitting early. If you see less than 100%, try to understand the feedback and the points that were taken off and resubmit. If you are still having trouble, please come see us in office hours!
 
-## 7. Make a Backup Checkpoint "Commit"
+## 8. Make a Backup Checkpoint "Commit"
 
 Now that your first program is complete, let's practice making a backup. Visual Studio Code has built-in support for `git` Source Control. Source Control tools are made to help create versioned checkpoints of a project's source code (your program is source code!) amont other uses. The current de facto Source Control system is called `git`. As one more piece of terminology, a checkpointed version in git is called a `commit`. Once your work is in a `commit` checkpoint, you can always return back to your project at that point in time without the risk of losing work. We encourage committing work to backup _at least_ each time you submit a project for grading or are finishing out a working session for the day. Commits are free to make and can only help you avoid losing work; use them liberally!
 
@@ -196,7 +205,7 @@ Now that your first program is complete, let's practice making a backup. Visual 
 
 To see your commit on Github, in a web browser, navigate to `https://github.com/` and open your COMP110 course repository. You should see your work in `ex01_tea_party.py` backed up to GitHub. Notice above the file's content's you'll see your commit message.
 
-## 8. Congratulations!
+## 9. Congratulations!
 
 You have completed your first _real_ exercise in the course!  In this exercise, you experienced many big ideas you will encounter frequently on the trails ahead:
 
