@@ -48,7 +48,8 @@ template: home
 </div><div data-type="lecture" data-date="2024-08-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Aug 21</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL01 </span><span class="title"><a href="/">Objects and Data Types</a></span></div></div>
+<span class="kind">CL01 </span><span class="title"><a href="/">Objects and Data Types</a></span></div><div class="plan Exercise">
+<span class="kind">EX00 </span><span class="title"><a href="/exercises/hello_world.html">Hello World (Due Tuesday 8/27)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-08-23" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Aug 23</div>
 <div class="plans col-md-9"><div class="plan Class">
