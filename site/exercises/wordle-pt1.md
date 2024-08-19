@@ -113,8 +113,8 @@ If the input word has a length of anything other than 5, it should return that i
 As seen in the final example usage (where the user entered 'ducky'), the word *length* was valid, so the function `return`ed the word the user entered without printing the error message. 
 
 So far, we have not implemented the 'checking' system for when a word is of valid length. To do this, once you have gathered the input, the function should also check _if_ the length of the word is exactly 5 characters. You will need to use the `len` function, as described in the Objects and Data Types lesson, in order to find the length of your input strings. Think about how you should implement this. Should you check that every word entered is of length 5 characters? Why or why not? Think about the _if_ of each scenario. 
-    _If_ is the user input is 5 characters long, what would you like to do? 
-    _If_ is the user input is not 5 characters long, what would you like to do? 
+    _If_ the user input is 5 characters long, what would you like to do? 
+    _If_ the user input is not 5 characters long, what would you like to do? 
 
 
 **WARNING:** Autograding will very specifically be looking for _exactly_ the format of lines output shown above. You will not see the `$` at your command-line prompt in VSCode, you can ignore that part. Otherwise, when you run the program on your machine with the same inputs as above, your printed results should look exactly the same.
@@ -143,7 +143,7 @@ Now that we can obtain a word from the user and verify its length, we will do th
 
 ## Part 3. Checking Indices for Matches
 
-Now that we are able to gather input from `input_guess` and `input_letter`, our next task is to check if the input character matches any of the characters within the input word. Begin by defining a function named `contains_char`. This function will take two parameters: one that will store the input word and another for the letter guess, both of which are strings. The function won’t return any value. You will then need to check each index of the `word_guess` to see if it matches (hint: *is equal to*) the character in `letter_guess`.
+Now that we are able to gather input from `input_word` and `input_letter`, our next task is to check if the input character matches any of the characters within the input word. Begin by defining a function named `contains_char`. This function will take two parameters: one that will store the input word recieved from `input_word` and another for the letter guess recieved from `input_letter`, both of which are strings. The function won’t return any value. You will then need to check each index of the word to see if it matches (hint: *is equal to*) the character.
 
 Soon you will learn a more efficient way of performing these checks using a concept called a _loop_. For now, you will need to check each of the five indices of the word string to see if it is equal to the character string. _If_ so, _then_ you should print out a message indicating the letter being searched for was found at a given index. Your goal in this part is to be able to do the following:
 
@@ -151,19 +151,19 @@ Soon you will learn a more efficient way of performing these checks using a conc
     >>> contains_char(word="kitty", letter="z")
     Searching for z in kitty
 
-    >>> contains_char(word=input_guess(), letter=input_letter())
+    >>> contains_char(word=input_word(), letter=input_letter())
     Enter a 5-character word: ponds
     Enter a single character: ducks
     Error: Character must be a single character.
     Searching for ducks in ponds
 
-    >>> contains_char(word=input_guess(), letter=input_letter())
+    >>> contains_char(word=input_word(), letter=input_letter())
     Enter a 5-character word: ponds
     Enter a single character: ducks
     Error: Character must be a single character.
     Searching for ducks in ponds
 
-    >>> contains_char(word=input_guess(), letter=input_letter())
+    >>> contains_char(word=input_word(), letter=input_letter())
     Enter a 5-character word: pzazz
     Enter a single character: z
     Searching for z in pzazz
@@ -235,7 +235,7 @@ The `main` function is the entry point of the Chardle game. It coordinates the f
 
 Start by defining a function named `main` that does not take any parameters as input and does not return any value. It should simply call the functions we just defined:
 
-`contains_char(word=input_guess(), letter=input_letter())`
+`contains_char(word=input_word(), letter=input_letter())`
 
 Here is how your program should work after completing this part:
 
