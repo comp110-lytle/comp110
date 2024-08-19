@@ -103,7 +103,7 @@ If you have suggestions on how to improve the course or just want to leave some 
 
 ## Tutoring Schedule
 
-*(Tutoring takes place in Room SN115!)*
+*(Tutoring takes place in Room SN011!)*
 
 * _Monday: 5:00 PM -  7:00 PM_
 * _Wednesday: 5:00 PM -  7:00 PM_
