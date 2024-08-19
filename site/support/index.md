@@ -92,7 +92,7 @@ If you have suggestions on how to improve the course or just want to leave some 
 * Tutoring: Conceptual questions + concept review
 * Email TAs: Logistical concerns
 * Email <comp110help@gmail.com>: Assignment extension requests and logistical concerns
-* Email <abyrnes1@cs.unc.edu>: Personal issues and emergencies that impact performance in the course
+* Email your instructor (<abyrnes1@cs.unc.edu> or <ihinks@cs.unc.edu>): Personal issues and emergencies that impact performance in the course
 
 ## Office Hours Schedule
 
