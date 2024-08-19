@@ -2,14 +2,16 @@
 title: Grading Lead
 date: 2024-08-24
 author:
-- Miguel Villasenor
+- Miguel Villasenor, Lynn Lee
 page: team
 template: columns-profile
 site-branch: team
 ---
 
 ## About Me  
-<img class="img-fluid" src="/static/profile-photos/mig.jpg"/>
+<img class="img-fluid" src="/static/profile-photos/mig.png"/>
+
+<img class="img-fluid" src="/static/profile-photos/lynnlee3.jpg" style="margin-top: 1px;"/>
 
 //split//
 
@@ -22,6 +24,16 @@ Semesters with Team 110: 4
 Why I Love Team 110: The sense of community here is incredible. Being surrounded by such a supportive and diverse group of TAs makes every semester special!
 
 Fun Fact: I went to Michael Jordan’s high school.
+
+### Lynn Lee
+
+Graduation Year: 2024
+
+Semesters with Team 110: 4
+
+Why I Love Team 110: I love working with students and helping them during office hours. Also I've learned so much and gotten so many different experiences from being on this team!
+
+Fun Fact: I like to go caving in my free time.
 
 //split//
 
