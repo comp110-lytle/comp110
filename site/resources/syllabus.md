@@ -142,8 +142,8 @@ To do well in this course you must come to your own individual mastery of introd
 
 
 * 30% - (EX) Programming Exercises
-* 10% - (LS) Lessons
-* 10% - (CQ) Challenge Questions
+* 10% - (LS) Lessons (Graded for Correctness)
+* 10% - (CQ) Challenge Questions (Graded for Correctness)
 * 40% - 5x Quizzes
 * 10% - Final Exam
 
