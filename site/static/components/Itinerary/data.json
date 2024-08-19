@@ -8,7 +8,7 @@
             "deadline": "None",
             "links": {
                 "Sections 01 and 02": "/static/slides/alyssa/CL00.pdf",
-                "Sections 03 and 04": "/"
+                "Sections 03 and 04": "/static/slides/izzi/CL00_FDOC_Hinks.pdf"
             }
         },
         {
@@ -36,7 +36,18 @@
         }
     ],
     "2024-08-22": [],
-    "2024-08-23": [],
+    "2024-08-23": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Expressions",
+            "date": "2024-08-23",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-08-24": [],
     "2024-08-25": [],
     "2024-08-26": [],
