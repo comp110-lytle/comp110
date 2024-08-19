@@ -6,7 +6,7 @@ page: profile
 template: columns-profile
 ---
 
-![profile-photo](../../../static/profile-photos/tjokoli.jpeg)
+![profile-photo](../../../static/profile-photos/tjokoli.jpg)
 
 ## Pronouns
 
@@ -28,13 +28,13 @@ Class of 2026
 Computer Science
 
 ## Minor
-Data Science and Business
+Data Science
 
 //split//
 
 ## Interests
 
-Videgames, Creative Writing, 
+Videgames, Creative Writing, Cooking, and Coding.
 
 ## Non-academic fun fact
 
