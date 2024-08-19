@@ -90,7 +90,7 @@ If you have suggestions on how to improve the course or just want to leave some 
 
 * Office Hours: Setup, homework + conceptual questions
 * Tutoring: Conceptual questions + concept review
-* Email TAs: Logistical concerns
+* Edstem: Logistical concerns + short conceptual questions
 * Email <comp110help@gmail.com>: Assignment extension requests and logistical concerns
 * Email your instructor (<abyrnes1@cs.unc.edu> or <ihinks@cs.unc.edu>): Personal issues and emergencies that impact performance in the course
 
@@ -103,7 +103,7 @@ If you have suggestions on how to improve the course or just want to leave some 
 
 ## Tutoring Schedule
 
-*(Tutoring takes place in Room SN115!)*
+*(Tutoring takes place in Room SN011!)*
 
 * _Monday: 5:00 PM -  7:00 PM_
 * _Wednesday: 5:00 PM -  7:00 PM_
