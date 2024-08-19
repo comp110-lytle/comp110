@@ -3,6 +3,7 @@ title: Syllabus
 author:
 - Kris Jordan 
 - Alyssa Lytle
+- Izzi Hinks
 page: logistics
 template: overview
 ---
@@ -28,12 +29,22 @@ Sections Time and Location:
 
 1. 001 - Monday/Wednesday/Friday 9:05AM - 9:55AM, Hamilton Hall Rm 0100
 2. 002 - Monday/Wednesday/Friday 11:15AM - 12:05PM, Genome Sciences Rm G100
+3. 003 - Monday/Wednesday/Friday 8:00AM - 8:50AM, Coker Hall Rm 0201
+4. 004 - Monday/Wednesday/Friday 2:30PM - 3:20PM, Global Education, FedEx Rm 1015
 
 
-Instructor: [Alyssa Lytle](https://alyssalytle.github.io/)
+Instructors: 
+
+[Alyssa Lytle](https://alyssalytle.github.io/) (Sections 001 and 002)
 
 * Office: FB 136
 * Office Hours: [By Appointment](https://alyssalytle.github.io/schedule.html)
+* E-mail: <comp110help@gmail.com>
+
+[Isabella ("Izzi") Hinks](https://www.isabellahinks.com/) (Sections 003 and 004)
+
+* Office: Sitterson (SN) 149
+* Office Hours: [By Appointment](https://calendar.app.google/SYouVVGYSi92qMSK6)
 * E-mail: <comp110help@gmail.com>
 
 ## Curriculum
@@ -79,22 +90,23 @@ Quizzes and examinations are offered in-person only this semester. The format is
 * Quiz (QZ) 02: Fri, Oct 25
 * Quiz (QZ) 03: Fri, Nov 8
 * Quiz (QZ) 04: Fri, Nov 22
-* Final (FN) Exam: Sat Dec 7 @ 8 AM (Makeup Wed Dec 11 @ 12 pm in SN014)
+* Final (FN) Exam: Sat Dec 7 @ 8 AM (Makeup: Wed Dec 11 @ 12 pm in SN014)
 
 **Final Exam Makeup**
+
 You must have a [university approved](https://dos.unc.edu/student-support/class-absences-final-exam-rescheduling/) reason for needing to take the final on a makeup day. If this applies to you, please fill out [this form](https://airtable.com/appTwO14JeejMY84t/pagx5jCpDmqzD2ueT/form).
 
 
 ## Quiz Absence Policy
 
-The quizzes will be held during the section you are registered for and are synchronous, in-person for both sections 001 and 002. 
+The quizzes will be held during the section you are registered for and are synchronous, in-person for all sections (001, 002, 003, and 004). 
 
 If you are a part of an organization whose authorized university absences will conflict with two or more of the key dates of quizzes, you should plan on taking COMP110 in a future semester when these unfortunate, but important, conflicts will not arise.
 
 You may have an unexcused absence for up to one quiz. 
 
 
-To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the quiz’s 8% credit will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
+To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the 8% of your total course credit for this quiz will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
 
 We can offer everyone absent from a quiz the same learning experience of sitting for the quiz at some later date and receiving feedback on it, but a quiz taken in this fashion is not for credit and will not count toward nor against your mastery grade to ensure fairness to all students.
 
@@ -163,9 +175,9 @@ All assignments, outside of assessments such as quizzes and the final exam, will
 
 Lesson responses and programming exercises will all have deadlines and late periods. The following policies apply:
 
-Lesson and Challenge Question responses on Gradescope are assigned on lecture days and must be completed before 11:59pm the same day unless noted otherwise. If handed in after the 1-hour grace period described above, a maximum 15% late penalty will be applied. No lesson responses will be accepted beyond 11:59pm two days following the original deadline. To ensure fairness to everyone, as emergencies may arise, we will drop the 2 lowest lesson scores and the 1 lowest challenge question score, including zeros.
+Lesson and Challenge Question responses on Gradescope are assigned on lecture days and must be completed before 11:59pm the same day unless noted otherwise. To ensure fairness to everyone, as emergencies may arise, we will drop the 2 lowest lesson scores and the 1 lowest challenge question score, including zeros.
 
-Programming and reading assignments - submissions made after the deadline will have a 5% late penalty applied per day late, capping at a lowest grade of 80%. Exercises and projects cannot be handed in beyond their 6-day late period, which follows the original deadline. **The lowest exercise score, including a zero, will be dropped.**
+For all assignments, submissions made after the deadline will have a 5% late penalty applied per day late, capping at a lowest grade of 80%. Exercises and projects cannot be handed in beyond their 6-day late period, which follows the original deadline. **The lowest exercise score, including a zero, will be dropped.**
 
 
 <!-- ## Late Point Forgiveness Insurance
@@ -231,7 +243,7 @@ The following are not permitted resources on coursework handed in for credit and
 
 * Asking for help on an assignment or assessment on GroupMe, or any other mobile or web application, groupchat, or forum.
 * Talking about specific assignments with peers in the course or anyone outside the course with the exception of UTAs.
-* Looking at someone else's screen, whether in person or shared remotely, while working on a an assignment. Letting someone else look at or share your screen.
+* Looking at someone else's screen, whether in person or shared remotely, while working on an assignment. Letting someone else look at or share your screen.
 * Copying code found on any website or community such as StackOverflow, Github, Chegg, or CourseHero.
 * Sharing or reusing code with any peer currently in the course or anyone who has previously taken the course.
 
@@ -267,7 +279,7 @@ University Policy: As stated in the University’s [Class Attendance Policy](htt
 
 ## Feedback
 
-If you have suggestions on how to improve the course or just want to leave some positive, encouraging feedback for the TAs or I, please give us feedback. If you make a suggestion we're able to act on, while we still have time to, we're more than happy to!
+If you have suggestions on how to improve the course or just want to leave some positive, encouraging feedback for the TAs or me, please give us feedback. If you make a suggestion we're able to act on, while we still have time to, we're more than happy to!
 
 ## Accessibility Resources & Services
 

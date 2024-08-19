@@ -6,7 +6,7 @@ page: exercises
 template: overview
 ---
 
-![](/static/exercises/ex01/banner.png)
+<!-- ![](/static/exercises/tea-party/banner.png) -->
 
 ## Overview
 
@@ -14,7 +14,8 @@ In this exercise, you will write a program to help you plan a cozy tea party. Th
 
 Here's an example of using the program if you imagine we are trying to throw a giant tea party for you and 333 of your friends:
 
-![Example Run](/static/exercises/ex01/example_run.png)
+<img class="img-fluid" src="/static/exercises/tea-party/example_run.png">
+
 
 _Now you just need $1,085.50 to bring this dream to life!_
 
@@ -65,7 +66,7 @@ Assume everyone at the tea party will drink two cups of tea and, therefore, we s
 
 Once you have implemented your function definition, save your file, and test it out in the Trailhead Interact REPL. You should expect to be able to make calls and see their return values like below:
 
-![`tea_bags` REPL Examples](/static/exercises/ex01/tea_bags_repl.png)
+<img class="img-fluid" src="/static/exercises/tea-party/tea_bags_repl.png">
 
 Try a few additional function calls to be sure your function is working as you expect!
 
@@ -76,7 +77,7 @@ Now let's implement a function to compute the number of treats needed based on t
 * Name: `treats`
 * Parameters:
     1. `people` parameter of type: `int` - the number of guests attending the tea party
-* Return Type: `int`
+* Return Type: `float`
 * Add a Docstring describing the purpose of the function
 
 The `treats` function will assume _for each tea a guest drinks, they will, on average, want 1.5 treats to accompany it_.
@@ -87,11 +88,11 @@ You want to be careful of the _data type_ returned by your `treats` function. Yo
 
 Once you have implemented your function definition, save your file, and test it out in the Trailhead Interact REPL. You should expect to be able to make calls and see their return values like below:
 
-![`treats` REPL Examples](/static/exercises/ex01/treats_repl.png)
+<img class="img-fluid" src="/static/exercises/tea-party/treats_repl.png">
 
 Try a few additional function calls to be sure your function is working as you expect!
 
-<div class="fox-talk">
+<!-- <div class="fox-talk">
 <figure>
 ![Fox Talk](/static/camp110/cozy-fox.png)
 </figure>
@@ -100,7 +101,9 @@ Try a few additional function calls to be sure your function is working as you e
 
 Why do you think we are making use of a call to the `tea_bags` function when implementing the `treats` function? Could you imagine implementing `treats` without calling `tea_bags`? If so, suppose you later discovered your guests drank 3 teas each instead of 2. How many places in your program would you need to update to account for this change?
 </div>
-</div>
+</div> -->
+
+*Why do you think we are making use of a call to the `tea_bags` function when implementing the `treats` function? Could you imagine implementing `treats` without calling `tea_bags`? If so, suppose you later discovered your guests drank 3 teas each instead of 2. How many places in your program would you need to update to account for this change?*
 
 ## 3. Defining the `cost` Function
 
@@ -117,7 +120,7 @@ The `cost` function will assume _each tea bag costs $0.50 and each treat costs $
 
 Once you have implemented your function definition, save your file, and test it out in the Trailhead Interact REPL. You should expect to be able to make calls and see their return values like below:
 
-![`cost` REPL Examples](/static/exercises/ex01/cost_repl.png)
+<img class="img-fluid" src="/static/exercises/tea-party/cost_repl.png">
 
 ## 4. Defining the `main_planner` Function
 
@@ -137,7 +140,8 @@ There is something new and different about this function than the others you hav
 
 This function body will have multiple lines following the Docstring. Each line will be a `print` statement with a string literal concatenated with the results of **calling your function definitions**. The string literals should be formatted to match the exact output of the uses shown below:
 
-![`main_planner` REPL Examples](/static/exercises/ex01/main_planner_repl.png)
+
+<img class="img-fluid" src="/static/exercises/tea-party/main_planner_repl.png">
 
 **You should not be performing any arithmetic computations in `main_planner`, all of the arithmetic is handled in your functions `tea_bags`, `treats`, and `cost`. Your `main_planner` function must call the other function definitions you have written to perform these calculations.**
 
@@ -152,18 +156,17 @@ if __name__ == "__main__":
 
 After adding these lines to the end of your program, you should now be able to go to the "Run" tab of your program, be prompted for a guests count, and see the output of your program.
 
-Congrats! You can now plan a cozy tea party with your woodland CAMP110 friends!
+Congrats! You can now plan a cozy tea party with your COMP110 friends!
 
 <div class="fox-talk">
-<figure>
-![Fox Talk](/static/camp110/cozy-fox.png)
-</figure>
-<div class="message">
-**Fern the Philosophical Fox**
 
-Why do you think you cannot place the lines `if __name__ == "__main__":` followed by `meal_planner(...)` at the top of your program? What happens if you try? Hint: Think about the rules of your environment diagram. What rules apply when the call to `meal_planner` are made? Specifically: what happens when following the Name Resolution rules?
+<div class="message">
+*Why do you think you cannot place the lines `if __name__ == "__main__":` followed by `meal_planner(...)` at the top of your program? What happens if you try? Hint: Think about the rules of your environment diagram. What rules apply when the call to `meal_planner` are made? Specifically: what happens when following the Name Resolution rules?*
 </div>
 </div>
+
+<!-- 
+*Why do you think you cannot place the lines `if __name__ == "__main__":` followed by `meal_planner(...)` at the top of your program? What happens if you try? Hint: Think about the rules of your environment diagram. What rules apply when the call to `meal_planner` are made? Specifically: what happens when following the Name Resolution rules?* -->
 
 ## 6. Submitting Your Work to Gradescope
 
@@ -195,19 +198,10 @@ To see your commit on Github, in a web browser, navigate to `https://github.com/
 
 ## 8. Congratulations!
 
-<div class="owl-talk">
-<figure>
-![Owl Talk](/static/camp110/cozy-owl.png)
-</figure>
-<div class="message">
-Hi, I'm **Owlivia the Observant**!
-
-HOO! You have completed your first _real_ exercise in the course!  In this exercise, you experienced many big ideas you will encounter frequently on the trails ahead:
+You have completed your first _real_ exercise in the course!  In this exercise, you experienced many big ideas you will encounter frequently on the trails ahead:
 
 * Defining a Function with a one _or more_ parameters, return type, doc string, and return statement
 * Defining a function and testing it in the REPL
 * Defining a function that calls another function
 * Defining a "main" function that produces output and "delegates" its primary logic to other simpler functions
 * Defining a function that returns `None` and produces output (a "side-effect"!)
-</div>
-</div>

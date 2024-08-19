@@ -224,7 +224,7 @@ Why did you need to call `print` here, but not when using the REPL? If you recal
 One other convention in Python, and COMP110, is to add some documentation to the top of your module. Add the following lines of code above the `greet` function definition in your `ex00_hello_world.py` file:
 
 ```python
-"""My first exercise in CAMP110!"""
+"""My first exercise in COMP110!"""
 
 __author__ = "123456789"
 ```
@@ -238,7 +238,7 @@ Save your module and navigate back to the Trailhead home listing. Notice that yo
 Now, let's get your work submitted to the autograder! In VSCode, open a new integrated Terminal with `Ctrl+Shift+\``, or going to the Terminal menu and selecting "New Terminal". We will learn more about what the terminal is and gain experience with "command line interfaces" later in the course. For now, enter the following command into the terminal and press enter:
     
 ```bash
-python -m tools.submission ex00_hello_world.py
+python -m tools.submission exercises/ex00_hello_world.py
 ```
 
 You will notice a file appeared in your workspace named `24.01.dd-hh.mm.ss-ex00_hello_world.py.zip`. You will see numbers for the current day of the month in place of `dd`, 24-hour digits in place of `hh`, minutes in place of `mm`, and so on. This "zip" file contains your `ex00_hello_world.py` file and is what you will submit to the autograder.
