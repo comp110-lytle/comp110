@@ -50,6 +50,8 @@ Looking at the program output above, there are multiple computations that will n
 4. Bringing these function together in a "main planner" function that calls each and produces printed output
 5. Making the program runnable and asking a user for input when they run the program
 
+**Important:** As you progress through the exercise, comment your code! As a general rule, if 2 or more minutes are spent thinking about how to write a particular line or block of code, it’s a good idea to add a comment. Commenting is mandatory as it should be an integral part of the problem-solving process. More information on how commenting will be graded can be found in part 6. 
+
 Let's start with the first subproblem.
 
 ## 1. Defining the `tea_bags` Function
