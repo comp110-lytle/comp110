@@ -59,6 +59,12 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/escoats.html"><img src="/static/profile-photos/escoats.png" class="profile-image"> </a><figcaption>Lizzie Coats</figcaption></figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+  <a href="/resources/profiles/lynnlee3.html"><img src="/static/profile-photos/lynnlee3.jpg" class="profile-image"> </a>
+  <figcaption>Lynn Lee</figcaption>
+</figure>
+
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"> 
     <a href="/resources/profiles/mrodriguez.html"><img src="/static/profile-photos/mrodriguez.JPG" class="profile-image"> </a>
     <figcaption>Mariana Rodriguez</figcaption>
@@ -67,7 +73,7 @@ page: resource
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/adam.html"><img src="/static/profile-photos/adamdmeg.jpg" class="profile-image"></a><figcaption>Megan Adams</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
-    <a href="/resources/profiles/tjokoli.html"><img src="/static/profile-photos/tjokoli.jpeg" class="profile-image"> </a>
+    <a href="/resources/profiles/tjokoli.html"><img src="/static/profile-photos/tjokoli.jpg" class="profile-image"> </a>
     <figcaption>Tobenna Okoli</figcaption>
   </figure>
 

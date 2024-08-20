@@ -1,9 +1,63 @@
 {
-    "2024-08-19": [],
+    "2024-08-19": [
+        {
+            "kind": "CL",
+            "n": 0,
+            "title": "Welcome to COMP110",
+            "date": "2024-08-19",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL00.pdf",
+                "Sections 03 and 04": "/static/slides/izzi/CL00_FDOC_Hinks.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 0,
+            "title": "Syllabus (Due Monday 8/19)",
+            "date": "2024-08-19",
+            "deadline": "2024-08-19",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-08-20": [],
-    "2024-08-21": [],
+    "2024-08-21": [
+        {
+            "kind": "CL",
+            "n": 1,
+            "title": "Objects and Data Types",
+            "date": "2024-08-21",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 0,
+            "title": "Hello, world! (Due Tuesday 8/27)",
+            "date": "2024-08-21",
+            "deadline": "2024-08-27",
+            "links": {
+                "": "/exercises/hello_world.html"
+            }
+        }
+    ],
     "2024-08-22": [],
-    "2024-08-23": [],
+    "2024-08-23": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Expressions",
+            "date": "2024-08-23",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-08-24": [],
     "2024-08-25": [],
     "2024-08-26": [],
