@@ -16,61 +16,72 @@ This document is intended to guide anyone involved in grading.
 
 ### Good Commenting
 
-1. <img class="img-fluid" src="/static/assets/good_ex_one.png"/>
+Example 1. 
 
-   **Reason:**
+<img class="img-fluid" src="/static/assets/good_ex_one.png"/>
 
-   This is from Wordle. This is an example of good commenting because it clearly shows that the student understands what they have learned so far – instantiating variables, loops, user input, concatenating, and reassigning variables. When students learn a new topic, it is expected for them to identify where they are using it. Because this was their first introduction to while loops, especially having a nested while loop, it makes sense why there is this much commenting. Even though these comments clearly show a conceptual understanding, they do not have to be this extensive, especially as we tend towards the end of the semester. 
+**Reason:**
 
-2. <img class="img-fluid" src="/static/assets/good_ex_two.png"/>
+This is from Wordle. This is an example of good commenting because it clearly shows that the student understands what they have learned so far – instantiating variables, loops, user input, concatenating, and reassigning variables. When students learn a new topic, it is expected for them to identify where they are using it. Because this was their first introduction to while loops, especially having a nested while loop, it makes sense why there is this much commenting. Even though these comments clearly show a conceptual understanding, they do not have to be this extensive, especially as we tend towards the end of the semester. 
 
-   **Reason:**
+Example 2. 
+
+<img class="img-fluid" src="/static/assets/good_ex_two.png"/>
+
+**Reason:**
    
-    This is from dict_utils. This is an example of good commenting because it clearly shows that the student understands what is happening at each step. In terms of dictionaries, they identify what they are iterating through with respect to a dictionary object. Even though they have learned to instantiate variables, the student still comments “create blank dict to hold…”. This is good commenting as opposed to simply saying “instantiating an empty dictionary” since it gives a reason for why they are doing what they are doing. Sometimes this isn’t necessary. For example ‘max: int = 0’. Since students are already familiar with instantiating variables and using them to hold values (such as with indexing), commenting on this process is not necessary but still shows that the student understands what the use of the dictionary is for. 
+This is from dict_utils. This is an example of good commenting because it clearly shows that the student understands what is happening at each step. In terms of dictionaries, they identify what they are iterating through with respect to a dictionary object. Even though they have learned to instantiate variables, the student still comments “create blank dict to hold…”. This is good commenting as opposed to simply saying “instantiating an empty dictionary” since it gives a reason for why they are doing what they are doing. Sometimes this isn’t necessary. For example ‘max: int = 0’. Since students are already familiar with instantiating variables and using them to hold values (such as with indexing), commenting on this process is not necessary but still shows that the student understands what the use of the dictionary is for. 
 
-3. <img class="img-fluid" src="/static/assets/good_ex_three.png"/>
+Example 3. 
 
-   **Reason:**
+<img class="img-fluid" src="/static/assets/good_ex_three.png"/>
+
+**Reason:**
    
-    This is dict_utils. This is an example of good commenting because it clearly shows that the student understands what is happening at each step and is explaining it in their own words. Even when some things are obvious to us, we have to keep in mind that for the majority of students this is their first time coding. Comments like “iterate through all ‘keys’ in our input dict” serve as reminders for students about what the for loop is doing, translating the code into plain English. While most of the comments state the “obvious”, there are two lines that show the student is really trying to understand. These are: 
+This is dict_utils. This is an example of good commenting because it clearly shows that the student understands what is happening at each step and is explaining it in their own words. Even when some things are obvious to us, we have to keep in mind that for the majority of students this is their first time coding. Comments like “iterate through all ‘keys’ in our input dict” serve as reminders for students about what the for loop is doing, translating the code into plain English. While most of the comments state the “obvious”, there are two lines that show the student is really trying to understand. These are: 
 
         “tis makes the value of blank_dict now the key”
         
         “therfore ‘inverts’ the two” 
 
-4. <img class="img-fluid" src="/static/assets/good_ex_four.png"/>
+Example 4. 
 
-   **Reason:**
+<img class="img-fluid" src="/static/assets/good_ex_four.png"/>
+
+**Reason:**
    
-    This is from list_utils. Notice that non-extensive commenting doesn’t always mean bad commenting. Here, the student kept comments to a minimal but noted conceptual details. Before list_utils, students have already learned to iterate using a while loop, are familiar with indexing, functions, and conditionals. Now they are practicing iterating through lists and practicing obtaining values from the list. The comments could improve on specifying that to obtain a value in the list you must index on the list but overall this is an example of good commenting. 
+This is from list_utils. Notice that non-extensive commenting doesn’t always mean bad commenting. Here, the student kept comments to a minimal but noted conceptual details. Before list_utils, students have already learned to iterate using a while loop, are familiar with indexing, functions, and conditionals. Now they are practicing iterating through lists and practicing obtaining values from the list. The comments could improve on specifying that to obtain a value in the list you must index on the list but overall this is an example of good commenting. 
 
 
 ### Bad Commenting
 
-1. <img class="img-fluid" src="/static/assets/bad_ex_one.png"/>
+Example 1. 
 
-   **Reason:**
+<img class="img-fluid" src="/static/assets/bad_ex_one.png"/>
 
-    This is dict_utils. This is an example of not so great commenting because it simply points out things that students have already learned. They already learned to instantiate a variable and have had practice with return statements. This does not show any sort of conceptual understanding of what is happening in the code, especially about what the exercise is testing them on (dicts and lists). 
+**Reason:**
+
+This is dict_utils. This is an example of not so great commenting because it simply points out things that students have already learned. They already learned to instantiate a variable and have had practice with return statements. This does not show any sort of conceptual understanding of what is happening in the code, especially about what the exercise is testing them on (dicts and lists). 
 
 
-    To improve, one comment can be sufficient! Since elem already describes each value in inp_list, there's no need to comment on what is being iterated over, as the variable names are self-explanatory. The if statement is also clear about what it is testing, so a comment like "if the element is a key in our_dict" is not necessary. However, a comment in the else block is appropriate, as it explains the condition that is not met by the if statement and clarifies why the else block differs (i.e., why we assign 1 as a value at a key instead of incrementing it). Although some comments may not be necessary, students are still encouraged to include them if they find it helpful. For example, as seen in the second-to-last example in the “Good” section, translating code into plain English can aid in understanding and improve clarity.
+To improve, one comment can be sufficient! Since elem already describes each value in inp_list, there's no need to comment on what is being iterated over, as the variable names are self-explanatory. The if statement is also clear about what it is testing, so a comment like "if the element is a key in our_dict" is not necessary. However, a comment in the else block is appropriate, as it explains the condition that is not met by the if statement and clarifies why the else block differs (i.e., why we assign 1 as a value at a key instead of incrementing it). Although some comments may not be necessary, students are still encouraged to include them if they find it helpful. For example, as seen in the second-to-last example in the “Good” section, translating code into plain English can aid in understanding and improve clarity.
 
-    <img class="img-fluid" src="/static/assets/improved_ex_one.png"/>
+<img class="img-fluid" src="/static/assets/improved_ex_one.png"/>
 
-2. **NO COMMENTS == BAD COMMENTING.**
+Example 2. 
+**NO COMMENTS == BAD COMMENTING.**
 
-    **No comments imply that there were no challenges or moments spent considering how to approach a code.** It's quite rare for a student to complete every exercise, code question, and practice problem without engaging in some form of problem-solving. Even as a TA, I always use a piece of paper to map out my approach when working on practice problems. This process often results in comments being added to my code. 
+**No comments imply that there were no challenges or moments spent considering how to approach a code.** It's quite rare for a student to complete every exercise, code question, and practice problem without engaging in some form of problem-solving. Even as a TA, I always use a piece of paper to map out my approach when working on practice problems. This process often results in comments being added to my code. 
     
-    As a general rule, **if 2 or more minutes are spent thinking about how to write a particular line or block of code, it’s a good idea to add a comment.** Explain what’s happening on that line, how the solution was reached, the reasoning behind the approach, or provide a note for future reference to recall the problem-solving steps.
+As a general rule, **if 2 or more minutes are spent thinking about how to write a particular line or block of code, it’s a good idea to add a comment.** Explain what’s happening on that line, how the solution was reached, the reasoning behind the approach, or provide a note for future reference to recall the problem-solving steps.
 
-**!!!!!!**
+<h3 style="text-align: center;">!!!!!!</h3>
 
 As mentioned above, comments don't need to be extensive, but they should reflect a genuine effort to explain the process in the student's own words. We don’t want to be too pedantic about commenting so that it doesn’t start feeling like a chore to be done at the end of coding. Instead, it should be an integral part of the problem-solving process. Sometimes stating the obvious is fine, but you can notice a “good-faith” effort usually at the end of a function or section of code where everything comes together like in the second-to-last example in the “Good” section.
 
 If you notice that many students are not making a sincere effort to comment and explain their code, let us know and we will issue an announcement to emphasize the importance of good commenting and provide examples of what that looks like.
 
-**!!!!!!**
+<h3 style="text-align: center;">!!!!!!</h3>
 
 ## When Would You Usually Expect to See Comments?
 
