@@ -35,6 +35,8 @@ page: resource
 
 <!-- <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/csabato.html"><img src="/static/profile-photos/csabato.jpg" class="profile-image"></a> <figcaption>Chiara Sabato</figcaption></figure> -->
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/conjon.html"><img src="/static/profile-photos/conjon.jpg" class="profile-image"></a><figcaption>Conor Jones</figcaption></figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/coraorog.html"><img src="/static/profile-photos/coralee.png" class="profile-image"></a><figcaption>Coralee Rogers-Vickers</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/dyk.html"><img src="/static/profile-photos/dyk.jpg" class="profile-image"> </a><figcaption>Dylan Nicks</figcaption></figure>
