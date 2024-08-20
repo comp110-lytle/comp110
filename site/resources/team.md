@@ -29,6 +29,11 @@ page: resource
   <figcaption>Adrian Lanier</figcaption>
 </figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+  <a href="/resources/profiles/benjaben.html"><img src="/static/profile-photos/benjaben.png" class="profile-image"> </a>
+  <figcaption>Benjamin Eldridge</figcaption>
+</figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/bridget7.html"><img src="/static/profile-photos/bridget7.png" class="profile-image"></a> <figcaption>Bridget Lin</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/cdander9.html"><img src="/static/profile-photos/cdander9.png" class="profile-image"></a> <figcaption>Carmine Anderson - Falconi</figcaption></figure>
