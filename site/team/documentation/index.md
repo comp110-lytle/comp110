@@ -58,6 +58,7 @@ site-branch: team
 ### Team-Specific Guides
 
 * [Grading Documentation](/team/documentation/guides/grading_csv.html) 
+* [Grading Comments](/team/documentation/guides/grading_comments_guide.html) 
 
 </div>
 
