@@ -31,7 +31,28 @@
             "date": "2024-08-21",
             "deadline": "None",
             "links": {
-                "": "/"
+                "Sections 01 and 02": "/static/slides/alyssa/CL01.pdf",
+                "Sections 03 and 04": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 1,
+            "title": "VS Code, Terminal, + Running a Program (Due Wednesday 8/21)",
+            "date": "2024-08-21",
+            "deadline": "2024-08-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Objects and Data Types (Due Wednesday 8/21)",
+            "date": "2024-08-21",
+            "deadline": "2024-08-21",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         },
         {
@@ -54,7 +75,18 @@
             "date": "2024-08-23",
             "deadline": "None",
             "links": {
-                "": "/"
+                "Sections 01 and 02": "/static/slides/alyssa/CL02.pdf",
+                "Sections 03 and 04": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Expressions (Due Friday 8/23)",
+            "date": "2024-08-23",
+            "deadline": "2024-08-23",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],

@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS00*(EXTENDED)* - WED, AUG 21 11:59pm</a></li><li class="horizon-item"><a href="/exercises/hello_world.html">EX00 - TUE, AUG 27 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS00*(EXTENDED)* - WED, AUG 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS01 - WED, AUG 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS02 - WED, AUG 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - FRI, AUG 23 11:59pm</a></li><li class="horizon-item"><a href="/exercises/hello_world.html">EX00 - TUE, AUG 27 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -48,12 +48,21 @@ template: home
 </div><div data-type="lecture" data-date="2024-08-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Aug 21</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL01 </span><span class="title"><a href="/">Objects and Data Types</a></span></div><div class="plan Exercise">
+<span class="kind">CL01 </span><span class="title">Objects and Data Types</span>
+<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL01.pdf">Sections 01 and 02</a></li>
+<li class="link"><a href="/">Sections 03 and 04</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS01 </span><span class="title"><a href="https://www.gradescope.com/">VS Code, Terminal, + Running a Program (Due Wednesday 8/21)</a></span></div><div class="plan Lesson">
+<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Data Types (Due Wednesday 8/21)</a></span></div><div class="plan Exercise">
 <span class="kind">EX00 </span><span class="title"><a href="/exercises/hello_world.html">Hello, world! (Due Tuesday 8/27)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-08-23" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Aug 23</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL02 </span><span class="title"><a href="/">Expressions</a></span></div></div>
+<span class="kind">CL02 </span><span class="title">Expressions</span>
+<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL02.pdf">Sections 01 and 02</a></li>
+<li class="link"><a href="/">Sections 03 and 04</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Friday 8/23)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-09-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Sep 6</div>
 <div class="plans col-md-9"><div class="plan Quiz">
