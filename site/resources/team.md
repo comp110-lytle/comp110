@@ -99,6 +99,11 @@ page: resource
     <figcaption>Nupur Joshi</figcaption>
   </figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/rkras.html"><img src="/static/profile-photos/rkras.jpg" class="profile-image"> </a>
+    <figcaption>Ryan Krasinski</figcaption>
+  </figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/sarahflo2.html"><img src="/static/profile-photos/sarahflo2.png" class="profile-image"></a> <figcaption>Sarah Chocron</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/shainap.html"><img src="/static/profile-photos/shainap.jpg" class="profile-image"> </a><figcaption>Shaina Patel</figcaption></figure>
