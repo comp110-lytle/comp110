@@ -9,7 +9,7 @@ site-branch: team
 ---
 
 ## About Me
-<img class="img-fluid" src="/static/profile-photos/inserra.PNG"/>
+<img class="img-fluid" src="/static/profile-photos/alexxiao.jpg"/>
 
 
 //split//
