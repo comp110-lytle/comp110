@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS00*(EXTENDED)* - WED, AUG 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS01 - WED, AUG 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS02 - WED, AUG 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - FRI, AUG 23 11:59pm</a></li><li class="horizon-item"><a href="/exercises/hello_world.html">EX00 - TUE, AUG 27 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - FRI, AUG 23 11:59pm</a></li><li class="horizon-item"><a href="/exercises/hello_world.html">EX00 - TUE, AUG 27 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,15 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-08-19" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Aug 19</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL00 </span><span class="title">Welcome to COMP110</span>
-<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL00.pdf">Sections 01 and 02</a></li>
-<li class="link"><a href="/static/slides/izzi/CL00Hinks.pdf">Sections 03 and 04</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS00 </span><span class="title"><a href="https://www.gradescope.com/">Syllabus<s><i>(Due Monday 8/19)</i></s> (Extended to Wednesday 8/21)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-08-21" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-08-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Aug 21</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL01 </span><span class="title">Objects and Data Types</span>
@@ -63,6 +55,10 @@ template: home
 <li class="link"><a href="/">Sections 03 and 04</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Friday 8/23)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-08-26" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Aug 26</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL03 </span><span class="title"><a href="/">Functions</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-09-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Sep 6</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -100,5 +96,15 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
 </ul></div></div>
-</div><!-- The Past section --></div>
+</div><!-- The Past section --><div id='past' class="pb-2"></div>
+<hr>
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-08-19" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Aug 19</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL00 </span><span class="title">Welcome to COMP110</span>
+<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL00.pdf">Sections 01 and 02</a></li>
+<li class="link"><a href="/static/slides/izzi/CL00Hinks.pdf">Sections 03 and 04</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS00 </span><span class="title"><a href="https://www.gradescope.com/">Syllabus<s><i>(Due Monday 8/19)</i></s> (Extended to Wednesday 8/21)</a></span></div></div>
+</div></div>
 </div>

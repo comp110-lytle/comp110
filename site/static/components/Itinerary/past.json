@@ -1,1 +1,26 @@
-{}
+{
+    "2024-08-19": [
+        {
+            "kind": "CL",
+            "n": 0,
+            "title": "Welcome to COMP110",
+            "date": "2024-08-19",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL00.pdf",
+                "Sections 03 and 04": "/static/slides/izzi/CL00Hinks.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 0,
+            "title": "Syllabus<s><i>(Due Monday 8/19)</i></s> (Extended to Wednesday 8/21)",
+            "date": "2024-08-19",
+            "deadline": "2024-08-19",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-08-20": []
+}
