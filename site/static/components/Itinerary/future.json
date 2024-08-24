@@ -1,47 +1,4 @@
 {
-    "2024-08-21": [
-        {
-            "kind": "CL",
-            "n": 1,
-            "title": "Objects and Data Types",
-            "date": "2024-08-21",
-            "deadline": "None",
-            "links": {
-                "Sections 01 and 02": "/static/slides/alyssa/CL01.pdf",
-                "Sections 03 and 04": "/static/slides/izzi/CL01Hinks.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 1,
-            "title": "VS Code, Terminal, + Running a Program (Due Wednesday 8/21)",
-            "date": "2024-08-21",
-            "deadline": "2024-08-21",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 2,
-            "title": "Objects and Data Types (Due Wednesday 8/21)",
-            "date": "2024-08-21",
-            "deadline": "2024-08-21",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 0,
-            "title": "Hello, world! (Due Tuesday 8/27)",
-            "date": "2024-08-21",
-            "deadline": "2024-08-27",
-            "links": {
-                "": "/exercises/hello_world.html"
-            }
-        }
-    ],
     "2024-08-22": [],
     "2024-08-23": [
         {
@@ -52,7 +9,7 @@
             "deadline": "None",
             "links": {
                 "Sections 01 and 02": "/static/slides/alyssa/CL02.pdf",
-                "Sections 03 and 04": "/"
+                "Sections 03 and 04": "/static/slides/izzi/CL02Hinks.pdf"
             }
         },
         {
@@ -81,7 +38,18 @@
         }
     ],
     "2024-08-27": [],
-    "2024-08-28": [],
+    "2024-08-28": [
+        {
+            "kind": "CL",
+            "n": 4,
+            "title": "Practice With Functions",
+            "date": "2024-08-28",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-08-29": [],
     "2024-08-30": [],
     "2024-08-31": [],

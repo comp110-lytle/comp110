@@ -22,5 +22,48 @@
             }
         }
     ],
-    "2024-08-20": []
+    "2024-08-20": [],
+    "2024-08-21": [
+        {
+            "kind": "CL",
+            "n": 1,
+            "title": "Objects and Data Types",
+            "date": "2024-08-21",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL01.pdf",
+                "Sections 03 and 04": "/static/slides/izzi/CL01Hinks.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 1,
+            "title": "VS Code, Terminal, + Running a Program (Due Wednesday 8/21)",
+            "date": "2024-08-21",
+            "deadline": "2024-08-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Objects and Data Types (Due Wednesday 8/21)",
+            "date": "2024-08-21",
+            "deadline": "2024-08-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 0,
+            "title": "Hello, world! (Due Tuesday 8/27)",
+            "date": "2024-08-21",
+            "deadline": "2024-08-27",
+            "links": {
+                "": "/exercises/hello_world.html"
+            }
+        }
+    ]
 }
