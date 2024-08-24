@@ -100,7 +100,28 @@
             "date": "2024-08-26",
             "deadline": "None",
             "links": {
-                "": "/"
+                "Sections 01 and 02": "",
+                "Sections 03 and 04": ""
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 4,
+            "title": "Introducing Functions (Due Monday 8/26)",
+            "date": "2024-08-26",
+            "deadline": "2024-08-26",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Function Syntax (Due Monday 8/26)",
+            "date": "2024-08-26",
+            "deadline": "2024-08-26",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],
@@ -109,11 +130,32 @@
         {
             "kind": "CL",
             "n": 4,
-            "title": "Practice With Functions",
+            "title": "Practice with Functions",
             "date": "2024-08-28",
             "deadline": "None",
             "links": {
-                "": "/"
+                "Sections 01 and 02": "",
+                "Sections 03 and 04": ""
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Functions (Due Wednesday 8/28)",
+            "date": "2024-08-28",
+            "deadline": "2024-08-28",
+            "links": {
+                "": ""
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 1,
+            "title": "Functions Exercise (Due Tuesday 9/3)",
+            "date": "2024-08-28",
+            "deadline": "2024-09-03",
+            "links": {
+                "": "/exercises/tea_party.html"
             }
         }
     ],
