@@ -33,8 +33,8 @@
             "date": "2024-08-26",
             "deadline": "None",
             "links": {
-                "Sections 01 and 02": "",
-                "Sections 03 and 04": ""
+                "Sections 01 and 02": "/",
+                "Sections 03 and 04": "/"
             }
         },
         {
@@ -67,8 +67,8 @@
             "date": "2024-08-28",
             "deadline": "None",
             "links": {
-                "Sections 01 and 02": "",
-                "Sections 03 and 04": ""
+                "Sections 01 and 02": "/",
+                "Sections 03 and 04": "/"
             }
         },
         {
@@ -78,15 +78,15 @@
             "date": "2024-08-28",
             "deadline": "2024-08-28",
             "links": {
-                "": ""
+                "": "/cqs/CQ00-functions.html"
             }
         },
         {
             "kind": "EX",
             "n": 1,
-            "title": "Functions Exercise (Due Tuesday 9/3)",
+            "title": "Functions Exercise (Due Thursday 9/12)",
             "date": "2024-08-28",
-            "deadline": "2024-09-03",
+            "deadline": "2024-09-12",
             "links": {
                 "": "/exercises/tea_party.html"
             }
