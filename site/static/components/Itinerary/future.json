@@ -67,14 +67,14 @@
             "date": "2024-08-28",
             "deadline": "None",
             "links": {
-                "Sections 01 and 02": "/",
+                "Sections 01 and 02": "/static/slides/alyssa/CL04.pdf",
                 "Sections 03 and 04": "/"
             }
         },
         {
             "kind": "CQ",
             "n": 0,
-            "title": "Functions (Due Wednesday 8/28)",
+            "title": "Writing Functions (Due Wednesday 8/28)",
             "date": "2024-08-28",
             "deadline": "2024-08-28",
             "links": {
@@ -84,7 +84,7 @@
         {
             "kind": "EX",
             "n": 1,
-            "title": "Functions Exercise (Due Thursday 9/12)",
+            "title": "Tea Party (Due Thursday 9/12)",
             "date": "2024-08-28",
             "deadline": "2024-09-12",
             "links": {
