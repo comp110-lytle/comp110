@@ -49,7 +49,7 @@ template: home
 <div class="date col-md-2">Mon, Aug 26</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL03 </span><span class="title">Functions</span>
-<ul class="links"><li class="link"><a href="/">Sections 01 and 02</a></li>
+<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL03.pdf">Sections 01 and 02</a></li>
 <li class="link"><a href="/">Sections 03 and 04</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Introducing Functions (Due Monday 8/26)</a></span></div><div class="plan Lesson">
