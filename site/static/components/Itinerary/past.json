@@ -65,5 +65,29 @@
                 "": "/exercises/hello_world.html"
             }
         }
+    ],
+    "2024-08-22": [],
+    "2024-08-23": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Expressions",
+            "date": "2024-08-23",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL02.pdf",
+                "Sections 03 and 04": "/static/slides/izzi/CL02Hinks.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Expressions (Due Friday 8/23)",
+            "date": "2024-08-23",
+            "deadline": "2024-08-23",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
     ]
 }
