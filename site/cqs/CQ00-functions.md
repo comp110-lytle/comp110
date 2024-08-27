@@ -16,7 +16,7 @@ Now, right click on your "CQs" folder and select "New File...". Name this file `
 
 Make sure to initialize your file with a docstring and `__author__` variable just like you did in EX00!
 
-## Function Definition
+## Function Definition: `mimic`
 
 Now, you are going to write a function on your own! This function will just take your input and repeat it back to you! *Define a function* with the following expectations:
 
@@ -32,28 +32,49 @@ You can test this function by *calling* it under the "Interact" tab of your trai
 
 <img class="img-fluid" src="/static/cqs/cq00/mimic.png">
 
+## Function Definition: `main`
+
+Now you are going to write your `main` function! This is a common convention in programming. The `main` function pulls together your functions, which are building blocks, into a main function that implements the high-level logic of your program. 
+
+This program is only going to print the result of calling `mimic`. It won't actually *return* anything, so you can declare it's return type as `None`.
+
+Define the signature of this function with the following expectations:
+
+- Name: `main`
+- Parameters: no parameters
+- Return type: `None`
+- Add a Docstring describing the purpose of the function.
+
+The body of your function should contain the following line: 
+
+```
+ print(mimic(message="Howdy!"))
+```
+To understand what this line of code is doing, just like in math, you can expect to work your way from the innermost parentheses outward.
+
+You'll see that it is *calling* the `mimic` function with the argument `message="Howdy!"`, and then in the outer parentheses is it *printing* the result. This is called a *nested function call* because the result (aka *return value*) of the `mimic` function is then being passed as an argument to the `print` function.
+
+
 ## Calling Your Function Inside the File
 
 Before you do anything else, try clicking on the "Run" tab in your trailhead. You'll see something like this.
 
 <img class="img-fluid" src="/static/cqs/cq00/no-output.png">
 
-This is to be expected because `cq00_functions.py` only contains a function definition; nothing has been called or printed!
+This is to be expected because so far `cq00_functions.py` only contains a function *definitions*; nothing has been *called* in your file!
 
-Let's edit the module to call the function when it's run! At the bottom of your `cq00_functions.py` file, add the following lines of code to the bottom of your file (note the indentation, as it is important!):
+Let's edit the module to *call* the `main` function when it's run! At the bottom of your `cq00_functions.py` file, add the following lines of code to the bottom of your file (note the indentation, as it is important!):
 
 ```python
 if __name__ == "__main__":
-    print(mimic(message="Howdy!"))
+  main()
 ```
 
 Before revealing what this code is doing, please try saving your code and look under the "Run" tab in the Trailhead. You should see something like this:
 
 <img class="img-fluid" src="/static/cqs/cq00/mimic-module-call.png">
 
-Now, come back to the code, and try and break down the second line for yourself. Just like in math, you can expect to work your way from the innermost parentheses outward.
-
-You'll see that it is *calling* the `mimic` function with the argument `message="Howdy!"`, and then in the outer parentheses is it *printing* the result. This is called a *nested function call* because the result (aka *return value*) of the `mimic` function is then being passed as an argument to the `print` function.
+You'll notice it is *calling* the `main` function which in turn calls the `mimic` function with the argument `message="Howdy!"` and prints that result!
 
 The first line, `if __name__ == "__main__":` is a special kind of statement called a *conditional statement* you'll learn about in a few weeks. The effect it has here is when you run this program in the "Run" tab, the indented code beneath the `if` statement will be evaluated. However, when you load this program in the REPL of the "Interact" tab, the code beneath the if statement will not be run. This gives us the best of both worlds! We will learn more about *how* this works in the future, but for now it's good to just know that it provides you with this functionality!
 
