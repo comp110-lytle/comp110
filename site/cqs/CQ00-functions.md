@@ -54,6 +54,10 @@ To understand what this line of code is doing, just like in math, you can expect
 
 You'll see that it is *calling* the `mimic` function with the argument `message="Howdy!"`, and then in the outer parentheses is it *printing* the result. This is called a *nested function call* because the result (aka *return value*) of the `mimic` function is then being passed as an argument to the `print` function.
 
+You can test this function by *calling* it under the "Interact" tab of your trailhead! You should get behavior looking something like this: 
+
+<img class="img-fluid" src="/static/cqs/cq00/main_call.png">
+
 
 ## Calling Your Function Inside the File
 
@@ -72,9 +76,9 @@ if __name__ == "__main__":
 
 Before revealing what this code is doing, please try saving your code and look under the "Run" tab in the Trailhead. You should see something like this:
 
-<img class="img-fluid" src="/static/cqs/cq00/mimic-module-call.png">
+<img class="img-fluid" src="/static/cqs/cq00/howdy_output.png">
 
-You'll notice it is *calling* the `main` function which in turn calls the `mimic` function with the argument `message="Howdy!"` and prints that result!
+You'll notice it is *calling* the `main` function which in turn prints the result of calling the `mimic` function with the argument `message="Howdy!"`!
 
 The first line, `if __name__ == "__main__":` is a special kind of statement called a *conditional statement* you'll learn about in a few weeks. The effect it has here is when you run this program in the "Run" tab, the indented code beneath the `if` statement will be evaluated. However, when you load this program in the REPL of the "Interact" tab, the code beneath the if statement will not be run. This gives us the best of both worlds! We will learn more about *how* this works in the future, but for now it's good to just know that it provides you with this functionality!
 
@@ -99,6 +103,9 @@ Again, before we explain what this does, try saving your code and look under the
 
 Similar to the `print` function, `input` is a function that has built-in behavior. The *argument* will be whatever message you want displayed to the user. (E.g. `"What is your message?"`) The *return* value will be a `str` with whatever input the user has typed. Notice that it is passing the return value of the `input` function as an argument to the `mimic` function, which is why it repeats the user input back to you!
 
+Try it out in your trailhead! You should see something like this!
+
+<img class="img-fluid" src="/static/cqs/cq00/name_main_call.png">
 
 ## Submission
 
