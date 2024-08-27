@@ -72,7 +72,7 @@ def test_part_2_checking_indices(capsys, monkeypatch):
             for line in output:
                 match = regex.search(line) is not None
                 match_found = match_found or match
-            assert match_found, f"Given word {word}, we expected the output: {char} found at index {index}"
+            assert match_found, f"Given word {word}, we expected the output: {char} found at index {index}. Your code output was {output}"
 
 
 @mark.weight(10)
