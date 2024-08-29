@@ -6,8 +6,8 @@ author:
 page: lessons
 template: overview
 ---
-# Printable Memory Diagram Templates
-[Template 0](/static/MDTemplate0.png) | [Template 1](/static/MDTemplate1.png)
+# Printable Memory Diagram Template
+[Template](/static/MDTemplate1.png)
 
 # Practice Memory Diagrams
 
