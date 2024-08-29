@@ -14,12 +14,12 @@ template: overview
         print("Extra cookies: " + str(total_cookies % num_students))
         return int((total_cookies - (total_cookies % num_students))/2)
 
-    print("Each student gets " + str(give_cookies(total_cookies=11, num_students=2)) + "cookies!")
+    print("Each student gets " + str(give_cookies(total_cookies=11, num_students=2)) + "cookies")
 ```
 
 # Solution
 
-<!-- <img class="img-fluid" src="" alt="Image Description Here"  />
+<img class="img-fluid" src="/static/practice-mem-diagrams/cookies.png" alt="Image Description Here"  />
 
-## Image Description  -->
+## Image Description  
 *(Coming Soon)*
