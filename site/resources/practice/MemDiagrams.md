@@ -11,6 +11,14 @@ template: overview
 
 # Practice Memory Diagrams
 
+## Functions Basics
+
+[Example 0](/resources/practice/memory-diagrams/functions/func-import-00.html) 
+<!-- [Example 1](/resources/practice/memory-diagrams/functions/func-import-01.html) | 
+[Example 2](/resources/practice/memory-diagrams/functions/func-import-02.html) -->
+
+
+<!-- 
 ## Basics
 [Example 0](/resources/practice/memory-diagrams/basic/basic-00.html) | 
 [Example 1](/resources/practice/memory-diagrams/basic/basic-01.html) | 
@@ -28,7 +36,7 @@ template: overview
 [Example 0](/resources/practice/memory-diagrams/while/while-00.html) |
 [Example 1](/resources/practice/memory-diagrams/while/while-01.html) |
 [Example 2](/resources/practice/memory-diagrams/while/while-02.html) 
-
+ -->
 
 
 <!-- ## bool Operators
@@ -37,15 +45,15 @@ template: overview
 
 ## Functions -->
 
-## Functions 
+<!-- ## Functions 
 
 [Example 0](/resources/practice/memory-diagrams/functions/func-import-00.html) | 
 [Example 1](/resources/practice/memory-diagrams/functions/func-import-01.html) | 
-[Example 2](/resources/practice/memory-diagrams/functions/func-import-02.html) 
+[Example 2](/resources/practice/memory-diagrams/functions/func-import-02.html)  -->
 <!-- | 
 [Example 3](/resources/practice/memory-diagrams/functions/func-01.html) -->
 
-
+<!-- 
 
 ## Lists 
 [Example 0](/resources/practice/memory-diagrams/lists/lists-00.html) |
@@ -76,7 +84,7 @@ template: overview
 
 [Example 0](/resources/practice/memory-diagrams/oop-advanced/team.html) |
 [Example 1](/resources/practice/memory-diagrams/oop-advanced/playlist.html) |
-[Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html)
+[Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html) -->
 
 
 <!-- ## Nested Data Structures

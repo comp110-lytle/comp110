@@ -10,28 +10,25 @@ template: overview
 # Snippet
 
 <pre>
-<code class="python">   def big_func(num: int) -> int:
-        a: int = num + 2
-        return a
+<code class="python">   def big_func(a: int) -> int:
+        return a + 2
 
-    def bigger_func(num: int) -> int:
-        a: int = big_func(num) * 2
-        return a
+    def bigger_func(b: int) -> int:
+        return big_func(a=b) * 2
 
     def biggest_func(num: int) -> int:
-        a: int = bigger_func(num) ** 2
-        return a
+        return bigger_func(b=num) ** 2
 
     def main() -> None:
-        a: int = 110 
-        a = biggest_func(a)
-        print(f"Wow! {a} is a big number!")
+        print(str(biggest_func(num=110)) + " is a big number!")
 
     main()
 </code></pre>
 
 # Solution
 
-[Video](https://youtu.be/TOeZrIu0GnQ?si=uKDO2Ym6Wdi3RBKT)
+*(Coming soon)*
 
-<img class="img-fluid" src="/static/practice-mem-diagrams/func-import-00-sol.png" alt=""/>
+<!-- [Video](https://youtu.be/TOeZrIu0GnQ?si=uKDO2Ym6Wdi3RBKT)
+
+<img class="img-fluid" src="/static/practice-mem-diagrams/func-import-00-sol.png" alt=""/> -->
