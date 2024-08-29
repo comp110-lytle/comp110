@@ -2,8 +2,6 @@
 title: Functions Questions
 author:
 - Alyssa Lytle
-- Megan Zhang
-- David Karash
 page: lessons
 template: overview
 ---
