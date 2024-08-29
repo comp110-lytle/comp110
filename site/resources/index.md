@@ -21,6 +21,8 @@ navbar: base
 
 - [Setup Your Course Workspace](/resources/setup/workspace.html)
 
+- [*(Optional)* If Your Docker Setup Isn't Working](/resources/setup/non-docker.html)
+
 </div>
 
 </br>

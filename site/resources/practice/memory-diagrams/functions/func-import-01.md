@@ -33,7 +33,9 @@ template: overview
 
 # Solution
 
-<img class="img-fluid" src="/static/practice-mem-diagrams/func-import-01-sol.jpg" alt=""/>
+*(Coming Soon)*
+
+<!-- <img class="img-fluid" src="/static/practice-mem-diagrams/func-import-01-sol.jpg" alt=""/> -->
 
 <!-- 
 <img class="img-fluid" src="/static/assets/f23/func-import-01-sol.png" alt="The Memory Diagram has three columns from the left to the right, including the

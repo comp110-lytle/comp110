@@ -2,8 +2,6 @@
 title: Functions Questions
 author:
 - Alyssa Lytle
-- Megan Zhang
-- David Karash
 page: lessons
 template: overview
 ---
@@ -60,6 +58,7 @@ total_fuel_cost(distance=300, mpg=25, price_per_gallon=4)
 
 3. Looking at the following code, is there something wrong with the code? If yes, what is it and why is it a problem?
 
+
 ```
 def fuel_needed(distance, mpg):
    return distance / mpg
@@ -76,13 +75,18 @@ total_fuel_cost(distance=300, mpg=25, price_per_gallon=4)
 
 1. Define a function `greet`. It will take a single parameter, `name`, which is a string. The function will print a greeting message that includes the name of the person you would like to greet, along with additional details about the name. Specifically, it will print a message that states what the first and last letters of the name are. It should then `return` a string expressing happiness to see the person. Refer to the example usage to help construct your function body. Define a `main` function. This will be the entrypoint to your program. Inside the `main` function, call the `greet` function with the argument as specified by the example usage. The `main` function should print the value `return`ed by the `greet` function. Finally, call your `main` function. 
 
-Example usage: 
 
-~~~ {.plaintext}
-    $ python -m greet
-    Hello Molly, your name starts with a M and ends with a y
-    I'm so happy to see you Molly!
-~~~
+```
+    def greet(name: str) -> str:
+        print("Hello " + name)
+        return "I'm so happy to see you " + name 
+    
+    def main() -> None:
+        print(greet(name="Lizzie"))
+    
+    main()
+
+```
 
 Answer the following questions about your code. Make sure you check your code by looking at the solution before doing this. Diagram your code snippet. 
 
