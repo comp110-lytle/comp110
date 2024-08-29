@@ -20,7 +20,7 @@ template: overview
         return "I'm so happy to see you " + name 
     
     def main() -> None:
-        print(greet("Lizzie", True))
+        print(greet(name="Lizzie"))
     
     main()
 ```
