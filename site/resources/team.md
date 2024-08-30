@@ -79,7 +79,6 @@ page: resource
   <figcaption>Lynn Lee</figcaption>
 </figure>
 
-
 <figure class="profile col-xs-12 col-sm-6 col-md-3"> 
     <a href="/resources/profiles/mrodriguez.html"><img src="/static/profile-photos/mrodriguez.JPG" class="profile-image"> </a>
     <figcaption>Mariana Rodriguez</figcaption>
@@ -131,6 +130,11 @@ page: resource
   <a href="/resources/profiles/wokwen.html"><img src="/static/profile-photos/wokwen.png" class="profile-image"> </a>
   <figcaption>Wisdom Okwen</figcaption>
 </figure>
+
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/caitlie.html"><img src="/static/profile-photos/caitlie.png" class="profile-image"> </a>
+    <figcaption>Caitlin Estrada</figcaption>
+  </figure>
 
 </div>
 </div>
