@@ -70,6 +70,41 @@ def total_fuel_cost(distance, mpg, price_per_gallon):
 total_fuel_cost(distance=300, mpg=25, price_per_gallon=4)
 ```
 
+## Calling functions
+
+1. For the following code snippet, write a line of code that will result in the following output: 
+
+```
+def flavor(taste: str, percent: float) -> None:
+    print("This flavor is " + str(percent) + "% " + taste)
+```
+
+Output: 
+
+~~~ {.plaintext}
+    $ python -m flavor
+    This flavor is 100% umami
+~~~
+
+
+2. For the following code snippet, write a line of code that will call the `main` function. Next, write a line of code to be inserted within the body of the `main` function. This line should call the `eat` function with the argument passed when the main function was called. 
+
+```
+def eat(food: str) -> None:
+    print("Eating " + food)
+
+def main(food: str) -> None:
+    food_item = "apple"
+    eat(food=food)
+
+```
+
+3. For the following code snippet, write a line of code that will call the `have_done` function with the arguments `"homework"` and `False`. If you wanted to print the string created by the `have_done` function, how would you modify your function call? 
+
+```
+def have_done(task, completed) -> str:
+    return "Completed " + task + ": " + str(completed)
+```
 
 ## Function writing
 
