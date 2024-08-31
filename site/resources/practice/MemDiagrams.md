@@ -17,7 +17,7 @@ template: overview
 [Example 1](/resources/practice/memory-diagrams/functions/division.html)  |
 [Example 2](/resources/practice/memory-diagrams/functions/start_end.html) |
 [Example 3](/resources/practice/memory-diagrams/functions/cookies.html) |
-[Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html)
+[Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html) 
 
 
 
