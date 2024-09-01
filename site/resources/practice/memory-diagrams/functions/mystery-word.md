@@ -25,5 +25,10 @@ main(word="mystery")
 </code></pre>
 
 # Solution
+<img class="img-fluid" src="/static/practice-mem-diagrams/mystery_word.jpg" alt="Image Description Here"  />
 
-*(Coming soon)*
+## Video
+*(Video Coming Soon)*
+
+## Image Description
+*(Coming Soon)*
