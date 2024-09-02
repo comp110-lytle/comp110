@@ -135,7 +135,7 @@
             "deadline": "None",
             "links": {
                 "Sections 01 and 02": "/static/slides/alyssa/CL04.pdf",
-                "Sections 03 and 04": "/"
+                "Sections 03 and 04": "/static/slides/izzi/CL04Hinks.pdf"
             }
         },
         {
@@ -156,6 +156,40 @@
             "deadline": "2024-09-12",
             "links": {
                 "": "/exercises/tea_party.html"
+            }
+        }
+    ],
+    "2024-08-29": [],
+    "2024-08-30": [
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "Memory Diagrams",
+            "date": "2024-08-30",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL05.pdf",
+                "Sections 03 and 04": "/static/slides/izzi/CL05Hinks.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Memory Diagrams (Due Friday 8/30)",
+            "date": "2024-08-30",
+            "deadline": "2024-08-30",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Memory Diagrams (Due Friday 8/30)",
+            "date": "2024-08-30",
+            "deadline": "2024-08-30",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ]

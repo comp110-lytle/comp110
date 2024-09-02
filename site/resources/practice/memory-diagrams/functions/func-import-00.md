@@ -3,6 +3,7 @@ title: Practice Memory Diagram
 author:
 - Created by Kaleb White
 - Edited by Rosey Anim, Alyssa Lytle
+- Solution by Viktorya Hunanyan
 page: lessons
 template: overview
 ---
@@ -26,8 +27,13 @@ template: overview
 </code></pre>
 
 # Solution
+<img class="img-fluid" src="/static/practice-mem-diagrams/big_func.jpg" alt="Image Description Here"  />
 
-*(Coming soon)*
+## Video
+*(Video Coming Soon)*
+
+## Image Description
+*(Coming Soon)*
 
 <!-- [Video](https://youtu.be/TOeZrIu0GnQ?si=uKDO2Ym6Wdi3RBKT)
 

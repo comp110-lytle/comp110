@@ -37,21 +37,12 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-08-30" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Aug 30</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL05 </span><span class="title">Memory Diagrams</span>
-<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL05.pdf">Sections 01 and 02</a></li>
-<li class="link"><a href="/">Sections 03 and 04</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS06 </span><span class="title"><a href="https://www.gradescope.com/">Memory Diagrams (Due Friday 8/30)</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ01 </span><span class="title"><a href="https://www.gradescope.com/">Memory Diagrams (Due Friday 8/30)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-09-04" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-09-04" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Sep 4</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL06 </span><span class="title">Practice with Memory Diagrams</span>
 <ul class="links"><li class="link"><a href="/static/slides/alyssa/CL06.pdf">Sections 01 and 02</a></li>
-<li class="link"><a href="/">Sections 03 and 04</a></li>
+<li class="link"><a href="/static/slides/izzi/CL06Hinks.pdf">Sections 03 and 04</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-09-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Sep 6</div>
@@ -92,12 +83,21 @@ template: home
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-08-28" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-08-30" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Aug 30</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL05 </span><span class="title">Memory Diagrams</span>
+<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL05.pdf">Sections 01 and 02</a></li>
+<li class="link"><a href="/static/slides/izzi/CL05Hinks.pdf">Sections 03 and 04</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS06 </span><span class="title"><a href="https://www.gradescope.com/">Memory Diagrams (Due Friday 8/30)</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ01 </span><span class="title"><a href="https://www.gradescope.com/">Memory Diagrams (Due Friday 8/30)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-08-28" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Aug 28</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL04 </span><span class="title">Practice with Functions</span>
 <ul class="links"><li class="link"><a href="/static/slides/alyssa/CL04.pdf">Sections 01 and 02</a></li>
-<li class="link"><a href="/">Sections 03 and 04</a></li>
+<li class="link"><a href="/static/slides/izzi/CL04Hinks.pdf">Sections 03 and 04</a></li>
 </ul></div><div class="plan Challenge Question">
 <span class="kind">CQ00 </span><span class="title"><a href="/cqs/CQ00-functions.html">Writing Functions (Due Wednesday 8/28)</a></span></div><div class="plan Exercise">
 <span class="kind">EX01 </span><span class="title"><a href="/exercises/tea_party.html">Tea Party (Due Thursday 9/12)</a></span></div></div>
