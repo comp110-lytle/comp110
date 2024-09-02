@@ -25,6 +25,7 @@ template: overview
 ```
 
 # Solution
+<img class="img-fluid" src="/static/practice-mem-diagrams/mystery_word.jpg" alt="Image Description Here"  />
 
 ## Video
 *(Video Coming Soon)*
