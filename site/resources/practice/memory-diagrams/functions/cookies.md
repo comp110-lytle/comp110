@@ -21,5 +21,8 @@ template: overview
 
 <img class="img-fluid" src="/static/practice-mem-diagrams/cookies.png" alt="Image Description Here"  />
 
-## Image Description  
+## Video
+*(Video Coming Soon)*
+
+## Image Description
 *(Coming Soon)*

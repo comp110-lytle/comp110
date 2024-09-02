@@ -3,6 +3,7 @@ title: Practice Memory Diagram
 author:
 - Created by Lynn Lee
 - Reviewed by Olivia Xiao
+- Solution by Viktorya Hunanyan
 - Published by Alyssa Lytle
 page: lessons
 template: overview
@@ -20,5 +21,10 @@ template: overview
 
 # Solution
 
-*(Coming Soon)*
+<img class="img-fluid" src="/static/practice-mem-diagrams/start-end.jpg" alt="Image Description Here"  />
 
+## Video
+*(Video Coming Soon)*
+
+## Image Description
+*(Coming Soon)*
