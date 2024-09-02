@@ -2,6 +2,7 @@
 title: Practice Memory Diagrams, Organized By Topic
 author:
 - Alyssa Lytle
+- Viktorya Hunanyan
 - Team 110
 page: lessons
 template: overview
