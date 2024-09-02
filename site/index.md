@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS04 - MON, AUG 26 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS05 - MON, AUG 26 11:59pm</a></li><li class="horizon-item"><a href="/exercises/hello_world.html">EX00 - TUE, AUG 27 11:59pm</a></li><li class="horizon-item"><a href="/cqs/CQ00-functions.html">CQ00 - WED, AUG 28 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS06 - FRI, AUG 30 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">CQ01 - FRI, AUG 30 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/quiz-expectations.html">QZ00 - FRI, SEP 06 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,25 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-08-26" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Aug 26</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL03 </span><span class="title">Functions</span>
-<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL03.pdf">Sections 01 and 02</a></li>
-<li class="link"><a href="/static/slides/izzi/CL03Hinks.pdf">Sections 03 and 04</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Introducing Functions (Due Monday 8/26)</a></span></div><div class="plan Lesson">
-<span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">Function Syntax (Due Monday 8/26)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-08-28" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Aug 28</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL04 </span><span class="title">Practice with Functions</span>
-<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL04.pdf">Sections 01 and 02</a></li>
-<li class="link"><a href="/">Sections 03 and 04</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ00 </span><span class="title"><a href="/cqs/CQ00-functions.html">Writing Functions (Due Wednesday 8/28)</a></span></div><div class="plan Exercise">
-<span class="kind">EX01 </span><span class="title"><a href="/exercises/tea_party.html">Tea Party (Due Thursday 9/12)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-08-30" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-08-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Aug 30</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL05 </span><span class="title">Memory Diagrams</span>
@@ -64,6 +46,13 @@ template: home
 </ul></div><div class="plan Lesson">
 <span class="kind">LS06 </span><span class="title"><a href="https://www.gradescope.com/">Memory Diagrams (Due Friday 8/30)</a></span></div><div class="plan Challenge Question">
 <span class="kind">CQ01 </span><span class="title"><a href="https://www.gradescope.com/">Memory Diagrams (Due Friday 8/30)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-09-04" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Sep 4</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL06 </span><span class="title">Practice with Memory Diagrams</span>
+<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL06.pdf">Sections 01 and 02</a></li>
+<li class="link"><a href="/">Sections 03 and 04</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-09-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Sep 6</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -103,7 +92,25 @@ template: home
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-08-23" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-08-28" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Aug 28</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL04 </span><span class="title">Practice with Functions</span>
+<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL04.pdf">Sections 01 and 02</a></li>
+<li class="link"><a href="/">Sections 03 and 04</a></li>
+</ul></div><div class="plan Challenge Question">
+<span class="kind">CQ00 </span><span class="title"><a href="/cqs/CQ00-functions.html">Writing Functions (Due Wednesday 8/28)</a></span></div><div class="plan Exercise">
+<span class="kind">EX01 </span><span class="title"><a href="/exercises/tea_party.html">Tea Party (Due Thursday 9/12)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-08-26" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Aug 26</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL03 </span><span class="title">Functions</span>
+<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL03.pdf">Sections 01 and 02</a></li>
+<li class="link"><a href="/static/slides/izzi/CL03Hinks.pdf">Sections 03 and 04</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Introducing Functions (Due Monday 8/26)</a></span></div><div class="plan Lesson">
+<span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">Function Syntax (Due Monday 8/26)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-08-23" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Aug 23</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL02 </span><span class="title">Expressions</span>

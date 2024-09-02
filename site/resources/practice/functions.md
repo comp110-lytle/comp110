@@ -74,7 +74,9 @@ def have_done(task, completed) -> str:
 
 ## Spot the error
 
+
 1. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
+
 
 ```
 def fuel_needed(distance, mpg):
@@ -87,7 +89,9 @@ def total_fuel_cost(distance, mpg, price_per_gallon):
 print(total_fuel_cost(distance=300, mpg=25, price_per_gallon=4))
 ```
 
+
 2. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
+
 
 ```
 def fuel_needed(distance, mpg):
@@ -100,7 +104,9 @@ def total_fuel_cost(distance, mpg, price_per_gallon):
 total_fuel_cost(distance=300, mpg=25, price_per_gallon=4)
 ```
 
+
 3. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
+
 
 ```
 def fuel_needed(distance, mpg):
@@ -227,6 +233,64 @@ def double(x: int) -> int:
 
 def add_five(y: int) -> int:
     return y + 5
+```
+```
+def greet(name: str) -> str:
+    print("Hello " + name + ", your name starts with an " + name[0] + " and ends with an " + name[len(name) - 1])
+    return "I'm so happy to see you " + name + "!"
+
+def main() -> None:
+    print(greet(name="Molly"))
+
+# Example usage: 
+main()
+```
+
+5. Looking at the following code, is there something wrong with the code that stops the execution of the example usage? If yes, what is it and why is it a problem?
+
+```
+def greet(name: str) -> str:
+    return "I'm so happy to see you " + name + "!"
+    print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
+
+
+def main() -> None:
+    print(greet(name="Molly"))
+
+# Example usage: 
+main()
+```
+
+
+6. Looking at the following code, is there something wrong with the code that stops the execution of the example usage? If yes, what is it and why is it a problem?
+
+```
+    greet(name: str) -> str:
+    return "I'm so happy to see you " + name + "!"
+    print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
+
+
+def main() -> None:
+    print(greet(name="Molly"))
+
+# Example usage: 
+main()
+```
+
+7. Looking at the following code, is there something wrong with the code that stops the execution of the example usage? If yes, what is it and why is it a problem?
+
+```
+def greet(name: str) -> str:
+    prtin("I'm so happy to see you " + name + "!")
+    print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
+
+
+def main() -> None:
+    print(greet(name="Molly"))
+
+# Example usage: 
+main()
+```
 
 # Pass the return value of double() as an argument to add_five()
 print(add_five(y=double(x=4)))  # double(4) returns 8, which is passed to add_five()

@@ -1,73 +1,4 @@
 {
-    "2024-08-24": [],
-    "2024-08-25": [],
-    "2024-08-26": [
-        {
-            "kind": "CL",
-            "n": 3,
-            "title": "Functions",
-            "date": "2024-08-26",
-            "deadline": "None",
-            "links": {
-                "Sections 01 and 02": "/static/slides/alyssa/CL03.pdf",
-                "Sections 03 and 04": "/static/slides/izzi/CL03Hinks.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 4,
-            "title": "Introducing Functions (Due Monday 8/26)",
-            "date": "2024-08-26",
-            "deadline": "2024-08-26",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 5,
-            "title": "Function Syntax (Due Monday 8/26)",
-            "date": "2024-08-26",
-            "deadline": "2024-08-26",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-08-27": [],
-    "2024-08-28": [
-        {
-            "kind": "CL",
-            "n": 4,
-            "title": "Practice with Functions",
-            "date": "2024-08-28",
-            "deadline": "None",
-            "links": {
-                "Sections 01 and 02": "/static/slides/alyssa/CL04.pdf",
-                "Sections 03 and 04": "/"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 0,
-            "title": "Writing Functions (Due Wednesday 8/28)",
-            "date": "2024-08-28",
-            "deadline": "2024-08-28",
-            "links": {
-                "": "/cqs/CQ00-functions.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 1,
-            "title": "Tea Party (Due Thursday 9/12)",
-            "date": "2024-08-28",
-            "deadline": "2024-09-12",
-            "links": {
-                "": "/exercises/tea_party.html"
-            }
-        }
-    ],
     "2024-08-29": [],
     "2024-08-30": [
         {
@@ -106,7 +37,19 @@
     "2024-09-01": [],
     "2024-09-02": [],
     "2024-09-03": [],
-    "2024-09-04": [],
+    "2024-09-04": [
+        {
+            "kind": "CL",
+            "n": 6,
+            "title": "Practice with Memory Diagrams",
+            "date": "2024-09-04",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL06.pdf",
+                "Sections 03 and 04": "/"
+            }
+        }
+    ],
     "2024-09-05": [],
     "2024-09-06": [
         {
