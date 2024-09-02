@@ -6,7 +6,7 @@ page: profile
 template: columns-profile
 ---
 
-![profile-photo]()
+![profile-photo](../../../static/profile-photos/cgbryan.png)
 
 //split//
 

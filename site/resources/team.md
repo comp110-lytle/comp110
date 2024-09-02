@@ -42,7 +42,7 @@ page: resource
 </figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
-    <a href="/resources/profiles/cgbryan.html"><img src="" class="profile-image"> </a>
+    <a href="/resources/profiles/cgbryan.html"><img src="/static/profile-photos/cgbryan.png" class="profile-image"> </a>
   <figcaption>Caroline Bryan</figcaption>
 </figure>
 
