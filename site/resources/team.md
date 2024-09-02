@@ -36,6 +36,16 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/bridget7.html"><img src="/static/profile-photos/bridget7.png" class="profile-image"></a> <figcaption>Bridget Lin</figcaption></figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/caitlie.html"><img src="/static/profile-photos/caitlie.png" class="profile-image"> </a>
+    <figcaption>Caitlin Estrada</figcaption>
+</figure>
+
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/cgbryan.html"><img src="" class="profile-image"> </a>
+  <figcaption>Caroline Bryan</figcaption>
+</figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/cdander9.html"><img src="/static/profile-photos/cdander9.png" class="profile-image"></a> <figcaption>Carmine Anderson - Falconi</figcaption></figure>
 
 <!-- <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/csabato.html"><img src="/static/profile-photos/csabato.jpg" class="profile-image"></a> <figcaption>Chiara Sabato</figcaption></figure> -->
@@ -130,11 +140,6 @@ page: resource
   <a href="/resources/profiles/wokwen.html"><img src="/static/profile-photos/wokwen.png" class="profile-image"> </a>
   <figcaption>Wisdom Okwen</figcaption>
 </figure>
-
-<figure class="profile col-xs-12 col-sm-6 col-md-3">
-    <a href="/resources/profiles/caitlie.html"><img src="/static/profile-photos/caitlie.png" class="profile-image"> </a>
-    <figcaption>Caitlin Estrada</figcaption>
-  </figure>
 
 </div>
 </div>
