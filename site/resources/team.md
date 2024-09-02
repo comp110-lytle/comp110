@@ -54,6 +54,11 @@ page: resource
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/gjku.html"><img src="/static/profile-photos/gjku.jpg" class="profile-image"> </a> <figcaption>Grace Ku</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/godondi.html"><img src="/static/profile-photos/godondi.jpg" class="profile-image"> </a>
+    <figcaption>Grace Odondi</figcaption>
+  </figure>
+
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
     <a href="/resources/profiles/jcoury.html"><img src="/static/profile-photos/jcoury.jpg" class="profile-image"> </a>
     <figcaption>Jack Coury</figcaption>
   </figure>
