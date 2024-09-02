@@ -1,12 +1,12 @@
 ---
-title: Lizzie Coats
+title: Lizzie Coats 🌿 🌸
 author:
 - Lizzie Coats
 page: profile
-template: columns
+template: columns-profile
 ---
 
-![profile-photo](../../../static/profile-photos/escoats.png)
+![profile-photo](.../.../.../static/profile-photos/escoats.jpg)
 
 
 ## Pronouns
@@ -21,10 +21,15 @@ Class of 2027
 
 ## Major
 Computer Science B.A.
+
+Data Science Minor
 //split//
 
 ## Interests
-Knitting, crochet, reading, cooking
+Violin, cooking, cycling, hiking
 
-## Fun Fact
-I play the violin!
+## Green Flag
+I've been Bob Ross for Halloween seven years in a row!
+
+## Red Flag
+I talk through movies (sorry!)
