@@ -36,7 +36,7 @@ template: overview
 
 1. For the following code snippet, write a line of code that will result in the following output: 
 
-```
+```python
 def flavor(taste: str, percent: float) -> None:
     print("This flavor is " + str(percent) + "% " + taste)
 ```
@@ -51,7 +51,7 @@ Output:
 
 2. For the following code snippet, write a line of code that will call the `main` function. Next, write a line of code to be inserted within the body of the `main` function. This line should call the `eat` function with the argument passed when the main function was called. 
 
-```
+```python
 def eat(food: str) -> None:
     print("Eating " + food)
 
@@ -64,7 +64,7 @@ def main(food: str) -> None:
 
 3. For the following code snippet, write a line of code that will call the `have_done` function with the arguments `"homework"` and `False`. If you wanted to print the string created by the `have_done` function, how would you modify your function call? 
 
-```
+```python
 def have_done(task, completed) -> str:
     return "Completed " + task + ": " + str(completed)
 ```
@@ -77,13 +77,12 @@ def have_done(task, completed) -> str:
 
 1. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
 
+```python
+def fuel_needed(distance: float, mpg: float) -> float:
+    return distance / mpg
 
-```
-def fuel_needed(distance, mpg):
-   return distance / mpg
-
-def total_fuel_cost(distance, mpg, price_per_gallon):
-   fuel_needed(distance, mpg) * price_per_gallon
+def total_fuel_cost(distance: float, mpg: float, price_per_gallon: float) -> float:
+    fuel_needed(distance=distance, mpg=mpg) * price_per_gallon
 
 # Example usage:
 print(total_fuel_cost(distance=300, mpg=25, price_per_gallon=4))
@@ -93,35 +92,21 @@ print(total_fuel_cost(distance=300, mpg=25, price_per_gallon=4))
 2. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
 
 
-```
-def fuel_needed(distance, mpg):
-   return distance / mpg
+```python
+def fuel_needed(distance: float, mpg: float) -> float:
+    return distance / mpg
 
-def total_fuel_cost(distance, mpg, price_per_gallon):
-   print(fuel_needed(distance, mpg) * price_per_gallon)
+def total_fuel_cost(distance: float, mpg: float, price_per_gallon: float) -> None:
+    print(fuel_needed(distance=distance, mpg=mpg) * price_per_gallon)
 
 # Example usage:
 total_fuel_cost(distance=300, mpg=25, price_per_gallon=4)
-```
 
+```
 
 3. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
 
-
-```
-def fuel_needed(distance, mpg):
-   return distance / mpg
-
-def total_fuel_cost(distance, mpg, price_per_gallon):
-   print(fuel_needed(distance, mpg) * price_per_gallon)
-
-# Example usage:
-total_fuel_cost(distance=300, mpg=25, price_per_gallon=4)
-```
-
-4. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
-
-```
+```python
 def greet(name: str) -> str:
     print("Hello " + name + ", your name starts with an " + name[0] + " and ends with an " + name[len(name) - 1])
     return "I'm so happy to see you " + name + "!"
@@ -131,16 +116,16 @@ def main() -> None:
 
 # Example usage: 
 main()
-```
-
-5. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
 
 ```
+
+4. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
+
+```python
 def greet(name: str) -> str:
     return "I'm so happy to see you " + name + "!"
     print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
 
-
 def main() -> None:
     print(greet(name="Molly"))
 
@@ -149,34 +134,34 @@ main()
 ```
 
 
-6. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
+5. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
 
-```
-    greet(name: str) -> str:
+```python
+def greet(name: str) -> str:
     return "I'm so happy to see you " + name + "!"
     print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
 
-
 def main() -> None:
     print(greet(name="Molly"))
 
 # Example usage: 
 main()
-```
-
-7. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
 
 ```
+
+6. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
+
+```python
 def greet(name: str) -> str:
     print("I'm so happy to see you " + name + "!")
     print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
 
-
 def main() -> None:
     print(greet(name="Molly"))
 
 # Example usage: 
 main()
+
 ```
 
 [Solutions](#spot-the-error-solutions)
@@ -200,14 +185,14 @@ main()
 
 7. 
 
-```
+```python
 def function_name(param_1: type_of_value, param_2: type_of_value, param_n: type_of_value) -> type_of_value:
 
 ```
 
 8. 
 
-```
+```python
 function_name(param_1=arg_1, param_2=arg_2, param_n=arg_n)
 ```
 
@@ -227,71 +212,93 @@ This works because when you call the first function, it returns a value, and tha
 
 Example: 
 
-```
+```python
 def double(x: int) -> int:
     return x * 2
 
 def add_five(y: int) -> int:
     return y + 5
-```
-```
-def greet(name: str) -> str:
-    print("Hello " + name + ", your name starts with an " + name[0] + " and ends with an " + name[len(name) - 1])
-    return "I'm so happy to see you " + name + "!"
 
-def main() -> None:
-    print(greet(name="Molly"))
-
-# Example usage: 
-main()
-```
-
-5. Looking at the following code, is there something wrong with the code that stops the execution of the example usage? If yes, what is it and why is it a problem?
+print(add_five(y=double(x=3)))
 
 ```
-def greet(name: str) -> str:
-    return "I'm so happy to see you " + name + "!"
-    print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
 
 
-def main() -> None:
-    print(greet(name="Molly"))
+## Calling functions
 
-# Example usage: 
-main()
-```
+1. **For the `flavor` function:**
+
+   To call the `flavor` function using keyword arguments:
+
+   ```python
+   flavor(taste="umami", percent=100.0)
+   ```
+
+2. **For calling the `main` function and modifying its body with keyword arguments:**
+
+   To call the `main` function with a keyword argument:
+
+   ```python
+   main(food="apple")
+   ```
+
+   In the `main` function, to call the `eat` function with keyword arguments:
+
+   ```python
+   def main(food: str) -> None:
+       food_item = "apple"
+       eat(food=food)
+   ```
+
+3. **For calling `have_done` and printing the result with keyword arguments:**
+
+   To call `have_done` with keyword arguments:
+
+   ```python
+   have_done(task="homework", completed=False)
+   ```
+
+   To print the result of this function call:
+
+   ```python
+   print(have_done(task="homework", completed=False))
+   ```
 
 
-6. Looking at the following code, is there something wrong with the code that stops the execution of the example usage? If yes, what is it and why is it a problem?
+## Spot the error
 
-```
-    greet(name: str) -> str:
-    return "I'm so happy to see you " + name + "!"
-    print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
+1. **Code Snippet 1:**
 
+   **Problem:** The `total_fuel_cost` function does not return a value. It performs a calculation but does not include a `return` statement. As a result, it returns `None` by default, which leads to `print(total_fuel_cost(...))` printing `None` which is not the intended use of line 8. 
 
-def main() -> None:
-    print(greet(name="Molly"))
+   **Solution:** Add a `return` statement in the `total_fuel_cost` function:
 
-# Example usage: 
-main()
-```
+2. **Code Snippet 2:**
 
-7. Looking at the following code, is there something wrong with the code that stops the execution of the example usage? If yes, what is it and why is it a problem?
+   **Problem:** There is no issue with this code that stops execution. The `total_fuel_cost` function correctly prints the result. 
 
-```
-def greet(name: str) -> str:
-    prtin("I'm so happy to see you " + name + "!")
-    print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
+   **Solution:** None needed; the code works as intended.
 
+3. **Code Snippet 4:**
 
-def main() -> None:
-    print(greet(name="Molly"))
+   **Problem:** There is no issue with this code that stops execution. The `greet` function prints a message and then returns a string. The `main` function calls `greet` and prints its return value.
 
-# Example usage: 
-main()
-```
+   **Solution:** None needed; the code works as intended.
 
-# Pass the return value of double() as an argument to add_five()
-print(add_five(y=double(x=4)))  # double(4) returns 8, which is passed to add_five()
-```
+4. **Code Snippet 5:**
+
+   **Problem:** The `print` statement after the `return` statement in the `greet` function is unreachable code. Once the `return` statement is executed, the function exits, and any code following it will not be executed. 
+
+   **Solution:** Move the `print` statement before the `return` statement:
+
+5. **Code Snippet 6:**
+
+   **Problem:** There is a syntax error due to incorrect indentation. The `greet` function definition is not properly aligned.
+
+   **Solution:** Correct the indentation of the `greet` function definition:
+
+6. **Code Snippet 7:**
+
+   **Problem:** There is no issue with this code that stops execution. The `greet` function prints two messages, and then `main` calls `greet` and prints its return value (which is `None`).
+
+   **Solution:** None needed; the code works as intended.
