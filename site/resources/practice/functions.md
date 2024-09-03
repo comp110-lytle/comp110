@@ -3,6 +3,7 @@ title: Functions Questions
 author:
 - Alyssa Lytle
 - Viktorya Hunanyan
+- Lizzie Coats
 - Megan Zhang
 - David Karash
 page: lessons
@@ -28,8 +29,34 @@ template: overview
 13. What happens if you call a function before it is defined? Why?
 14. How can you pass a function as an argument to another function? How does this work? Provide an example.
 
+15. The following questions questions will refer to the code snippet below: 
 
-[Solutions](#conceptual-solutions)
+```python
+    def echo(word: str, times: int) -> str:
+        return word * times
+
+    print(echo(word="hello", times=4))
+```
+
+15.1 Identify where a call to a function occurs. How do you know it is a call? 
+15.2 Where do we have a return *type* declared? 
+15.3 Where do we have a return statement? 
+15.4 What value does the call to the function hold? How do you know? Show this both through code and through a memory diagram of the snippet.
+15.5 Explain why `print(echo)` does not function the same as `echo(word="hello", times=4)`. Show this both through code and through a memory diagram of the snippet.
+15.6 Change the code to provide the same output but with a different functionality. 
+15.7 On line 2, we multiply `word` by `times`, both of which are local variables. In the operation `word * times`, what exactly is being multiplied?
+
+16. For the following code, explain what is happening on line 5 with the statement `word=word` within `returning(word=word)`. Use the following terms in your explanation: value, local variable, parameter, assignment operator, keyword argument, and call.
+
+```python
+    def returning(word: str) -> str: 
+        return word
+
+    def echo(word: str, times: int) -> str:
+        return returning(word=word) * times
+
+    print(echo(word="hello", times=4))
+```
 
 
 ## Calling functions
@@ -37,8 +64,8 @@ template: overview
 1. For the following code snippet, write a line of code that will result in the following output: 
 
 ```python
-def flavor(taste: str, percent: float) -> None:
-    print("This flavor is " + str(percent) + "% " + taste)
+    def flavor(taste: str, percent: float) -> None:
+        print("This flavor is " + str(percent) + "% " + taste)
 ```
 
 Output: 
@@ -52,119 +79,109 @@ Output:
 2. For the following code snippet, write a line of code that will call the `main` function. Next, write a line of code to be inserted within the body of the `main` function. This line should call the `eat` function with the argument passed when the main function was called. 
 
 ```python
-def eat(food: str) -> None:
-    print("Eating " + food)
+    def eat(food: str) -> None:
+        print("Eating " + food)
 
-def main(food: str) -> None:
-    food_item = "apple"
-    eat(food=food)
-
+    def main(food: str) -> None:
+        food_item = "apple"
 ```
 
 
 3. For the following code snippet, write a line of code that will call the `have_done` function with the arguments `"homework"` and `False`. If you wanted to print the string created by the `have_done` function, how would you modify your function call? 
 
 ```python
-def have_done(task, completed) -> str:
-    return "Completed " + task + ": " + str(completed)
+    def have_done(task, completed) -> str:
+        return "Completed " + task + ": " + str(completed)
 ```
-
-[Solutions](#calling-functions-solutions)
 
 
 ## Spot the error
 
 
-1. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
+1. Does the following code contain any issues that could affect its example usage?? If yes, what is it and why is it a problem?
 
 ```python
-def fuel_needed(distance: float, mpg: float) -> float:
-    return distance / mpg
+    def fuel_needed(distance: float, mpg: float) -> float:
+        return distance / mpg
 
-def total_fuel_cost(distance: float, mpg: float, price_per_gallon: float) -> float:
-    fuel_needed(distance=distance, mpg=mpg) * price_per_gallon
+    def total_fuel_cost(distance: float, mpg: float, price_per_gallon: float) -> float:
+        fuel_needed(distance=distance, mpg=mpg) * price_per_gallon
 
-# Example usage:
-print(total_fuel_cost(distance=300, mpg=25, price_per_gallon=4))
+    # Example usage:
+    print(total_fuel_cost(distance=300, mpg=25, price_per_gallon=4))
 ```
 
 
-2. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
+2. Does the following code contain any issues that could affect its example usage?? If yes, what is it and why is it a problem?
 
 
 ```python
-def fuel_needed(distance: float, mpg: float) -> float:
-    return distance / mpg
+    def fuel_needed(distance: float, mpg: float) -> float:
+        return distance / mpg
 
-def total_fuel_cost(distance: float, mpg: float, price_per_gallon: float) -> None:
-    print(fuel_needed(distance=distance, mpg=mpg) * price_per_gallon)
+    def total_fuel_cost(distance: float, mpg: float, price_per_gallon: float) -> None:
+        print(fuel_needed(distance=distance, mpg=mpg) * price_per_gallon)
 
-# Example usage:
-total_fuel_cost(distance=300, mpg=25, price_per_gallon=4)
-
+    # Example usage:
+    total_fuel_cost(distance=300, mpg=25, price_per_gallon=4)
 ```
 
-3. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
+3. Does the following code contain any issues that could affect its example usage?? If yes, what is it and why is it a problem?
 
 ```python
-def greet(name: str) -> str:
-    print("Hello " + name + ", your name starts with an " + name[0] + " and ends with an " + name[len(name) - 1])
-    return "I'm so happy to see you " + name + "!"
+    def greet(name: str) -> str:
+        print("Hello " + name + ", your name starts with an " + name[0] + " and ends with an " + name[len(name) - 1])
+        return "I'm so happy to see you " + name + "!"
 
-def main() -> None:
-    print(greet(name="Molly"))
+    def main() -> None:
+        print(greet(name="Molly"))
 
-# Example usage: 
-main()
-
+    # Example usage: 
+    main()
 ```
 
-4. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
+4. Does the following code contain any issues that could affect its example usage?? If yes, what is it and why is it a problem?
 
 ```python
-def greet(name: str) -> str:
-    return "I'm so happy to see you " + name + "!"
-    print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
+    def greet(name: str) -> str:
+        return "I'm so happy to see you " + name + "!"
+        print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
 
-def main() -> None:
-    print(greet(name="Molly"))
+    def main() -> None:
+        print(greet(name="Molly"))
 
-# Example usage: 
-main()
+    # Example usage: 
+    main()
 ```
 
 
-5. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
+5. Does the following code contain any issues that could affect its example usage?? If yes, what is it and why is it a problem?
 
 ```python
-def greet(name: str) -> str:
-    return "I'm so happy to see you " + name + "!"
-    print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
+    def greet(name: str) -> str:
+        return "I'm so happy to see you " + name + "!"
+        print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
 
-def main() -> None:
-    print(greet(name="Molly"))
+    def main() -> None:
+        print(greet(name="Molly"))
 
-# Example usage: 
-main()
-
+    # Example usage: 
+    main()
 ```
 
-6. Looking at the following code, is there something wrong with the code that stops the execution of the entire code? If yes, what is it and why is it a problem?
+6. Does the following code contain any issues that could affect its example usage?? If yes, what is it and why is it a problem?
 
 ```python
-def greet(name: str) -> str:
-    print("I'm so happy to see you " + name + "!")
-    print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
+    def greet(name: str) -> str:
+        print("I'm so happy to see you " + name + "!")
+        print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
 
-def main() -> None:
-    print(greet(name="Molly"))
+    def main() -> None:
+        print(greet(name="Molly"))
 
-# Example usage: 
-main()
-
+    # Example usage: 
+    main()
 ```
-
-[Solutions](#spot-the-error-solutions)
 
 
 # Solutions 
@@ -213,15 +230,46 @@ This works because when you call the first function, it returns a value, and tha
 Example: 
 
 ```python
-def double(x: int) -> int:
-    return x * 2
+    def double(x: int) -> int:
+        return x * 2
 
-def add_five(y: int) -> int:
-    return y + 5
+    def add_five(y: int) -> int:
+        return y + 5
 
-print(add_five(y=double(x=3)))
-
+    print(add_five(y=double(x=3)))
 ```
+
+15. The following questions questions will refer to the code snippet below: 
+
+```python
+    def echo(word: str, times: int) -> str:
+        return word * times
+
+    print(echo(word="hello", times=4))
+```
+
+15.1 Line 4. `echo` is called. We know it is a call as it follows the syntax described in question 8 of the conceptual problems. 
+
+15.2 Line 1. The signature declares the return *type*. 
+
+15.3 Line 2.  
+
+15.4 "hellohellohellohello". Show this both through code and through a memory diagram of the snippet.
+
+15.5 `echo` is a function. In memory, it holds the value `id: 1` within the `Globals` frame. When we `print(echo)`, we are printing the **value** that `echo` holds, which is the ID number, `id: 1`. `echo(word="hello", times=4)` is a call to the function and holds the return value. In code, if you type `print(echo)`, you will receive something similar to `<function echo at 0x1012a22a0>`, where `0x1012a22a0` is a hexadecimal representation of a reference number to a location in memory. Just like in memory, the name of the function, `echo`, is identified as being defined as a function.
+
+15.6 
+
+```python
+    def echo(word: str, times: int) -> None:
+        print(word * times)
+
+    echo(word="hello", times=4)
+```
+
+15.7 The **values** that the local variables hold. Whenever we reference any variable (such as a parameter), we are referencing the value that it holds. 
+
+16. On line 5, within the call `returning(word=word)`, the statement `word=word` uses a keyword argument to pass a value to the `returning` function. In this context, `word` on the left side of the `=` is a parameter in the `returning` function, while `word` on the right side is a local variable from the `echo` function. The local variable `word` holds the value `"hello"` when `echo` is executed. The assignment operator `=` is used here to pass this value to the parameter `word` in the `returning` function. Thus, the keyword argument `word=word` effectively assigns the value of the local variable `word` from `echo` to the parameter `word` in `returning`, ensuring that `returning` receives the correct value to process and return.
 
 
 ## Calling functions
@@ -231,7 +279,7 @@ print(add_five(y=double(x=3)))
    To call the `flavor` function using keyword arguments:
 
    ```python
-   flavor(taste="umami", percent=100.0)
+    flavor(taste="umami", percent=100.0)
    ```
 
 2. **For calling the `main` function and modifying its body with keyword arguments:**
@@ -239,15 +287,15 @@ print(add_five(y=double(x=3)))
    To call the `main` function with a keyword argument:
 
    ```python
-   main(food="apple")
+    main(food="apple")
    ```
 
    In the `main` function, to call the `eat` function with keyword arguments:
 
    ```python
-   def main(food: str) -> None:
-       food_item = "apple"
-       eat(food=food)
+    def main(food: str) -> None:
+        food_item = "apple"
+        eat(food=food)
    ```
 
 3. **For calling `have_done` and printing the result with keyword arguments:**
@@ -255,13 +303,13 @@ print(add_five(y=double(x=3)))
    To call `have_done` with keyword arguments:
 
    ```python
-   have_done(task="homework", completed=False)
+    have_done(task="homework", completed=False)
    ```
 
    To print the result of this function call:
 
    ```python
-   print(have_done(task="homework", completed=False))
+    print(have_done(task="homework", completed=False))
    ```
 
 
