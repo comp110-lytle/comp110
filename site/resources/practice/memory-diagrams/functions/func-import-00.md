@@ -30,7 +30,8 @@ template: overview
 <img class="img-fluid" src="/static/practice-mem-diagrams/big_func.jpg" alt="Image Description Here"  />
 
 ## Video
-*(Video Coming Soon)*
+
+[Video](https://youtu.be/vpPrAIKvMPk)
 
 ## Image Description
 *(Coming Soon)*

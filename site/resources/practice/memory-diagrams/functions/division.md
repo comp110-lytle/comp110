@@ -24,7 +24,8 @@ template: overview
 <img class="img-fluid" src="/static/practice-mem-diagrams/division.jpg" alt="Image Description Here"  />
 
 ## Video
-*(Video Coming Soon)*
+
+[Video](https://youtu.be/pG0CCElC0Tw)
 
 ## Image Description
 *(Coming Soon)*
