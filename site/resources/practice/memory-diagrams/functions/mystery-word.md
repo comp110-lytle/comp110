@@ -19,7 +19,7 @@ template: overview
         return word[index]
 
     def main(word: str) -> None:
-        print("The hidden character is: " + extract_character(word, shift_position(get_starting_point(word))))
+        print("The hidden character is: " + extract_character(word=word, index=shift_position(index=get_starting_point(word=word))))
 
     main(word="mystery")
 ```
