@@ -98,7 +98,7 @@ Output:
 ## Spot the error
 
 
-1. Does the following code contain any issues that could affect its example usage?? If yes, what is it and why is it a problem?
+1. Does the following code contain any issues that could affect its example usage? If yes, what is it and why is it a problem?
 
 ```python
     def fuel_needed(distance: float, mpg: float) -> float:
@@ -112,7 +112,7 @@ Output:
 ```
 
 
-2. Does the following code contain any issues that could affect its example usage?? If yes, what is it and why is it a problem?
+2. Does the following code contain any issues that could affect its example usage? If yes, what is it and why is it a problem?
 
 
 ```python
@@ -126,7 +126,7 @@ Output:
     total_fuel_cost(distance=300, mpg=25, price_per_gallon=4)
 ```
 
-3. Does the following code contain any issues that could affect its example usage?? If yes, what is it and why is it a problem?
+3. Does the following code contain any issues that could affect its example usage? If yes, what is it and why is it a problem?
 
 ```python
     def greet(name: str) -> str:
@@ -140,7 +140,7 @@ Output:
     main()
 ```
 
-4. Does the following code contain any issues that could affect its example usage?? If yes, what is it and why is it a problem?
+4. Does the following code contain any issues that could affect its example usage? If yes, what is it and why is it a problem?
 
 ```python
     def greet(name: str) -> str:
@@ -155,10 +155,10 @@ Output:
 ```
 
 
-5. Does the following code contain any issues that could affect its example usage?? If yes, what is it and why is it a problem?
+5. Does the following code contain any issues that could affect its example usage? If yes, what is it and why is it a problem?
 
 ```python
-    def greet(name: str) -> str:
+    greet(name: str) -> str:
         return "I'm so happy to see you " + name + "!"
         print("Hello " + name + ", your name starts with an " + str(name[0]) + " and ends with an " + str(name[len(name) - 1]))
 
@@ -169,7 +169,7 @@ Output:
     main()
 ```
 
-6. Does the following code contain any issues that could affect its example usage?? If yes, what is it and why is it a problem?
+6. Does the following code contain any issues that could affect its example usage? If yes, what is it and why is it a problem?
 
 ```python
     def greet(name: str) -> str:
@@ -327,26 +327,26 @@ Example:
 
    **Solution:** None needed; the code works as intended.
 
-3. **Code Snippet 4:**
+3. **Code Snippet 3:**
 
    **Problem:** There is no issue with this code that stops execution. The `greet` function prints a message and then returns a string. The `main` function calls `greet` and prints its return value.
 
    **Solution:** None needed; the code works as intended.
 
-4. **Code Snippet 5:**
+4. **Code Snippet 4:**
 
-   **Problem:** The `print` statement after the `return` statement in the `greet` function is unreachable code. Once the `return` statement is executed, the function exits, and any code following it will not be executed. 
+   **Problem:** The `print` statement after the `return` statement in the `greet` function is unreachable code. Once the `return` statement is executed, the function exits, and any code following it will not be executed. This does not stop the example usage however if the user wanted to print statement on line 3, this would not be outputted. 
 
    **Solution:** Move the `print` statement before the `return` statement:
 
-5. **Code Snippet 6:**
+5. **Code Snippet 5:**
 
    **Problem:** There is a syntax error due to incorrect indentation. The `greet` function definition is not properly aligned.
 
    **Solution:** Correct the indentation of the `greet` function definition:
 
-6. **Code Snippet 7:**
+6. **Code Snippet 6:**
 
-   **Problem:** There is no issue with this code that stops execution. The `greet` function prints two messages, and then `main` calls `greet` and prints its return value (which is `None`).
+   **Problem:** There is no issue with this code that stops the execution of calling `main`. The `greet` function prints two messages, and then `main` calls `greet` and prints its return value (which is `None`). It's important to note that the intended use of the example usage is to call the `main` function. There are no issues that stop this execution however there is an issue within the body of the main function which calls `greet` and tries to print its return value (which might not be intended). Since greet doesn't return anything (implicitly returns None), the output will include None instead of the intended greeting message.
 
-   **Solution:** None needed; the code works as intended.
+   **Solution:** None needed; the code works as intended. `main` is called without issues.
