@@ -27,11 +27,12 @@ template: overview
 </code></pre>
 
 # Solution
-<img class="img-fluid" src="/static/practice-mem-diagrams/big_func.jpg" alt="Image Description Here"  />
 
 ## Video
 
 [Video](https://youtu.be/vpPrAIKvMPk)
+
+<img class="img-fluid" src="/static/practice-mem-diagrams/big_func.jpg" alt="Image Description Here"  />
 
 ## Image Description
 *(Coming Soon)*

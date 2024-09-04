@@ -21,11 +21,11 @@ template: overview
 
 # Solution
 
-<img class="img-fluid" src="/static/practice-mem-diagrams/division.jpg" alt="Image Description Here"  />
-
 ## Video
 
 [Video](https://youtu.be/pG0CCElC0Tw)
+
+<img class="img-fluid" src="/static/practice-mem-diagrams/division.jpg" alt="Image Description Here"  />
 
 ## Image Description
 *(Coming Soon)*
