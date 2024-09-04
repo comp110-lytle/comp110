@@ -10,7 +10,7 @@ template: overview
 # Snippet
 
 ```
-    def division(x: int, y: int): 
+    def division(x: int, y: int) -> float: 
         return y / x
         print(y % x)
 
