@@ -39,11 +39,17 @@ template: overview
 ```
 
 15.1 Identify where a call to a function occurs. How do you know it is a call? 
+
 15.2 Where do we have a return *type* declared? 
+
 15.3 Where do we have a return statement? 
+
 15.4 What value does the call to the function hold? How do you know? Show this both through code and through a memory diagram of the snippet.
+
 15.5 Explain why `print(echo)` does not function the same as `echo(word="hello", times=4)`. Show this both through code and through a memory diagram of the snippet.
+
 15.6 Change the code to provide the same output but with a different functionality. 
+
 15.7 On line 2, we multiply `word` by `times`, both of which are local variables. In the operation `word * times`, what exactly is being multiplied?
 
 16. For the following code, explain what is happening on line 5 with the statement `word=word` within `returning(word=word)`. Use the following terms in your explanation: value, local variable, parameter, assignment operator, keyword argument, and call.
