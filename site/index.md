@@ -50,6 +50,7 @@ template: home
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span>
 <ul class="links"><li class="link"><a href="/resources/quiz-expectations.html">What to Expect</a></li>
 <li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="https://youtu.be/Og1cqDH3dKc">Review Session Recording</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-09-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Sep 9</div>
