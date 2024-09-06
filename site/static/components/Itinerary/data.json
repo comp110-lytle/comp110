@@ -220,14 +220,45 @@
             "deadline": "2024-09-06",
             "links": {
                 "What to Expect": "/resources/quiz-expectations.html",
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Sept. 5 Review Session Zoom Link (Passcode: 110110)": "https://unc.zoom.us/j/94315716790?pwd=yEEGboMyqOCsHwFzCbIlTmierVilOT.1"
+                "Practice Problems": "/resources/practice/practice-problems.html"
             }
         }
     ],
     "2024-09-07": [],
     "2024-09-08": [],
-    "2024-09-09": [],
+    "2024-09-09": [
+        {
+            "kind": "CL",
+            "n": 7,
+            "title": "Boolean Operators and Conditionals",
+            "date": "2024-09-09",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL07.pdf",
+                "Sections 03 and 04": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Conditionals (Due Monday 9/9)",
+            "date": "2024-09-09",
+            "deadline": "2024-09-09",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Boolean Operators (Due Monday 9/9)",
+            "date": "2024-09-09",
+            "deadline": "2024-09-09",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-09-10": [],
     "2024-09-11": [],
     "2024-09-12": [],
