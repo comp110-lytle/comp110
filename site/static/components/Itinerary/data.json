@@ -261,9 +261,53 @@
         }
     ],
     "2024-09-10": [],
-    "2024-09-11": [],
+    "2024-09-11": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Local Variables and User Input",
+            "date": "2024-09-11",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/",
+                "Sections 03 and 04": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "Variables and User Input (Due Wednesday 9/11)",
+            "date": "2024-09-11",
+            "deadline": "2024-09-11",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-09-12": [],
-    "2024-09-13": [],
+    "2024-09-13": [
+        {
+            "kind": "CL",
+            "n": 9,
+            "title": "Practice with Conditionals, Local Variables, and User Input",
+            "date": "2024-09-13",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/",
+                "Sections 03 and 04": "/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 2,
+            "title": "Practice with Conditionals, Local Variables, and User Input (Due Friday 9/13)",
+            "date": "2024-09-13",
+            "deadline": "2024-09-13",
+            "links": {
+                "": "/cqs/conditionals.html"
+            }
+        }
+    ],
     "2024-09-14": [],
     "2024-09-15": [],
     "2024-09-16": [],

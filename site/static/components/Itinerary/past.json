@@ -195,5 +195,34 @@
     ],
     "2024-08-31": [],
     "2024-09-01": [],
-    "2024-09-02": []
+    "2024-09-02": [],
+    "2024-09-03": [],
+    "2024-09-04": [
+        {
+            "kind": "CL",
+            "n": 6,
+            "title": "Practice with Memory Diagrams",
+            "date": "2024-09-04",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL06.pdf",
+                "Sections 03 and 04": "/static/slides/izzi/CL06Hinks.pdf"
+            }
+        }
+    ],
+    "2024-09-05": [],
+    "2024-09-06": [
+        {
+            "kind": "QZ",
+            "n": 0,
+            "title": "Quiz 0",
+            "date": "2024-09-06",
+            "deadline": "2024-09-06",
+            "links": {
+                "What to Expect": "/resources/quiz-expectations.html",
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Review Session Recording": "https://youtu.be/Og1cqDH3dKc"
+            }
+        }
+    ]
 }
