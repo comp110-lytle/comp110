@@ -4,7 +4,7 @@ from os import path
 from grading import autograde
 
 configuration = autograde.Configuration(
-    src_path="exercises/ex02_tea_party.py",
+    src_path="exercises/ex02_chardle.py",
     test_path=path.dirname(path.realpath(__file__)),
     pytest_points=90.0,
     typecheck_points=10.0,
