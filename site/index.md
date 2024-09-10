@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS07 - MON, SEP 09 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS08 - MON, SEP 09 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS09 - WED, SEP 11 11:59pm</a></li><li class="horizon-item"><a href="/exercises/tea_party.html">EX01 - THU, SEP 12 11:59pm</a></li><li class="horizon-item"><a href="/cqs/conditionals.html">CQ02 - FRI, SEP 13 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS09 - WED, SEP 11 11:59pm</a></li><li class="horizon-item"><a href="/exercises/tea_party.html">EX01 - THU, SEP 12 11:59pm</a></li><li class="horizon-item"><a href="/cqs/conditionals.html">CQ02 - FRI, SEP 13 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -50,7 +50,7 @@ template: home
 <div class="date col-md-2">Wed, Sep 11</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL08 </span><span class="title">Local Variables and User Input</span>
-<ul class="links"><li class="link"><a href="/">Sections 01 and 02</a></li>
+<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL08.pdf">Sections 01 and 02</a></li>
 <li class="link"><a href="/">Sections 03 and 04</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS09 </span><span class="title"><a href="https://www.gradescope.com/">Variables and User Input (Due Wednesday 9/11)</a></span></div></div>
