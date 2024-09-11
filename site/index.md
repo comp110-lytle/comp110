@@ -61,7 +61,8 @@ template: home
 <ul class="links"><li class="link"><a href="/">Sections 01 and 02</a></li>
 <li class="link"><a href="/">Sections 03 and 04</a></li>
 </ul></div><div class="plan Challenge Question">
-<span class="kind">CQ02 </span><span class="title"><a href="/cqs/conditionals.html">Practice with Conditionals, Local Variables, and User Input (Due Friday 9/13)</a></span></div></div>
+<span class="kind">CQ02 </span><span class="title"><a href="/cqs/conditionals.html">Practice with Conditionals, Local Variables, and User Input (Due Friday 9/13)</a></span></div><div class="plan Exercise">
+<span class="kind">EX02 </span><span class="title"><a href="/exercises/wordle-pt1.html">Chardle (Due Tuesday 9/24)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-09-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Sep 20</div>
 <div class="plans col-md-9"><div class="plan Quiz">
