@@ -1,38 +1,4 @@
 {
-    "2024-09-08": [],
-    "2024-09-09": [
-        {
-            "kind": "CL",
-            "n": 7,
-            "title": "Boolean Operators and Conditionals",
-            "date": "2024-09-09",
-            "deadline": "None",
-            "links": {
-                "Sections 01 and 02": "/static/slides/alyssa/CL07.pdf",
-                "Sections 03 and 04": "/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 7,
-            "title": "Conditionals (Due Monday 9/9)",
-            "date": "2024-09-09",
-            "deadline": "2024-09-09",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 8,
-            "title": "Boolean Operators (Due Monday 9/9)",
-            "date": "2024-09-09",
-            "deadline": "2024-09-09",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
     "2024-09-10": [],
     "2024-09-11": [
         {
@@ -43,7 +9,7 @@
             "deadline": "None",
             "links": {
                 "Sections 01 and 02": "/static/slides/alyssa/CL08.pdf",
-                "Sections 03 and 04": "/"
+                "Sections 03 and 04": "/static/slides/izzi/CL08Hinks.pdf"
             }
         },
         {
@@ -93,7 +59,18 @@
     ],
     "2024-09-14": [],
     "2024-09-15": [],
-    "2024-09-16": [],
+    "2024-09-16": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "While Loops",
+            "date": "2024-09-16",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-09-17": [],
     "2024-09-18": [],
     "2024-09-19": [],

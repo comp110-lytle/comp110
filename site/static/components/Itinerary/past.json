@@ -225,5 +225,39 @@
             }
         }
     ],
-    "2024-09-07": []
+    "2024-09-07": [],
+    "2024-09-08": [],
+    "2024-09-09": [
+        {
+            "kind": "CL",
+            "n": 7,
+            "title": "Boolean Operators and Conditionals",
+            "date": "2024-09-09",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL07.pdf",
+                "Sections 03 and 04": "/static/slides/izzi/CL07Hinks.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Conditionals (Due Monday 9/9)",
+            "date": "2024-09-09",
+            "deadline": "2024-09-09",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Boolean Operators (Due Monday 9/9)",
+            "date": "2024-09-09",
+            "deadline": "2024-09-09",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ]
 }
