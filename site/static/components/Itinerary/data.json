@@ -287,17 +287,6 @@
     "2024-09-12": [],
     "2024-09-13": [
         {
-            "kind": "CL",
-            "n": 9,
-            "title": "Practice with Conditionals, Local Variables, and User Input",
-            "date": "2024-09-13",
-            "deadline": "None",
-            "links": {
-                "Sections 01 and 02": "/",
-                "Sections 03 and 04": "/"
-            }
-        },
-        {
             "kind": "CQ",
             "n": 2,
             "title": "Practice with Conditionals, Local Variables, and User Input (Due Friday 9/13)",
@@ -323,7 +312,7 @@
     "2024-09-16": [
         {
             "kind": "CL",
-            "n": 10,
+            "n": 9,
             "title": "While Loops",
             "date": "2024-09-16",
             "deadline": "None",
