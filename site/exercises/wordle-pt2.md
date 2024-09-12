@@ -16,7 +16,8 @@ In this exercise, you will prompt the user for a word that matches the length of
 
 Follow the steps below to implement the program, one function at a time. To get a sense of where you are headed, here are two examples of the final game:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex03_wordle
     === Turn 1/6 ===
     Enter a 5 character word: dukes
@@ -53,7 +54,8 @@ Follow the steps below to implement the program, one function at a time. To get 
     Enter a 5 character word: codes
     🟩🟩🟩🟩🟩
     You won in 3/6 turns!
-~~~
+</div>
+</pre>
 
 ## Background Lesson: Advanced String Concepts
 
@@ -62,7 +64,7 @@ In this exercise you will need to make use of a few advanced string concepts:
 1. Emoji! 🤠
 2. Formatted Strings (f-Strings)
 
-Before beginning work on this exercise, read the following lesson and complete the related questions on Gradescope: [LS11 - Unicode, Emoji, Escape Sequences, and f-Strings](/lessons/strings.html)
+Before beginning work on this exercise, read the following lesson: [Unicode, Emoji, Escape Sequences, and f-Strings](/lessons/strings.html)
 
 ## Permitted Constructs
 
@@ -103,15 +105,16 @@ Right click on the `exercises` directory and select "New File". Enter the follow
 Before beginning work on the program, you should add a _docstring_ to the top of your Python _module_ just as you have previously. Then, you should add a line with the special variable named `__author__` assigned to a **string** containing your 9-digit student PID.
 
 
-## Part 1. `input_guess` -- 10 Points
+## Part 1. `input_guess` 
 
-Declare a function named `input_guess`. This function will prompt the user to enter a guess and continue prompting them until they provide a guess of the correct length, specified by the function's parameter. The parameter is an `int` that holds the value of the number of characters the guess should contain, which corresponds to the length of the secret word.
+Declare a function named `input_guess`. This function will prompt the user to enter a guess and continue prompting them until they provide a guess of the *correct length*, specified by the function's parameter. (Hint: this is the perfect scenario to use a loop.) The parameter is an `int` that holds the value of the number of characters the guess should contain, which corresponds to the length of the secret word. Once the user inputs a guess of the correct length, it should `return` the guessed word.
 
 In the previous exercise, EX02, we prompted the user for a secret word using the `input_word` function and then prompted the user for a character guess through the `input_letter` function. In both cases, we checked the validity of the length of the input. This time, since we are replicating the game Wordle, the guess word must be the same length as the secret word. Therefore, we only need one function to ensure the guess matches the length of the secret word. Everything in this game is relative to the secret word!
 
 Once you have implemented this function, you can import it for use in the REPL just like the examples above. Be sure to save your work before restarting the `python` REPL, then try the following:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python
     Python 3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
@@ -121,23 +124,24 @@ Once you have implemented this function, you can import it for use in the REPL j
     That wasn't 5 chars! Try again: gdtbath
     That wasn't 5 chars! Try again: gounc
     gounc
-    >>> print(input_guess(secret_word_len=5))
+    >>> print(input_guess(secret_word_len=6))
     Enter a 6 character word: gthd
     That wasn't 6 chars! Try again: gdtbath
     That wasn't 6 chars! Try again: goheel
     goheel
-    >>> print(input_guess(secret_word_len=5))
+    >>> print(input_guess(secret_word_len=7))
     Enter a 7 character word: goheels
     goheels
     >>> quit()
-~~~
+</div>
+</pre>
 
 As seen in the example usage, if the user provides a guess with an incorrect length, the function will *loop*, prompting them to try again until they provide a word of the correct length.
 
 Notice that as the function receives new inputs, the string outputs adjust accordingly. Be sure to use `f-string` templates for this output, as introduced in the background lesson, rather than using string concatenation.
 
 
-## Part 2. `contains_char` - 10 points
+## Part 2. `contains_char` 
 
 In EX02, we defined a function `contains_char`. This function was designed to check whether a specific character (provided as a single-character string) was present at any index within a given word (provided as a string). The function manually checked each index of the word (using multiple `if` statements), assuming a fixed length of 5 for the word. If the character was found, it printed a message indicating the index or indices where the match occurred.
 
@@ -157,7 +161,8 @@ Since the caller of this function can be expected to provide the correct argumen
 
 Once you have your best first attempt to implement this function, you can import it for use in the REPL to test it out. Save your work and then run the following commands:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python                         
     Python 3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
@@ -175,14 +180,15 @@ Once you have your best first attempt to implement this function, you can import
     Traceback (most recent call last):
     File "<stdin>", line 1, in <module>
     File "......../exercises/ex03_wordle.py", line 48, in contains_char
-        assert len(needle) == 1
+        assert len(char_guess) == 1
     AssertionError
     >>> quit()
-~~~
+</div>
+</pre>
 
 Notice, in the REPL, the line `from exercises.ex03_wordle import contains_char` will `import` your function definition `from` your `exercises.ex03_wordle` so that you can make use of your function in the REPL. You can then type out example _function calls_ to test your implementation and be sure your function definition is returning the correct and expected values, as shown above. Your results must match exactly (except for the ellipses File details near the AssertionError).
 
-## Part 3. `emojified` - 20 points
+## Part 3. `emojified` 
 
 For this next part, we will use emojis to visually represent the accuracy of a guess in relation to a secret word. The function will use colored emojis to indicate whether a character in the guess is in the correct position (green), present but in the wrong position (yellow), or not present at all (white). Unlike the previous functions, this concept introduces a new way to visualize the results using emojis!
 
@@ -194,10 +200,10 @@ Since you can reasonably expect anyone using this function to provide strings of
 
 For each index you check, you will need to build up a string using concatenation of emojis. You can use the following _named constants_ in your program to simplify your implementation. We will learn more about named constants soon, but for now know they are simply variables whose values you will not change later in your program and make your programs easier to read:
 
-~~~ {.plaintext}
-WHITE_BOX: str = "\U00002B1C"
-GREEN_BOX: str = "\U0001F7E9"
-YELLOW_BOX: str = "\U0001F7E8"
+~~~
+    WHITE_BOX: str = "\U00002B1C"
+    GREEN_BOX: str = "\U0001F7E9"
+    YELLOW_BOX: str = "\U0001F7E8"
 ~~~
 
 Your function should use a `while` loop to test each index of secret words of arbitrary lengths. Additionally, the body of this function must use `contains_char` to determine whether to use yellow or white box emojis. Consider the following scenarios to guide you toward the correct implementation:
@@ -210,7 +216,9 @@ Your function should use a `while` loop to test each index of secret words of ar
 
 
 Once you have implemented this function, you can import it for use in the REPL to test it out, just like above. Be sure to save your work each time before restarting the `python` REPL, then try the following:
-~~~ {.plaintext}
+
+<pre>
+<div class="terminal">
     $ python
     Python 3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
@@ -232,23 +240,24 @@ Once you have implemented this function, you can import it for use in the REPL t
     >>> print(emojified(guess="yikyak", secret="tiktok"))
     ⬜🟩🟩⬜⬜🟩
     >>> quit()
-~~~
+</div>
+</pre>
 
 Now you have a function that, given a guess and a secret of the same length, will Wordle emojify the results of the guess! Notice how your `emojified` function makes use of the simpler `contains_char` function to build up more complex behavior. This is the beauty of abstraction!
 
 Once your `emojified` function is working correctly, as shown above, continue on.
 
 
-## Part 4. `main` -- 30 Points
+## Part 4. `main` 
 
 Now it’s time to bring together your functions into a `main` function that handles the high-level logic of the Wordle game loop. The `main` function will set the secret word as a variable (use `"codes"` for autograding), track the number of turns the user has taken, determine if the user has won the game, and manage the flow of the game.
 
 The declaration of your `main` function is unlike the functions above because it will not have any parameters and it will return `None`. You can decare your main function as follows:
 
-~~~ {.plaintext}
-def main() -> None:
-    """The entrypoint of the program and main game loop."""
-    # Your code will go here
+~~~
+    def main() -> None:
+        """The entrypoint of the program and main game loop."""
+        # Your code will go here
 ~~~
 
 The "state" of a game refers to the variables you need to keep track of in memory in order to run the game. What variables do you need to keep track of? Define those inside of `main`'s body first.
@@ -265,7 +274,8 @@ After the game loop, if the user won, print `You won in N/6 turns!` where N is r
 
 As you are working on `main`, you can save your work and import the `main` function just like the others to try calling it:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python
     Python 3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
@@ -301,13 +311,14 @@ As you are working on `main`, you can save your work and import the `main` funct
     X/6 - Sorry, try again tomorrow!
 
     >>> quit()
-~~~
+</div>
+</pre>
 
 Once you have your `main` function and game loop working, there's only one last part. Just like with EX02, add the following snippet of code as the last 2 lines of your program (notice, there are two underscores _on both sides_ of the words `name` and `main`):
 
-~~~ {.plaintex}
-if __name__ == "__main__":
-    main()
+~~~
+    if __name__ == "__main__":
+        main()
 ~~~
 
 As mentioned before, we will fully explain what is going on in the following code snippet soon, but for now note that this is an idiom common to Python programs like the one you have written. We will learn it does two things: 1. it makes it possible to run your Python program as a module (if you tried `python -m exercises.ex03_wordle` right now you would see nothing happens), and 2. it makes it possible for other modules to _import_ your functions and reuse them. 
@@ -316,7 +327,7 @@ Now you can try running your game as a module and it should work: `python -m exe
 
 Congratulations on writing your first _structured_ program in COMP110!
 
-## Part 5. Style and Documentation Requirements -- 20 Points (Manually Graded)
+## Part 5. Style and Documentation Requirements 
 
 We will manually grade your code and are looking for good choices of meaningful variable names. Your variable names should be descriptive of their purposes. (Loop indexing variables can be short, such as `i`, or `idx`.) You should also use the Python `snake_case` convention where variable names are all lowercase and new words are separated by underscores.
 
@@ -330,7 +341,7 @@ As a general rule, if 2 or more minutes are spent thinking about how to write a 
 
 Comments don't need to be extensive, but they should reflect a genuine effort to explain the process in your own words. Commenting should be an integral part of the problem-solving process. 
 
-## Part 6. Type Safety and Linting - 9 Points
+## Part 6. Type Safety and Linting 
 
 The autograder uses industry standard tools for checking the type safety of your programs (e.g. being sure you're using variables of the correct data types in valid ways) and linting style rules. If you have point deductions on Type Safety or Linting, read through the feedback the autograder gives and it should direct you to the line number in your program with the issue.
 
