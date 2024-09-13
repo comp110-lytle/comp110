@@ -372,4 +372,4 @@ Type the following command (all on a single line):
 
 In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex01_chardle.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
-Autograding will take a few moments to complete. For this exercise there will be 20 "human graded" points. Thus, you should expect a maximum autograding score of 80 possible points on this assignment. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours!
+Autograding will take a few moments to complete. For this exercise there will be 20 "human graded" points. 

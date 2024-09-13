@@ -13,7 +13,7 @@ from _pytest.capture import CaptureFixture
 from graders.helpers import author_is_a_valid_pid, mute_output, set_stdin, import_module, reimport_module, assert_parameter_list, assert_return_type
 import pytest
 
-MODULE = "exercises.ex02_chardle"
+MODULE = "exercises.ex03_wordle"
 module: Any  # Global variable will hold the module object which can be reloaded
 
 
