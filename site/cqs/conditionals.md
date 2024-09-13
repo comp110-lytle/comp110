@@ -42,7 +42,7 @@ Create a *local variable* inside your function body that is called `secret`, is 
 
 Next in the code, you should ask the player to "Guess a number: " using the `input` function and store their response as a *local variable* in the function. 
 
-Then, print back the following string *exactly*: "Your guess was x." Where `x` is the number they input.
+Then, print back the following string *exactly*: "Your guess was x", where `x` is the number they input.
 
 Here's an example of what it should look like in your terminal:
 

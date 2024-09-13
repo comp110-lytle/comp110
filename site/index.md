@@ -59,6 +59,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ01 </span><span class="title">Quiz 1</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="/">Virtual Review Session at 7PM on 9/19</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-09-25" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Sep 25</div>
