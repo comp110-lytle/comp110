@@ -250,12 +250,12 @@ Once your `emojified` function is working correctly, as shown above, continue on
 
 ## Part 4. `main` 
 
-Now it’s time to bring together your functions into a `main` function that handles the high-level logic of the Wordle game loop. The `main` function will set the secret word as a variable (use `"codes"` for autograding), track the number of turns the user has taken, determine if the user has won the game, and manage the flow of the game.
+Now it’s time to bring together your functions into a `main` function that handles the high-level logic of the Wordle game loop. The `main` function will take as input the secret word, track the number of turns the user has taken, determine if the user has won the game, and manage the flow of the game.
 
 The declaration of your `main` function is unlike the functions above because it will not have any parameters and it will return `None`. You can decare your main function as follows:
 
 ~~~
-    def main() -> None:
+    def main(secret: str) -> None:
         """The entrypoint of the program and main game loop."""
         # Your code will go here
 ~~~
@@ -280,7 +280,7 @@ As you are working on `main`, you can save your work and import the `main` funct
     Python 3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
     >>> from exercises.ex03_wordle import main
-    >>> main()
+    >>> main(secret="codes")
     === Turn 1/6 ===
     Enter a 5 character word: ideas
     ⬜🟨🟨⬜🟩
@@ -289,7 +289,7 @@ As you are working on `main`, you can save your work and import the `main` funct
     🟩🟩🟩🟩🟩
     You won in 2/6 turns!
 
-    >>> main()
+    >>> main(secret="codes")
     === Turn 1/6 ===
     Enter a 5 character word: wohoo
     ⬜🟩⬜🟨🟨
@@ -318,7 +318,7 @@ Once you have your `main` function and game loop working, there's only one last 
 
 ~~~
     if __name__ == "__main__":
-        main()
+        main(secret="codes")
 ~~~
 
 As mentioned before, we will fully explain what is going on in the following code snippet soon, but for now note that this is an idiom common to Python programs like the one you have written. We will learn it does two things: 1. it makes it possible to run your Python program as a module (if you tried `python -m exercises.ex03_wordle` right now you would see nothing happens), and 2. it makes it possible for other modules to _import_ your functions and reuse them. 
