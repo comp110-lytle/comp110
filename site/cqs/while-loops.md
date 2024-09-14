@@ -1,7 +1,8 @@
 ---
 title: While Loops Challenge Question 
 author:
-- Alyssa Byrnes
+- Viktorya Hunanyan
+- Alyssa Lytle
 page: lessons
 template: overview
 ---
