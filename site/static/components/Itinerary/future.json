@@ -41,11 +41,12 @@
         {
             "kind": "CL",
             "n": 10,
-            "title": "While Loops Practice",
+            "title": "While Loops Practice + Positional Arguments",
             "date": "2024-09-18",
             "deadline": "None",
             "links": {
-                "": "/"
+                "Sections 01 and 02": "/static/slides/alyssa/CL10.pdf",
+                "Sections 03 and 04": ""
             }
         }
     ],

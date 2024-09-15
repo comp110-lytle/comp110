@@ -52,7 +52,10 @@ template: home
 </div><div data-type="lecture" data-date="2024-09-18" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Sep 18</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL10 </span><span class="title"><a href="/">While Loops Practice</a></span></div></div>
+<span class="kind">CL10 </span><span class="title">While Loops Practice + Positional Arguments</span>
+<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL10.pdf">Sections 01 and 02</a></li>
+<li class="link">Sections 03 and 04</li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2024-09-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Sep 20</div>
 <div class="plans col-md-9"><div class="plan Quiz">
