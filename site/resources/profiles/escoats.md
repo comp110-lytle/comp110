@@ -6,7 +6,7 @@ page: profile
 template: columns-profile
 ---
 
-![profile-photo](.../.../.../static/profile-photos/escoats.jpg)
+![profile-photo](../../../static/profile-photos/escoats.jpg)
 
 
 ## Pronouns
