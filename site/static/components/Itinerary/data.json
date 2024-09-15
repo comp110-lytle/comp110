@@ -317,12 +317,24 @@
             "date": "2024-09-16",
             "deadline": "None",
             "links": {
-                "": "/"
+                "Sections 01 and 02": "/static/slides/alyssa/CL09.pdf",
+                "Sections 03 and 04": ""
             }
         }
     ],
     "2024-09-17": [],
-    "2024-09-18": [],
+    "2024-09-18": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "While Loops Practice",
+            "date": "2024-09-18",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-09-19": [],
     "2024-09-20": [
         {
