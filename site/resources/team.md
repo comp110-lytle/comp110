@@ -75,6 +75,11 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/jaylim.html"><img src="/static/profile-photos/jaylim.PNG" class="profile-image"> </a><figcaption>Jayden Lim</figcaption></figure>
 
+  <figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/jimenao.html"><img src="/static/profile-photos/jimenao.jpg" class="profile-image"> </a>
+    <figcaption>Jimena Ortiz-Paniagua</figcaption>
+  </figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
     <a href="/resources/profiles/ktbailey.html"><img src="/static/profile-photos/ktbailey.jpg" class="profile-image"> </a>
     <figcaption>Kate Bailey</figcaption>
