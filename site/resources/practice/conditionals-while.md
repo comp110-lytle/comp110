@@ -82,13 +82,13 @@ You might not need to use all and can use any multiple times: `while`, `<conditi
 
 All subquestions of this problem will refer to this pseudo code snippet:
 
-```python
-if <condition1>:
-    <do something>
-elif <condition2>:
-    <do something>
-else:
-    <do something>
+```
+    if <condition1>:
+        <do_something>
+    elif <condition2>:
+        <do_something>
+    else:
+        <do_something>
 ```
 
 9. From the general format of a conditional with an `elif` block, what needs to be True and/or False in order for the `elif` block to evaluate?
@@ -100,19 +100,19 @@ else:
 All subquestions of this problem will refer to this code snippet:
 
 ```python
-def main() -> None: 
-    x: str = "x"
-    y: str = "y"
-    z: str = x
-    y = x
-    x = "y"
+    def main() -> None: 
+        x: str = "x"
+        y: str = "y"
+        z: str = x
+        y = x
+        x = "y"
 
-    if not(x != y and x != "y"):
-        print(f"x: {x}")
-    else:
-        print("'if' condition not met.")
+        if not(x != y and x != "y"):
+            print(f"x: {x}")
+        else:
+            print("'if' condition not met.")
 
-main()
+    main()
 ```
 
 11. What is the condition in this code?
@@ -156,28 +156,28 @@ main()
 
 5. 
 ```python
-if <condition> == True:
-    <do something>
-else:
-    <do something>
+    if <condition> == True:
+        <do_something>
+    else:
+        <do_something>
 ```
 OR
 ```python
-if <condition>:
-    <do something>
-else:
-    <do something>
+    if <condition>:
+        <do_something>
+    else:
+        <do_something>
 ```
 
 6. 
 ```python
-while <condition> == True:
-    <do something>
+    while <condition> == True:
+        <do_something>
 ```
 OR
 ```python
-while <condition>:
-    <do something>
+    while <condition>:
+        <do_something>
 ```
 
 7. The condition must always evaluate to `True`.
