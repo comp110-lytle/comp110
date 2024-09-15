@@ -2,7 +2,6 @@
 title: Practice Memory Diagram
 author:
 - Created by Viktorya Hunanyan
-- Review and Solution by Julia Guzzo
 page: lessons
 template: overview
 ---
@@ -32,13 +31,12 @@ template: overview
         """Main entrypoint into the program."""
         print(check_number(num=13))
 
-    if __name__ == "__main__":
-        main()
+    main()
 ```
 
 # Solution
 
-<img class="img-fluid" src="/static/practice-mem-diagrams/while-prime-soln.jpg" alt="Image Description Here"  />
+<img class="img-fluid" src="/static/practice-mem-diagrams/while-prime-soln.jpg" alt="Image Description Here" width="600" height="500" />
 
 ## Video
 *(Video Coming Soon)*
