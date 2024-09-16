@@ -10,7 +10,7 @@ from graders.helpers import reimport_module, assert_parameter_list, assert_retur
 MODULE = "CQs.cq03_while_loops"
 module = None
 
-@mark.weight(0)
+@mark.weight(1)
 def test_author():
     """__author__ str variable is correct PID format."""
     module = reimport_module(MODULE)
@@ -22,18 +22,16 @@ def test_num_instances_params():
     """num_instances should take two parameters: phrase and search_char."""
     module = reimport_module(MODULE)
     # Check the parameter list of the num_instances function
-    assert_parameter_list(module.num_instances, ['phrase', 'search_char'])  # WHY IS THIS NOT WORKINGGG????? 
+    assert_parameter_list(module.num_instances, [str, str])  
 
 
 @mark.weight(1)
 def test_num_instances_return_type():
     """num_instances should return an integer."""
     module = reimport_module(MODULE)
-    # Call num_instances with a sample input and check the return type
-    result = module.num_instances('HelloHello', 'e')
-    assert_return_type(result, int)  # WHY IS THIS NOT WORKINGGG????? 
+    assert_return_type(module.num_instances, int)  
 
-@mark.weight(2)
+@mark.weight(5)
 def test_num_instances_basic_cases():
     """num_instances returns correct count for basic test cases."""
     module = reimport_module(MODULE)
