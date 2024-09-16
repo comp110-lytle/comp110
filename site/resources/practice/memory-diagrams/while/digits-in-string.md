@@ -2,6 +2,7 @@
 title: Practice Memory Diagram
 author:
 - Created by Viktorya Hunanyan
+- Solution by Lizzie Coats
 page: lessons
 template: overview
 ---
@@ -34,7 +35,7 @@ template: overview
 
     def main() -> None: 
         """Main entry point of the program."""
-        text: str = "abc123def456ghi789"
+        text: str = "abc123"
         result: int = count_digits(text)
         print(result)
 
@@ -42,9 +43,8 @@ template: overview
 ```
 
 # Solution
-*(Solution Coming Soon)*
 
-<!-- <img class="img-fluid" src="/static/practice-mem-diagrams/while-prime-soln.jpg" alt="Image Description Here"  /> -->
+<img class="img-fluid" src="/static/practice-mem-diagrams/num_count.jpg" alt="Image Description Here"  />
 
 ## Video
 *(Video Coming Soon)*
