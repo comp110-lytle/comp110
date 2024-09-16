@@ -284,5 +284,27 @@
             }
         }
     ],
-    "2024-09-12": []
+    "2024-09-12": [],
+    "2024-09-13": [
+        {
+            "kind": "CQ",
+            "n": 2,
+            "title": "Practice with Conditionals, Local Variables, and User Input (Due Friday 9/13)",
+            "date": "2024-09-13",
+            "deadline": "2024-09-13",
+            "links": {
+                "": "/cqs/conditionals.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "Chardle (Due Tuesday 9/24)",
+            "date": "2024-09-13",
+            "deadline": "2024-09-24",
+            "links": {
+                "": "/exercises/wordle-pt1.html"
+            }
+        }
+    ]
 }
