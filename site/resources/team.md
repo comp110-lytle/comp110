@@ -130,6 +130,11 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/sarahflo2.html"><img src="/static/profile-photos/sarahflo2.png" class="profile-image"></a> <figcaption>Sarah Chocron</figcaption></figure>
 
+  <figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/sgopal.html"><img src="/static/profile-photos/sgopal.png" class="profile-image"> </a>
+    <figcaption>Sanjana Gopalswamy</figcaption>
+  </figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/shainap.html"><img src="/static/profile-photos/shainap.jpg" class="profile-image"> </a><figcaption>Shaina Patel</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/sborkar.html"><img src="/static/profile-photos/sborkar.png" class="profile-image"> </a><figcaption>Siddhant Borkar</figcaption></figure>
