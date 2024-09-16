@@ -29,7 +29,7 @@ template: overview
 
     def main() -> None:
         """Main entry point of the program."""
-        test_string: str = "Hello, how are you doing today?"
+        test_string: str = "Team 1 1 0"
         result: str = analyze_string(test_string)
         print(result)
 
@@ -37,9 +37,8 @@ template: overview
 ```
 
 # Solution
-*(Solution Coming Soon)*
 
-<!-- <img class="img-fluid" src="/static/practice-mem-diagrams/while-prime-soln.jpg" alt="Image Description Here"  /> -->
+<img class="img-fluid" src="/static/practice-mem-diagrams/analyze_string.jpg" alt="Image Description Here"  />
 
 ## Video
 *(Video Coming Soon)*
