@@ -313,12 +313,12 @@
         {
             "kind": "CL",
             "n": 9,
-            "title": "While Loops",
+            "title": "while Loops",
             "date": "2024-09-16",
             "deadline": "None",
             "links": {
                 "Sections 01 and 02": "/static/slides/alyssa/CL09.pdf",
-                "Sections 03 and 04": ""
+                "Sections 03 and 04": "/static/slides/izzi/CL09Hinks.pdf"
             }
         }
     ],
@@ -327,12 +327,22 @@
         {
             "kind": "CL",
             "n": 10,
-            "title": "While Loops Practice + Positional Arguments",
+            "title": "while Loops Practice + Positional Arguments",
             "date": "2024-09-18",
             "deadline": "None",
             "links": {
                 "Sections 01 and 02": "/static/slides/alyssa/CL10.pdf",
                 "Sections 03 and 04": ""
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 10,
+            "title": "while Loop Statements (Due Wednesday 9/18)",
+            "date": "2024-09-18",
+            "deadline": "2024-09-18",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],
@@ -346,7 +356,7 @@
             "deadline": "2024-09-20",
             "links": {
                 "Practice Problems": "/resources/practice/practice-problems.html",
-                "Virtual Review Session at 7PM on 9/19": "/"
+                "Virtual Review Session at 7PM on 9/19 (Passcode: 110110)": "https://unc.zoom.us/j/94058782506?pwd=MhTTb8uk3vS4kyVMvCWrSaJf9oH8Da.1"
             }
         }
     ],
