@@ -42,7 +42,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL09 </span><span class="title">while Loops</span>
 <ul class="links"><li class="link"><a href="/static/slides/alyssa/CL09.pdf">Sections 01 and 02</a></li>
-<li class="link"><a href="/static/slides/izzi/CL09inks.pdf">Sections 03 and 04</a></li>
+<li class="link"><a href="/static/slides/izzi/CL09Hinks.pdf">Sections 03 and 04</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-09-18" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Sep 18</div>
