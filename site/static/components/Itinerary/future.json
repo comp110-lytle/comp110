@@ -1,5 +1,4 @@
 {
-    "2024-09-14": [],
     "2024-09-15": [],
     "2024-09-16": [
         {
@@ -11,6 +10,16 @@
             "links": {
                 "Sections 01 and 02": "/static/slides/alyssa/CL09.pdf",
                 "Sections 03 and 04": "/static/slides/izzi/CL09Hinks.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 10,
+            "title": "while Loop Statements<s><i>(Due Monday 9/16)</i></s> (Extended to Wednesday 9/18)",
+            "date": "2024-09-16",
+            "deadline": "2024-09-16",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],
@@ -28,13 +37,13 @@
             }
         },
         {
-            "kind": "LS",
-            "n": 10,
-            "title": "while Loop Statements (Due Wednesday 9/18)",
+            "kind": "CQ",
+            "n": 3,
+            "title": "while Loops Practice (Due Wednesday 9/18)",
             "date": "2024-09-18",
             "deadline": "2024-09-18",
             "links": {
-                "": "https://www.gradescope.com/"
+                "": "/cqs/while-loops.html"
             }
         }
     ],

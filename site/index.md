@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS010 - WED, SEP 18 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ01 - FRI, SEP 20 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS010*(EXTENDED)* - WED, SEP 18 11:59pm</a></li><li class="horizon-item"><a href="/cqs/while-loops.html">CQ03 - WED, SEP 18 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ01 - FRI, SEP 20 11:59pm</a></li><li class="horizon-item"><a href="/exercises/wordle-pt1.html">EX02 - TUE, SEP 24 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -43,15 +43,16 @@ template: home
 <span class="kind">CL09 </span><span class="title">while Loops</span>
 <ul class="links"><li class="link"><a href="/static/slides/alyssa/CL09.pdf">Sections 01 and 02</a></li>
 <li class="link"><a href="/static/slides/izzi/CL09Hinks.pdf">Sections 03 and 04</a></li>
-</ul></div></div>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS10 </span><span class="title"><a href="https://www.gradescope.com/">while Loop Statements<s><i>(Due Monday 9/16)</i></s> (Extended to Wednesday 9/18)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-09-18" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Sep 18</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL10 </span><span class="title">while Loops Practice + Positional Arguments</span>
 <ul class="links"><li class="link"><a href="/static/slides/alyssa/CL10.pdf">Sections 01 and 02</a></li>
 <li class="link">Sections 03 and 04</li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS10 </span><span class="title"><a href="https://www.gradescope.com/">while Loop Statements (Due Wednesday 9/18)</a></span></div></div>
+</ul></div><div class="plan Challenge Question">
+<span class="kind">CQ03 </span><span class="title"><a href="/cqs/while-loops.html">while Loops Practice (Due Wednesday 9/18)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-09-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Sep 20</div>
 <div class="plans col-md-9"><div class="plan Quiz">
