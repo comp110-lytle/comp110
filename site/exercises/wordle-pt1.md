@@ -309,7 +309,7 @@ Now you can try running your game as a module and it should work: `python -m exe
 
     $ python -m exercises.ex02_chardle
     Enter a 5-character word: tarheels
-    Error: Word must contain 5 characters
+    Error: Word must contain 5 characters.
 
     $ python -m exercises.ex02_chardle
     Enter a 5-character word: hello
