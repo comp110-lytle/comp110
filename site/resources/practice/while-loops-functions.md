@@ -46,7 +46,7 @@ template: overview
 
 [Solutions](#conceptual-solutions)
 
-## Function Writing
+<!-- ## Function Writing
 
 1. `num_instances`
 
@@ -54,7 +54,7 @@ Write a function called `num_instances`. Given two strings, `inp_str` and `searc
 
 2. `multiple_each_val_by_idx`
 
-Implement a function that processes an integer by multiplying each of its digits by their respective index positions and `return`s the result as a string.
+Implement a function that processes an integer by multiplying each of its digits by their respective index positions and `return`s the result as a string. -->
 
 
 # Solutions
@@ -75,7 +75,7 @@ The output box contains a line that says (in quotes) 2 is even. Then, on the nex
 
 1.3 There would be an error because `x` is a local variable inside both `f` and `g`. Therefore, the program does not recognize that `x` exists in this context.
 
-## Function Writing Solutions
+<!-- ## Function Writing Solutions
 
 1. Solution to `num_instances`
 
@@ -136,4 +136,4 @@ def multiple_each_val_by_idx(number: int) -> str:
 
  # Example usage
  print(multiple_each_val_by_idx(10784))  # Output should be "00142416"
-```
+``` -->
