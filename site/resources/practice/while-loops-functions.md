@@ -24,7 +24,7 @@ template: overview
     def f(x: int) -> int:
         """Function 0"""
         if x % 2 == 0:
-            print(f"{x} is even")
+            print(str(x) + " is even")
         else:
             x += 1
         return x
