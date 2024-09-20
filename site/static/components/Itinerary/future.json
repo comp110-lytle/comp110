@@ -1,28 +1,4 @@
 {
-    "2024-09-15": [],
-    "2024-09-16": [
-        {
-            "kind": "CL",
-            "n": 9,
-            "title": "while Loops",
-            "date": "2024-09-16",
-            "deadline": "None",
-            "links": {
-                "Sections 01 and 02": "/static/slides/alyssa/CL09.pdf",
-                "Sections 03 and 04": "/static/slides/izzi/CL09Hinks.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 10,
-            "title": "while Loop Statements<s><i>(Due Monday 9/16)</i></s> (Extended to Wednesday 9/18)",
-            "date": "2024-09-16",
-            "deadline": "2024-09-16",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
     "2024-09-17": [],
     "2024-09-18": [
         {
@@ -33,7 +9,7 @@
             "deadline": "None",
             "links": {
                 "Sections 01 and 02": "/static/slides/alyssa/CL10.pdf",
-                "Sections 03 and 04": ""
+                "Sections 03 and 04": "/static/slides/izzi/CL10Hinks.pdf"
             }
         },
         {
@@ -57,7 +33,7 @@
             "deadline": "2024-09-20",
             "links": {
                 "Practice Problems": "/resources/practice/practice-problems.html",
-                "Virtual Review Session at 7PM on 9/19 (Passcode: 110110)": "https://unc.zoom.us/j/94058782506?pwd=MhTTb8uk3vS4kyVMvCWrSaJf9oH8Da.1"
+                "Review Session Recording": "https://youtu.be/z98ObWODtf4"
             }
         }
     ],
