@@ -376,6 +376,27 @@
     "2024-09-24": [],
     "2024-09-25": [
         {
+            "kind": "CL",
+            "n": 11,
+            "title": "Global Variables and Scope",
+            "date": "2024-09-25",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL11.pdf",
+                "Sections 03 and 04": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 11,
+            "title": "Global Variables and Scope (Due Wednesday 9/25)",
+            "date": "2024-09-25",
+            "deadline": "2024-09-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
             "kind": "EX",
             "n": 3,
             "title": "Wordle (Due Thursday 10/3)",

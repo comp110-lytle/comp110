@@ -331,5 +331,30 @@
                 "": "https://www.gradescope.com/"
             }
         }
-    ]
+    ],
+    "2024-09-17": [],
+    "2024-09-18": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "while Loops Practice + Positional Arguments",
+            "date": "2024-09-18",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL10.pdf",
+                "Sections 03 and 04": "/static/slides/izzi/CL10Hinks.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 3,
+            "title": "while Loops Practice (Due Wednesday 9/18)",
+            "date": "2024-09-18",
+            "deadline": "2024-09-18",
+            "links": {
+                "": "/cqs/while-loops.html"
+            }
+        }
+    ],
+    "2024-09-19": []
 }
