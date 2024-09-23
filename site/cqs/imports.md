@@ -55,7 +55,7 @@ Now, still working in the file `concatenation.py`, create the global variables `
 
 ## Part 2. `visualize.py`
 
-### Part 2.1 Import the function
+### Part 2.0 Import the function
 
 In `visualize.py` *import* the function `concat` from `concatentation.py`. *Do not call the function yet!* 
 
@@ -65,17 +65,59 @@ Try running your file either in the trailhead or the terminal.
 
 What happens? You should see an output! That's because it is running the entire module including the function call from `concatenation.py` when you import the function!
 
-### 2.2 Suppress the function call
+### 2.1 Suppress the function call
 
 Add *something* to `concatenation.py` so that the function call still occurs when you run the `concatentation.py` file, but not when you import it.  *(Hint: We covered this in our previous lesson! It's something you've commonly used in assignments leading up to this one!*)
 
-### 2.3 Global Variables 
+### 2.2 Global Variables 
 
 Now let's actually *call* the `concat` function in `visualize.py`!
 
 Let's first create some global variables! Create variable `x` with value `"123"` and `y` with value `"abc"`. Call `concat` using `x` and `y` as your arguments!
 
 
-<!-- ## Part 2. `get_coords` Function
+## Part 3. `coordinates.py` 
 
-In `coordinates.py`,  write a function that matches the following description: -->
+### Part 3.0 `get_coords` Function
+
+In `coordinates.py`,  write a function that matches the following description: 
+
+- Name: `get_coords`
+- Parameters: `xs: str` and `ys: str`
+- Return type: `None`
+- Behavior: It should *print* the formatted pairs of each character in the two input strings. (See example.)
+
+<pre>
+<div class="terminal">
+>>> from CQs.cq04.coordinates import get_coords
+>>> get_coords("12","34")
+(1,3)
+(1,4)
+(2,3)
+(2,4)
+>>> get_coords("hi","bye")
+(h,b)
+(h,y)
+(h,e)
+(i,b)
+(i,y)
+(i,e)
+</div>
+</pre>
+
+For this, you're going want to use a while loop *inside* another while loop, or a **nested while loop**. Your outer loop will iterate over every character in `xs` and your inner loop will iterate over every character in `ys` and contain the `print` statement.
+
+### Part 3.1 Importing and calling the `get_coords` function
+
+Now, go back to `visualize.py` and *import* the function `get_coords` from `coordinates.py`. 
+
+Call `get_coords` using your existing `x` and `y` global variables!
+
+
+##  Part 4. Submission
+
+For this assignment, you're actually going to compress the entire `cq04` file to submit! You can do this by using the following command: 
+
+```python -m tools.submission CQs/cq04```
+
+As usual, drop the generated .zip file into Gradescope!
