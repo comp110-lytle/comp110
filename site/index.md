@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/wordle-pt1.html">EX02 - TUE, SEP 24 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS011 - WED, SEP 25 11:59pm</a></li><li class="horizon-item"><a href="/cqs/imports.html">CQ04 - FRI, SEP 27 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/wordle-pt1.html">EX02 - TUE, SEP 24 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS011 - WED, SEP 25 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS012 - WED, SEP 25 11:59pm</a></li><li class="horizon-item"><a href="/cqs/imports.html">CQ04 - FRI, SEP 27 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -44,7 +44,8 @@ template: home
 <ul class="links"><li class="link"><a href="/static/slides/alyssa/CL11.pdf">Sections 01 and 02</a></li>
 <li class="link"><a href="/">Sections 03 and 04</a></li>
 </ul></div><div class="plan Lesson">
-<span class="kind">LS11 </span><span class="title"><a href="https://www.gradescope.com/">Global Variables and Scope (Due Wednesday 9/25)</a></span></div><div class="plan Exercise">
+<span class="kind">LS11 </span><span class="title"><a href="https://www.gradescope.com/">Global Variables and Scope (Due Wednesday 9/25)</a></span></div><div class="plan Lesson">
+<span class="kind">LS12 </span><span class="title"><a href="https://www.gradescope.com/">Importing Modules (Due Wednesday 9/25)</a></span></div><div class="plan Exercise">
 <span class="kind">EX03 </span><span class="title"><a href="/exercises/wordle-pt2.html">Wordle (Due Thursday 10/3)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-09-27" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Sep 27</div>
