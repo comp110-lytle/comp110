@@ -50,7 +50,7 @@ In `concatenation.py`, write a function that matches the following description:
 
 ### Part 1.2 Calling the `concat` Function
 
-Now, still working in the file `concatenation.py`, create the global variables `word1` with the value `"happy"` and `word2` with the value `"tuesday"` print the result of calling `concat` with the arguments `word1` and `word2`.
+Now, still working in the file `concatenation.py`, create the global variables `word1` with the value `"happy"` and `word2` with the value `"tuesday"`. Print the result of calling `concat` with the arguments `word1` and `word2`.
 
 
 ## Part 2. `visualize.py`
