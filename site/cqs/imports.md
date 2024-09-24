@@ -24,6 +24,8 @@ Inside your **cq04** folder, create the following three files (right click and s
 - `concatenation.py`
 - `visualize.py`
 
+Initialize each file with a Docstring and the `__author__` variable.
+
 ## Part 1. `concatenation.py`
 
 ### Part 1.1 `concat` Function
