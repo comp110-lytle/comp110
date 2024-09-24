@@ -73,7 +73,7 @@ Add *something* to `concatenation.py` so that the function call still occurs whe
 
 Now let's actually *call* the `concat` function in `visualize.py`!
 
-Let's first create some global variables! Create variable `x` with value `"123"` and `y` with value `"abc"`. Call `concat` using `x` and `y` as your arguments!
+Let's first create some global variables! Create variable `x` with value `"123"` and `y` with value `"abc"`. Call `concat` using `x` and `y` as your arguments and `print` the result!
 
 
 ## Part 3. `coordinates.py` 
