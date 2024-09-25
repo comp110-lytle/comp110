@@ -89,6 +89,21 @@ Example usage:
 
 Hint: You will need to use a `while` loop to iterate over every element in the list. 
 
+## Part 3. Calling double()
+Let's see an example of how lists work in memory.
+
+1. Create a global variable called  `list_1` that is a `list[int]` and has a value of `[1, 2, 3]`.
+
+2. Create another global variable called `list_2` that is also a `list[int]` and set it equal to `list_1`. 
+
+3. Call the `double` function with `list_2` as the argument.
+
+4. Add two print statements for `list_1` and `list_2`. 
+
+__Before you continue: What will be printed for `list_1`? What will be printed for `list_2`?__
+
+5. Test out your theory by running your code either in Trailhead or the REPL.
+
 ## Submission
 
 Create a .zip file by running the following command in your terminal:
