@@ -378,7 +378,7 @@
         {
             "kind": "CL",
             "n": 11,
-            "title": "Global Variables and Scope",
+            "title": "Global Variables, Scope, and Importing",
             "date": "2024-09-25",
             "deadline": "None",
             "links": {
@@ -399,7 +399,7 @@
         {
             "kind": "LS",
             "n": 12,
-            "title": "Importing Modules (Due Wednesday 9/25)",
+            "title": "Importing Modules<s><i>(Due Wednesday 9/25)</i></s> (Extended to Friday 9/27)",
             "date": "2024-09-25",
             "deadline": "2024-09-25",
             "links": {
