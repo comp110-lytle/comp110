@@ -1,5 +1,5 @@
 ---
-title: CQ03 - Lists + Functions
+title: CQ05 - Lists
 author:
   - Alyssa Lytle
 page: lessons
@@ -40,7 +40,7 @@ For this challenge question, you are going to practice writing a function that *
 
 ## Part 0. Setup
 
-Start by opening your workspace in Visual Studio. Right click on the "lessons" folder and select "add file". Your file will be named `mutate.py`.
+Start by opening your workspace in Visual Studio. Right click on the "CQs" folder and select "add file". Your file will be named `mutate.py`.
 
 Set up your document by adding the docstring:
 `"""Mutating functions."""` and initializing the `__author__` variable with your PID.
@@ -49,10 +49,10 @@ Set up your document by adding the docstring:
 
 Write a function definition with the following expectations:
 
-- The function name is `manual_append` has a `list[int]` and an `int` as parameters.
+- The function name is `manual_append`. It has a `list[int]` and an `int` as parameters.
 - The function should return *nothing*.
-- The function should *mutate* its input *appending* the `int` parameter to the end of the `list[int]` parameter.
-- Explicitly type variables, parameters, and return types. 
+- The function should *mutate* its input by *appending* the `int` parameter to the end of the `list[int]` parameter.
+- Make sure to explicitly type variables, parameters, and return types. 
 
 Example usage:
 <pre>
@@ -93,7 +93,7 @@ Hint: You will need to use a `while` loop to iterate over every element in the l
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission lessons/mutate.py```
+```python -m tools.submission CQs/mutate.py```
 
 Then, drag and drop that .zip file into Gradescope!
 
