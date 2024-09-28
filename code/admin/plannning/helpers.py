@@ -151,6 +151,7 @@ def merge(a: Dict[date, List[Plan]], b: Dict[date, List[Plan]]) -> Dict[date, Li
                     merged[day].append(plan)
     return merged
 
+
 def calendar_table(dates: Dict[date, List[Plan]], end_date: date = None) -> HTML:
     """Produce an HTML calendar representation of a Date->List[Plan] dictionary."""
     table = [["Date", "Weekday", "Plan"]]
@@ -251,8 +252,12 @@ def horizonize(dates: Dict[date, List[Plan]], end_date: date = None) -> list[Hor
                 time = " 11:59pm"
             else:
                 continue
-            descript: str = str(item.kind).strip(
-                "Kind.") + "0" + str(item.n) + " - " + (d8.strftime("%a, %b %d")).upper() + time
+            if item.n < 10:
+                descript: str = str(item.kind).strip(
+                    "Kind.") + "0" + str(item.n) + " - " + (d8.strftime("%a, %b %d")).upper() + time
+            else:
+                descript: str = str(item.kind).strip(
+                    "Kind.") + str(item.n) + " - " + (d8.strftime("%a, %b %d")).upper() + time
             if item.extension != item.deadline:
                 descript: str = str(item.kind).strip(
                     "Kind.") + "0" + str(item.n) + "*(EXTENDED)* - " + (d8.strftime("%a, %b %d")).upper() + time
