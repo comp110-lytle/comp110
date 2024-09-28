@@ -311,7 +311,6 @@ As you are working on `main`, you can save your work and import the `main` funct
     X/6 - Sorry, try again tomorrow!
 
     >>> main(secret="codess")
-
     === Turn 1/6 ===
     Enter a 6 character word: s
     That wasn't 6 chars! Try again: horses
@@ -336,7 +335,6 @@ As you are working on `main`, you can save your work and import the `main` funct
     Enter a 6 character word: peonys
     ⬜🟨🟨⬜⬜🟩
     X/6 - Sorry, try again tomorrow!
-
     >>> quit()
 </div>
 </pre>
