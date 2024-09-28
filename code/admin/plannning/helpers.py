@@ -253,10 +253,10 @@ def horizonize(dates: Dict[date, List[Plan]], end_date: date = None) -> list[Hor
             else:
                 continue
             descript: str = f"{str(item.kind).strip(
-                "Kind.")}{item.n: 02} - {(d8.strftime("%a, %b %d")).upper()}{time}"
+                'Kind.')}{item.n: 02} - {(d8.strftime('%a, %b %d')).upper()}{time}"
             if item.extension != item.deadline:
                 descript = f"{str(item.kind).strip(
-                    "Kind.")}{item.n: 02}*(EXTENDED) * - {(d8.strftime("%a, %b %d")).upper()}{time}"
+                    'Kind.')}{item.n: 02}*(EXTENDED) * - {(d8.strftime('%a, %b %d')).upper()}{time}"
             plan = HorizonPlan(descript, strip_links(
                 item.links), d8, item.kind)
             horizon_dates.append(plan)
