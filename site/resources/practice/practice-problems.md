@@ -26,11 +26,11 @@ If you ever find yourself feeling really lost, feel free to take these questions
 
 ## Quiz 01
 
-- [Conditionals](/resources/practice/conditionals.html)
+- [Conditionals and While Loops](/resources/practice/conditionals-while.html)
 - [Boolean Expressions](/resources/practice/boolean-expressions.html)
 - [While Loops](/resources/practice/while-loops.html)
 - [While Loops + Functions](/resources/practice/while-loops-functions.html)
-- [Function Writing: while loops *(to-do)*](/resources/practice/function-writing.html)
+<!-- - [Function Writing: while loops *(to-do)*](/resources/practice/function-writing.html) -->
 
 ## Quiz 02
 

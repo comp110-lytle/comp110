@@ -1,97 +1,62 @@
 {
-    "2024-09-03": [],
-    "2024-09-04": [
-        {
-            "kind": "CL",
-            "n": 6,
-            "title": "Practice with Memory Diagrams",
-            "date": "2024-09-04",
-            "deadline": "None",
-            "links": {
-                "Sections 01 and 02": "/static/slides/alyssa/CL06.pdf",
-                "Sections 03 and 04": "/static/slides/izzi/CL06Hinks.pdf"
-            }
-        }
-    ],
-    "2024-09-05": [],
-    "2024-09-06": [
-        {
-            "kind": "QZ",
-            "n": 0,
-            "title": "Quiz 0",
-            "date": "2024-09-06",
-            "deadline": "2024-09-06",
-            "links": {
-                "What to Expect": "/resources/quiz-expectations.html",
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Review Session Recording": "https://youtu.be/Og1cqDH3dKc"
-            }
-        }
-    ],
-    "2024-09-07": [],
-    "2024-09-08": [],
-    "2024-09-09": [
-        {
-            "kind": "CL",
-            "n": 7,
-            "title": "Boolean Operators and Conditionals",
-            "date": "2024-09-09",
-            "deadline": "None",
-            "links": {
-                "Sections 01 and 02": "/static/slides/alyssa/CL07.pdf",
-                "Sections 03 and 04": "/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 7,
-            "title": "Conditionals (Due Monday 9/9)",
-            "date": "2024-09-09",
-            "deadline": "2024-09-09",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 8,
-            "title": "Boolean Operators (Due Monday 9/9)",
-            "date": "2024-09-09",
-            "deadline": "2024-09-09",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-09-10": [],
-    "2024-09-11": [],
-    "2024-09-12": [],
-    "2024-09-13": [],
-    "2024-09-14": [],
-    "2024-09-15": [],
-    "2024-09-16": [],
-    "2024-09-17": [],
-    "2024-09-18": [],
-    "2024-09-19": [],
-    "2024-09-20": [
-        {
-            "kind": "QZ",
-            "n": 1,
-            "title": "Quiz 1",
-            "date": "2024-09-20",
-            "deadline": "2024-09-20",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html"
-            }
-        }
-    ],
-    "2024-09-21": [],
-    "2024-09-22": [],
     "2024-09-23": [],
     "2024-09-24": [],
-    "2024-09-25": [],
+    "2024-09-25": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "Global Variables, Scope, and Importing",
+            "date": "2024-09-25",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL11.pdf",
+                "Sections 03 and 04": "/static/slides/izzi/CL11Hinks.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 11,
+            "title": "Global Variables and Scope (Due Wednesday 9/25)",
+            "date": "2024-09-25",
+            "deadline": "2024-09-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 12,
+            "title": "Importing Modules<s><i>(Due Wednesday 9/25)</i></s> (Extended to Friday 9/27)",
+            "date": "2024-09-25",
+            "deadline": "2024-09-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 3,
+            "title": "Wordle (Due Thursday 10/3)",
+            "date": "2024-09-25",
+            "deadline": "2024-10-03",
+            "links": {
+                "": "/exercises/wordle-pt2.html"
+            }
+        }
+    ],
     "2024-09-26": [],
-    "2024-09-27": [],
+    "2024-09-27": [
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "Variables, Scope, and Importing Functions (Due Friday 9/27)",
+            "date": "2024-09-27",
+            "deadline": "2024-09-27",
+            "links": {
+                "": "/cqs/imports.html"
+            }
+        }
+    ],
     "2024-09-28": [],
     "2024-09-29": [],
     "2024-09-30": [],

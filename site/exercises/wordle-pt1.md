@@ -18,7 +18,8 @@ In this exercise, you will prompt the user for a five-character word and a singl
 
 You should follow the steps below for implementing the program one step at a time. To get a sense of where you are going, consider what we expect the output to be given some example inputs:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex02_chardle
     Enter a 5-character word: hello
     Enter a single character: h
@@ -58,7 +59,7 @@ You should follow the steps below for implementing the program one step at a tim
     Enter a 5-character word: hello
     Enter a single character: hello
     Error: Character must be a single character.
-~~~
+</div></pre>
 
 
 ## Part 0. Setting up the Python Program
@@ -91,7 +92,8 @@ Your function is responsible for asking the user to enter a 5-character word. Th
 
 Write your prompts and diagnostic message such that you can reproduce the following in the shell after saving and running your program. Here is an example usage:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     >>> input_word()
     Enter a 5-character word: camp
     Error: Word must contain 5 characters.
@@ -105,7 +107,8 @@ Write your prompts and diagnostic message such that you can reproduce the follow
     >>> input_word()
     Enter a 5-character word: ducky
     'ducky'
-~~~
+</div>
+</pre>
 
 If the input word has a length of 5, it should return that input word.
 If the input word has a length of anything other than 5, it should return that input word, but first it should print: `Error: Word must contain 5 characters.`
@@ -124,7 +127,8 @@ So far, we have not implemented the 'checking' system for when a word is of vali
 
 Now that we can obtain a word from the user and verify its length, we will do the same for obtaining a character. Create a function called `input_letter` that gathers input from the user. Like the `input_word` function, `input_letter` should prompt the user to enter a single character. This input should be stored as a local `str` variable within your `input_letter` function. Below is an example usage you should be able to reproduce exactly:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     >>> input_letter()
     Enter a single character: eeee
     Error: Character must be a single character.
@@ -138,7 +142,8 @@ Now that we can obtain a word from the user and verify its length, we will do th
     >>> input_letter()
     Enter a single character: r
     'r'
-~~~
+</div>
+</pre>
 
 
 ## Part 3. Checking Indices for Matches
@@ -147,7 +152,8 @@ Now that we are able to gather input from `input_word` and `input_letter`, our n
 
 Soon you will learn a more efficient way of performing these checks using a concept called a _loop_. For now, you will need to check each of the five indices of the word string to see if it is equal to the character string. _If_ so, _then_ you should print out a message indicating the letter being searched for was found at a given index. Your goal in this part is to be able to do the following:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     >>> contains_char(word="kitty", letter="z")
     Searching for z in kitty
 
@@ -170,7 +176,8 @@ Soon you will learn a more efficient way of performing these checks using a conc
     z found at index 1
     z found at index 3
     z found at index 4
-~~~
+</div>
+</pre>
 
 ## Part 4. Counting Matching Indices 
 
@@ -180,7 +187,8 @@ Working in the same function, `contains_char`, establish a variable to _count_ t
 
 You will need to exactly match the output formatting of the examples below. Specifically, notice that there are different messages depending on whether no matches are found, a singular match is found, or multiple matches are found (i.e., *No instances* vs. *1 instance* vs. *2 instances*).
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     >>> contains_char("kitty", "z")
     Searching for z in kitty
     No instances of z found in kitty
@@ -207,7 +215,8 @@ You will need to exactly match the output formatting of the examples below. Spec
     z found at index 3
     z found at index 4
     3 instances of z found in pzazz
-~~~
+</div>
+</pre>
 
 ## Part 5. Exiting Early for Invalid Inputs 
 
@@ -218,7 +227,8 @@ There is a special built-in function called `exit()` that will send a signal to 
 
 Here is how your program should work after completing this part:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     >>> input_word()
     Enter a 5-character word: pzazzzz
     Error: Word must contain 5 characters.
@@ -226,7 +236,8 @@ Here is how your program should work after completing this part:
     >>> input_letter()
     Enter a single character: tar
     Error: Character must be a single character.
-~~~
+</div>
+</pre>
 
 
 ## Part 6. Putting everything together 
@@ -239,7 +250,8 @@ Start by defining a function named `main` that does not take any parameters as i
 
 Here is how your program should work after completing this part:
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     >>> main()
     Enter a 5-character word: lives
     Enter a single character: l
@@ -250,18 +262,20 @@ Here is how your program should work after completing this part:
     >>> main()
     Enter a 5-character word: elephant
     Error: Word must contain 5 characters.
-~~~
+</div>
+</pre>
 
 Once you have your `main` function and game loop working, there's only one bit of icing left to add to your delicious code cake. We will fully explain what is going on in the following code snippet soon, but for now note that this is an idiom common to Python programs like the one you have written. We will learn it does two things: 1. it makes it possible to run your Python program as a module (if you tried `python -m exercises.ex02_chardle` right now you would see nothing happens), and 2. it makes it possible for other modules to _import_ your functions and reuse them. Add the following snippet of code as the last 2 lines of your program (notice, there are two underscores _on both sides_ of the words `name` and `main`):
 
-~~~ {.plaintex}
+~~~ {.python}
 if __name__ == "__main__":
     main()
 ~~~
 
 Now you can try running your game as a module and it should work: `python -m exercises.ex02_chardle`.
 
-~~~ {.plaintext}
+<pre>
+<div class="terminal">
     $ python -m exercises.ex02_chardle
     Enter a 5-character word: hello
     Enter a single character: h
@@ -295,13 +309,14 @@ Now you can try running your game as a module and it should work: `python -m exe
 
     $ python -m exercises.ex02_chardle
     Enter a 5-character word: tarheels
-    Error: Word must contain 5 characters
+    Error: Word must contain 5 characters.
 
     $ python -m exercises.ex02_chardle
     Enter a 5-character word: hello
     Enter a single character: hello
     Error: Character must be a single character.
-~~~
+</div>
+</pre>
 
 
 ## Part 7. Style and Documentation Requirements (Manually Graded)
