@@ -371,5 +371,51 @@
         }
     ],
     "2024-09-21": [],
-    "2024-09-22": []
+    "2024-09-22": [],
+    "2024-09-23": [],
+    "2024-09-24": [],
+    "2024-09-25": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "Global Variables, Scope, and Importing",
+            "date": "2024-09-25",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL11.pdf",
+                "Sections 03 and 04": "/static/slides/izzi/CL11Hinks.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 11,
+            "title": "Global Variables and Scope (Due Wednesday 9/25)",
+            "date": "2024-09-25",
+            "deadline": "2024-09-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 12,
+            "title": "Importing Modules<s><i>(Due Wednesday 9/25)</i></s> (Extended to Friday 9/27)",
+            "date": "2024-09-25",
+            "deadline": "2024-09-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 3,
+            "title": "Wordle (Due Thursday 10/3)",
+            "date": "2024-09-25",
+            "deadline": "2024-10-03",
+            "links": {
+                "": "/exercises/wordle-pt2.html"
+            }
+        }
+    ],
+    "2024-09-26": []
 }
