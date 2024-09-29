@@ -23,6 +23,16 @@
             "links": {
                 "": "/"
             }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Lists (Due Monday 9/30)",
+            "date": "2024-09-30",
+            "deadline": "2024-09-30",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
         }
     ],
     "2024-10-01": [],
