@@ -1,6 +1,16 @@
 {
     "2024-09-27": [
         {
+            "kind": "CL",
+            "n": 12,
+            "title": "Variables, Scope, and Importing Functions",
+            "date": "2024-09-27",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        },
+        {
             "kind": "CQ",
             "n": 4,
             "title": "Variables, Scope, and Importing Functions (Due Friday 9/27)",
@@ -16,12 +26,13 @@
     "2024-09-30": [
         {
             "kind": "CL",
-            "n": 12,
+            "n": 13,
             "title": "Lists",
             "date": "2024-09-30",
             "deadline": "None",
             "links": {
-                "": "/"
+                "Sections 01 and 02": "/static/slides/alyssa/CL13.pdf",
+                "Sections 03 and 04": ""
             }
         },
         {
@@ -39,12 +50,13 @@
     "2024-10-02": [
         {
             "kind": "CL",
-            "n": 13,
+            "n": 14,
             "title": "Lists in Memory",
             "date": "2024-10-02",
             "deadline": "None",
             "links": {
-                "": "/"
+                "Sections 01 and 02": "/static/slides/alyssa/CL14.pdf",
+                "Sections 03 and 04": ""
             }
         }
     ],
