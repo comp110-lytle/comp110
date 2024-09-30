@@ -1,26 +1,4 @@
 {
-    "2024-09-27": [
-        {
-            "kind": "CL",
-            "n": 12,
-            "title": "Variables, Scope, and Importing Functions",
-            "date": "2024-09-27",
-            "deadline": "None",
-            "links": {
-                "": "/"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 4,
-            "title": "Variables, Scope, and Importing Functions<s><i>(Due Friday 9/27)</i></s> (Extended to Monday 9/30)",
-            "date": "2024-09-27",
-            "deadline": "2024-09-27",
-            "links": {
-                "": "/cqs/imports.html"
-            }
-        }
-    ],
     "2024-09-28": [],
     "2024-09-29": [],
     "2024-09-30": [
@@ -32,7 +10,7 @@
             "deadline": "None",
             "links": {
                 "Sections 01 and 02": "/static/slides/alyssa/CL13.pdf",
-                "Sections 03 and 04": ""
+                "Sections 03 and 04": "/static/slides/izzi/CL13Hinks.pdf"
             }
         },
         {
@@ -72,6 +50,16 @@
     ],
     "2024-10-03": [],
     "2024-10-04": [
+        {
+            "kind": "CQ",
+            "n": 5,
+            "title": "Lists Practice (Due Friday 10/4)",
+            "date": "2024-10-04",
+            "deadline": "2024-10-04",
+            "links": {
+                "": "/cqs/lists.html"
+            }
+        },
         {
             "kind": "EX",
             "n": 4,

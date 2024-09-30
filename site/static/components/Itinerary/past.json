@@ -417,5 +417,27 @@
             }
         }
     ],
-    "2024-09-26": []
+    "2024-09-26": [],
+    "2024-09-27": [
+        {
+            "kind": "CL",
+            "n": 12,
+            "title": "Variables, Scope, and Importing Functions",
+            "date": "2024-09-27",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "Variables, Scope, and Importing Functions<s><i>(Due Friday 9/27)</i></s> (Extended to Monday 9/30)",
+            "date": "2024-09-27",
+            "deadline": "2024-09-27",
+            "links": {
+                "": "/cqs/imports.html"
+            }
+        }
+    ]
 }

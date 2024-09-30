@@ -37,17 +37,12 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-09-27" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Sep 27</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL12 </span><span class="title"><a href="/">Variables, Scope, and Importing Functions</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ04 </span><span class="title"><a href="/cqs/imports.html">Variables, Scope, and Importing Functions<s><i>(Due Friday 9/27)</i></s> (Extended to Monday 9/30)</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-09-30" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-09-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Sep 30</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL13 </span><span class="title">Lists</span>
 <ul class="links"><li class="link"><a href="/static/slides/alyssa/CL13.pdf">Sections 01 and 02</a></li>
-<li class="link">Sections 03 and 04</li>
+<li class="link"><a href="/static/slides/izzi/CL13Hinks.pdf">Sections 03 and 04</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS13 </span><span class="title"><a href="https://www.gradescope.com/">Lists (Due Monday 9/30)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-10-02" class="row itinerary-row py-2">
@@ -60,7 +55,8 @@ template: home
 <span class="kind">LS14 </span><span class="title"><a href="https://www.gradescope.com/">Lists in Memory (Due Wednesday 10/2)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-10-04" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Oct 4</div>
-<div class="plans col-md-9"><div class="plan Exercise">
+<div class="plans col-md-9"><div class="plan Challenge Question">
+<span class="kind">CQ05 </span><span class="title"><a href="/cqs/lists.html">Lists Practice (Due Friday 10/4)</a></span></div><div class="plan Exercise">
 <span class="kind">EX04 </span><span class="title"><a href="/">List Utils (Due Sunday 10/13)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-10-14" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Oct 14</div>
@@ -112,7 +108,12 @@ template: home
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-09-25" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-09-27" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Sep 27</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL12 </span><span class="title"><a href="/">Variables, Scope, and Importing Functions</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ04 </span><span class="title"><a href="/cqs/imports.html">Variables, Scope, and Importing Functions<s><i>(Due Friday 9/27)</i></s> (Extended to Monday 9/30)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-09-25" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Sep 25</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL11 </span><span class="title">Global Variables, Scope, and Importing</span>
