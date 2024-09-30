@@ -58,24 +58,52 @@ template: home
 <li class="link">Sections 03 and 04</li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS14 </span><span class="title"><a href="https://www.gradescope.com/">Lists in Memory (Due Wednesday 10/2)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-10-04" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Oct 4</div>
+<div class="plans col-md-9"><div class="plan Exercise">
+<span class="kind">EX04 </span><span class="title"><a href="/">List Utils (Due Sunday 10/13)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-10-14" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Oct 14</div>
+<div class="plans col-md-9"><div class="plan Exercise">
+<span class="kind">EX05 </span><span class="title"><a href="/">List Unit Tests (Due Tuesday 10/22)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-10-23" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Oct 23</div>
+<div class="plans col-md-9"><div class="plan Exercise">
+<span class="kind">EX06 </span><span class="title"><a href="/">Dictionary Utils (Due Tuesday 10/29)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-10-25" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Oct 25</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ02 </span><span class="title">Quiz 2</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
 </ul></div></div>
+</div><div data-type="lecture" data-date="2024-11-01" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Nov 1</div>
+<div class="plans col-md-9"><div class="plan Exercise">
+<span class="kind">EX07 </span><span class="title"><a href="/">River Simulation (Due Sunday 11/10)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-08" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Nov 8</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
 </ul></div></div>
+</div><div data-type="lecture" data-date="2024-11-11" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Nov 11</div>
+<div class="plans col-md-9"><div class="plan Exercise">
+<span class="kind">EX08 </span><span class="title"><a href="/">Data Utils (Due Sunday 11/17)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-11-18" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Nov 18</div>
+<div class="plans col-md-9"><div class="plan Exercise">
+<span class="kind">EX09 </span><span class="title"><a href="/">Recursive Turtle (Due Sunday 11/24)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Nov 22</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ04 </span><span class="title">Quiz 4</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
 </ul></div></div>
+</div><div data-type="lecture" data-date="2024-11-25" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Nov 25</div>
+<div class="plans col-md-9"><div class="plan Exercise">
+<span class="kind">EX10 </span><span class="title"><a href="/">Linked List Utils (Due Wednesday 12/4)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-12-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Sat, Dec 7</div>
 <div class="plans col-md-9"><div class="plan Final">
