@@ -10,7 +10,7 @@ template: overview
 
 For this challenge question, we are going to get more practice starting with a *standard* function definition and redefining it as a *recursive* python function.
 
-This is exactly what we did in the [virtual lesson](https://comp110-24s.github.io/virtual-classes/VL08.html)!
+<!-- This is exactly what we did in the [virtual lesson](https://comp110-24s.github.io/virtual-classes/VL08.html)! -->
 
 ## Standard Function Definition
 
@@ -52,13 +52,13 @@ This will help you find out your *recursive definition* and you can use that to 
 
 ## Writing the Function
 
-Inside your `lessons` folder, create a file called `recursion.py`. Use that file to define `f`.
+Inside your `CQs` folder, create a file called `cq11_recursion.py`. Use that file to define `f`.
 
 Your function should result in the following functionality:
 
 <pre>
 <div class="terminal">
->>> from lessons.recursion import f
+>>> from CQs.cq11_recursion import f
 >>> f(2,2)
 4
 >>> f(3,4)
@@ -72,4 +72,4 @@ Your function should result in the following functionality:
 
 Create a submission by running: 
 
-`python -m tools.submission lessons/recursion.py`
+`python -m tools.submission CQs/cq11_recursion.py`

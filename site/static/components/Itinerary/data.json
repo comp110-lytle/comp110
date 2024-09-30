@@ -477,6 +477,16 @@
                 "Sections 01 and 02": "/static/slides/alyssa/CL14.pdf",
                 "Sections 03 and 04": ""
             }
+        },
+        {
+            "kind": "LS",
+            "n": 14,
+            "title": "Lists in Memory (Due Wednesday 10/2)",
+            "date": "2024-10-02",
+            "deadline": "2024-10-02",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
         }
     ],
     "2024-10-03": [],

@@ -40,7 +40,7 @@ For this challenge question, you are going to practice writing a function that *
 
 ## Part 0. Setup
 
-Start by opening your workspace in Visual Studio. Right click on the "CQs" folder and select "add file". Your file will be named `mutate.py`.
+Start by opening your workspace in Visual Studio. Right click on the "CQs" folder and select "add file". Your file will be named `cq05_lists.py`.
 
 Set up your document by adding the docstring:
 `"""Mutating functions."""` and initializing the `__author__` variable with your PID.
@@ -57,7 +57,7 @@ Write a function definition with the following expectations:
 Example usage:
 <pre>
 <div class="terminal">>>> a: list[int] = [1,2,3]
->>> from lessons.mutate import manual_append
+>>> from lessons.cq05_lists import manual_append
 >>> manual_append(a, 2)
 >>> print(a)
 [1,2,3,2]
@@ -79,7 +79,7 @@ Write a function definition with the following expectations:
 Example usage:
 <pre>
 <div class="terminal">>>> a: list[int] = [1,2,3]
->>> from lessons.mutate import double
+>>> from lessons.cq05_lists import double
 >>> double(a)
 >>> print(a)
 [2,4,6]
@@ -108,7 +108,7 @@ __Before you continue: What will be printed for `list_1`? What will be printed f
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission CQs/mutate.py```
+```python -m tools.submission CQs/cq05_lists.py```
 
 Then, drag and drop that .zip file into Gradescope!
 

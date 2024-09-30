@@ -12,7 +12,7 @@ For this challenge question, you are going to write a function that iterates ove
 
 ## Part 0. Setup
 
-Start by opening your workspace in Visual Studio. Right click on the "lessons" folder and select "add file". Your file will be named `unzip.py`.
+Start by opening your workspace in Visual Studio. Right click on the "CQs" folder and select "add file". Your file will be named `cq08_unzip.py`.
 
 Set up your document by adding the docstring:
 `"""Splitting a dictionary into two lists"""` and initializing the `__author__` variable with your PID.
@@ -31,7 +31,7 @@ Write a function definition with the following expectations:
 
 Example usage:
 <pre>
-<div class="terminal">>>> from lessons.unzip import get_keys
+<div class="terminal">>>> from CQs.cq08_unzip import get_keys
 >>> test: dict[str, int] = {"Hello" : 1, "World" : 2}
 >>> get_keys(test)
 ['Hello', 'World']
@@ -54,7 +54,7 @@ Write a function definition with the following expectations:
 
 Example usage:
 <pre>
-<div class="terminal">>>> from lessons.unzip import get_values
+<div class="terminal">>>> from CQs.cq08_unzip import get_values
 >>> test: dict[str, int] = {"Hello" : 1, "World" : 2}
 >>> get_values(test)
 [1, 2]
@@ -66,7 +66,7 @@ Example usage:
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission lessons/unzip.py```
+```python -m tools.submission CQs/cq08_unzip.py```
 
 Then, drag and drop that .zip file into Gradescope!
 
