@@ -224,7 +224,7 @@ Once you have implemented this function, you can import it for use in the REPL t
     Type "help", "copyright", "credits" or "license" for more information.
     >>> from exercises.ex03_wordle import emojified
     >>> print(emojified(guess="hello", secret="world"))
-    ⬜🟨⬜🟩⬜
+    ⬜⬜🟨🟩🟨
     >>> print(emojified(guess="elloh", secret="hello"))
     🟨🟨🟩🟨🟨
     >>> print(emojified(guess="python", secret="wohoo"))
