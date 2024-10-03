@@ -1,5 +1,5 @@
 ---
-title: EX09 - Data Utility Methods
+title: EX08 - Data Utility Methods
 author:
     - Alyssa Lytle
     - Kris Jordan
@@ -123,7 +123,7 @@ Both `columnar_early_data` and `columnar_later_data` should be dictionaries with
 
 Now, you are going to add some functionality to the `DataFrames` class!
 
-### 2.0 `__init__`
+<!-- ### 2.0 `__init__`
 
 ### 2.1 `__add__`
 
@@ -133,8 +133,12 @@ Now, you are going to add some functionality to the `DataFrames` class!
 
 ### 2.4 `filter_by_col_value`
 
-### 2.5 `filter_by_rank`
+### 2.5 `filter_by_rank` -->
 
 ## Part 3. Push to Backup
 
+Git push instructions
+
 ## Part 4. Submission
+
+Submission instructions
