@@ -441,5 +441,28 @@
         }
     ],
     "2024-09-28": [],
-    "2024-09-29": []
+    "2024-09-29": [],
+    "2024-09-30": [
+        {
+            "kind": "CL",
+            "n": 13,
+            "title": "Lists",
+            "date": "2024-09-30",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL13.pdf",
+                "Sections 03 and 04": "/static/slides/izzi/CL13Hinks.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Lists (Due Monday 9/30)",
+            "date": "2024-09-30",
+            "deadline": "2024-09-30",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ]
 }

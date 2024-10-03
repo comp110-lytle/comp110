@@ -139,7 +139,7 @@ Implement the `is_equal` function as described above.
 
 ## 4. `extend` -- 20 Points
 
-Given two `list`s of `int` values, *mutate* the first `list` of `int` values by appending the second `list`'s values to the end of it. (Think of this is something similar to concatentation in `string`s!) Do *NOT* use the built-in `extend` method for lists.
+Given two `list`s of `int` values, *mutate* the first `list` of `int` values by appending the second `list`'s values to the end of it. (Think of this is something similar to concatentation in `string`s!) **Do *NOT* use the built-in `extend` method for lists.**
 
 Note that this function is not *returning* anything! It is only *mutating* one of the inputs.
 
