@@ -1,5 +1,5 @@
 ---
-title: CQ05 - Lists
+title: CQ05 - Lists Practice
 author:
   - Alyssa Lytle
 page: lessons
@@ -35,6 +35,8 @@ However, let's do something similar for a list!
 ```
 
 This will actually *mutate* the list used as an argument in the function call!
+
+To get more comfortable with this idea, you can watch [this video](https://www.youtube.com/watch?v=DuSEcQMsZRE) to see how this works in memory!
 
 For this challenge question, you are going to practice writing a function that *mutates* its input!
 
