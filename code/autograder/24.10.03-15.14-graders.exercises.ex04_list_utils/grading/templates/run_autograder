@@ -1,0 +1,12 @@
+#!/bin/bash
+
+GRADER={{ grader_module }}
+
+PY=$(which python3.11)
+
+export GRADING_SUBMISSION_ROOT=/autograder/submission
+export GRADING_GRADER_ROOT=/autograder/source
+export PYTHONPATH="${GRADING_GRADER_ROOT}:${GRADING_SUBMISSION_ROOT}"
+
+cd ${GRADING_GRADER_ROOT}
+$PY -m ${GRADER} >/autograder/results/results.json

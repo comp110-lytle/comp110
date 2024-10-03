@@ -1,16 +1,14 @@
-"""Autograder for Exercise 04."""
+"""Autograder for CQ06, unit test practice"""
 
 from os import path
 from grading import autograde
 
 configuration = autograde.Configuration(
-    src_path="exercises/ex04_utils.py",
+    src_path="lessons",
     test_path=path.dirname(path.realpath(__file__)),
-    pytest_points=80.0,
-    typecheck_points=10.0,
-    lint_points=10.0,
-    ec_date_1="2022-09-17",
-    ec_date_2="2022-09-18"
+    pytest_points=90.0,
+    typecheck_points=5.0,
+    lint_points=5.0
 )
 
 results = autograde.run(configuration)
