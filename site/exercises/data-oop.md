@@ -21,7 +21,7 @@ You will find the starter files needed by "pulling" from the course workspace re
 3. Return to the File Explorer pane and open the `exercises` directory. You should see it now contains another directory named `ex08`. If you expand that directory, you should see the starter files for the code you'll be writing.
 4. If you do not see the `ex08` directory, try once more but selecting `"Pull From"` and select `origin` in step 2.
 
-### Understanding the Exercise files
+### Understanding the Exercise Files + Install Required Library
 
 In your `ex08` directory, you should now have the following three files:
 
@@ -32,6 +32,16 @@ In your `ex08` directory, you should now have the following three files:
 You'll notice these files already have some skeleton code in them. They provide an outline of what your code will look like, but it's your job to give them functionality! 
 
 Additionally, you should see a `data` folder appear in your workspace with some .csv files! This is the data we are going to use in `analyze_data.py` to test your functions and methods! There are two datasets of popular baby names in New York from different year ranges.
+
+#### Required Library
+
+You'll need to use the `tabulate` library for visualizing data in this assignment. In order to install this library, paste the following command in your terminal:
+
+<pre><div class="terminal">python -m pip install tabulate
+</div>
+</pre>
+
+***IF YOU RESTART YOUR CONTAINER, YOU'LL HAVE TO RERUN THIS COMMAND!***
 
 ## Part 1: Data Utils
 
