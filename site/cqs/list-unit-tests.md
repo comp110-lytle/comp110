@@ -12,7 +12,7 @@ This challenge question serves two functions: to get more practice writing a fun
 
 ## Part 0. Setup.
 
-Write click on your "lessons" folder and select "New Folder". Your new folder will be titled "CQ05". Then right click on "CQ05" and select "New File". Your new file will be called `find_max.py`. Then, click on "CQ05" and select "New File" again. This file will be called `max_test.py`. Go ahead and initialize both files with your `__author__` variable.
+Write click on your "lessons" folder and select "New Folder". Your new folder will be titled "CQ07". Then right click on "CQ07" and select "New File". Your new file will be called `find_max.py`. Then, click on "CQ07" and select "New File" again. This file will be called `max_test.py`. Go ahead and initialize both files with your `__author__` variable.
 
 ## Part 1. `find_and_remove_max`
 
@@ -27,7 +27,7 @@ Here is some example behavior:
 
 <pre>
 <div class="terminal">python
->>> from lessons.CQ05.find_max import find_and_remove_max
+>>> from lessons.CQ07.find_max import find_and_remove_max
 >>> a: list[int] = []
 >>> find_and_remove_max(a)
 -1
@@ -61,8 +61,8 @@ You should write:
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission lessons/CQ05```
+```python -m tools.submission CQs/CQ07```
 
-(For this assignment, you'll have to submit your entire CQ05 folder!)
+(For this assignment, you'll have to submit your entire CQ07 folder!)
 
 Then, drag and drop that .zip file into Gradescope!

@@ -1,10 +1,10 @@
-"""Autograder for lists practice"""
+"""Autograder CQ04: Imports + Global Vars."""
 
 from os import path
 from grading import autograde
 
 configuration = autograde.Configuration(
-    src_path="CQs/cq05_lists.py",
+    src_path="CQs/cq04",
     test_path=path.dirname(path.realpath(__file__)),
     pytest_points=90.0,
     typecheck_points=10.0,

@@ -12,7 +12,7 @@ For this challenge question, you are going to write three different functions th
 
 ## Part 0. Setup
 
-Start by opening your workspace in Visual Studio. Right click on the "lessons" folder and select "add file". Your file will be named `sum.py`.
+Start by opening your workspace in Visual Studio. Right click on the "CQs" folder and select "add file". Your file will be named `cq06_sum.py`.
 
 Set up your document by adding the docstring:
 `"""Summing the elements of a list using different loops"""` and initializing the `__author__` variable with your PID.
@@ -36,6 +36,6 @@ Finally, write a function called `f_range_sum` that performs the same way as the
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission lessons/sum.py```
+```python -m tools.submission CQs/cq06_sum.py```
 
 Then, drag and drop that .zip file into Gradescope!
