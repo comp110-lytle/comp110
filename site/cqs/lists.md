@@ -75,7 +75,7 @@ Write a function definition with the following expectations:
 
 - The function name is `double` and has a `list[int]` as a parameter.
 - The function should return *nothing*.
-- The function should *mutate* its input by multiplying every element in the `list[int]` parameter by 2
+- The function should *mutate* its input by looping through the list and multiplying every element in the `list[int]` parameter by 2
 - Explicitly type variables, parameters, and return types. 
 
 Example usage:
