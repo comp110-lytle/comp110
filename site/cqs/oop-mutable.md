@@ -19,7 +19,7 @@ This ideas also applies to methods! As we've talked about previously, methods of
 For this CQ, we are going to create and compare two similar methods. They both have similar functionality, but one *mutates* the class object and one does not.
 
 ## 0. Set up files
-Create a new folder inside "CQs" called "cq09" and a new file inside of it titled "point.py".
+Create a new folder inside `CQs` called `cq09` and a new file inside of it titled `point.py`.
 
 ## 1. Create `Point` class
 
