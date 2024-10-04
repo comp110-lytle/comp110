@@ -1,5 +1,5 @@
 ---
-title: CQ03 - Lists + Functions
+title: CQ05 - Lists Practice
 author:
   - Alyssa Lytle
 page: lessons
@@ -36,11 +36,13 @@ However, let's do something similar for a list!
 
 This will actually *mutate* the list used as an argument in the function call!
 
+To get more comfortable with this idea, you can watch [this video](https://www.youtube.com/watch?v=DuSEcQMsZRE) to see how this works in memory!
+
 For this challenge question, you are going to practice writing a function that *mutates* its input!
 
 ## Part 0. Setup
 
-Start by opening your workspace in Visual Studio. Right click on the "lessons" folder and select "add file". Your file will be named `mutate.py`.
+Start by opening your workspace in Visual Studio. Right click on the "CQs" folder and select "add file". Your file will be named `cq05_lists.py`.
 
 Set up your document by adding the docstring:
 `"""Mutating functions."""` and initializing the `__author__` variable with your PID.
@@ -49,15 +51,15 @@ Set up your document by adding the docstring:
 
 Write a function definition with the following expectations:
 
-- The function name is `manual_append` has a `list[int]` and an `int` as parameters.
+- The function name is `manual_append`. It has a `list[int]` and an `int` as parameters.
 - The function should return *nothing*.
-- The function should *mutate* its input *appending* the `int` parameter to the end of the `list[int]` parameter.
-- Explicitly type variables, parameters, and return types. 
+- The function should *mutate* its input by *appending* the `int` parameter to the end of the `list[int]` parameter.
+- Make sure to explicitly type variables, parameters, and return types. 
 
 Example usage:
 <pre>
 <div class="terminal">>>> a: list[int] = [1,2,3]
->>> from lessons.mutate import manual_append
+>>> from CQS.cq05_lists import manual_append
 >>> manual_append(a, 2)
 >>> print(a)
 [1,2,3,2]
@@ -79,7 +81,7 @@ Write a function definition with the following expectations:
 Example usage:
 <pre>
 <div class="terminal">>>> a: list[int] = [1,2,3]
->>> from lessons.mutate import double
+>>> from CQs.cq05_lists import double
 >>> double(a)
 >>> print(a)
 [2,4,6]
@@ -89,11 +91,26 @@ Example usage:
 
 Hint: You will need to use a `while` loop to iterate over every element in the list. 
 
+## Part 3. Calling double()
+Let's see an example of how lists work in memory.
+
+1. Create a global variable called  `list_1` that is a `list[int]` and has a value of `[1, 2, 3]`.
+
+2. Create another global variable called `list_2` that is also a `list[int]` and set it equal to `list_1`. 
+
+3. Call the `double` function with `list_2` as the argument.
+
+4. Add two print statements for `list_1` and `list_2`. 
+
+__Before you continue: What will be printed for `list_1`? What will be printed for `list_2`?__
+
+5. Test out your theory by running your code either in Trailhead or the REPL.
+
 ## Submission
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission lessons/mutate.py```
+```python -m tools.submission CQs/cq05_lists.py```
 
 Then, drag and drop that .zip file into Gradescope!
 
