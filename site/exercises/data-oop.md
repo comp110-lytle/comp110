@@ -221,6 +221,12 @@ Implementation strategy:
     3. Assign the produced list of column values to the dictionary established in step 1.
 3. Use the dictionary to create a new `DataFrame` and return it!
 
+
+#### Test your method
+
+
+You can test your method in the REPL with the following small example:
+
 <pre><div class="terminal">/workspace (main*) » python
 >>> from exercises.ex08.DataFrame import DataFrame
 >>> data: dict[str, list[str]] = {"first_name": ["alyssa", "izzi", "sophie", "viktorya"], "last_name": ["lytle","hink
@@ -249,7 +255,76 @@ s", "jiang", "hunanyan"]}
 +--------------+-------------+
 </div></pre>
 
+In `analyze_data.py`, you'll see the `head` method is used to get the first 10 entries of data.
+
+```
+first_ten: DataFrame = df.head(10)
+```
+
+Visualize the result using 
+
+```
+first_ten.tabulate()
+```
+
 ### 2.3 `select`
+
+Now, say we want to reason about a subset of the *columns* in our table. 
+
+Why: Many data tables will contain many columns that are not related to the analysis you are trying to perform. _Selecting_ only the columns you care about makes it easier to focus your attention on the problem at hand.
+
+* Function Name: `select`
+* Parameters:
+    1. `self` - a `DataFrame`
+    2. `list[str]` - the names of the columns to copy to the new, returned `DataFrame`
+* Return type: `DataFrame`
+
+Implementation strategy:
+
+1. Establish an empty dictionary.
+2. Loop through each of the columns _in the second parameter of the function_
+    1. Assign to the column key of the result dictionary the list of values stored in the input dictionary at the same column
+3. Use the dictionary to create a new `DataFrame` and return it!
+
+#### Test your method
+
+You can test your method in the REPL with the following small example:
+
+<pre><div class="terminal">/workspace (main*) » python
+>>> from exercises.ex08.DataFrame import DataFrame
+>>> data: dict[str, list[str]] = {"first_name": ["alyssa", "izzi"], "last_name": ["lytle","hinks"], "title": ["Professor", "Professor"]}
+>>> df: DataFrame = DataFrame(data)
+>>> df.tabulate()
++--------------+-------------+-----------+
+| first_name   | last_name   | title     |
++==============+=============+===========+
+| alyssa       | lytle       | Professor |
++--------------+-------------+-----------+
+| izzi         | hinks       | Professor |
++--------------+-------------+-----------+
+>>> just_names: DataFrame = df.select(["first_name", "last_name"])
+>>> just_names.tabulate()
++--------------+-------------+
+| first_name   | last_name   |
++==============+=============+
+| alyssa       | lytle       |
++--------------+-------------+
+| izzi         | hinks       |
++--------------+-------------+
+</div></pre>
+
+In `analyze_data.py`, you'll see the `select` and `head` methods are used together to get just the `name` and `count` of the first 10 entries of data.
+
+```
+name_and_count: DataFrame = df.head(10).select(["name", "count"])
+```
+
+Visualize the result using 
+
+```
+name_and_count.tabulate()
+```
+
 
 ### 2.4 `filter_by_col_value`
 
