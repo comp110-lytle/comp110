@@ -19,7 +19,7 @@ This ideas also applies to methods! As we've talked about previously, methods of
 For this CQ, we are going to create and compare two similar methods. They both have similar functionality, but one *mutates* the class object and one does not.
 
 ## 0. Set up files
-Create a new folder inside "lessons" called "CQ09" and a new file inside of it titled "point.py".
+Create a new folder inside "CQs" called "cq09" and a new file inside of it titled "point.py".
 
 ## 1. Create `Point` class
 
@@ -60,12 +60,12 @@ It'll should the following properties:
 
 ## Checking Your Methods For Correctness
 
-You can check your methods by creating a new file in your `CQ09` file called `make_points.py` and importing your `Point` class using `from lessons.CQ08.point import Point`. Then create a new point and call the methods.
+You can check your methods by creating a new file in your `cq09` file called `make_points.py` and importing your `Point` class using `from CQs.CQ08.point import Point`. Then create a new point and call the methods.
 
 ## 4. Submission
 
 Create your submission with the following command:
 
 ```
-python -m tools.submission lessons/CQ09
+python -m tools.submission CQs/cq09
 ```

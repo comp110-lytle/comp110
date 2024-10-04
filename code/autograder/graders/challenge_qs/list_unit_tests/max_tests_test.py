@@ -1,6 +1,6 @@
-"""Tests for Exercise 05 - Unit Tests."""
+"""Tests for CQ - Unit Tests."""
 
-__author__ = "Kaki Ryan <kakiryan@cs.unc.edu>"
+__author__ = "Alyssa Lytle <abyrnes1@cs.unc.edu>"
 
 from graders.helpers import assert_parameter_list, author_is_a_valid_pid, reimport_module, assert_return_type
 import inspect
@@ -9,8 +9,8 @@ from pytest import mark, fixture
 import pytest
 pytestmark = pytest.mark.timeout(3)
 
-MODULE = "lessons.CQ05.find_max"
-TESTMODULE = "lessons.CQ05.max_test"
+MODULE = "CQs.cq07.find_max"
+TESTMODULE = "CQs.cq07.max_test"
 
 @mark.weight(0)
 def test_author():
@@ -42,7 +42,7 @@ def tests():
 
 def get_call_count(tests, fn) -> int:
     call_count = 0
-    import lessons.CQ05.max_test as unit_tests
+    import CQs.cq07.max_test as unit_tests
     for test in tests:
         try:
             with mock.patch.object(unit_tests, fn, wraps=getattr(unit_tests, fn)) as student_fn: 
