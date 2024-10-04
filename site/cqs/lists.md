@@ -59,7 +59,7 @@ Write a function definition with the following expectations:
 Example usage:
 <pre>
 <div class="terminal">>>> a: list[int] = [1,2,3]
->>> from lessons.cq05_lists import manual_append
+>>> from CQS.cq05_lists import manual_append
 >>> manual_append(a, 2)
 >>> print(a)
 [1,2,3,2]
@@ -81,7 +81,7 @@ Write a function definition with the following expectations:
 Example usage:
 <pre>
 <div class="terminal">>>> a: list[int] = [1,2,3]
->>> from lessons.cq05_lists import double
+>>> from CQs.cq05_lists import double
 >>> double(a)
 >>> print(a)
 [2,4,6]
