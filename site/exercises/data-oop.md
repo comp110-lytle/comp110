@@ -105,7 +105,7 @@ Why is this function useful? Many types of analysis are much easier to perform c
 
 Implementation strategy: Establish an empty dictionary to the your column-oriented table you are building up to ultimately return. Loop through each of the column names in the first row of the parameter. Get a list of each column's values via your `column_values` function defined previously. Then, associate the column name with the list of its values in the dictionary you established. After looping through every column name, return the dictionary.
 
-### Test your function
+#### Test your function
 
 In `analyze_data.py`, you'll see there two lines of code to test this function: 
 
@@ -125,9 +125,129 @@ Now, you are going to add some functionality to the `DataFrames` class!
 
 ### 2.0 `__init__`
 
+Your `DataFrames` class is only going to have one attribute: `data: dict[str, list[str]]`. The idea is that once you reformat your data using `columnar`, you'll be able to store it as the `data` attribute in a `DataFrame` object.
+
+Define your `DataFrame` class, declare your `data` attribute, and write an `__init__` method that takes a `input_data: dict[str, list[str]]` as a parameter and initializes your `data` attribute to equal `input_data`.
+
+#### Test your function
+
+You can test your `DataFrame` class in the REPL with the following small example:
+
+<pre><div class="terminal">/workspace (main*) » python                                                                         
+>>> from exercises.ex08.DataFrame import DataFrame
+>>> data: dict[str, list[str]] = {"first_name": ["alyssa", "izzi"], "last_name": ["lytle","hinks"]}
+>>> df: DataFrame = DataFrame(data)
+>>> df.data
+{'first_name': ['alyssa', 'izzi'], 'last_name': ['lytle', 'hinks']}
+</div>
+</pre>
+
+In `analyze_data.py`, you'll see there two lines of code to turn both sets of baby name data into `DataFrame`s: 
+
+```
+df_early: DataFrame = DataFrame(columnar_early_data)
+```
+
+```
+df_later: DataFrame = DataFrame(columnar_later_data)
+```
+
+#### `tabulate`
+
+You'll see in `DataFrame.py`, there is a method called `tabulate` that has already been written for you! It allows you to visualize your data as a table. In analyze_data.py, you'll see it called:
+
+```
+df_early.tabulate()
+```
+
 ### 2.1 `__add__`
 
+For this next method, we are going to give the plus `+` sign some functionality between two `DataFrame` objects. 
+
+The main idea behind this method is the following: 
+
+Given two `DataFrame`s with the same keys (aka column headers), concatenate them to create one large `DataFrame`.
+
+* Method Name: `__add__`
+* Parameter: `self` (which is a `DataFrame`) and an additional `DataFrame` object
+* Return Type: `DataFrame`
+
+You can test your `__add__` method in the REPL with the following small example:
+
+<pre><div class="terminal">/workspace (main*) » python                                                                         
+>>> from exercises.ex08.DataFrame import DataFrame
+>>> data: dict[str, list[str]] = {"first_name": ["alyssa", "izzi"], "last_name": ["lytle","hinks"]}
+>>> df: DataFrame = DataFrame(data)
+>>> more_data:  dict[str, list[str]] = {"first_name": ["sophie"], "last_name": ["jiang"]}
+>>> df2: DataFrame = DataFrame(more_data)
+>>> big_frame: DataFrame = df + df2
+>>> big_frame.tabulate()
++--------------+-------------+
+| first_name   | last_name   |
++==============+=============+
+| alyssa       | lytle       |
++--------------+-------------+
+| izzi         | hinks       |
++--------------+-------------+
+| sophie       | jiang       |
++--------------+-------------+
+</div>
+</pre>
+
+In `analyze_data.py`, you'll see the `__add__` magic method is used: 
+
+```
+df: DataFrame = df_early + df_later
+```
+
+Try running `df.tabulate()` to visualize your new dataset! (Warning: it'll be a loooong output!)
+
 ### 2.2 `head`
+
+Let's find a way to deal with these long outputs! Let's write a method that let's us look at a subset of the data! `head` should return a DataFrame with only the first `N` (a parameter) rows of data for each column.
+
+
+* Method name: `head`
+* Parameters: `self` and an `int` to represent the number of "rows" to include in the resulting `DataFrame`
+* Return type: `Data Frame`
+
+Implementation strategy: 
+
+1. Establish an empty dictionary that will serve as the returned dictionary this function is building up. 
+2. Loop through each of the columns in the first row of the table given as a parameter. 
+    1. Inside of the loop, establish an empty list to store each of the first N values in the column. 
+    2. Loop through the first N items of the table's column, 
+        1. Appending each item to the previously list established in step 2.1. 
+    3. Assign the produced list of column values to the dictionary established in step 1.
+3. Use the dictionary to create a new `DataFrame` and return it!
+
+<pre><div class="terminal">/workspace (main*) » python
+>>> from exercises.ex08.DataFrame import DataFrame
+>>> data: dict[str, list[str]] = {"first_name": ["alyssa", "izzi", "sophie", "viktorya"], "last_name": ["lytle","hink
+s", "jiang", "hunanyan"]}
+>>> df: DataFrame = DataFrame(data)
+>>> df.tabulate()
++--------------+-------------+
+| first_name   | last_name   |
++==============+=============+
+| alyssa       | lytle       |
++--------------+-------------+
+| izzi         | hinks       |
++--------------+-------------+
+| sophie       | jiang       |
++--------------+-------------+
+| viktorya     | hunanyan    |
++--------------+-------------+
+>>> subset: DataFrame = df.head(2)
+>>> subset.tabulate()
++--------------+-------------+
+| first_name   | last_name   |
++==============+=============+
+| alyssa       | lytle       |
++--------------+-------------+
+| izzi         | hinks       |
++--------------+-------------+
+</div></pre>
 
 ### 2.3 `select`
 
