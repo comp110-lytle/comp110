@@ -60,7 +60,7 @@ It'll should the following properties:
 
 ## Checking Your Methods For Correctness
 
-You can check your methods by creating a new file in your `cq09` file called `make_points.py` and importing your `Point` class using `from CQs.CQ08.point import Point`. Then create a new point and call the methods.
+You can check your methods by creating a new file in your `cq09` file called `make_points.py` and importing your `Point` class using `from CQs.cq09.point import Point`. Then create a new point and call the methods.
 
 ## 4. Submission
 
