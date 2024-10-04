@@ -129,9 +129,9 @@ columnar_later_data: dict[str, list[str]] = columnar(later_data)
 
 Both `columnar_early_data` and `columnar_later_data` should be dictionaries with the keys ['year', 'gender', 'ethnicity', 'name', 'count'].
 
-## Part 2: `DataFrames` Class
+## Part 2: `DataFrame` Class
 
-Now, you are going to add some functionality to the `DataFrames` class!
+Now, you are going to add some functionality to the `DataFrame` class!
 
 ### 2.0 `__init__`
 
@@ -281,7 +281,7 @@ first_ten.tabulate()
 
 Now, say we want to reason about a subset of the *columns* in our table. 
 
-Why: Many data tables will contain many columns that are not related to the analysis you are trying to perform. _Selecting_ only the columns you care about makes it easier to focus your attention on the problem at hand.
+Many data tables will contain many columns that are not related to the analysis you are trying to perform. _Selecting_ only the columns you care about makes it easier to focus your attention on the problem at hand.
 
 * Function Name: `select`
 * Parameters:
@@ -338,12 +338,87 @@ name_and_count.tabulate()
 
 ### 2.4 `filter_by_col_value`
 
-### 2.5 `filter_by_rank`
+Now, say you want to filter out the data in your table so that you only have entries with specific values in a given column.
 
-## Part 3. Push to Backup
+Now, say we want to reason about a subset of the *columns* in our table. 
 
-Git push instructions
+Many data tables will contain many columns that are not related to the analysis you are trying to perform. _Selecting_ only the columns you care about makes it easier to focus your attention on the problem at hand.
 
-## Part 4. Submission
+* Function Name: `select`
+* Parameters:
+    1. `self` - a `DataFrame`
+    2. `str` - the names of the column that has the value to filter
+    3. `str` - the specific value that will be filtered out
+* Return type: `DataFrame`
 
-Submission instructions
+Implementation strategy:
+
+*TODO*
+
+#### Test your method
+
+
+You can test your method in the REPL with the following small example:
+
+<pre><div class="terminal">/workspace (main*) » python
+>>> from exercises.ex08.DataFrame import DataFrame
+>>> data: dict[str, list[str]] = {"first_name": ["alyssa", "izzi", "sophie", "viktorya"], "last_name": ["lytle","hinks", "jiang", "hunanyan"], "title" : ["Professor", "Professor", "TA", "TA"]}
+>>> df: DataFrame = DataFrame(data)
+>>> df.tabulate()
++--------------+-------------+-----------+
+| first_name   | last_name   | title     |
++==============+=============+===========+
+| alyssa       | lytle       | Professor |
++--------------+-------------+-----------+
+| izzi         | hinks       | Professor |
++--------------+-------------+-----------+
+| sophie       | jiang       | TA        |
++--------------+-------------+-----------+
+| viktorya     | hunanyan    | TA        |
++--------------+-------------+-----------+
+>>> TA_df: DataFrame = df.filter_by_col_value("title", "TA")
+>>> TA_df.tabulate()
++--------------+-------------+---------+
+| first_name   | last_name   | title   |
++==============+=============+=========+
+| sophie       | jiang       | TA      |
++--------------+-------------+---------+
+| viktorya     | hunanyan    | TA      |
++--------------+-------------+---------+
+</div></pre>
+
+In `analyze_data.py`, you'll see `filter_by_col_value` method is used to get just the names data of babies born in 2020.
+
+```
+names_2020: DataFrame = df.filter_by_col_value("year", "2020")
+```
+
+Visualize the result using 
+
+```
+names_2020.tabulate()
+```
+
+## Make a Backup Checkpoint "Commit"
+
+As you make progress on this exercise, making backups is encouraged.
+
+1. Open the Source Control panel (Command Palette: "Show SCM" or click the icon with three circles and lines on the activity panel).
+2. Notice the files listed under Changes. These are files you've made modifications to since your last backup.
+3. Move your mouse's cursor over the word _Changes_ and notice the + symbol that appears. Click that plus symbol to add all changes to the next backup. You will now see the files listed under "Staged Changes".
+   - If you do not want to backup _all_ changed files, you can select them individually. For this course you're encouraged to back everything up.
+4. In the Message box, give a brief description of what you've changed and are backing up. This will help you find a specific backup (called a "commit") if needed. In this case a message such as, "Progress on Exercise N" will suffice, where N is the current exercise.
+5. Press the Check icon to make a _Commit_ (a version) of your work.
+6. Finally, press the Ellipses icon (...), look for "Pull/Push" submenu, and select "Push to...", and in the dropdown select your backup repository.
+
+
+## Submit to Gradescope for Grading
+
+All that's left now is to hand-in your work on Gradescope for grading!
+
+Type the following command (all on a single line):
+
+`python -m tools.submission exercises/ex08`
+
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex08.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+
