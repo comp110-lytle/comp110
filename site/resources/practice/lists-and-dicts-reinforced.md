@@ -42,3 +42,148 @@ my_dict: dict[int, str] = {}
 - 2f. Change the value associated with the key `8` to `'zero'`.
 - 2g. Suppose we have a function `sum_dict_keys` that sums the keys of `my_dict` and returns this amount. Write a line of code that instantiates a `dict[str: int]` containing a single value, which is the result of calling `sum_dict_keys(my_dict)` and a key of "returned_amount".
 
+---
+
+3. The following questions will refer to the dictionary below:
+
+```python
+my_dict: dict[int, str] = {0: "dog", 1: "cat", 2: "mouse", 3: "bird", 4: "whale"}
+```
+
+- 3a. What will print from the following code: 
+```python
+for x in range(0, len(my_dict)): 
+    print(my_dict[x])
+```
+* give options include indexOutOfRange
+
+- 3b. What will print from the following code: 
+```python
+for x in range(0, len(my_dict)): 
+    print(x)
+```
+
+- 3c. What will print from the following code: 
+```python
+for x in my_dict: 
+    print(my_dict[x])
+```
+
+- 3d. What will print from the following code: 
+```python
+for x in my_dict: 
+    print(x)
+```
+
+- 3e. What will print from the following code: 
+```python
+x: int = 0
+while x < len(my_dict): 
+    print(x)
+    x += 1
+```
+- 3f. What will print from the following code: 
+```python
+x: int = 0
+while x < len(my_dict): 
+    print(my_dict[x])
+    x += 1
+```
+
+---
+
+4. The following questions will refer to the dictionary below:
+
+```python
+my_dict: dict[int, str] = {8: "dog", 1: "cat", 10: "mouse", 15: "bird", 0: "whale"}
+```
+
+- 4a. What will print from the following code: 
+```python
+for x in range(0, len(my_dict)): 
+    print(my_dict[x])
+```
+* give options include indexOutOfRange
+
+- 4b. What will print from the following code: 
+```python
+for x in range(0, len(my_dict)): 
+    print(x)
+```
+
+- 4c. What will print from the following code: 
+```python
+for x in my_dict: 
+    print(my_dict[x])
+```
+
+- 4d. What will print from the following code: 
+```python
+for x in my_dict: 
+    print(x)
+```
+
+- 4e. What will print from the following code: 
+```python
+x: int = 0
+while x < len(my_dict): 
+    print(x)
+    x += 1
+```
+- 4f. What will print from the following code: 
+```python
+x: int = 0
+while x < len(my_dict): 
+    print(my_dict[x])
+    x += 1
+```
+
+---
+
+5. The following questions will refer to the dictionary below:
+
+```python
+my_dict: dict[str, str] = {"cat": "dog", "dog": "cat", "bird": "mouse", "mouse": "bird", "while": "whale"}
+```
+
+- 5a. What will print from the following code: 
+```python
+for x in range(0, len(my_dict)): 
+    print(my_dict[x])
+```
+
+- 5b. What will print from the following code: 
+```python
+for x in range(0, len(my_dict)): 
+    print(x)
+```
+
+- 5c. What will print from the following code: 
+```python
+for x in my_dict: 
+    print(my_dict[x])
+```
+
+- 5d. What will print from the following code: 
+```python
+for x in my_dict: 
+    print(x)
+```
+
+- 5e. What will print from the following code: 
+```python
+x: int = 0
+while x < len(my_dict): 
+    print(x)
+    x += 1
+```
+- 5f. What will print from the following code: 
+```python
+x: int = 0
+while x < len(my_dict): 
+    print(my_dict[x])
+    x += 1
+```
+
+---
+
