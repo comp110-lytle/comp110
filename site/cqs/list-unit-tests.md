@@ -16,7 +16,7 @@ Write click on your "lessons" folder and select "New Folder". Your new folder wi
 
 ## Part 1. `find_and_remove_max`
 
-In this file, you will write one function definition called `find_and_remove_max`. The function will have the following behavior:
+In `find_max.py`, you will write one function definition called `find_and_remove_max`. The function will have the following behavior:
 
 - It will take a `list[int]` as input and return an `int`.
 - It will *find* and *return* the largest number in the input list.
