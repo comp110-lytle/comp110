@@ -36,10 +36,10 @@ If you ever find yourself feeling really lost, feel free to take these questions
 
 - [Scope](/resources/practice/scope.html)
 - [Lists](/resources/practice/lists.html)
-- [Function Writing: lists](/resources/practice/function-writing.html)
+- [Dictionaries](/resources/practice/dicts.html)
 - [for Loops](/resources/practice/for-loops.html)
 - [Unit Tests *(to-do)*](/resources/practice/unit-tests.html)
-- [Dictionaries](/resources/practice/dicts.html)
+- [Function Writing](/resources/practice/function-writing.html)
 
 ## Quiz 03
 
