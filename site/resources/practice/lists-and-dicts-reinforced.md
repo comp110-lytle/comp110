@@ -1,14 +1,15 @@
 ---
-title: Lists and Dictionaries Reinforcement Questions
+title: Lists, Dictionaries, and Loops Reinforcement Questions
 author:
 - Viktorya Hunanyan
 page: lessons
 template: overview
 ---
 
+These questions are meant to test your understanding from [Lists](/resources/practice/lists.html), [Dictionaries](/resources/practice/dicts.html), [for Loops](/resources/practice/for-loops.html). You should complete those before doing the questions below. 
+
 # Questions
 
-## List General Questions
 1. The following questions will refer to the list below:
 ```python
 my_list: list[int] = list()
@@ -19,12 +20,6 @@ my_list: list[int] = list()
 - 1d. Write line(s) of code that prints the amount of items in the list. 
 - 1e. Change the value `8` to `0`. 
 - 1f. We now have a function, `sum` that adds the elements of my_list and returns this amount. Write a line of code that instantiates a `list[int]` with the first value returned from calling `sum` on `my_list`. 
-
-2. The following questions will refer to the dictionary below:
-```python
-my_dict: dict[int: str] = {}
-```
-Here’s a revised version of your prompt that correctly references the dictionary rather than a list, and includes fixes to clarify the steps:
 
 ---
 
@@ -39,10 +34,11 @@ my_dict: dict[int, str] = {}
   - `0: 'zero'`
   - `3: 'three'`
   - `-1: 'negative one'`
-  
+
 - 2b. Write line(s) of code that removes value `three`.
 - 2c. Write line(s) of code that assign the value associated with the key `0` in `my_dict` to a variable called `cat`.
 - 2d. Write line(s) of code that print the number of keys in `my_dict`.
 - 2e. Write line(s) of code that print the number of values in `my_dict`.
 - 2f. Change the value associated with the key `8` to `'zero'`.
 - 2g. Suppose we have a function `sum_dict_keys` that sums the keys of `my_dict` and returns this amount. Write a line of code that instantiates a `dict[str: int]` containing a single value, which is the result of calling `sum_dict_keys(my_dict)` and a key of "returned_amount".
+
