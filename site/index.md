@@ -42,7 +42,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL15 </span><span class="title">for Loops + for Loops in Memory</span>
 <ul class="links"><li class="link"><a href="/static/slides/alyssa/CL15.pdf">Sections 01 and 02</a></li>
-<li class="link"><a href="/static/slides/alyssa/CL15Hinks.pdf">Sections 03 and 04</a></li>
+<li class="link"><a href="/static/slides/izzi/CL15Hinks.pdf">Sections 03 and 04</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS15 </span><span class="title"><a href="https://www.gradescope.com/">for...in Loops (Due Monday 10/7)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-10-09" class="row itinerary-row py-2">
