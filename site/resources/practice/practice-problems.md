@@ -38,7 +38,7 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Lists](/resources/practice/lists.html)
 - [Dictionaries](/resources/practice/dicts.html)
 - [for Loops](/resources/practice/for-loops.html)
-- [Lists, Dictionaries, and Loops Reinforcement Questions](/resources/practice/lists-and-dicts-reinforced.html)
+<!-- - [Lists, Dictionaries, and Loops Reinforcement Questions](/resources/practice/lists-and-dicts-reinforced.html) -->
 - [Unit Tests *(to-do)*](/resources/practice/unit-tests.html)
 - [Function Writing](/resources/practice/function-writing.html)
 
