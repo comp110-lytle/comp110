@@ -1,26 +1,4 @@
 {
-    "2024-10-04": [
-        {
-            "kind": "CQ",
-            "n": 5,
-            "title": "Lists Practice (Due Friday 10/4)",
-            "date": "2024-10-04",
-            "deadline": "2024-10-04",
-            "links": {
-                "": "/cqs/lists.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 4,
-            "title": "List Utils (Due Sunday 10/13)",
-            "date": "2024-10-04",
-            "deadline": "2024-10-13",
-            "links": {
-                "": "/exercises/list-utils.html"
-            }
-        }
-    ],
     "2024-10-05": [],
     "2024-10-06": [],
     "2024-10-07": [
@@ -32,7 +10,17 @@
             "deadline": "None",
             "links": {
                 "Sections 01 and 02": "/static/slides/alyssa/CL15.pdf",
-                "Sections 03 and 04": "/"
+                "Sections 03 and 04": "/static/slides/alyssa/CL15Hinks.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 15,
+            "title": "for...in Loops (Due Monday 10/7)",
+            "date": "2024-10-07",
+            "deadline": "2024-10-07",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],

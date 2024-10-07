@@ -475,7 +475,7 @@
             "deadline": "None",
             "links": {
                 "Sections 01 and 02": "/static/slides/alyssa/CL14.pdf",
-                "Sections 03 and 04": "/static/slides/izzi/CL14Hinks.pdf"
+                "Sections 03 and 04": "/static/slides/izzi/CL14Hinks_annotated.pdf"
             }
         },
         {
@@ -523,7 +523,17 @@
             "deadline": "None",
             "links": {
                 "Sections 01 and 02": "/static/slides/alyssa/CL15.pdf",
-                "Sections 03 and 04": "/"
+                "Sections 03 and 04": "/static/slides/alyssa/CL15Hinks.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 15,
+            "title": "for...in Loops (Due Monday 10/7)",
+            "date": "2024-10-07",
+            "deadline": "2024-10-07",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],
