@@ -52,28 +52,43 @@ my_dict: dict[int, str] = {0: "dog", 1: "cat", 2: "mouse", 3: "bird", 4: "whale"
 
 - 3a. What will print from the following code: 
 ```python
-for x in range(0, len(my_dict)): 
-    print(my_dict[x])
+    for x in range(0, len(my_dict)): 
+        print(my_dict[x])
 ```
-* give options include indexOutOfRange
+(a) `dog, cat, mouse, bird, whale`
+(b) `dog, cat, mouse, bird`
+(c) `IndexOutOfRange`
+(d) `0, 1, 2, 3, 4`
 
 - 3b. What will print from the following code: 
 ```python
-for x in range(0, len(my_dict)): 
-    print(x)
+    for x in range(0, len(my_dict)): 
+        print(x)
 ```
+(a) `0, 1, 2, 3, 4`
+(b) `dog, cat, mouse, bird, whale`
+(c) `IndexOutOfRange`
+(d) `1, 2, 3, 4`
 
 - 3c. What will print from the following code: 
 ```python
-for x in my_dict: 
-    print(my_dict[x])
+    for x in my_dict: 
+        print(my_dict[x])
 ```
+(a) `dog, cat, mouse, bird, whale`
+(b) `dog, cat, mouse, bird`
+(c) `IndexOutOfRange`
+(d) `0, 1, 2, 3, 4`
 
 - 3d. What will print from the following code: 
 ```python
 for x in my_dict: 
     print(x)
 ```
+(a) `0, 1, 2, 3, 4`
+(b) `dog, cat, mouse, bird, whale`
+(c) `IndexOutOfRange`
+(d) `1, 2, 3, 4`
 
 - 3e. What will print from the following code: 
 ```python
@@ -82,6 +97,11 @@ while x < len(my_dict):
     print(x)
     x += 1
 ```
+(a) `0, 1, 2, 3, 4`
+(b) `dog, cat, mouse, bird, whale`
+(c) `IndexOutOfRange`
+(d) `1, 2, 3, 4, 5`
+
 - 3f. What will print from the following code: 
 ```python
 x: int = 0
@@ -89,6 +109,10 @@ while x < len(my_dict):
     print(my_dict[x])
     x += 1
 ```
+(a) `dog, cat, mouse, bird, whale`
+(b) `dog, cat, mouse, bird`
+(c) `IndexOutOfRange`
+(d) `0, 1, 2, 3, 4`
 
 ---
 
@@ -103,25 +127,40 @@ my_dict: dict[int, str] = {8: "dog", 1: "cat", 10: "mouse", 15: "bird", 0: "whal
 for x in range(0, len(my_dict)): 
     print(my_dict[x])
 ```
-* give options include indexOutOfRange
+(a) `whale, cat`
+(b) `IndexOutOfRange`
+(c) `dog, cat, mouse`
+(d) `bird, whale`
 
 - 4b. What will print from the following code: 
 ```python
 for x in range(0, len(my_dict)): 
     print(x)
 ```
+(a) `0, 1, 2, 3, 4`
+(b) `0, 1, 2`
+(c) `IndexOutOfRange`
+(d) `1, 2, 3, 4`
 
 - 4c. What will print from the following code: 
 ```python
 for x in my_dict: 
     print(my_dict[x])
 ```
+(a) `dog, cat, mouse, bird, whale`
+(b) `whale, cat, mouse, bird, dog`
+(c) `IndexOutOfRange`
+(d) `0, 1, 2, 3, 4`
 
 - 4d. What will print from the following code: 
 ```python
 for x in my_dict: 
     print(x)
 ```
+(a) `0, 1, 8, 10, 15`
+(b) `dog, cat, mouse, bird, whale`
+(c) `IndexOutOfRange`
+(d) `0, 1, 2, 3, 4`
 
 - 4e. What will print from the following code: 
 ```python
@@ -130,6 +169,11 @@ while x < len(my_dict):
     print(x)
     x += 1
 ```
+(a) `0, 1, 2, 3, 4`
+(b) `1, 2, 3, 4`
+(c) `IndexOutOfRange`
+(d) `0, 1, 2`
+
 - 4f. What will print from the following code: 
 ```python
 x: int = 0
@@ -137,6 +181,10 @@ while x < len(my_dict):
     print(my_dict[x])
     x += 1
 ```
+(a) `whale, cat`
+(b) `IndexOutOfRange`
+(c) `dog, cat, mouse`
+(d) `bird, whale`
 
 ---
 
@@ -152,23 +200,42 @@ for x in range(0, len(my_dict)):
     print(my_dict[x])
 ```
 
+(a) `IndexOutOfRange`
+(b) `dog, cat, mouse`
+(c) `TypeError`
+(d) `bird, whale`
+
 - 5b. What will print from the following code: 
 ```python
 for x in range(0, len(my_dict)): 
     print(x)
 ```
 
+(a) `0, 1, 2, 3, 4`
+(b) `1, 2, 3, 4`
+(c) `IndexOutOfRange`
+(d) `0, 1, 2`
+
+
 - 5c. What will print from the following code: 
 ```python
 for x in my_dict: 
     print(my_dict[x])
 ```
+(a) `dog, cat, mouse, bird, whale`
+(b) `dog, cat, mouse, bird`
+(c) `IndexOutOfRange`
+(d) `cat, dog, bird`
 
 - 5d. What will print from the following code: 
 ```python
 for x in my_dict: 
     print(x)
 ```
+(a) `cat, dog, bird, mouse, while`
+(b) `dog, cat, mouse, bird`
+(c) `IndexOutOfRange`
+(d) `0, 1, 2, 3, 4`
 
 - 5e. What will print from the following code: 
 ```python
@@ -177,6 +244,11 @@ while x < len(my_dict):
     print(x)
     x += 1
 ```
+(a) `0, 1, 2, 3, 4`
+(b) `dog, cat, mouse, bird, whale`
+(c) `IndexOutOfRange`
+(d) `1, 2, 3, 4`
+
 - 5f. What will print from the following code: 
 ```python
 x: int = 0
@@ -184,6 +256,9 @@ while x < len(my_dict):
     print(my_dict[x])
     x += 1
 ```
+(a) `IndexOutOfRange`
+(b) `dog, cat, mouse`
+(c) `TypeError`
+(d) `bird, whale`
 
----
 
