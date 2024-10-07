@@ -35,7 +35,7 @@ If you ever find yourself feeling really lost, feel free to take these questions
 ## Quiz 02
 
 - [Scope](/resources/practice/scope.html)
-- [Lists *(to-do)*](/resources/practice/scope.html)
+- [Lists *(to-do)*](/resources/practice/lists.html)
 - [Function Writing: lists](/resources/practice/function-writing.html)
 - [for Loops](/resources/practice/for-loops.html)
 - [Unit Tests *(to-do)*](/resources/practice/unit-tests.html)
