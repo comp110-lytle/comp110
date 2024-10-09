@@ -1,6 +1,6 @@
-"""Tests for Exercise 05 - Unit Tests."""
+"""Tests for CQ on Unit Tests."""
 
-__author__ = "Kaki Ryan <kakiryan@cs.unc.edu>"
+__author__ = "Alyssa Lytle"
 
 from graders.helpers import reimport_module, author_is_a_valid_pid
 import inspect
