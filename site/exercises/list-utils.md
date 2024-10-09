@@ -179,7 +179,7 @@ As part of the manual grading, we will be looking to see if you have commented o
 
 As a general rule, if 2 or more minutes are spent thinking about how to write a particular line or block of code, it’s a good idea to add a comment. Explain what’s happening on that line, how the solution was reached, the reasoning behind the approach, or provide a note for future reference to recall the problem-solving steps. If you received help from office hours or tutoring, go back to the code you were stuck on and explain it to yourself. If you see that you need a second to understand what is going on, comment! Essentially, we will be looking to see if you are able to explain your code logically and with reason. 
 
-Comments don't need to be extensive, but they should reflect a genuine effort to explain the process in your own words. Commenting should be an integral part of the problem-solving process. 
+Comments don't need to be extensive, but they should reflect a genuine effort to explain the process in your own words. Commenting should be an integral part of the problem-solving process.
 
 ## 6. Make a Backup Checkpoint "Commit"
 
