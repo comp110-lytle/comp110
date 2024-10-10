@@ -4,6 +4,7 @@ author:
   - Kris Jordan
   - Marlee Walls
   - Alyssa Lytle
+  - Viktorya Hunanyan
 page: exercises
 template: overview
 ---
@@ -168,7 +169,19 @@ Define a function with the following signature:
 
 Implement the `extend` function as described above.
 
-## 5. Make a Backup Checkpoint "Commit"
+## 5. Style and Documentation Requirements 
+
+We will manually grade your code and are looking for good choices of meaningful variable names. Your variable names should be descriptive of their purposes. (Loop indexing variables can be short, such as `i`, or `idx`.) You should also use the Python `snake_case` convention where variable names are all lowercase and new words are separated by underscores. We will also be checking that you are not using anything outside of what we have learned up to the release date of this assignment. 
+
+You should add code comments in your own English words to describe what is happening at important stages of your program.
+
+As part of the manual grading, we will be looking to see if you have commented on your code! No comments imply that there were no challenges or moments spent considering how to approach a code. It is quite rare to complete every exercise, challenge question, and practice problem without engaging in some form of problem-solving. Even the most experienced programmers use a piece of paper to map out their approach when working on practice problems, often leading to comments being added to code. 
+
+As a general rule, if 2 or more minutes are spent thinking about how to write a particular line or block of code, it’s a good idea to add a comment. Explain what’s happening on that line, how the solution was reached, the reasoning behind the approach, or provide a note for future reference to recall the problem-solving steps. If you received help from office hours or tutoring, go back to the code you were stuck on and explain it to yourself. If you see that you need a second to understand what is going on, comment! Essentially, we will be looking to see if you are able to explain your code logically and with reason. 
+
+Comments don't need to be extensive, but they should reflect a genuine effort to explain the process in your own words. Commenting should be an integral part of the problem-solving process.
+
+## 6. Make a Backup Checkpoint "Commit"
 
 As you make progress on this exercise, making backups is encouraged.
 
@@ -180,7 +193,7 @@ As you make progress on this exercise, making backups is encouraged.
 5. Press the Check icon to make a _Commit_ (a version) of your work.
 6. Finally, press the Ellipses icon (...), look for "Pull/Push" submenu, and select "Push to...", and in the dropdown select your backup repository.
 
-## 6. Submit to Gradescope for Grading
+## 7. Submit to Gradescope for Grading
 
 Login to Gradescope and select the assignment named "EX04 - Lists Utils". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
 

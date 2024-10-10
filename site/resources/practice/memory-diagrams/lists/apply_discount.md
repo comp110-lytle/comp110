@@ -1,7 +1,7 @@
 ---
 title: Practice Memory Diagram
 author:
-- Viktorya
+- Viktorya Hunanyan
 page: lessons
 template: overview
 ---
@@ -41,9 +41,8 @@ template: overview
 ```
 
 # Solution
-*(Coming Soon)*
 
-<!-- <img class="img-fluid" src="/static/practice-mem-diagrams/analyze_string.jpg" alt="Image Description Here"  /> -->
+<img class="img-fluid" src="/static/mem-diags/discount-soln.jpg" alt="Image Description Here"  />
 
 ## Video
 *(Video Coming Soon)*
