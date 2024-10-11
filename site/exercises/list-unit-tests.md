@@ -41,15 +41,16 @@ This is the first function you will write in `utils.py`. The other two functions
 Given a `list` of `ints`, `only_evens` should return a new `list` containing only the elements of the input list that were even. *The `only_evens` function must not mutate (modify) its input list.* 
 
 Example usage:
-
-~~~{.plaintext}
+<pre>
+<div class="terminal">>>>from exercises.ex05.utils import only_evens
 >>> only_evens([1, 2, 3])
 [2]
 >>> only_evens([1, 5, 3])
 []
 >>> only_evens([4, 4, 4])
 [4, 4, 4]
-~~~
+</div>
+</pre>
 
 Continue by defining a skeleton function with the following signature:
 
@@ -74,29 +75,65 @@ Define your function with the following signature.
 
 ## 2. `sub`
 
-In this exercise you will write a function named `sub`. Given a `list` of `ints`, a start index, and an end index (not inclusive), `sub` should generate a List which is a subset of the given list, between the specified start index and the end index - 1. *The `sub` function must not mutate (modify) its input list.* 
+In this exercise you will write a function named `sub`. Given a `list` of `ints`, a start index, and an end index (not inclusive), `sub` should generate a list which is a subset of the input list, between the specified start index and the end index - 1. *The `sub` function must not mutate (modify) its input list.* 
 
 
 Example usage:
-
-~~~{.plaintext}
+<pre>
+<div class="terminal">>>>from exercises.ex05.utils import sub
 >>> a_list = [10, 20, 30, 40]
 >>> sub(a_list, 1, 3)
 [20, 30]
-~~~
+>>> sub(a_list, -1, 6)
+[10, 20, 30, 40]
+>>> list2 = []
+>>> sub(list2, 1, 3)
+[]
+</div>
+</pre>
 
 Next, define a skeleton function with the following signature in `ex05/utils.py`:
 
 1. Name: `sub`
 2. Parameters: A list and two ints, where the first int serves as a start index and the second int serves as an end index (not inclusive). 
-3. Returns: A List which is a subset of the given list, between the specified start index and the end index - 1.
+3. Returns: A list which is a subset of the given list, between the specified start index and the end index - 1.
     
 If the start index is negative, start from the beginning of the list. If the end index is greater than the length of the list, end with the end of the list.
 
 If the length of the list is 0, start is greater than or equal to the length of the list, or end is at most 0, return the empty list.
 
 # 3. `add_at_index`
+Given a list of ints, an int element, and an index, `add_at_index` should modify the input list to place the element at the given index. `add_at_index` should return nothing. *The `add_at_index` function should mutate its input list* 
 
+If the index is out of range (index < 0 or index > len(list)), `add_at_index` should throw an IndexError.
+
+Example usage:
+<pre>
+<div class="terminal">>>> from exercises.ex05.utils import add_at_index
+>>> list_1 = [1, 2, 3, 5]
+>>> add_at_index(list_1, 4, 3)
+>>> list_1
+[1, 2, 3, 4, 5]
+>>> list_2 = [1]
+>>> add_at_index(list_1, 2, 1)
+>>> list_2
+[1, 2]
+>>> list_3 = []
+>>> add_at_index(list_3, 1, 1)
+IndexError: Index is out of bounds for the input list
+</div>
+</pre>
+
+Next, define a skeleton function with the following signature in `ex05/utils.py`:
+
+1. Name: `add_at_index`
+2. Parameters: A list and two ints, where the first int is the element to be added and the second int is the index at which it should be added. 
+3. Returns: None
+
+If the index given is invalid (out of range), raise the following error: 
+```{.python}
+raise IndexError("Index is out of bounds for the input list")
+```
 <!-- needs a description, should take a list, an element, and an index as arguments and modify the list to place that element at that index -->
 
 # 4. Unit Tests
@@ -114,19 +151,22 @@ Include descriptive function names and docstrings, so that it captures what is b
 
 The command to run your tests is `python -m pytest exercises/ex05` or you can run them using the beaker tab in VSCode if it is working (do note the VSCode testing feature tends to be a bit flaky). 
 
-Once you're ready to import and begin testing your skeletons, you can add the following import lines, corresponding to the functions you have completed, to do so:
+Once you're ready to import and begin testing your skeletons, you can add the following import lines to your test file, corresponding to the functions you have completed, to do so:
 
-~~~{.plaintext}
-from exercises.ex05.utils import only_evens
+<pre>
+<div class="terminal">from exercises.ex05.utils import only_evens
 from exercises.ex05.utils import sub
 from exercises.ex05.utils import concat
-~~~
+</div>
+</pre>
+
 
 Once you have completed all functions, you can reduce the three import lines down into a single one for less redundancy in your testing code:
 
-~~~{.plaintext}
-from exercises.ex05.utils import only_evens, sub, concat
-~~~
+<pre>
+<div class="terminal">from exercises.ex05.utils import only_evens, sub, concat
+</div>
+</pre>
 
 If your screen is large enough, you are encouraged to open these files side-by-side in VSCode by dragging the tab of one to the right side of VSCode so that it changes to a split pane view. Closing your file explorer can help give you additional horizontal space.
 
