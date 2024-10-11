@@ -262,3 +262,11 @@ while x < len(my_dict):
 (d) `bird, whale`
 
 
+# Function Writing
+
+6. Write a function that will take a `list[str]` and returns a `list[int]` of the size of each string in the input list. 
+7. Write a function that will take a `list[str]` and returns the sum of the lengths of all the strings. 
+8. Write a function that will take a `list[str]` and mutates the list by adding a exclamation point to each string in the input list. Your function should not return anything. 
+9. Write a function that takes a `str` input and returns a list with each element being a single character in the string input. 
+10. Write a function that takes a `int` input and creates a list of the size of your input integer. Every element should be equal to their index value. When the function is called and finishes executing and the frame goes out of scope, the new list should still be avaiable for reference to a Global varibale. 
+11. Write a function that take a `list[float]`, an `int`, and a `float` and inserts the `float` into the `list[float]` at the index specified by the `int` passed to the function. 
