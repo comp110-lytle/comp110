@@ -24,13 +24,12 @@ Specifically off-limits in this exercise are the following capabilities which yo
 
 Assignment Outline
 
-* `only_evens` -- 25 Points Autograded
-    * Unit Tests -- 5 Points Autograded
-* `concat` -- 25 Points Autograded
-    * Unit Tests -- 5 Points Autograded
-* `sub` -- 30 Points Autograded
-    * Unit Tests -- 5 Points Autograded
-* Style, Linting, Typing -- 20 Points Autograded
+* `only_evens` 
+    * Unit Tests 
+* `concat`
+    * Unit Tests 
+* `sub` 
+    * Unit Tests 
 
 
 Note: Even if your functions are not 100% correct or finished, you can get full credit for the unit tests if you set up a function skeleton and write your tests assuming correct functionality.
