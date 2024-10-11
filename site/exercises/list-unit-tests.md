@@ -72,7 +72,7 @@ Define your function with the following signature.
 `concat` _must NOT_ mutate (modify) either of the arguments passed to it.  
  -->
 
-## 2. `sub` -- 30 Points
+## 2. `sub`
 
 In this exercise you will write a function named `sub`. Given a `list` of `ints`, a start index, and an end index (not inclusive), `sub` should generate a List which is a subset of the given list, between the specified start index and the end index - 1. *The `sub` function must not mutate (modify) its input list.* 
 
@@ -95,18 +95,22 @@ If the start index is negative, start from the beginning of the list. If the end
 
 If the length of the list is 0, start is greater than or equal to the length of the list, or end is at most 0, return the empty list.
 
+# 3. `add_at_index`
+
+<!-- needs a description, should take a list, an element, and an index as arguments and modify the list to place that element at that index -->
+
 # 4. Unit Tests
 
-Also inside the `exercises/ex05` directory, create a file named `utils_test.py`. Add a docstring and establish an `__author__` in this file as well.
+Now inside `utils_test.py`, you will write unit tests.
 
-For each function from below (`only_evens`, `sub`, `concat`), you are to define at least **3x unit test** functions. Remember that a unit test function starts with `test_`.
+For each function from (`only_evens`, `sub`, `add_at_index`), you are to define at least **3x unit test** functions. Remember that a unit test function starts with `test_`.
 
 The 3 unit tests should consist of:
 
 * One edge case
-* Two use cases
+* Two use cases: one that tests what the function should return and one that tests how it should mutate (or not mutate) its input.
 
-Include descriptive function names and docstrings, so that it captures what is being tested.
+Include descriptive function names and docstrings, so that it captures what is being tested. **Use different use cases than the usage examples provided in this writeup!**
 
 The command to run your tests is `python -m pytest exercises/ex05` or you can run them using the beaker tab in VSCode if it is working (do note the VSCode testing feature tends to be a bit flaky). 
 
