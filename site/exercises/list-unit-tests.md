@@ -38,15 +38,16 @@ Note: Even if your functions are not 100% correct or finished, you can get full 
 
 Create a new **directory** in `exercises` named `ex05`. (Right click on `exercises` and select `new folder`.)
 
-Inside the `exercises/ex05` directory, create a file named `utils.py`. Add a docstring and establish an `__author__` variable to be assigned a string with the digits of your PID. This is where you will implement your function skeletons and implementations below.
+Inside the `exercises/ex05` directory, create two files: `utils.py` and `utils_test.py`. The first file will be where you implement some more list utility functions, and the second will be where you define unit tests for them! Add a docstring and establish an `__author__` variable to be assigned a string with the digits of your PID. 
 
 
-
-## 1. `only_evens` -- 25 Points
+## 1. `only_evens` 
 
 This is the first function you will write in `utils.py`. The other two functions will also be defined in this file.
 
-Given a `list` of `ints`, `only_evens` should return a new `list` containing only the elements of the input list that were even. The `only_evens` function must not modify the list it is given a reference to as a parameter. Example usage:
+Given a `list` of `ints`, `only_evens` should return a new `list` containing only the elements of the input list that were even. *The `only_evens` function must not mutate (modify) its input list.* 
+
+Example usage:
 
 ~~~{.plaintext}
 >>> only_evens([1, 2, 3])
@@ -63,6 +64,8 @@ Continue by defining a skeleton function with the following signature:
 2. Arguments: A list of integers. 
 3. Returns: A list of integers, containing only the even elements of the input parameter.
 
+
+<!--  This is a repeat of extend
 ## 2. `concat` -- 25 Points
 
 In this exercise you will write a function named `concat`. Given two `Lists` of `ints`, `concat` should generate a new List which contains all of the elements of the first list followed by all of the elements of the second list. Your `concat` function may not mutate ("modify") either of its list parameters.
@@ -74,11 +77,12 @@ Define your function with the following signature.
 3. Returns: A `list` containing all elements of the first list, followed by all elements of the second list. 
     
 `concat` _must NOT_ mutate (modify) either of the arguments passed to it.  
+ -->
 
+## 2. `sub` -- 30 Points
 
-## 3. `sub` -- 30 Points
+In this exercise you will write a function named `sub`. Given a `list` of `ints`, a start index, and an end index (not inclusive), `sub` should generate a List which is a subset of the given list, between the specified start index and the end index - 1. *The `sub` function must not mutate (modify) its input list.* 
 
-In this exercise you will write a function named `sub`. Given a `list` of `ints`, a start index, and an end index (not inclusive), `sub` should generate a List which is a subset of the given list, between the specified start index and the end index - 1. This function should _not mutate_ its input list.
 
 Example usage:
 
