@@ -11,7 +11,11 @@ template: overview
 
 # List Unit Tests
 
-In this exercise you will continue building list utility functions. In contrast with the previous exercise, for EX05 you will get practice writing unit tests for your functions which gives you more reassurance of their correctness and makes testing your functions easier. Your function implementations may only make use of the built-in `len` function, and a `list` object's methods `append` and `pop`.
+In this exercise you will continue building list utility functions. In contrast with the previous exercise, for EX05 you will get practice writing unit tests for your functions which gives you more reassurance of their correctness and makes testing your functions easier. 
+
+## Forbidden Constructs
+
+Your function implementations may only make use of subscription notation, the built-in `len` function, and a `list` object's methods `append` and `pop`.
 
 Specifically off-limits in this exercise are the following capabilities which you would only know if you have prior experience in Python. Making use of any of the following will result in no credit for the function you use them in:
 
@@ -20,17 +24,6 @@ Specifically off-limits in this exercise are the following capabilities which yo
 * Cannot use the `in` operator of Python with lists (but you can use `for..in` loops!)
 * Cannot use the `list` class's `+` or `==` operators (you can still use `+` with `int` and `str` types, though!) nor built-in methods beyond `append` and `pop`
     * Note: You can use + and == for _individual items_ and values, just not entire `list` objects.
-
-
-Assignment Outline
-
-* `only_evens` 
-    * Unit Tests 
-* `concat`
-    * Unit Tests 
-* `sub` 
-    * Unit Tests 
-
 
 Note: Even if your functions are not 100% correct or finished, you can get full credit for the unit tests if you set up a function skeleton and write your tests assuming correct functionality.
 
