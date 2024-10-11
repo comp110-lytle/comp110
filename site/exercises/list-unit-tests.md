@@ -6,7 +6,10 @@ author:
 - Kaki Ryan
 - Alyssa Byrnes
 page: exercises
+template: overview
 ---
+
+# List Unit Tests
 
 In this exercise you will continue building list utility functions. In contrast with the previous exercise, for EX05 you will get practice writing unit tests for your functions which gives you more reassurance of their correctness and makes testing your functions easier. Your function implementations may only make use of the built-in `len` function, and a `list` object's methods `append` and `pop`.
 
