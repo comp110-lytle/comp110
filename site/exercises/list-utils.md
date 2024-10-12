@@ -25,7 +25,7 @@ Specifically off-limits in this exercise are the following constructs. You are n
 
 - Cannot use other built-in function besides `len` - specifically not `max`, `min`, `slice`
 - Cannot use slice notation in conjunction with the subscription operator
-- Cannot use the `in` operator of Python
+- Cannot use the `in` operator of Python (but you can use `for..in` loops!)
 - Cannot use the `list` class's `+` or `==` operators nor built-in methods beyond `append` and `pop`
   - Note: You can use + and == for individual elements, just not entire `list`s.
 
