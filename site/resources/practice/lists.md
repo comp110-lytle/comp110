@@ -234,17 +234,17 @@ Memory Tip: You can remember that .append() does not require an index by thinkin
     # TODO: for... in... range() loops
     # List x
     x = [9, -1, 8, 5]
-    for i in range(len(x)):
+    for i in range(0, len(x)):
         print(x[i])
 
     # List y
     y = ["cat", "dog", "turtle", "elephant"]
-    for i in range(len(y)):
+    for i in range(0, len(y)):
         print(y[i])
 
     # List z
     z = ["z"]
-    for i in range(len(z)):
+    for i in range(0, len(z)):
         print(z[i])
 ```
 
@@ -322,35 +322,35 @@ Structure: Uses an index-based approach, iterating over a range object (set of i
     # TODO: for... in... range() loops
     # List x
     x = [9, -1, 8, 5]
-    for i in range(len(x)):
+    for i in range(0, len(x)):
         print(f"Index {i}: {x[i]}")
 
     # List y
     y = ["cat", "dog", "turtle", "elephant"]
-    for i in range(len(y)):
+    for i in range(0, len(y)):
         print(f"Index {i}: {y[i]}")
 
     # List z
     z = ["z"]
-    for i in range(len(z)):
+    for i in range(0, len(z)):
         print(f"Index {i}: {z[i]}")
 
     # OR...
 
     x = [9, -1, 8, 5]
-    for i in range(len(x)):
+    for i in range(0, len(x)):
         print(i)
         print(x[i])
 
     # List y
     y = ["cat", "dog", "turtle", "elephant"]
-    for i in range(len(y)):
+    for i in range(0, len(y)):
         print(i)
         print(y[i])
 
     # List z
     z = ["z"]
-    for i in range(len(z)):
+    for i in range(0, len(z)):
         print(i)
         print(z[i])
 ```
