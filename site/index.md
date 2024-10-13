@@ -41,7 +41,7 @@ template: home
 <div class="date col-md-2">Mon, Oct 14</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL16 </span><span class="title">Unit Tests</span>
-<ul class="links"><li class="link"><a href="/">Sections 01 and 02</a></li>
+<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL16.pdf">Sections 01 and 02</a></li>
 <li class="link"><a href="/">Sections 03 and 04</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS16 </span><span class="title"><a href="https://www.gradescope.com/">Unit Tests (Due Monday 10/14)</a></span></div><div class="plan Exercise">
