@@ -5,6 +5,8 @@ author:
 - Kris Jordan
 - Kaki Ryan
 - Alyssa Byrnes
+- Sophie Jiang
+- Izzi Hinks
 page: exercises
 template: overview
 ---
@@ -102,8 +104,10 @@ If the start index is negative, start from the beginning of the list. If the end
 
 If the length of the list is 0, start is greater than or equal to the length of the list, or end is at most 0, return the empty list.
 
-# 3. `add_at_index`
-Given a list of ints, an int element, and an index, `add_at_index` should modify the input list to place the element at the given index. `add_at_index` should return nothing. *The `add_at_index` function should mutate its input list.* 
+
+## 3. `add_at_index`
+Given a list of ints, an int element, and an index, `add_at_index` should modify the input list to place the element at the given index. `add_at_index` should return nothing. *The `add_at_index` function **should** mutate its input list.* 
+
 
 If the index is out of range (index < 0 or index > len(list)), `add_at_index` should throw an IndexError.
 
@@ -137,7 +141,7 @@ raise IndexError("Index is out of bounds for the input list")
 
 *Hint:* For most cases, you will need to add space at the end of the list (i.e. append something to the end of the list), then shift everything to the right of the index in order to make space for the input element, before you can insert the new element at the correct index.
 
-# 4. Unit Tests
+## 4. Unit Tests
 
 Now inside `utils_test.py`, you will write unit tests.
 
@@ -145,8 +149,8 @@ For each function from (`only_evens`, `sub`, `add_at_index`), you are to define 
 
 The 3 unit tests should consist of:
 
-* One edge case
-* Two use cases: one that tests what the function should return and one that tests how it should mutate (or not mutate) its input.
+* At least one edge case
+* At least two use cases: one that tests what the function should return and one that tests how it should mutate (or not mutate) its input.
 
 Include descriptive function names and docstrings, so that it captures what is being tested. **Use different use cases than the usage examples provided in this writeup!**
 
@@ -157,7 +161,7 @@ Once you're ready to import and begin testing your skeletons, you can add the fo
 <pre>
 <div class="terminal">from exercises.ex05.utils import only_evens
 from exercises.ex05.utils import sub
-from exercises.ex05.utils import concat
+from exercises.ex05.utils import add_at_index
 </div>
 </pre>
 
@@ -165,7 +169,7 @@ from exercises.ex05.utils import concat
 Once you have completed all functions, you can reduce the three import lines down into a single one for less redundancy in your testing code:
 
 <pre>
-<div class="terminal">from exercises.ex05.utils import only_evens, sub, concat
+<div class="terminal">from exercises.ex05.utils import only_evens, sub, add_at_index
 </div>
 </pre>
 
