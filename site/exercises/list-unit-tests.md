@@ -119,7 +119,7 @@ Example usage:
 >>> list_1
 [1, 2, 3, 4, 5]
 >>> list_2 = [1]
->>> add_at_index(list_1, 2, 1)
+>>> add_at_index(list_2, 2, 1)
 >>> list_2
 [1, 2]
 >>> list_3 = []
