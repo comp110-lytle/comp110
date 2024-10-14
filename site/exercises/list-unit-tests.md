@@ -134,7 +134,8 @@ If the index given is invalid (out of range), raise the following error:
 ```{.python}
 raise IndexError("Index is out of bounds for the input list")
 ```
-<!-- needs a description, should take a list, an element, and an index as arguments and modify the list to place that element at that index -->
+
+*Hint:* For most cases, you will need to add space at the end of the list (i.e. append something to the end of the list), then shift everything to the right of the index in order to make space for the input element, before you can insert the new element at the correct index.
 
 # 4. Unit Tests
 
