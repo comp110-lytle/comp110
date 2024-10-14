@@ -379,3 +379,5 @@ result_dict = {'returned_amount': sum_dict_keys(my_dict)}
 - 5f: Output = (a) IndexOutOfRange
 
 6 - 27. *Solutions coming soon.* 
+=======
+11. Write a function that take a `list[float]`, an `int`, and a `float` and inserts the `float` into the `list[float]` at the index specified by the `int` passed to the function. 

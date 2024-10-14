@@ -1,47 +1,29 @@
 {
-    "2024-10-05": [],
-    "2024-10-06": [],
-    "2024-10-07": [
-        {
-            "kind": "CL",
-            "n": 15,
-            "title": "for Loops + for Loops in Memory",
-            "date": "2024-10-07",
-            "deadline": "None",
-            "links": {
-                "Sections 01 and 02": "/static/slides/alyssa/CL15.pdf",
-                "Sections 03 and 04": "/static/slides/izzi/CL15Hinks.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 15,
-            "title": "for...in Loops (Due Monday 10/7)",
-            "date": "2024-10-07",
-            "deadline": "2024-10-07",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-10-08": [],
-    "2024-10-09": [
-        {
-            "kind": "CQ",
-            "n": 6,
-            "title": "for Loops Practice (Due Wednesday 10/9)",
-            "date": "2024-10-09",
-            "deadline": "2024-10-09",
-            "links": {
-                "": "/cqs/for-loops.html"
-            }
-        }
-    ],
-    "2024-10-10": [],
     "2024-10-11": [],
     "2024-10-12": [],
     "2024-10-13": [],
     "2024-10-14": [
+        {
+            "kind": "CL",
+            "n": 16,
+            "title": "Unit Tests",
+            "date": "2024-10-14",
+            "deadline": "None",
+            "links": {
+                "Sections 01 and 02": "/static/slides/alyssa/CL16.pdf",
+                "Sections 03 and 04": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 16,
+            "title": "Unit Tests (Due Monday 10/14)",
+            "date": "2024-10-14",
+            "deadline": "2024-10-14",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
         {
             "kind": "EX",
             "n": 5,
@@ -49,12 +31,23 @@
             "date": "2024-10-14",
             "deadline": "2024-10-22",
             "links": {
-                "": "/"
+                "": "/exercises/list-unit-tests.html"
             }
         }
     ],
     "2024-10-15": [],
-    "2024-10-16": [],
+    "2024-10-16": [
+        {
+            "kind": "CQ",
+            "n": 7,
+            "title": "Unit Tests (Due Wednesday 10/16)",
+            "date": "2024-10-16",
+            "deadline": "2024-10-16",
+            "links": {
+                "": "/cqs/list-unit-tests.html"
+            }
+        }
+    ],
     "2024-10-17": [],
     "2024-10-18": [],
     "2024-10-19": [],
