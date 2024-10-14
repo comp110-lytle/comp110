@@ -104,8 +104,10 @@ If the start index is negative, start from the beginning of the list. If the end
 
 If the length of the list is 0, start is greater than or equal to the length of the list, or end is at most 0, return the empty list.
 
+
 ## 3. `add_at_index`
-Given a list of ints, an int element, and an index, `add_at_index` should modify the input list to place the element at the given index. `add_at_index` should return nothing. *The `add_at_index` function **should** mutate its input list* 
+Given a list of ints, an int element, and an index, `add_at_index` should modify the input list to place the element at the given index. `add_at_index` should return nothing. *The `add_at_index` function **should** mutate its input list.* 
+
 
 If the index is out of range (index < 0 or index > len(list)), `add_at_index` should throw an IndexError.
 
@@ -136,7 +138,8 @@ If the index given is invalid (out of range), raise the following error:
 ```{.python}
 raise IndexError("Index is out of bounds for the input list")
 ```
-<!-- needs a description, should take a list, an element, and an index as arguments and modify the list to place that element at that index -->
+
+*Hint:* For most cases, you will need to add space at the end of the list (i.e. append something to the end of the list), then shift everything to the right of the index in order to make space for the input element, before you can insert the new element at the correct index.
 
 ## 4. Unit Tests
 
