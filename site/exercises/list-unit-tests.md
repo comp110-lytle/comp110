@@ -7,6 +7,7 @@ author:
 - Alyssa Byrnes
 - Sophie Jiang
 - Izzi Hinks
+- Viktorya Hunanyan
 page: exercises
 template: overview
 ---
@@ -174,6 +175,30 @@ Once you have completed all functions, you can reduce the three import lines dow
 </pre>
 
 If your screen is large enough, you are encouraged to open these files side-by-side in VSCode by dragging the tab of one to the right side of VSCode so that it changes to a split pane view. Closing your file explorer can help give you additional horizontal space.
+
+For the `add_at_index` function, when testing that the function raises an `IndexError`, a different approach is used. An `IndexError` is an *exception*, and in order to catch an exception, the `pytest.raises` context manager is employed.
+
+Here is a skeleton code of how to *raise* or catch this exception:
+
+```python
+import pytest
+
+def test_add_at_index_raises_indexerror():
+    """Test that add_at_index raises an IndexError for an invalid index."""
+    # your object to pass to add_at_index function
+    with pytest.raises(IndexError):
+        add_at_index(<list_object>, <index_to_insert_num>, <value_to_add>) 
+        # an IndexError is raised for the case when the add_at_index is given an <index_to_insert_num> 
+        # that is greater than the length of our <list_object>
+```
+
+What this is saying:
+- The code inside the `with pytest.raises(IndexError):` block expects an `IndexError` to be raised. If the exception occurs as expected, the test passes. 
+- If the exception is not raised, or if a different exception is raised, the test will fail, indicating that the function is not handling the invalid input correctly.
+
+We use `pytest.raises` instead of testing for equality using `==` because exceptions are not returned values; they are events that interrupt the normal flow of execution. When testing for errors, it is not possible to check for an error by comparing a return value. Instead, `pytest.raises` allows testing that the correct exception is triggered during the execution of a function.
+
+Notice that in order to use `pytest`, it must be imported. As shown in the example structure above, add the import line for pytest along with the other import lines at the top of the test file.
 
 ## 5. Make a Backup Checkpoint "Commit"
 
