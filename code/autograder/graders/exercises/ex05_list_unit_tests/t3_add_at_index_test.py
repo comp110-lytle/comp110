@@ -4,6 +4,8 @@ __author__ = "730120170"
 
 import pytest
 from pytest import mark
+from graders.helpers import import_module, reimport_module, assert_return_type
+MODULE = "exercises.ex05.utils"
 
 
 def _test_add_at_index(
@@ -17,6 +19,13 @@ def _test_add_at_index(
     assert (
         list1 == expected
     ), "The list argument should be mutated by adding the specified integer at the indicated index."
+
+@mark.timeout(3)
+@mark.weight(2)
+def test_add_at_index_return_type():
+    """add_at_index - Function's return type should be None."""
+    module = import_module(MODULE)
+    assert_return_type(module.add_at_index, None)
 
 
 @mark.timeout(3)
@@ -44,7 +53,7 @@ def test_out_of_range_neg3():
 
 
 @mark.timeout(3)
-@mark.weight(3)
+@mark.weight(2)
 def test_out_of_range_pos1():
     """add_at_index - Trying to add an element at an index that is out of range (edge case)."""
     with pytest.raises(IndexError):
@@ -60,9 +69,9 @@ def test_out_of_range_pos2():
 
 
 @mark.timeout(3)
-@mark.weight(5)
+@mark.weight(4)
 def test_empty_list():
-    """add_at_index - Adding an element at an index 0 to an empty list."""
+    """add_at_index - Adding an element at index 0 to an empty list."""
     _test_add_at_index([], 1, 0, [1])
 
 
