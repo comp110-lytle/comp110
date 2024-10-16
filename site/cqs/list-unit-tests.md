@@ -38,6 +38,11 @@ Here is some example behavior:
 10
 >>> b
 [9, 8, 7]
+>>> c: list[int] = [9,9,8,7]
+>>> find_and_remove_max(c)
+9
+>>> c
+[8, 7]
 </div>
 </pre>
 
