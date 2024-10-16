@@ -562,8 +562,7 @@
             "date": "2024-10-14",
             "deadline": "None",
             "links": {
-                "Sections 01 and 02": "/static/slides/alyssa/CL16.pdf",
-                "Sections 03 and 04": "/"
+                "All Sections": "/static/slides/alyssa/CL16.pdf"
             }
         },
         {
@@ -589,6 +588,16 @@
     ],
     "2024-10-15": [],
     "2024-10-16": [
+        {
+            "kind": "CL",
+            "n": 17,
+            "title": "",
+            "date": "2024-10-16",
+            "deadline": "None",
+            "links": {
+                "All Sections": "/static/slides/izzi/SophieSlidesOct16.pdf"
+            }
+        },
         {
             "kind": "CQ",
             "n": 7,

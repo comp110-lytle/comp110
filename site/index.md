@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/list-utils.html">EX04 - SUN, OCT 13 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS16 - MON, OCT 14 11:59pm</a></li><li class="horizon-item"><a href="/cqs/list-unit-tests.html">CQ07 - WED, OCT 16 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/list-unit-tests.html">CQ07 - WED, OCT 16 11:59pm</a></li><li class="horizon-item"><a href="/exercises/list-unit-tests.html">EX05 - TUE, OCT 22 11:59pm</a></li><li class="horizon-item"><a href="/cqs/dicts-for-loops.html">CQ08 - WED, OCT 23 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -41,14 +41,16 @@ template: home
 <div class="date col-md-2">Mon, Oct 14</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL16 </span><span class="title">Unit Tests</span>
-<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL16.pdf">Sections 01 and 02</a></li>
-<li class="link"><a href="/">Sections 03 and 04</a></li>
+<ul class="links"><li class="link"><a href="/static/slides/alyssa/CL16.pdf">All Sections</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS16 </span><span class="title"><a href="https://www.gradescope.com/">Unit Tests (Due Monday 10/14)</a></span></div><div class="plan Exercise">
 <span class="kind">EX05 </span><span class="title"><a href="/exercises/list-unit-tests.html">List Unit Tests (Due Tuesday 10/22)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-10-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Oct 16</div>
-<div class="plans col-md-9"><div class="plan Challenge Question">
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL17 </span><span class="title"></span>
+<ul class="links"><li class="link"><a href="/static/slides/izzi/SophieSlidesOct16.pdf">All Sections</a></li>
+</ul></div><div class="plan Challenge Question">
 <span class="kind">CQ07 </span><span class="title"><a href="/cqs/list-unit-tests.html">Unit Tests (Due Wednesday 10/16)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-10-23" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Oct 23</div>
