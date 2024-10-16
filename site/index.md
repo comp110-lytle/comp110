@@ -48,7 +48,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-10-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Oct 16</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL17 </span><span class="title"></span>
+<span class="kind">CL17 </span><span class="title">Review of commonly misunderstood concepts</span>
 <ul class="links"><li class="link"><a href="/static/slides/izzi/SophieSlidesOct16.pdf">All Sections</a></li>
 </ul></div><div class="plan Challenge Question">
 <span class="kind">CQ07 </span><span class="title"><a href="/cqs/list-unit-tests.html">Unit Tests (Due Wednesday 10/16)</a></span></div></div>
