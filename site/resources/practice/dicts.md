@@ -1,8 +1,8 @@
 ---
 title: Dictionary Conceptual Questions
 author:
-- Viktorya Hunanyan
 - Alyssa Lytle
+- Viktorya Hunanyan
 - Carmine Anderson-Falconi
 page: lessons
 template: overview
@@ -48,7 +48,7 @@ write a line of code to get the number of key/value pairs in the dictionary.
 
 18. Using the dictionary `scores: dict[str, int] = {"Alice": 85, "Bob": 90, "Charlie": 88}`, write a line of code that returns the sum of all the values (scores) in the dictionary. Assume that we have a written a `sum` function that will do this for us when passing in a `dict`. Store this value in a variable `total_score`. 
 
-- 18a. Write the same line of code except using key-word arguments assuming that the only parameter in `sum` is called `inp_dict`. 
+    - 18a. Write the same line of code except using key-word arguments assuming that the only parameter in `sum` is called `inp_dict`. 
 
 19. Using the dictionary `fruit_count: dict[str, int] = {"apples": 5, "bananas": 8}`, iterate over the key-value pairs and print them in the format "key: value". 
 
