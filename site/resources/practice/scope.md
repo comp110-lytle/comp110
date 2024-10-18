@@ -57,17 +57,9 @@ Variables in different scopes (such as global and local scope) can have the same
 
 3. True
 If an object is passed to a function and modified, the changes are reflected globally because Python passes a reference to the object, not a copy. Remember, that we also pass values to the function and that value is the whatever is in your halfbox in memory. This will be a reference (reference number (id number)). Remember, to mutate an object, we pass by reference! 
-
-- 3a. False
-The function does not copy the object. Instead, it directly manipulates the original object via the reference.
-
-3b. True
-To manipulate an object, it must be passed as a parameter to the function, allowing the function to access and modify it.
-
-3c. True
-The function operates on the original object via the reference held by the parameter.
-
-3d. True
-The reference (memory address/id number) held in the function parameter is the same as the reference of the original object, so any changes to the object in the function are reflected globally.
+    - 3a. False; The function does not copy the object. Instead, it directly manipulates the original object via the reference.
+    - 3b. True; To manipulate an object, it must be passed as a parameter to the function, allowing the function to access and modify it.
+    - 3c. True; The function operates on the original object via the reference held by the parameter.
+    - 3d. True; The reference (memory address/id number) held in the function parameter is the same as the reference of the original object, so any changes to the object in the function are reflected globally.
 
 *More solutions to come*
