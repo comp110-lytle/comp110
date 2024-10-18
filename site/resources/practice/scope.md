@@ -40,7 +40,7 @@ def get_coords() -> None:
  if __name__ == "__main__":
     get_coords()
 ```
-5. Give an example, not using an object, of Global variables being referenced inside of a local frame. Explain what is happening in your example and how scope is in use. 
+5. Give an example of a Global variable being referenced inside of a local frame (this varible should not reference an object). Explain what is happening in your example and how scope is in use. 
 6. Give an example of when a Global variable and a local variable have the same name but in different local frames, one is used over the other. 
 
 [Solutions](#conceptual-solutions)

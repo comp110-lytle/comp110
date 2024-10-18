@@ -23,7 +23,7 @@ template: overview
 # Solution
 <img class="img-fluid" src="/static/practice-mem-diagrams/lineup-sol.png" alt="Image Description Here"  />
 
-<!-- *Image Description:*
+*Image Description:*
 The memory diagram provided contains three main components: Stack, Heap, and Output.
 
 Stack:
@@ -39,4 +39,4 @@ Heap:
 The output section has three outputs:
 * The string “Jackson”
 * The list [“Love”, “Bacot”, “Black”, “Nance”, “Davis”]
-* The list [“Love”, “Bacot”, “Black”, “Johnson”, “Davis”] -->
+* The list [“Love”, “Bacot”, “Black”, “Johnson”, “Davis”]

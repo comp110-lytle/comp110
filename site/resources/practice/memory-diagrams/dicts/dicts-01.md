@@ -18,7 +18,7 @@ template: overview
     x = "y"
     y = "z"
     test: dict[str,float] = {"z": 3.14}
-    print(mystery(test,y))
+    print(mystery(test, y))
 ```
 
 # Solution
