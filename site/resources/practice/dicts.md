@@ -11,6 +11,7 @@ template: overview
 # Questions
 
 ## Conceptual
+For the following, you must prove your answer to each question. Prove using either memory diagrams or code in VS code.
 
 1. Dictionaries in Python can have duplicate keys. (T/F)
 2. Dictionaries in Python can be nested, meaning a dictionary can contain another dictionary as a value. (T/F)
