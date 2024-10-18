@@ -39,10 +39,10 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Dictionaries](/resources/practice/dicts.html)
 - [for Loops](/resources/practice/for-loops.html)
 - [Lists, Dictionaries, and Loops Reinforcement Questions](/resources/practice/lists-and-dicts-reinforced.html)
-- [Unit Tests *(to-do)*](/resources/practice/unit-tests.html)
+- [Unit Tests](/resources/practice/unit-tests.html)
 - [Function Writing](/resources/practice/function-writing.html)
 
-## Quiz 03
+<!-- ## Quiz 03
 
 
 - [Object-Oriented Programming *(to-do)*](/resources/practice/unit-tests.html)
@@ -53,4 +53,4 @@ If you ever find yourself feeling really lost, feel free to take these questions
 ## Quiz 04
 
 - [Recursive Functions *(to-do)*](/resources/practice/unit-tests.html)
-- [Algorithms + Runtime Analysis *(to-do)*](/resources/practice/unit-tests.html)
+- [Algorithms + Runtime Analysis *(to-do)*](/resources/practice/unit-tests.html) -->
