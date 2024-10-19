@@ -2,6 +2,7 @@
 title: Practice Memory Diagram
 author:
 - Alyssa Lytle
+- Viktorya Hunanyan
 page: lessons
 template: overview
 ---
@@ -32,7 +33,7 @@ template: overview
 # Solution
 
 
-<!-- <img class="img-fluid" src="/static/practice-mem-diagrams/data-sol.png" alt="Image Description Here"  /> -->
+<img class="img-fluid" src="/static/mem-diags/columnar-mem.jpg" alt="Image Description Here"  />
 
-<!-- ## Image Description  -->
+## Image Description 
 *(Coming Soon)*
