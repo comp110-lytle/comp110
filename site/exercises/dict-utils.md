@@ -154,4 +154,4 @@ In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exerc
 
 Autograding will take a few moments to complete. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours!
 
-NOTE: The autograder for this assignment will only test for correct function signatures and basic functionality. You are encouraged to think about edge cases and the robustness of your code on your own. In the next part of this assignment, you will write your own unit tests to ensure that your functions work under a variety of circumstances.
+<!-- NOTE: The autograder for this assignment will only test for correct function signatures and basic functionality. You are encouraged to think about edge cases and the robustness of your code on your own. In the next part of this assignment, you will write your own unit tests to ensure that your functions work under a variety of circumstances. -->
