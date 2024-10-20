@@ -15,13 +15,13 @@ MODULE = "exercises.ex06.dictionary"
 # Edge cases must be checked and fulfilled in Part 2 using Unit Testing.
 
 
-@mark.weight(5)
+@mark.weight(4)
 def test_invert_params():
     """invert - invert has 1 parameter of type dict[str, str]."""
     module = reimport_module(MODULE)
     assert_parameter_list(module.invert, [dict[str, str]])
 
-@mark.weight(5)
+@mark.weight(4)
 def test_invert_return_type():
     """invert - invert returns a dict[str, str]."""
     module = reimport_module(MODULE)
@@ -34,7 +34,7 @@ def test_invert_correct():
     all_same: dict[str, str] = {'a': 'z', 'b': 'y', 'c': 'x'}
     assert module.invert(all_same) == {'z': 'a', 'y': 'b', 'x': 'c'}
 
-@mark.weight(5)
+@mark.weight(4)
 def test_invert_key_error():
     """invert - raises KeyError when duplicate values exist."""
     module = reimport_module(MODULE)

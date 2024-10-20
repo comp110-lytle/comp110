@@ -11,21 +11,21 @@ from graders.helpers import assert_return_type
 
 MODULE = "exercises.ex06.dictionary"
 
-@mark.weight(2)
+@mark.weight(1)
 def test_update_attendance_params():
     """update_attendance - update_attendance takes in a dict[str, list[str]], str, str."""
     module = reimport_module(MODULE)
     assert_parameter_list(module.update_attendance, [dict[str, list[str]], str, str])
 
 
-@mark.weight(2)
+@mark.weight(1)
 def test_update_attendance_return_type():
     """update_attendance - update_attendance returns None."""
     module = reimport_module(MODULE)
     assert_return_type(module.update_attendance, None)
 
 
-@mark.weight(3)
+@mark.weight(2)
 def test_update_attendance_1():
     """update_attendance - update_attendance correctly mutates the passed in dictionary."""
     module = reimport_module(MODULE)
@@ -34,7 +34,7 @@ def test_update_attendance_1():
     module.update_attendance(log, "Friday", "Jane")
     assert log == {"Wednesday": ["Jane", "Mary"], "Thursday": ["Daisy", "Jane"], "Friday": ["Jane"]}
 
-@mark.weight(4)
+@mark.weight(3)
 def test_update_attendance_1():
     """update_attendance - update_attendance does not repeat the same name within a day."""
     module = reimport_module(MODULE)
@@ -45,7 +45,7 @@ def test_update_attendance_1():
     assert log == {"Monday": ["Anna"], "Tuesday": ["Anna"]}
 
 
-@mark.weight(4)
+@mark.weight(3)
 def test_update_attendance_2():
     """update_attendance - update_attendance correctly mutates the passed in dictionary."""
     module = reimport_module(MODULE)

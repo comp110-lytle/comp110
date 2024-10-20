@@ -10,13 +10,13 @@ from graders.helpers import assert_return_type
 
 MODULE = "exercises.ex06.dictionary"
 
-@mark.weight(5)
+@mark.weight(4)
 def test_favorite_color_params():
     """favorite_color - favorite_color has 1 parameter of type dict[str, str]."""
     module = reimport_module(MODULE)
     assert_parameter_list(module.favorite_color, [dict[str, str]])
 
-@mark.weight(5)
+@mark.weight(4)
 def test_favorite_color_return_type():
     """favorite_color - favorite_color returns a str."""
     module = reimport_module(MODULE)
