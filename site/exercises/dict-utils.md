@@ -61,7 +61,7 @@ An example:
 
 
 <pre>
-<div class="terminal"> >>> favorite_color({"Marc": "yellow", "Ezri": "blue", "Kris": "blue"})
+<div class="terminal">>>> favorite_color({"Marc": "yellow", "Ezri": "blue", "Kris": "blue"})
 blue
 </div></pre>
 
