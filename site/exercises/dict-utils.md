@@ -1,5 +1,5 @@
 ---
-title: EX05 - Dictionary Utils
+title: Dictionary Utils
 author:
   - Kaki Ryan
   - Vrinda Desai
@@ -7,24 +7,17 @@ author:
 page: exercises
 template: overview
 ---
-# EX05 - Dictionary Utility Functions
+# Dictionary Utility Functions
 
 In this exercise you will get some practice with dictionary functions!
 
-Assignment Outline
 
-- `invert` -- 10 Points Autograded
-- `count` -- 10 Points Autograded
-- `favorite_colors` -- 20 Points Autograded
-- `alphabetizer`-- 20 Points Autograded
-- `update_attendance` -- 20 Points Autograded
-- Style, Linting, Typing -- 20 Points Autograded
 
 ## 0. Setup
 
-Create a new **directory** in `exercises` named `ex05`.
+Create a new **directory** in `exercises` named `ex06`.
 
-Inside the `exercises/ex05` directory, create a file named `dictionary.py`. Add a docstring and establish an `__author__` variable to be assigned a string with the digits of your PID. This is where you will implement your function skeletons and implementations below.
+Inside the `exercises/ex06` directory, create a file named `dictionary.py`. Add a docstring and establish an `__author__` variable to be assigned a string with the digits of your PID. This is where you will implement the utility functions below.
 
 ## 1. `invert`
 
@@ -66,15 +59,9 @@ Create a function in your `dictionary.py` file called `favorite_color`. It has t
 
 An example:
 
-```
-print(favorite_color({"Marc": "yellow", "Ezri": "blue", "Kris": "blue"}))
-```
-
-The results of which would look like:
-
 
 <pre>
-<div class="terminal">$ python -m exercises.ex05.favorite_color
+<div class="terminal"> >>> favorite_color({"Marc": "yellow", "Ezri": "blue", "Kris": "blue"})
 blue
 </div></pre>
 
@@ -128,17 +115,11 @@ Given a `dict[str, list[str]]`, this function will _mutate_ and return that dict
 
 An example:
 
-```
- attendance_log: dict = {"Monday": ["Vrinda", "Kaleb"], "Tuesday": ["Alyssa"]}
- update_attendance(attendance_log, "Tuesday" , "Vrinda")
- update_attendance(attendance_log, "Wednesday" , "Kaleb")
- print(attendance_log)
-```
-
-The results of which would look like:
-
 <pre>
-<div class="terminal">$ python -m exercises.ex05.update_attendance
+<div class="terminal">>>> attendance_log: dict = {"Monday": ["Vrinda", "Kaleb"], "Tuesday": ["Alyssa"]}
+>>> update_attendance(attendance_log, "Tuesday" , "Vrinda")
+>>> update_attendance(attendance_log, "Wednesday" , "Kaleb")
+>>> attendance_log
 {'Monday': ['Vrinda', 'Kaleb'], 'Tuesday': ['Alyssa', 'Vrinda'], 'Wednesday': ['Kaleb']}
 </div>
 </pre>
@@ -157,17 +138,17 @@ As you make progress on this exercise, making backups is encouraged.
 
 ## 7. Submit to Gradescope for Grading
 
-Login to Gradescope and select the assignment named "EX05 - Dictionaries.". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
+Login to Gradescope and select the assignment named "EX06 - Dictionary Utility Functions.". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
 
 If you _do not_ see a Terminal at the bottom of your screen, open the Command Palette and search for "View: Toggle Integrated Terminal".
 
 Type the following command (all on a single line):
 
 ```
-python -m tools.submission exercises/ex05
+python -m tools.submission exercises/ex06
 ```
 
-In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex05.zip". The "yy", "mm", "dd", and so on, are timestamps with the current month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex06.zip". The "yy", "mm", "dd", and so on, are timestamps with the current month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
 Autograding will take a few moments to complete. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours!
 
