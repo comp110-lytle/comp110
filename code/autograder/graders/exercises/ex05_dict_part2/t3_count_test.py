@@ -8,7 +8,7 @@ from graders.helpers import assert_return_type
 from random import randint
 
 
-MODULE = "ex05.dictionary"
+MODULE = "ex06.dictionary"
 
 
 @mark.weight(4)
@@ -36,3 +36,21 @@ def test_count_2():
         else:
             expected[value] = 1
     assert module.count(values) == expected
+
+@mark.weight(1)
+def test_count_empty():
+    """count - handles an empty list correctly."""
+    module = reimport_module(MODULE)
+    assert module.count([]) == {}
+
+@mark.weight(1)
+def test_count_single():
+    """count - correctly counts a single element list."""
+    module = reimport_module(MODULE)
+    assert module.count(["only"]) == {"only": 1}
+
+@mark.weight(1)
+def test_count_case_sensitive():
+    """count - differentiates between upper and lower case."""
+    module = reimport_module(MODULE)
+    assert module.count(["Hello", "hello", "HELLO"]) == {"Hello": 1, "hello": 1, "HELLO": 1}

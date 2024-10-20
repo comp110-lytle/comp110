@@ -7,7 +7,7 @@ from pytest import mark
 from graders.helpers import assert_parameter_list, author_is_a_valid_pid, reimport_module
 from graders.helpers import assert_return_type
 
-MODULE = "exercises.ex05.dictionary"
+MODULE = "exercises.ex06.dictionary"
 
 # GOAL: To check for signatures, and very basic functionality. 
 # Edge cases must be checked and fulfilled in Part 2 using Unit Testing.
@@ -40,3 +40,18 @@ def test_invert_1():
     from exercises.ex05.dictionary import invert
     all_same: dict[str, str] = {'a': 'z', 'b': 'y', 'c': 'x'}
     assert invert(all_same) == {'z': 'a', 'y': 'b', 'x': 'c'}
+
+@mark.weight(2)
+def test_invert_key_error():
+    """invert - raises KeyError when duplicate values exist."""
+    from exercises.ex05.dictionary import invert
+    with pytest.raises(KeyError):
+        invert({'kris': 'jordan', 'michael': 'jordan'})
+
+
+@mark.weight(1)
+def test_invert_empty():
+    """invert - handles empty dictionary."""
+    from exercises.ex05.dictionary import invert
+    assert invert({}) == {}
+
