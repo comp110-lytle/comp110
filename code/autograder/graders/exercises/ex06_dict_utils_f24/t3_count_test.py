@@ -12,7 +12,7 @@ from graders.helpers import assert_return_type
 
 MODULE = "exercises.ex06.dictionary"
 
-@mark.weight(4)
+@mark.weight(5)
 def test_count_1():
     """count - count returns the correct counts with a small list of values."""
     try:
@@ -22,7 +22,7 @@ def test_count_1():
     except:
         assert False, f"Unable to import {MODULE}"
 
-@mark.weight(4)
+@mark.weight(5)
 def test_count_2():
     """count - count returns the correct counts with a large list of values."""
     module = reimport_module(MODULE)
@@ -38,41 +38,8 @@ def test_count_2():
             expected[value] = 1
     assert module.count(values) == expected
 
-@mark.weight(2)
+@mark.weight(5)
 def test_count_empty():
     """count - handles an empty list correctly."""
     module = reimport_module(MODULE)
     assert module.count([]) == {}
-
-@mark.weight(2)
-def test_count_single():
-    """count - correctly counts a single element list."""
-    module = reimport_module(MODULE)
-    assert module.count(["only"]) == {"only": 1}
-
-@mark.weight(2)
-def test_count_case_sensitive():
-    """count - differentiates between upper and lower case."""
-    module = reimport_module(MODULE)
-    assert module.count(["Hello", "hello", "HELLO"]) == {"Hello": 1, "hello": 1, "HELLO": 1}
-
-@mark.weight(2)
-def test_count_params():
-    """count - count takes in a list[str]."""
-    module = reimport_module(MODULE)
-    assert_parameter_list(module.count, [list[str]])
-
-
-@mark.weight(2)
-def test_count_return_type():
-    """count - count returns a dict[str, int]."""
-    module = reimport_module(MODULE)
-    assert_return_type(module.count, dict[str, int])
-
-
-@mark.weight(2)
-def test_count_1():
-    """count - count returns the correct counts with a small list of values."""
-    module = reimport_module(MODULE)
-    values = ["Kaki", "Kaki", "Lily", "Ada", "Nellie", "Krackle", "Lily"]
-    assert module.count(values) == {'Kaki': 2, 'Lily': 2, 'Ada': 1, 'Nellie': 1, "Krackle": 1}

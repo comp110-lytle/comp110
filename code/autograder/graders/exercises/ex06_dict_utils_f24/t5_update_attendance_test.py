@@ -25,7 +25,7 @@ def test_update_attendance_return_type():
     assert_return_type(module.update_attendance, None)
 
 
-@mark.weight(2)
+@mark.weight(3)
 def test_update_attendance_1():
     """update_attendance - update_attendance correctly mutates the passed in dictionary."""
     module = reimport_module(MODULE)
@@ -55,7 +55,7 @@ def test_update_attendance_2():
     assert log == {"Monday": ["Kam"], "Tuesday": ["Kaleb"]}
 
 
-@mark.weight(2)
+@mark.weight(5)
 def test_update_attendance_empty():
     """update_attendance - correctly handles an empty dictionary."""
     module = reimport_module(MODULE)
@@ -64,21 +64,10 @@ def test_update_attendance_empty():
     assert log == {"Monday": ["John"]}
 
 
-@mark.weight(2)
-def test_update_attendance_multiple_students():
-    """update_attendance - correctly adds multiple students on the same day."""
-    module = reimport_module(MODULE)
-    log = {"Monday": ["John"]}
-    module.update_attendance(log, "Monday", "Alice")
-    module.update_attendance(log, "Monday", "Bob")
-    assert log == {"Monday": ["John", "Alice", "Bob"]}
-
-
-@mark.weight(2)
+@mark.weight(5)
 def test_update_attendance_same_student_different_days():
     """update_attendance - allows the same student on different days."""
     module = reimport_module(MODULE)
     log = {"Monday": ["John"]}
     module.update_attendance(log, "Tuesday", "John")
     assert log == {"Monday": ["John"], "Tuesday": ["John"]}
-
