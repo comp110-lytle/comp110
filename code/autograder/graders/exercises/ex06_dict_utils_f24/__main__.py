@@ -7,8 +7,8 @@ configuration = autograde.Configuration(
     src_path="exercises/ex06",
     test_path=path.dirname(path.realpath(__file__)),
     pytest_points=90.0,
-    typecheck_points=5.0,
-    lint_points=5.0,
+    typecheck_points=10.0,
+    lint_points=0.0,
     ec_date_1="2022-10-10",
     ec_date_2="2022-10-11"
 )
