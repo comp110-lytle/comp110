@@ -10,21 +10,21 @@ from graders.helpers import assert_return_type
 
 MODULE = "exercises.ex06.dictionary"
 
-@mark.weight(3)
+@mark.weight(2)
 def test_alphabetizer_params():
     """alphabetizer - alphabetizer takes in a list[str]."""
     module = reimport_module(MODULE)
     assert_parameter_list(module.alphabetizer, [list[str]])
 
 
-@mark.weight(3)
+@mark.weight(2)
 def test_alphabetizer_return_type():
     """alphabetizer - alphabetizer returns a dict[str, list[str]]."""
     module = reimport_module(MODULE)
     assert_return_type(module.alphabetizer, dict[str, list[str]])
 
 
-@mark.weight(3)
+@mark.weight(2)
 def test_alphabetizer_1():
     """alphabetizer - alphabetizer correctly returns a dictionary of sorted words."""
     module = reimport_module(MODULE)
@@ -39,7 +39,7 @@ def test_alphabetizer_1():
     assert module.alphabetizer(words) == {"a": ["apple", "all"]}
 
 
-@mark.weight(1)
+@mark.weight(2)
 def test_alphabetizer_empty():
     """alphabetizer - handles an empty list correctly."""
     module = reimport_module(MODULE)

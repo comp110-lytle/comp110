@@ -51,7 +51,7 @@ def test_invert_key_error():
         module.invert({'kris': 'jordan', 'michael': 'jordan'})
 
 
-@mark.weight(1)
+@mark.weight(2)
 def test_invert_empty():
     """invert - handles empty dictionary."""
     module = reimport_module(MODULE)
@@ -65,7 +65,7 @@ def test_invert_1():
     assert module.invert(empty) == {}
 
 
-@mark.weight(3)
+@mark.weight(2)
 def test_invert_2():
     """invert - invert is correct for a large input dictionary."""
     module = reimport_module(MODULE)
@@ -73,7 +73,7 @@ def test_invert_2():
     assert module.invert(low) == {'bottom': 'apple', 'boots': 'jeans', 'the': 'with', 'apple': 'fur'}
 
 
-@mark.weight(3)
+@mark.weight(2)
 def test_invert_error():
     """invert - invert correctly raises error."""
     module = reimport_module(MODULE)
@@ -89,7 +89,7 @@ def test_invert_key_error():
         module.invert({'kris': 'jordan', 'michael': 'jordan'})
 
 
-@mark.weight(1)
+@mark.weight(2)
 def test_invert_empty():
     """invert - handles empty dictionary."""
     module = reimport_module(MODULE)
