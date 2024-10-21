@@ -12,9 +12,9 @@ template: overview
 
 Previously, we've talked about whether or not a function *mutates* (aka changes) a variable. 
 
-For example, we might want a function that takes a `list` as an input and *mutates* that list, OR we might want a function that takes a `list` as an input does NOT mutate that list, but instead tells us something about that list, or returns a new `list` with changes made to it. 
+For example, we might want a function that takes a `list` as an input and *mutates* that list, OR we might want a function that takes a `list` as an input, does NOT mutate that list, but instead tells us something about that list or returns a new `list` with changes made to it. 
 
-This ideas also applies to methods! As we've talked about previously, methods often *mutate* (or change) the object they belong to. Think about our `Pizza` class from the lesson. The `add_toppings` method *mutates* a Pizza object by changing the value of `self.toppings`. On the other hand, the `price` method did not change the value of any attributes, so it does NOT mutate the Pizza object.
+This idea also applies to methods! As we've talked about previously, methods often *mutate* (or change) the object they belong to. Think about our `Pizza` class from the lesson. The `add_toppings` method *mutates* a Pizza object by changing the value of `self.toppings`. On the other hand, the `price` method did not change the value of any attributes, so it does NOT mutate the Pizza object.
 
 For this CQ, we are going to create and compare two similar methods. They both have similar functionality, but one *mutates* the class object and one does not.
 
@@ -36,7 +36,7 @@ Now, define a constructor (aka an `__init__` method) that takes as input `x_init
 
 Now, you are going to write a method that belongs to the Point class and *mutates* a `Point`. 
 
-It'll should the following properties:
+It should have the following properties:
 
 * Method name: `scale_by`
 * Parameters: `self` and `factor: int` (In general, the first parameter of a method should always be `self`)
@@ -49,7 +49,7 @@ It'll should the following properties:
 
 Now, you are going to write a method that belongs to the Point class and instead of *mutating* a `Point`, it creates a new `Point`. 
 
-It'll should the following properties:
+It should have the following properties:
 
 * Method name: `scale`
 * Parameters: `self` and `factor: int` (In general, the first parameter of a method should always be `self`)
@@ -60,7 +60,9 @@ It'll should the following properties:
 
 ## Checking Your Methods For Correctness
 
-You can check your methods by creating a new file in your `CQ08` file called `make_points.py` and importing your `Point` class using `from lessons.CQ08.point import Point`. Then create a new point and call the methods.
+Check your methods by creating a new file in your `CQ08` file called `make_points.py` and importing your `Point` class using `from lessons.CQ08.point import Point`. Then create a new point and call the methods.
+
+Check that calling `Point#scale` does not mutate the `x` and `y` values of your original Point.
 
 ## 4. Submission
 
