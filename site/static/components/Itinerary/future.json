@@ -1,88 +1,52 @@
 {
-    "2024-09-23": [],
-    "2024-09-24": [],
-    "2024-09-25": [
+    "2024-10-18": [],
+    "2024-10-19": [],
+    "2024-10-20": [],
+    "2024-10-21": [
         {
             "kind": "CL",
-            "n": 11,
-            "title": "Global Variables, Scope, and Importing",
-            "date": "2024-09-25",
+            "n": 18,
+            "title": "Dictionaries + Dictionaries in Memory",
+            "date": "2024-10-21",
             "deadline": "None",
             "links": {
-                "Sections 01 and 02": "/static/slides/alyssa/CL11.pdf",
-                "Sections 03 and 04": "/static/slides/izzi/CL11Hinks.pdf"
+                "": "/static/slides/krizzi/KJ_IH_CL18_Dictionaries.pdf"
             }
         },
         {
             "kind": "LS",
-            "n": 11,
-            "title": "Global Variables and Scope (Due Wednesday 9/25)",
-            "date": "2024-09-25",
-            "deadline": "2024-09-25",
+            "n": 17,
+            "title": "Dictionaries (Due Monday 10/21)",
+            "date": "2024-10-21",
+            "deadline": "2024-10-21",
             "links": {
                 "": "https://www.gradescope.com/"
             }
-        },
+        }
+    ],
+    "2024-10-22": [],
+    "2024-10-23": [
         {
-            "kind": "LS",
-            "n": 12,
-            "title": "Importing Modules<s><i>(Due Wednesday 9/25)</i></s> (Extended to Friday 9/27)",
-            "date": "2024-09-25",
-            "deadline": "2024-09-25",
+            "kind": "CQ",
+            "n": 8,
+            "title": "Dictionaries Practice (Due Wednesday 10/23)",
+            "date": "2024-10-23",
+            "deadline": "2024-10-23",
             "links": {
-                "": "https://www.gradescope.com/"
+                "": "/"
             }
         },
         {
             "kind": "EX",
-            "n": 3,
-            "title": "Wordle (Due Thursday 10/3)",
-            "date": "2024-09-25",
-            "deadline": "2024-10-03",
+            "n": 6,
+            "title": "Dictionary Utils (Due Tuesday 10/29)",
+            "date": "2024-10-23",
+            "deadline": "2024-10-29",
             "links": {
-                "": "/exercises/wordle-pt2.html"
+                "": "/"
             }
         }
     ],
-    "2024-09-26": [],
-    "2024-09-27": [
-        {
-            "kind": "CQ",
-            "n": 4,
-            "title": "Variables, Scope, and Importing Functions (Due Friday 9/27)",
-            "date": "2024-09-27",
-            "deadline": "2024-09-27",
-            "links": {
-                "": "/cqs/imports.html"
-            }
-        }
-    ],
-    "2024-09-28": [],
-    "2024-09-29": [],
-    "2024-09-30": [],
-    "2024-10-01": [],
-    "2024-10-02": [],
-    "2024-10-03": [],
-    "2024-10-04": [],
-    "2024-10-05": [],
-    "2024-10-06": [],
-    "2024-10-07": [],
-    "2024-10-08": [],
-    "2024-10-09": [],
-    "2024-10-10": [],
-    "2024-10-11": [],
-    "2024-10-12": [],
-    "2024-10-13": [],
-    "2024-10-14": [],
-    "2024-10-15": [],
-    "2024-10-16": [],
-    "2024-10-17": [],
-    "2024-10-18": [],
-    "2024-10-19": [],
-    "2024-10-20": [],
-    "2024-10-21": [],
-    "2024-10-22": [],
-    "2024-10-23": [],
     "2024-10-24": [],
     "2024-10-25": [
         {
@@ -92,7 +56,8 @@
             "date": "2024-10-25",
             "deadline": "2024-10-25",
             "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html"
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Link to Virtual Review Session @ 7PM on 10/24 (Passcode: 110110)": "https://unc.zoom.us/j/92015805242?pwd=IaGTRpsrMhpAP8dDZYbW5b46NoTwWF.1"
             }
         }
     ],
@@ -102,7 +67,18 @@
     "2024-10-29": [],
     "2024-10-30": [],
     "2024-10-31": [],
-    "2024-11-01": [],
+    "2024-11-01": [
+        {
+            "kind": "EX",
+            "n": 7,
+            "title": "River Simulation (Due Sunday 11/10)",
+            "date": "2024-11-01",
+            "deadline": "2024-11-10",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-11-02": [],
     "2024-11-03": [],
     "2024-11-04": [],
@@ -123,14 +99,36 @@
     ],
     "2024-11-09": [],
     "2024-11-10": [],
-    "2024-11-11": [],
+    "2024-11-11": [
+        {
+            "kind": "EX",
+            "n": 8,
+            "title": "Data Utils (Due Sunday 11/17)",
+            "date": "2024-11-11",
+            "deadline": "2024-11-17",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-11-12": [],
     "2024-11-13": [],
     "2024-11-14": [],
     "2024-11-15": [],
     "2024-11-16": [],
     "2024-11-17": [],
-    "2024-11-18": [],
+    "2024-11-18": [
+        {
+            "kind": "EX",
+            "n": 9,
+            "title": "Recursive Turtle (Due Sunday 11/24)",
+            "date": "2024-11-18",
+            "deadline": "2024-11-24",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-11-19": [],
     "2024-11-20": [],
     "2024-11-21": [],
@@ -148,7 +146,18 @@
     ],
     "2024-11-23": [],
     "2024-11-24": [],
-    "2024-11-25": [],
+    "2024-11-25": [
+        {
+            "kind": "EX",
+            "n": 10,
+            "title": "Linked List Utils (Due Wednesday 12/4)",
+            "date": "2024-11-25",
+            "deadline": "2024-12-04",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-11-26": [],
     "2024-11-27": [],
     "2024-11-28": [],

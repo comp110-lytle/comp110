@@ -60,7 +60,7 @@ def copy_all(target_dir: str) -> None:
 
         # Ignore top-level dirs in `code/` to prevent things like our solutions from being included.
         if dir == ".":
-            deny += ["exercises", "quiz", "projects", "lessons", "training", "admin"]
+            deny += ["exercises", "quiz", "projects", "lessons", "training", "admin", "CQs"]
         
         for entry in contents:
             if entry.endswith(".pyc"):

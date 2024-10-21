@@ -19,7 +19,7 @@ This idea also applies to methods! As we've talked about previously, methods oft
 For this CQ, we are going to create and compare two similar methods. They both have similar functionality, but one *mutates* the class object and one does not.
 
 ## 0. Set up files
-Create a new folder inside "lessons" called "CQ08" and a new file inside of it titled "point.py".
+Create a new folder inside `CQs` called `cq09` and a new file inside of it titled `point.py`.
 
 ## 1. Create `Point` class
 
@@ -60,7 +60,7 @@ It should have the following properties:
 
 ## Checking Your Methods For Correctness
 
-Check your methods by creating a new file in your `CQ08` file called `make_points.py` and importing your `Point` class using `from lessons.CQ08.point import Point`. Then create a new point and call the methods.
+Check your methods by creating a new file in your `CQ09` file called `make_points.py` and importing your `Point` class using `from lessons.CQ09.point import Point`. Then create a new point and call the methods.
 
 Check that calling `Point#scale` does not mutate the `x` and `y` values of your original Point.
 
@@ -69,5 +69,5 @@ Check that calling `Point#scale` does not mutate the `x` and `y` values of your 
 Create your submission with the following command:
 
 ```
-python -m tools.submission lessons/CQ08
+python -m tools.submission CQs/cq09
 ```

@@ -4,7 +4,7 @@ __author__ = "730225231" # modified by Alyssa
 
 from pytest import mark
 from graders.helpers import import_module, reimport_module, assert_return_type
-MODULE = "ex04_utils"
+MODULE = "exercises.ex04_utils"
 
 
 def _test_is_equal(list1: list[int], list2: list[int], expected: bool) -> None:

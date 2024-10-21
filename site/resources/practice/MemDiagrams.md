@@ -24,7 +24,7 @@ template: overview
 
 [Example 0](/resources/practice/memory-diagrams/while/while-prime.html) |
 [Example 1](/resources/practice/memory-diagrams/while/digits-in-string.html)  |
-[Example 2](/resources/practice/memory-diagrams/while/string_count.html) |
+[Example 2](/resources/practice/memory-diagrams/while/string_count.html) 
 <!-- [Example 3](/resources/practice/memory-diagrams/functions/cookies.html) |
 [Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html)  -->
 
@@ -64,23 +64,25 @@ template: overview
 <!-- | 
 [Example 3](/resources/practice/memory-diagrams/functions/func-01.html) -->
 
-<!-- 
+
 
 ## Lists 
 [Example 0](/resources/practice/memory-diagrams/lists/lists-00.html) |
 [Example 1](/resources/practice/memory-diagrams/lists/lists-01.html) |
 [Example 2](/resources/practice/memory-diagrams/lists/references.html) |
 [Example 3](/resources/practice/memory-diagrams/lists/change-and-check.html) |
+[Example 4](/resources/practice/memory-diagrams/lists/apply_discount.html)
 
 
 ## Dictionaries
 
 [Example 0](/resources/practice/memory-diagrams/dicts/dicts-00.html) |
 [Example 1](/resources/practice/memory-diagrams/dicts/dicts-01.html) |
-[Example 2](/resources/practice/memory-diagrams/dicts/lineups.html)
+[Example 2](/resources/practice/memory-diagrams/dicts/lineups.html) |
+<!-- [Example 3](/resources/practice/memory-diagrams/dicts/todo-list.html) -->
 
 
-## Recursion
+<!-- ## Recursion
 [Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
 [Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
 [Example 1](/resources/practice/memory-diagrams/recursion/pow.html)
@@ -98,9 +100,10 @@ template: overview
 [Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html) -->
 
 
-<!-- ## Nested Data Structures
+## Nested Data Structures
 [Example 0](/resources/practice/memory-diagrams/nested-structures/data.html) |
-[Example 1](/resources/practice/memory-diagrams/nested-structures/nested.html)  -->
+[Example 1](/resources/practice/memory-diagrams/nested-structures/nested.html) |
+[Example 2](/resources/practice/memory-diagrams/nested-structures/inventory.html) 
 
 <!-- ## Recursive Structures
 

@@ -1,16 +1,14 @@
-"""Autograder for Exercise 07."""
+"""Autograder for loops practice"""
 
 from os import path
 from grading import autograde
 
 configuration = autograde.Configuration(
-    src_path="ex05",
+    src_path="CQs/cq06_sum",
     test_path=path.dirname(path.realpath(__file__)),
     pytest_points=90.0,
-    typecheck_points=5.0,
-    lint_points=5.0,
-    ec_date_1="2022-10-10",
-    ec_date_2="2022-10-11"
+    typecheck_points=10.0,
+    lint_points=0.0
 )
 
 results = autograde.run(configuration)

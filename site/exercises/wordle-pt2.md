@@ -310,6 +310,31 @@ As you are working on `main`, you can save your work and import the `main` funct
     ⬜🟩⬜🟨🟨
     X/6 - Sorry, try again tomorrow!
 
+    >>> main(secret="codess")
+    === Turn 1/6 ===
+    Enter a 6 character word: s
+    That wasn't 6 chars! Try again: horses
+    ⬜🟩⬜🟨🟨🟩
+    === Turn 2/6 ===
+    Enter a 6 character word: meows
+    That wasn't 6 chars! Try again: farther
+    That wasn't 6 chars! Try again: useage
+    ⬜🟨🟨⬜⬜🟨
+    === Turn 3/6 ===
+    Enter a 6 character word: raining
+    That wasn't 6 chars! Try again: rainss
+    ⬜⬜⬜⬜🟩🟩
+    === Turn 4/6 ===
+    Enter a 6 character word: mouths 
+    ⬜🟩⬜⬜⬜🟩
+    === Turn 5/6 ===
+    Enter a 6 character word: umbrells
+    That wasn't 6 chars! Try again: umbrel
+    ⬜⬜⬜⬜🟨⬜
+    === Turn 6/6 ===
+    Enter a 6 character word: peonys
+    ⬜🟨🟨⬜⬜🟩
+    X/6 - Sorry, try again tomorrow!
     >>> quit()
 </div>
 </pre>

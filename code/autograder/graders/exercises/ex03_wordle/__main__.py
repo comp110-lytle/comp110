@@ -1,4 +1,4 @@
-"""Autograder for Exercise 00 -  Hello World."""
+"""Autograder for Exercise 03 Wordle."""
 
 from os import path
 from grading import autograde
