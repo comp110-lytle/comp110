@@ -553,5 +553,61 @@
     "2024-10-10": [],
     "2024-10-11": [],
     "2024-10-12": [],
-    "2024-10-13": []
+    "2024-10-13": [],
+    "2024-10-14": [
+        {
+            "kind": "CL",
+            "n": 16,
+            "title": "Unit Tests",
+            "date": "2024-10-14",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/alyssa/CL16.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 16,
+            "title": "Unit Tests (Due Monday 10/14)",
+            "date": "2024-10-14",
+            "deadline": "2024-10-14",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "List Unit Tests (Due Tuesday 10/22)",
+            "date": "2024-10-14",
+            "deadline": "2024-10-22",
+            "links": {
+                "": "/exercises/list-unit-tests.html"
+            }
+        }
+    ],
+    "2024-10-15": [],
+    "2024-10-16": [
+        {
+            "kind": "CL",
+            "n": 17,
+            "title": "Bonus slides covering commonly misunderstood concepts",
+            "date": "2024-10-16",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/izzi/SophieSlidesOct16.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 7,
+            "title": "Unit Tests (Due Wednesday 10/16)",
+            "date": "2024-10-16",
+            "deadline": "2024-10-16",
+            "links": {
+                "": "/cqs/list-unit-tests.html"
+            }
+        }
+    ],
+    "2024-10-17": []
 }

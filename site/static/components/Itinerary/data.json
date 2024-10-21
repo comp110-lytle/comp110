@@ -562,7 +562,7 @@
             "date": "2024-10-14",
             "deadline": "None",
             "links": {
-                "All Sections": "/static/slides/alyssa/CL16.pdf"
+                "": "/static/slides/alyssa/CL16.pdf"
             }
         },
         {
@@ -591,11 +591,11 @@
         {
             "kind": "CL",
             "n": 17,
-            "title": "Review of commonly misunderstood concepts",
+            "title": "Bonus slides covering commonly misunderstood concepts",
             "date": "2024-10-16",
             "deadline": "None",
             "links": {
-                "All Sections": "/static/slides/izzi/SophieSlidesOct16.pdf"
+                "": "/static/slides/izzi/SophieSlidesOct16.pdf"
             }
         },
         {
@@ -613,9 +613,40 @@
     "2024-10-18": [],
     "2024-10-19": [],
     "2024-10-20": [],
-    "2024-10-21": [],
+    "2024-10-21": [
+        {
+            "kind": "CL",
+            "n": 18,
+            "title": "Dictionaries + Dictionaries in Memory",
+            "date": "2024-10-21",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/KJ_IH_CL18_Dictionaries.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 17,
+            "title": "Dictionaries (Due Monday 10/21)",
+            "date": "2024-10-21",
+            "deadline": "2024-10-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-10-22": [],
     "2024-10-23": [
+        {
+            "kind": "CQ",
+            "n": 8,
+            "title": "Dictionaries Practice (Due Wednesday 10/23)",
+            "date": "2024-10-23",
+            "deadline": "2024-10-23",
+            "links": {
+                "": "/"
+            }
+        },
         {
             "kind": "EX",
             "n": 6,
@@ -636,7 +667,8 @@
             "date": "2024-10-25",
             "deadline": "2024-10-25",
             "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html"
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Link to Virtual Review Session @ 7PM on 10/24 (Passcode: 110110)": "https://unc.zoom.us/j/92015805242?pwd=IaGTRpsrMhpAP8dDZYbW5b46NoTwWF.1"
             }
         }
     ],
