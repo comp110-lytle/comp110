@@ -55,7 +55,7 @@ def test_update_attendance_2():
     assert log == {"Monday": ["Kam"], "Tuesday": ["Kaleb"]}
 
 
-@mark.weight(5)
+@mark.weight(4)
 def test_update_attendance_empty():
     """update_attendance - correctly handles an empty dictionary."""
     module = reimport_module(MODULE)
