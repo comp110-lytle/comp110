@@ -1,6 +1,8 @@
 """Unit tests for dict_01"""
 
 __author__ = "Kaki Ryan <kakiryan@live.unc.edu>"
+__author__ = "Viktorya Hunanyan <vhunany@unc.edu>"
+
 
 import pytest
 from pytest import mark
@@ -13,45 +15,34 @@ MODULE = "exercises.ex06.dictionary"
 # Edge cases must be checked and fulfilled in Part 2 using Unit Testing.
 
 
-@mark.weight(0)
-def test_author():
-    """dictionary.py - __author__ str variable is correct PID format."""
-    module = reimport_module(MODULE)
-    assert author_is_a_valid_pid(module)
-
-
-@mark.weight(2)
+@mark.weight(4)
 def test_invert_params():
     """invert - invert has 1 parameter of type dict[str, str]."""
     module = reimport_module(MODULE)
     assert_parameter_list(module.invert, [dict[str, str]])
 
-
-@mark.weight(2)
+@mark.weight(4)
 def test_invert_return_type():
     """invert - invert returns a dict[str, str]."""
     module = reimport_module(MODULE)
     assert_return_type(module.invert, dict[str, str])
 
-
-@mark.weight(2)
-def test_invert_1():
+@mark.weight(5)
+def test_invert_correct():
     """invert - inverts correctly switches key-value pairs."""
-    from exercises.ex05.dictionary import invert
+    module = reimport_module(MODULE)
     all_same: dict[str, str] = {'a': 'z', 'b': 'y', 'c': 'x'}
-    assert invert(all_same) == {'z': 'a', 'y': 'b', 'x': 'c'}
+    assert module.invert(all_same) == {'z': 'a', 'y': 'b', 'x': 'c'}
 
-@mark.weight(2)
+@mark.weight(4)
 def test_invert_key_error():
     """invert - raises KeyError when duplicate values exist."""
-    from exercises.ex05.dictionary import invert
+    module = reimport_module(MODULE)
     with pytest.raises(KeyError):
-        invert({'kris': 'jordan', 'michael': 'jordan'})
+        module.invert({'kris': 'jordan', 'michael': 'jordan'})
 
-
-@mark.weight(1)
+@mark.weight(5)
 def test_invert_empty():
     """invert - handles empty dictionary."""
-    from exercises.ex05.dictionary import invert
-    assert invert({}) == {}
-
+    module = reimport_module(MODULE)
+    assert module.invert({}) == {}
