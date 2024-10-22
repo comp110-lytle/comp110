@@ -47,13 +47,15 @@ def test_find_even_use_case() -> None:
 6. Suppose you have the following function, designed to calculate the sum of the elements in a list.
 
 ```python
-def find_even(nums: list[int]) -> int:
-    idx: int = 0
-    while idx < len(nums):
-        if nums[idx] % 2 == 0:
-            return idx
-        idx += 1
-    return -1
+def sum_numbers(numbers: list[int]) -> int:
+    if len(numbers) == 0: 
+        raise Exception("Empty list - no elements to add")
+    
+    total: int = numbers[0]
+    for i in range(1, len(numbers)): 
+        total += numbers[i]
+        
+    return total
 ```
 
 Fill in this unit test with a use case.
@@ -186,8 +188,20 @@ def test_find_even_use_case() -> None:
 
 ```python
 def test_list_sum_use_case() -> None:
-    nums = [1, 2, 3, 4]
-    assert sum(nums) == 10
+    # Test case 1: Normal list of positive numbers
+    assert sum_numbers([1, 2, 3, 4, 5]) == 15
+
+    # Test case 2: List with negative numbers
+    assert sum_numbers([-1, -2, -3, -4, -5]) == -15
+
+    # Test case 3: Mixed positive and negative numbers
+    assert sum_numbers([1, -1, 2, -2, 3, -3]) == 0
+
+    # Test case 4: List with a single element
+    assert sum_numbers([10]) == 10
+
+    # Do not worry about handling the exception! 
+    # That is out of the scope of the class :)
 ```
 
 ---
