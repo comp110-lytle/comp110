@@ -364,7 +364,7 @@ result_dict = {'returned_amount': sum_dict_keys(my_dict)}
 4. Looping with Different Key Values
 - 4a: Output = (b) IndexOutOfRange
 - 4b: Output = (a) 0, 1, 2, 3, 4
-- 4c: Output = (b) whale, cat, mouse, bird, dog
+- 4c: Output = (a) dog, cat, mouse, bird, whale
 - 4d: Output = (a) 0, 1, 8, 10, 15
 - 4e: Output = (a) 0, 1, 2, 3, 4
 - 4f: Output = (b) IndexOutOfRange
