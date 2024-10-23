@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/static/slides/krizzi/KJ_IH_CQ_Dictionaries.pdf">CQ08 - WED, OCT 23 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ02 - FRI, OCT 25 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils.html">EX06 - TUE, OCT 29 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/static/slides/krizzi/KJ_CQ_Dicts.pdf">CQ08 - WED, OCT 23 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ02 - FRI, OCT 25 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils.html">EX06 - TUE, OCT 29 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -45,7 +45,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-10-23" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Oct 23</div>
 <div class="plans col-md-9"><div class="plan Challenge Question">
-<span class="kind">CQ08 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CQ_Dictionaries.pdf">Dictionaries Practice (Due Wednesday 10/23)</a></span></div><div class="plan Exercise">
+<span class="kind">CQ08 </span><span class="title"><a href="/static/slides/krizzi/KJ_CQ_Dicts.pdf">Dictionaries Practice (Due Wednesday 10/23)</a></span></div><div class="plan Exercise">
 <span class="kind">EX06 </span><span class="title"><a href="/exercises/dict-utils.html">Dictionary Utils (Due Tuesday 10/29)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-10-25" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Oct 25</div>
