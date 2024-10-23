@@ -245,5 +245,5 @@ def test_increment_dict_value_use_case() -> None:
 ```python
 def test_max_sum_dict_use_case() -> None:
     d = {"a": [1, 2, 3], "b": [4, 5]}
-    assert max_sum_dict(d) == "a"
+    assert max_sum_dict(d) == "b"
 ```

@@ -128,7 +128,7 @@ my_dict: dict[int, str] = {8: "dog", 1: "cat", 10: "mouse", 15: "bird", 0: "whal
 for x in range(0, len(my_dict)): 
     print(my_dict[x])
 ```
-(a) `whale, cat`
+(a) `whale, cat, KeyError`
 (b) `IndexOutOfRange`
 (c) `dog, cat, mouse`
 (d) `bird, whale`
@@ -158,7 +158,7 @@ for x in my_dict:
 for x in my_dict: 
     print(x)
 ```
-(a) `0, 1, 8, 10, 15`
+(a) `8, 1, 10, 15, 0`
 (b) `dog, cat, mouse, bird, whale`
 (c) `IndexOutOfRange`
 (d) `0, 1, 2, 3, 4`
@@ -182,7 +182,7 @@ while x < len(my_dict):
     print(my_dict[x])
     x += 1
 ```
-(a) `whale, cat`
+(a) `whale, cat, KeyError`
 (b) `IndexOutOfRange`
 (c) `dog, cat, mouse`
 (d) `bird, whale`
@@ -203,7 +203,7 @@ for x in range(0, len(my_dict)):
 
 (a) `IndexOutOfRange`
 (b) `dog, cat, mouse`
-(c) `TypeError`
+(c) `KeyError`
 (d) `bird, whale`
 
 - 5b. What will print from the following code: 
@@ -259,7 +259,7 @@ while x < len(my_dict):
 ```
 (a) `IndexOutOfRange`
 (b) `dog, cat, mouse`
-(c) `TypeError`
+(c) `KeyError`
 (d) `bird, whale`
 
 
@@ -362,22 +362,22 @@ result_dict = {'returned_amount': sum_dict_keys(my_dict)}
 ---
 
 4. Looping with Different Key Values
-- 4a: Output = (b) IndexOutOfRange
+- 4a: Output = (a) whale, cat, KeyError
 - 4b: Output = (a) 0, 1, 2, 3, 4
 - 4c: Output = (a) dog, cat, mouse, bird, whale
 - 4d: Output = (a) 0, 1, 8, 10, 15
 - 4e: Output = (a) 0, 1, 2, 3, 4
-- 4f: Output = (b) IndexOutOfRange
+- 4f: Output = (a) whale, cat, KeyError
 
 ---
 
 5. Dictionary with String Keys
-- 5a: Output = (a) IndexOutOfRange
+- 5a: Output = (c) KeyError
 - 5b: Output = (a) 0, 1, 2, 3, 4
 - 5c: Output = (a) dog, cat, mouse, bird, whale
 - 5d: Output = (a) cat, dog, bird, mouse, while
 - 5e: Output = (a) 0, 1, 2, 3, 4
-- 5f: Output = (a) IndexOutOfRange
+- 5f: Output = (c) KeyError
 
 ---
 
