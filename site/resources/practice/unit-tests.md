@@ -164,7 +164,7 @@ def test_max_sum_dict_use_case() -> None:
 
 1. A test function is created just like any other Python function, but it is identified as a test by starting its name with `test_`. In frameworks like pytest, any function that starts with `test_` is automatically detected and run as a test.
 
-2. Create a new Python file, often named `test_<module_name>.py`, in the same directory as your module. Write all your test functions in this file.
+2. Create a new Python file, often named `<module_name>_test.py`, in the same directory as your module. Write all your test functions in this file.
 
 3. The assert statement checks if a condition is true. If the condition is false, an AssertionError is raised, indicating that the test has failed.
 
