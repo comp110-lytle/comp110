@@ -106,7 +106,40 @@ For more examples, please refer to the memory diagram page.
 
 3a. False; The function does not copy the object. Instead, it directly manipulates the original object via the reference.
 
-3b. True; To manipulate an object, it must be passed as a parameter to the function, allowing the function to access and modify it.
+3b. False; To manipulate an object a mutable object, it does not have to be passed as a parameter to the function to access and modify it.
+
+For example: 
+
+```
+ex: list[int] = [2, 4]
+
+def example(num): 
+    if num > len(ex): 
+        ex.append(num)
+
+example(4)
+print(ex)  # will print [2, 4, 4]
+```
+
+We must note that this is only the case for mutable data types. 
+
+For example, the following snippet is unable to modify the `xs` variable becuase a string is an immutable type. 
+
+```
+xs = "01"
+ys = "23"
+
+def get_coords() -> None:
+    x_idx: int = 0
+    while x_idx < len(xs):
+        y_idx: int = 0
+        while y_idx < len(ys):
+            xs += xs[x_idx]
+            y_idx += 1
+        x_idx += 1
+
+print(xs)
+```
 
 3c. True; The function operates on the original object via the reference held by the parameter.
 
