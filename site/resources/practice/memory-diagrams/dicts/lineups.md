@@ -21,6 +21,8 @@ template: overview
 ```
 
 # Solution
+[Video ](https://youtu.be/KcP6rkkHrEs) 
+
 <img class="img-fluid" src="/static/practice-mem-diagrams/lineup-sol.png" alt="Image Description Here"  />
 
 *Image Description:*

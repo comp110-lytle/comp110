@@ -22,7 +22,7 @@ template: overview
 ```
 
 # Solution
-
+[Video](https://youtu.be/SZrv9TT84Iw)
 
 <img class="img-fluid" src="/static/practice-mem-diagrams/mystery-dict-sol.png" alt=""  />
 
