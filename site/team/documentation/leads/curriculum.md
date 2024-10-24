@@ -2,7 +2,7 @@
 title: Lead Title
 date: 2024-01-01
 author:
-- Vrinda Desai
+- Viktorya Hunanyan
 page: team
 template: columns-profile
 site-branch: team

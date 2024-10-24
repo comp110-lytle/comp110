@@ -24,7 +24,7 @@ Class of 2027
 
 ## Major
 
-Physics and Computer Science
+Physics Engineering and Computer Science
 
 //split//
 
@@ -34,4 +34,4 @@ Going outside, walking to coffee shops, playing minecraft, roblox, fornite, and 
 
 ## Non-academic fun fact
 
-I collect vintage designer pieces!  
+I will spiral into an oblivion knowing that I can’t do everything and anthing all at once.
