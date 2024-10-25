@@ -668,13 +668,24 @@
             "deadline": "2024-10-25",
             "links": {
                 "Practice Problems": "/resources/practice/practice-problems.html",
-                "Link to Virtual Review Session @ 7PM on 10/24 (Passcode: 110110)": "https://unc.zoom.us/j/92015805242?pwd=IaGTRpsrMhpAP8dDZYbW5b46NoTwWF.1"
+                "Review Session Recording": "https://youtu.be/Gd5kLDn1L0Q"
             }
         }
     ],
     "2024-10-26": [],
     "2024-10-27": [],
-    "2024-10-28": [],
+    "2024-10-28": [
+        {
+            "kind": "CL",
+            "n": 19,
+            "title": "Object Oriented Programming (OOP)",
+            "date": "2024-10-28",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-10-29": [],
     "2024-10-30": [],
     "2024-10-31": [],
