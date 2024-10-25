@@ -19,10 +19,10 @@ If you ever find yourself feeling really lost, feel free to take these questions
 
 ## Quiz 00
 
-- [Data Types](/resources/practice/data-types.html)
-- [Expressions](/resources/practice/expressions.html)
-- [Functions](/resources/practice/functions.html)
-- [Signature Writing](/resources/practice/signature-writing.html)
+- [Data Types](/resources/practice/objects-data-types/conceptual.html)
+- [Expressions](/resources/practice/expressions/conceptual.html)
+- [Functions](/resources/practice/functions/conceptual.html)
+- [Signature Writing](/resources/practice/functions/signature-writing.html)
 
 ## Quiz 01
 
