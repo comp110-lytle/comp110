@@ -282,7 +282,7 @@ while x < len(my_dict):
 20. Write a function that takes a `str` and returns a dict[str, int] that counts the frequency of each character in the string.
 21. Write a function that takes a `list[str]` and returns a dictionary where the keys are the first letters of each string, and the values are lists of strings that start with that letter.
 22. Write a function that takes a `dict[str, int]` and returns a list[str] of all the keys that have even values.
-23. Write a function that takes a `dict[str, int]` and returns the key with the largest value.
+23. Write a function that takes a `dict[str, int]` and returns the key with the largest value. Assume the values of the `dict[str, int]` will not be negative. 
 24. Write a function that takes two `dict[str, float]` and merges them into one. If both dictionaries have the same key, sum their values.
 25. Write a function that takes a `dict[str, list[float]]` where the keys are strings and the values are lists. The function should return a new dictionary where the keys are the original keys, but the values are the lengths of each list.
 26. Write a function that takes a `dict[float, int]` and returns a new dictionary with the keys and values swapped.
