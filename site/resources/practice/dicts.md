@@ -82,12 +82,6 @@ nested_dict = {
 
 3. False. No, you cannot remove just a key or just a value in a dictionary. A key-value pair is considered a single entity in a dictionary. If you remove the key, the corresponding value is also removed.
 
-```
-my_dict = {"a": 1, "b": 2}
-del my_dict["a"]
-print(my_dict)
-# Output: {'b': 2}
-```
 
 4. In a Python dictionary, the keys act as the "indices." Unlike lists, where numerical indices are used to access elements, dictionaries use keys to access values and these keys can be of any type. Each key must be unique, and it serves as the identifier for accessing the corresponding value. For example:
 
