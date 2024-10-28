@@ -40,7 +40,7 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-10-28" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Oct 28</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL19 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL18_OOP_intro.pdf">Object Oriented Programming (OOP)</a></span></div><div class="plan Lesson">
+<span class="kind">CL19 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL18_IntrotoOOP.pdf">Object Oriented Programming (OOP)</a></span></div><div class="plan Lesson">
 <span class="kind">LS18 </span><span class="title"><a href="https://www.gradescope.com/">Intro to Object Oriented Programming (Due Monday 10/28)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-10-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Oct 30</div>
