@@ -9,13 +9,13 @@
             "date": "2024-10-28",
             "deadline": "None",
             "links": {
-                "": "/static/slides/krizzi/KJ_IH_CL18_ IntrotoOOP.pdf"
+                "": "/static/slides/krizzi/KJ_IH_CL18_OOP_intro.pdf"
             }
         },
         {
             "kind": "LS",
             "n": 18,
-            "title": "Object Oriented Programming (OOP) (Due Monday 10/28)",
+            "title": "Intro to Object Oriented Programming (Due Monday 10/28)",
             "date": "2024-10-28",
             "deadline": "2024-10-28",
             "links": {
@@ -33,6 +33,16 @@
             "deadline": "None",
             "links": {
                 "": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 19,
+            "title": "OOP Methods (Due Wednesday 10/30)",
+            "date": "2024-10-30",
+            "deadline": "2024-10-30",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],
