@@ -682,14 +682,45 @@
             "date": "2024-10-28",
             "deadline": "None",
             "links": {
-                "": "/"
+                "": "/static/slides/krizzi/KJ_IH_CL18_ IntrotoOOP.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 18,
+            "title": "Object Oriented Programming (OOP) (Due Monday 10/28)",
+            "date": "2024-10-28",
+            "deadline": "2024-10-28",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],
     "2024-10-29": [],
-    "2024-10-30": [],
+    "2024-10-30": [
+        {
+            "kind": "CL",
+            "n": 20,
+            "title": "Classes In Memory",
+            "date": "2024-10-30",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-10-31": [],
     "2024-11-01": [
+        {
+            "kind": "CQ",
+            "n": 9,
+            "title": "OOP Practice (Due Friday 11/1)",
+            "date": "2024-11-01",
+            "deadline": "2024-11-01",
+            "links": {
+                "": "/cqs/oop-mutable.html"
+            }
+        },
         {
             "kind": "EX",
             "n": 7,

@@ -634,5 +634,42 @@
                 "": "https://www.gradescope.com/"
             }
         }
+    ],
+    "2024-10-22": [],
+    "2024-10-23": [
+        {
+            "kind": "CQ",
+            "n": 8,
+            "title": "Dictionaries Practice (Due Wednesday 10/23)",
+            "date": "2024-10-23",
+            "deadline": "2024-10-23",
+            "links": {
+                "": "/static/slides/krizzi/KJ_CQ_Dicts.pdf"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 6,
+            "title": "Dictionary Utils (Due Tuesday 10/29)",
+            "date": "2024-10-23",
+            "deadline": "2024-10-29",
+            "links": {
+                "": "/exercises/dict-utils.html"
+            }
+        }
+    ],
+    "2024-10-24": [],
+    "2024-10-25": [
+        {
+            "kind": "QZ",
+            "n": 2,
+            "title": "Quiz 2",
+            "date": "2024-10-25",
+            "deadline": "2024-10-25",
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Review Session Recording": "https://youtu.be/Gd5kLDn1L0Q"
+            }
+        }
     ]
 }
