@@ -107,7 +107,7 @@ Hint: The built-in Python method `.lower()` takes in no arguments and returns th
 
 ## 5. `update_attendance`
 
-Given a `dict[str, list[str]]`, this function will _mutate_ and return that dictionary. It should meet the following specifications:
+Given a `dict[str, list[str]]`, this function will _mutate_ and return None. It should meet the following specifications:
 
 1. It has three parameters:
    - `dict[str, list[str]]` - an existing dictionary that contains days of the week as keys and a list of students who were in _attendance_ as the values
