@@ -1,6 +1,4 @@
 {
-    "2024-10-26": [],
-    "2024-10-27": [],
     "2024-10-28": [
         {
             "kind": "CL",
@@ -28,11 +26,11 @@
         {
             "kind": "CL",
             "n": 20,
-            "title": "Classes In Memory",
+            "title": "OOP Part 2: Classes and Methods",
             "date": "2024-10-30",
             "deadline": "None",
             "links": {
-                "": "/"
+                "": "/static/slides/krizzi/KJ_IH_CL19_OOP_pt2.pdf"
             }
         },
         {

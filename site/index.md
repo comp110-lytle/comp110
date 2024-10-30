@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS18 - MON, OCT 28 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils.html">EX06 - TUE, OCT 29 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS19 - WED, OCT 30 11:59pm</a></li><li class="horizon-item"><a href="/cqs/oop-mutable.html">CQ09 - FRI, NOV 01 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS19 - WED, OCT 30 11:59pm</a></li><li class="horizon-item"><a href="/cqs/oop-mutable.html">CQ09 - FRI, NOV 01 11:59pm</a></li><li class="horizon-item"><a href="/cqs/magic_methods_etc.html">CQ10 - WED, NOV 06 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -45,7 +45,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-10-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Oct 30</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL20 </span><span class="title"><a href="/">Classes In Memory</a></span></div><div class="plan Lesson">
+<span class="kind">CL20 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL19_OOP_pt2.pdf">OOP Part 2: Classes and Methods</a></span></div><div class="plan Lesson">
 <span class="kind">LS19 </span><span class="title"><a href="https://www.gradescope.com/">OOP Methods (Due Wednesday 10/30)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-01" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Nov 1</div>
