@@ -48,8 +48,8 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Object-Oriented Programming *(to-do)*](/resources/practice/unit-tests.html)
 - [Class Writing (*not* including Magic Methods)](/resources/practice/class-writing.html)
 
-## Quiz 04
+<!-- ## Quiz 04
 
 - [Recursive Functions *(to-do)*](/resources/practice/unit-tests.html)
 - [Algorithms + Runtime Analysis *(to-do)*](/resources/practice/unit-tests.html)
-- [Magic Methods *(to-do)*](/resources/practice/unit-tests.html)
+- [Magic Methods *(to-do)*](/resources/practice/unit-tests.html) -->
