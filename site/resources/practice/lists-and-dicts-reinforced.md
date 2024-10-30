@@ -7,6 +7,8 @@ page: lessons
 template: overview
 ---
 
+IMPORTANT: For Quiz 03, focus on the problems with dictionaries!
+
 These questions are meant to test your understanding from [Lists](/resources/practice/lists.html), [Dictionaries](/resources/practice/dicts.html), [for Loops](/resources/practice/for-loops.html). You should complete those before doing the questions below. 
 
 # Questions
