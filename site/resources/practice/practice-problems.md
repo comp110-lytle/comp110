@@ -36,21 +36,20 @@ If you ever find yourself feeling really lost, feel free to take these questions
 
 - [Scope](/resources/practice/scope.html)
 - [Lists](/resources/practice/lists.html)
-- [Dictionaries](/resources/practice/dicts.html)
 - [for Loops](/resources/practice/for-loops.html)
-- [Lists, Dictionaries, and Loops Reinforcement Questions](/resources/practice/lists-and-dicts-reinforced.html)
 - [Unit Tests](/resources/practice/unit-tests.html)
 - [Function Writing](/resources/practice/function-writing.html)
 
-<!-- ## Quiz 03
+## Quiz 03
 
-
-- [Object-Oriented Programming *(to-do)*](/resources/practice/unit-tests.html)
-- [Magic Methods *(to-do)*](/resources/practice/unit-tests.html)
+- [Dictionaries](/resources/practice/dicts.html)
+- [Lists, Dictionaries, and Loops Reinforcement Questions](/resources/practice/lists-and-dicts-reinforced.html)
 - [Function Writing: dictionaries](/resources/practice/function-writing.html)
+- [Object-Oriented Programming *(to-do)*](/resources/practice/unit-tests.html)
 - [Class Writing (*not* including Magic Methods)](/resources/practice/class-writing.html)
 
-## Quiz 04
+<!-- ## Quiz 04
 
 - [Recursive Functions *(to-do)*](/resources/practice/unit-tests.html)
-- [Algorithms + Runtime Analysis *(to-do)*](/resources/practice/unit-tests.html) -->
+- [Algorithms + Runtime Analysis *(to-do)*](/resources/practice/unit-tests.html)
+- [Magic Methods *(to-do)*](/resources/practice/unit-tests.html) -->
