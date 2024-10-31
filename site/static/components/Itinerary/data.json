@@ -682,7 +682,7 @@
             "date": "2024-10-28",
             "deadline": "None",
             "links": {
-                "": "/static/slides/krizzi/KJ_IH_CL18_IntrotoOOP.pdf"
+                "": "/static/slides/krizzi/KJ_IH_CL19_IntrotoOOP.pdf"
             }
         },
         {
@@ -705,7 +705,7 @@
             "date": "2024-10-30",
             "deadline": "None",
             "links": {
-                "": "/static/slides/krizzi/KJ_IH_CL19_OOP_pt2.pdf"
+                "": "/static/slides/krizzi/KJ_IH_CL20_OOPpt2.pdf"
             }
         },
         {
@@ -728,7 +728,7 @@
             "date": "2024-11-01",
             "deadline": "2024-11-01",
             "links": {
-                "": "/cqs/oop-mutable.html"
+                "": ""
             }
         },
         {
@@ -744,7 +744,18 @@
     ],
     "2024-11-02": [],
     "2024-11-03": [],
-    "2024-11-04": [],
+    "2024-11-04": [
+        {
+            "kind": "CL",
+            "n": 21,
+            "title": "Magic Methods + Magic Methods in Memory",
+            "date": "2024-11-04",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2024-11-05": [],
     "2024-11-06": [],
     "2024-11-07": [],
