@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="">CQ09 - FRI, NOV 01 11:59pm</a></li><li class="horizon-item"><a href="/cqs/magic_methods_etc.html">CQ10 - WED, NOV 06 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/static/slides/krizzi/KJ_IH_CQ09_OOP.pdf">CQ09 - FRI, NOV 01 11:59pm</a></li><li class="horizon-item"><a href="/cqs/magic_methods_etc.html">CQ10 - WED, NOV 06 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ03 - FRI, NOV 08 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -45,9 +45,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-11-01" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Nov 1</div>
 <div class="plans col-md-9"><div class="plan Challenge Question">
-<span class="kind">CQ09 </span><span class="title">OOP Practice (Due Friday 11/1)</span>
-<ul class="links"><li class="link"></li>
-</ul></div><div class="plan Exercise">
+<span class="kind">CQ09 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CQ09_OOP.pdf">OOP Practice (Due Friday 11/1)</a></span></div><div class="plan Exercise">
 <span class="kind">EX07 </span><span class="title"><a href="/">River Simulation (Due Sunday 11/10)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-04" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Nov 4</div>
