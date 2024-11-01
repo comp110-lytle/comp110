@@ -1,5 +1,5 @@
 ---
-title: EX09 - River Simulation 
+title: EX07 - River Simulation 
 author:
   - Alyssa Byrnes
 page: exercises
@@ -18,8 +18,8 @@ You will find the starter files needed by "pulling" from the course workspace re
 0. Be sure you are in your course workspace. Open the file explorer and you should see your work for the course. If you do not, open your course workspace through File > Open Recent.
 1. Open the _Source Control View_ by clicking the 3-node (circles) graph (connected by lines) icon in your sidebar or opening the command palatte and searching for _Source Control_.
 2. Click the Ellipses in the Source Control pane and select "Pull" from the drop-down menu. This will begin the pulling process from the course repository. It should silently succeed.
-3. Return to the File Explorer pane and open the `exercises` directory. You should see it now contains another directory named `ex09`. If you expand that directory, you should see the starter files for the code you'll be writing.
-4. If you do not see the `ex09` directory, try once more but selecting `"Pull From"` and select `origin` in step 2.
+3. Return to the File Explorer pane and open the `exercises` directory. You should see it now contains another directory named `ex07`. If you expand that directory, you should see the starter files for the code you'll be writing.
+4. If you do not see the `ex07` directory, try once more but selecting `"Pull From"` and select `origin` in step 2.
 
 ### Troubleshooting
 If you're having trouble pulling:
@@ -69,14 +69,14 @@ The `__init__` method is already defined for you. It takes as parameters: `self`
 * initializes `self.bears` to contain `num_bears` many Bears
 * initializes `self.day` to be `0`
 
-### 3.2 Implement 
-Implement the `__init__` method by opening `river_simulation.py`, and constructing a river named `my_river` with 10 `Fish` and 2 `Bears`. (Don't forget to import the `River` class!)
+### 3.2 Create a new River
+Call the `__init__` method by opening `river_simulation.py`, and constructing a river named `my_river` with 10 `Fish` and 2 `Bears`. (Don't forget to import the `River` class!)
 
 ### 3.3 `view_river()` method
 
 Now, you are going to modify the method inside your `River` class called `view_river` which will print the river status out to you.
 
-#### Define 
+#### Define:
 
 `view_river` should behave such that: 
 
@@ -85,8 +85,7 @@ Now, you are going to modify the method inside your `River` class called `view_r
 - It should print the following:  
 
 <pre>
-<div class="terminal">
-~~~ Day x: ~~~
+<div class="terminal">~~~ Day x: ~~~
 Fish population: y
 Bear population: z
 </div>
@@ -94,11 +93,11 @@ Bear population: z
 
 Where `x` is the current day of the river, `y` is the number of Fish in the river, and `z` is the number of Bears in the river. 
 
-#### Implement 
+#### Call the method
 
 At the bottom of `river_simulation.py`, try viewing your river by calling `my_river.view_river()`. 
 
-When you run `python -m exercises.ex09.river_simulation`, the output should be: 
+When you run `python -m exercises.ex07.river_simulation`, the output should be: 
 
 <pre>
 <div class="terminal">
@@ -159,7 +158,7 @@ It should update the `Bear`'s `hunger_score` so that it increases by `num_fish`.
 (For example, if `num_fish = 2`, a `Bear` ate 2 fish, so its `hunger_score` should increase by 2.)
 
 ### 2.3 Modifying `River#bears_eating`
-Modify the `bears_eating` method, so that, for each `Bear`, if there are at least 5 `Fish` in the river, the `Bear` will eat 3 `Fish`. This involves removing 3 `Fish` from the river using the `remove_fish` method and calling `eat()` each time a `Bear` eats. 
+Modify the `bears_eating` method, so that, for each `Bear`, if there are at least 5 `Fish` in the river, the `Bear` will eat 3 `Fish`. This involves removing 3 `Fish` from the river using the `remove_fish` method and calling `eat()` for the number of fish the `Bear` eats. 
 
 
 
@@ -185,14 +184,14 @@ Modify the `repopulate_fish` method so that it has the following functionality. 
 ## Autograding
 
 
-Login to Gradescope and select the assignment named "EX09 - River Simulation". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
+Login to Gradescope and select the assignment named "EX07 - River Simulation". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
 
 If you _do not_ see a Terminal at the bottom of your screen, open the Command Palette and search for "View: Toggle Integrated Terminal".
 
-To produce a zip file for `ex09`, type the following command (all on a single line):
+To produce a zip file for `ex07`, type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex09`
+`python -m tools.submission exercises/ex07`
 
-In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex09.zip". The "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex07.zip". The "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
 Autograding will take a few moments to complete. For this exercise there will be points manually graded for style – using meaningful variable names and snake_case. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren’t receiving full credit and aren’t sure what to try next, come give us a visit in office hours!
