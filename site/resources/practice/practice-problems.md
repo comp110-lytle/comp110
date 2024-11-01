@@ -45,7 +45,7 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Dictionaries](/resources/practice/dicts.html)
 - [Lists, Dictionaries, and Loops Reinforcement Questions](/resources/practice/lists-and-dicts-reinforced.html)
 - [Function Writing: dictionaries](/resources/practice/function-writing.html)
-- [Object-Oriented Programming *(to-do)*](/resources/practice/unit-tests.html)
+- [Object-Oriented Programming *(to-do)*](/resources/practice/oop.html)
 - [Class Writing (*not* including Magic Methods)](/resources/practice/class-writing.html)
 
 <!-- ## Quiz 04
