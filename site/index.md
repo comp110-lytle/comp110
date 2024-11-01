@@ -46,7 +46,7 @@ template: home
 <div class="date col-md-2">Fri, Nov 1</div>
 <div class="plans col-md-9"><div class="plan Challenge Question">
 <span class="kind">CQ09 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CQ09_OOP.pdf">OOP Practice (Due Friday 11/1)</a></span></div><div class="plan Exercise">
-<span class="kind">EX07 </span><span class="title"><a href="/">River Simulation (Due Sunday 11/10)</a></span></div></div>
+<span class="kind">EX07 </span><span class="title"><a href="/exercises/river-sim.html">River Simulation (Due Sunday 11/10)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-04" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Nov 4</div>
 <div class="plans col-md-9"><div class="plan Class">
