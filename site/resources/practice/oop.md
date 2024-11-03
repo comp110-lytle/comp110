@@ -1,6 +1,7 @@
 ---
 title: OOP Conceptual Questions
 author:
+- Viktorya Hunanyan
 - David Karash
 - Megan Zhang
 - Alyssa Lytle
@@ -47,7 +48,7 @@ class TA:
     hours_per_week: int
     title: str
 
-    def __init__(self, title: str):  # Include self and title as parameters
+    def __init__(self, title: str):
         self.title = title
         if self.title == "Comp 110 TA":
             self.hours_per_week = 5
@@ -56,16 +57,16 @@ class TA:
             self.hours_per_week = 5
             self.semester_pay = 0
 
-    def todo_list(self, todo_list: dict[str, bool]) -> dict[str, bool]:  # Define type hints for todo_list
+    def todo_list(self, todo_list: dict[str, bool]) -> dict[str, bool]:
         return todo_list
 
-    def check_off(self, task: str, todo_list: dict[str, bool]) -> dict[str, bool]:  # Complete the check_off method
+    def check_off(self, task: str, todo_list: dict[str, bool]) -> dict[str, bool]:
         """Marks a task as done in the todo list."""
         if task in todo_list:
             todo_list[task] = True
         return todo_list
 
-    def change_class(self, new_title: str) -> "TA":  # Method to create a new TA instance
+    def change_class(self, new_title: str) -> "TA":
         """Creates a new TA object with the given title."""
         return TA(new_title)
 ```
@@ -80,7 +81,7 @@ class TA:
 - 6d. In your todo list object, check off `"1 hour of AH"`. 
 - 6e. In your todo list object, check off `"4 hours of OH"`. 
 
-# Answers
+# Conceptual Questions Solutions
 *Question 1-4 Coming Soon*
 
 5. True
@@ -96,3 +97,6 @@ class TA:
 15. True
 16. True
 17. Instantiated
+
+# General Questions Solutions
+*Coming Soon*

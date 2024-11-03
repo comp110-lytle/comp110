@@ -79,13 +79,12 @@ template: overview
 [Example 0](/resources/practice/memory-diagrams/dicts/dicts-00.html) |
 [Example 1](/resources/practice/memory-diagrams/dicts/dicts-01.html) |
 [Example 2](/resources/practice/memory-diagrams/dicts/lineups.html)
-<!-- [Example 3](/resources/practice/memory-diagrams/dicts/todo-list.html) -->
 
 
 <!-- ## Recursion
 [Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
 [Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
-[Example 1](/resources/practice/memory-diagrams/recursion/pow.html)
+[Example 1](/resources/practice/memory-diagrams/recursion/pow.html) -->
 
 
 ## OOP 
@@ -97,7 +96,7 @@ template: overview
 
 [Example 0](/resources/practice/memory-diagrams/oop-advanced/team.html) |
 [Example 1](/resources/practice/memory-diagrams/oop-advanced/playlist.html) |
-[Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html) -->
+[Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html)
 
 
 ## Nested Data Structures
