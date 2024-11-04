@@ -1,60 +1,25 @@
 {
-    "2024-10-30": [
-        {
-            "kind": "CL",
-            "n": 20,
-            "title": "OOP Part 2: Classes and Methods",
-            "date": "2024-10-30",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/krizzi/KJ_IH_CL20_OOPpt2.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 19,
-            "title": "OOP Methods (Due Wednesday 10/30)",
-            "date": "2024-10-30",
-            "deadline": "2024-10-30",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-10-31": [],
-    "2024-11-01": [
-        {
-            "kind": "CQ",
-            "n": 9,
-            "title": "OOP Practice (Due Friday 11/1)",
-            "date": "2024-11-01",
-            "deadline": "2024-11-01",
-            "links": {
-                "": "/static/slides/krizzi/KJ_IH_CQ09_OOP.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 7,
-            "title": "River Simulation (Due Sunday 11/10)",
-            "date": "2024-11-01",
-            "deadline": "2024-11-10",
-            "links": {
-                "": "/exercises/river-sim.html"
-            }
-        }
-    ],
     "2024-11-02": [],
     "2024-11-03": [],
     "2024-11-04": [
         {
             "kind": "CL",
             "n": 21,
-            "title": "Magic Methods + Magic Methods in Memory",
+            "title": "OOP + Magic Methods",
             "date": "2024-11-04",
             "deadline": "None",
             "links": {
-                "": "/"
+                "": "/static/slides/krizzi/CL21_OOP_magic_methods.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 20,
+            "title": "Magic Methods (Due Monday 11/4)",
+            "date": "2024-11-04",
+            "deadline": "2024-11-04",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],
