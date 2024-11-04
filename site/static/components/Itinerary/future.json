@@ -5,26 +5,37 @@
         {
             "kind": "CL",
             "n": 21,
-            "title": "OOP + Magic Methods",
+            "title": "More OOP Practice",
             "date": "2024-11-04",
             "deadline": "None",
             "links": {
                 "": "/static/slides/krizzi/CL21_OOP_magic_methods.pdf"
             }
+        }
+    ],
+    "2024-11-05": [],
+    "2024-11-06": [
+        {
+            "kind": "CL",
+            "n": 22,
+            "title": "Magic Methods",
+            "date": "2024-11-06",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
         },
         {
             "kind": "LS",
             "n": 20,
-            "title": "Magic Methods (Due Monday 11/4)",
-            "date": "2024-11-04",
-            "deadline": "2024-11-04",
+            "title": "Magic Methods (Due Wednesday 11/6)",
+            "date": "2024-11-06",
+            "deadline": "2024-11-06",
             "links": {
                 "": "https://www.gradescope.com/"
             }
         }
     ],
-    "2024-11-05": [],
-    "2024-11-06": [],
     "2024-11-07": [],
     "2024-11-08": [
         {
