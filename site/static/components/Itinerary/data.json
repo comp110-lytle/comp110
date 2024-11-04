@@ -748,11 +748,21 @@
         {
             "kind": "CL",
             "n": 21,
-            "title": "Magic Methods + Magic Methods in Memory",
+            "title": "OOP + Magic Methods",
             "date": "2024-11-04",
             "deadline": "None",
             "links": {
-                "": "/"
+                "": "/static/slides/krizzi/CL21_OOP_magic_methods.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 20,
+            "title": "Magic Methods (Due Monday 11/4)",
+            "date": "2024-11-04",
+            "deadline": "2024-11-04",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],
