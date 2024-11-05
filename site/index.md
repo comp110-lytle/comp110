@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS20 - MON, NOV 04 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ03 - FRI, NOV 08 11:59pm</a></li><li class="horizon-item"><a href="/exercises/river-sim.html">EX07 - SUN, NOV 10 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS20 - WED, NOV 06 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ03 - FRI, NOV 08 11:59pm</a></li><li class="horizon-item"><a href="/exercises/river-sim.html">EX07 - SUN, NOV 10 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -40,8 +40,12 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-11-04" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Nov 4</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL21 </span><span class="title"><a href="/static/slides/krizzi/CL21_OOP_magic_methods.pdf">OOP + Magic Methods</a></span></div><div class="plan Lesson">
-<span class="kind">LS20 </span><span class="title"><a href="https://www.gradescope.com/">Magic Methods (Due Monday 11/4)</a></span></div></div>
+<span class="kind">CL21 </span><span class="title"><a href="/static/slides/krizzi/CL21_OOP_magic_methods.pdf">More OOP Practice</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-11-06" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Nov 6</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL22 </span><span class="title"><a href="/">Magic Methods</a></span></div><div class="plan Lesson">
+<span class="kind">LS20 </span><span class="title"><a href="https://www.gradescope.com/">Magic Methods (Due Wednesday 11/6)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-08" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Nov 8</div>
 <div class="plans col-md-9"><div class="plan Quiz">
