@@ -1,6 +1,7 @@
 ---
 title: OOP Conceptual Questions
 author:
+- Viktorya Hunanyan
 - David Karash
 - Megan Zhang
 - Alyssa Lytle
@@ -76,12 +77,35 @@ class TA:
     - 4 hours of OH
     - 1 hour of AH
     - grade quiz question 6.1
+
     Using the `todo_list` method create a list of items that you have to do. You need to make sure that you have some way of accessing this list so that you can check off items as you progress through the week. 
+
 - 6d. In your todo list object, check off `"1 hour of AH"`. 
 - 6e. In your todo list object, check off `"4 hours of OH"`. 
 
-# Answers
-*Question 1-4 Coming Soon*
+# Conceptual Questions
+1. For the scope of this class we say that `__init__` returns the reference number to the object created. More than likely, when the class that this `__init__` method belongs to is called, it is assigned to a variable. More specifically, the return value of calling the class will be assigned to this variable. It is important for `__init__` to return the object so that the created object can be referenced using the variable it was assigned to. If it wasn't assigned to anything—that is, if the class created an object without returning this object—then this object is not referenced by anything in the stack and is floating in the void of the heap. Without a reference, the object becomes inaccessible, and Python’s garbage collector will eventually remove it from memory, as it’s no longer needed.
+
+2. For the scope of this class, yes all classes need an `__init__` method. This because when we want to create an object belonging to a class, we will call the class that the object will belong to. When a class is called, Python allocates memory for a new object of that class. This new object is an empty "shell" instance of the class. After the memory allocation, Python calls the class’s `__init__` method to initialize the object. The new, empty object is automatically passed to `__init__` as self, making self a reference to the specific instance being created. The `__init__` method then goes ahead and adds any attributes to that empty object. 
+
+3. You do not need to pass 5 arguments in order to assign 5 feilds a value. For example the code below has 3 attributes but only passes 1 argument to the constructor: 
+
+```
+class Week: 
+    day: str
+    days_of_the_week: dict[str, int]
+    my_num: int
+
+    def __init__(self, day): 
+        self.day = day 
+        self.days_of_the_week = {"Sun": 0, "Mon": 1, "Tues": 2, "Wed": 3, "Thurs": 4, "Fri": 5, "Sat": 6}
+
+        for days in self.days_of_the_week: 
+            if days == day: 
+                self.my_num = self.days_of_the_week[days]
+```
+
+4. Every class must have at a miniumum 1 method, the `__init__` method. 
 
 5. True
 6. False
@@ -96,3 +120,46 @@ class TA:
 15. True
 16. True
 17. Instantiated
+
+# General Questions
+
+1. ```<variable_name>: <class_name> = <class_name>(<arg>)```
+2. ```<class_name>(<arg>)```
+3. ```<variable_name>.<method_name>(<arg>)```
+4. ```my_list = list()```
+5. ```my_list.append(3)```
+6. Answers below: 
+- 6a. Code below: 
+```
+bio_ta = TA("Bio 101 TA")
+```
+- 6b. Code below: 
+```
+comp_ta = bio_ta.change_class("Comp 110 TA")
+```
+- 6c. Code below: 
+
+```
+todo_list = {
+    "4 hours of OH": False,
+    "1 hour of AH": False,
+    "grade quiz question 6.1": False
+}
+comp_todo = comp_ta.todo_list(todo_list)
+```
+- 6d. Code below: 
+
+```
+comp_todo = comp_ta.check_off("1 hour of AH", comp_todo)
+```
+
+- 6e. Code below: 
+
+```
+comp_todo = comp_ta.check_off("4 hours of OH", comp_todo)
+```
+
+
+
+
+
