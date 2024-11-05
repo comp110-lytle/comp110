@@ -8,7 +8,7 @@ from typing import Any
 import inspect
 import types
 
-POINT_MODULE = "lessons.CQ08.point"
+POINT_MODULE = "CQs.CQ11.point"
 POINT_CLASS = "Point"
 
 # riv_module: Any
