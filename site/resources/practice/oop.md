@@ -48,7 +48,7 @@ class TA:
     hours_per_week: int
     title: str
 
-    def __init__(self, title: str):  # Include self and title as parameters
+    def __init__(self, title: str):
         self.title = title
         if self.title == "Comp 110 TA":
             self.hours_per_week = 5
@@ -57,17 +57,15 @@ class TA:
             self.hours_per_week = 5
             self.semester_pay = 0
 
-    def todo_list(self, todo_list: dict[str, bool]) -> dict[str, bool]:  # Define type hints for todo_list
+    def todo_list(self, todo_list: dict[str, bool]) -> dict[str, bool]:
         return todo_list
 
-    def check_off(self, task: str, todo_list: dict[str, bool]) -> dict[str, bool]:  # Complete the check_off method
-        """Marks a task as done in the todo list."""
+    def check_off(self, task: str, todo_list: dict[str, bool]) -> dict[str, bool]:
         if task in todo_list:
             todo_list[task] = True
         return todo_list
 
-    def change_class(self, new_title: str) -> "TA":  # Method to create a new TA instance
-        """Creates a new TA object with the given title."""
+    def change_class(self, new_title: str) -> "TA":
         return TA(new_title)
 ```
 
