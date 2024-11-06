@@ -761,21 +761,11 @@
         {
             "kind": "CL",
             "n": 22,
-            "title": "Magic Methods",
+            "title": "Quiz 03 Practice",
             "date": "2024-11-06",
             "deadline": "None",
             "links": {
-                "": "/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 20,
-            "title": "Magic Methods (Due Wednesday 11/6)",
-            "date": "2024-11-06",
-            "deadline": "2024-11-06",
-            "links": {
-                "": "https://www.gradescope.com/"
+                "": "/static/slides/krizzi/11_5_Quiz03_Review.pdf"
             }
         }
     ],
