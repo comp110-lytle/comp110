@@ -98,7 +98,7 @@ Where `x` is the current day of the river, `y` is the number of Fish in the rive
 
 At the bottom of `river_simulation.py`, try viewing your river by calling `my_river.view_river()`. 
 
-When you run `python -m exercises.EX07.river_simulation`, the output should be: 
+When you run `python -m exercises.ex07.river_simulation`, the output should be: 
 
 <pre>
 <div class="terminal">~~~ Day 0: ~~~
@@ -192,6 +192,6 @@ To produce a zip file for `ex07`, type the following command (all on a single li
 
 `python -m tools.submission exercises/ex07`
 
-In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-EX07.zip". The "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex07.zip". The "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
 Autograding will take a few moments to complete. For this exercise there will be points manually graded for style – using meaningful variable names and snake_case. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren’t receiving full credit and aren’t sure what to try next, come give us a visit in office hours!
