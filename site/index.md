@@ -50,6 +50,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/98009638815?pwd=ZGfs0qHVQP0gCPpxYMxdalLNYwUo8r.1">Virtual Review Session @ 7PM on 11/06 (Passocde: 110110)</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-11-11" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Nov 11</div>
