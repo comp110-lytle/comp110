@@ -142,9 +142,9 @@ class Week:
 5. True
 6. False
 7. True
-8. False
+8. False; It is not a copy.
 9. True
-10. False
+10. False; The classes constructor creates the instance of the object. You don’t need an existing instance of a class to call the class’s constructor. Calling the constructor (by calling the class) is what creates an instance of the class in the first place. When you call the class itself, like `MyClass()`, Python internally calls the constructor `__init__` to initialize a new instance. 
 11. True
 12. False
 13. True
