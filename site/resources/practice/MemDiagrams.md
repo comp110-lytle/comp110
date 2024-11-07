@@ -78,7 +78,8 @@ template: overview
 
 [Example 0](/resources/practice/memory-diagrams/dicts/dicts-00.html) |
 [Example 1](/resources/practice/memory-diagrams/dicts/dicts-01.html) |
-[Example 2](/resources/practice/memory-diagrams/dicts/lineups.html)
+[Example 2](/resources/practice/memory-diagrams/dicts/lineups.html) |
+[Example 3](/resources/practice/memory-diagrams/nested-structures/inventory.html) 
 <!-- [Example 3](/resources/practice/memory-diagrams/dicts/todo-list.html) -->
 
 
@@ -103,7 +104,7 @@ template: overview
 ## Nested Data Structures
 [Example 0](/resources/practice/memory-diagrams/nested-structures/data.html) |
 [Example 1](/resources/practice/memory-diagrams/nested-structures/nested.html) |
-[Example 2](/resources/practice/memory-diagrams/nested-structures/inventory.html) 
+
 
 <!-- ## Recursive Structures
 
