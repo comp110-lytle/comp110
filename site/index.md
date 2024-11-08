@@ -37,11 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-11-04" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Nov 4</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL21 </span><span class="title"><a href="/static/slides/krizzi/CL21_OOP_magic_methods.pdf">More OOP Practice</a></span></div></div>
-</div><div data-type="lecture" data-date="2024-11-06" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-11-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Nov 6</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL22 </span><span class="title"><a href="/static/slides/krizzi/11_5_Quiz03_Review.pdf">Quiz 03 Practice</a></span></div></div>
@@ -50,11 +46,12 @@ template: home
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
-<li class="link"><a href="https://unc.zoom.us/j/98009638815?pwd=ZGfs0qHVQP0gCPpxYMxdalLNYwUo8r.1">Virtual Review Session @ 7PM on 11/07 (Passocde: 110110)</a></li>
+<li class="link"><a href="https://youtu.be/wrTuqoakhgA">Review Session Recording</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-11-11" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Nov 11</div>
-<div class="plans col-md-9"><div class="plan Exercise">
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL23 </span><span class="title"><a href="/">Reading Data from a CSV</a></span></div><div class="plan Exercise">
 <span class="kind">EX08 </span><span class="title"><a href="/">Data Utils (Due Sunday 11/17)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-18" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Nov 18</div>
@@ -78,7 +75,11 @@ template: home
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-11-01" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-11-04" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Nov 4</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL21 </span><span class="title"><a href="/static/slides/krizzi/CL21_OOP_magic_methods.pdf">More OOP Practice</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-11-01" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Nov 1</div>
 <div class="plans col-md-9"><div class="plan Challenge Question">
 <span class="kind">CQ09 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CQ09_OOP.pdf">OOP Practice (Due Friday 11/1)</a></span></div><div class="plan Exercise">

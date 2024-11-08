@@ -743,5 +743,17 @@
         }
     ],
     "2024-11-02": [],
-    "2024-11-03": []
+    "2024-11-03": [],
+    "2024-11-04": [
+        {
+            "kind": "CL",
+            "n": 21,
+            "title": "More OOP Practice",
+            "date": "2024-11-04",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/CL21_OOP_magic_methods.pdf"
+            }
+        }
+    ]
 }
