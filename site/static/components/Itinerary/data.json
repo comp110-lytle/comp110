@@ -789,21 +789,21 @@
         {
             "kind": "CL",
             "n": 23,
-            "title": "Reading Data from a CSV",
+            "title": "Intro to Recursive Structures and Processes",
             "date": "2024-11-11",
             "deadline": "None",
             "links": {
-                "": "/"
+                "": "/static/slides/krizzi/KJ_IH_IntroRecursiveStructures.pdf"
             }
         },
         {
-            "kind": "EX",
-            "n": 8,
-            "title": "Data Utils (Due Sunday 11/17)",
+            "kind": "LS",
+            "n": 20,
+            "title": "Recursive Structures (Due Tuesday 11/12)",
             "date": "2024-11-11",
-            "deadline": "2024-11-17",
+            "deadline": "2024-11-12",
             "links": {
-                "": "/"
+                "": "https://www.gradescope.com/"
             }
         }
     ],
@@ -813,18 +813,7 @@
     "2024-11-15": [],
     "2024-11-16": [],
     "2024-11-17": [],
-    "2024-11-18": [
-        {
-            "kind": "EX",
-            "n": 9,
-            "title": "Recursive Turtle (Due Sunday 11/24)",
-            "date": "2024-11-18",
-            "deadline": "2024-11-24",
-            "links": {
-                "": "/"
-            }
-        }
-    ],
+    "2024-11-18": [],
     "2024-11-19": [],
     "2024-11-20": [],
     "2024-11-21": [],
@@ -842,18 +831,7 @@
     ],
     "2024-11-23": [],
     "2024-11-24": [],
-    "2024-11-25": [
-        {
-            "kind": "EX",
-            "n": 10,
-            "title": "Linked List Utils (Due Wednesday 12/4)",
-            "date": "2024-11-25",
-            "deadline": "2024-12-04",
-            "links": {
-                "": "/"
-            }
-        }
-    ],
+    "2024-11-25": [],
     "2024-11-26": [],
     "2024-11-27": [],
     "2024-11-28": [],

@@ -755,5 +755,19 @@
                 "": "/static/slides/krizzi/CL21_OOP_magic_methods.pdf"
             }
         }
-    ]
+    ],
+    "2024-11-05": [],
+    "2024-11-06": [
+        {
+            "kind": "CL",
+            "n": 22,
+            "title": "Quiz 03 Practice",
+            "date": "2024-11-06",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/11_5_Quiz03_Review.pdf"
+            }
+        }
+    ],
+    "2024-11-07": []
 }
