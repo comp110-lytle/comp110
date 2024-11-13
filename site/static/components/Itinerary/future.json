@@ -36,9 +36,9 @@
         {
             "kind": "EX",
             "n": 8,
-            "title": "Linked List Utils (Due Thursday 11/14)",
+            "title": "Linked List Utils (Due Tuesday 11/19)",
             "date": "2024-11-13",
-            "deadline": "2024-11-14",
+            "deadline": "2024-11-19",
             "links": {
                 "": "/exercises/linked-list-utils.html"
             }
