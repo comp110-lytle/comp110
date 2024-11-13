@@ -1,4 +1,4 @@
-"""Autograder for Exercise 09 - Linked List Utils."""
+"""Autograder for Exercise 08 - Linked List Utils."""
 
 __author__ = "Kaki Ryan <kakiryan@cs.unc.edu>, Kris Jordan <kris@cs.unc.edu>"
 
@@ -6,7 +6,7 @@ from os import path
 from grading import autograde
 
 configuration = autograde.Configuration(
-    src_path="exercises/ex10",
+    src_path="exercises/ex08",
     test_path=path.dirname(path.realpath(__file__)),
     pytest_points=95.0,
     typecheck_points=3.0,

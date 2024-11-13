@@ -1,4 +1,4 @@
-"""Helpers for ex10 grader."""
+"""Helpers for ex08 grader."""
 from __future__ import annotations
 from typing import Optional
 
