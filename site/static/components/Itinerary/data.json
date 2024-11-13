@@ -808,7 +808,28 @@
         }
     ],
     "2024-11-12": [],
-    "2024-11-13": [],
+    "2024-11-13": [
+        {
+            "kind": "CL",
+            "n": 24,
+            "title": "Practice with Recursive Structures and Processes",
+            "date": "2024-11-13",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/KJ_IH_CL22_ PracticeWithRecursiveStructures.pdf"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 8,
+            "title": "Linked List Utils (Due Tuesday 11/19)",
+            "date": "2024-11-13",
+            "deadline": "2024-11-19",
+            "links": {
+                "": "/exercises/linked-list-utils.md"
+            }
+        }
+    ],
     "2024-11-14": [],
     "2024-11-15": [],
     "2024-11-16": [],

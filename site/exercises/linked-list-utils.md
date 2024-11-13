@@ -4,6 +4,7 @@ author:
 - Kris Jordan
 - Kaki Ryan
 - Vrinda Desai
+- Izzi Hinks
 page: exercises
 template: overview
 ---
@@ -35,7 +36,7 @@ Example usage:
 
 <pre>
 <div class="terminal">
->>> from exercises.ex10.linked_list import Node, value_at
+>>> from exercises.ex08.linked_list import Node, value_at
 >>> value_at(Node(10, Node(20, Node(30, None))), 0)
 10
 >>> value_at(Node(10, Node(20, Node(30, None))), 1)
@@ -60,7 +61,7 @@ Skeleton function implementation:
 
 <pre>
 <div class="terminal">
->>> from exercises.ex10.linked_list import Node, max
+>>> from exercises.ex08.linked_list import Node, max
 >>> max(Node(10, Node(20, Node(30, None))))
 30
 >>> max(Node(10, Node(30, Node(20, None))))
@@ -106,7 +107,7 @@ Example usage:
 
 <pre>
 <div class="terminal">
->>> from exercises.ex10.linked_list import linkify
+>>> from exercises.ex08.linked_list import linkify
 >>> linkify([1, 2, 3])
 1 -> 2 -> 3 -> None
 </div>
@@ -129,7 +130,7 @@ Example usage:
 
 <pre>
 <div class="terminal">
->>> from exercises.ex10.linked_list import scale, linkify
+>>> from exercises.ex08.linked_list import scale, linkify
 >>> scale(linkify([1, 2, 3]), 2)
 2 -> 4 -> 6 -> None
 </div>
@@ -149,7 +150,7 @@ Remember: Focus on what you need to do with only the head node and then leave th
 
 When you are ready to submit for grading, run the following command:
 
-`python -m tools.submission exercises/ex10`
+`python -m tools.submission exercises/ex08`
 
 
 

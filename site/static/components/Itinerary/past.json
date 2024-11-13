@@ -769,5 +769,20 @@
             }
         }
     ],
-    "2024-11-07": []
+    "2024-11-07": [],
+    "2024-11-08": [
+        {
+            "kind": "QZ",
+            "n": 3,
+            "title": "Quiz 3",
+            "date": "2024-11-08",
+            "deadline": "2024-11-08",
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Review Session Recording": "https://youtu.be/wrTuqoakhgA"
+            }
+        }
+    ],
+    "2024-11-09": [],
+    "2024-11-10": []
 }
