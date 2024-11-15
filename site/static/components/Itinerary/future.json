@@ -1,27 +1,4 @@
 {
-    "2024-11-11": [
-        {
-            "kind": "CL",
-            "n": 23,
-            "title": "Intro to Recursive Structures and Processes",
-            "date": "2024-11-11",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/krizzi/KJ_IH_IntroRecursiveStructures.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 20,
-            "title": "Recursive Structures (Due Tuesday 11/12)",
-            "date": "2024-11-11",
-            "deadline": "2024-11-12",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-11-12": [],
     "2024-11-13": [
         {
             "kind": "CL",
@@ -45,7 +22,18 @@
         }
     ],
     "2024-11-14": [],
-    "2024-11-15": [],
+    "2024-11-15": [
+        {
+            "kind": "CL",
+            "n": 25,
+            "title": "More Practice with Recursive Structures and Processes",
+            "date": "2024-11-15",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/KJ_IH_CL23_morepractice.pdf"
+            }
+        }
+    ],
     "2024-11-16": [],
     "2024-11-17": [],
     "2024-11-18": [],

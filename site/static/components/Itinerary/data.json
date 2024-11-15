@@ -831,7 +831,18 @@
         }
     ],
     "2024-11-14": [],
-    "2024-11-15": [],
+    "2024-11-15": [
+        {
+            "kind": "CL",
+            "n": 25,
+            "title": "More Practice with Recursive Structures and Processes",
+            "date": "2024-11-15",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/KJ_IH_CL23_morepractice.pdf"
+            }
+        }
+    ],
     "2024-11-16": [],
     "2024-11-17": [],
     "2024-11-18": [],
