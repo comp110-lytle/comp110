@@ -82,13 +82,6 @@ template: overview
 [Example 3](/resources/practice/memory-diagrams/nested-structures/inventory.html) 
 <!-- [Example 3](/resources/practice/memory-diagrams/dicts/todo-list.html) -->
 
-
-<!-- ## Recursion
-[Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
-[Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
-[Example 1](/resources/practice/memory-diagrams/recursion/pow.html) -->
-
-
 ## OOP 
 
 [Example 0](/resources/practice/memory-diagrams/oop/tweets.html) | 
@@ -105,7 +98,16 @@ template: overview
 [Example 0](/resources/practice/memory-diagrams/nested-structures/data.html) |
 [Example 1](/resources/practice/memory-diagrams/nested-structures/nested.html) |
 
+## Recursion
+[Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
+[Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
+[Example 2](/resources/practice/memory-diagrams/recursion/pow.html)
 
-<!-- ## Recursive Structures
+## Recursive Structures
 
-[Example 1](/resources/practice/memory-diagrams/recursion/list-len.html) | -->
+<!-- [Example 0](/resources/practice/memory-diagrams/recursion/list-len.html) with arrows -- modify  -->
+[Example 0](/resources/practice/memory-diagrams/recursion/double_list_vals.html) |
+[Example 1](/resources/practice/memory-diagrams/recursion/increment_values.html) |
+[Example 2](/resources/practice/memory-diagrams/recursion/remove_all_occurrences.html) |
+[Example 3](/resources/practice/memory-diagrams/recursion/reverse_list_with_twist.html) |
+[Example 4](/resources/practice/memory-diagrams/recursion/sum_of_digits.html)
