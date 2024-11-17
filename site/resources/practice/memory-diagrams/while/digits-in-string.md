@@ -1,8 +1,7 @@
 ---
 title: Practice Memory Diagram
 author:
-- Created by Viktorya Hunanyan
-- Solution by Lizzie Coats
+- Viktorya Hunanyan
 page: lessons
 template: overview
 ---
@@ -44,7 +43,7 @@ template: overview
 
 # Solution
 
-<img class="img-fluid" src="/static/practice-mem-diagrams/num_count.jpg" alt="Image Description Here"  />
+<img class="img-fluid" src="/static/mem-diags/count-digits.jpg" alt="Image Description Here"  />
 
 ## Video
 *(Video Coming Soon)*

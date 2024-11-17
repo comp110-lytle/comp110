@@ -23,13 +23,14 @@ template: overview
     increment_values(dct1)
     print(dct1)
 
-    dct2 = {'x': 5, 'y': {'a': 1, 'b': 2}, 'z': 3}
+    dct2 = {'x': {'a': 5}, 'y': {'a': 1, 'b': 2}, 'z': {'b': 3}}
     increment_values(dct2)
     print(dct2)
 ```
 
 # Solution
-*(Coming Soon)*
+<img class="img-fluid" src="/static/mem-diags/increment_values.jpg" alt="Image Description Here"  />
+
 <!-- [Solution Video](https://youtu.be/mr_7bk3F6to)
 
 <img class="img-fluid" src="/static/practice-mem-diagrams/silly-loop.png" alt="Image Description Here"  />  -->
