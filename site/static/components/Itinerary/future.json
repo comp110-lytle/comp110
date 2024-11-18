@@ -1,42 +1,18 @@
 {
-    "2024-11-13": [
-        {
-            "kind": "CL",
-            "n": 24,
-            "title": "Practice with Recursive Structures and Processes",
-            "date": "2024-11-13",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/krizzi/KJ_IH_CL22_ PracticeWithRecursiveStructures.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 8,
-            "title": "Linked List Utils (Due Tuesday 11/19)",
-            "date": "2024-11-13",
-            "deadline": "2024-11-19",
-            "links": {
-                "": "/exercises/linked-list-utils.html"
-            }
-        }
-    ],
-    "2024-11-14": [],
-    "2024-11-15": [
-        {
-            "kind": "CL",
-            "n": 25,
-            "title": "More Practice with Recursive Structures and Processes",
-            "date": "2024-11-15",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/krizzi/KJ_IH_CL23_morepractice.pdf"
-            }
-        }
-    ],
     "2024-11-16": [],
     "2024-11-17": [],
-    "2024-11-18": [],
+    "2024-11-18": [
+        {
+            "kind": "CL",
+            "n": 26,
+            "title": "Recursive Functions (without Recursive Structures)",
+            "date": "2024-11-18",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/KJ_IH_CL24_RecursiveFns.pdf"
+            }
+        }
+    ],
     "2024-11-19": [],
     "2024-11-20": [],
     "2024-11-21": [],

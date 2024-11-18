@@ -31,5 +31,7 @@ Why become a part of Team 110? You can help be part of a dynamic, diverse group 
 ## Apply 
 
 - Login to [csxl.unc.edu](https://csxl.unc.edu/) via your ONYEN
-- After logging in, navigate to Academics
-- Look for the Become a TA! pane and complete your application 
+- Be sure you are connected to VPN or connected to the campus network (eduroam)
+- Click [this link](https://go.unc.edu/spring-25-cs-ta) and fill out the form!
+<!-- - After logging in, navigate to Academics
+- Look for the Become a TA! pane and complete your application  -->

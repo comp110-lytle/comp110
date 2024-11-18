@@ -822,9 +822,9 @@
         {
             "kind": "EX",
             "n": 8,
-            "title": "Linked List Utils (Due Tuesday 11/19)",
+            "title": "Linked List Utils (Due Thursday 11/14)",
             "date": "2024-11-13",
-            "deadline": "2024-11-19",
+            "deadline": "2024-11-14",
             "links": {
                 "": "/exercises/linked-list-utils.html"
             }
@@ -845,7 +845,18 @@
     ],
     "2024-11-16": [],
     "2024-11-17": [],
-    "2024-11-18": [],
+    "2024-11-18": [
+        {
+            "kind": "CL",
+            "n": 26,
+            "title": "Recursive Functions (without Recursive Structures)",
+            "date": "2024-11-18",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/KJ_IH_CL24_RecursiveFns.pdf"
+            }
+        }
+    ],
     "2024-11-19": [],
     "2024-11-20": [],
     "2024-11-21": [],

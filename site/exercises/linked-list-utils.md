@@ -17,13 +17,13 @@ Recall in the lectures on 11/11 and 11/13, we were writing methods and functions
 
 ## `value_at` 
 
-Given a `head` `Node | None` and an `index` `int` as inputs, return the _data_ of the Node stored at the given index, or raise an `IndexError` if the `index` does not exist.
+Given a `head` `Node | None` and an `index` `int` as inputs, return the _value_ of the Node stored at the given index, or raise an `IndexError` if the `index` does not exist.
 
 Hint #0: In the recursive case, you will need to modify both arguments to bring your recursive call closer to the base case of hint #2. Start by diagramming on paper what this means for a call to `value_at` with a list of two or more nodes and an initial index of 1.
 
 Hint #1: An edge case occurs when the list is empty. Raise an `IndexError`, e.g.: `raise IndexError("Index is out of bounds on the list.")`
 
-Hint #2: A second base case occurs when the index is 0. Here you should return the data of the current `Node` being processed on the list.
+Hint #2: A second base case occurs when the index is 0. Here you should return the value of the current `Node` being processed on the list.
 
 Skeleton function implementation:
 
@@ -50,7 +50,7 @@ IndexError: Index is out of bounds on the list.
 
 ## `max` 
 
-Given a `head` `Node`, return the maximum data value in the linked list. If the linked list is empty, raise a `ValueError`.
+Given a `head` `Node`, return the maximum value in the linked list. If the linked list is empty, raise a `ValueError`.
 
 Skeleton function implementation:
 

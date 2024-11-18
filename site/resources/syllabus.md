@@ -90,7 +90,7 @@ Quizzes and examinations are offered in-person only this semester. The format is
 * Quiz (QZ) 02: Fri, Oct 25
 * Quiz (QZ) 03: Fri, Nov 8
 * Quiz (QZ) 04: Fri, Nov 22
-* Final (FN) Exam: Sat Dec 7 @ 8 AM (Makeup: Wed Dec 11 @ 12 pm in SN014)
+* Final (FN) Exam: Sat Dec 7 @ 8 AM (Makeup: Sun Dec 8 @ 12 pm)
 
 **Final Exam Makeup**
 
