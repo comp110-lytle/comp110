@@ -41,6 +41,10 @@ template: home
 <div class="date col-md-2">Mon, Nov 18</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL26 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL24_RecursiveFns.pdf">Recursive Functions (without Recursive Structures)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-11-20" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Nov 20</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL27 </span><span class="title"><a href="/">Quiz Review</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Nov 22</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -63,7 +67,7 @@ template: home
 <div class="date col-md-2">Wed, Nov 13</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL24 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL22_ PracticeWithRecursiveStructures.pdf">Practice with Recursive Structures and Processes</a></span></div><div class="plan Exercise">
-<span class="kind">EX08 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked List Utils (Due Wednesday 11/13)</a></span></div></div>
+<span class="kind">EX08 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked List Utils<s><i>(Due Wednesday 11/13)</i></s> (Extended to Thursday 11/14)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-11" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Nov 11</div>
 <div class="plans col-md-9"><div class="plan Class">
