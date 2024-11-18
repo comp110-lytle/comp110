@@ -63,7 +63,7 @@ template: home
 <div class="date col-md-2">Wed, Nov 13</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL24 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL22_ PracticeWithRecursiveStructures.pdf">Practice with Recursive Structures and Processes</a></span></div><div class="plan Exercise">
-<span class="kind">EX08 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked List Utils (Due Thursday 11/14)</a></span></div></div>
+<span class="kind">EX08 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked List Utils (Due Wednesday 11/13)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-11" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Nov 11</div>
 <div class="plans col-md-9"><div class="plan Class">
