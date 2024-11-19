@@ -51,6 +51,6 @@ If you ever find yourself feeling really lost, feel free to take these questions
 ## Quiz 04
 - [Object-Oriented Programming](/resources/practice/oop.html)
 - [Class Writing](/resources/practice/class-writing.html)
-- [Recursive Functions *(to-do)*](/resources/practice/recursive-functions.html)
+- [Recursive Functions](/resources/practice/recursive-functions.html)
 - [Recursive Structures](/resources/practice/recursive-structures.html)
 <!-- - [Magic Methods *(to-do)*](/resources/practice/unit-tests.html) -->
