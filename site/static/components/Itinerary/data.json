@@ -822,9 +822,9 @@
         {
             "kind": "EX",
             "n": 8,
-            "title": "Linked List Utils (Due Wednesday 11/13)",
+            "title": "Linked List Utils (Due Wednesday 11/20)",
             "date": "2024-11-13",
-            "deadline": "2024-11-13",
+            "deadline": "2024-11-20",
             "links": {
                 "": "/exercises/linked-list-utils.html"
             }

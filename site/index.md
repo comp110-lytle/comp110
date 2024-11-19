@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ04 - FRI, NOV 22 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/linked-list-utils.html">EX08 - WED, NOV 20 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ04 - FRI, NOV 22 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -67,7 +67,7 @@ template: home
 <div class="date col-md-2">Wed, Nov 13</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL24 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL22_ PracticeWithRecursiveStructures.pdf">Practice with Recursive Structures and Processes</a></span></div><div class="plan Exercise">
-<span class="kind">EX08 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked List Utils (Due Wednesday 11/13)</a></span></div></div>
+<span class="kind">EX08 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked List Utils (Due Wednesday 11/20)</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-11" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Nov 11</div>
 <div class="plans col-md-9"><div class="plan Class">
