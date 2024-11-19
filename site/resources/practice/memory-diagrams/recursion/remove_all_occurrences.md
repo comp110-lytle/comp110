@@ -9,27 +9,27 @@ template: overview
 # Snippet
 
 ```python
-    def remove_all_occurrences(lst, value):
+    def remove_all_occurrences(inp_list, val):
         i = 0
-        while i < len(lst):
-            if type(lst[i]) == list:
-                remove_all_occurrences(lst[i], value)
-                if len(lst[i]) == 0:
-                    lst.pop(i)
+        while i < len(inp_list):
+            if type(inp_list[i]) == list:
+                remove_all_occurrences(inp_list[i], val)
+                if len(inp_list[i]) == 0:
+                    inp_list.pop(i)
                 else:
                     i += 1
-            elif lst[i] == value:
-                lst.pop(i)
+            elif inp_list[i] == val:
+                inp_list.pop(i)
             else:
                 i += 1
 
-    lst1 = [1, 2, 3, 2, 4, 2, 5]
-    remove_all_occurrences(lst1, 2)
-    print(lst1)
+    my_list = [1, 2, 3, 2, 4, 2, 5]
+    remove_all_occurrences(my_list, 2)
+    print(my_list)
 
-    lst2 = [2, [1, 2, [2, 3]], 4, 2]
-    remove_all_occurrences(lst2, 2)
-    print(lst2)
+    my_sec_list = [2, [1, 2, [2, 3]], 4, 2]  # you can ignore the type on this -- types in python are funky
+    remove_all_occurrences(my_sec_list, 2)
+    print(my_sec_list)
 ```
 
 # Solution
