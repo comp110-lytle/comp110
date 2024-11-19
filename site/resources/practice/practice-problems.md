@@ -46,10 +46,11 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Lists, Dictionaries, and Loops Reinforcement Questions](/resources/practice/lists-and-dicts-reinforced.html)
 - [Function Writing: dictionaries](/resources/practice/function-writing.html)
 - [Object-Oriented Programming](/resources/practice/oop.html)
-- [Class Writing (*not* including Magic Methods)](/resources/practice/class-writing.html)
+- [Class Writing](/resources/practice/class-writing.html)
 
 ## Quiz 04
-
+- [Object-Oriented Programming](/resources/practice/oop.html)
+- [Class Writing](/resources/practice/class-writing.html)
 - [Recursive Functions *(to-do)*](/resources/practice/recursive-functions.html)
-- [Recursive Structures *(to-do)*](/resources/practice/recursive-structures.html)
+- [Recursive Structures](/resources/practice/recursive-structures.html)
 <!-- - [Magic Methods *(to-do)*](/resources/practice/unit-tests.html) -->
