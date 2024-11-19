@@ -28,6 +28,7 @@ template: overview
     print(my_list)
 
     my_sec_list = [2, [1, 2, [2, 3]], 4, 2]  # you can ignore the type on this -- types in python are funky
+    # this does not mean ignore types -- this is just one exception
     remove_all_occurrences(my_sec_list, 2)
     print(my_sec_list)
 ```
