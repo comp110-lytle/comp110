@@ -1,5 +1,5 @@
 ---
-title: Lists Conceptual Questions
+title: Recursive Structures
 author:
 - Viktorya Hunanyan
 page: lessons
