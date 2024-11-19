@@ -142,11 +142,11 @@ Example usage:
 Your code will need to pass the common stylistic and type checking guidelines used throughout the semester.
 
 
-## Hand-in Will Open Soon
+## Submit to Gradescope
 
-You should utilize the REPL or write your own tests to be confident of your implementations. None of these functions require much code to complete, but will take some mental gymnastics to think about approaching recursively.
+<!-- You should utilize the REPL or write your own tests to be confident of your implementations. None of these functions require much code to complete, but will take some mental gymnastics to think about approaching recursively.
 
-Remember: Focus on what you need to do with only the head node and then leave the rest of the problem working through the rest of the list to the recursive function call.
+Remember: Focus on what you need to do with only the head node and then leave the rest of the problem working through the rest of the list to the recursive function call. -->
 
 When you are ready to submit for grading, run the following command:
 
