@@ -44,7 +44,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Nov 20</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL27 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL27_QuizReview.pdf">Quiz Review</a></span></div></div>
+<span class="kind">CL27 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL27_QuizReview_new.pdf">Quiz Review</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Nov 22</div>
 <div class="plans col-md-9"><div class="plan Quiz">
