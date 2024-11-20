@@ -34,10 +34,9 @@ template: overview
 ```
 
 # Solution
-*(Coming Soon)*
-<!-- [Solution Video](https://youtu.be/mr_7bk3F6to)
+<!-- [Solution Video](https://youtu.be/mr_7bk3F6to) -->
 
-<img class="img-fluid" src="/static/practice-mem-diagrams/silly-loop.png" alt="Image Description Here"  />  -->
+<img class="img-fluid" src="/static/mem-diags/remove_all_occurences.jpg" alt="Image Description Here"  /> 
 
 ## Image Description 
 *(Coming Soon)*
