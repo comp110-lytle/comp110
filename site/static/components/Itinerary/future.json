@@ -1,6 +1,4 @@
 {
-    "2024-11-16": [],
-    "2024-11-17": [],
     "2024-11-18": [
         {
             "kind": "CL",
@@ -22,7 +20,7 @@
             "date": "2024-11-20",
             "deadline": "None",
             "links": {
-                "": "/"
+                "": "/static/slides/krizzi/KJ_IH_CL27_QuizReview.pdf"
             }
         }
     ],
@@ -35,7 +33,8 @@
             "date": "2024-11-22",
             "deadline": "2024-11-22",
             "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html"
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Virtual Review Session @7PM on 11/21 (Passcode: 110110)": "https://unc.zoom.us/j/92764112860?pwd=pNkhXIyG3KMqMH6AhHW0H4aGVy74nu.1"
             }
         }
     ],

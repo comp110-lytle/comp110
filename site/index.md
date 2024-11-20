@@ -44,12 +44,13 @@ template: home
 </div><div data-type="lecture" data-date="2024-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Nov 20</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL27 </span><span class="title"><a href="/">Quiz Review</a></span></div></div>
+<span class="kind">CL27 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL27_QuizReview.pdf">Quiz Review</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-11-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Nov 22</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ04 </span><span class="title">Quiz 4</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/92764112860?pwd=pNkhXIyG3KMqMH6AhHW0H4aGVy74nu.1">Virtual Review Session @7PM on 11/21 (Passcode: 110110)</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2024-12-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Sat, Dec 7</div>
