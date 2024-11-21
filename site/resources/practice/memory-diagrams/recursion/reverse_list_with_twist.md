@@ -11,7 +11,7 @@ template: overview
 ```python
     def reverse_list_with_twist(lst, left, right):
         if left >= right:
-            return
+            return None
 
         if lst[left] % 2 == 1 and lst[right] % 2 == 1:
             reverse_list_with_twist(lst, left + 1, right - 1)
