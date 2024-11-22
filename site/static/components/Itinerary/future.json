@@ -1,16 +1,4 @@
 {
-    "2024-11-18": [
-        {
-            "kind": "CL",
-            "n": 26,
-            "title": "Recursive Functions (without Recursive Structures)",
-            "date": "2024-11-18",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/krizzi/KJ_IH_CL24_RecursiveFns.pdf"
-            }
-        }
-    ],
     "2024-11-19": [],
     "2024-11-20": [
         {
@@ -34,7 +22,7 @@
             "deadline": "2024-11-22",
             "links": {
                 "Practice Problems": "/resources/practice/practice-problems.html",
-                "Virtual Review Session @7PM on 11/21 (Passcode: 110110)": "https://unc.zoom.us/j/92764112860?pwd=pNkhXIyG3KMqMH6AhHW0H4aGVy74nu.1"
+                "Review Session Recording": "https://youtu.be/jg63Hm4ny2g"
             }
         }
     ],

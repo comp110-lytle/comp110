@@ -844,5 +844,17 @@
         }
     ],
     "2024-11-16": [],
-    "2024-11-17": []
+    "2024-11-17": [],
+    "2024-11-18": [
+        {
+            "kind": "CL",
+            "n": 26,
+            "title": "Recursive Functions (without Recursive Structures)",
+            "date": "2024-11-18",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/KJ_IH_CL24_RecursiveFns.pdf"
+            }
+        }
+    ]
 }
