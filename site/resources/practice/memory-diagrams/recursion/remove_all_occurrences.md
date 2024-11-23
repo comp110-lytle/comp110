@@ -35,7 +35,7 @@ template: overview
 
 # Solution
 <!-- [Solution Video](https://youtu.be/mr_7bk3F6to) -->
-
+*Note: The RA of the first remove_all_occurences frame should be 16 not 15.*
 <img class="img-fluid" src="/static/mem-diags/remove_all_occurences.jpg" alt="Image Description Here"  /> 
 
 ## Image Description 
