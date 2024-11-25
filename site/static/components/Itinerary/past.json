@@ -856,5 +856,19 @@
                 "": "/static/slides/krizzi/KJ_IH_CL24_RecursiveFns.pdf"
             }
         }
-    ]
+    ],
+    "2024-11-19": [],
+    "2024-11-20": [
+        {
+            "kind": "CL",
+            "n": 27,
+            "title": "Quiz Review",
+            "date": "2024-11-20",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/KJ_IH_CL27_QuizReview_new.pdf"
+            }
+        }
+    ],
+    "2024-11-21": []
 }

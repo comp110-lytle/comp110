@@ -1,18 +1,4 @@
 {
-    "2024-11-19": [],
-    "2024-11-20": [
-        {
-            "kind": "CL",
-            "n": 27,
-            "title": "Quiz Review",
-            "date": "2024-11-20",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/krizzi/KJ_IH_CL27_QuizReview_new.pdf"
-            }
-        }
-    ],
-    "2024-11-21": [],
     "2024-11-22": [
         {
             "kind": "QZ",
@@ -28,7 +14,28 @@
     ],
     "2024-11-23": [],
     "2024-11-24": [],
-    "2024-11-25": [],
+    "2024-11-25": [
+        {
+            "kind": "CL",
+            "n": 28,
+            "title": "Commonly Missed Quiz Questions",
+            "date": "2024-11-25",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/KJ_IH_CL28_CommonlyMissedQs.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 10,
+            "title": "Quiz Corrections (Due Monday 11/25)",
+            "date": "2024-11-25",
+            "deadline": "2024-11-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2024-11-26": [],
     "2024-11-27": [],
     "2024-11-28": [],
