@@ -870,5 +870,45 @@
             }
         }
     ],
-    "2024-11-21": []
+    "2024-11-21": [],
+    "2024-11-22": [
+        {
+            "kind": "QZ",
+            "n": 4,
+            "title": "Quiz 4",
+            "date": "2024-11-22",
+            "deadline": "2024-11-22",
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Review Session Recording": "https://youtu.be/jg63Hm4ny2g"
+            }
+        }
+    ],
+    "2024-11-23": [],
+    "2024-11-24": [],
+    "2024-11-25": [
+        {
+            "kind": "CL",
+            "n": 28,
+            "title": "Commonly Missed Quiz Questions",
+            "date": "2024-11-25",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/KJ_IH_CL28_CommonlyMissedQs.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 10,
+            "title": "Quiz Corrections (Due Monday 11/25)",
+            "date": "2024-11-25",
+            "deadline": "2024-11-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2024-11-26": [],
+    "2024-11-27": [],
+    "2024-11-28": []
 }

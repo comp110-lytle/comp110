@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">CQ10 - MON, NOV 25 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,18 +37,14 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-11-22" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Nov 22</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ04 </span><span class="title">Quiz 4</span>
-<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
-<li class="link"><a href="https://youtu.be/jg63Hm4ny2g">Review Session Recording</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2024-11-25" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Nov 25</div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-12-02" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Dec 2</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL28 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL28_CommonlyMissedQs.pdf">Commonly Missed Quiz Questions</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ10 </span><span class="title"><a href="https://www.gradescope.com/">Quiz Corrections (Due Monday 11/25)</a></span></div></div>
+<span class="kind">CL29 </span><span class="title"><a href="/">Quantifying Shakespeare</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-12-04" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Dec 4</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL30 </span><span class="title"><a href="/">LDOC!</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-12-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Sat, Dec 7</div>
 <div class="plans col-md-9"><div class="plan Final">
@@ -57,7 +53,19 @@ template: home
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-11-20" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2024-11-25" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Nov 25</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL28 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL28_CommonlyMissedQs.pdf">Commonly Missed Quiz Questions</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ10 </span><span class="title"><a href="https://www.gradescope.com/">Quiz Corrections (Due Monday 11/25)</a></span></div></div>
+</div><div data-type="lecture" data-date="2024-11-22" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Nov 22</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ04 </span><span class="title">Quiz 4</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="https://youtu.be/jg63Hm4ny2g">Review Session Recording</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2024-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Nov 20</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL27 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL27_QuizReview_new.pdf">Quiz Review</a></span></div></div>
