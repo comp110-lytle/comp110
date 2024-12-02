@@ -1,16 +1,15 @@
 {
-    "2024-11-29": [],
     "2024-11-30": [],
     "2024-12-01": [],
     "2024-12-02": [
         {
             "kind": "CL",
             "n": 29,
-            "title": "Quantifying Shakespeare",
+            "title": "Using Files and a Data Structure to Quantify Shakespeare",
             "date": "2024-12-02",
             "deadline": "None",
             "links": {
-                "": "/"
+                "": "/static/slides/krizzi/KJ_IH_CL29_QuantifyingShakespeare.pdf"
             }
         }
     ],

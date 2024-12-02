@@ -40,7 +40,7 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2024-12-02" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Dec 2</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL29 </span><span class="title"><a href="/">Quantifying Shakespeare</a></span></div></div>
+<span class="kind">CL29 </span><span class="title"><a href="/static/slides/krizzi/KJ_IH_CL29_QuantifyingShakespeare.pdf">Using Files and a Data Structure to Quantify Shakespeare</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-12-04" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Dec 4</div>
 <div class="plans col-md-9"><div class="plan Class">
