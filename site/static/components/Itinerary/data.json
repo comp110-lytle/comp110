@@ -931,11 +931,11 @@
         {
             "kind": "CL",
             "n": 30,
-            "title": "LDOC!",
+            "title": "Final Exam Prep and Recursive Art",
             "date": "2024-12-04",
             "deadline": "None",
             "links": {
-                "": "/"
+                "": "/static/slides/krizzi/final_prep_and_recursive_art.pdf"
             }
         }
     ],

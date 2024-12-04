@@ -44,7 +44,7 @@ template: home
 </div><div data-type="lecture" data-date="2024-12-04" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Dec 4</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL30 </span><span class="title"><a href="/">LDOC!</a></span></div></div>
+<span class="kind">CL30 </span><span class="title"><a href="/static/slides/krizzi/final_prep_and_recursive_art.pdf">Final Exam Prep and Recursive Art</a></span></div></div>
 </div><div data-type="lecture" data-date="2024-12-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Sat, Dec 7</div>
 <div class="plans col-md-9"><div class="plan Final">
