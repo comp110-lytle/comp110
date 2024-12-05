@@ -32,7 +32,7 @@ template: overview
 
 # Solution
 
-
+Accidentally missed id: 2. id:3 should instead be id:2, id:4 should be id:3 and so on.
 <img class="img-fluid" src="/static/mem-diags/columnar-mem.jpg" alt="Image Description Here"  />
 
 ## Image Description 
