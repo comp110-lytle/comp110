@@ -1,0 +1,17 @@
+name: Publish Course Site
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy-course-site:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build & Deploy Course Site
+      uses: ./.github/actions/deploy-course-site # Uses an action in the root directory
+      id: deploy-course-site
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

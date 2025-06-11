@@ -1,0 +1,39 @@
+{
+    "2024-12-02": [
+        {
+            "kind": "CL",
+            "n": 29,
+            "title": "Using Files and a Data Structure to Quantify Shakespeare",
+            "date": "2024-12-02",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/KJ_IH_CL29_QuantifyingShakespeare.pdf"
+            }
+        }
+    ],
+    "2024-12-03": [],
+    "2024-12-04": [
+        {
+            "kind": "CL",
+            "n": 30,
+            "title": "Final Exam Prep and Recursive Art",
+            "date": "2024-12-04",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/krizzi/final_prep_and_recursive_art.pdf"
+            }
+        }
+    ],
+    "2024-12-07": [
+        {
+            "kind": "FN",
+            "n": 0,
+            "title": "Final @ 8:00AM",
+            "date": "2024-12-07",
+            "deadline": "None",
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html"
+            }
+        }
+    ]
+}

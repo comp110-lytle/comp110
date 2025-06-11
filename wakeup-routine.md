@@ -23,7 +23,7 @@ author:
   * Send info on registration for ShiftOverflow/Homebase
   * I-9 information to HR
   * Plan orientation meeting before all-hands (slides in last semester's Drive folder)
-* Add to course.care
+* Add to CSXL course
 
 ## Ramp-up Team 110
 * Start of semester survey
@@ -43,7 +43,7 @@ author:
 
 ### Support Page
 
-* Update Course.Care info with new code
+* Update Course.Care info with new code (deprecated?)
 
 ### Calendar
 
@@ -94,3 +94,4 @@ author:
   * Schedule tutoring room
   * Schedule all-hands meeting room
   * Schedule final exam makeup room
+  * Ask help@cs.unc.edu to unlock doors if the final exam makeup takes place on a Sunday and the doors aren't already [scheduled to be unlocked](https://calendar.google.com/calendar/u/0/embed?src=cs.unc.edu_k2nl1c88kc5uu8ivhv1vr5ruso@group.calendar.google.com&ctz=America/New_York)

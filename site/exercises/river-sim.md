@@ -19,8 +19,8 @@ You will find the starter files needed by "pulling" from the course workspace re
 0. Be sure you are in your course workspace. Open the file explorer and you should see your work for the course. If you do not, open your course workspace through File > Open Recent.
 1. Open the _Source Control View_ by clicking the 3-node (circles) graph (connected by lines) icon in your sidebar or opening the command palatte and searching for _Source Control_.
 2. Click the Ellipses in the Source Control pane and select "Pull" from the drop-down menu. This will begin the pulling process from the course repository. It should silently succeed.
-3. Return to the File Explorer pane and open the `exercises` directory. You should see it now contains another directory named `EX07`. If you expand that directory, you should see the starter files for the code you'll be writing.
-4. If you do not see the `EX07` directory, try once more but selecting `"Pull From"` and select `origin` in step 2.
+3. Return to the File Explorer pane and open the `exercises` directory. You should see it now contains another directory named `ex07`. If you expand that directory, you should see the starter files for the code you'll be writing.
+4. If you do not see the `ex07` directory, try once more but selecting `"Pull From"` and select `origin` in step 2.
 
 ### Troubleshooting
 If you're having trouble pulling:

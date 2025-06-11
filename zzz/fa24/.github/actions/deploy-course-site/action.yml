@@ -1,0 +1,10 @@
+# action.yml
+name: 'Deploy Course Site'
+description: 'Converts md->html with pandoc and pushes to a downstream repo.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - site                  # subdir in this repo
+    - comp110-24f          # target github user/org
+    - comp110-24f.github.io # target github repo
