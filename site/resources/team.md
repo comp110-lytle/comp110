@@ -14,7 +14,7 @@ page: resource
 <div class="row justify-content-center">
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/alyssabyrnes.html"><img src="/static/profile-photos/alyssabyrnes.jpeg" class="profile-image"></a> <figcaption>Alyssa Lytle</figcaption></figure>
-
+<!-- 
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
     <a href="/resources/profiles/oxiao.html"><img src="/static/profile-photos/alexxiao.jpg" class="profile-image"> </a>
   <figcaption>Alex Xiao</figcaption>
@@ -46,10 +46,10 @@ page: resource
   <figcaption>Caroline Bryan</figcaption>
 </figure>
 
-<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/cdander9.html"><img src="/static/profile-photos/cdander9.png" class="profile-image"></a> <figcaption>Carmine Anderson - Falconi</figcaption></figure>
+<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/cdander9.html"><img src="/static/profile-photos/cdander9.png" class="profile-image"></a> <figcaption>Carmine Anderson - Falconi</figcaption></figure> -->
 
 <!-- <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/csabato.html"><img src="/static/profile-photos/csabato.jpg" class="profile-image"></a> <figcaption>Chiara Sabato</figcaption></figure> -->
-
+<!-- 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/conjon.html"><img src="/static/profile-photos/conjon.jpg" class="profile-image"></a><figcaption>Conor Jones</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/coraorog.html"><img src="/static/profile-photos/coralee.png" class="profile-image"></a><figcaption>Coralee Rogers-Vickers</figcaption></figure>
@@ -66,14 +66,14 @@ page: resource
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
     <a href="/resources/profiles/godondi.html"><img src="/static/profile-photos/godondi.jpg" class="profile-image"> </a>
     <figcaption>Grace Odondi</figcaption>
-  </figure>
+  </figure> -->
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
     <a href="/resources/profiles/jcoury.html"><img src="/static/profile-photos/jcoury.jpg" class="profile-image"> </a>
     <figcaption>Jack Coury</figcaption>
   </figure>
 
-<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/jaylim.html"><img src="/static/profile-photos/jaylim.PNG" class="profile-image"> </a><figcaption>Jayden Lim</figcaption></figure>
+<!-- <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/jaylim.html"><img src="/static/profile-photos/jaylim.PNG" class="profile-image"> </a><figcaption>Jayden Lim</figcaption></figure>
 
   <figure class="profile col-xs-12 col-sm-6 col-md-3">
     <a href="/resources/profiles/jimenao.html"><img src="/static/profile-photos/jimenao.jpg" class="profile-image"> </a>
@@ -143,10 +143,10 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/sophiejiang13.html"><img src="/static/profile-photos/sophiejiang.jpeg" class="profile-image"> </a> <figcaption>Sophie Jiang</figcaption></figure>
 
-<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/upasana.html"><img src="/static/profile-photos/upasana.jpg" class="profile-image"> </a> <figcaption>Upasana Lamsal</figcaption></figure>
+<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/upasana.html"><img src="/static/profile-photos/upasana.jpg" class="profile-image"> </a> <figcaption>Upasana Lamsal</figcaption></figure> -->
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/vhunany.html"><img src="/static/profile-photos/vhunany.png" class="profile-image"> </a> <figcaption>Viktorya Hunanyan</figcaption></figure>
-
+<!-- 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/vinceli.html"><img src="/static/profile-photos/vinceli.jpg" class="profile-image"> </a><figcaption>Vincent Li</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/inserra.html"><img src="/static/profile-photos/inserra.PNG" class="profile-image"> </a> <figcaption>Vitor Inserra</figcaption></figure>
@@ -154,7 +154,7 @@ page: resource
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
   <a href="/resources/profiles/wokwen.html"><img src="/static/profile-photos/wokwen.png" class="profile-image"> </a>
   <figcaption>Wisdom Okwen</figcaption>
-</figure>
+</figure> -->
 
 </div>
 </div>
