@@ -68,6 +68,8 @@ page: resource
     <figcaption>Grace Odondi</figcaption>
   </figure> -->
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/alyssabyrnes.html"><img src="/static/profile-photos/alyssabyrnes.jpeg" class="profile-image"></a> <figcaption>Ivy</figcaption></figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
     <a href="/resources/profiles/jcoury.html"><img src="/static/profile-photos/jcoury.jpg" class="profile-image"> </a>
     <figcaption>Jack Coury</figcaption>
