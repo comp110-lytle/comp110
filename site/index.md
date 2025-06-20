@@ -41,7 +41,11 @@ template: home
 <div class="date col-md-2">Mon, Jun 23</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL00 </span><span class="title">Welcome to COMP110</span>
-<ul class="links"><li class="link"><a href="/">Intro</a></li>
+<ul class="links"><li class="link"><a href="/">Welcome Video</a></li>
+<li class="link"><a href="/">Welcome Slides</a></li>
+<li class="link"><a href="/resources/setup/os-update.html">Setup Part 0: Update Operating System</a></li>
+<li class="link"><a href="/">Setup Part 1: Install Needed Software</a></li>
+<li class="link"><a href="/">Setup Part 2: Setup your Workspace</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS00 </span><span class="title"><a href="https://www.gradescope.com/">Syllabus (Due Monday 6/23)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-06-27" class="row itinerary-row py-2">

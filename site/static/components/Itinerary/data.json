@@ -7,7 +7,11 @@
             "date": "2025-06-23",
             "deadline": "None",
             "links": {
-                "Intro": "/"
+                "Welcome Video": "/",
+                "Welcome Slides": "/",
+                "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
+                "Setup Part 1: Install Needed Software": "/",
+                "Setup Part 2: Setup your Workspace": "/"
             }
         },
         {
