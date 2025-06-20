@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS00 - MON, JUN 23 11:59pm</a></li><li class="horizon-item"><a href="/resources/quiz-expectations.html">QZ00 - FRI, JUN 27 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,28 +37,35 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-06-30" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Jun 30</div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-06-23" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Jun 23</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL00 </span><span class="title">Welcome to COMP110</span>
+<ul class="links"><li class="link"></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS00 </span><span class="title"><a href="https://www.gradescope.com/">Syllabus (Due Monday 6/23)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-06-27" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Jun 27</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span>
 <ul class="links"><li class="link"><a href="/resources/quiz-expectations.html">What to Expect</a></li>
 <li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
 </ul></div></div>
-</div><div data-type="lecture" data-date="2025-07-09" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Jul 9</div>
+</div><div data-type="lecture" data-date="2025-07-03" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Jul 3</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ01 </span><span class="title">Quiz 1</span></div></div>
-</div><div data-type="lecture" data-date="2025-07-17" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Jul 17</div>
+</div><div data-type="lecture" data-date="2025-07-11" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Jul 11</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ02 </span><span class="title">Quiz 2</span></div></div>
-</div><div data-type="lecture" data-date="2025-07-24" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Jul 24</div>
+</div><div data-type="lecture" data-date="2025-07-18" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Jul 18</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span></div></div>
 </div><div data-type="lecture" data-date="2025-07-28" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Jul 28</div>
 <div class="plans col-md-9"><div class="plan Final">
-<span class="kind">FN00 </span><span class="title">Final @ 3:00PM</span></div></div>
+<span class="kind">FN00 </span><span class="title">Final</span></div></div>
 </div><!-- The Past section --></div>
 </div>
