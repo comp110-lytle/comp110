@@ -8,27 +8,16 @@
             "deadline": "None",
             "links": {
                 "Welcome Video": "/",
-                "Welcome Slides": "/",
+                "Welcome Slides": "/static/slides/CL00.pdf",
                 "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
                 "Setup Part 1: Install Needed Software": "/resources/setup/software.html",
-                "Setup Part 2: Setup your Workspace": "/resources/setup/workspace.html",
-                "Running A Program": "/"
+                "Setup Part 2: Setup your Workspace": "/resources/setup/workspace.html"
             }
         },
         {
             "kind": "LS",
             "n": 0,
             "title": "Syllabus (Due Monday 6/23)",
-            "date": "2025-06-23",
-            "deadline": "2025-06-23",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 1,
-            "title": "Running A Program (Due Monday 6/23)",
             "date": "2025-06-23",
             "deadline": "2025-06-23",
             "links": {
