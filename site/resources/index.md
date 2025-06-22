@@ -63,9 +63,9 @@ navbar: base
 
 <!-- - _**[VIRTUAL LESSONS:](/virtual-classes/index.html)**_ Lessons for each unit  -->
 
-- _**[Class Schedule:](https://airtable.com/appzeephpTB5Uovx7/shrYkitDOXgUaCEb9)**_ *Tentative* Class Schedule
+- _**[Class Schedule:](/)**_ *Tentative* Class Schedule
 
-- [Lecture Recordings](https://docs.google.com/spreadsheets/d/19H0Mgtuw5pvbBWb81wAo8Omy1RRgjQcptCqS1I_dEC0/edit?usp=sharing)
+
 
 </div> 
 
@@ -73,7 +73,7 @@ navbar: base
 <div class="link-page box">
 ## FAQ
 
-* [What to expect on quizzes?](/resources/ss-quiz-expectations.html)
+<!-- * [What to expect on quizzes?](/resources/ss-quiz-expectations.html) -->
 
 * [Style, Linting and Reading the Autograder](/resources/style-guide.html)
 
