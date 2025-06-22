@@ -2,7 +2,7 @@
 title: Workspace Repository Setup
 author:
   - Kris Jordan
-  - Alyssa Lytle
+  - Izzi Hinks
 page: resource
 template: overview
 ---
@@ -49,6 +49,31 @@ VSCode can be customized with extensions specific to the types of work you use i
 4. Click the Install button to install the extension.
 5. If prompted to reload the VSCode window, accept.
 
+<!-- 
+## 4. Setup your Course Workspace on GitHub
+
+1. Navigate a web browser to <a href="https://classroom.github.com/a/YZrjn2no" target="_blank">https://classroom.github.com/a/YZrjn2no</a>
+2. Click "Skip to the next step" if prompted to select your user / identification
+3. Click "Accept this Assignment"
+4. When the workspace is getting set up, you may need to refresh until it tells you you're ready to go!
+5. Click the link to your personal backup repository that looks something like this `https://github.com/comp110-25s/comp110-workspace-iHinks` (except instead of `iHinks` you will see your GitHub username).
+
+## 5. Setup your Workspace in Visual Studio Code
+
+1. In VSCode, from the _View_ menu select _Command Palette_
+   - You'll use the Command Palette a lot so it's worth trying to remember its shortcut!
+   - Windows: `Control+Shift+P`
+   - Mac: `Command+Shift+P`
+2. Type in "Git: Clone" (without the quotes) and press `Enter`.
+3. Select "Clone from GitHub"
+4. Under Repository Name, look for `comp110-...` where the your GitHub username is found at the end of a workspace repository. Select your workspace.
+   * If you do not see your repository, be sure you are logged into VSCode with your GitHub account per part 2 above.
+5. You will be asked where you want your course workspace repository to be saved on your computer. Accepting the default suggestion is OK, but if you have a folder you would prefer to keep the course work go ahead and select it. **Moving your workspace after this step and should be avoided until the semester ends.**
+6. Press OK when asked if you would like to Open the repository after it downloads.
+7. After a second or two, you should see a popup telling you "Folder contains a DevContainer configuration file." Click the blue button **Reopen in Container**. This step will take a few minutes to complete.
+8. If you accidentally close this pop-up, you can open the Command Palette once more (step 1) and type in: **Reopen in Container** and press enter. -->
+
+
 ## 4. Setup your Workspace in Visual Studio Code
 
 2. In VSCode, from the _View_ menu and select _Command Palette_
@@ -57,19 +82,19 @@ VSCode can be customized with extensions specific to the types of work you use i
    - Mac: `Command+Shift+P`
 3. Type in "Git: Clone" (without the quotes) and press `Enter`.
    - If you do not see this option after installing course software previously, try rebooting your computer.
-4. Copy the following URL: `https://github.com/comp110-24f/comp110-24f-workspace.git`
+4. Copy the following URL: `https://github.com/comp110-25ss1/comp110-25ss1-workspace.git`
    - Right Click and Paste the copied URL into the text box that appeared in VS Code after the previous step.
    - Or use the Paste keyboard shortcut: `Control+V` Windows / `Command+V` Mac
-5. Press Enter and you will be asked where you want your course workspace repository to be saved on your computer. Accepting the default suggestion is OK, but if you have a folder you would prefer to keep the course work go ahead and select it. Trying to move your workspace after this step and should be avoided until the semester ends.
-6. Press OK when asked if you would like to Open the repository after it downloads.
+5. Press Enter and you will be asked where you want your course workspace repository to be saved on your computer. Accepting the default suggestion is OK, but if you have a folder you would prefer to keep the course work go ahead and select it. **Please don't move this workspace until after the semester has ended.**
+6. Press OK when asked if you would like to open the repository after it downloads.
 
 ## 5. Setup your Backup Workspace on GitHub
 
-1. Navigate a web browser to <a href="https://classroom.github.com/a/srbJNnQy" target="_blank">https://classroom.github.com/a/srbJNnQy</a>
+1. Navigate a web browser to <a href="https://classroom.github.com/a/gvy-hoBT" target="_blank">https://classroom.github.com/a/gvy-hoBT</a>
 2. Click "Skip to the next step" when prompted to select your user / identification
 3. Click "Accept this Assignment"
-4. When the workspace is getting setup you may need to refresh until it tells you you're ready to go!
-5. Click the link to your personal backup repository that looks something like this `https://github.com/comp110-24f/comp110-24f-workspace-KrisJordan` (except instead of `KrisJordan` you will see your GitHub username).
+4. When the workspace is getting setup, you may need to refresh until it tells you you're ready to go!
+5. Click the link to your personal backup repository that looks something like this `https://github.com/comp110-25ss1/comp110-workspace-iHinks` (except instead of `iHinks` you will see your GitHub username).
 6. Look for the "Quick setup- if you've done this kind of thing before" box. You will see the same link that you clicked on to get here in step 5. Copy that text or click the copy to clipboard (overlapping squares) button.
 7. In VSCode, open the _View_ menu and select _Command Palette_, the shortcut for this menu is:
    - Windows: `Control+Shift+P`
@@ -80,20 +105,27 @@ VSCode can be customized with extensions specific to the types of work you use i
 11. Open a new terminal tab, from the _Command Palette_ select "Terminal: Create New Terminal"
 11. In the terminal that pops up, type: `git push --set-upstream backup main` then press enter (two dashes in the of `--set-upstream`). This command backs your work up to your GitHub repository.
 
+
 ## 6. Confirm Everything is Good to Go
 
 Phew, you're almost to the end of setup! Hang in there!
 
-From the View Menu of VSCode, select Explorer. You should see a left-hand sidebar with comp110-WORKSPACE at the top and if you expand it you should see `.devcontainer`,  `.vscode`, `tools`, `README.md`, etc. These are folders, which we refer to more technically as directories, and files in your workspace.
+Now, let’s try opening your workspace in a Dev Container. The Dev Container mode is what you will use throughout the rest of the course. 
 
-Now, let's try opening your workspace in a Dev Container. The Dev Container mode is what you will use throughout the rest of the course. Open the Command Palette once more and type "Reopen in Container". This step will take a few minutes. Once it's done, in the Explorer pane, you should see `.devcontainer`, `README.md`, and `welcome.py`. You will notice some of the other files are now hidden; they are hidden because they are not relevant to your work in the course.
+First, make sure Docker is open in the background. Click "Accept", and do not sign in to Docker.
+
+Next, in VSCode, open the Command Palette once more and type “Reopen in Container”. This step will take a few minutes. 
+
+VSCode should now be running in what is called a "Dev Container." To confirm this, look in the lower left corner of VSCode, in the blue box, you should see "Dev Container: comp110-...".
+
+Once it's done, in the Explorer pane, you should see `.devcontainer`, `README.md`, and `welcome.py`. You will notice some of the other files are now hidden; they are hidden because they are not relevant to your work in the course.
 
 Let's run the welcome program! Open the terminal by going to the Terminal menu and selecting New Terminal. You should see a terminal window open at the bottom of VSCode. In the terminal, type `python -m welcome` and press enter. You should see a welcome message printed to the terminal!
 
-Let's be sure you are able to exit out of VSCode and find your work again. Go ahead and close VSCode. It will take a few seconds for your DevContainer to fully shut down in the background, so count to ten, take a few deep breaths, and be proud of setting up a modern, professional software development environment on your personal laptop! Then open VS Code again. If you see the same files in the left-hand sidebar, and "Dev Container: comp110-24f" in the bottom left corner: great! Keep reading, though, so you know what to do in the future if you do not see your workspace.
+Let's be sure you are able to exit out of VSCode and find your work again. Go ahead and close VSCode. It will take a few seconds for your DevContainer to fully shut down in the background, so count to ten, take a few deep breaths, and be proud of setting up a modern, professional software development environment on your personal laptop! Then open VS Code again. If you see the same files in the left-hand sidebar, and "Dev Container: comp110-25ss1" in the bottom left corner: great! Keep reading, though, so you know what to do in the future if you do not see your workspace.
 
-If you do not see your workspace files in the Explorer sidebar, go to File, select Open Recent, and look for the topmost entry that has `comp110-24f-workspace` in it and ends in `[Dev Container]` and select it. This is how you can get back to your workspace most easily in the future.
+If you do not see your workspace files in the Explorer sidebar, go to File, select Open Recent, and look for the topmost entry that has `comp110-` in it and ends in `[Dev Container]` and select it. This is how you can get back to your workspace most easily in the future.
 
-## Issues
+## 7. Get Started on EX00 - Hello World
 
-Please check out [this page](/resources/setup/commonissues.html) if any issues arise. If you're still stuck, please head to office hours for help!
+You are now ready to begin the first exercise of the course, "Hello, world!". 

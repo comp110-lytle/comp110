@@ -12,7 +12,10 @@ First, you should be sure your operating system is up-to-date. If you did not al
 
 Next, you'll install the software needed to _write your own programs_ in the course. We will be using a modern technology called Docker Containers and VSCode to ensure your development tools are exactly the same as everyone else's in the course, regardless of whether you are on Windows or Mac. We will talk more about each, but briefly Docker is what allows us to bundle the same required software for everyone and VSCode will be the program you write your programs in.
 
-Follow the instructions for your operating system, either [Windows 10 and 11](/resources/setup/os-update.html#windows-10-and-11-instructions) or [macOS](/resources/setup/os-update.html#macos-instructions).
+Follow the instructions for your operating system, either:
+
+* [Windows 10 and 11](#windows-10-and-11-instructions)
+* [macOS](#macos-instructions)
 
 -----
 
@@ -65,6 +68,10 @@ Reboot your computer now. Some settings of the applications you just installed w
 
 Once you've completed this, you've got the necessary software installed! Great work!
 
+## 5. Continue to Workspace Setup
+
+Now that your software is installed, it's time to setup your personal workspace for the course. Continue on to [Workspace Setup](/resources/setup/workspace.html).
+
 ----
 
 # macOS Instructions
@@ -105,3 +112,7 @@ Before beginning, be sure you are using the latest version of [macOS](/resources
 Reboot your computer now. Some settings of the applications you just installed will not take effect until you reboot. Attempting to continue on from this point without rebooting will lead to strange errors later.
 
 Once you've completed this, you've got the necessary software installed! Great work!
+
+## 5. Continue to Workspace Setup
+
+Now that your software is installed, it's time to setup your personal workspace for the course. Continue on to [Workspace Setup](/resources/setup/workspace.html).
