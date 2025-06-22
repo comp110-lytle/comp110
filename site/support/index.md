@@ -77,7 +77,7 @@ In-person Office Hours will be in Sitterson Hall (SN) 008. You can find Sitterso
 
 ## Virtual Office Hours Schedule
 
-Virtual Office Hours will be offered via Zoom through [this link](/). Once you click on the Zoom link, you'll enter the waiting room. As soon as a TA becomes available, they will admit you to the Zoom room.
+Virtual Office Hours will be offered via Zoom through [this link](https://unc.zoom.us/j/95014820897). Once you click on the Zoom link, you'll enter the waiting room. As soon as a TA becomes available, they will admit you to the Zoom room.
 
 *Times TBD*
 
