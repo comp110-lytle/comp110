@@ -35,10 +35,7 @@
             "title": "Quiz 0",
             "date": "2025-06-27",
             "deadline": "2025-06-27",
-            "links": {
-                "What to Expect": "/resources/quiz-expectations.html",
-                "Practice Problems": "/resources/practice/practice-problems.html"
-            }
+            "links": {}
         }
     ],
     "2025-06-28": [],
