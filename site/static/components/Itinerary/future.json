@@ -7,7 +7,7 @@
             "date": "2025-06-23",
             "deadline": "None",
             "links": {
-                "Welcome Video": "/",
+                "Welcome Video": "https://youtu.be/3qqaCsEVzng",
                 "Welcome Slides": "/static/slides/CL00.pdf",
                 "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
                 "Setup Part 1: Install Needed Software": "/resources/setup/software.html",
