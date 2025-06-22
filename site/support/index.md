@@ -15,7 +15,9 @@ template: columns
 * Office Hours: Setup, homework + conceptual questions
 * Email <abyrnes1@cs.unc.edu>: Assignment extension requests, logistical concerns; personal issues and emergencies that impact performance in the course
 
-# Office Hours + Tutoring
+<!-- # Office Hours + Tutoring -->
+
+# Office Hours
 
 Come drop in for one-on-one support in office hours with a member of the [COMP110 team](/resources/team.html). Except for on due dates, the average wait time is typically less than two minutes.
 
@@ -26,7 +28,7 @@ Office hours is the ideal place to come for one-on-one help with:
 * Lessons
 * Challenge Questions
 
-Typical office hours are listed to the right, but check the hours on the [CSXL website](https://csxl.unc.edu/) for the most up-to-date availability this week.
+<!-- Typical office hours are listed to the right, but check the hours on the [CSXL website](https://csxl.unc.edu/) for the most up-to-date availability this week. -->
 
 Note: We must stop taking tickets at the closing time and cannot stay beyond. If the queue is long enough that we do not believe we will be able to see all tickets we will turn off the ability to submit new tickets before closing time.
 
@@ -34,7 +36,7 @@ Office hours appointments for programming exercises are limited to 15 minutes an
 
 In order to serve every student in the course as best we can, we must enforce a 1-hour wait period between appointments with the same student. During this time, we expect you to continue making substantive progress on your programming exercise. If you anticipate needing significant amounts of help on an assignment, please start as far in advance as possible so you will have multiple opportunities to ask questions as they arise. Realizing you need help more than once in a given day is an indication you would benefit from a stronger conceptual understanding of the material in question and it would be great for you to come work with us during tutoring hours!
 
-To work with us in office hours, <a href="https://csxl.unc.edu/" target="_blank">visit the CSXL site</a>. Please already be in Fred Brooks/Sitterson Hall when you submit a ticket so a TA can help you as soon as they are available.
+<!-- To work with us in office hours, <a href="https://csxl.unc.edu/" target="_blank">visit the CSXL site</a>. Please already be in Fred Brooks/Sitterson Hall when you submit a ticket so a TA can help you as soon as they are available. -->
 
 <!-- To participate in remote office hours:
 
@@ -44,9 +46,9 @@ To work with us in office hours, <a href="https://csxl.unc.edu/" target="_blank"
 4. <a href="https://course.care/ng/course/85" target="_blank">Open Course.Care click "Check-in" for currently open office hours</a>. Select what kind of help you are seeking and paste in your Zoom URL. Be detailed and descriptive in your request for help. If you fail to make an honest effort to describe the purpose of the meeting, TAs are instructed to cancel your request.
 5. Our teaching team will get to you as soon as we can! -->
 
-<!-- ### Ed Stem for on-line Q&A About Lessons / Conceptual Help 
+### Ed Stem for on-line Q&A About Lessons / Conceptual Help 
 
-Join EdStem here <https://edstem.org/us/join/KuDPny>. Do not make public posts about programming exercises. Come work with us in office hours with these questions or mark them as posting to "instructors only". Unless we are able to answer a question very quickly, it is likely we will redirect you to office hours in any case. Piazza is primarily available for conceptal questions about course and lecture concepts, or when tutoring is not open. -->
+Join EdStem here <https://edstem.org/>. Do not make public posts about programming exercises. Come work with us in office hours with these questions or mark them as posting to "instructors only". Unless we are able to answer a question very quickly, it is likely we will redirect you to office hours in any case. 
 
 # Feedback
 
