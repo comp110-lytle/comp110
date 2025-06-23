@@ -25,7 +25,50 @@
             }
         }
     ],
-    "2025-06-24": [],
+    "2025-06-24": [
+        {
+            "kind": "CL",
+            "n": 1,
+            "title": "Objects and Data Types",
+            "date": "2025-06-24",
+            "deadline": "None",
+            "links": {
+                "Running a Program (Video)": "https://youtu.be/M1FeIzICA9A",
+                "Objects and Data Types (Video)": "https://www.youtube.com/watch?v=6GxkRgIze-c",
+                "Object and Data Types (Lecture Notes)": "/lessons/objects_data_types.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 1,
+            "title": "Running A Program (Due Tuesday 6/24)",
+            "date": "2025-06-24",
+            "deadline": "2025-06-24",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Objects and Data Types (Due Tuesday 6/24)",
+            "date": "2025-06-24",
+            "deadline": "2025-06-24",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 0,
+            "title": "Hello World (Due Friday 6/27)",
+            "date": "2025-06-24",
+            "deadline": "2025-06-27",
+            "links": {
+                "": "/exercises/ex00_hello_world.html"
+            }
+        }
+    ],
     "2025-06-25": [],
     "2025-06-26": [],
     "2025-06-27": [
