@@ -109,7 +109,7 @@ If, and only if, you take all quizzes and your final examination score exceeds y
 
 ## Quiz Absence Policy
 
-The quizzes will be held during the section you are registered for and are synchronous and in-person. These dates, and the final exam date, are required synchronous dates.
+<!-- The quizzes will be held during the section you are registered for and are synchronous and in-person. These dates, and the final exam date, are required synchronous dates. -->
 
 You may be absent for up to one quiz. 
 
