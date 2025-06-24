@@ -63,10 +63,10 @@ template: home
 <div class="date col-md-2">Wed, Jun 25</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL02 </span><span class="title">Expressions, Functions, and Memory Diagrams</span>
-<ul class="links"><li class="link"><a href="/">Expressions Video</a></li>
-<li class="link"><a href="/">Functions Video</a></li>
-<li class="link"><a href="/">Memory Diagrams Video</a></li>
-<li class="link"><a href="/">Slides</a></li>
+<ul class="links"><li class="link"><a href="https://youtu.be/a9ervj3kVNo">Expressions Video</a></li>
+<li class="link"><a href="https://youtu.be/BIZA0clx5Zs">Functions Video</a></li>
+<li class="link"><a href="https://youtu.be/HWMnlbt_4is">Memory Diagrams Video</a></li>
+<li class="link"><a href="/static/slides/CL02.pdf">Slides</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Wednesday 6/25)</a></span></div><div class="plan Lesson">
 <span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Functions (Due Wednesday 6/25)</a></span></div><div class="plan Challenge Question">

@@ -77,10 +77,10 @@
             "date": "2025-06-25",
             "deadline": "None",
             "links": {
-                "Expressions Video": "/",
-                "Functions Video": "/",
-                "Memory Diagrams Video": "/",
-                "Slides": "/"
+                "Expressions Video": "https://youtu.be/a9ervj3kVNo",
+                "Functions Video": "https://youtu.be/BIZA0clx5Zs",
+                "Memory Diagrams Video": "https://youtu.be/HWMnlbt_4is",
+                "Slides": "/static/slides/CL02.pdf"
             }
         },
         {
