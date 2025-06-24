@@ -69,8 +69,63 @@
             }
         }
     ],
-    "2025-06-25": [],
-    "2025-06-26": [],
+    "2025-06-25": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Expressions, Functions, and Memory Diagrams",
+            "date": "2025-06-25",
+            "deadline": "None",
+            "links": {
+                "Expressions Video": "/",
+                "Functions Video": "/",
+                "Memory Diagrams Video": "/",
+                "Slides": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Expressions (Due Wednesday 6/25)",
+            "date": "2025-06-25",
+            "deadline": "2025-06-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 4,
+            "title": "Functions (Due Wednesday 6/25)",
+            "date": "2025-06-25",
+            "deadline": "2025-06-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Memory Diagrams Practice (Due Wednesday 6/25)",
+            "date": "2025-06-25",
+            "deadline": "2025-06-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-06-26": [
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Writing Functions (Due Thursday 6/26)",
+            "date": "2025-06-26",
+            "deadline": "2025-06-26",
+            "links": {
+                "": "/cqs/CQ00-functions.html"
+            }
+        }
+    ],
     "2025-06-27": [
         {
             "kind": "QZ",
