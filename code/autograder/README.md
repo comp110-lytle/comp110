@@ -6,7 +6,7 @@ For a more detailed guide, check out [Vrinda's Documentation](https://docs.googl
 
 Check if your version of python is >= 3.8 by running the shell commands `python --version` or `python3 --version`.
 
-Make the `team11/code/autograder` directory your current working directory. 
+Make the `/code/autograder` directory your current working directory. 
 
 Update PIP and install the library packages with the commands
 
@@ -17,7 +17,7 @@ python -m pip install -U pip
 python -m pip install -r requirements.txt
 ```
 
-Then use the command 
+
 
 Required packages include:
 - `pytest` for unit testing

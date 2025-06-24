@@ -77,16 +77,20 @@ In-person Office Hours will be in Sitterson Hall (SN) 008. You can find Sitterso
 
 ## Virtual Office Hours Schedule
 
-Virtual Office Hours will be offered via Zoom through [this link](https://unc.zoom.us/j/95014820897). Once you click on the Zoom link, you'll enter the waiting room. As soon as a TA becomes available, they will admit you to the Zoom room.
+Virtual Office Hours will be offered via Zoom.
 
-*Times TBD*
+To join office hours, you will create your own Zoom meeting and send the link for the TA to join! 
 
-<!-- * _Monday: 3:00 - 7:00 PM_
-* _Tuesday: 3:00 - 7:00 PM_
-* _Wednesday: 3:00 - 7:00 PM_
-* _Thursday: 3:00 - 7:00 PM_
-* _Friday: 3:00 - 5:00 PM_
-* _Sunday: 1:00 - 5:00 PM_ -->
+Go to [EdStem](https://edstem.org/) and select "chat" (under the "new thread" button in the top left). Then select the "#office-hours" channel and post your Zoom link in the chat! 
+
+
+### Office Hours Times
+
+* _Monday: 12:00 - 2:00 PM_
+* _Tuesday: 9:00 AM - 12:00 PM_
+* _Wednesday: 9:00 - 11:00 AM, 5:00 - 7:00 PM_
+* _Thursday: 11:00 AM - 2:00 PM, 5:00 - 8:00 PM_
+
 
 <!-- ## In-Person Tutoring Schedule
 
