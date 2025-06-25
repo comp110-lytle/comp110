@@ -133,7 +133,9 @@
             "title": "Quiz 0",
             "date": "2025-06-27",
             "deadline": "2025-06-27",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html"
+            }
         }
     ],
     "2025-06-28": [],

@@ -24,14 +24,14 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Functions](/resources/practice/functions/conceptual.html)
 - [Signature Writing](/resources/practice/functions/signature-writing.html)
 
-## Quiz 01
+<!-- ## Quiz 01
 
 - [Conditionals and While Loops](/resources/practice/conditionals-while.html)
 - [Boolean Expressions](/resources/practice/boolean-expressions.html)
 - [While Loops](/resources/practice/while-loops.html)
 - [While Loops + Functions](/resources/practice/while-loops-functions.html)
 <!-- - [Function Writing: while loops *(to-do)*](/resources/practice/function-writing.html) -->
-
+<!-- 
 ## Quiz 02
 
 - [Scope](/resources/practice/scope.html)
@@ -53,4 +53,4 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Class Writing](/resources/practice/class-writing.html)
 - [Recursive Functions](/resources/practice/recursive-functions.html)
 - [Recursive Structures](/resources/practice/recursive-structures.html)
-<!-- - [Magic Methods *(to-do)*](/resources/practice/unit-tests.html) -->
+- [Magic Methods *(to-do)*](/resources/practice/unit-tests.html) --> 

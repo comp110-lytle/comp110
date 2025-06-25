@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS01 - TUE, JUN 24 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS02 - TUE, JUN 24 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - WED, JUN 25 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS04 - WED, JUN 25 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">CQ00 - WED, JUN 25 11:59pm</a></li><li class="horizon-item"><a href="/cqs/CQ00-functions.html">CQ01 - THU, JUN 26 11:59pm</a></li><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - FRI, JUN 27 11:59pm</a></li><li class="horizon-item"><span>QZ00 - FRI, JUN 27 11:59pm</span></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - WED, JUN 25 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS04 - WED, JUN 25 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">CQ00 - WED, JUN 25 11:59pm</a></li><li class="horizon-item"><a href="/cqs/CQ00-functions.html">CQ01 - THU, JUN 26 11:59pm</a></li><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - FRI, JUN 27 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ00 - FRI, JUN 27 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -78,7 +78,9 @@ template: home
 </div><div data-type="lecture" data-date="2025-06-27" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jun 27</div>
 <div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ00 </span><span class="title">Quiz 0</span></div></div>
+<span class="kind">QZ00 </span><span class="title">Quiz 0</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2025-07-03" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jul 3</div>
 <div class="plans col-md-9"><div class="plan Quiz">
