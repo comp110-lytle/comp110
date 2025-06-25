@@ -134,7 +134,8 @@
             "date": "2025-06-27",
             "deadline": "2025-06-27",
             "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html"
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
             }
         }
     ],

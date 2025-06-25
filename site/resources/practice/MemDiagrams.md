@@ -20,7 +20,7 @@ template: overview
 [Example 3](/resources/practice/memory-diagrams/functions/cookies.html) |
 [Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html) 
 
-## While Loops 
+<!-- ## While Loops 
 
 [Example 0](/resources/practice/memory-diagrams/while/while-prime.html) |
 [Example 1](/resources/practice/memory-diagrams/while/digits-in-string.html)  |
@@ -46,10 +46,10 @@ template: overview
 ## While loops (no functions)
 [Example 0](/resources/practice/memory-diagrams/while/while-00.html) |
 [Example 1](/resources/practice/memory-diagrams/while/while-01.html) |
-[Example 2](/resources/practice/memory-diagrams/while/while-02.html) 
+[Example 2](/resources/practice/memory-diagrams/while/while-02.html)  -->
 
 
-
+<!-- OLD -->
 <!-- ## bool Operators
 
 ## f-strings

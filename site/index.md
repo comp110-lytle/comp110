@@ -80,6 +80,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2025-07-03" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jul 3</div>
