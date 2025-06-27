@@ -141,7 +141,40 @@
     ],
     "2025-06-28": [],
     "2025-06-29": [],
-    "2025-06-30": [],
+    "2025-06-30": [
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Boolean Expressions and Conditionals",
+            "date": "2025-06-30",
+            "deadline": "None",
+            "links": {
+                "Boolean Expressions Video": "https://www.youtube.com/watch?v=tmmSlIq9I_0",
+                "Conditionals Video": "",
+                "Slides": "/static/slides/CL03.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Boolean Expressions (Due Monday 6/30)",
+            "date": "2025-06-30",
+            "deadline": "2025-06-30",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Conditionals (Due Monday 6/30)",
+            "date": "2025-06-30",
+            "deadline": "2025-06-30",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-07-01": [],
     "2025-07-02": [],
     "2025-07-03": [

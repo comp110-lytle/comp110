@@ -1,1 +1,72 @@
-{}
+{
+    "2025-06-23": [
+        {
+            "kind": "CL",
+            "n": 0,
+            "title": "Welcome to COMP110",
+            "date": "2025-06-23",
+            "deadline": "None",
+            "links": {
+                "Welcome Video": "https://youtu.be/3qqaCsEVzng",
+                "Welcome Slides": "/static/slides/CL00.pdf",
+                "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
+                "Setup Part 1: Install Needed Software": "/resources/setup/software.html",
+                "Setup Part 2: Setup your Workspace": "/resources/setup/workspace.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 0,
+            "title": "Syllabus (Due Monday 6/23)",
+            "date": "2025-06-23",
+            "deadline": "2025-06-23",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-06-24": [
+        {
+            "kind": "CL",
+            "n": 1,
+            "title": "Objects and Data Types",
+            "date": "2025-06-24",
+            "deadline": "None",
+            "links": {
+                "Running a Program (Video)": "https://youtu.be/M1FeIzICA9A",
+                "Objects and Data Types (Video)": "https://www.youtube.com/watch?v=6GxkRgIze-c",
+                "Object and Data Types (Lecture Notes)": "/lessons/objects_data_types.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 1,
+            "title": "Running A Program (Due Tuesday 6/24)",
+            "date": "2025-06-24",
+            "deadline": "2025-06-24",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Objects and Data Types (Due Tuesday 6/24)",
+            "date": "2025-06-24",
+            "deadline": "2025-06-24",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 0,
+            "title": "Hello World (Due Friday 6/27)",
+            "date": "2025-06-24",
+            "deadline": "2025-06-27",
+            "links": {
+                "": "/exercises/ex00_hello_world.html"
+            }
+        }
+    ]
+}
