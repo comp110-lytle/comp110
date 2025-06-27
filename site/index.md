@@ -65,7 +65,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL03 </span><span class="title">Boolean Expressions and Conditionals</span>
 <ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=tmmSlIq9I_0">Boolean Expressions Video</a></li>
-<li class="link">Conditionals Video</li>
+<li class="link"><a href="https://youtu.be/omtIjdWHpoQ">Conditionals Video</a></li>
 <li class="link"><a href="/static/slides/CL03.pdf">Slides</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">Boolean Expressions (Due Monday 6/30)</a></span></div><div class="plan Lesson">
