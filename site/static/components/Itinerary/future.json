@@ -69,7 +69,18 @@
             }
         }
     ],
-    "2025-07-02": [],
+    "2025-07-02": [
+        {
+            "kind": "CQ",
+            "n": 2,
+            "title": "Recursion Practice (Due Wednesday 7/2)",
+            "date": "2025-07-02",
+            "deadline": "2025-07-02",
+            "links": {
+                "": "/cqs/recursive-fns.html"
+            }
+        }
+    ],
     "2025-07-03": [
         {
             "kind": "QZ",
@@ -77,7 +88,10 @@
             "title": "Quiz 1",
             "date": "2025-07-03",
             "deadline": "2025-07-03",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
+            }
         }
     ],
     "2025-07-04": [],
