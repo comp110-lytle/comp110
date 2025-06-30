@@ -118,7 +118,7 @@ print(reverse_string(""))
 </div>
 </pre>
 
-8. Write a function, `factorial_list`, that takes a list of non-negative integers and returns a new list where each element is the factorial of the corresponding element in the input list. Below is an example usage of this function. [Solution](#question8)
+<!-- 8. Write a function, `factorial_list`, that takes a list of non-negative integers and returns a new list where each element is the factorial of the corresponding element in the input list. Below is an example usage of this function. [Solution](#question8)
 
 <pre>
 <div class="terminal">
@@ -181,7 +181,7 @@ The recursive approach should:
 >>> print(binary_search(arr, 4, 0, len(arr) - 1))
 -1
 </div>
-</pre>
+</pre> -->
 
 # Solutions 
 
@@ -279,7 +279,7 @@ print(fibonacci(5))  # Output: 5 (0, 1, 1, 2, 3, 5)
 print(fibonacci(0))  # Output: 0 (base case)
 print(fibonacci(6))  # Output: 8 (0, 1, 1, 2, 3, 5, 8)
 ```
-
+<!-- 
 ##### 8. Code below: {#question8}
 
 ```python
@@ -334,4 +334,4 @@ def binary_search(arr, target, low, high):
 arr = [1, 3, 5, 7, 9, 11]
 print(binary_search(arr, 7, 0, len(arr) - 1))  # Output: 3 (index of 7)
 print(binary_search(arr, 4, 0, len(arr) - 1))  # Output: -1 (not found)
-```
+``` -->

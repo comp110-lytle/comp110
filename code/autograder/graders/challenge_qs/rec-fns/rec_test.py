@@ -1,4 +1,4 @@
-"""Tests for CQ05 - dicts Practice."""
+"""Tests for CQ on recursion."""
 
 __author__ = "Alyssa Lytle <abyrnes1@cs.unc.edu>"
 
