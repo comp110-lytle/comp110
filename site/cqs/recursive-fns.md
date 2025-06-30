@@ -52,13 +52,13 @@ This will help you find out your *recursive definition* and you can use that to 
 
 ## Writing the Function
 
-Inside your `CQs` folder, create a file called `cq11_recursion.py`. Use that file to define `f`.
+Inside your `CQs` folder, create a file called `cq02_recursion.py`. Use that file to define `f`.
 
 Your function should result in the following functionality:
 
 <pre>
 <div class="terminal">
->>> from CQs.cq11_recursion import f
+>>> from CQs.cq02_recursion import f
 >>> f(2,2)
 4
 >>> f(3,4)
@@ -72,4 +72,4 @@ Your function should result in the following functionality:
 
 Create a submission by running: 
 
-`python -m tools.submission CQs/cq11_recursion.py`
+`python -m tools.submission CQs/cq02_recursion.py`
