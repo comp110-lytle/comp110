@@ -24,10 +24,16 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Functions](/resources/practice/functions/conceptual.html)
 - [Signature Writing](/resources/practice/functions/signature-writing.html)
 
-<!-- ## Quiz 01
 
-- [Conditionals and While Loops](/resources/practice/conditionals-while.html)
+## Quiz 01
 - [Boolean Expressions](/resources/practice/boolean-expressions.html)
+- [Conditionals](/resources/practice/conditionals.html)
+- [Recursive Functions](/resources/practice/recursive-functions.html)
+
+
+<!-- 
+- [Conditionals and While Loops](/resources/practice/conditionals-while.html)
+
 - [While Loops](/resources/practice/while-loops.html)
 - [While Loops + Functions](/resources/practice/while-loops-functions.html)
 <!-- - [Function Writing: while loops *(to-do)*](/resources/practice/function-writing.html) -->

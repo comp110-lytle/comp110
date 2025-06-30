@@ -55,7 +55,7 @@ template: overview
 ## While loops (no functions)
 [Example 0](/resources/practice/memory-diagrams/while/while-00.html) |
 [Example 1](/resources/practice/memory-diagrams/while/while-01.html) |
-[Example 2](/resources/practice/memory-diagrams/while/while-02.html)  --> -->
+[Example 2](/resources/practice/memory-diagrams/while/while-02.html)  --> 
 
 
 <!-- OLD -->

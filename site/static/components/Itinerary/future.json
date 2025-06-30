@@ -61,9 +61,9 @@
         {
             "kind": "EX",
             "n": 1,
-            "title": "Tea Party (Due Friday 7/4)",
+            "title": "Tea Party (Due Thursday 7/3)",
             "date": "2025-07-01",
-            "deadline": "2025-07-04",
+            "deadline": "2025-07-03",
             "links": {
                 "": "/exercises/tea-party.html"
             }
