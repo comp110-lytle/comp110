@@ -175,7 +175,40 @@
             }
         }
     ],
-    "2025-07-01": [],
+    "2025-07-01": [
+        {
+            "kind": "CL",
+            "n": 4,
+            "title": "Recursion",
+            "date": "2025-07-01",
+            "deadline": "None",
+            "links": {
+                "Recursion Pt. 1": "https://www.youtube.com/watch?v=5mVmXIrG5ec",
+                "Recursion Pt. 2": "https://www.youtube.com/watch?v=lWwCoD9EV9g",
+                "Slides": "/static/slides/CL04.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Recursion (Due Tuesday 7/1)",
+            "date": "2025-07-01",
+            "deadline": "2025-07-01",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 1,
+            "title": "Tea Party (Due Friday 7/4)",
+            "date": "2025-07-01",
+            "deadline": "2025-07-04",
+            "links": {
+                "": "/exercises/tea-party.html"
+            }
+        }
+    ],
     "2025-07-02": [],
     "2025-07-03": [
         {

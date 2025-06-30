@@ -68,5 +68,75 @@
                 "": "/exercises/ex00_hello_world.html"
             }
         }
+    ],
+    "2025-06-25": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Expressions, Functions, and Memory Diagrams",
+            "date": "2025-06-25",
+            "deadline": "None",
+            "links": {
+                "Expressions Video": "https://youtu.be/a9ervj3kVNo",
+                "Functions Video": "https://youtu.be/BIZA0clx5Zs",
+                "Memory Diagrams Video": "https://youtu.be/HWMnlbt_4is",
+                "Slides": "/static/slides/CL02.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Expressions (Due Wednesday 6/25)",
+            "date": "2025-06-25",
+            "deadline": "2025-06-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 4,
+            "title": "Functions (Due Wednesday 6/25)",
+            "date": "2025-06-25",
+            "deadline": "2025-06-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Memory Diagrams Practice (Due Wednesday 6/25)",
+            "date": "2025-06-25",
+            "deadline": "2025-06-25",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-06-26": [
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Writing Functions (Due Thursday 6/26)",
+            "date": "2025-06-26",
+            "deadline": "2025-06-26",
+            "links": {
+                "": "/cqs/CQ00-functions.html"
+            }
+        }
+    ],
+    "2025-06-27": [
+        {
+            "kind": "QZ",
+            "n": 0,
+            "title": "Quiz 0",
+            "date": "2025-06-27",
+            "deadline": "2025-06-27",
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
+            }
+        }
     ]
 }

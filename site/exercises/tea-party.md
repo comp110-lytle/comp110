@@ -189,7 +189,7 @@ In VSCode, open a new integrated Terminal with `Ctrl+Shift+\``, or going to the 
 python -m tools.submission exercises/ex01_tea_party.py
 ```
 
-You will notice a file appeared in your workspace named `24.mm.dd-hh.mm.ss-ex01_tea_party.py.zip`. You will see numbers for the current day of the month in place of `dd`, 24-hour digits in place of `hh`, minutes in place of `mm`, and so on. This "zip" file contains your work and is what you will submit to the autograder.
+You will notice a file appeared in your workspace named `25.mm.dd-hh.mm.ss-ex01_tea_party.py.zip`. You will see numbers for the current day of the month in place of `dd`, 24-hour digits in place of `hh`, minutes in place of `mm`, and so on. This "zip" file contains your work and is what you will submit to the autograder.
 
 In Gradescope, open assignment "EX01 - Tea Party Planner". You should see an area to upload a zip file. Click this area and browse to your course's workspace directory on your computer. You should see the zip file you just created. Select it and upload it to Gradescope. Autograding should complete within about a minute and you should see a score of 100%, or more if you are submitting early. If you see less than 100%, try to understand the feedback and the points that were taken off and resubmit. If you are still having trouble, please come see us in office hours!
 
