@@ -20,6 +20,15 @@ template: overview
 [Example 3](/resources/practice/memory-diagrams/functions/cookies.html) |
 [Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html) 
 
+
+
+## Recursion
+[Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
+[Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
+[Example 2](/resources/practice/memory-diagrams/recursion/pow.html)
+
+
+
 <!-- ## While Loops 
 
 [Example 0](/resources/practice/memory-diagrams/while/while-prime.html) |
@@ -29,7 +38,7 @@ template: overview
 [Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html)  -->
 
 
-
+<!-- 
 ## Global Variable Basics
 [Example 0](/resources/practice/memory-diagrams/basic/basic-00.html) | 
 [Example 1](/resources/practice/memory-diagrams/basic/basic-01.html) | 
@@ -46,7 +55,7 @@ template: overview
 ## While loops (no functions)
 [Example 0](/resources/practice/memory-diagrams/while/while-00.html) |
 [Example 1](/resources/practice/memory-diagrams/while/while-01.html) |
-[Example 2](/resources/practice/memory-diagrams/while/while-02.html)  -->
+[Example 2](/resources/practice/memory-diagrams/while/while-02.html)  --> -->
 
 
 <!-- OLD -->
@@ -65,23 +74,23 @@ template: overview
 [Example 3](/resources/practice/memory-diagrams/functions/func-01.html) -->
 
 
-
+<!-- 
 ## Lists 
 [Example 0](/resources/practice/memory-diagrams/lists/lists-01.html) |
 [Example 1](/resources/practice/memory-diagrams/lists/references.html) |
 [Example 2](/resources/practice/memory-diagrams/lists/lists-00.html) |
 [Example 3](/resources/practice/memory-diagrams/lists/change-and-check.html) |
-[Example 4](/resources/practice/memory-diagrams/lists/apply_discount.html)
+[Example 4](/resources/practice/memory-diagrams/lists/apply_discount.html) -->
 
-
+<!-- 
 ## Dictionaries
 
 [Example 0](/resources/practice/memory-diagrams/dicts/dicts-00.html) |
 [Example 1](/resources/practice/memory-diagrams/dicts/dicts-01.html) |
 [Example 2](/resources/practice/memory-diagrams/dicts/lineups.html) |
-[Example 3](/resources/practice/memory-diagrams/nested-structures/inventory.html) 
+[Example 3](/resources/practice/memory-diagrams/nested-structures/inventory.html)  -->
 <!-- [Example 3](/resources/practice/memory-diagrams/dicts/todo-list.html) -->
-
+<!-- 
 ## OOP 
 
 [Example 0](/resources/practice/memory-diagrams/oop/tweets.html) | 
@@ -98,16 +107,11 @@ template: overview
 [Example 0](/resources/practice/memory-diagrams/nested-structures/data.html) |
 [Example 1](/resources/practice/memory-diagrams/nested-structures/nested.html) |
 
-## Recursion
-[Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
-[Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
-[Example 2](/resources/practice/memory-diagrams/recursion/pow.html)
-
-## Recursive Structures
+## Recursive Structures -->
 
 <!-- [Example 0](/resources/practice/memory-diagrams/recursion/list-len.html) with arrows -- modify  -->
-[Example 0](/resources/practice/memory-diagrams/recursion/double_list_vals.html) |
+<!-- [Example 0](/resources/practice/memory-diagrams/recursion/double_list_vals.html) |
 [Example 1](/resources/practice/memory-diagrams/recursion/increment_values.html) |
 [Example 2](/resources/practice/memory-diagrams/recursion/remove_all_occurrences.html) |
 [Example 3](/resources/practice/memory-diagrams/recursion/reverse_list_with_twist.html) |
-[Example 4](/resources/practice/memory-diagrams/recursion/sum_of_digits.html)
+[Example 4](/resources/practice/memory-diagrams/recursion/sum_of_digits.html) -->
