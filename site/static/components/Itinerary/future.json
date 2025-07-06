@@ -1,103 +1,40 @@
 {
-    "2025-06-28": [],
-    "2025-06-29": [],
-    "2025-06-30": [
+    "2025-07-04": [],
+    "2025-07-05": [],
+    "2025-07-06": [],
+    "2025-07-07": [
         {
             "kind": "CL",
-            "n": 3,
-            "title": "Boolean Expressions and Conditionals",
-            "date": "2025-06-30",
-            "deadline": "None",
-            "links": {
-                "Boolean Expressions Video": "https://www.youtube.com/watch?v=tmmSlIq9I_0",
-                "Conditionals Video": "https://youtu.be/omtIjdWHpoQ",
-                "Slides": "/static/slides/CL03.pdf"
-            }
-        },
-        {
-            "kind": "LS",
             "n": 5,
-            "title": "Boolean Expressions (Due Monday 6/30)",
-            "date": "2025-06-30",
-            "deadline": "2025-06-30",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 6,
-            "title": "Conditionals (Due Monday 6/30)",
-            "date": "2025-06-30",
-            "deadline": "2025-06-30",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-07-01": [
-        {
-            "kind": "CL",
-            "n": 4,
-            "title": "Recursion",
-            "date": "2025-07-01",
+            "title": "User Input, Local Variables, and elif",
+            "date": "2025-07-07",
             "deadline": "None",
             "links": {
-                "Recursion Pt. 1": "https://www.youtube.com/watch?v=5mVmXIrG5ec",
-                "Recursion Pt. 2": "https://www.youtube.com/watch?v=lWwCoD9EV9g",
-                "Slides": "/static/slides/CL04.pdf"
+                "Video": "https://youtu.be/eRHLEucuLt4",
+                "Slides": "/"
             }
         },
         {
             "kind": "LS",
-            "n": 7,
-            "title": "Recursion (Due Tuesday 7/1)",
-            "date": "2025-07-01",
-            "deadline": "2025-07-01",
+            "n": 8,
+            "title": "Variables and elif Statments (Due Monday 7/7)",
+            "date": "2025-07-07",
+            "deadline": "2025-07-07",
             "links": {
                 "": "https://www.gradescope.com/"
             }
         },
         {
             "kind": "EX",
-            "n": 1,
-            "title": "Tea Party (Due Thursday 7/3)",
-            "date": "2025-07-01",
-            "deadline": "2025-07-03",
-            "links": {
-                "": "/exercises/tea-party.html"
-            }
-        }
-    ],
-    "2025-07-02": [
-        {
-            "kind": "CQ",
             "n": 2,
-            "title": "Recursion Practice (Due Wednesday 7/2)",
-            "date": "2025-07-02",
-            "deadline": "2025-07-02",
+            "title": "Wordle (Due Thursday 7/10)",
+            "date": "2025-07-07",
+            "deadline": "2025-07-10",
             "links": {
-                "": "/cqs/recursive-fns.html"
+                "": "/"
             }
         }
     ],
-    "2025-07-03": [
-        {
-            "kind": "QZ",
-            "n": 1,
-            "title": "Quiz 1",
-            "date": "2025-07-03",
-            "deadline": "2025-07-03",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
-            }
-        }
-    ],
-    "2025-07-04": [],
-    "2025-07-05": [],
-    "2025-07-06": [],
-    "2025-07-07": [],
     "2025-07-08": [],
     "2025-07-09": [],
     "2025-07-10": [],

@@ -8,7 +8,7 @@ from pytest import mark
 from graders.helpers import assert_parameter_list, author_is_a_valid_pid, reimport_module
 from graders.helpers import assert_return_type
 
-MODULE = "lessons.recursion"
+MODULE = "CQs.cq02_recursion"
 
 def try_reimport(mod_name):
     try:

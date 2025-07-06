@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS05 - MON, JUN 30 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS06 - MON, JUN 30 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS07 - TUE, JUL 01 11:59pm</a></li><li class="horizon-item"><a href="/cqs/recursive-fns.html">CQ02 - WED, JUL 02 11:59pm</a></li><li class="horizon-item"><a href="/exercises/tea-party.html">EX01 - THU, JUL 03 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ01 - THU, JUL 03 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS08 - MON, JUL 07 11:59pm</a></li><li class="horizon-item"><a href="/">EX02 - THU, JUL 10 11:59pm</a></li><li class="horizon-item"><span>QZ02 - FRI, JUL 11 11:59pm</span></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,37 +37,15 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-06-30" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Jun 30</div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-07-07" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Jul 7</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL03 </span><span class="title">Boolean Expressions and Conditionals</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=tmmSlIq9I_0">Boolean Expressions Video</a></li>
-<li class="link"><a href="https://youtu.be/omtIjdWHpoQ">Conditionals Video</a></li>
-<li class="link"><a href="/static/slides/CL03.pdf">Slides</a></li>
+<span class="kind">CL05 </span><span class="title">User Input, Local Variables, and elif</span>
+<ul class="links"><li class="link"><a href="https://youtu.be/eRHLEucuLt4">Video</a></li>
+<li class="link"><a href="/">Slides</a></li>
 </ul></div><div class="plan Lesson">
-<span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">Boolean Expressions (Due Monday 6/30)</a></span></div><div class="plan Lesson">
-<span class="kind">LS06 </span><span class="title"><a href="https://www.gradescope.com/">Conditionals (Due Monday 6/30)</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-07-01" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Jul 1</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL04 </span><span class="title">Recursion</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=5mVmXIrG5ec">Recursion Pt. 1</a></li>
-<li class="link"><a href="https://www.youtube.com/watch?v=lWwCoD9EV9g">Recursion Pt. 2</a></li>
-<li class="link"><a href="/static/slides/CL04.pdf">Slides</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS07 </span><span class="title"><a href="https://www.gradescope.com/">Recursion (Due Tuesday 7/1)</a></span></div><div class="plan Exercise">
-<span class="kind">EX01 </span><span class="title"><a href="/exercises/tea-party.html">Tea Party (Due Thursday 7/3)</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-07-02" class="row itinerary-row py-2">
-<div class="date col-md-2">Wed, Jul 2</div>
-<div class="plans col-md-9"><div class="plan Challenge Question">
-<span class="kind">CQ02 </span><span class="title"><a href="/cqs/recursive-fns.html">Recursion Practice (Due Wednesday 7/2)</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-07-03" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Jul 3</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ01 </span><span class="title">Quiz 1</span>
-<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
-<li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
-</ul></div></div>
+<span class="kind">LS08 </span><span class="title"><a href="https://www.gradescope.com/">Variables and elif Statments (Due Monday 7/7)</a></span></div><div class="plan Exercise">
+<span class="kind">EX02 </span><span class="title"><a href="/">Wordle (Due Thursday 7/10)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-07-11" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jul 11</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -82,7 +60,38 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-06-27" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-07-03" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Jul 3</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ01 </span><span class="title">Quiz 1</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2025-07-02" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Jul 2</div>
+<div class="plans col-md-9"><div class="plan Challenge Question">
+<span class="kind">CQ02 </span><span class="title"><a href="/cqs/recursive-fns.html">Recursion Practice (Due Wednesday 7/2)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-07-01" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Jul 1</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL04 </span><span class="title">Recursion</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=5mVmXIrG5ec">Recursion Pt. 1</a></li>
+<li class="link"><a href="https://www.youtube.com/watch?v=lWwCoD9EV9g">Recursion Pt. 2</a></li>
+<li class="link"><a href="/static/slides/CL04.pdf">Slides</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS07 </span><span class="title"><a href="https://www.gradescope.com/">Recursion (Due Tuesday 7/1)</a></span></div><div class="plan Exercise">
+<span class="kind">EX01 </span><span class="title"><a href="/exercises/tea-party.html">Tea Party (Due Thursday 7/3)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-06-30" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Jun 30</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL03 </span><span class="title">Boolean Expressions and Conditionals</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=tmmSlIq9I_0">Boolean Expressions Video</a></li>
+<li class="link"><a href="https://youtu.be/omtIjdWHpoQ">Conditionals Video</a></li>
+<li class="link"><a href="/static/slides/CL03.pdf">Slides</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">Boolean Expressions (Due Monday 6/30)</a></span></div><div class="plan Lesson">
+<span class="kind">LS06 </span><span class="title"><a href="https://www.gradescope.com/">Conditionals (Due Monday 6/30)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-06-27" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jun 27</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span>

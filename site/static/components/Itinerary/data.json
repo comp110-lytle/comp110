@@ -237,7 +237,39 @@
     "2025-07-04": [],
     "2025-07-05": [],
     "2025-07-06": [],
-    "2025-07-07": [],
+    "2025-07-07": [
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "User Input, Local Variables, and elif",
+            "date": "2025-07-07",
+            "deadline": "None",
+            "links": {
+                "Video": "https://youtu.be/eRHLEucuLt4",
+                "Slides": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Variables and elif Statments (Due Monday 7/7)",
+            "date": "2025-07-07",
+            "deadline": "2025-07-07",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "Wordle (Due Thursday 7/10)",
+            "date": "2025-07-07",
+            "deadline": "2025-07-10",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2025-07-08": [],
     "2025-07-09": [],
     "2025-07-10": [],
