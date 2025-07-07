@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS08 - MON, JUL 07 11:59pm</a></li><li class="horizon-item"><a href="/exercises/wordle.html">EX02 - THU, JUL 10 11:59pm</a></li><li class="horizon-item"><span>QZ02 - FRI, JUL 11 11:59pm</span></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS08 - MON, JUL 07 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS09 - TUE, JUL 08 11:59pm</a></li><li class="horizon-item"><a href="/cqs/while-loops.html">CQ03 - TUE, JUL 08 11:59pm</a></li><li class="horizon-item"><a href="/exercises/wordle.html">EX02 - THU, JUL 10 11:59pm</a></li><li class="horizon-item"><span>QZ02 - FRI, JUL 11 11:59pm</span></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -42,10 +42,20 @@ template: home
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL05 </span><span class="title">User Input, Local Variables, and elif</span>
 <ul class="links"><li class="link"><a href="https://youtu.be/eRHLEucuLt4">Video</a></li>
-<li class="link"><a href="/">Slides</a></li>
+<li class="link"><a href="/static/slides/CL05.pdf">Slides</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS08 </span><span class="title"><a href="https://www.gradescope.com/">Variables and elif Statments (Due Monday 7/7)</a></span></div><div class="plan Exercise">
 <span class="kind">EX02 </span><span class="title"><a href="/exercises/wordle.html">Wordle (Due Thursday 7/10)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-07-08" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Jul 8</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL06 </span><span class="title">While Loops + Diagrams Practice</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=iiksOU66xSw">While Loops Video</a></li>
+<li class="link"><a href="/">Memory Diagrams Video</a></li>
+<li class="link"><a href="/static/slides/CL06.pdf">Slides</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS09 </span><span class="title"><a href="https://www.gradescope.com/">While Loops (Due Tuesday 7/8)</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ03 </span><span class="title"><a href="/cqs/while-loops.html">While Loops Practice (Due Tuesday 7/8)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-07-11" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jul 11</div>
 <div class="plans col-md-9"><div class="plan Quiz">

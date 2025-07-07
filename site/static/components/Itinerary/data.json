@@ -246,7 +246,7 @@
             "deadline": "None",
             "links": {
                 "Video": "https://youtu.be/eRHLEucuLt4",
-                "Slides": "/"
+                "Slides": "/static/slides/CL05.pdf"
             }
         },
         {
@@ -270,7 +270,40 @@
             }
         }
     ],
-    "2025-07-08": [],
+    "2025-07-08": [
+        {
+            "kind": "CL",
+            "n": 6,
+            "title": "While Loops + Diagrams Practice",
+            "date": "2025-07-08",
+            "deadline": "None",
+            "links": {
+                "While Loops Video": "https://www.youtube.com/watch?v=iiksOU66xSw",
+                "Memory Diagrams Video": "/",
+                "Slides": "/static/slides/CL06.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "While Loops (Due Tuesday 7/8)",
+            "date": "2025-07-08",
+            "deadline": "2025-07-08",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 3,
+            "title": "While Loops Practice (Due Tuesday 7/8)",
+            "date": "2025-07-08",
+            "deadline": "2025-07-08",
+            "links": {
+                "": "/cqs/while-loops.html"
+            }
+        }
+    ],
     "2025-07-09": [],
     "2025-07-10": [],
     "2025-07-11": [
