@@ -1,5 +1,5 @@
 ---
-title: EX04 - list Utility Functions
+title: EX03 - list Utility Functions
 author:
   - Kris Jordan
   - Marlee Walls
@@ -50,19 +50,19 @@ Open the Explorer pane (the icon with two sheets of paper or menu View > Explore
 
 Right click on the `exercises` directory and select "New File". Enter the following filename, being careful to match punctuation:
 
-`ex04_utils.py`
+`ex03_utils.py`
 
 Before beginning work on the program, you should add a docstring to the top of your Python module just as you have previously. Then, you should add a line with the special variable named **author** assigned to be a string with your 9-digit student PID.
 
 ## 1. `all` -- 20 Points
 
-This is the first function you will write in `ex04_utils.py`. The other two functions will also be defined in this file.
+This is the first function you will write in `ex03_utils.py`. The other two functions will also be defined in this file.
 
 Given a `list` of `ints` and an `int`, `all` should return a bool indicating whether or not all the ints in the list are the same as the given `int`. Example usage:
 
 <pre>
 <div class="terminal">
->>> from exercises.ex04_utils import all
+>>> from exercises.ex03_utils import all
 >>> all([1, 2, 3], 1)
 False
 >>> all([1, 1, 1], 2)
@@ -88,7 +88,7 @@ If the `list` is empty, `max` should result in a `ValueError`. We'll show you ho
 
 <pre>
 <div class="terminal">
->>> from exercises.ex04_utils import max
+>>> from exercises.ex03_utils import max
 >>> max([1, 3, 2])
 3
 >>> max([100, 99, 98])
@@ -118,7 +118,7 @@ Given two `list`s of `int` values, return `True` if _every_ element at _every_ i
 
 <pre>
 <div class="terminal">
->>> from exercises.ex04_utils import is_equal
+>>> from exercises.ex03_utils import is_equal
 >>> is_equal([1, 0, 1], [1, 0, 1])
 True
 >>> is_equal([1, 1, 0], [1, 0, 1])
@@ -147,7 +147,7 @@ Note that this function is not *returning* anything! It is only *mutating* one o
 
 <pre>
 <div class="terminal">
->>> from exercises.ex04_utils import extend
+>>> from exercises.ex03_utils import extend
 >>> a: list[int] = [1, 3, 5]
 >>> b: list[int] = [2, 4, 6]
 >>> extend(a, b)
@@ -195,14 +195,14 @@ As you make progress on this exercise, making backups is encouraged.
 
 ## 7. Submit to Gradescope for Grading
 
-Login to Gradescope and select the assignment named "EX04 - Lists Utils". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
+Login to Gradescope and select the assignment named "ex03 - Lists Utils". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
 
 If you _do not_ see a Terminal at the bottom of your screen, open the Command Palette and search for "View: Toggle Integrated Terminal".
 
 Type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex04_utils.py`
+`python -m tools.submission exercises/ex03_utils.py`
 
-In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex04-utils.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex03-utils.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
 Autograding will take a few moments to complete. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren't receiving full credit and aren't sure what to try next, come give us a visit in office hours!

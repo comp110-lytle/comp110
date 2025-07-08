@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS08 - MON, JUL 07 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS09 - TUE, JUL 08 11:59pm</a></li><li class="horizon-item"><a href="/cqs/while-loops.html">CQ03 - TUE, JUL 08 11:59pm</a></li><li class="horizon-item"><a href="/exercises/wordle.html">EX02 - THU, JUL 10 11:59pm</a></li><li class="horizon-item"><span>QZ02 - FRI, JUL 11 11:59pm</span></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS09 - TUE, JUL 08 11:59pm</a></li><li class="horizon-item"><a href="/cqs/while-loops.html">CQ03 - TUE, JUL 08 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS10 - WED, JUL 09 11:59pm</a></li><li class="horizon-item"><a href="/exercises/wordle.html">EX02 - THU, JUL 10 11:59pm</a></li><li class="horizon-item"><span>QZ02 - FRI, JUL 11 11:59pm</span></li><li class="horizon-item"><a href="/exercises/list-utils.html">EX03 - MON, JUL 14 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -56,10 +56,20 @@ template: home
 </ul></div><div class="plan Lesson">
 <span class="kind">LS09 </span><span class="title"><a href="https://www.gradescope.com/">While Loops (Due Tuesday 7/8)</a></span></div><div class="plan Challenge Question">
 <span class="kind">CQ03 </span><span class="title"><a href="/cqs/while-loops.html">While Loops Practice (Due Tuesday 7/8)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-07-09" class="row itinerary-row py-2">
+<div class="date col-md-2">Wed, Jul 9</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL07 </span><span class="title">Lists</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=U_GP3Jkz5lU">Lists Video</a></li>
+<li class="link"><a href="https://www.youtube.com/watch?v=WCvrVTUZ-Ac">Lists in Memory Video</a></li>
+<li class="link"><a href="/static/slides/CL06.pdf">Slides</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS10 </span><span class="title"><a href="https://www.gradescope.com/">Lists (Due Wednesday 7/9)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-07-11" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jul 11</div>
 <div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ02 </span><span class="title">Quiz 2</span></div></div>
+<span class="kind">QZ02 </span><span class="title">Quiz 2</span></div><div class="plan Exercise">
+<span class="kind">EX03 </span><span class="title"><a href="/exercises/list-utils.html">List Utility Functions (Due Monday 7/14)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-07-18" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jul 18</div>
 <div class="plans col-md-9"><div class="plan Quiz">
