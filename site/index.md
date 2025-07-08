@@ -51,7 +51,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL06 </span><span class="title">While Loops + Diagrams Practice</span>
 <ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=iiksOU66xSw">While Loops Video</a></li>
-<li class="link"><a href="/">Memory Diagrams Video</a></li>
+<li class="link"><a href="https://youtu.be/-IaBIsOxwOM">Memory Diagrams Video</a></li>
 <li class="link"><a href="/static/slides/CL06.pdf">Slides</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS09 </span><span class="title"><a href="https://www.gradescope.com/">While Loops (Due Tuesday 7/8)</a></span></div><div class="plan Challenge Question">
