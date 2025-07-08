@@ -115,9 +115,9 @@
         {
             "kind": "EX",
             "n": 3,
-            "title": "List Utility Functions (Due Monday 7/14)",
+            "title": "List Utility Functions (Due Wednesday 7/16)",
             "date": "2025-07-11",
-            "deadline": "2025-07-14",
+            "deadline": "2025-07-16",
             "links": {
                 "": "/exercises/list-utils.html"
             }
