@@ -1,5 +1,5 @@
 ---
-title: CQ05 - Lists Practice
+title: CQ04 - Lists Practice
 author:
   - Alyssa Lytle
 page: lessons
@@ -42,7 +42,7 @@ For this challenge question, you are going to practice writing a function that *
 
 ## Part 0. Setup
 
-Start by opening your workspace in Visual Studio. Right click on the "CQs" folder and select "add file". Your file will be named `cq05_lists.py`.
+Start by opening your workspace in Visual Studio. Right click on the "CQs" folder and select "add file". Your file will be named `cq04_lists.py`.
 
 Set up your document by adding the docstring:
 `"""Mutating functions."""` and initializing the `__author__` variable with your PID.
@@ -59,7 +59,7 @@ Write a function definition with the following expectations:
 Example usage:
 <pre>
 <div class="terminal">>>> a: list[int] = [1,2,3]
->>> from CQS.cq05_lists import manual_append
+>>> from CQS.cq04_lists import manual_append
 >>> manual_append(a, 2)
 >>> print(a)
 [1,2,3,2]
@@ -81,7 +81,7 @@ Write a function definition with the following expectations:
 Example usage:
 <pre>
 <div class="terminal">>>> a: list[int] = [1,2,3]
->>> from CQs.cq05_lists import double
+>>> from CQs.cq04_lists import double
 >>> double(a)
 >>> print(a)
 [2,4,6]
@@ -110,7 +110,7 @@ __Before you continue: What will be printed for `list_1`? What will be printed f
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission CQs/cq05_lists.py```
+```python -m tools.submission CQs/cq04_lists.py```
 
 Then, drag and drop that .zip file into Gradescope!
 
