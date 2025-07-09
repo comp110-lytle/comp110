@@ -1,5 +1,4 @@
 {
-    "2025-07-06": [],
     "2025-07-07": [
         {
             "kind": "CL",
@@ -110,7 +109,10 @@
             "title": "Quiz 2",
             "date": "2025-07-11",
             "deadline": "2025-07-11",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
+            }
         },
         {
             "kind": "EX",

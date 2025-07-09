@@ -30,12 +30,11 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Conditionals](/resources/practice/conditionals.html)
 - [Recursive Functions](/resources/practice/recursive-functions.html)
 
-
-<!-- 
-- [Conditionals and While Loops](/resources/practice/conditionals-while.html)
-
+## Quiz 02
 - [While Loops](/resources/practice/while-loops.html)
 - [While Loops + Functions](/resources/practice/while-loops-functions.html)
+- [Lists](/resources/practice/lists.html)
+
 <!-- - [Function Writing: while loops *(to-do)*](/resources/practice/function-writing.html) -->
 <!-- 
 ## Quiz 02

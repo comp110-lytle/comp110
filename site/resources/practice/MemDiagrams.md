@@ -27,13 +27,28 @@ template: overview
 [Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
 [Example 2](/resources/practice/memory-diagrams/recursion/pow.html)
 
+## Conditionals
+[Example 0](/resources/practice/memory-diagrams/conditionals/conditionals-00.html) |
+[Example 1](/resources/practice/memory-diagrams/conditionals/conditionals-01.html)
+
+## Conditionals + "elif"
+[Example 0](/resources/practice/memory-diagrams/elif/elif-00.html)
 
 
-<!-- ## While Loops 
+
+## While loops (no functions)
+[Example 0](/resources/practice/memory-diagrams/while/while-00.html) |
+[Example 1](/resources/practice/memory-diagrams/while/while-01.html) |
+[Example 2](/resources/practice/memory-diagrams/while/while-02.html)
+
+
+## While Loops + Functions
 
 [Example 0](/resources/practice/memory-diagrams/while/while-prime.html) |
 [Example 1](/resources/practice/memory-diagrams/while/digits-in-string.html)  |
 [Example 2](/resources/practice/memory-diagrams/while/string_count.html) 
+
+
 <!-- [Example 3](/resources/practice/memory-diagrams/functions/cookies.html) |
 [Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html)  -->
 
@@ -45,17 +60,8 @@ template: overview
 [Example 2](/resources/practice/memory-diagrams/basic/basic-02.html) |
 [Example 3](/resources/practice/memory-diagrams/basic/basic-03.html) 
 
-## Conditionals
-[Example 0](/resources/practice/memory-diagrams/conditionals/conditionals-00.html) |
-[Example 1](/resources/practice/memory-diagrams/conditionals/conditionals-01.html)
 
-## Conditionals + "elif"
-[Example 0](/resources/practice/memory-diagrams/elif/elif-00.html)
 
-## While loops (no functions)
-[Example 0](/resources/practice/memory-diagrams/while/while-00.html) |
-[Example 1](/resources/practice/memory-diagrams/while/while-01.html) |
-[Example 2](/resources/practice/memory-diagrams/while/while-02.html)  --> 
 
 
 <!-- OLD -->
