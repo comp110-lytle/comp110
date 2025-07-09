@@ -62,7 +62,7 @@ template: home
 <span class="kind">CL07 </span><span class="title">Lists</span>
 <ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=U_GP3Jkz5lU">Lists Video</a></li>
 <li class="link"><a href="https://www.youtube.com/watch?v=WCvrVTUZ-Ac">Lists in Memory Video</a></li>
-<li class="link"><a href="/static/slides/CL06.pdf">Slides</a></li>
+<li class="link"><a href="/static/slides/CL07.pdf">Slides</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS10 </span><span class="title"><a href="https://www.gradescope.com/">Lists (Due Wednesday 7/9)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-07-10" class="row itinerary-row py-2">
