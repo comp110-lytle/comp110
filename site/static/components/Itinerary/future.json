@@ -1,107 +1,4 @@
 {
-    "2025-07-07": [
-        {
-            "kind": "CL",
-            "n": 5,
-            "title": "User Input, Local Variables, and elif",
-            "date": "2025-07-07",
-            "deadline": "None",
-            "links": {
-                "Video": "https://youtu.be/eRHLEucuLt4",
-                "Slides": "/static/slides/CL05.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 8,
-            "title": "Variables and elif Statments (Due Monday 7/7)",
-            "date": "2025-07-07",
-            "deadline": "2025-07-07",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 2,
-            "title": "Wordle (Due Thursday 7/10)",
-            "date": "2025-07-07",
-            "deadline": "2025-07-10",
-            "links": {
-                "": "/exercises/wordle.html"
-            }
-        }
-    ],
-    "2025-07-08": [
-        {
-            "kind": "CL",
-            "n": 6,
-            "title": "While Loops + Diagrams Practice",
-            "date": "2025-07-08",
-            "deadline": "None",
-            "links": {
-                "While Loops Video": "https://www.youtube.com/watch?v=iiksOU66xSw",
-                "Memory Diagrams Video": "https://youtu.be/-IaBIsOxwOM",
-                "Slides": "/static/slides/CL06.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 9,
-            "title": "While Loops (Due Tuesday 7/8)",
-            "date": "2025-07-08",
-            "deadline": "2025-07-08",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 3,
-            "title": "While Loops Practice (Due Tuesday 7/8)",
-            "date": "2025-07-08",
-            "deadline": "2025-07-08",
-            "links": {
-                "": "/cqs/while-loops.html"
-            }
-        }
-    ],
-    "2025-07-09": [
-        {
-            "kind": "CL",
-            "n": 7,
-            "title": "Lists",
-            "date": "2025-07-09",
-            "deadline": "None",
-            "links": {
-                "Lists Video": "https://www.youtube.com/watch?v=U_GP3Jkz5lU",
-                "Lists in Memory Video": "https://www.youtube.com/watch?v=WCvrVTUZ-Ac",
-                "Slides": "/static/slides/CL07.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 10,
-            "title": "Lists (Due Wednesday 7/9)",
-            "date": "2025-07-09",
-            "deadline": "2025-07-09",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-07-10": [
-        {
-            "kind": "CQ",
-            "n": 4,
-            "title": "Lists (Due Thursday 7/10)",
-            "date": "2025-07-10",
-            "deadline": "2025-07-10",
-            "links": {
-                "": "/cqs/lists.html"
-            }
-        }
-    ],
     "2025-07-11": [
         {
             "kind": "QZ",
@@ -127,7 +24,30 @@
     ],
     "2025-07-12": [],
     "2025-07-13": [],
-    "2025-07-14": [],
+    "2025-07-14": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Dictionaries",
+            "date": "2025-07-14",
+            "deadline": "None",
+            "links": {
+                "f-strings": "/lessons/f-strings.html",
+                "Dictionaries": "https://www.youtube.com/watch?v=PHkFp_T--yk",
+                "Dictionaries in Memory": "https://www.youtube.com/watch?v=tlfJfLBsuX0"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 11,
+            "title": "Dictionaries (Due Monday 7/14)",
+            "date": "2025-07-14",
+            "deadline": "2025-07-14",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-07-15": [],
     "2025-07-16": [],
     "2025-07-17": [],

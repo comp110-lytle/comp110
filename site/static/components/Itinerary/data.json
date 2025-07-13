@@ -365,7 +365,30 @@
     ],
     "2025-07-12": [],
     "2025-07-13": [],
-    "2025-07-14": [],
+    "2025-07-14": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Dictionaries",
+            "date": "2025-07-14",
+            "deadline": "None",
+            "links": {
+                "f-strings": "/lessons/f-strings.html",
+                "Dictionaries": "https://www.youtube.com/watch?v=PHkFp_T--yk",
+                "Dictionaries in Memory": "https://www.youtube.com/watch?v=tlfJfLBsuX0"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 11,
+            "title": "Dictionaries (Due Monday 7/14)",
+            "date": "2025-07-14",
+            "deadline": "2025-07-14",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-07-15": [],
     "2025-07-16": [],
     "2025-07-17": [],
