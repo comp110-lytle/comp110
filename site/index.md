@@ -45,6 +45,7 @@ template: home
 <li class="link"><a href="https://www.youtube.com/watch?v=PHkFp_T--yk">Dictionaries</a></li>
 <li class="link"><a href="/static/slides/Old/LS19.pdf">Dicts Slides</a></li>
 <li class="link"><a href="https://www.youtube.com/watch?v=tlfJfLBsuX0">Dictionaries in Memory</a></li>
+<li class="link"><a href="/static/slides/Dicts-in-memory.pdf">Memory Slides</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS11 </span><span class="title"><a href="https://www.gradescope.com/">Dictionaries (Due Monday 7/14)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-07-18" class="row itinerary-row py-2">
