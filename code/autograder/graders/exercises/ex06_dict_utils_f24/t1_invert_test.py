@@ -9,7 +9,7 @@ from pytest import mark
 from graders.helpers import assert_parameter_list, author_is_a_valid_pid, reimport_module
 from graders.helpers import assert_return_type
 
-MODULE = "exercises.ex06.dictionary"
+MODULE = "exercises.ex04.dictionary"
 
 # GOAL: To check for signatures, and very basic functionality. 
 # Edge cases must be checked and fulfilled in Part 2 using Unit Testing.

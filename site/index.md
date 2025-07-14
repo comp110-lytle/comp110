@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS11 - MON, JUL 14 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS12 - TUE, JUL 15 11:59pm</a></li><li class="horizon-item"><a href="/cqs/for-loops-lists-dicts.html">CQ05 - TUE, JUL 15 11:59pm</a></li><li class="horizon-item"><a href="/exercises/list-utils.html">EX03 - WED, JUL 16 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS13 - WED, JUL 16 11:59pm</a></li><li class="horizon-item"><a href="/cqs/list-unit-tests.html">CQ06 - THU, JUL 17 11:59pm</a></li><li class="horizon-item"><span>QZ03 - FRI, JUL 18 11:59pm</span></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS11 - MON, JUL 14 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS12 - TUE, JUL 15 11:59pm</a></li><li class="horizon-item"><a href="/cqs/for-loops-lists-dicts.html">CQ05 - TUE, JUL 15 11:59pm</a></li><li class="horizon-item"><a href="/exercises/list-utils.html">EX03 - WED, JUL 16 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS13 - WED, JUL 16 11:59pm</a></li><li class="horizon-item"><a href="/cqs/list-unit-tests.html">CQ06 - THU, JUL 17 11:59pm</a></li><li class="horizon-item"><span>QZ03 - FRI, JUL 18 11:59pm</span></li><li class="horizon-item"><a href="/exercises/dict-utils.html">EX04 - MON, JUL 21 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -67,7 +67,8 @@ template: home
 </div><div data-type="lecture" data-date="2025-07-17" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jul 17</div>
 <div class="plans col-md-9"><div class="plan Challenge Question">
-<span class="kind">CQ06 </span><span class="title"><a href="/cqs/list-unit-tests.html">Unit Tests (Due Thursday 7/17)</a></span></div></div>
+<span class="kind">CQ06 </span><span class="title"><a href="/cqs/list-unit-tests.html">Unit Tests (Due Thursday 7/17)</a></span></div><div class="plan Exercise">
+<span class="kind">EX04 </span><span class="title"><a href="/exercises/dict-utils.html">Dictionary Utils (Due Monday 7/21)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-07-18" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jul 18</div>
 <div class="plans col-md-9"><div class="plan Quiz">

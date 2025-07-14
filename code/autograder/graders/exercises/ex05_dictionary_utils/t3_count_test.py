@@ -8,7 +8,7 @@ from graders.helpers import assert_return_type
 from random import randint
 
 
-MODULE = "exercises.ex05.dictionary"
+MODULE = "exercises.ex06.dictionary"
 
 
 @mark.weight(7.5)

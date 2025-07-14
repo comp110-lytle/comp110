@@ -92,6 +92,16 @@
             "links": {
                 "": "/cqs/list-unit-tests.html"
             }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "Dictionary Utils (Due Monday 7/21)",
+            "date": "2025-07-17",
+            "deadline": "2025-07-21",
+            "links": {
+                "": "/exercises/dict-utils.html"
+            }
         }
     ],
     "2025-07-18": [

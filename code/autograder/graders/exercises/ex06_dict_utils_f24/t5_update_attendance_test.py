@@ -9,7 +9,7 @@ from graders.helpers import assert_parameter_list, reimport_module
 from graders.helpers import assert_return_type
 
 
-MODULE = "exercises.ex06.dictionary"
+MODULE = "exercises.ex04.dictionary"
 
 @mark.weight(1)
 def test_update_attendance_params():

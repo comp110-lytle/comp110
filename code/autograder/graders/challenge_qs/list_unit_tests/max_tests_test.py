@@ -9,8 +9,8 @@ from pytest import mark, fixture
 import pytest
 pytestmark = pytest.mark.timeout(3)
 
-MODULE = "CQs.cq07.find_max"
-TESTMODULE = "CQs.cq07.max_test"
+MODULE = "CQs.cq06.find_max"
+TESTMODULE = "CQs.cq06.max_test"
 
 @mark.weight(0)
 def test_author():
