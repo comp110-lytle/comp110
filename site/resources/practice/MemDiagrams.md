@@ -55,6 +55,13 @@ template: overview
 [Example 3](/resources/practice/memory-diagrams/lists/change-and-check.html) |
 [Example 4](/resources/practice/memory-diagrams/lists/apply_discount.html)
 
+## Dictionaries
+
+[Example 0](/resources/practice/memory-diagrams/dicts/dicts-00.html) |
+[Example 1](/resources/practice/memory-diagrams/dicts/dicts-01.html) |
+[Example 2](/resources/practice/memory-diagrams/dicts/lineups.html) |
+[Example 3](/resources/practice/memory-diagrams/nested-structures/inventory.html) 
+
 
 <!-- [Example 3](/resources/practice/memory-diagrams/functions/cookies.html) |
 [Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html)  -->
@@ -91,12 +98,7 @@ template: overview
  -->
 
 <!-- 
-## Dictionaries
-
-[Example 0](/resources/practice/memory-diagrams/dicts/dicts-00.html) |
-[Example 1](/resources/practice/memory-diagrams/dicts/dicts-01.html) |
-[Example 2](/resources/practice/memory-diagrams/dicts/lineups.html) |
-[Example 3](/resources/practice/memory-diagrams/nested-structures/inventory.html)  -->
+ -->
 <!-- [Example 3](/resources/practice/memory-diagrams/dicts/todo-list.html) -->
 <!-- 
 ## OOP 
