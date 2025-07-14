@@ -29,6 +29,27 @@
     ],
     "2025-07-15": [
         {
+            "kind": "CL",
+            "n": 9,
+            "title": "for Loops",
+            "date": "2025-07-15",
+            "deadline": "None",
+            "links": {
+                "for Loops Video": "/",
+                "Slides": "/static/slides/LS12.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 12,
+            "title": "for Loops (Due Tuesday 7/15)",
+            "date": "2025-07-15",
+            "deadline": "2025-07-15",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
             "kind": "CQ",
             "n": 5,
             "title": "for Loops (Due Tuesday 7/15)",
@@ -39,8 +60,40 @@
             }
         }
     ],
-    "2025-07-16": [],
-    "2025-07-17": [],
+    "2025-07-16": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "Unit Tests",
+            "date": "2025-07-16",
+            "deadline": "None",
+            "links": {
+                "Video": "https://youtu.be/T_9JaV2aIS0"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Unit Tests (Due Wednesday 7/16)",
+            "date": "2025-07-16",
+            "deadline": "2025-07-16",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-07-17": [
+        {
+            "kind": "CQ",
+            "n": 6,
+            "title": "Unit Tests (Due Thursday 7/17)",
+            "date": "2025-07-17",
+            "deadline": "2025-07-17",
+            "links": {
+                "": "/cqs/list-unit-tests.html"
+            }
+        }
+    ],
     "2025-07-18": [
         {
             "kind": "QZ",
