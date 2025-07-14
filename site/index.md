@@ -37,20 +37,13 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-07-11" class="row itinerary-row py-2">
-<div class="date col-md-2">Fri, Jul 11</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ02 </span><span class="title">Quiz 2</span>
-<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
-<li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
-</ul></div><div class="plan Exercise">
-<span class="kind">EX03 </span><span class="title"><a href="/exercises/list-utils.html">List Utility Functions (Due Wednesday 7/16)</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-07-14" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-07-14" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Jul 14</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL08 </span><span class="title">Dictionaries</span>
 <ul class="links"><li class="link"><a href="/lessons/f-strings.html">f-strings</a></li>
 <li class="link"><a href="https://www.youtube.com/watch?v=PHkFp_T--yk">Dictionaries</a></li>
+<li class="link"><a href="/static/slides/Old/LS19.pdf">Dicts Slides</a></li>
 <li class="link"><a href="https://www.youtube.com/watch?v=tlfJfLBsuX0">Dictionaries in Memory</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS11 </span><span class="title"><a href="https://www.gradescope.com/">Dictionaries (Due Monday 7/14)</a></span></div></div>
@@ -64,7 +57,15 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-07-10" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-07-11" class="row itinerary-row py-2">
+<div class="date col-md-2">Fri, Jul 11</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ02 </span><span class="title">Quiz 2</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
+</ul></div><div class="plan Exercise">
+<span class="kind">EX03 </span><span class="title"><a href="/exercises/list-utils.html">List Utility Functions (Due Wednesday 7/16)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-07-10" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jul 10</div>
 <div class="plans col-md-9"><div class="plan Challenge Question">
 <span class="kind">CQ04 </span><span class="title"><a href="/cqs/lists.html">Lists (Due Thursday 7/10)</a></span></div></div>

@@ -1,27 +1,4 @@
 {
-    "2025-07-11": [
-        {
-            "kind": "QZ",
-            "n": 2,
-            "title": "Quiz 2",
-            "date": "2025-07-11",
-            "deadline": "2025-07-11",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 3,
-            "title": "List Utility Functions (Due Wednesday 7/16)",
-            "date": "2025-07-11",
-            "deadline": "2025-07-16",
-            "links": {
-                "": "/exercises/list-utils.html"
-            }
-        }
-    ],
     "2025-07-12": [],
     "2025-07-13": [],
     "2025-07-14": [
@@ -34,6 +11,7 @@
             "links": {
                 "f-strings": "/lessons/f-strings.html",
                 "Dictionaries": "https://www.youtube.com/watch?v=PHkFp_T--yk",
+                "Dicts Slides": "/static/slides/Old/LS19.pdf",
                 "Dictionaries in Memory": "https://www.youtube.com/watch?v=tlfJfLBsuX0"
             }
         },

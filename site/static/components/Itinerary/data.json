@@ -375,6 +375,7 @@
             "links": {
                 "f-strings": "/lessons/f-strings.html",
                 "Dictionaries": "https://www.youtube.com/watch?v=PHkFp_T--yk",
+                "Dicts Slides": "/static/slides/Old/LS19.pdf",
                 "Dictionaries in Memory": "https://www.youtube.com/watch?v=tlfJfLBsuX0"
             }
         },
