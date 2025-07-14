@@ -36,6 +36,6 @@ Finally, write a function called `f_range_sum` that performs the same way as the
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission CQs/cq06_sum.py```
+```python -m tools.submission CQs/cq05_sum.py```
 
 Then, drag and drop that .zip file into Gradescope!
