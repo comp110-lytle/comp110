@@ -35,6 +35,12 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [While Loops + Functions](/resources/practice/while-loops-functions.html)
 - [Lists](/resources/practice/lists.html)
 
+## Quiz 03
+- [Dictionaries](/resources/practice/dicts.html)
+- [for Loops](/resources/practice/for-loops.html)
+- [Unit Tests](/resources/practice/unit-tests.html)
+- [Function Writing](/resources/practice/function-writing.html)
+
 <!-- - [Function Writing: while loops *(to-do)*](/resources/practice/function-writing.html) -->
 <!-- 
 ## Quiz 02

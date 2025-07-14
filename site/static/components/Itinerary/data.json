@@ -475,7 +475,10 @@
             "title": "Quiz 3",
             "date": "2025-07-18",
             "deadline": "2025-07-18",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
+            }
         }
     ],
     "2025-07-19": [],
