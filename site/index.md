@@ -52,7 +52,7 @@ template: home
 <div class="date col-md-2">Tue, Jul 15</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL09 </span><span class="title">for Loops</span>
-<ul class="links"><li class="link"><a href="/">for Loops Video</a></li>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=kzeQbHPivE0">for Loops Video</a></li>
 <li class="link"><a href="/static/slides/LS12.pdf">Slides</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS12 </span><span class="title"><a href="https://www.gradescope.com/">for Loops (Due Tuesday 7/15)</a></span></div><div class="plan Challenge Question">
