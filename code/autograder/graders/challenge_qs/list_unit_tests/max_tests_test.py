@@ -42,7 +42,7 @@ def tests():
 
 def get_call_count(tests, fn) -> int:
     call_count = 0
-    import CQs.cq07.max_test as unit_tests
+    import CQs.cq06.max_test as unit_tests
     for test in tests:
         try:
             with mock.patch.object(unit_tests, fn, wraps=getattr(unit_tests, fn)) as student_fn: 

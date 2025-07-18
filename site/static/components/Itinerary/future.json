@@ -1,65 +1,4 @@
 {
-    "2025-07-12": [],
-    "2025-07-13": [],
-    "2025-07-14": [
-        {
-            "kind": "CL",
-            "n": 8,
-            "title": "Dictionaries",
-            "date": "2025-07-14",
-            "deadline": "None",
-            "links": {
-                "f-strings": "/lessons/f-strings.html",
-                "Dictionaries": "https://www.youtube.com/watch?v=PHkFp_T--yk",
-                "Dicts Slides": "/static/slides/Old/LS19.pdf",
-                "Dictionaries in Memory": "https://www.youtube.com/watch?v=tlfJfLBsuX0",
-                "Memory Slides": "/static/slides/Dicts-in-memory.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 11,
-            "title": "Dictionaries (Due Monday 7/14)",
-            "date": "2025-07-14",
-            "deadline": "2025-07-14",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-07-15": [
-        {
-            "kind": "CL",
-            "n": 9,
-            "title": "for Loops",
-            "date": "2025-07-15",
-            "deadline": "None",
-            "links": {
-                "for Loops Video": "https://www.youtube.com/watch?v=kzeQbHPivE0",
-                "Slides": "/static/slides/LS12.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 12,
-            "title": "for Loops (Due Tuesday 7/15)",
-            "date": "2025-07-15",
-            "deadline": "2025-07-15",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 5,
-            "title": "for Loops (Due Tuesday 7/15)",
-            "date": "2025-07-15",
-            "deadline": "2025-07-15",
-            "links": {
-                "": "/cqs/for-loops-lists-dicts.html"
-            }
-        }
-    ],
     "2025-07-16": [
         {
             "kind": "CL",
@@ -119,7 +58,40 @@
     ],
     "2025-07-19": [],
     "2025-07-20": [],
-    "2025-07-21": [],
+    "2025-07-21": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "Object Oriented Programming",
+            "date": "2025-07-21",
+            "deadline": "None",
+            "links": {
+                "Intro to OOP Video": "https://www.youtube.com/watch?v=DmYPEH8qkRI",
+                "Classes in Memory Video": "https://www.youtube.com/watch?v=FM29tHBFBc8",
+                "Slides": "/static/slides/CL11.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 14,
+            "title": "Intro to OOP (Due Monday 7/21)",
+            "date": "2025-07-21",
+            "deadline": "2025-07-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "River Simulation (Due Friday 7/25)",
+            "date": "2025-07-21",
+            "deadline": "2025-07-25",
+            "links": {
+                "": "/exercises/river-sim.html"
+            }
+        }
+    ],
     "2025-07-22": [],
     "2025-07-23": [],
     "2025-07-24": [],

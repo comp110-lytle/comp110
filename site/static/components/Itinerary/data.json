@@ -483,7 +483,40 @@
     ],
     "2025-07-19": [],
     "2025-07-20": [],
-    "2025-07-21": [],
+    "2025-07-21": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "Object Oriented Programming",
+            "date": "2025-07-21",
+            "deadline": "None",
+            "links": {
+                "Intro to OOP Video": "https://www.youtube.com/watch?v=DmYPEH8qkRI",
+                "Classes in Memory Video": "https://www.youtube.com/watch?v=FM29tHBFBc8",
+                "Slides": "/static/slides/CL11.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 14,
+            "title": "Intro to OOP (Due Monday 7/21)",
+            "date": "2025-07-21",
+            "deadline": "2025-07-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "River Simulation (Due Friday 7/25)",
+            "date": "2025-07-21",
+            "deadline": "2025-07-25",
+            "links": {
+                "": "/exercises/river-sim.html"
+            }
+        }
+    ],
     "2025-07-22": [],
     "2025-07-23": [],
     "2025-07-24": [],

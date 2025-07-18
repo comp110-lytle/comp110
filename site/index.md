@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS11 - MON, JUL 14 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS12 - TUE, JUL 15 11:59pm</a></li><li class="horizon-item"><a href="/cqs/for-loops-lists-dicts.html">CQ05 - TUE, JUL 15 11:59pm</a></li><li class="horizon-item"><a href="/exercises/list-utils.html">EX03 - WED, JUL 16 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS13 - WED, JUL 16 11:59pm</a></li><li class="horizon-item"><a href="/cqs/list-unit-tests.html">CQ06 - THU, JUL 17 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ03 - FRI, JUL 18 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils.html">EX04 - MON, JUL 21 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ03 - FRI, JUL 18 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-utils.html">EX04 - MON, JUL 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS14 - MON, JUL 21 11:59pm</a></li><li class="horizon-item"><a href="/">CQ07 - WED, JUL 23 11:59pm</a></li><li class="horizon-item"><a href="/exercises/river-sim.html">EX05 - FRI, JUL 25 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,27 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-07-14" class="row itinerary-row py-2">
-<div class="date col-md-2">Mon, Jul 14</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL08 </span><span class="title">Dictionaries</span>
-<ul class="links"><li class="link"><a href="/lessons/f-strings.html">f-strings</a></li>
-<li class="link"><a href="https://www.youtube.com/watch?v=PHkFp_T--yk">Dictionaries</a></li>
-<li class="link"><a href="/static/slides/Old/LS19.pdf">Dicts Slides</a></li>
-<li class="link"><a href="https://www.youtube.com/watch?v=tlfJfLBsuX0">Dictionaries in Memory</a></li>
-<li class="link"><a href="/static/slides/Dicts-in-memory.pdf">Memory Slides</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS11 </span><span class="title"><a href="https://www.gradescope.com/">Dictionaries (Due Monday 7/14)</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-07-15" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Jul 15</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL09 </span><span class="title">for Loops</span>
-<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=kzeQbHPivE0">for Loops Video</a></li>
-<li class="link"><a href="/static/slides/LS12.pdf">Slides</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS12 </span><span class="title"><a href="https://www.gradescope.com/">for Loops (Due Tuesday 7/15)</a></span></div><div class="plan Challenge Question">
-<span class="kind">CQ05 </span><span class="title"><a href="/cqs/for-loops-lists-dicts.html">for Loops (Due Tuesday 7/15)</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-07-16" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-07-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Jul 16</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL10 </span><span class="title">Unit Tests</span>
@@ -76,13 +56,43 @@ template: home
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
 <li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
 </ul></div></div>
+</div><div data-type="lecture" data-date="2025-07-21" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Jul 21</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL11 </span><span class="title">Object Oriented Programming</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=DmYPEH8qkRI">Intro to OOP Video</a></li>
+<li class="link"><a href="https://www.youtube.com/watch?v=FM29tHBFBc8">Classes in Memory Video</a></li>
+<li class="link"><a href="/static/slides/CL11.pdf">Slides</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS14 </span><span class="title"><a href="https://www.gradescope.com/">Intro to OOP (Due Monday 7/21)</a></span></div><div class="plan Exercise">
+<span class="kind">EX05 </span><span class="title"><a href="/exercises/river-sim.html">River Simulation (Due Friday 7/25)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-07-28" class="row itinerary-row py-2">
 <div class="date col-md-2">Mon, Jul 28</div>
 <div class="plans col-md-9"><div class="plan Final">
 <span class="kind">FN00 </span><span class="title">Final</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-07-11" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-07-15" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Jul 15</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL09 </span><span class="title">for Loops</span>
+<ul class="links"><li class="link"><a href="https://www.youtube.com/watch?v=kzeQbHPivE0">for Loops Video</a></li>
+<li class="link"><a href="/static/slides/LS12.pdf">Slides</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS12 </span><span class="title"><a href="https://www.gradescope.com/">for Loops (Due Tuesday 7/15)</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ05 </span><span class="title"><a href="/cqs/for-loops-lists-dicts.html">for Loops (Due Tuesday 7/15)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-07-14" class="row itinerary-row py-2">
+<div class="date col-md-2">Mon, Jul 14</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL08 </span><span class="title">Dictionaries</span>
+<ul class="links"><li class="link"><a href="/lessons/f-strings.html">f-strings</a></li>
+<li class="link"><a href="https://www.youtube.com/watch?v=PHkFp_T--yk">Dictionaries</a></li>
+<li class="link"><a href="/static/slides/Old/LS19.pdf">Dicts Slides</a></li>
+<li class="link"><a href="https://www.youtube.com/watch?v=tlfJfLBsuX0">Dictionaries in Memory</a></li>
+<li class="link"><a href="/static/slides/Dicts-in-memory.pdf">Memory Slides</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS11 </span><span class="title"><a href="https://www.gradescope.com/">Dictionaries (Due Monday 7/14)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-07-11" class="row itinerary-row py-2">
 <div class="date col-md-2">Fri, Jul 11</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ02 </span><span class="title">Quiz 2</span>
