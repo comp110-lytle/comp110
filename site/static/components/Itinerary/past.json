@@ -423,5 +423,62 @@
                 "": "/cqs/for-loops-lists-dicts.html"
             }
         }
+    ],
+    "2025-07-16": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "Unit Tests",
+            "date": "2025-07-16",
+            "deadline": "None",
+            "links": {
+                "Video": "https://youtu.be/T_9JaV2aIS0"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Unit Tests (Due Wednesday 7/16)",
+            "date": "2025-07-16",
+            "deadline": "2025-07-16",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-07-17": [
+        {
+            "kind": "CQ",
+            "n": 6,
+            "title": "Unit Tests (Due Thursday 7/17)",
+            "date": "2025-07-17",
+            "deadline": "2025-07-17",
+            "links": {
+                "": "/cqs/list-unit-tests.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "Dictionary Utils (Due Monday 7/21)",
+            "date": "2025-07-17",
+            "deadline": "2025-07-21",
+            "links": {
+                "": "/exercises/dict-utils.html"
+            }
+        }
+    ],
+    "2025-07-18": [
+        {
+            "kind": "QZ",
+            "n": 3,
+            "title": "Quiz 3",
+            "date": "2025-07-18",
+            "deadline": "2025-07-18",
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
+            }
+        }
     ]
 }

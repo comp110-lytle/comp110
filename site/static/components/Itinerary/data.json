@@ -517,8 +517,30 @@
             }
         }
     ],
-    "2025-07-22": [],
-    "2025-07-23": [],
+    "2025-07-22": [
+        {
+            "kind": "CL",
+            "n": 12,
+            "title": "Magic Methods",
+            "date": "2025-07-22",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
+    "2025-07-23": [
+        {
+            "kind": "CQ",
+            "n": 7,
+            "title": "Practice with OOP + Magic Methods (Due Wednesday 7/23)",
+            "date": "2025-07-23",
+            "deadline": "2025-07-23",
+            "links": {
+                "": "/cqs/oops-and-mm.html"
+            }
+        }
+    ],
     "2025-07-24": [],
     "2025-07-28": [
         {
