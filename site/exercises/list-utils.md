@@ -50,7 +50,7 @@ Open the Explorer pane (the icon with two sheets of paper or menu View > Explore
 
 Right click on the `exercises` directory and select "New File". Enter the following filename, being careful to match punctuation:
 
-`ex03_utils.py`
+`ex03_list_utils.py`
 
 Before beginning work on the program, you should add a docstring to the top of your Python module just as you have previously. Then, you should add a line with the special variable named **author** assigned to be a string with your 9-digit student PID.
 
@@ -201,7 +201,7 @@ If you _do not_ see a Terminal at the bottom of your screen, open the Command Pa
 
 Type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex03_utils.py`
+`python -m tools.submission exercises/ex03_list_utils.py`
 
 In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex03-utils.py.zip". The "yy", "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
 
