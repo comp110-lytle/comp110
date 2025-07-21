@@ -106,7 +106,7 @@ x: 3.0; y: 6.0
 </div>
 </pre>
 
-## 2.2.1: Union Types
+<!-- ## 2.2.1: Union Types
 Now, modify `__mul__` so that the `factor` parameter can be either a `float` or an `int`!
 
 ### Example Usage:
@@ -118,7 +118,7 @@ Now, modify `__mul__` so that the `factor` parameter can be either a `float` or 
 >>> print(new_point)
 x: 3.0; y: 6.0
 </div>
-</pre>
+</pre> -->
 
 ## 2.3. `__add__()`
 
@@ -136,8 +136,8 @@ x: 4.0; y: 5.0
 </div>
 </pre>
 
-## 2.3.1: Union Types
-Now, modify `__add__` so that the `factor` parameter can be either a `float` or an `int`!
+<!-- ## 2.3.1: Union Types
+Now, modify `__add__` so that the `factor` parameter can be either a `float` or an `int`! -->
 
 
 
