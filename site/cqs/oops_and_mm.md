@@ -21,7 +21,9 @@ For this CQ, we are going to create and compare two similar methods. They both h
 ## 0. Set up files
 Create a new folder inside `CQs` called `cq07` and a new file inside of it titled `point.py`.
 
-## 1. Create `Point` class
+# OOP Basics
+
+## 1.1. Create `Point` class
 
 We are creating a `Point` class that has both an `x` and a `y` attribute. Think of it as the representation of a point on an (x,y) coordinate graph. We are going to talk about methods that *scale* a point, or change its value by multiplying the `x` and `y` values by some value.
 
@@ -32,7 +34,7 @@ Create a class with the following properties:
 
 Now, define a constructor (aka an `__init__` method) that takes as input `x_init: float` and `y_init: float` and assigns those as the initial values for the attributes `x` and `y`. 
 
-## 2. Mutating Method: `Point#scale_by`
+## 1.2. Mutating Method: `Point#scale_by`
 
 Now, you are going to write a method that belongs to the Point class and *mutates* a `Point`. 
 
@@ -45,7 +47,7 @@ It should have the following properties:
 
 
 
-## 3. Non-Mutating Method: `Point#scale`
+## 1.3. Non-Mutating Method: `Point#scale`
 
 Now, you are going to write a method that belongs to the Point class and instead of *mutating* a `Point`, it creates a new `Point`. 
 
@@ -63,6 +65,81 @@ It should have the following properties:
 Check your methods by creating a new file in your `CQ07` file called `make_points.py` and importing your `Point` class using `from lessons.CQ07.point import Point`. Then create a new point and call the methods.
 
 Check that calling `Point#scale` does not mutate the `x` and `y` values of your original Point.
+
+
+# Magic Methods, Operator Overloads, and Union Types
+
+## 2.1: `__str__()`
+
+First, you are going to write a `__str__` magic method to print out points in a readable way! It should print 
+
+```x: <x value>; y: <y value>```
+
+where `<x value>` and `<y value>` are the `x` and `y` attributes of the `Point`, respectively.
+
+### Example Usage
+
+<pre>
+<div class="terminal">$ python 
+>>> from CQs.CQ07.point import Point
+>>> my_point: Point = Point(1.0, 2.0)
+>>> print(str(my_point))
+x: 1.0; y: 2.0
+</div>
+</pre>
+
+## 2.2. `__mul__()`
+
+Now, you are going to add a `__mul__()` method to overload the multiplication `*` operator!
+
+The goal is that when multiplying a `Point` object with a `factor: int`, it should create a new `Point` where both the `x` and `y` attributes should be the previous points attributes multiplied by `factor`. (Hint: This is the same functionality as a method you've already written in `Point`!) 
+
+### Example Usage:
+
+<pre>
+<div class="terminal">$ python 
+>>> from CQs.CQ07.point import Point
+>>> my_point: Point = Point(1.0, 2.0)
+>>> new_point: Point = my_point * 3
+>>> print(new_point)
+x: 3.0; y: 6.0
+</div>
+</pre>
+
+<!-- ## 1.1: Union Types
+Now, modify `__mul__` so that the `factor` parameter can be either a `float` or an `int`!
+
+### Example Usage:
+<pre>
+<div class="terminal">$ python 
+>>> from CQs.CQ07.point import Point
+>>> my_point: Point = Point(1.0, 2.0)
+>>> new_point: Point = my_point * 3.0
+>>> print(new_point)
+x: 3.0; y: 6.0
+</div>
+</pre> -->
+
+## 2.3. `__add__()`
+
+Now, you are going to add an `__add__()` method to overload the addition `+` operator!
+
+It should behave similarly to multiplication, where it creates a new `Point`, but now *adds* to the `x` and `y` attributes.
+
+<pre>
+<div class="terminal">$ python 
+>>> from CQs.CQ07.point import Point
+>>> my_point: Point = Point(1.0, 2.0)
+>>> new_point: Point = my_point + 3.0
+>>> print(new_point)
+x: 4.0; y: 5.0
+</div>
+</pre>
+
+<!-- ## 2.1: Union Types
+Now, modify `__add__` so that the `factor` parameter can be either a `float` or an `int`! -->
+
+
 
 ## 4. Submission
 
