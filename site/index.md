@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/dict-utils.html">EX04 - MON, JUL 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS14 - MON, JUL 21 11:59pm</a></li><li class="horizon-item"><a href="/cqs/oops-and-mm.html">CQ07 - WED, JUL 23 11:59pm</a></li><li class="horizon-item"><a href="/exercises/river-sim.html">EX05 - FRI, JUL 25 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/dict-utils.html">EX04 - MON, JUL 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS14 - MON, JUL 21 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS15 - TUE, JUL 22 11:59pm</a></li><li class="horizon-item"><a href="/cqs/oops-and-mm.html">CQ07 - WED, JUL 23 11:59pm</a></li><li class="horizon-item"><a href="/exercises/river-sim.html">EX05 - FRI, JUL 25 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -50,7 +50,12 @@ template: home
 </div><div data-type="lecture" data-date="2025-07-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Jul 22</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL12 </span><span class="title"><a href="/">Magic Methods</a></span></div></div>
+<span class="kind">CL12 </span><span class="title">Magic Methods</span>
+<ul class="links"><li class="link"><a href="/">Magic Methods Video</a></li>
+<li class="link"><a href="https://www.youtube.com/watch?v=233MVVMYpDY">Magic Methods in Memory Example</a></li>
+<li class="link"><a href="/static/slides/CL12.pdf">Slides</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS15 </span><span class="title"><a href="https://www.gradescope.com/">Magic Methods (Due Tuesday 7/22)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-07-23" class="row itinerary-row py-2">
 <div class="date col-md-2">Wed, Jul 23</div>
 <div class="plans col-md-9"><div class="plan Challenge Question">

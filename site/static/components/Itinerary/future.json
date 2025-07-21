@@ -43,7 +43,19 @@
             "date": "2025-07-22",
             "deadline": "None",
             "links": {
-                "": "/"
+                "Magic Methods Video": "/",
+                "Magic Methods in Memory Example": "https://www.youtube.com/watch?v=233MVVMYpDY",
+                "Slides": "/static/slides/CL12.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 15,
+            "title": "Magic Methods (Due Tuesday 7/22)",
+            "date": "2025-07-22",
+            "deadline": "2025-07-22",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],

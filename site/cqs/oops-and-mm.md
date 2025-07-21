@@ -92,7 +92,7 @@ x: 1.0; y: 2.0
 
 Now, you are going to add a `__mul__()` method to overload the multiplication `*` operator!
 
-The goal is that when multiplying a `Point` object with a `factor: int`, it should create a new `Point` where both the `x` and `y` attributes should be the previous points attributes multiplied by `factor`. (Hint: This is the same functionality as a method you've already written in `Point`!) 
+The goal is that when multiplying a `Point` object with a `factor: int`, it should create a new `Point` where both the `x` and `y` attributes should be the previous points attributes multiplied by `factor`. *(Hint: you already wrote this method in Part 1. You're just renaming it `__mul__`!)*
 
 ### Example Usage:
 
@@ -106,7 +106,7 @@ x: 3.0; y: 6.0
 </div>
 </pre>
 
-<!-- ## 1.1: Union Types
+## 2.2.1: Union Types
 Now, modify `__mul__` so that the `factor` parameter can be either a `float` or an `int`!
 
 ### Example Usage:
@@ -118,7 +118,7 @@ Now, modify `__mul__` so that the `factor` parameter can be either a `float` or 
 >>> print(new_point)
 x: 3.0; y: 6.0
 </div>
-</pre> -->
+</pre>
 
 ## 2.3. `__add__()`
 
@@ -136,8 +136,8 @@ x: 4.0; y: 5.0
 </div>
 </pre>
 
-<!-- ## 2.1: Union Types
-Now, modify `__add__` so that the `factor` parameter can be either a `float` or an `int`! -->
+## 2.3.1: Union Types
+Now, modify `__add__` so that the `factor` parameter can be either a `float` or an `int`!
 
 
 
