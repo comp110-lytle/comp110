@@ -6,9 +6,9 @@ from _pytest.monkeypatch import MonkeyPatch
 from _pytest.capture import CaptureFixture
 from typing import Any
 
-RIV_MODULE = "exercises.ex07.river"
-BEAR_MODULE = "exercises.ex07.bear"
-FISH_MODULE = "exercises.ex07.fish"
+RIV_MODULE = "exercises.ex05.river"
+BEAR_MODULE = "exercises.ex05.bear"
+FISH_MODULE = "exercises.ex05.fish"
 RIVER_CLASS = "River"
 BEAR_CLASS = "Bear"
 FISH_CLASS = "Fish"

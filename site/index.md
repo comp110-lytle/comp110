@@ -51,7 +51,7 @@ template: home
 <div class="date col-md-2">Tue, Jul 22</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL12 </span><span class="title">Magic Methods</span>
-<ul class="links"><li class="link"><a href="/">Magic Methods Video</a></li>
+<ul class="links"><li class="link"><a href="https://youtu.be/wFaDObPJFUw">Magic Methods Video</a></li>
 <li class="link"><a href="https://www.youtube.com/watch?v=233MVVMYpDY">Magic Methods in Memory Example</a></li>
 <li class="link"><a href="/static/slides/CL12.pdf">Slides</a></li>
 </ul></div><div class="plan Lesson">
