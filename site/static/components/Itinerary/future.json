@@ -1,6 +1,4 @@
 {
-    "2025-07-19": [],
-    "2025-07-20": [],
     "2025-07-21": [
         {
             "kind": "CL",
@@ -79,7 +77,11 @@
             "title": "Final",
             "date": "2025-07-28",
             "deadline": "None",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html",
+                "Review Session (Thursday at 12 pm)": "https://unc.zoom.us/j/98463947351?pwd=TjbKXWssNC72HITafZzbQak0McF9Ie.1"
+            }
         }
     ]
 }
