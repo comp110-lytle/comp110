@@ -62,6 +62,17 @@ template: overview
 [Example 2](/resources/practice/memory-diagrams/dicts/lineups.html) |
 [Example 3](/resources/practice/memory-diagrams/nested-structures/inventory.html) 
 
+## OOP 
+
+[Example 0](/resources/practice/memory-diagrams/oop/tweets.html) | 
+[Example 1](/resources/practice/memory-diagrams/oop/stadium.html)
+
+## Magic Methods and Operator Overloads
+
+[Example 0](/resources/practice/memory-diagrams/oop-advanced/team.html) |
+[Example 1](/resources/practice/memory-diagrams/oop-advanced/playlist.html) |
+[Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html)
+
 
 <!-- [Example 3](/resources/practice/memory-diagrams/functions/cookies.html) |
 [Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html)  -->
@@ -72,7 +83,7 @@ template: overview
 [Example 0](/resources/practice/memory-diagrams/basic/basic-00.html) | 
 [Example 1](/resources/practice/memory-diagrams/basic/basic-01.html) | 
 [Example 2](/resources/practice/memory-diagrams/basic/basic-02.html) |
-[Example 3](/resources/practice/memory-diagrams/basic/basic-03.html) 
+[Example 3](/resources/practice/memory-diagrams/basic/basic-03.html)  -->
 
 
 
@@ -94,11 +105,6 @@ template: overview
 [Example 3](/resources/practice/memory-diagrams/functions/func-01.html) -->
 
 
-<!-- 
- -->
-
-<!-- 
- -->
 <!-- [Example 3](/resources/practice/memory-diagrams/dicts/todo-list.html) -->
 <!-- 
 ## OOP 
