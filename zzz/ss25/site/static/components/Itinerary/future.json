@@ -1,0 +1,87 @@
+{
+    "2025-07-21": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "Object Oriented Programming",
+            "date": "2025-07-21",
+            "deadline": "None",
+            "links": {
+                "Intro to OOP Video": "https://www.youtube.com/watch?v=DmYPEH8qkRI",
+                "Classes in Memory Video": "https://www.youtube.com/watch?v=FM29tHBFBc8",
+                "Slides": "/static/slides/CL11.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 14,
+            "title": "Intro to OOP (Due Monday 7/21)",
+            "date": "2025-07-21",
+            "deadline": "2025-07-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "River Simulation (Due Friday 7/25)",
+            "date": "2025-07-21",
+            "deadline": "2025-07-25",
+            "links": {
+                "": "/exercises/river-sim.html"
+            }
+        }
+    ],
+    "2025-07-22": [
+        {
+            "kind": "CL",
+            "n": 12,
+            "title": "Magic Methods",
+            "date": "2025-07-22",
+            "deadline": "None",
+            "links": {
+                "Magic Methods Video": "https://youtu.be/wFaDObPJFUw",
+                "Magic Methods in Memory Example": "https://www.youtube.com/watch?v=233MVVMYpDY",
+                "Slides": "/static/slides/CL12.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 15,
+            "title": "Magic Methods (Due Tuesday 7/22)",
+            "date": "2025-07-22",
+            "deadline": "2025-07-22",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-07-23": [
+        {
+            "kind": "CQ",
+            "n": 7,
+            "title": "Practice with OOP + Magic Methods (Due Wednesday 7/23)",
+            "date": "2025-07-23",
+            "deadline": "2025-07-23",
+            "links": {
+                "": "/cqs/oops-and-mm.html"
+            }
+        }
+    ],
+    "2025-07-24": [],
+    "2025-07-28": [
+        {
+            "kind": "FN",
+            "n": 0,
+            "title": "Final",
+            "date": "2025-07-28",
+            "deadline": "None",
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html",
+                "Review Session (Thursday at 12 pm)": "https://unc.zoom.us/j/98463947351?pwd=TjbKXWssNC72HITafZzbQak0McF9Ie.1"
+            }
+        }
+    ]
+}
