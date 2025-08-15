@@ -1,352 +1,113 @@
 {
-    "2025-06-23": [
-        {
-            "kind": "CL",
-            "n": 0,
-            "title": "Welcome to COMP110",
-            "date": "2025-06-23",
-            "deadline": "None",
-            "links": {
-                "Welcome Video": "https://youtu.be/3qqaCsEVzng",
-                "Welcome Slides": "/static/slides/CL00.pdf",
-                "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
-                "Setup Part 1: Install Needed Software": "/resources/setup/software.html",
-                "Setup Part 2: Setup your Workspace": "/resources/setup/workspace.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 0,
-            "title": "Syllabus (Due Monday 6/23)",
-            "date": "2025-06-23",
-            "deadline": "2025-06-23",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-06-24": [
-        {
-            "kind": "CL",
-            "n": 1,
-            "title": "Objects and Data Types",
-            "date": "2025-06-24",
-            "deadline": "None",
-            "links": {
-                "Running a Program (Video)": "https://youtu.be/M1FeIzICA9A",
-                "Objects and Data Types (Video)": "https://www.youtube.com/watch?v=6GxkRgIze-c",
-                "Object and Data Types (Lecture Notes)": "/lessons/objects_data_types.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 1,
-            "title": "Running A Program (Due Tuesday 6/24)",
-            "date": "2025-06-24",
-            "deadline": "2025-06-24",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 2,
-            "title": "Objects and Data Types (Due Tuesday 6/24)",
-            "date": "2025-06-24",
-            "deadline": "2025-06-24",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
+    "2025-08-18": [],
+    "2025-08-19": [],
+    "2025-08-20": [],
+    "2025-08-21": [
         {
             "kind": "EX",
             "n": 0,
-            "title": "Hello World (Due Friday 6/27)",
-            "date": "2025-06-24",
-            "deadline": "2025-06-27",
+            "title": "Hello World (Due Sunday 8/24)",
+            "date": "2025-08-21",
+            "deadline": "2025-08-24",
             "links": {
                 "": "/exercises/ex00_hello_world.html"
             }
         }
     ],
-    "2025-06-25": [
-        {
-            "kind": "CL",
-            "n": 2,
-            "title": "Expressions, Functions, and Memory Diagrams",
-            "date": "2025-06-25",
-            "deadline": "None",
-            "links": {
-                "Expressions Video": "https://youtu.be/a9ervj3kVNo",
-                "Functions Video": "https://youtu.be/BIZA0clx5Zs",
-                "Memory Diagrams Video": "https://youtu.be/HWMnlbt_4is",
-                "Slides": "/static/slides/CL02.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 3,
-            "title": "Expressions (Due Wednesday 6/25)",
-            "date": "2025-06-25",
-            "deadline": "2025-06-25",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 4,
-            "title": "Functions (Due Wednesday 6/25)",
-            "date": "2025-06-25",
-            "deadline": "2025-06-25",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 0,
-            "title": "Memory Diagrams Practice (Due Wednesday 6/25)",
-            "date": "2025-06-25",
-            "deadline": "2025-06-25",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-06-26": [
-        {
-            "kind": "CQ",
-            "n": 1,
-            "title": "Writing Functions (Due Thursday 6/26)",
-            "date": "2025-06-26",
-            "deadline": "2025-06-26",
-            "links": {
-                "": "/cqs/CQ00-functions.html"
-            }
-        }
-    ],
-    "2025-06-27": [
+    "2025-08-22": [],
+    "2025-08-23": [],
+    "2025-08-24": [],
+    "2025-08-25": [],
+    "2025-08-26": [],
+    "2025-08-27": [],
+    "2025-08-28": [],
+    "2025-08-29": [],
+    "2025-08-30": [],
+    "2025-08-31": [],
+    "2025-09-01": [],
+    "2025-09-02": [
         {
             "kind": "QZ",
             "n": 0,
             "title": "Quiz 0",
-            "date": "2025-06-27",
-            "deadline": "2025-06-27",
+            "date": "2025-09-02",
+            "deadline": "2025-09-02",
             "links": {
                 "Practice Problems": "/resources/practice/practice-problems.html",
                 "Practice Diagrams": "/resources/practice/MemDiagrams.html"
             }
         }
     ],
-    "2025-06-28": [],
-    "2025-06-29": [],
-    "2025-06-30": [
-        {
-            "kind": "CL",
-            "n": 3,
-            "title": "Boolean Expressions and Conditionals",
-            "date": "2025-06-30",
-            "deadline": "None",
-            "links": {
-                "Boolean Expressions Video": "https://www.youtube.com/watch?v=tmmSlIq9I_0",
-                "Conditionals Video": "https://youtu.be/omtIjdWHpoQ",
-                "Slides": "/static/slides/CL03.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 5,
-            "title": "Boolean Expressions (Due Monday 6/30)",
-            "date": "2025-06-30",
-            "deadline": "2025-06-30",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 6,
-            "title": "Conditionals (Due Monday 6/30)",
-            "date": "2025-06-30",
-            "deadline": "2025-06-30",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-07-01": [
-        {
-            "kind": "CL",
-            "n": 4,
-            "title": "Recursion",
-            "date": "2025-07-01",
-            "deadline": "None",
-            "links": {
-                "Recursion Pt. 1": "https://www.youtube.com/watch?v=5mVmXIrG5ec",
-                "Recursion Pt. 2": "https://www.youtube.com/watch?v=lWwCoD9EV9g",
-                "Slides": "/static/slides/CL04.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 7,
-            "title": "Recursion (Due Tuesday 7/1)",
-            "date": "2025-07-01",
-            "deadline": "2025-07-01",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
+    "2025-09-03": [],
+    "2025-09-04": [],
+    "2025-09-05": [],
+    "2025-09-06": [],
+    "2025-09-07": [],
+    "2025-09-08": [],
+    "2025-09-09": [
         {
             "kind": "EX",
             "n": 1,
-            "title": "Tea Party (Due Thursday 7/3)",
-            "date": "2025-07-01",
-            "deadline": "2025-07-03",
+            "title": "Tea Party (Due Thursday 9/11)",
+            "date": "2025-09-09",
+            "deadline": "2025-09-11",
             "links": {
                 "": "/exercises/tea-party.html"
             }
         }
     ],
-    "2025-07-02": [
-        {
-            "kind": "CQ",
-            "n": 2,
-            "title": "Recursion Practice (Due Wednesday 7/2)",
-            "date": "2025-07-02",
-            "deadline": "2025-07-02",
-            "links": {
-                "": "/cqs/recursive-fns.html"
-            }
-        }
-    ],
-    "2025-07-03": [
+    "2025-09-10": [],
+    "2025-09-11": [],
+    "2025-09-12": [],
+    "2025-09-13": [],
+    "2025-09-14": [],
+    "2025-09-15": [],
+    "2025-09-16": [
         {
             "kind": "QZ",
             "n": 1,
             "title": "Quiz 1",
-            "date": "2025-07-03",
-            "deadline": "2025-07-03",
+            "date": "2025-09-16",
+            "deadline": "2025-09-16",
             "links": {
                 "Practice Problems": "/resources/practice/practice-problems.html",
                 "Practice Diagrams": "/resources/practice/MemDiagrams.html"
             }
         }
     ],
-    "2025-07-04": [],
-    "2025-07-05": [],
-    "2025-07-06": [],
-    "2025-07-07": [
-        {
-            "kind": "CL",
-            "n": 5,
-            "title": "User Input, Local Variables, and elif",
-            "date": "2025-07-07",
-            "deadline": "None",
-            "links": {
-                "Video": "https://youtu.be/eRHLEucuLt4",
-                "Slides": "/static/slides/CL05.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 8,
-            "title": "Variables and elif Statments (Due Monday 7/7)",
-            "date": "2025-07-07",
-            "deadline": "2025-07-07",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
+    "2025-09-17": [],
+    "2025-09-18": [
         {
             "kind": "EX",
             "n": 2,
-            "title": "Wordle (Due Thursday 7/10)",
-            "date": "2025-07-07",
-            "deadline": "2025-07-10",
+            "title": "Wordle (Due Sunday 9/21)",
+            "date": "2025-09-18",
+            "deadline": "2025-09-21",
             "links": {
                 "": "/exercises/wordle.html"
             }
         }
     ],
-    "2025-07-08": [
-        {
-            "kind": "CL",
-            "n": 6,
-            "title": "While Loops + Diagrams Practice",
-            "date": "2025-07-08",
-            "deadline": "None",
-            "links": {
-                "While Loops Video": "https://www.youtube.com/watch?v=iiksOU66xSw",
-                "Memory Diagrams Video": "https://youtu.be/-IaBIsOxwOM",
-                "Slides": "/static/slides/CL06.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 9,
-            "title": "While Loops (Due Tuesday 7/8)",
-            "date": "2025-07-08",
-            "deadline": "2025-07-08",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 3,
-            "title": "While Loops Practice (Due Tuesday 7/8)",
-            "date": "2025-07-08",
-            "deadline": "2025-07-08",
-            "links": {
-                "": "/cqs/while-loops.html"
-            }
-        }
-    ],
-    "2025-07-09": [
-        {
-            "kind": "CL",
-            "n": 7,
-            "title": "Lists",
-            "date": "2025-07-09",
-            "deadline": "None",
-            "links": {
-                "Lists Video": "https://www.youtube.com/watch?v=U_GP3Jkz5lU",
-                "Lists in Memory Video": "https://www.youtube.com/watch?v=WCvrVTUZ-Ac",
-                "Slides": "/static/slides/CL07.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 10,
-            "title": "Lists (Due Wednesday 7/9)",
-            "date": "2025-07-09",
-            "deadline": "2025-07-09",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-07-10": [
-        {
-            "kind": "CQ",
-            "n": 4,
-            "title": "Lists (Due Thursday 7/10)",
-            "date": "2025-07-10",
-            "deadline": "2025-07-10",
-            "links": {
-                "": "/cqs/lists.html"
-            }
-        }
-    ],
-    "2025-07-11": [
+    "2025-09-19": [],
+    "2025-09-20": [],
+    "2025-09-21": [],
+    "2025-09-22": [],
+    "2025-09-23": [],
+    "2025-09-24": [],
+    "2025-09-25": [],
+    "2025-09-26": [],
+    "2025-09-27": [],
+    "2025-09-28": [],
+    "2025-09-29": [],
+    "2025-09-30": [],
+    "2025-10-01": [],
+    "2025-10-02": [
         {
             "kind": "QZ",
             "n": 2,
             "title": "Quiz 2",
-            "date": "2025-07-11",
-            "deadline": "2025-07-11",
+            "date": "2025-10-02",
+            "deadline": "2025-10-02",
             "links": {
                 "Practice Problems": "/resources/practice/practice-problems.html",
                 "Practice Diagrams": "/resources/practice/MemDiagrams.html"
@@ -355,211 +116,116 @@
         {
             "kind": "EX",
             "n": 3,
-            "title": "List Utility Functions (Due Wednesday 7/16)",
-            "date": "2025-07-11",
-            "deadline": "2025-07-16",
+            "title": "List Utility Functions (Due Tuesday 10/7)",
+            "date": "2025-10-02",
+            "deadline": "2025-10-07",
             "links": {
                 "": "/exercises/list-utils.html"
             }
         }
     ],
-    "2025-07-12": [],
-    "2025-07-13": [],
-    "2025-07-14": [
-        {
-            "kind": "CL",
-            "n": 8,
-            "title": "Dictionaries",
-            "date": "2025-07-14",
-            "deadline": "None",
-            "links": {
-                "f-strings": "/lessons/f-strings.html",
-                "Dictionaries": "https://www.youtube.com/watch?v=PHkFp_T--yk",
-                "Dicts Slides": "/static/slides/Old/LS19.pdf",
-                "Dictionaries in Memory": "https://www.youtube.com/watch?v=tlfJfLBsuX0",
-                "Memory Slides": "/static/slides/Dicts-in-memory.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 11,
-            "title": "Dictionaries (Due Monday 7/14)",
-            "date": "2025-07-14",
-            "deadline": "2025-07-14",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-07-15": [
-        {
-            "kind": "CL",
-            "n": 9,
-            "title": "for Loops",
-            "date": "2025-07-15",
-            "deadline": "None",
-            "links": {
-                "for Loops Video": "https://www.youtube.com/watch?v=kzeQbHPivE0",
-                "Slides": "/static/slides/LS12.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 12,
-            "title": "for Loops (Due Tuesday 7/15)",
-            "date": "2025-07-15",
-            "deadline": "2025-07-15",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 5,
-            "title": "for Loops (Due Tuesday 7/15)",
-            "date": "2025-07-15",
-            "deadline": "2025-07-15",
-            "links": {
-                "": "/cqs/for-loops-lists-dicts.html"
-            }
-        }
-    ],
-    "2025-07-16": [
-        {
-            "kind": "CL",
-            "n": 10,
-            "title": "Unit Tests",
-            "date": "2025-07-16",
-            "deadline": "None",
-            "links": {
-                "Video": "https://youtu.be/T_9JaV2aIS0"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 13,
-            "title": "Unit Tests (Due Wednesday 7/16)",
-            "date": "2025-07-16",
-            "deadline": "2025-07-16",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-07-17": [
-        {
-            "kind": "CQ",
-            "n": 6,
-            "title": "Unit Tests (Due Thursday 7/17)",
-            "date": "2025-07-17",
-            "deadline": "2025-07-17",
-            "links": {
-                "": "/cqs/list-unit-tests.html"
-            }
-        },
+    "2025-10-03": [],
+    "2025-10-04": [],
+    "2025-10-05": [],
+    "2025-10-06": [],
+    "2025-10-07": [],
+    "2025-10-08": [],
+    "2025-10-09": [],
+    "2025-10-10": [],
+    "2025-10-11": [],
+    "2025-10-12": [],
+    "2025-10-13": [],
+    "2025-10-14": [],
+    "2025-10-15": [],
+    "2025-10-16": [
         {
             "kind": "EX",
             "n": 4,
-            "title": "Dictionary Utils (Due Monday 7/21)",
-            "date": "2025-07-17",
-            "deadline": "2025-07-21",
+            "title": "Dictionary Utils (Due Monday 10/20)",
+            "date": "2025-10-16",
+            "deadline": "2025-10-20",
             "links": {
                 "": "/exercises/dict-utils.html"
             }
         }
     ],
-    "2025-07-18": [
+    "2025-10-17": [],
+    "2025-10-18": [],
+    "2025-10-19": [],
+    "2025-10-20": [],
+    "2025-10-21": [
         {
             "kind": "QZ",
             "n": 3,
             "title": "Quiz 3",
-            "date": "2025-07-18",
-            "deadline": "2025-07-18",
+            "date": "2025-10-21",
+            "deadline": "2025-10-21",
             "links": {
                 "Practice Problems": "/resources/practice/practice-problems.html",
                 "Practice Diagrams": "/resources/practice/MemDiagrams.html"
             }
         }
     ],
-    "2025-07-19": [],
-    "2025-07-20": [],
-    "2025-07-21": [
-        {
-            "kind": "CL",
-            "n": 11,
-            "title": "Object Oriented Programming",
-            "date": "2025-07-21",
-            "deadline": "None",
-            "links": {
-                "Intro to OOP Video": "https://www.youtube.com/watch?v=DmYPEH8qkRI",
-                "Classes in Memory Video": "https://www.youtube.com/watch?v=FM29tHBFBc8",
-                "Slides": "/static/slides/CL11.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 14,
-            "title": "Intro to OOP (Due Monday 7/21)",
-            "date": "2025-07-21",
-            "deadline": "2025-07-21",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
+    "2025-10-22": [],
+    "2025-10-23": [
         {
             "kind": "EX",
             "n": 5,
-            "title": "River Simulation (Due Friday 7/25)",
-            "date": "2025-07-21",
-            "deadline": "2025-07-25",
+            "title": "River Simulation (Due Monday 10/27)",
+            "date": "2025-10-23",
+            "deadline": "2025-10-27",
             "links": {
                 "": "/exercises/river-sim.html"
             }
         }
     ],
-    "2025-07-22": [
-        {
-            "kind": "CL",
-            "n": 12,
-            "title": "Magic Methods",
-            "date": "2025-07-22",
-            "deadline": "None",
-            "links": {
-                "Magic Methods Video": "https://youtu.be/wFaDObPJFUw",
-                "Magic Methods in Memory Example": "https://www.youtube.com/watch?v=233MVVMYpDY",
-                "Slides": "/static/slides/CL12.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 15,
-            "title": "Magic Methods (Due Tuesday 7/22)",
-            "date": "2025-07-22",
-            "deadline": "2025-07-22",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-07-23": [
-        {
-            "kind": "CQ",
-            "n": 7,
-            "title": "Practice with OOP + Magic Methods (Due Wednesday 7/23)",
-            "date": "2025-07-23",
-            "deadline": "2025-07-23",
-            "links": {
-                "": "/cqs/oops-and-mm.html"
-            }
-        }
-    ],
-    "2025-07-24": [],
-    "2025-07-28": [
+    "2025-10-24": [],
+    "2025-10-25": [],
+    "2025-10-26": [],
+    "2025-10-27": [],
+    "2025-10-28": [],
+    "2025-10-29": [],
+    "2025-10-30": [],
+    "2025-10-31": [],
+    "2025-11-01": [],
+    "2025-11-02": [],
+    "2025-11-03": [],
+    "2025-11-04": [],
+    "2025-11-05": [],
+    "2025-11-06": [],
+    "2025-11-07": [],
+    "2025-11-08": [],
+    "2025-11-09": [],
+    "2025-11-10": [],
+    "2025-11-11": [],
+    "2025-11-12": [],
+    "2025-11-13": [],
+    "2025-11-14": [],
+    "2025-11-15": [],
+    "2025-11-16": [],
+    "2025-11-17": [],
+    "2025-11-18": [],
+    "2025-11-19": [],
+    "2025-11-20": [],
+    "2025-11-21": [],
+    "2025-11-22": [],
+    "2025-11-23": [],
+    "2025-11-24": [],
+    "2025-11-25": [],
+    "2025-11-26": [],
+    "2025-11-27": [],
+    "2025-11-28": [],
+    "2025-11-29": [],
+    "2025-11-30": [],
+    "2025-12-01": [],
+    "2025-12-02": [],
+    "2025-12-03": [],
+    "2025-12-06": [
         {
             "kind": "FN",
             "n": 0,
             "title": "Final",
-            "date": "2025-07-28",
+            "date": "2025-12-06",
             "deadline": "None",
             "links": {
                 "Practice Problems": "/resources/practice/practice-problems.html",
