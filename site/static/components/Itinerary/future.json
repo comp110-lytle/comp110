@@ -1,19 +1,33 @@
 {
     "2025-08-18": [],
-    "2025-08-19": [],
-    "2025-08-20": [],
-    "2025-08-21": [
+    "2025-08-19": [
         {
-            "kind": "EX",
+            "kind": "CL",
             "n": 0,
-            "title": "Hello World (Due Sunday 8/24)",
-            "date": "2025-08-21",
-            "deadline": "2025-08-24",
+            "title": "Welcome to COMP110",
+            "date": "2025-08-19",
+            "deadline": "None",
             "links": {
-                "": "/exercises/ex00_hello_world.html"
+                "Welcome Video": "https://youtu.be/3qqaCsEVzng",
+                "Welcome Slides": "/static/slides/CL00.pdf",
+                "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
+                "Setup Part 1: Install Needed Software": "/resources/setup/software.html",
+                "Setup Part 2: Setup your Workspace": "/resources/setup/workspace.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 0,
+            "title": "Syllabus (Due Tuesday 8/19)",
+            "date": "2025-08-19",
+            "deadline": "2025-08-19",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],
+    "2025-08-20": [],
+    "2025-08-21": [],
     "2025-08-22": [],
     "2025-08-23": [],
     "2025-08-24": [],
@@ -32,10 +46,7 @@
             "title": "Quiz 0",
             "date": "2025-09-02",
             "deadline": "2025-09-02",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
-            }
+            "links": {}
         }
     ],
     "2025-09-03": [],
@@ -44,18 +55,7 @@
     "2025-09-06": [],
     "2025-09-07": [],
     "2025-09-08": [],
-    "2025-09-09": [
-        {
-            "kind": "EX",
-            "n": 1,
-            "title": "Tea Party (Due Thursday 9/11)",
-            "date": "2025-09-09",
-            "deadline": "2025-09-11",
-            "links": {
-                "": "/exercises/tea-party.html"
-            }
-        }
-    ],
+    "2025-09-09": [],
     "2025-09-10": [],
     "2025-09-11": [],
     "2025-09-12": [],
@@ -69,25 +69,11 @@
             "title": "Quiz 1",
             "date": "2025-09-16",
             "deadline": "2025-09-16",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
-            }
+            "links": {}
         }
     ],
     "2025-09-17": [],
-    "2025-09-18": [
-        {
-            "kind": "EX",
-            "n": 2,
-            "title": "Wordle (Due Sunday 9/21)",
-            "date": "2025-09-18",
-            "deadline": "2025-09-21",
-            "links": {
-                "": "/exercises/wordle.html"
-            }
-        }
-    ],
+    "2025-09-18": [],
     "2025-09-19": [],
     "2025-09-20": [],
     "2025-09-21": [],
@@ -108,20 +94,7 @@
             "title": "Quiz 2",
             "date": "2025-10-02",
             "deadline": "2025-10-02",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 3,
-            "title": "List Utility Functions (Due Tuesday 10/7)",
-            "date": "2025-10-02",
-            "deadline": "2025-10-07",
-            "links": {
-                "": "/exercises/list-utils.html"
-            }
+            "links": {}
         }
     ],
     "2025-10-03": [],
@@ -137,18 +110,7 @@
     "2025-10-13": [],
     "2025-10-14": [],
     "2025-10-15": [],
-    "2025-10-16": [
-        {
-            "kind": "EX",
-            "n": 4,
-            "title": "Dictionary Utils (Due Monday 10/20)",
-            "date": "2025-10-16",
-            "deadline": "2025-10-20",
-            "links": {
-                "": "/exercises/dict-utils.html"
-            }
-        }
-    ],
+    "2025-10-16": [],
     "2025-10-17": [],
     "2025-10-18": [],
     "2025-10-19": [],
@@ -160,25 +122,11 @@
             "title": "Quiz 3",
             "date": "2025-10-21",
             "deadline": "2025-10-21",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
-            }
+            "links": {}
         }
     ],
     "2025-10-22": [],
-    "2025-10-23": [
-        {
-            "kind": "EX",
-            "n": 5,
-            "title": "River Simulation (Due Monday 10/27)",
-            "date": "2025-10-23",
-            "deadline": "2025-10-27",
-            "links": {
-                "": "/exercises/river-sim.html"
-            }
-        }
-    ],
+    "2025-10-23": [],
     "2025-10-24": [],
     "2025-10-25": [],
     "2025-10-26": [],
@@ -227,11 +175,7 @@
             "title": "Final",
             "date": "2025-12-06",
             "deadline": "None",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html",
-                "Review Session (Thursday at 12 pm)": "https://unc.zoom.us/j/98463947351?pwd=TjbKXWssNC72HITafZzbQak0McF9Ie.1"
-            }
+            "links": {}
         }
     ]
 }
