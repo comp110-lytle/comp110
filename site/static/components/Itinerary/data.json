@@ -27,9 +27,9 @@
         {
             "kind": "EX",
             "n": 0,
-            "title": "Hello World (Due Friday 8/22)",
+            "title": "Hello World (Due Monday 8/25)",
             "date": "2025-08-19",
-            "deadline": "2025-08-22",
+            "deadline": "2025-08-25",
             "links": {
                 "": "/exercises/ex00_hello_world.html"
             }
