@@ -168,7 +168,7 @@ Lesson responses and programming exercises will all have deadlines and late peri
 
 Lesson and Challenge Question responses on Gradescope are assigned on lecture days and must be completed before 11:59pm the same day unless noted otherwise. To ensure fairness to everyone, as emergencies may arise, we will drop the 2 lowest lesson scores and the 1 lowest challenge question score, including zeros.
 
-For all assignments, submissions made after the deadline will have a 5% late penalty applied per day late, capping at a lowest grade of 80%. Exercises and projects cannot be handed in beyond their 6-day late period, which follows the original deadline. **The lowest exercise score, including a zero, will be dropped.**
+For all assignments, submissions made after the deadline will have a 15% late penalty applied. **The lowest exercise score, including a zero, will be dropped.**
 
 
 ## Late Point Forgiveness Insurance
@@ -197,6 +197,15 @@ Like real insurance, there is no reward for not needing to use these points and 
 - F: 59 or below
 
 In cases of fractional points, grades will be rounded up if greater than 0.4999999999...
+
+## Course Passage Policy
+
+
+In order to pass COMP110, you must accomplish ALL of the following:
+
+* Have a passing grade given the rubric of weights above and grading scale below
+* Take at least 4 quizzes
+* Score greater than 40% on the final exam
 
 # Honor Code Policies
 
