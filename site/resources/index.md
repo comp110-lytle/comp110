@@ -37,7 +37,7 @@ navbar: base
 
 - [Practice Problems](/resources/practice/practice-problems.html)
 
-- [Extra Practice](/resources/tutoring-practice/tutoring-practice.html)
+<!-- - [Extra Practice](/resources/tutoring-practice/tutoring-practice.html) -->
 
 <!-- - [Grade Estimator](/resources/grade_calc/grade_calc.html) -->
 
@@ -63,7 +63,7 @@ navbar: base
 
 <!-- - _**[VIRTUAL LESSONS:](/virtual-classes/index.html)**_ Lessons for each unit  -->
 
-- _**[Class Schedule:](/)**_ *Tentative* Class Schedule
+- _**[Class Schedule:](https://docs.google.com/spreadsheets/d/1oxgLKNVR8eXJmSJ5oSBB9cvdrsG0TmP2A2M_6MjE5T0/edit?usp=sharing)**_ *Tentative* Class Schedule
 
 
 

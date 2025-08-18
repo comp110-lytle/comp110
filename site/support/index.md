@@ -12,7 +12,8 @@ template: columns
 
 # Where Do I Go For Help?
 
-* Office Hours: Setup, homework + conceptual questions
+* Office Hours: Setup, homework + quick conceptual questions
+* Tutoring: Longer-form + conceptual questions
 * Email <abyrnes1@cs.unc.edu>: Assignment extension requests, logistical concerns; personal issues and emergencies that impact performance in the course
 
 <!-- # Office Hours + Tutoring -->
@@ -28,7 +29,7 @@ Office hours is the ideal place to come for one-on-one help with:
 * Lessons
 * Challenge Questions
 
-<!-- Typical office hours are listed to the right, but check the hours on the [CSXL website](https://csxl.unc.edu/) for the most up-to-date availability this week. -->
+Typical office hours are listed to the right, but check the hours on the [CSXL website](https://csxl.unc.edu/) for the most up-to-date availability this week.
 
 Note: We must stop taking tickets at the closing time and cannot stay beyond. If the queue is long enough that we do not believe we will be able to see all tickets we will turn off the ability to submit new tickets before closing time.
 
@@ -36,7 +37,7 @@ Office hours appointments for programming exercises are limited to 15 minutes an
 
 In order to serve every student in the course as best we can, we must enforce a 1-hour wait period between appointments with the same student. During this time, we expect you to continue making substantive progress on your programming exercise. If you anticipate needing significant amounts of help on an assignment, please start as far in advance as possible so you will have multiple opportunities to ask questions as they arise. Realizing you need help more than once in a given day is an indication you would benefit from a stronger conceptual understanding of the material in question and it would be great for you to come work with us during tutoring hours!
 
-<!-- To work with us in office hours, <a href="https://csxl.unc.edu/" target="_blank">visit the CSXL site</a>. Please already be in Fred Brooks/Sitterson Hall when you submit a ticket so a TA can help you as soon as they are available. -->
+To work with us in office hours, <a href="https://csxl.unc.edu/" target="_blank">visit the CSXL site</a>. Please already be in Fred Brooks/Sitterson Hall when you submit a ticket so a TA can help you as soon as they are available.
 
 <!-- To participate in remote office hours:
 
@@ -46,9 +47,7 @@ In order to serve every student in the course as best we can, we must enforce a 
 4. <a href="https://course.care/ng/course/85" target="_blank">Open Course.Care click "Check-in" for currently open office hours</a>. Select what kind of help you are seeking and paste in your Zoom URL. Be detailed and descriptive in your request for help. If you fail to make an honest effort to describe the purpose of the meeting, TAs are instructed to cancel your request.
 5. Our teaching team will get to you as soon as we can! -->
 
-### Ed Stem for on-line Q&A About Lessons / Conceptual Help 
 
-Join EdStem here <https://edstem.org/>. Do not make public posts about programming exercises. Come work with us in office hours with these questions or mark them as posting to "instructors only". Unless we are able to answer a question very quickly, it is likely we will redirect you to office hours in any case. 
 
 # Feedback
 
@@ -62,7 +61,14 @@ If you have suggestions on how to improve the course or just want to leave some 
 
 # Office Hours
 
-The following are our in-person and virtual office hours. Any office hours cancellations (e.g., on a holiday or Wellness Day) will be announced via EdStem and in lectures.
+The following are our in-person and virtual office hours. Any office hours cancellations (e.g., on a holiday or Wellness Day) will be announced.
+
+* _Monday: 11:00 AM - 5:00 PM_
+* _Tuesday: 11:00 AM - 5:00 PM_
+* _Wednesday: 11:00 AM - 5:00 PM_
+* _Thursday: 11:00 AM - 5:00 PM_
+* _Friday: 11:00 AM - 5:00 PM_
+* _Sunday: 1:00 - 5:00 PM_ 
 
 <!-- ## In-Person Office Hours Schedule
 
@@ -75,30 +81,30 @@ In-person Office Hours will be in Sitterson Hall (SN) 008. You can find Sitterso
 * _Friday: 1:00 - 3:00 PM_
 * _Sunday: 1:00 - 3:00 PM_ -->
 
-## Virtual Office Hours Schedule
+<!-- ## Virtual Office Hours Schedule
 
 Virtual Office Hours will be offered via Zoom.
 
 To join office hours, you will create your own Zoom meeting and send the link for the TA to join! 
 
-Go to [EdStem](https://edstem.org/) and select "chat" (under the "new thread" button in the top left). Then select the "#office-hours" channel and post your Zoom link in the chat! 
+Go to [EdStem](https://edstem.org/) and select "chat" (under the "new thread" button in the top left). Then select the "#office-hours" channel and post your Zoom link in the chat!  -->
 
-
+<!-- 
 ### Office Hours Times
 
 * _Monday: 12:00 - 2:00 PM_
 * _Tuesday: 9:00 AM - 12:00 PM_
 * _Wednesday: 9:00 - 11:00 AM, 5:00 - 7:00 PM_
-* _Thursday: 11:00 AM - 2:00 PM, 5:00 - 8:00 PM_
+* _Thursday: 11:00 AM - 2:00 PM, 5:00 - 8:00 PM_ -->
 
 
-<!-- ## In-Person Tutoring Schedule
+## In-Person Tutoring Schedule
 
 * _Monday: 5:00 PM - 7:00 PM_ in Sitterson Hall (SN) 011
 * _Wednesday: 5:00 PM - 7:00 PM_ in Sitterson Hall (SN) 011
-* _Thursday: 3:00 PM - 5:00 PM_ in Fred Brooks (FB) 331
+* _Thursday: 3:00 PM - 5:00 PM_ in Sitterson Hall (SN) 284
 
-Please note that tutoring is in a different room on Thursdays; view [this floor plan](https://cs.unc.edu/resources/floor-plans/) to help you find room FB 331.  -->
+Please note that tutoring is in a different room on Thursdays; view [this floor plan](https://cs.unc.edu/resources/floor-plans/) to help you find the rooms. 
 
 </div>
 
