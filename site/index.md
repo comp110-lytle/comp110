@@ -48,22 +48,26 @@ template: home
 </ul></div><div class="plan Lesson">
 <span class="kind">LS00 </span><span class="title"><a href="https://www.gradescope.com/">Syllabus (Due Tuesday 8/19)</a></span></div><div class="plan Exercise">
 <span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Friday 8/22)</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-09-02" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Sep 2</div>
+</div><div data-type="lecture" data-date="2025-08-28" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Aug 28</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span></div></div>
-</div><div data-type="lecture" data-date="2025-09-16" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Sep 16</div>
+</div><div data-type="lecture" data-date="2025-09-18" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Sep 18</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ01 </span><span class="title">Quiz 1</span></div></div>
-</div><div data-type="lecture" data-date="2025-10-02" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Oct 2</div>
+</div><div data-type="lecture" data-date="2025-10-09" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Oct 9</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ02 </span><span class="title">Quiz 2</span></div></div>
-</div><div data-type="lecture" data-date="2025-10-28" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Oct 28</div>
+</div><div data-type="lecture" data-date="2025-10-30" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Oct 30</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span></div></div>
+</div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Nov 20</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ04 </span><span class="title">Quiz 4</span></div></div>
 </div><div data-type="lecture" data-date="2025-12-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Sat, Dec 6</div>
 <div class="plans col-md-9"><div class="plan Final">
