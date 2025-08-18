@@ -14,7 +14,7 @@ template: columns
 
 * Office Hours: Setup, homework + quick conceptual questions
 * Tutoring: Longer-form + conceptual questions
-* Email <comp110help@gmail.com>: Assignment extension requests, logistical concerns *(MAKE SURE YOU MENTION YOU ARE FROM SECTION 3!)*
+* Email <comp110help@gmail.com>: Assignment extension requests, logistical concerns (MAKE SURE YOU MENTION YOU ARE FROM SECTION 3!)
 * Email <abyrnes1@cs.unc.edu>: Severe personal problems impacting your performance in the course
 
 <!-- # Office Hours + Tutoring -->
