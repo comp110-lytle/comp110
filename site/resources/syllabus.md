@@ -171,7 +171,7 @@ Lesson and Challenge Question responses on Gradescope are assigned on lecture da
 For all assignments, submissions made after the deadline will have a 5% late penalty applied per day late, capping at a lowest grade of 80%. Exercises and projects cannot be handed in beyond their 6-day late period, which follows the original deadline. **The lowest exercise score, including a zero, will be dropped.**
 
 
-<!-- ## Late Point Forgiveness Insurance
+## Late Point Forgiveness Insurance
 
 As “insurance” against illness, computer crashes, sporting events, conflicts with other coursework, and *waves arms around in the air* life, every student in the course is automatically forgiven the following points worth of late penalties on assignments at the end of the term: 
 
@@ -180,7 +180,7 @@ As “insurance” against illness, computer crashes, sporting events, conflicts
 * Exercises: forgiven up to 2 late exercise penalties
 * Readings: forgiven up to 1 late reading assignment penalty
 
-Like real insurance, there is no reward for not needing to use these points and you should try to avoid using them outside of unpredictable, emergency situations like a computer needing repair.  -->
+Like real insurance, there is no reward for not needing to use these points and you should try to avoid using them outside of unpredictable, emergency situations like a computer needing repair. 
 
 
 ## Grading Scale Breakdown
