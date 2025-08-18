@@ -67,6 +67,6 @@ template: home
 </div><div data-type="lecture" data-date="2025-12-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Sat, Dec 6</div>
 <div class="plans col-md-9"><div class="plan Final">
-<span class="kind">FN00 </span><span class="title">Final</span></div></div>
+<span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span></div></div>
 </div><!-- The Past section --></div>
 </div>
