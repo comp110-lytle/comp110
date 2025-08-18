@@ -31,7 +31,7 @@ Time and Location: Tues/Thurs 12:30 PM-1:45 PM, Hamilton Hall Rm 100
 
 Instructor: 
 
-[Alyssa Lytle](https://alyssalytle.github.io/) (Sections 001 and 002)
+[Alyssa Lytle](https://alyssalytle.github.io/) 
 
 * Office: FB 136
 * Office Hours: [By Appointment](https://alyssalytle.github.io/schedule.html)
@@ -151,9 +151,9 @@ If, and only if, you take all quizzes and your final examination score exceeds y
 Grades on programming assignments have two components: autograded points and manually graded points. You should take note of how many autograded vs. manually graded points there are ahead of submission. You are permitted, and encouraged, to resubmit your programming assignments as many times as you need in order to earn full credit on the autograded points of an assignment. There is no penalty for resubmission. The autograder will run and assign a score within a few minutes of submission. We will not go back and manually assign any credit for autograder points you failed to earn, so you can know and be aware of your autograded points upon submission. If you do not understand the error output of some autograded point deduction, please come see us in office hours!
 
 
-<!-- ## Early submission of programming assignments
+## Early submission of programming assignments
 
-Programming assignments (exercises and projects) whose final submission is made 48 hours, or more, before their deadline will receive a 5% early hand-in bonus on the assignment’s autograded score. Submissions that fall within the early window of 24-48 hours before the deadline will receive a 3% early hand-in bonus. Submissions made within 24 hours of the deadline are not subject to any bonus. The early hand-in bonus does not apply to manually graded points on projects. -->
+Programming assignments (exercises and projects) whose final submission is made 48 hours, or more, before their deadline will receive a 5% early hand-in bonus on the assignment’s autograded score. Submissions that fall within the early window of 24-48 hours before the deadline will receive a 3% early hand-in bonus. Submissions made within 24 hours of the deadline are not subject to any bonus. The early hand-in bonus does not apply to manually graded points on projects. 
 
 ## Regrade Requests
 
