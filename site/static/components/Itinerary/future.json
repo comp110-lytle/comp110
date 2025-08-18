@@ -8,7 +8,7 @@
             "date": "2025-08-19",
             "deadline": "None",
             "links": {
-                "Welcome Slides": "/",
+                "Welcome Slides": "/static/slides/CL00.pdf",
                 "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
                 "Setup Part 1: Install Needed Software": "/resources/setup/software.html",
                 "Setup Part 2: Setup your Workspace": "/resources/setup/workspace.html"

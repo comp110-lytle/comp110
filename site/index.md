@@ -41,7 +41,7 @@ template: home
 <div class="date col-md-2">Tue, Aug 19</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL00 </span><span class="title">Welcome to COMP110</span>
-<ul class="links"><li class="link"><a href="/">Welcome Slides</a></li>
+<ul class="links"><li class="link"><a href="/static/slides/CL00.pdf">Welcome Slides</a></li>
 <li class="link"><a href="/resources/setup/os-update.html">Setup Part 0: Update Operating System</a></li>
 <li class="link"><a href="/resources/setup/software.html">Setup Part 1: Install Needed Software</a></li>
 <li class="link"><a href="/resources/setup/workspace.html">Setup Part 2: Setup your Workspace</a></li>
