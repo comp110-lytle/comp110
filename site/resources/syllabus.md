@@ -178,7 +178,6 @@ As “insurance” against illness, computer crashes, sporting events, conflicts
 * Lessons: forgiven up to 2 late lesson penalties
 * Challenge Questions: forgiven up to 2 late lesson penalties
 * Exercises: forgiven up to 2 late exercise penalties
-* Readings: forgiven up to 1 late reading assignment penalty
 
 Like real insurance, there is no reward for not needing to use these points and you should try to avoid using them outside of unpredictable, emergency situations like a computer needing repair. 
 
