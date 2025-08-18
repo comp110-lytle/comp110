@@ -176,7 +176,7 @@ For all assignments, submissions made after the deadline will have a 15% late pe
 As “insurance” against illness, computer crashes, sporting events, conflicts with other coursework, and *waves arms around in the air* life, every student in the course is automatically forgiven the following points worth of late penalties on assignments at the end of the term: 
 
 * Lessons: forgiven up to 2 late lesson penalties
-* Challenge Questions: forgiven up to 2 late lesson penalties
+* Challenge Questions: forgiven up to 2 late CQ penalties
 * Exercises: forgiven up to 2 late exercise penalties
 
 Like real insurance, there is no reward for not needing to use these points and you should try to avoid using them outside of unpredictable, emergency situations like a computer needing repair. 
