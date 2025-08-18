@@ -44,9 +44,8 @@ page: resource
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
     <a href="/resources/profiles/cgbryan.html"><img src="/static/profile-photos/cgbryan.jpg" class="profile-image"> </a>
   <figcaption>Caroline Bryan</figcaption>
-</figure>
+</figure> -->
 
-<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/cdander9.html"><img src="/static/profile-photos/cdander9.png" class="profile-image"></a> <figcaption>Carmine Anderson - Falconi</figcaption></figure> -->
 
 <!-- <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/csabato.html"><img src="/static/profile-photos/csabato.jpg" class="profile-image"></a> <figcaption>Chiara Sabato</figcaption></figure> -->
 <!-- 
@@ -68,12 +67,12 @@ page: resource
     <figcaption>Grace Odondi</figcaption>
   </figure> -->
 
-<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/"><img src="/static/profile-photos/ivy.jpeg" class="profile-image"></a> <figcaption>Ivy Nangalia</figcaption></figure>
+<!-- <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/"><img src="/static/profile-photos/ivy.jpeg" class="profile-image"></a> <figcaption>Ivy Nangalia</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
     <a href="/resources/profiles/jcoury.html"><img src="/static/profile-photos/jcoury.jpg" class="profile-image"> </a>
     <figcaption>Jack Coury</figcaption>
-  </figure>
+  </figure> -->
 
 <!-- <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/jaylim.html"><img src="/static/profile-photos/jaylim.PNG" class="profile-image"> </a><figcaption>Jayden Lim</figcaption></figure>
 
@@ -146,8 +145,8 @@ page: resource
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/sophiejiang13.html"><img src="/static/profile-photos/sophiejiang.jpeg" class="profile-image"> </a> <figcaption>Sophie Jiang</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/upasana.html"><img src="/static/profile-photos/upasana.jpg" class="profile-image"> </a> <figcaption>Upasana Lamsal</figcaption></figure> -->
-
-<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/vhunany.html"><img src="/static/profile-photos/vhunany.png" class="profile-image"> </a> <figcaption>Viktorya Hunanyan</figcaption></figure>
+<!-- 
+<figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/vhunany.html"><img src="/static/profile-photos/vhunany.png" class="profile-image"> </a> <figcaption>Viktorya Hunanyan</figcaption></figure> -->
 <!-- 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/vinceli.html"><img src="/static/profile-photos/vinceli.jpg" class="profile-image"> </a><figcaption>Vincent Li</figcaption></figure>
 
