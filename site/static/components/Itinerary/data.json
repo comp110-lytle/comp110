@@ -8,8 +8,7 @@
             "date": "2025-08-19",
             "deadline": "None",
             "links": {
-                "Welcome Video": "https://youtu.be/3qqaCsEVzng",
-                "Welcome Slides": "/static/slides/CL00.pdf",
+                "Welcome Slides": "/",
                 "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
                 "Setup Part 1: Install Needed Software": "/resources/setup/software.html",
                 "Setup Part 2: Setup your Workspace": "/resources/setup/workspace.html"
@@ -23,6 +22,16 @@
             "deadline": "2025-08-19",
             "links": {
                 "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 0,
+            "title": "Hello World (Due Friday 8/22)",
+            "date": "2025-08-19",
+            "deadline": "2025-08-22",
+            "links": {
+                "": "/exercises/ex00_hello_world.html"
             }
         }
     ],
@@ -115,23 +124,23 @@
     "2025-10-18": [],
     "2025-10-19": [],
     "2025-10-20": [],
-    "2025-10-21": [
-        {
-            "kind": "QZ",
-            "n": 3,
-            "title": "Quiz 3",
-            "date": "2025-10-21",
-            "deadline": "2025-10-21",
-            "links": {}
-        }
-    ],
+    "2025-10-21": [],
     "2025-10-22": [],
     "2025-10-23": [],
     "2025-10-24": [],
     "2025-10-25": [],
     "2025-10-26": [],
     "2025-10-27": [],
-    "2025-10-28": [],
+    "2025-10-28": [
+        {
+            "kind": "QZ",
+            "n": 3,
+            "title": "Quiz 3",
+            "date": "2025-10-28",
+            "deadline": "2025-10-28",
+            "links": {}
+        }
+    ],
     "2025-10-29": [],
     "2025-10-30": [],
     "2025-10-31": [],
