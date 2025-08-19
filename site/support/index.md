@@ -62,7 +62,9 @@ If you have suggestions on how to improve the course or just want to leave some 
 
 # Office Hours
 
-The following are our in-person and virtual office hours. Any office hours cancellations (e.g., on a holiday or Wellness Day) will be announced.
+The following are our in-person office hours. Any office hours cancellations (e.g., on a holiday or Wellness Day) will be announced. 
+
+Office hours are held in SN008.
 
 * _Monday: 11:00 AM - 5:00 PM_
 * _Tuesday: 11:00 AM - 5:00 PM_
