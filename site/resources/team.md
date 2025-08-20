@@ -46,6 +46,10 @@ page: resource
   <figcaption>Caroline Bryan</figcaption>
 </figure> -->
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/730677773.html"><img src="/static/profile-photos/730677773.png" class="profile-image"> </a>
+    <figcaption>Daniel Wang</figcaption>
+  </figure>
 
 <!-- <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/csabato.html"><img src="/static/profile-photos/csabato.jpg" class="profile-image"></a> <figcaption>Chiara Sabato</figcaption></figure> -->
 <!-- 
