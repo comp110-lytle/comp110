@@ -36,7 +36,49 @@
         }
     ],
     "2025-08-20": [],
-    "2025-08-21": [],
+    "2025-08-21": [
+        {
+            "kind": "CL",
+            "n": 1,
+            "title": "Objects, Data Types, and Expressions",
+            "date": "2025-08-21",
+            "deadline": "None",
+            "links": {
+                "Running a Program (Video)": "https://youtu.be/M1FeIzICA9A",
+                "Lesson Slides": "/static/slides/CL01.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 1,
+            "title": "VS Code, Terminal, + Running a Program (Due Thursday 8/21)",
+            "date": "2025-08-21",
+            "deadline": "2025-08-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Objects and Data Types (Due Thursday 8/21)",
+            "date": "2025-08-21",
+            "deadline": "2025-08-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Expressions (Due Thursday 8/21)",
+            "date": "2025-08-21",
+            "deadline": "2025-08-21",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-08-22": [],
     "2025-08-23": [],
     "2025-08-24": [],
