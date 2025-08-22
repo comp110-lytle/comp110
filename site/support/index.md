@@ -103,11 +103,13 @@ Go to [EdStem](https://edstem.org/) and select "chat" (under the "new thread" bu
 
 ## In-Person Tutoring Schedule
 
-* _Monday: 5:00 PM - 7:00 PM_ in Sitterson Hall (SN) 011
-* _Wednesday: 5:00 PM - 7:00 PM_ in Sitterson Hall (SN) 011
-* _Thursday: 3:00 PM - 5:00 PM_ in Sitterson Hall (SN) 284
+The tutoring hours and location(s) will be announced shortly. Thank you for your patience!
 
-Please note that tutoring is in a different room on Thursdays; view [this floor plan](https://cs.unc.edu/resources/floor-plans/) to help you find the rooms. 
+<!-- * _Monday: 5:00 PM - 7:00 PM_ in Sitterson Hall (SN) 011
+* _Wednesday: 5:00 PM - 7:00 PM_ in Sitterson Hall (SN) 011
+* _Thursday: 5:00 PM - 7:00 PM_ in Sitterson Hall (SN) 284
+
+Please note that tutoring is in a different room on Thursdays; view [this floor plan](https://cs.unc.edu/resources/floor-plans/) to help you find the rooms.  -->
 
 </div>
 
