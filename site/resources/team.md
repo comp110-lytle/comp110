@@ -119,6 +119,11 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/730472629.html"><img src="/static/profile-photos/730472629.png" class="profile-image"> </a> <figcaption>Miguel Villaseñor</figcaption></figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/nehab4.html"><img src="/static/profile-photos/nehab4.jpg" class="profile-image"> </a>
+    <figcaption>Neha Bharadwaj</figcaption>
+  </figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"> 
     <a href="/resources/profiles/nupurj24.html"><img src="/static/profile-photos/nupurj24.jpg" class="profile-image"> </a>
     <figcaption>Nupur Joshi</figcaption>
