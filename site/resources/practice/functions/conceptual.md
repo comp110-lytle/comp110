@@ -135,15 +135,6 @@ Output:
 
     5.2. What is the *type* of the parameter `tablespoons`? What is the *return type* of this function?
 
-## Function Signatures
-
-1. What is a function signature, and why is it significant?
-
-2. Write the function signature for a function called `pos_or_neg` that takes as input an integer and returns `"Positive"` if the integer is positive and returns `"Negative"` if the integer is negative. Use `number` as the name of the parameter.
-
-3. Write the function signature for a function called `gcd` that takes two integers as input and returns the integer that is their greatest common divisor. Use `num_one` and `num_two` as your parameter names.
-
-
 ## Spot the error
 
 1. Does the following code contain any issues that could affect its example usage? If yes, what is it and why is it a problem?
@@ -370,20 +361,6 @@ Example:
 
     5.2. The type of `tablespoons` is `int` and the return type of the function is `str`.
 
-
-## Function Signatures
-
-1. A function signature refers to the first line of a function definition, where the def keyword is used. Following the def keyword is the function name, and after the function name is a set of parentheses that enclose the parameter list. After the parameter list comes the return type. The function signature is important because it defines how the function can be called and what kinds of inputs and outputs are expected. Without a signature, you wouldn't know what parameters to provide or even how to call the function, since the function name would be missing.
-
-2.
-```python
-def pos_or_neg(number: int) -> str:
-```
-
-3.
-```python
-def gcd(num_one: int, num_two: int) -> int:
-```
 
 ## Spot the error
 
