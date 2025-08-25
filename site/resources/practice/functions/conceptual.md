@@ -39,13 +39,19 @@ template: overview
     print(echo(word="hello", times=4))
 ```
 
-15.1 Identify where a call to a function occurs. How do you know it is a call? 
-15.2 Where do we have a return *type* declared? 
-15.3 Where do we have a return statement? 
-15.4 What value does the call to the function hold? How do you know? Show this both through code and through a memory diagram of the snippet.
-15.5 Explain why `print(echo)` does not function the same as `echo(word="hello", times=4)`. Show this both through code and through a memory diagram of the snippet.
-15.6 Change the code to provide the same output but with a different functionality. 
-15.7 On line 2, we multiply `word` by `times`, both of which are local variables. In the operation `word * times`, what exactly is being multiplied?
+    15.1 Identify where a call to a function occurs. How do you know it is a call? 
+
+    15.2 Where do we have a return *type* declared? 
+
+    15.3 Where do we have a return statement? 
+
+    15.4 What value does the call to the function hold? How do you know? Show this both through code and through a memory diagram of the snippet.
+
+    15.5 Explain why `print(echo)` does not function the same as `echo(word="hello", times=4)`. Show this both through code and through a memory diagram of the snippet.
+
+    15.6 Change the code to provide the same output but with a different functionality. 
+
+    15.7 On line 2, we multiply `word` by `times`, both of which are local variables. In the operation `word * times`, what exactly is being multiplied?
 
 16. For the following code, explain what is happening on line 5 with the statement `word=word` within `returning(word=word)`. Use the following terms in your explanation: value, local variable, parameter, assignment operator, keyword argument, and call.
 
@@ -58,6 +64,18 @@ template: overview
 
     print(echo(word="hello", times=4))
 ```
+
+17. What does the `len()` function do in Python?
+
+    a. Converts a value to a string
+
+    b. Rounds a number to the nearest whole number
+
+    c. Returns the length of a sequence, such as a `str`
+
+    d. Converts a string to a number
+    
+    e. Counts the digits in an int
 
 
 ## Calling functions
@@ -107,8 +125,26 @@ Output:
 
     4.2. What is the *type* of the parameter `name`? What is the *return type* of this function?
 
-## Spot the error
+5. Given the following function definition, answer the following questions.
+    ```python
+    def tablespoons_to_teaspoons(tablespoons: int) -> str:
+        """This functions tells you how many teaspoons are in the given number of tablespoons."""
+        return str(tablespoons * 3) + " teaspoons"
+    ```
+    5.1. Write a function call to `tablespoons_to_teaspoons` that returns the string `"9 teaspoons"`.
 
+    5.2. What is the *type* of the parameter `tablespoons`? What is the *return type* of this function?
+
+## Function Signatures
+
+1. What is a function signature, and why is it significant?
+
+2. Write the function signature for a function called `pos_or_neg` that takes as input an integer and returns `"Positive"` if the integer is positive and returns `"Negative"` if the integer is negative. Use `number` as the name of the parameter.
+
+3. Write the function signature for a function called `gcd` that takes two integers as input and returns the integer that is their greatest common divisor. Use `num_one` and `num_two` as your parameter names.
+
+
+## Spot the error
 
 1. Does the following code contain any issues that could affect its example usage? If yes, what is it and why is it a problem?
 
@@ -283,6 +319,7 @@ Example:
 
 16. On line 5, within the call `returning(word=word)`, the statement `word=word` uses a keyword argument to pass a value to the `returning` function. In this context, `word` on the left side of the `=` is a parameter in the `returning` function, while `word` on the right side is a local variable from the `echo` function. The local variable `word` holds the value `"hello"` when `echo` is executed. The assignment operator `=` is used here to pass this value to the parameter `word` in the `returning` function. Thus, the keyword argument `word=word` effectively assigns the value of the local variable `word` from `echo` to the parameter `word` in `returning`, ensuring that `returning` receives the correct value to process and return.
 
+17. C
 
 ## Calling functions
 
@@ -327,6 +364,26 @@ Example:
 4. Questions re: the `evaluate_length` function:
     4.1. `8`
     4.2. The type of `name` is `str` and the return type of the function is `int`.
+
+5. Questions re: the `tablespoons_to_teaspoons` function:
+    5.1. `tablespoons_to_teaspoons(tablespoons=3)`
+
+    5.2. The type of `tablespoons` is `int` and the return type of the function is `str`.
+
+
+## Function Signatures
+
+1. A function signature refers to the first line of a function definition, where the def keyword is used. Following the def keyword is the function name, and after the function name is a set of parentheses that enclose the parameter list. After the parameter list comes the return type. The function signature is important because it defines how the function can be called and what kinds of inputs and outputs are expected. Without a signature, you wouldn't know what parameters to provide or even how to call the function, since the function name would be missing.
+
+2.
+```python
+def pos_or_neg(number: int) -> str:
+```
+
+3.
+```python
+def gcd(num_one: int, num_two: int) -> int:
+```
 
 ## Spot the error
 
