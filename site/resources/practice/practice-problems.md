@@ -25,7 +25,7 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Functions](/resources/practice/functions/conceptual.html)
 - [Signature Writing](/resources/practice/functions/signature-writing.html)
 
-
+<!-- 
 ## Quiz 01
 - [Boolean Expressions](/resources/practice/boolean-expressions.html)
 - [Conditionals](/resources/practice/conditionals.html)
@@ -45,7 +45,7 @@ If you ever find yourself feeling really lost, feel free to take these questions
 ## Final Exam
 
 - [Object-Oriented Programming](/resources/practice/oop.html)
-- [Class Writing](/resources/practice/class-writing.html)
+- [Class Writing](/resources/practice/class-writing.html) -->
 
 <!-- - [Lists, Dictionaries, and Loops Reinforcement Questions](/resources/practice/lists-and-dicts-reinforced.html) -->
 

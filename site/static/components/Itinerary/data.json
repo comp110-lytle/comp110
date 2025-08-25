@@ -77,6 +77,16 @@
             "links": {
                 "": "https://www.gradescope.com/"
             }
+        },
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Functions and Memory Diagrams",
+            "date": "2025-08-21",
+            "deadline": "None",
+            "links": {
+                "Slides": "/static/slides/CL02.pdf"
+            }
         }
     ],
     "2025-08-22": [],
@@ -92,7 +102,10 @@
             "title": "Quiz 0",
             "date": "2025-08-28",
             "deadline": "2025-08-28",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
+            }
         }
     ],
     "2025-08-29": [],

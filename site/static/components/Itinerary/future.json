@@ -1,85 +1,4 @@
 {
-    "2025-08-18": [],
-    "2025-08-19": [
-        {
-            "kind": "CL",
-            "n": 0,
-            "title": "Welcome to COMP110",
-            "date": "2025-08-19",
-            "deadline": "None",
-            "links": {
-                "Welcome Slides": "/static/slides/CL00.pdf",
-                "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
-                "Setup Part 1: Install Needed Software": "/resources/setup/software.html",
-                "Setup Part 2: Setup your Workspace": "/resources/setup/workspace.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 0,
-            "title": "Syllabus (Due Tuesday 8/19)",
-            "date": "2025-08-19",
-            "deadline": "2025-08-19",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 0,
-            "title": "Hello World (Due Monday 8/25)",
-            "date": "2025-08-19",
-            "deadline": "2025-08-25",
-            "links": {
-                "": "/exercises/ex00_hello_world.html"
-            }
-        }
-    ],
-    "2025-08-20": [],
-    "2025-08-21": [
-        {
-            "kind": "CL",
-            "n": 1,
-            "title": "Objects, Data Types, and Expressions",
-            "date": "2025-08-21",
-            "deadline": "None",
-            "links": {
-                "Running a Program (Video)": "https://youtu.be/M1FeIzICA9A",
-                "Lesson Slides": "/static/slides/CL01.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 1,
-            "title": "VS Code, Terminal, + Running a Program (Due Thursday 8/21)",
-            "date": "2025-08-21",
-            "deadline": "2025-08-21",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 2,
-            "title": "Objects and Data Types (Due Thursday 8/21)",
-            "date": "2025-08-21",
-            "deadline": "2025-08-21",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 3,
-            "title": "Expressions (Due Thursday 8/21)",
-            "date": "2025-08-21",
-            "deadline": "2025-08-21",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-08-22": [],
     "2025-08-23": [],
     "2025-08-24": [],
     "2025-08-25": [],
@@ -92,7 +11,10 @@
             "title": "Quiz 0",
             "date": "2025-08-28",
             "deadline": "2025-08-28",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
+            }
         }
     ],
     "2025-08-29": [],

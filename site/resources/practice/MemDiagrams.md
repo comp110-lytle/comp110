@@ -20,7 +20,7 @@ template: overview
 [Example 3](/resources/practice/memory-diagrams/functions/cookies.html) |
 [Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html) 
 
-
+<!-- 
 
 ## Recursion
 [Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
@@ -71,63 +71,5 @@ template: overview
 
 [Example 0](/resources/practice/memory-diagrams/oop-advanced/team.html) |
 [Example 1](/resources/practice/memory-diagrams/oop-advanced/playlist.html) |
-[Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html)
+[Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html) -->
 
-
-<!-- [Example 3](/resources/practice/memory-diagrams/functions/cookies.html) |
-[Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html)  -->
-
-
-<!-- 
-## Global Variable Basics
-[Example 0](/resources/practice/memory-diagrams/basic/basic-00.html) | 
-[Example 1](/resources/practice/memory-diagrams/basic/basic-01.html) | 
-[Example 2](/resources/practice/memory-diagrams/basic/basic-02.html) |
-[Example 3](/resources/practice/memory-diagrams/basic/basic-03.html)  -->
-
-
-
-
-
-<!-- OLD -->
-<!-- ## bool Operators
-
-## f-strings
-
-## Functions -->
-
-<!-- ## Functions 
-
-[Example 0](/resources/practice/memory-diagrams/functions/func-import-00.html) | 
-[Example 1](/resources/practice/memory-diagrams/functions/func-import-01.html) | 
-[Example 2](/resources/practice/memory-diagrams/functions/func-import-02.html)  -->
-<!-- | 
-[Example 3](/resources/practice/memory-diagrams/functions/func-01.html) -->
-
-
-<!-- [Example 3](/resources/practice/memory-diagrams/dicts/todo-list.html) -->
-<!-- 
-## OOP 
-
-[Example 0](/resources/practice/memory-diagrams/oop/tweets.html) | 
-[Example 1](/resources/practice/memory-diagrams/oop/stadium.html)
-
-## Magic Methods and Operator Overloads
-
-[Example 0](/resources/practice/memory-diagrams/oop-advanced/team.html) |
-[Example 1](/resources/practice/memory-diagrams/oop-advanced/playlist.html) |
-[Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html)
-
-
-## Nested Data Structures
-[Example 0](/resources/practice/memory-diagrams/nested-structures/data.html) |
-[Example 1](/resources/practice/memory-diagrams/nested-structures/nested.html) |
-
-## Recursive Structures -->
-
-<!-- [Example 0](/resources/practice/memory-diagrams/recursion/list-len.html) with arrows -- modify  -->
-<!-- [Example 0](/resources/practice/memory-diagrams/recursion/double_list_vals.html) |
-[Example 1](/resources/practice/memory-diagrams/recursion/increment_values.html) |
-[Example 2](/resources/practice/memory-diagrams/recursion/remove_all_occurrences.html) |
-[Example 3](/resources/practice/memory-diagrams/recursion/reverse_list_with_twist.html) |
-[Example 4](/resources/practice/memory-diagrams/recursion/sum_of_digits.html) -->
