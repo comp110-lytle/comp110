@@ -37,7 +37,13 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-08-28" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-08-26" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Aug 26</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL02 </span><span class="title">Functions and Memory Diagrams</span>
+<ul class="links"><li class="link"><a href="/static/slides/CL02.pdf">Slides</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2025-08-28" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Aug 28</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span>
@@ -75,10 +81,7 @@ template: home
 </ul></div><div class="plan Lesson">
 <span class="kind">LS01 </span><span class="title"><a href="https://www.gradescope.com/">VS Code, Terminal, + Running a Program (Due Thursday 8/21)</a></span></div><div class="plan Lesson">
 <span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Data Types (Due Thursday 8/21)</a></span></div><div class="plan Lesson">
-<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Thursday 8/21)</a></span></div><div class="plan Class">
-<span class="kind">CL02 </span><span class="title">Functions and Memory Diagrams</span>
-<ul class="links"><li class="link"><a href="/static/slides/CL02.pdf">Slides</a></li>
-</ul></div></div>
+<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Thursday 8/21)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-08-19" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Aug 19</div>
 <div class="plans col-md-9"><div class="plan Class">
