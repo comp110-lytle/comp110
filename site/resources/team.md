@@ -157,6 +157,11 @@ page: resource
   <figcaption>Wisdom Okwen</figcaption>
 </figure> -->
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/katun.html"><img src="/static/profile-photos/katun.jpeg" class="profile-image"> </a>
+    <figcaption>Katun Li</figcaption>
+</figure>
+
 </div>
 </div>
 
