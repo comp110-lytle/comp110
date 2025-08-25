@@ -4,6 +4,7 @@ author:
 - Alyssa Lytle
 - Megan Zhang
 - David Karash
+- Benjamin Eldridge
 page: lessons
 template: overview
 ---
@@ -24,6 +25,53 @@ template: overview
 7.	Using subscription syntax and concatenation, write an expression that evaluates to `"tar"` using the following string: `“Saturday"`.
 8.  What data type do expressions with *relational operators* typically evaluate to?
 9.  What does the following expression evaluate to? `int("10" + "40") > 100 * 2`
+10. What are the *types* of the following expressions and what *values* do they evaluate to? If an error would occur, just write `Error`.
+
+10.1. `1.5 + 2`
+
+10.2. `"hehe" * 2`
+
+10.3. `len("110") ** 2`
+
+10.4. `str(110) * 2.1`
+
+10.5. `float("100.0") / 20`
+
+10.6. `21 // 2 ** 2 + 3`
+
+10.7. `float("220") >= float("100" + "100")`
+
+10.8. `int("COMP 110"[5]) + 99.0`
+
+10.9. `(42 % 4) == (79 % 11)`
+
+10.10. `int(4.99)`
+
+11. Which of the following expressions correctly *concatenates* two strings together?
+
+    a. `"clam" * "chowder"`
+
+    b. `"clam" + "chowder"`
+
+    c. `"clam" , "chowder"`
+
+    d. `"clam" : "chowder"`
+
+12. When using subscription syntax, what *index* does Python start with?
+
+    a. `-1`
+
+    b. `0`
+
+    c. `1`
+
+    d. `""`
+
+    e. `True`
+
+13. What value would you substitute for `x` to make the following expression true? `(3 + x) == (55 // 11 ** 2)`
+
+14. Use subscription notation, string concatenation, and the string `"nevermind"` to write an expression that evaluates to `"nvm"`.
 
 [Solutions](#conceptual-solutions)
 
@@ -47,4 +95,19 @@ template: overview
 
 8. `bool`
 9. `True`
+10. 
+10.1. Type: `float` Value: `3.5`
+10.2. Type: `str` Value: `"hehehehe"`
+10.3. Type: `int` Value: `9`
+10.4. `TypeError`
+10.5. Type: `float` Value: `5.0`
+10.6. Type: `int` Value: `8`
+10.7. Type: `bool` Value: `False`
+10.8. Type: `float` Value: `100.0`
+10.9. Type: `bool` Value: `True`
+10.10. Type: `int` Value: `4`
+11. B
+12. B
+13. `22`
+14. `"nevermind"[0] + "nevermind"[2] + "nevermind"[5]`
 

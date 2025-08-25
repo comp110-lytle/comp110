@@ -6,6 +6,7 @@ author:
 - Lizzie Coats
 - Megan Zhang
 - David Karash
+- Benjamin Eldridge
 page: lessons
 template: overview
 ---
@@ -94,6 +95,17 @@ Output:
         return "Completed " + task + ": " + str(completed)
 ```
 
+4. Given the following function definition, answer the following questions.
+
+    ```python
+    def evaluate_length(name: str) -> int:
+        """This function returns the length of the name."""
+        return len(name)
+    ```
+    4.1. What is the result of the following function call? 
+    `evaluate_length("airplane")`
+
+    4.2. What is the *type* of the parameter `name`? What is the *return type* of this function?
 
 ## Spot the error
 
@@ -312,6 +324,9 @@ Example:
     print(have_done(task="homework", completed=False))
    ```
 
+4. Questions re: the `evaluate_length` function:
+    4.1. `8`
+    4.2. The type of `name` is `str` and the return type of the function is `int`.
 
 ## Spot the error
 
