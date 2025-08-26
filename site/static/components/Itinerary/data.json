@@ -85,6 +85,16 @@
     "2025-08-25": [],
     "2025-08-26": [
         {
+            "kind": "LS",
+            "n": 4,
+            "title": "Functions (Due Tuesday 8/26)",
+            "date": "2025-08-26",
+            "deadline": "2025-08-26",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
             "kind": "CL",
             "n": 2,
             "title": "Functions and Memory Diagrams",
