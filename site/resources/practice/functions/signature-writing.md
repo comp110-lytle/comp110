@@ -5,6 +5,7 @@ author:
 - Viktorya Hunanyan
 - Megan Zhang
 - David Karash
+- Benjamin Eldridge
 page: lessons
 template: overview
 ---
@@ -15,11 +16,17 @@ template: overview
 
 The following questions will have you practice signature writing.
 
-1. Write the *signature* for a function called `name_eval` that takes as input someone's name as a string and returns `True` if the name has an even amount of letters and `False` if it has an odd amount of letters.
+1. What is a function signature, and why is it significant?
 
-2. Write the *signature* for a function called `name_size` that takes as input someone's name as a string and returns the *length* of their name as an integer.
+2. Write the function signature for a function called `pos_or_neg` that takes as input an integer and returns `"Positive"` if the integer is positive and returns `"Negative"` if the integer is negative. Use `number` as the name of the parameter.
 
-3. Write the *signature* for a function called `gcd` that takes two floats as input and returns the integer that is their greatest common divisor.
+3. Write the function signature for a function called `gcd` that takes two integers as input and returns the integer that is their greatest common divisor. Use `num_one` and `num_two` as your parameter names.
+
+4. Write the *signature* for a function called `name_eval` that takes as input someone's name as a string and returns `True` if the name has an even amount of letters and `False` if it has an odd amount of letters.
+
+5. Write the *signature* for a function called `name_size` that takes as input someone's name as a string and returns the *length* of their name as an integer.
+
+6. Write the *signature* for a function called `gcd` that takes two floats as input and returns the integer that is their greatest common divisor.
 
 
 [solutions](#signature-writing-solutions)
@@ -56,15 +63,27 @@ The following questions will have you practice signature writing.
 
 ## Signature Writing Solutions
 
-1. `def name_eval(id: str) -> bool:`
+1. A function signature refers to the first line of a function definition, where the def keyword is used. Following the def keyword is the function name, and after the function name is a set of parentheses that enclose the parameter list. After the parameter list comes the return type. The function signature is important because it defines how the function can be called and what kinds of inputs and outputs are expected. Without a signature, you wouldn't know what parameters to provide or even how to call the function, since the function name would be missing.
+
+2.
+```python
+def pos_or_neg(number: int) -> str:
+```
+
+3.
+```python
+def gcd(num_one: int, num_two: int) -> int:
+```
+
+4. `def name_eval(id: str) -> bool:`
 
 *(Note that I chose to call the parameter `id`, but you could've chosen any valid name!)*
 
-2. `def name_size(id: str) -> int:`
+5. `def name_size(id: str) -> int:`
 
 *(Note that I chose to call the parameter `id`, but you could've chosen any valid name!)*
 
-3. `def gcd(number_a: float, number_b: float) -> int:`
+6. `def gcd(number_a: float, number_b: float) -> int:`
 
 *(Note that I chose to call the parameters `number_a` and `number_b`, but you could've chosen any valid name!)*
 
