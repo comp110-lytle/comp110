@@ -88,6 +88,11 @@ page: resource
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/kgbro.html"><img src="/static/profile-photos/kgbro.jpg" class="profile-image"> </a><figcaption>Katie Brown</figcaption></figure>
 
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
+    <a href="/resources/profiles/katun.html"><img src="/static/profile-photos/katun.jpeg" class="profile-image"> </a>
+    <figcaption>Katun Li</figcaption>
+</figure>
+
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/escoats.html"><img src="/static/profile-photos/escoats.jpg" class="profile-image"> </a><figcaption>Lizzie Coats</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
@@ -156,11 +161,6 @@ page: resource
   <a href="/resources/profiles/wokwen.html"><img src="/static/profile-photos/wokwen.png" class="profile-image"> </a>
   <figcaption>Wisdom Okwen</figcaption>
 </figure> -->
-
-<figure class="profile col-xs-12 col-sm-6 col-md-3">
-    <a href="/resources/profiles/katun.html"><img src="/static/profile-photos/katun.jpeg" class="profile-image"> </a>
-    <figcaption>Katun Li</figcaption>
-</figure>
 
 </div>
 </div>
