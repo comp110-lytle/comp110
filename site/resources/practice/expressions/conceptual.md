@@ -69,9 +69,9 @@ template: overview
 
     e. `True`
 
-13. What value would you substitute for `x` to make the following expression true? `(3 + x) == (55 // 11 ** 2)`
 
-14. Use subscription notation, string concatenation, and the string `"nevermind"` to write an expression that evaluates to `"nvm"`.
+
+13. Use subscription notation, string concatenation, and the string `"nevermind"` to write an expression that evaluates to `"nvm"`.
 
 [Solutions](#conceptual-solutions)
 
@@ -118,6 +118,5 @@ template: overview
 
 11. B
 12. B
-13. `22`
-14. `"nevermind"[0] + "nevermind"[2] + "nevermind"[5]`
+13. `"nevermind"[0] + "nevermind"[2] + "nevermind"[5]`
 
