@@ -37,7 +37,7 @@ template: overview
 
     10.5. `float("100.0") / 20`
 
-    10.6. `21 // 2 ** 2 + 3`
+    10.6. `20 / 2 ** 2 + 3`
 
     10.7. `float("220") >= float("100" + "100")`
 
@@ -106,7 +106,7 @@ template: overview
 
     10.5. Type: `float` Value: `5.0`
 
-    10.6. Type: `int` Value: `8`
+    10.6. Type: `float` Value: `8.0`
 
     10.7. Type: `bool` Value: `False`
 
