@@ -21,16 +21,15 @@ Cary, NC
 ## UNC Status
 
 Class of 2028
-//split//
 
 ## Major
 
 Business Administration & Computer Science
+//split//
 
 ## Minor
 
 Data Science
-//split//
 
 ## Interests
 
