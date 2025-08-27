@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS04 - TUE, AUG 26 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ00 - THU, AUG 28 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ00 - THU, AUG 28 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -50,6 +50,7 @@ template: home
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
 <li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/92091104288?pwd=ujQhPMBhLadgFLx5WKeoqoPtUh6awd.1">Hybrid Review Session on Wednesday (27th) from 6-7 PM in Fred Brooks 009 and online (Passcode: 110110)</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2025-09-18" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Sep 18</div>
