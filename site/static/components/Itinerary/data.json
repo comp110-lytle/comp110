@@ -116,7 +116,17 @@
             "links": {
                 "Practice Problems": "/resources/practice/practice-problems.html",
                 "Practice Diagrams": "/resources/practice/MemDiagrams.html",
-                "Hybrid Review Session on Wednesday (27th) from 6-7 PM in Sitterson Hall (SN) 014 and online (Passcode: 110110)": "https://unc.zoom.us/j/92091104288?pwd=ujQhPMBhLadgFLx5WKeoqoPtUh6awd.1"
+                "Review Session Recording": "https://youtu.be/qM2gsvByNSA"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 1,
+            "title": "Tea Party (Due Wednesday 9/3)",
+            "date": "2025-08-28",
+            "deadline": "2025-09-03",
+            "links": {
+                "": "/exercises/tea-party.html"
             }
         }
     ],
