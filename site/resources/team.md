@@ -56,6 +56,11 @@ page: resource
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/dyk.html"><img src="/static/profile-photos/dyk.jpg" class="profile-image"> </a><figcaption>Dylan Nicks</figcaption></figure>
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
+  <a href="/resources/profiles/eraikwar.md"><img src="/static/profile-photos/eraikwar.png" class="profile-image"> <a>
+  <figcaption>Esha Raikwar</figcaption>
+</figure>
+
+<figure class="profile col-xs-12 col-sm-6 col-md-3">
     <a href="/resources/profiles/bgg.html"><img src="/static/profile-photos/bgg.png" class="profile-image"> </a>
     <figcaption>Gabriela Barros</figcaption>
   </figure>
