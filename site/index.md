@@ -50,7 +50,7 @@ template: home
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
 <li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
-<li class="link"><a href="https://unc.zoom.us/j/92091104288?pwd=ujQhPMBhLadgFLx5WKeoqoPtUh6awd.1">Hybrid Review Session on Wednesday (27th) from 6-7 PM in Sitterson Hall (SN) 014 and online (Passcode: 110110)</a></li>
+<li class="link"><a href="https://youtu.be/qM2gsvByNSA">Review Session Recording</a></li>
 </ul></div><div class="plan Exercise">
 <span class="kind">EX01 </span><span class="title"><a href="/exercises/tea-party.html">Tea Party (Due Wednesday 9/3)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-09-18" class="row itinerary-row py-2">
