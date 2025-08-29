@@ -56,7 +56,7 @@ page: resource
 <figure class="profile col-xs-12 col-sm-6 col-md-3"><a href="/resources/profiles/dyk.html"><img src="/static/profile-photos/dyk.jpg" class="profile-image"> </a><figcaption>Dylan Nicks</figcaption></figure> -->
 
 <figure class="profile col-xs-12 col-sm-6 col-md-3">
-  <a href="/resources/profiles/eraikwar.html"><img src="/static/profile-photos/eraikwar.png" class="profile-image"> </a>
+  <a href="/resources/profiles/eraikwar.html"><img src="/static/profile-photos/eraikwar.png" class="profile-image"></a>
   <figcaption>Esha Raikwar</figcaption>
 </figure>
 
