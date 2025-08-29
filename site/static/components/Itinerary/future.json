@@ -1,27 +1,4 @@
 {
-    "2025-08-25": [],
-    "2025-08-26": [
-        {
-            "kind": "LS",
-            "n": 4,
-            "title": "Functions (Due Tuesday 8/26)",
-            "date": "2025-08-26",
-            "deadline": "2025-08-26",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "CL",
-            "n": 2,
-            "title": "Functions and Memory Diagrams",
-            "date": "2025-08-26",
-            "deadline": "None",
-            "links": {
-                "Slides": "/static/slides/CL02.pdf"
-            }
-        }
-    ],
     "2025-08-27": [],
     "2025-08-28": [
         {
@@ -51,7 +28,38 @@
     "2025-08-30": [],
     "2025-08-31": [],
     "2025-09-01": [],
-    "2025-09-02": [],
+    "2025-09-02": [
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Boolean Operators and Conditionals",
+            "date": "2025-09-02",
+            "deadline": "None",
+            "links": {
+                "Slides": "/static/slides/CL03.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Boolean Operators (Due Tuesday 9/2)",
+            "date": "2025-09-02",
+            "deadline": "2025-09-02",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Conditionals (Due Tuesday 9/2)",
+            "date": "2025-09-02",
+            "deadline": "2025-09-02",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-09-03": [],
     "2025-09-04": [],
     "2025-09-05": [],
