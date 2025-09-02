@@ -1,31 +1,4 @@
 {
-    "2025-08-27": [],
-    "2025-08-28": [
-        {
-            "kind": "QZ",
-            "n": 0,
-            "title": "Quiz 0",
-            "date": "2025-08-28",
-            "deadline": "2025-08-28",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html",
-                "Review Session Recording": "https://youtu.be/qM2gsvByNSA"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 1,
-            "title": "Tea Party (Due Wednesday 9/3)",
-            "date": "2025-08-28",
-            "deadline": "2025-09-03",
-            "links": {
-                "": "/exercises/tea-party.html"
-            }
-        }
-    ],
-    "2025-08-29": [],
-    "2025-08-30": [],
     "2025-08-31": [],
     "2025-09-01": [],
     "2025-09-02": [

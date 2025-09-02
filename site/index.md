@@ -37,16 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-08-28" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Aug 28</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ00 </span><span class="title">Quiz 0</span>
-<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
-<li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
-<li class="link"><a href="https://youtu.be/qM2gsvByNSA">Review Session Recording</a></li>
-</ul></div><div class="plan Exercise">
-<span class="kind">EX01 </span><span class="title"><a href="/exercises/tea-party.html">Tea Party (Due Wednesday 9/3)</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-09-02" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-09-02" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Sep 2</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL03 </span><span class="title">Boolean Operators and Conditionals</span>
@@ -76,7 +67,16 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-08-26" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-08-28" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Aug 28</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ00 </span><span class="title">Quiz 0</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
+<li class="link"><a href="https://youtu.be/qM2gsvByNSA">Review Session Recording</a></li>
+</ul></div><div class="plan Exercise">
+<span class="kind">EX01 </span><span class="title"><a href="/exercises/tea-party.html">Tea Party (Due Wednesday 9/3)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-08-26" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Aug 26</div>
 <div class="plans col-md-9"><div class="plan Lesson">
 <span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Functions (Due Tuesday 8/26)</a></span></div><div class="plan Class">
