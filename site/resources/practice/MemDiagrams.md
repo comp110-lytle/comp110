@@ -20,6 +20,13 @@ template: overview
 [Example 3](/resources/practice/memory-diagrams/functions/cookies.html) |
 [Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html) 
 
+## Conditionals
+[Example 0](/resources/practice/memory-diagrams/conditionals/conditionals-00.html) |
+[Example 1](/resources/practice/memory-diagrams/conditionals/conditionals-01.html)
+
+## Conditionals + "elif"
+[Example 0](/resources/practice/memory-diagrams/elif/elif-00.html)
+
 <!-- 
 
 ## Recursion
@@ -27,12 +34,7 @@ template: overview
 [Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
 [Example 2](/resources/practice/memory-diagrams/recursion/pow.html)
 
-## Conditionals
-[Example 0](/resources/practice/memory-diagrams/conditionals/conditionals-00.html) |
-[Example 1](/resources/practice/memory-diagrams/conditionals/conditionals-01.html)
 
-## Conditionals + "elif"
-[Example 0](/resources/practice/memory-diagrams/elif/elif-00.html)
 
 
 
