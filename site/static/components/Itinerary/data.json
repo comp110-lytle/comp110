@@ -167,7 +167,28 @@
         }
     ],
     "2025-09-03": [],
-    "2025-09-04": [],
+    "2025-09-04": [
+        {
+            "kind": "CL",
+            "n": 4,
+            "title": "Local Variables",
+            "date": "2025-09-04",
+            "deadline": "None",
+            "links": {
+                "Slides": "/static/slides/CL04.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Practice with Conditionals (Due Thursday 9/4)",
+            "date": "2025-09-04",
+            "deadline": "2025-09-04",
+            "links": {
+                "": "/cqs/conditionals.html"
+            }
+        }
+    ],
     "2025-09-05": [],
     "2025-09-06": [],
     "2025-09-07": [],
