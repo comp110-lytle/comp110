@@ -12,7 +12,9 @@ template: overview
 
 For this challenge question, you are going to be writing a simple number guessing game!
 
-First, right click on your "CQs" folder and select "New File...". Name this file `cq00_conditionals.py`.
+First, let's create a folder for your challenge questions. Right click in your workspace files and click "New Folder...". Name that folder "CQs".
+
+Next, right click on your "CQs" folder and select "New File...". Name this file `cq00_conditionals.py`.
 
 Make sure to initialize your file with a docstring and `__author__` variable!
 
