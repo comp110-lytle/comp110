@@ -6,6 +6,8 @@ page: lessons
 template: overview
 ---
 
+# Video Lessons
+
 * [Running a Program](https://youtu.be/M1FeIzICA9A)
 * [Objects and Data Types](https://www.youtube.com/watch?v=6GxkRgIze-c)
 * [Expressions](https://youtu.be/a9ervj3kVNo)
