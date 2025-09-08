@@ -30,16 +30,14 @@ navbar: base
 
 ## Practice + Tools
 
-<!-- - [Extra Credit Opportunities](/resources/extra-credit.html) -->
+- [Video Lessons](/resources/videos.html)
+
 - [DIY Memory Diagram Guide](/resources/practice/MemDiagramsTemplate.html)
 
 - [Practice Memory Diagrams](/resources/practice/MemDiagrams.html)
 
 - [Practice Problems](/resources/practice/practice-problems.html)
 
-<!-- - [Extra Practice](/resources/tutoring-practice/tutoring-practice.html) -->
-
-<!-- - [Grade Estimator](/resources/grade_calc/grade_calc.html) -->
 
 </div>
 
