@@ -1,64 +1,19 @@
 {
-    "2025-09-02": [
-        {
-            "kind": "CL",
-            "n": 3,
-            "title": "Boolean Operators and Conditionals",
-            "date": "2025-09-02",
-            "deadline": "None",
-            "links": {
-                "Slides": "/static/slides/CL03.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 5,
-            "title": "Boolean Operators (Due Tuesday 9/2)",
-            "date": "2025-09-02",
-            "deadline": "2025-09-02",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 6,
-            "title": "Conditionals (Due Tuesday 9/2)",
-            "date": "2025-09-02",
-            "deadline": "2025-09-02",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-09-03": [],
-    "2025-09-04": [
-        {
-            "kind": "CL",
-            "n": 4,
-            "title": "Local Variables",
-            "date": "2025-09-04",
-            "deadline": "None",
-            "links": {
-                "Slides": "/static/slides/CL04.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 0,
-            "title": "Practice with Conditionals (Due Thursday 9/4)",
-            "date": "2025-09-04",
-            "deadline": "2025-09-04",
-            "links": {
-                "": "/cqs/conditionals.html"
-            }
-        }
-    ],
-    "2025-09-05": [],
     "2025-09-06": [],
     "2025-09-07": [],
     "2025-09-08": [],
-    "2025-09-09": [],
+    "2025-09-09": [
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "Wordle (Due Monday 9/15)",
+            "date": "2025-09-09",
+            "deadline": "2025-09-15",
+            "links": {
+                "": "/exercises/wordle.html"
+            }
+        }
+    ],
     "2025-09-10": [],
     "2025-09-11": [],
     "2025-09-12": [],

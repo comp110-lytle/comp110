@@ -191,4 +191,4 @@ Now that your Wordle program is complete, make a backup by making a git commit. 
 5. Press the Commit button to make a _Commit_ (a version) of your work.
 6. In the Terminal, type the command `git push backup main`. If your terminal was closed, go to the Terminal menu and select "New Terminal". This command "pushed" your changes to your backup repository on GitHub.
 
-To see your commit on Github, in a web browser, navigate to `https://github.com/comp110-25ss/comp110-25ss-workspace-USERNAME` and substitute `USERNAME` with your GitHub username. You should see your work in the `exercises` directory backed up to GitHub. Notice above the file's contents you'll see your commit message.
+To see your commit on Github, in a web browser, navigate to your workspace. You should see your work in the `exercises` directory backed up to GitHub. Notice above the file's contents you'll see your commit message.
