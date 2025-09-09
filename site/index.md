@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/wordle.html">EX02 - MON, SEP 15 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS07 - TUE, SEP 09 11:59pm</a></li><li class="horizon-item"><a href="/exercises/wordle.html">EX02 - MON, SEP 15 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -39,7 +39,9 @@ template: home
 <!-- Current Week and Future -->
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-09-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Sep 9</div>
-<div class="plans col-md-9"><div class="plan Exercise">
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL05 </span><span class="title"><a href="/static/slides/CL05.pdf">f-strings, Positional Arguments, and Recursion</a></span></div><div class="plan Lesson">
+<span class="kind">LS07 </span><span class="title"><a href="https://www.gradescope.com/">Recursion (Due Tuesday 9/9)</a></span></div><div class="plan Exercise">
 <span class="kind">EX02 </span><span class="title"><a href="/exercises/wordle.html">Wordle (Due Monday 9/15)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-09-18" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Sep 18</div>
@@ -66,16 +68,12 @@ template: home
 <h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-09-04" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Sep 4</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL04 </span><span class="title">Local Variables</span>
-<ul class="links"><li class="link"><a href="/static/slides/CL04.pdf">Slides</a></li>
-</ul></div><div class="plan Challenge Question">
+<span class="kind">CL04 </span><span class="title"><a href="/static/slides/CL04.pdf">Local Variables</a></span></div><div class="plan Challenge Question">
 <span class="kind">CQ00 </span><span class="title"><a href="/cqs/conditionals.html">Practice with Conditionals (Due Thursday 9/4)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-09-02" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Sep 2</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL03 </span><span class="title">Boolean Operators and Conditionals</span>
-<ul class="links"><li class="link"><a href="/static/slides/CL03.pdf">Slides</a></li>
-</ul></div><div class="plan Lesson">
+<span class="kind">CL03 </span><span class="title"><a href="/static/slides/CL03.pdf">Boolean Operators and Conditionals</a></span></div><div class="plan Lesson">
 <span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">Boolean Operators (Due Tuesday 9/2)</a></span></div><div class="plan Lesson">
 <span class="kind">LS06 </span><span class="title"><a href="https://www.gradescope.com/">Conditionals (Due Tuesday 9/2)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-08-28" class="row itinerary-row py-2">
@@ -91,9 +89,7 @@ template: home
 <div class="date col-md-2">Tue, Aug 26</div>
 <div class="plans col-md-9"><div class="plan Lesson">
 <span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Functions (Due Tuesday 8/26)</a></span></div><div class="plan Class">
-<span class="kind">CL02 </span><span class="title">Functions and Memory Diagrams</span>
-<ul class="links"><li class="link"><a href="/static/slides/CL02.pdf">Slides</a></li>
-</ul></div></div>
+<span class="kind">CL02 </span><span class="title"><a href="/static/slides/CL02.pdf">Functions and Memory Diagrams</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-08-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Aug 21</div>
 <div class="plans col-md-9"><div class="plan Class">

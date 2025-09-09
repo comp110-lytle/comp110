@@ -101,7 +101,7 @@
             "date": "2025-08-26",
             "deadline": "None",
             "links": {
-                "Slides": "/static/slides/CL02.pdf"
+                "": "/static/slides/CL02.pdf"
             }
         }
     ],
@@ -142,7 +142,7 @@
             "date": "2025-09-02",
             "deadline": "None",
             "links": {
-                "Slides": "/static/slides/CL03.pdf"
+                "": "/static/slides/CL03.pdf"
             }
         },
         {
@@ -175,7 +175,7 @@
             "date": "2025-09-04",
             "deadline": "None",
             "links": {
-                "Slides": "/static/slides/CL04.pdf"
+                "": "/static/slides/CL04.pdf"
             }
         },
         {
@@ -189,5 +189,6 @@
             }
         }
     ],
-    "2025-09-05": []
+    "2025-09-05": [],
+    "2025-09-06": []
 }
