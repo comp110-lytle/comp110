@@ -12,6 +12,18 @@ template: overview
 
 ## Conceptual
 
+1. What happens if the condition of a `while` loop is initially `False`?
+
+a. The loop will run once.  
+b. The loop will not run at all.  
+c. The loop will run infinitely.  
+d. The loop will throw an error.
+
+2. If a while loop statement starts with, `while condition:`, what must `condition` evaluate to for the following `while` loop to execute at least once? What *type* is `condition`?
+
+
+## Diagram
+
 1. Produce a memory diagram for the following code snippet, being sure to include its stack and output.  
 
 ```
@@ -42,7 +54,7 @@ template: overview
 
 1.2 On line 5, when `print(g(f(3)))` is called, is the code block inside of the `while` loop ever entered? Why or why not?
 
-1.3 What would happen if a line was added to the end of the snipped that said `print(x)`. Why?
+1.3 What would happen if a line was added to the end of the snippet that said `print(x)`. Why?
 
 [Solutions](#conceptual-solutions)
 
@@ -59,7 +71,14 @@ Implement a function that processes an integer by multiplying each of its digits
 
 # Solutions
 
-## Conceptual Solutions
+# Conceptual Solutions
+
+1. b. The loop will not run at all.
+
+2. `condition` must be `True` to enter the loop. Its type is a boolean.
+
+
+## Diagram Solutions
 
 1. Memory Diagram Solution
 
