@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS08 - THU, SEP 11 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -43,6 +43,11 @@ template: home
 <span class="kind">CL05 </span><span class="title"><a href="/static/slides/CL05.pdf">f-strings, Positional Arguments, and Recursion</a></span></div><div class="plan Lesson">
 <span class="kind">LS07 </span><span class="title"><a href="https://www.gradescope.com/">Recursion (Due Tuesday 9/9)</a></span></div><div class="plan Exercise">
 <span class="kind">EX02 </span><span class="title"><a href="/exercises/wordle.html">Wordle (Due Tuesday 9/23)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-09-11" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Sep 11</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL06 </span><span class="title"><a href="/static/slides/CL06.pdf">while Loops</a></span></div><div class="plan Lesson">
+<span class="kind">LS08 </span><span class="title"><a href="https://www.gradescope.com/">while Loops (Due Thursday 9/11)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-09-18" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Sep 18</div>
 <div class="plans col-md-9"><div class="plan Quiz">
