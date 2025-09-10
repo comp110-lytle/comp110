@@ -27,7 +27,7 @@ template: overview
 ## Conditionals + "elif"
 [Example 0](/resources/practice/memory-diagrams/elif/elif-00.html)
 
-<!-- 
+
 
 ## Recursion
 [Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
@@ -36,7 +36,7 @@ template: overview
 
 
 
-
+<!-- 
 
 ## While loops (no functions)
 [Example 0](/resources/practice/memory-diagrams/while/while-00.html) |
