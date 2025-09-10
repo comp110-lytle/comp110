@@ -53,7 +53,7 @@ Before beginning work on the program, you should add a _docstring_ to the top of
 
 ## Part 1. `input_guess` -- 10 Points
 
-Declare a function named `input_guess`. When given an integer parameter named `expected_length`, it will prompt the user for a guess and continue prompting them until they provide a guess of the expected length. The initial prompt should have the following format: `Enter a N character word: `, where N is the desired length. You can store the user's guess as a _local variable_, so you can use its name to access its value as many times as needed inside the scope of the function, like so: 
+Declare a function named `input_guess`. When given an integer parameter named `expected_length`, it will prompt the user for a guess and continue prompting them until they provide a guess of the expected length. The initial prompt should have the following format: `Enter a N character word: `, where N is the desired length. You can store the user's guess as a _local variable_, so you can use its name (`guess`) to access its value as many times as needed inside the scope of the function, like so: 
 
 `guess: str = input(f"Enter a {expected_length} character word: ")`
 
