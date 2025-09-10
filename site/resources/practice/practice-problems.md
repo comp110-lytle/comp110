@@ -30,6 +30,7 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Boolean Expressions](/resources/practice/boolean-expressions.html)
 - [Conditionals](/resources/practice/conditionals.html)
 - [Recursive Functions](/resources/practice/recursive-functions.html)
+- [While Loops](/resources/practice/while-loops-functions.html)
 
 <!-- 
 ## Quiz 02

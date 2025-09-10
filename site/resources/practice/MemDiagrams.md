@@ -34,7 +34,11 @@ template: overview
 [Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
 [Example 2](/resources/practice/memory-diagrams/recursion/pow.html)
 
+## While Loops 
 
+[Example 0](/resources/practice/memory-diagrams/while/while-prime.html) |
+[Example 1](/resources/practice/memory-diagrams/while/digits-in-string.html)  |
+[Example 2](/resources/practice/memory-diagrams/while/string_count.html) 
 
 <!-- 
 
@@ -44,11 +48,7 @@ template: overview
 [Example 2](/resources/practice/memory-diagrams/while/while-02.html)
 
 
-## While Loops + Functions
 
-[Example 0](/resources/practice/memory-diagrams/while/while-prime.html) |
-[Example 1](/resources/practice/memory-diagrams/while/digits-in-string.html)  |
-[Example 2](/resources/practice/memory-diagrams/while/string_count.html) 
 
 ## Lists 
 [Example 0](/resources/practice/memory-diagrams/lists/lists-01.html) |
