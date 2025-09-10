@@ -103,11 +103,18 @@ Go to [EdStem](https://edstem.org/) and select "chat" (under the "new thread" bu
 
 # Tutoring
 
-Tutoring will be in Sitterson Hall (SN) 011.
+* _Monday: 5:00 PM - 7:00 PM_ in Sitterson Hall (SN) 011
+* _Wednesday: 5:00 PM - 7:00 PM_ in Sitterson Hall (SN) 115
+* _Thursday: 5:00 PM - 7:00 PM_ Sitterson Hall (SN) 011
+
+View [this floor plan](https://cs.unc.edu/resources/floor-plans/) to help you find the rooms. 
+
+
+<!-- Tutoring will be in Sitterson Hall (SN) 011.
 
 * _Monday: 5:00 PM - 7:00 PM_ 
 * _Wednesday: 5:00 PM - 7:00 PM_ 
-* _Thursday: 5:00 PM - 7:00 PM_ 
+* _Thursday: 5:00 PM - 7:00 PM_  -->
 
 
 View [this floor plan](https://cs.unc.edu/resources/floor-plans/) to help you find the rooms. 
