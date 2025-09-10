@@ -6,6 +6,9 @@ page: exercises
 template: overview
 ---
 
+<p style="color:orange;font-size:50px;">!! Attention !!</p>
+<p style="color:orange;">You only have the tools to do parts 0 and 1 right now! We will cover while loops Thurs, Sept 11 + Tues, September 16!</p>
+
 In this exercise, we will take inspiration from the free, viral word puzzle game [Wordle](https://www.nytimes.com/games/wordle/index.html). If you haven't played it, you should! We now have all the conceptual tools needed to recreate this popular game!
 
 Have you tried solving today's [Wordle](https://www.nytimes.com/games/wordle/index.html)? If not, do so first!
