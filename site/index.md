@@ -51,7 +51,10 @@ template: home
 </div><div data-type="lecture" data-date="2025-09-18" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Sep 18</div>
 <div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ01 </span><span class="title">Quiz 1</span></div></div>
+<span class="kind">QZ01 </span><span class="title">Quiz 1</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2025-10-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Oct 9</div>
 <div class="plans col-md-9"><div class="plan Quiz">
