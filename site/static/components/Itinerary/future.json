@@ -1,47 +1,59 @@
 {
-    "2025-08-23": [],
-    "2025-08-24": [],
-    "2025-08-25": [],
-    "2025-08-26": [
+    "2025-09-09": [
         {
             "kind": "CL",
-            "n": 2,
-            "title": "Functions and Memory Diagrams",
-            "date": "2025-08-26",
+            "n": 5,
+            "title": "f-strings, Positional Arguments, and Recursion",
+            "date": "2025-09-09",
             "deadline": "None",
             "links": {
-                "Slides": "/static/slides/CL02.pdf"
+                "": "/static/slides/CL05.pdf"
             }
-        }
-    ],
-    "2025-08-27": [],
-    "2025-08-28": [
+        },
         {
-            "kind": "QZ",
-            "n": 0,
-            "title": "Quiz 0",
-            "date": "2025-08-28",
-            "deadline": "2025-08-28",
+            "kind": "LS",
+            "n": 7,
+            "title": "Recursion (Due Tuesday 9/9)",
+            "date": "2025-09-09",
+            "deadline": "2025-09-09",
             "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "Wordle (Due Tuesday 9/23)",
+            "date": "2025-09-09",
+            "deadline": "2025-09-23",
+            "links": {
+                "": "/exercises/wordle.html"
             }
         }
     ],
-    "2025-08-29": [],
-    "2025-08-30": [],
-    "2025-08-31": [],
-    "2025-09-01": [],
-    "2025-09-02": [],
-    "2025-09-03": [],
-    "2025-09-04": [],
-    "2025-09-05": [],
-    "2025-09-06": [],
-    "2025-09-07": [],
-    "2025-09-08": [],
-    "2025-09-09": [],
     "2025-09-10": [],
-    "2025-09-11": [],
+    "2025-09-11": [
+        {
+            "kind": "CL",
+            "n": 6,
+            "title": "while Loops",
+            "date": "2025-09-11",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL06.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "while Loops (Due Thursday 9/11)",
+            "date": "2025-09-11",
+            "deadline": "2025-09-11",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-09-12": [],
     "2025-09-13": [],
     "2025-09-14": [],
@@ -55,7 +67,10 @@
             "title": "Quiz 1",
             "date": "2025-09-18",
             "deadline": "2025-09-18",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
+            }
         }
     ],
     "2025-09-19": [],

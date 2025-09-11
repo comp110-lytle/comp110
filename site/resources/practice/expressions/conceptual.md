@@ -37,7 +37,7 @@ template: overview
 
     10.5. `float("100.0") / 20`
 
-    10.6. `21 // 2 ** 2 + 3`
+    10.6. `20 / 2 ** 2 + 3`
 
     10.7. `float("220") >= float("100" + "100")`
 
@@ -69,9 +69,9 @@ template: overview
 
     e. `True`
 
-13. What value would you substitute for `x` to make the following expression true? `(3 + x) == (55 // 11 ** 2)`
 
-14. Use subscription notation, string concatenation, and the string `"nevermind"` to write an expression that evaluates to `"nvm"`.
+
+13. Use subscription notation, string concatenation, and the string `"nevermind"` to write an expression that evaluates to `"nvm"`.
 
 [Solutions](#conceptual-solutions)
 
@@ -106,7 +106,7 @@ template: overview
 
     10.5. Type: `float` Value: `5.0`
 
-    10.6. Type: `int` Value: `8`
+    10.6. Type: `float` Value: `8.0`
 
     10.7. Type: `bool` Value: `False`
 
@@ -118,6 +118,5 @@ template: overview
 
 11. B
 12. B
-13. `22`
-14. `"nevermind"[0] + "nevermind"[2] + "nevermind"[5]`
+13. `"nevermind"[0] + "nevermind"[2] + "nevermind"[5]`
 
