@@ -14,8 +14,23 @@ template: overview
 ## 1. Multiple Choice
 
 1.1. Every `if` statement must be followed by a paired `else` branch. (T/F)
+
 1.2. Lines contained in an `else` branch in Python do not have to be indented. (T/F)
+
 1.3. You can name a variable `else` in your program without Python confusing your variable's name and the `else` keyword. (If you are unsure, this is a good one to try yourself!) (T/F)
+
+
+<details>
+  <summary><b>SHOW SOLUTIONS</b></summary>
+  
+
+1.1. `False`
+1.2. `False`
+1.3. `False`
+
+</details>
+
+&nbsp;
 
 <!-- 
 ## 2. Inputting a Value
@@ -86,6 +101,22 @@ You might not need to use all and can use any multiple times: `while`, `<conditi
 
 2.3. What happens when a `return` statement is encountered?
 
+
+<details>
+  <summary><b>SHOW SOLUTIONS</b></summary>
+  
+
+2.1. The condition must evaluate to `True`.
+
+2.2. The condition must evaluate to `False`.
+
+2.3. The return value is recorded in memory and the function is immediately exited.
+
+</details>
+
+&nbsp;
+
+
 <!-- ## 3. Code Snippet 1
 
 All subquestions of this problem will refer to this pseudo code snippet:
@@ -131,7 +162,27 @@ All subquestions of this problem will refer to this code snippet:
 
 3.4. What other values can x, y, and/or z be assigned in order for the `if` block to run?
 
----
+
+
+<details>
+  <summary><b>SHOW SOLUTIONS</b></summary>
+  
+
+3.1. `not(x != y and x != "y")`
+
+3.2. The condition evaluates to `True`.
+
+3.3. To ensure the `else` block runs in the given code, the condition `x != y and x != "y"` must be true. This means `x` should be different from `y` and `x` should also be different from the string `"y"`. For example, setting `x = "a"` and `y = "b"` will satisfy this condition, making the `else` block execute.
+
+3.4. To make the `if` block run, the condition `not(x != y and x != "y")` must be true, which happens when `x` is either the same as `y` or the same as `"y"`, or both. In the original code where `x = "y"`, `y = "x"`, and `z = "x"`, the `if` block runs as `not(x != y and x != "y")` evaluates to true.
+
+
+</details>
+
+&nbsp;
+
+
+<!-- ---
 
 
 [solutions](#conceptual-solutions)
@@ -142,7 +193,7 @@ All subquestions of this problem will refer to this code snippet:
 
 1.1. F
 1.2. F
-1.3. F
+1.3. F -->
 
 <!-- 4. 
     
@@ -188,12 +239,11 @@ OR
         <do_something>
 ``` -->
 
-2.1. The condition must evaluate to `True`.
-
+<!-- 2.1. The condition must evaluate to `True`.
 
 2.2. The condition must evaluate to `False`.
 
-2.3. The return value is recorded in memory and the function is immediately exited.
+2.3. The return value is recorded in memory and the function is immediately exited. -->
 <!-- 
 3.1. `<condition1>` must not be met (condition should evaluate to `False`) AND `<condition2>` must be met (condition should evaluate to `True`).
 
@@ -203,7 +253,7 @@ if ("hello" == "hello") == False:
 ```
 the `<condition>` in this case would be everything in between the `if` and the `:`. In the pseudo-code, we are separating the `<condition>` to be separate from the rest (`== False`), while in real code the condition is always everything after the `if` and before the `:`. -->
 
----
+<!-- ---
 
 3.1. `not(x != y and x != "y")`
 
@@ -213,4 +263,4 @@ the `<condition>` in this case would be everything in between the `if` and the `
 
 3.4. To make the `if` block run, the condition `not(x != y and x != "y")` must be true, which happens when `x` is either the same as `y` or the same as `"y"`, or both. In the original code where `x = "y"`, `y = "x"`, and `z = "x"`, the `if` block runs as `not(x != y and x != "y")` evaluates to true.
 
----
+--- -->

@@ -20,20 +20,22 @@ What is the result of the following boolean expressions?
 4. `(not False) != True`  
 5. `not(True and False) and (False or not False)` 
 
-<!-- [solutions](#conceptual-solutions) -->
 
 <details>
   <summary><b>SHOW SOLUTIONS</b></summary>
   
-    1. `True`  
-    2. `True`  
-    3. `False`  
-    4. `False`  
-    5. `True`
+
+1. `True`  
+2. `True`  
+3. `False`  
+4. `False`  
+5. `True`
 
 </details>
 
 &nbsp;
+
+<!-- [solutions](#conceptual-solutions) -->
 
 <!-- # Solutions
 
