@@ -20,7 +20,7 @@ What is the result of the following boolean expressions?
 4. `(not False) != True`  
 5. `not(True and False) and (False or not False)` 
 
-[solutions](#conceptual-solutions)
+<!-- [solutions](#conceptual-solutions) -->
 
 <details>
   <summary><b>SHOW SOLUTIONS</b></summary>
