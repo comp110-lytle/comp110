@@ -22,7 +22,20 @@ What is the result of the following boolean expressions?
 
 [solutions](#conceptual-solutions)
 
-# Solutions
+<details>
+  <summary><b>SHOW SOLUTIONS</b></summary>
+  
+    1. `True`  
+    2. `True`  
+    3. `False`  
+    4. `False`  
+    5. `True`
+
+</details>
+
+&nbsp;
+
+<!-- # Solutions
 
 ## Conceptual Solutions
 
@@ -30,4 +43,4 @@ What is the result of the following boolean expressions?
 2. `True`  
 3. `False`  
 4. `False`  
-5. `True`
+5. `True` -->
