@@ -57,7 +57,7 @@ Before beginning work on the program, you should add a _docstring_ to the top of
 
 ## Part 1. `input_guess` -- 10 Points
 
-Declare a function named `input_guess`. Its purpose is given an integer "expected length" of a guess as a parameter, it will prompt the user for a guess and continue prompting them until they provide a guess of the expected length. The initial prompt should have the following format: `Enter a N character word: `, where N is the desired length. Then, use the following format to continue prompting the user: `That wasn't N chars! Try again: `. This function must then return the user's guess string of the correct length to the caller of `input_guess`. You can enable this behavior using recursion. Think: what will your base and recursive cases be?
+Declare a function named `input_guess`. Its purpose is given an integer "expected length" of a guess as a parameter, it will prompt the user for a guess and continue prompting them until they provide a guess of the expected length. The initial prompt should have the following format: `Enter a N character word: `, where N is the desired length. Then, use the following format to continue prompting the user: `That wasn't N chars! Try again: `. This function must then return the user's guess string of the correct length to the caller of `input_guess`.
 
 Once you have implemented this function, try using it in the Trailhead REPL.
 
