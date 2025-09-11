@@ -18,9 +18,11 @@ template: overview
 * [Recursion Pt. 1](https://www.youtube.com/watch?v=5mVmXIrG5ec)
 * [Recursion Pt. 2](https://www.youtube.com/watch?v=lWwCoD9EV9g)
 
-<!-- * [User Input, Local Variables, and elif](https://youtu.be/eRHLEucuLt4)
+* [User Input, Local Variables, and elif](https://youtu.be/eRHLEucuLt4)
 * [While Loops](https://www.youtube.com/watch?v=iiksOU66xSw)
 * [While Loops in Memory](https://youtu.be/-IaBIsOxwOM)
+
+<!-- 
 * [Lists](https://www.youtube.com/watch?v=U_GP3Jkz5lU)
 * [Lists in Memory](https://www.youtube.com/watch?v=WCvrVTUZ-Ac)
 * [Dictionaries](https://www.youtube.com/watch?v=PHkFp_T--yk)
