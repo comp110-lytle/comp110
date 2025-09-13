@@ -29,8 +29,9 @@ If you ever find yourself feeling really lost, feel free to take these questions
 ## Quiz 01
 - [Boolean Expressions](/resources/practice/boolean-expressions.html)
 - [Conditionals](/resources/practice/conditionals.html)
+- [Recursion](/resources/practice/recursion.html)
+- [f-Strings](/resources/practice/f-strings.html)
 - [While Loops](/resources/practice/while-loops-functions.html)
-
 
 <!-- - [Recursive Functions](/resources/practice/recursive-functions.html) -->
 <!-- 
