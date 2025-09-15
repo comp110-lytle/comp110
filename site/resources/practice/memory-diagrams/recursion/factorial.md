@@ -8,6 +8,9 @@ template: overview
 
 # Snippet
 
+Create a memory diagram for the following code snippet. Additionally, identify the lines where the edge case, base case, and recursive case occur (this will generally consist of a conditional statement, a return statement, and possibly more lines of code in between).
+
+
 ```py
 1     """Recursion practice!"""
 2 
@@ -29,6 +32,7 @@ template: overview
 
 # Solution
 
+The edge case occurs on lines 5-6, the base case occurs on lines 7-8, and the recursive case on lines 9-10.
 
 <img class="img-fluid" src="/static/practice-mem-diagrams/factorial.png" alt="Memory diagram for factorial and main function code listing."  />
 

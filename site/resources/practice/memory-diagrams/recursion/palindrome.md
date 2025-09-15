@@ -32,6 +32,7 @@ Challenge Memory Diagram: Create a memory diagram for the following code snippet
 
 # Solution
 
+The base cases occur on lines 5-6 and 9-10. If you reach the base case on lines 5-6, that means you made it through the whole `word` without finding any differences between letters that should be the same, so you can return `True` as the final result. If you make it to lines 9-10, that means a difference was found between letters that should be the same, so `word` is not a palindrome. The recursive case is on lines 7-8.
 
 <img class="img-fluid" src="/static/practice-mem-diagrams/palindrome.png" alt="Memory diagram for palindrome example."  />
 
