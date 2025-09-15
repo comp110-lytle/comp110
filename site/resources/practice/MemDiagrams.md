@@ -30,7 +30,9 @@ template: overview
 ## Recursion
 [Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
 [Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
-[Example 2](/resources/practice/memory-diagrams/recursion/pow.html)
+[Example 2](/resources/practice/memory-diagrams/recursion/pow.html) |
+[Example 3](/resources/practice/memory-diagrams/recursion/factorial.html) |
+[Example 4 (Challenge!)](/resources/practice/memory-diagrams/recursion/palindrome.html)
 
 ## While Loops 
 

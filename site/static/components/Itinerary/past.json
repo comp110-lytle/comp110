@@ -225,5 +225,27 @@
             }
         }
     ],
-    "2025-09-10": []
+    "2025-09-10": [],
+    "2025-09-11": [
+        {
+            "kind": "CL",
+            "n": 6,
+            "title": "while Loops",
+            "date": "2025-09-11",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL06.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "while Loops (Due Thursday 9/11)",
+            "date": "2025-09-11",
+            "deadline": "2025-09-11",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ]
 }

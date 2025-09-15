@@ -31,6 +31,7 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Conditionals](/resources/practice/conditionals.html)
 - [Recursion](/resources/practice/recursion.html)
 - [f-Strings](/resources/practice/f-strings.html)
+- [Local Variables](/resources/practice/local_vars.html)
 - [While Loops](/resources/practice/while-loops-functions.html)
 
 <!-- - [Recursive Functions](/resources/practice/recursive-functions.html) -->
