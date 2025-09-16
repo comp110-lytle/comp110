@@ -7,7 +7,7 @@ import pytest
 from pytest import mark
 from graders.helpers import reimport_module, assert_parameter_list, assert_return_type
 
-MODULE = "CQs.cq03_while_loops"
+MODULE = "CQs.cq01_while_loops"
 module = None
 
 @mark.weight(1)

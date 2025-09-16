@@ -40,7 +40,7 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-09-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Sep 16</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL07 </span><span class="title"><a href="/">Quiz Practice</a></span></div><div class="plan Challenge Question">
+<span class="kind">CL07 </span><span class="title"><a href="/static/practice-problems/QZ01_Practice.pdf">Quiz Practice</a></span></div><div class="plan Challenge Question">
 <span class="kind">CQ01 </span><span class="title"><a href="/cqs/while-loops.html">while Loops (Due Tuesday 9/16)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-09-18" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Sep 18</div>
