@@ -59,16 +59,16 @@ template: overview
 
 ```py
 1    def main() -> None: 
-2    x: str = "x"
-3    y: str = "y"
-4    z: str = x
-5    y = x
-6    x = "y"
+2       x: str = "x"
+3       y: str = "y"
+4       z: str = x
+5       y = x
+6       x = "y"
 7
-8    if not(x != y and x != "y"):
-9        print(f"x: {x}")
-10   else:
-11       print("'if' condition not met.")
+8       if not(x != y and x != "y"):
+9           print(f"x: {x}")
+10      else:
+11          print("'if' condition not met.")
 12 
 13   main()
 ```

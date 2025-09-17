@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/while-loops.html">CQ01 - TUE, SEP 16 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ01 - THU, SEP 18 11:59pm</a></li><li class="horizon-item"><a href="/exercises/wordle.html">EX02 - TUE, SEP 23 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ01 - THU, SEP 18 11:59pm</a></li><li class="horizon-item"><a href="/exercises/wordle.html">EX02 - TUE, SEP 23 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -51,7 +51,7 @@ template: home
 <span class="kind">QZ01 </span><span class="title">Quiz 1</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
 <li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
-<li class="link"><a href="/">Review Session (Wed @ 6 pm in SN014)</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/97546724424?pwd=JeGjtRPawhtIQFIAgKhQExe5Y04iSF.1">Review Session (Wed @ 6 pm in SN014 and online (Passcode: 110110))</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2025-10-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Oct 9</div>
