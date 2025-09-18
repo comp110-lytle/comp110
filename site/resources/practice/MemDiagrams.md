@@ -20,13 +20,6 @@ template: overview
 [Example 3](/resources/practice/memory-diagrams/functions/cookies.html) |
 [Example 4](/resources/practice/memory-diagrams/functions/mystery-word.html) 
 
-<!-- 
-
-## Recursion
-[Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
-[Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
-[Example 2](/resources/practice/memory-diagrams/recursion/pow.html)
-
 ## Conditionals
 [Example 0](/resources/practice/memory-diagrams/conditionals/conditionals-00.html) |
 [Example 1](/resources/practice/memory-diagrams/conditionals/conditionals-01.html)
@@ -34,7 +27,20 @@ template: overview
 ## Conditionals + "elif"
 [Example 0](/resources/practice/memory-diagrams/elif/elif-00.html)
 
+## Recursion
+[Example 0](/resources/practice/memory-diagrams/recursion/basic-loop.html) |
+[Example 1](/resources/practice/memory-diagrams/recursion/silly-loop.html) |
+[Example 2](/resources/practice/memory-diagrams/recursion/pow.html) |
+[Example 3](/resources/practice/memory-diagrams/recursion/factorial.html) |
+[Example 4 (Challenge!)](/resources/practice/memory-diagrams/recursion/palindrome.html)
 
+## While Loops 
+
+[Example 0](/resources/practice/memory-diagrams/while/while-prime.html) |
+[Example 1](/resources/practice/memory-diagrams/while/digits-in-string.html)  |
+[Example 2](/resources/practice/memory-diagrams/while/string_count.html) 
+
+<!-- 
 
 ## While loops (no functions)
 [Example 0](/resources/practice/memory-diagrams/while/while-00.html) |
@@ -42,11 +48,7 @@ template: overview
 [Example 2](/resources/practice/memory-diagrams/while/while-02.html)
 
 
-## While Loops + Functions
 
-[Example 0](/resources/practice/memory-diagrams/while/while-prime.html) |
-[Example 1](/resources/practice/memory-diagrams/while/digits-in-string.html)  |
-[Example 2](/resources/practice/memory-diagrams/while/string_count.html) 
 
 ## Lists 
 [Example 0](/resources/practice/memory-diagrams/lists/lists-01.html) |

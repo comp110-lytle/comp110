@@ -103,8 +103,26 @@ VSCode can be customized with extensions specific to the types of work you use i
 9. In the blank text box that appears, paste in the URL to your backup repository that you just copied. Press enter.
 10. When asked for "Remote name" type in: `backup`
 11. Open a new terminal tab, from the _Command Palette_ select "Terminal: Create New Terminal"
-11. In the terminal that pops up, type: `git push --set-upstream backup main` then press enter (two dashes in the of `--set-upstream`). This command backs your work up to your GitHub repository.
+12. In the terminal that pops up, type: `git push --set-upstream backup main` then press enter (two dashes in the of `--set-upstream`). This command backs your work up to your GitHub repository.
 
+### If You are Asked to Configure Your Github User Information
+
+You may receive an error message when you try to push to git (step 12). If so, try these steps and try again.
+
+1. If your _Terminal_ window from above is still open, great! If not, open a new _Terminal_ pane in VS Code.
+2. At the prompt, type the following command and press enter with your primary e-mail address inside the double quotes:
+
+```{.bash}
+git config --global user.email "your@primary.email"
+```
+
+3. Then, type tye following command and press enter with your first and last name inside the double quotes:
+
+```{.bash}
+git config --global user.name "Your Name"
+```
+
+After doing this, when you make backup commits in `git` they'll be correctly attributed to you.
 
 ## 6. Confirm Everything is Good to Go
 

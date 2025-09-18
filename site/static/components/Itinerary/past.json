@@ -79,5 +79,176 @@
             }
         }
     ],
-    "2025-08-22": []
+    "2025-08-22": [],
+    "2025-08-23": [],
+    "2025-08-24": [],
+    "2025-08-25": [],
+    "2025-08-26": [
+        {
+            "kind": "LS",
+            "n": 4,
+            "title": "Functions (Due Tuesday 8/26)",
+            "date": "2025-08-26",
+            "deadline": "2025-08-26",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Functions and Memory Diagrams",
+            "date": "2025-08-26",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL02.pdf"
+            }
+        }
+    ],
+    "2025-08-27": [],
+    "2025-08-28": [
+        {
+            "kind": "QZ",
+            "n": 0,
+            "title": "Quiz 0",
+            "date": "2025-08-28",
+            "deadline": "2025-08-28",
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html",
+                "Review Session Recording": "https://youtu.be/qM2gsvByNSA"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 1,
+            "title": "Tea Party (Due Wednesday 9/3)",
+            "date": "2025-08-28",
+            "deadline": "2025-09-03",
+            "links": {
+                "": "/exercises/tea-party.html"
+            }
+        }
+    ],
+    "2025-08-29": [],
+    "2025-08-30": [],
+    "2025-08-31": [],
+    "2025-09-01": [],
+    "2025-09-02": [
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Boolean Operators and Conditionals",
+            "date": "2025-09-02",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL03.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Boolean Operators (Due Tuesday 9/2)",
+            "date": "2025-09-02",
+            "deadline": "2025-09-02",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Conditionals (Due Tuesday 9/2)",
+            "date": "2025-09-02",
+            "deadline": "2025-09-02",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-09-03": [],
+    "2025-09-04": [
+        {
+            "kind": "CL",
+            "n": 4,
+            "title": "Local Variables",
+            "date": "2025-09-04",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL04.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Practice with Conditionals (Due Thursday 9/4)",
+            "date": "2025-09-04",
+            "deadline": "2025-09-04",
+            "links": {
+                "": "/cqs/conditionals.html"
+            }
+        }
+    ],
+    "2025-09-05": [],
+    "2025-09-06": [],
+    "2025-09-07": [],
+    "2025-09-08": [],
+    "2025-09-09": [
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "f-strings, Positional Arguments, and Recursion",
+            "date": "2025-09-09",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL05.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Recursion (Due Tuesday 9/9)",
+            "date": "2025-09-09",
+            "deadline": "2025-09-09",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "Wordle (Due Tuesday 9/23)",
+            "date": "2025-09-09",
+            "deadline": "2025-09-23",
+            "links": {
+                "": "/exercises/wordle.html"
+            }
+        }
+    ],
+    "2025-09-10": [],
+    "2025-09-11": [
+        {
+            "kind": "CL",
+            "n": 6,
+            "title": "while Loops",
+            "date": "2025-09-11",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL06.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "while Loops (Due Thursday 9/11)",
+            "date": "2025-09-11",
+            "deadline": "2025-09-11",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-09-12": [],
+    "2025-09-13": [],
+    "2025-09-14": []
 }
