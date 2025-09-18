@@ -24,7 +24,7 @@ template: overview
 
   1.5 `not (True and False) and (False or not False)`
 
-  1.6. `"XYz" == "XYZ" or "B" = "C"`
+  1.6. `"XYz" == "XYZ" or "B" == "C"`
 
   1.7. `5 ** 2 >= 5 * 5 and 110 % 10 == 0`
 

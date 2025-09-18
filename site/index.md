@@ -51,7 +51,7 @@ template: home
 <span class="kind">QZ01 </span><span class="title">Quiz 1</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
 <li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
-<li class="link"><a href="https://unc.zoom.us/j/97546724424?pwd=JeGjtRPawhtIQFIAgKhQExe5Y04iSF.1">Review Session (Wed @ 6 pm in SN014 and online (Passcode: 110110))</a></li>
+<li class="link"><a href="https://youtu.be/3N6FCX3DwKM">Review Session Recording</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2025-10-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Oct 9</div>
