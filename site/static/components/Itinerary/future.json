@@ -1,48 +1,39 @@
 {
-    "2025-09-15": [],
-    "2025-09-16": [
-        {
-            "kind": "CL",
-            "n": 7,
-            "title": "Quiz Practice",
-            "date": "2025-09-16",
-            "deadline": "None",
-            "links": {
-                "Problems": "/static/practice-problems/QZ01_Practice.pdf",
-                "Recording (Passcode: F+3MQS%8)": "https://unc.zoom.us/rec/share/761FoG1VFjEWR5iiv65lfVg51shwYu_GWPvoCdlg8wxwydycz57NrGTNeTkeepgG.SOL4m452vU0lGqHv"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 1,
-            "title": "while Loops (Due Tuesday 9/16)",
-            "date": "2025-09-16",
-            "deadline": "2025-09-16",
-            "links": {
-                "": "/cqs/while-loops.html"
-            }
-        }
-    ],
-    "2025-09-17": [],
-    "2025-09-18": [
-        {
-            "kind": "QZ",
-            "n": 1,
-            "title": "Quiz 1",
-            "date": "2025-09-18",
-            "deadline": "2025-09-18",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html",
-                "Review Session Recording": "https://youtu.be/3N6FCX3DwKM"
-            }
-        }
-    ],
-    "2025-09-19": [],
     "2025-09-20": [],
     "2025-09-21": [],
     "2025-09-22": [],
-    "2025-09-23": [],
+    "2025-09-23": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Lists",
+            "date": "2025-09-23",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL07.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "Lists (Due Tuesday 9/23)",
+            "date": "2025-09-23",
+            "deadline": "2025-09-23",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 3,
+            "title": "List Utils (Due Monday 9/29)",
+            "date": "2025-09-23",
+            "deadline": "2025-09-29",
+            "links": {
+                "": "/exercises/list-utils.html"
+            }
+        }
+    ],
     "2025-09-24": [],
     "2025-09-25": [],
     "2025-09-26": [],
