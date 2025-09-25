@@ -21,10 +21,10 @@ template: overview
 * [User Input, Local Variables, and elif](https://youtu.be/eRHLEucuLt4)
 * [While Loops](https://www.youtube.com/watch?v=iiksOU66xSw)
 * [While Loops in Memory](https://youtu.be/-IaBIsOxwOM)
-
-<!-- 
 * [Lists](https://www.youtube.com/watch?v=U_GP3Jkz5lU)
 * [Lists in Memory](https://www.youtube.com/watch?v=WCvrVTUZ-Ac)
+
+<!-- 
 * [Dictionaries](https://www.youtube.com/watch?v=PHkFp_T--yk)
 * [Dictionaries in Memory](https://www.youtube.com/watch?v=tlfJfLBsuX0)
 * [for Loops](https://www.youtube.com/watch?v=kzeQbHPivE0)

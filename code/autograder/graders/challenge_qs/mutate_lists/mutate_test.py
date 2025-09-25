@@ -9,7 +9,7 @@ from pytest import mark
 from graders.helpers import assert_parameter_list, author_is_a_valid_pid, reimport_module, import_module
 from graders.helpers import assert_return_type
 
-MODULE = "CQs.cq04_lists"
+MODULE = "CQs.cq02_lists"
 
 
 @mark.weight(1)

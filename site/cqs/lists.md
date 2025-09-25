@@ -1,5 +1,5 @@
 ---
-title: CQ04 - Lists Practice
+title: CQ02 - Lists Practice
 author:
   - Alyssa Lytle
 page: lessons
@@ -36,13 +36,13 @@ However, let's do something similar for a list!
 
 This will actually *mutate* the list used as an argument in the function call!
 
-To get more comfortable with this idea, you can watch [this video](https://www.youtube.com/watch?v=DuSEcQMsZRE) to see how this works in memory!
+<!-- To get more comfortable with this idea, you can watch [this video](https://www.youtube.com/watch?v=DuSEcQMsZRE) to see how this works in memory! -->
 
 For this challenge question, you are going to practice writing a function that *mutates* its input!
 
 ## Part 0. Setup
 
-Start by opening your workspace in Visual Studio. Right click on the "CQs" folder and select "add file". Your file will be named `cq04_lists.py`.
+Start by opening your workspace in Visual Studio. Right click on the "CQs" folder and select "add file". Your file will be named `cq02_lists.py`.
 
 Set up your document by adding the docstring:
 `"""Mutating functions."""` and initializing the `__author__` variable with your PID.
@@ -59,7 +59,7 @@ Write a function definition with the following expectations:
 Example usage:
 <pre>
 <div class="terminal">>>> a: list[int] = [1,2,3]
->>> from CQS.cq04_lists import manual_append
+>>> from CQS.cq02_lists import manual_append
 >>> manual_append(a, 2)
 >>> print(a)
 [1,2,3,2]
@@ -81,7 +81,7 @@ Write a function definition with the following expectations:
 Example usage:
 <pre>
 <div class="terminal">>>> a: list[int] = [1,2,3]
->>> from CQs.cq04_lists import double
+>>> from CQs.cq02_lists import double
 >>> double(a)
 >>> print(a)
 [2,4,6]
@@ -110,7 +110,7 @@ __Before you continue: What will be printed for `list_1`? What will be printed f
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission CQs/cq04_lists.py```
+```python -m tools.submission CQs/cq02_lists.py```
 
 Then, drag and drop that .zip file into Gradescope!
 

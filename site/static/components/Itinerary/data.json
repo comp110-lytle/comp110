@@ -327,7 +327,28 @@
         }
     ],
     "2025-09-24": [],
-    "2025-09-25": [],
+    "2025-09-25": [
+        {
+            "kind": "CL",
+            "n": 9,
+            "title": "Mutating Lists",
+            "date": "2025-09-25",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL09.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 2,
+            "title": "Mutating Lists (Due Thursday 9/25)",
+            "date": "2025-09-25",
+            "deadline": "2025-09-25",
+            "links": {
+                "": "/cqs/lists.html"
+            }
+        }
+    ],
     "2025-09-26": [],
     "2025-09-27": [],
     "2025-09-28": [],
