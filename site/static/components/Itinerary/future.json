@@ -1,70 +1,59 @@
 {
-    "2025-08-23": [],
-    "2025-08-24": [],
-    "2025-08-25": [],
-    "2025-08-26": [
+    "2025-09-23": [
         {
             "kind": "CL",
-            "n": 2,
-            "title": "Functions and Memory Diagrams",
-            "date": "2025-08-26",
+            "n": 8,
+            "title": "Lists",
+            "date": "2025-09-23",
             "deadline": "None",
             "links": {
-                "Slides": "/static/slides/CL02.pdf"
+                "": "/static/slides/CL07.pdf"
             }
-        }
-    ],
-    "2025-08-27": [],
-    "2025-08-28": [
+        },
         {
-            "kind": "QZ",
-            "n": 0,
-            "title": "Quiz 0",
-            "date": "2025-08-28",
-            "deadline": "2025-08-28",
+            "kind": "LS",
+            "n": 9,
+            "title": "Lists (Due Tuesday 9/23)",
+            "date": "2025-09-23",
+            "deadline": "2025-09-23",
             "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 3,
+            "title": "List Utils (Due Monday 9/29)",
+            "date": "2025-09-23",
+            "deadline": "2025-09-29",
+            "links": {
+                "": "/exercises/list-utils.html"
             }
         }
     ],
-    "2025-08-29": [],
-    "2025-08-30": [],
-    "2025-08-31": [],
-    "2025-09-01": [],
-    "2025-09-02": [],
-    "2025-09-03": [],
-    "2025-09-04": [],
-    "2025-09-05": [],
-    "2025-09-06": [],
-    "2025-09-07": [],
-    "2025-09-08": [],
-    "2025-09-09": [],
-    "2025-09-10": [],
-    "2025-09-11": [],
-    "2025-09-12": [],
-    "2025-09-13": [],
-    "2025-09-14": [],
-    "2025-09-15": [],
-    "2025-09-16": [],
-    "2025-09-17": [],
-    "2025-09-18": [
+    "2025-09-24": [],
+    "2025-09-25": [
         {
-            "kind": "QZ",
-            "n": 1,
-            "title": "Quiz 1",
-            "date": "2025-09-18",
-            "deadline": "2025-09-18",
-            "links": {}
+            "kind": "CL",
+            "n": 9,
+            "title": "Mutating Lists",
+            "date": "2025-09-25",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL09.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 2,
+            "title": "Mutating Lists (Due Thursday 9/25)",
+            "date": "2025-09-25",
+            "deadline": "2025-09-25",
+            "links": {
+                "": "/cqs/lists.html"
+            }
         }
     ],
-    "2025-09-19": [],
-    "2025-09-20": [],
-    "2025-09-21": [],
-    "2025-09-22": [],
-    "2025-09-23": [],
-    "2025-09-24": [],
-    "2025-09-25": [],
     "2025-09-26": [],
     "2025-09-27": [],
     "2025-09-28": [],
