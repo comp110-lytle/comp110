@@ -353,7 +353,38 @@
     "2025-09-27": [],
     "2025-09-28": [],
     "2025-09-29": [],
-    "2025-09-30": [],
+    "2025-09-30": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "Dictionaries",
+            "date": "2025-09-30",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 10,
+            "title": "Dictionaries (Due Tuesday 9/30)",
+            "date": "2025-09-30",
+            "deadline": "2025-09-30",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "Dictionary Utils (Due Monday 10/6)",
+            "date": "2025-09-30",
+            "deadline": "2025-10-06",
+            "links": {
+                "": "/exercises/dict-utils.html"
+            }
+        }
+    ],
     "2025-10-01": [],
     "2025-10-02": [],
     "2025-10-03": [],

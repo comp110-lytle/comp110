@@ -293,5 +293,61 @@
     "2025-09-19": [],
     "2025-09-20": [],
     "2025-09-21": [],
-    "2025-09-22": []
+    "2025-09-22": [],
+    "2025-09-23": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Lists",
+            "date": "2025-09-23",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL07.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "Lists (Due Tuesday 9/23)",
+            "date": "2025-09-23",
+            "deadline": "2025-09-23",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 3,
+            "title": "List Utils (Due Monday 9/29)",
+            "date": "2025-09-23",
+            "deadline": "2025-09-29",
+            "links": {
+                "": "/exercises/list-utils.html"
+            }
+        }
+    ],
+    "2025-09-24": [],
+    "2025-09-25": [
+        {
+            "kind": "CL",
+            "n": 9,
+            "title": "Mutating Lists",
+            "date": "2025-09-25",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL09.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 2,
+            "title": "Mutating Lists (Due Thursday 9/25)",
+            "date": "2025-09-25",
+            "deadline": "2025-09-25",
+            "links": {
+                "": "/cqs/lists.html"
+            }
+        }
+    ],
+    "2025-09-26": []
 }

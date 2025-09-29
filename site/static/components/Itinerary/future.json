@@ -1,64 +1,39 @@
 {
-    "2025-09-23": [
+    "2025-09-27": [],
+    "2025-09-28": [],
+    "2025-09-29": [],
+    "2025-09-30": [
         {
             "kind": "CL",
-            "n": 8,
-            "title": "Lists",
-            "date": "2025-09-23",
+            "n": 10,
+            "title": "Dictionaries",
+            "date": "2025-09-30",
             "deadline": "None",
             "links": {
-                "": "/static/slides/CL07.pdf"
+                "": "/"
             }
         },
         {
             "kind": "LS",
-            "n": 9,
-            "title": "Lists (Due Tuesday 9/23)",
-            "date": "2025-09-23",
-            "deadline": "2025-09-23",
+            "n": 10,
+            "title": "Dictionaries (Due Tuesday 9/30)",
+            "date": "2025-09-30",
+            "deadline": "2025-09-30",
             "links": {
                 "": "https://www.gradescope.com/"
             }
         },
         {
             "kind": "EX",
-            "n": 3,
-            "title": "List Utils (Due Monday 9/29)",
-            "date": "2025-09-23",
-            "deadline": "2025-09-29",
+            "n": 4,
+            "title": "Dictionary Utils (Due Monday 10/6)",
+            "date": "2025-09-30",
+            "deadline": "2025-10-06",
             "links": {
-                "": "/exercises/list-utils.html"
+                "": "/exercises/dict-utils.html"
             }
         }
     ],
-    "2025-09-24": [],
-    "2025-09-25": [
-        {
-            "kind": "CL",
-            "n": 9,
-            "title": "Mutating Lists",
-            "date": "2025-09-25",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/CL09.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 2,
-            "title": "Mutating Lists (Due Thursday 9/25)",
-            "date": "2025-09-25",
-            "deadline": "2025-09-25",
-            "links": {
-                "": "/cqs/lists.html"
-            }
-        }
-    ],
-    "2025-09-26": [],
-    "2025-09-27": [],
-    "2025-09-28": [],
-    "2025-09-29": [],
-    "2025-09-30": [],
     "2025-10-01": [],
     "2025-10-02": [],
     "2025-10-03": [],
