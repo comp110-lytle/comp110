@@ -68,7 +68,11 @@
             "title": "Quiz 2",
             "date": "2025-10-09",
             "deadline": "2025-10-09",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html",
+                "Review Session Recording": "https://youtu.be/qM2gsvByNSA"
+            }
         }
     ],
     "2025-10-10": [],
