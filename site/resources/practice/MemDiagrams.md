@@ -40,15 +40,6 @@ template: overview
 [Example 1](/resources/practice/memory-diagrams/while/digits-in-string.html)  |
 [Example 2](/resources/practice/memory-diagrams/while/string_count.html) 
 
-<!-- 
-
-## While loops (no functions)
-[Example 0](/resources/practice/memory-diagrams/while/while-00.html) |
-[Example 1](/resources/practice/memory-diagrams/while/while-01.html) |
-[Example 2](/resources/practice/memory-diagrams/while/while-02.html)
-
-
-
 
 ## Lists 
 [Example 0](/resources/practice/memory-diagrams/lists/lists-01.html) |
@@ -63,6 +54,18 @@ template: overview
 [Example 1](/resources/practice/memory-diagrams/dicts/dicts-01.html) |
 [Example 2](/resources/practice/memory-diagrams/dicts/lineups.html) |
 [Example 3](/resources/practice/memory-diagrams/nested-structures/inventory.html) 
+
+<!-- 
+
+## While loops (no functions)
+[Example 0](/resources/practice/memory-diagrams/while/while-00.html) |
+[Example 1](/resources/practice/memory-diagrams/while/while-01.html) |
+[Example 2](/resources/practice/memory-diagrams/while/while-02.html)
+
+
+
+
+
 
 ## OOP 
 
