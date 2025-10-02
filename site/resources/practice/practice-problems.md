@@ -34,25 +34,27 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Local Variables](/resources/practice/local_vars.html)
 - [While Loops](/resources/practice/while-loops-functions.html)
 
-<!-- - [Recursive Functions](/resources/practice/recursive-functions.html) -->
-<!-- 
-## Quiz 02
-- [While Loops](/resources/practice/while-loops.html)
-- [While Loops + Functions](/resources/practice/while-loops-functions.html)
-- [Lists](/resources/practice/lists.html)
 
-## Quiz 03
+
+## Quiz 02
+- [Lists](/resources/practice/lists.html)
 - [Dictionaries](/resources/practice/dicts.html)
 - [for Loops](/resources/practice/for-loops.html)
-- [Unit Tests](/resources/practice/unit-tests.html)
+- [Lists, Dictionaries, and Loops Reinforcement Questions](/resources/practice/lists-and-dicts-reinforced.html)
 - [Function Writing](/resources/practice/function-writing.html)
 
+## Quiz 03
+- [Unit Tests](/resources/practice/unit-tests.html)
+
+
+<!-- - [Recursive Functions](/resources/practice/recursive-functions.html) -->
+<!-- 
 ## Final Exam
 
 - [Object-Oriented Programming](/resources/practice/oop.html)
 - [Class Writing](/resources/practice/class-writing.html) -->
 
-<!-- - [Lists, Dictionaries, and Loops Reinforcement Questions](/resources/practice/lists-and-dicts-reinforced.html) -->
+<!-- -  -->
 
 
 <!-- 
