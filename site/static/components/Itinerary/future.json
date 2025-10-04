@@ -1,37 +1,4 @@
 {
-    "2025-09-30": [
-        {
-            "kind": "CL",
-            "n": 10,
-            "title": "Dictionaries",
-            "date": "2025-09-30",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/CL10.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 10,
-            "title": "Dictionaries (Due Tuesday 9/30)",
-            "date": "2025-09-30",
-            "deadline": "2025-09-30",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 4,
-            "title": "Dictionary Utils<s><i>(Due Monday 10/6)</i></s> (Extended to Wednesday 10/8)",
-            "date": "2025-09-30",
-            "deadline": "2025-10-06",
-            "links": {
-                "": "/exercises/dict-utils.html"
-            }
-        }
-    ],
-    "2025-10-01": [],
     "2025-10-02": [
         {
             "kind": "CL",
@@ -70,7 +37,7 @@
             "links": {
                 "Practice Problems": "/resources/practice/practice-problems.html",
                 "Practice Diagrams": "/resources/practice/MemDiagrams.html",
-                "Review Session": "/"
+                "Review Session on 10/08 at 6pm in SN014 and online": "/"
             }
         }
     ],
