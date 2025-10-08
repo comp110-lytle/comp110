@@ -22,7 +22,7 @@ For the following, make sure that for each question you could justify or provide
 6. How do you remove elements in a dict? What does this actually remove? 
 7. How do you modify a key in a dict?
 8. Write the general formula of how you remove a key-value pair to a dictionary object using the following. You might not need to use all and can use any multiple times: `pop`, `append`, `()`, `<object_variable>`, `.` , `<key>`, `<value>`, and `[]`. Give examples.
-9. Write the general formula of how you remove a key-value pair to a dictionary object using the following. You might not need to use all and can use any multiple times: `pop`, `append`, `()`, `<object_variable>`, `.` , `<key>`, `<value>`, and `[]`. Give examples.
+9. Write the general formula of how you add a key-value pair to a dictionary object using the following. You might not need to use all and can use any multiple times: `pop`, `append`, `()`, `<object_variable>`, `.` , `<key>`, `<value>`, and `[]`. Give examples.
 
 <details>
 <summary>SHOW SOLUTIONS</summary>
