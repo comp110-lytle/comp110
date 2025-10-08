@@ -1,29 +1,4 @@
 {
-    "2025-10-02": [
-        {
-            "kind": "CL",
-            "n": 11,
-            "title": "for Loops",
-            "date": "2025-10-02",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/CL11.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 11,
-            "title": "for Loops (Due Thursday 10/2)",
-            "date": "2025-10-02",
-            "deadline": "2025-10-02",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2025-10-03": [],
-    "2025-10-04": [],
-    "2025-10-05": [],
     "2025-10-06": [],
     "2025-10-07": [],
     "2025-10-08": [],
@@ -37,7 +12,7 @@
             "links": {
                 "Practice Problems": "/resources/practice/practice-problems.html",
                 "Practice Diagrams": "/resources/practice/MemDiagrams.html",
-                "Review Session on 10/08 at 6pm in SN014 and online": "/"
+                "Review Session on 10/08 at 6pm in SN014 and online (passcode: 110110)": "https://unc.zoom.us/j/92135735702?pwd=9nPIpFIW2rsbVQMuYL0KQn0akXvYbe.1"
             }
         }
     ],

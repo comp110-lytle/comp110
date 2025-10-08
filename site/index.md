@@ -37,18 +37,13 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-10-02" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Oct 2</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL11 </span><span class="title"><a href="/static/slides/CL11.pdf">for Loops</a></span></div><div class="plan Lesson">
-<span class="kind">LS11 </span><span class="title"><a href="https://www.gradescope.com/">for Loops (Due Thursday 10/2)</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-10-09" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-10-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Oct 9</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ02 </span><span class="title">Quiz 2</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
 <li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
-<li class="link"><a href="/">Review Session on 10/08 at 6pm in SN014 and online</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/92135735702?pwd=9nPIpFIW2rsbVQMuYL0KQn0akXvYbe.1">Review Session on 10/08 at 6pm in SN014 and online (passcode: 110110)</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2025-10-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Oct 30</div>
@@ -64,7 +59,12 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-09-30" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-10-02" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Oct 2</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL11 </span><span class="title"><a href="/static/slides/CL11.pdf">for Loops</a></span></div><div class="plan Lesson">
+<span class="kind">LS11 </span><span class="title"><a href="https://www.gradescope.com/">for Loops (Due Thursday 10/2)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-09-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Sep 30</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL10 </span><span class="title"><a href="/static/slides/CL10.pdf">Dictionaries</a></span></div><div class="plan Lesson">
