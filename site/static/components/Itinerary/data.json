@@ -426,6 +426,16 @@
                 "Practice Diagrams": "/resources/practice/MemDiagrams.html",
                 "Review Session Recording": "https://youtu.be/Is2LXpRk3Hk"
             }
+        },
+        {
+            "kind": "CL",
+            "n": 12,
+            "title": "Runtime Analysis",
+            "date": "2025-10-09",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL12.pdf"
+            }
         }
     ],
     "2025-10-10": [],

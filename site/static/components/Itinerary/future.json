@@ -1,22 +1,4 @@
 {
-    "2025-10-06": [],
-    "2025-10-07": [],
-    "2025-10-08": [],
-    "2025-10-09": [
-        {
-            "kind": "QZ",
-            "n": 2,
-            "title": "Quiz 2",
-            "date": "2025-10-09",
-            "deadline": "2025-10-09",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html",
-                "Review Session Recording": "https://youtu.be/Is2LXpRk3Hk"
-            }
-        }
-    ],
-    "2025-10-10": [],
     "2025-10-11": [],
     "2025-10-12": [],
     "2025-10-13": [],
