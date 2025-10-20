@@ -37,11 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-10-14" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Oct 14</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL12 </span><span class="title"><a href="/static/slides/CL12.pdf">Runtime Analysis</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-10-30" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-10-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Oct 30</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span></div></div>
@@ -55,7 +51,11 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-10-09" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-10-14" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Oct 14</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL12 </span><span class="title"><a href="/static/slides/CL12.pdf">Runtime Analysis</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-10-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Oct 9</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ02 </span><span class="title">Quiz 2</span>

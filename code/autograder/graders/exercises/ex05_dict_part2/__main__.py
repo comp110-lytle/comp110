@@ -1,10 +1,10 @@
-"""Autograder for Exercise 07."""
+"""Autograder for Exercise 05."""
 
 from os import path
 from grading import autograde
 
 configuration = autograde.Configuration(
-    src_path="ex06",
+    src_path="exercises/ex04",
     test_path=path.dirname(path.realpath(__file__)),
     pytest_points=90.0,
     typecheck_points=5.0,
