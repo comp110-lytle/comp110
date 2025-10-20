@@ -42,7 +42,7 @@ from exercises.ex04.dictionary import invert
 
 ## 1. Writing Unit Tests
 
-For each function (`invert`, `favorite_color`, `count`, `alphabetize`, `update_attendance`), you are to define at least **3x unit test** functions. Remember that a unit test function's name must start with `test_`.
+For each function (`invert`, `favorite_color`, `count`, `alphabetizer`, `update_attendance`), you are to define at least **3x unit test** functions. Remember that a unit test function's name must start with `test_`.
 
 The 3 unit tests should consist of:
 
