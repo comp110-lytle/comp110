@@ -26,10 +26,8 @@ template: overview
 * [Dictionaries](https://www.youtube.com/watch?v=PHkFp_T--yk)
 * [Dictionaries in Memory](https://www.youtube.com/watch?v=tlfJfLBsuX0)
 * [for Loops](https://www.youtube.com/watch?v=kzeQbHPivE0)
-
-<!-- 
-
 * [Unit Tests](https://youtu.be/T_9JaV2aIS0)
+<!-- 
 * [Intro to OOP](https://www.youtube.com/watch?v=DmYPEH8qkRI)
 * [Classes in Memory](https://www.youtube.com/watch?v=FM29tHBFBc8)
 * [Magic Methods](https://youtu.be/wFaDObPJFUw)
