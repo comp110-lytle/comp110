@@ -474,9 +474,9 @@
         {
             "kind": "EX",
             "n": 5,
-            "title": "Dictionary Unit Tests (Due Monday 10/27)",
+            "title": "Dictionary Unit Tests (Due Tuesday 10/28)",
             "date": "2025-10-21",
-            "deadline": "2025-10-27",
+            "deadline": "2025-10-28",
             "links": {
                 "": "/exercises/dict-util_tests.html"
             }

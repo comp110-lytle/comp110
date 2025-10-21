@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS12 - TUE, OCT 21 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-util_tests.html">EX05 - MON, OCT 27 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS12 - TUE, OCT 21 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-util_tests.html">EX05 - TUE, OCT 28 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -42,7 +42,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL13 </span><span class="title"><a href="/static/slides/CL13.pdf">Unit Tests</a></span></div><div class="plan Lesson">
 <span class="kind">LS12 </span><span class="title"><a href="https://www.gradescope.com/">Unit Tests (Due Tuesday 10/21)</a></span></div><div class="plan Exercise">
-<span class="kind">EX05 </span><span class="title"><a href="/exercises/dict-util_tests.html">Dictionary Unit Tests (Due Monday 10/27)</a></span></div></div>
+<span class="kind">EX05 </span><span class="title"><a href="/exercises/dict-util_tests.html">Dictionary Unit Tests (Due Tuesday 10/28)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-10-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Oct 30</div>
 <div class="plans col-md-9"><div class="plan Quiz">
