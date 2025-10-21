@@ -442,6 +442,36 @@
             "links": {
                 "": "/static/slides/CL12.pdf"
             }
+        },
+        {
+            "kind": "CL",
+            "n": 13,
+            "title": "Unit Tests",
+            "date": "2025-10-14",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL13.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 12,
+            "title": "Unit Tests (Due Tuesday 10/14)",
+            "date": "2025-10-14",
+            "deadline": "2025-10-14",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "Dictionary Unit Tests (Due Tuesday 10/14)",
+            "date": "2025-10-14",
+            "deadline": "2025-10-14",
+            "links": {
+                "": "/exercises/dict-util_tests.html"
+            }
         }
     ],
     "2025-10-15": [],

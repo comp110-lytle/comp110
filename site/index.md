@@ -54,7 +54,10 @@ template: home
 <h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-10-14" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Oct 14</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL12 </span><span class="title"><a href="/static/slides/CL12.pdf">Runtime Analysis</a></span></div></div>
+<span class="kind">CL12 </span><span class="title"><a href="/static/slides/CL12.pdf">Runtime Analysis</a></span></div><div class="plan Class">
+<span class="kind">CL13 </span><span class="title"><a href="/static/slides/CL13.pdf">Unit Tests</a></span></div><div class="plan Lesson">
+<span class="kind">LS12 </span><span class="title"><a href="https://www.gradescope.com/">Unit Tests (Due Tuesday 10/14)</a></span></div><div class="plan Exercise">
+<span class="kind">EX05 </span><span class="title"><a href="/exercises/dict-util_tests.html">Dictionary Unit Tests (Due Tuesday 10/14)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-10-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Oct 9</div>
 <div class="plans col-md-9"><div class="plan Quiz">
