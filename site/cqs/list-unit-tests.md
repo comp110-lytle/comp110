@@ -71,3 +71,14 @@ Create a .zip file by running the following command in your terminal:
 (For this assignment, you'll have to submit your entire cq03 folder!)
 
 Then, drag and drop that .zip file into Gradescope!
+
+
+## Common Issues
+
+If you're running into issues, check out these common problems:
+
+* Check your file names. Make sure your test file ends in `_test.py` and not something like `_tests.py`
+* Check your import statements in `max_test.py`  
+* Make sure you run your unit tests on your computer and you *pass* all tests! If you're writing tests that don't pass, they will not be recognized.
+* Make sure your are either using the test tube button, the little "play" buttons that show up in the test file, or `python -m pytest CQs/cq03/max_test.py` to run the unit tests. **YOU SHOULD NOT BE USING THE PLAY BUTTON IN THE UPPER RIGHT CORNER.**
+* Make sure to *save* your file before running pytest!
