@@ -26,7 +26,9 @@ template: overview
 * [Dictionaries](https://www.youtube.com/watch?v=PHkFp_T--yk)
 * [Dictionaries in Memory](https://www.youtube.com/watch?v=tlfJfLBsuX0)
 * [for Loops](https://www.youtube.com/watch?v=kzeQbHPivE0)
+* (External Resource): [Insertion Sort](https://youtu.be/JU767SDMDvA?si=qdKKMZmTs6XNv9rt) | [Selection Sort](https://youtu.be/g-PGLbMth_g?si=1cuC9fhQYHAFklip)
 * [Unit Tests](https://youtu.be/T_9JaV2aIS0)
+
 <!-- 
 * [Intro to OOP](https://www.youtube.com/watch?v=DmYPEH8qkRI)
 * [Classes in Memory](https://www.youtube.com/watch?v=FM29tHBFBc8)
