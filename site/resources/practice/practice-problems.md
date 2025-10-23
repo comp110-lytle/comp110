@@ -43,7 +43,8 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Lists, Dictionaries, and Loops Reinforcement Questions](/resources/practice/lists-and-dicts-reinforced.html)
 - [Function Writing](/resources/practice/function-writing.html)
 
- ## Quiz 03
+
+## Quiz 03
 - [Unit Tests](/resources/practice/unit-tests.html) 
 - [Runtime](/resources/practice/runtime.html)
 
