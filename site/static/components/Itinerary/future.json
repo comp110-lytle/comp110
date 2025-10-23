@@ -1,5 +1,4 @@
 {
-    "2025-10-20": [],
     "2025-10-21": [
         {
             "kind": "CL",
@@ -41,7 +40,7 @@
             "date": "2025-10-23",
             "deadline": "None",
             "links": {
-                "": "/"
+                "": "/static/slides/CL14.pdf"
             }
         },
         {
@@ -51,7 +50,7 @@
             "date": "2025-10-23",
             "deadline": "2025-10-23",
             "links": {
-                "": "/"
+                "": "/cqs/list-unit-tests.html"
             }
         }
     ],
