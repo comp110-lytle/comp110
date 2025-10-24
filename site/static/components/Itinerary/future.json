@@ -36,7 +36,9 @@
             "title": "Quiz 3",
             "date": "2025-10-30",
             "deadline": "2025-10-30",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html"
+            }
         }
     ],
     "2025-10-31": [],
