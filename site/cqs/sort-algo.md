@@ -12,7 +12,7 @@ In this challenge question, you will create two functions that do the same thing
 
 The *Selection Sort* algorithm sorts a list by repeatedly finding the smallest element from the unsorted portion and swapping it with the first unsorted element. For each pass through the list, it identifies the minimum value in the remaining unsorted elements and positions it at the correct location.
 
-Your task is to define the funciton `selectrion_sort()`. This function should: 
+Your task is to define the funciton `selection_sort()`. This function should: 
 
 - 1. Iterate through the list to find the minimum value in the unsorted part. 
 - 2. Swap this minimum value with the first unsorted element.
