@@ -481,5 +481,30 @@
                 "": "/exercises/dict-util_tests.html"
             }
         }
-    ]
+    ],
+    "2025-10-22": [],
+    "2025-10-23": [
+        {
+            "kind": "CL",
+            "n": 14,
+            "title": "Commonly Missed Quiz Concepts",
+            "date": "2025-10-23",
+            "deadline": "None",
+            "links": {
+                "Slides": "/static/slides/CL14.pdf",
+                "Diagram Video": "https://youtu.be/neOlADek8uk"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 3,
+            "title": "Unit Tests (Due Thursday 10/23)",
+            "date": "2025-10-23",
+            "deadline": "2025-10-23",
+            "links": {
+                "": "/cqs/list-unit-tests.html"
+            }
+        }
+    ],
+    "2025-10-24": []
 }

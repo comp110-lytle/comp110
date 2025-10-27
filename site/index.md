@@ -37,19 +37,12 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-10-23" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Oct 23</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL14 </span><span class="title">Commonly Missed Quiz Concepts</span>
-<ul class="links"><li class="link"><a href="/static/slides/CL14.pdf">Slides</a></li>
-<li class="link"><a href="https://youtu.be/neOlADek8uk">Diagram Video</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ03 </span><span class="title"><a href="/cqs/list-unit-tests.html">Unit Tests (Due Thursday 10/23)</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-10-30" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-10-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Oct 30</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="/">Review Session (10/29 at 6 pm)</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Nov 20</div>
@@ -61,7 +54,15 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-10-21" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-10-23" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Oct 23</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL14 </span><span class="title">Commonly Missed Quiz Concepts</span>
+<ul class="links"><li class="link"><a href="/static/slides/CL14.pdf">Slides</a></li>
+<li class="link"><a href="https://youtu.be/neOlADek8uk">Diagram Video</a></li>
+</ul></div><div class="plan Challenge Question">
+<span class="kind">CQ03 </span><span class="title"><a href="/cqs/list-unit-tests.html">Unit Tests (Due Thursday 10/23)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-10-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Oct 21</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL13 </span><span class="title"><a href="/static/slides/CL13.pdf">Unit Tests</a></span></div><div class="plan Lesson">

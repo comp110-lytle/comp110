@@ -520,7 +520,8 @@
             "date": "2025-10-30",
             "deadline": "2025-10-30",
             "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html"
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Review Session (10/29 at 6 pm)": "/"
             }
         }
     ],
