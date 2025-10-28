@@ -95,13 +95,13 @@ Exponential
 8. Insertion sort has a big-O runtime of:
 <details>
 <summary>SOLUTION</summary>
-$O(n)$
+$O(n^2)$
 </details>
 
 9. Selection sort has a big-O runtime of:
 <details>
 <summary>SOLUTION</summary>
-$O(n)$
+$O(n^2)$
 </details>
 
 10. Consider the following function:
