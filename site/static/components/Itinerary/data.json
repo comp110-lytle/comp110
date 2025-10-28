@@ -510,7 +510,28 @@
     "2025-10-25": [],
     "2025-10-26": [],
     "2025-10-27": [],
-    "2025-10-28": [],
+    "2025-10-28": [
+        {
+            "kind": "CL",
+            "n": 15,
+            "title": "Intro to OOP",
+            "date": "2025-10-28",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL15.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Intro to OOP  (Due Tuesday 10/28)",
+            "date": "2025-10-28",
+            "deadline": "2025-10-28",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-10-29": [],
     "2025-10-30": [
         {
