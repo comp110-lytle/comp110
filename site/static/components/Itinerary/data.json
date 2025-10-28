@@ -530,6 +530,16 @@
             "links": {
                 "": "https://www.gradescope.com/"
             }
+        },
+        {
+            "kind": "EX",
+            "n": 6,
+            "title": "River Simulation (Due Wednesday 11/5)",
+            "date": "2025-10-28",
+            "deadline": "2025-11-05",
+            "links": {
+                "": "/exercises/river-sim.html"
+            }
         }
     ],
     "2025-10-29": [],

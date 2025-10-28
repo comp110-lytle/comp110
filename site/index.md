@@ -41,7 +41,8 @@ template: home
 <div class="date col-md-2">Tue, Oct 28</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL15 </span><span class="title"><a href="/static/slides/CL15.pdf">Intro to OOP</a></span></div><div class="plan Lesson">
-<span class="kind">LS13 </span><span class="title"><a href="https://www.gradescope.com/">Intro to OOP(Due Tuesday 10/28)</a></span></div></div>
+<span class="kind">LS13 </span><span class="title"><a href="https://www.gradescope.com/">Intro to OOP(Due Tuesday 10/28)</a></span></div><div class="plan Exercise">
+<span class="kind">EX06 </span><span class="title"><a href="/exercises/river-sim.html">River Simulation (Due Wednesday 11/5)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-10-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Oct 30</div>
 <div class="plans col-md-9"><div class="plan Quiz">
