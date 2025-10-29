@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS13 - TUE, OCT 28 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ03 - THU, OCT 30 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ03 - THU, OCT 30 11:59pm</a></li><li class="horizon-item"><a href="/exercises/river-sim.html">EX06 - WED, NOV 05 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -48,7 +48,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
-<li class="link"><a href="/">Review Session (10/29 at 6 pm)</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/99618464672?pwd=GAlJpfgKnrLvycLhkdFo8ZwytQmuXw.1">Review Session (10/29 at 6 pm in SN014 and online (Passcode: 110110))</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Nov 20</div>
