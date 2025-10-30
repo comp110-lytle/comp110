@@ -12,6 +12,7 @@ template: overview
 ## Conceptual
 
 1. True or False: A function with a big-O notation of $O(n)$ will always run faster than a function with a big-O notation of $O(n^2)$ for all inputs.
+
 <details>
 <summary>SOLUTION</summary>
 This is False. A function with big-O notation of $O(n)$ will theoretically run faster than a function with a big-O notation of $O(n^2)$ on a *worst case* input.
@@ -31,6 +32,7 @@ Worst Case.
 </details>
 
 3. True or False: Big-O notation provides a precise measurement of the actual runtime of an algorithm on a specific machine.
+
 <details>
 <summary>SOLUTION</summary>
 False.
@@ -45,6 +47,7 @@ False.
     c. Quadratic
 
     d. Exponential
+
 <details>
 <summary>SOLUTION</summary>
 Constant
@@ -59,6 +62,7 @@ Constant
     c. Quadratic
 
     d. Exponential
+
 <details>
 <summary>SOLUTION</summary>
 Linear
@@ -73,6 +77,7 @@ Linear
     c. Quadratic
 
     d. Exponential
+
 <details>
 <summary>SOLUTION</summary>
 Quadratic
@@ -87,18 +92,21 @@ Quadratic
     c. Quadratic
 
     d. Exponential
+
 <details>
 <summary>SOLUTION</summary>
 Exponential
 </details>
 
 8. Insertion sort has a big-O runtime of:
+
 <details>
 <summary>SOLUTION</summary>
 $O(n^2)$
 </details>
 
 9. Selection sort has a big-O runtime of:
+
 <details>
 <summary>SOLUTION</summary>
 $O(n^2)$
@@ -117,13 +125,14 @@ $O(n^2)$
     10.1. Assuming `outer_input` and `inner_input` both have length $n$, what is the big-O runtime of the function `foo`?
 
     10.2. If `outer_input` has length $n^2$ and `inner_input` has length $n$, what would be the big-O runtime of the function `foo`?
-<details>
-<summary>SOLUTION</summary>
 
-10.1. $O(n^2)$
+    <details>
+    <summary>SOLUTION</summary>
 
-10.2. $O(n^3)$
-</details>
+    10.1. $O(n^2)$
+
+    10.2. $O(n^3)$
+    </details>
 
 11. Which of the following is true about algorithms?
 
@@ -146,7 +155,7 @@ The answer is b, since algorithms are a finite series of steps (eliminating c) a
 unc_pid_range: dict[int, bool] = {730000000: False, 730000001: False, ..., 730999999: False}
 prime_numbers: list[int] = [2, 3, 5, 7, ..., 1000000007]
 
-for pid in unc_pids:
+for pid in unc_pid_range:
     if pid in prime_numbers:
         unc_pid_range[pid] = True
         print(f"Prime PID found: {pid}!")
@@ -156,13 +165,13 @@ for pid in unc_pids:
 unc_pid_range: list[int] = [730000000, 730000001, ..., 730999999]
 prime_numbers: dict[int, bool] = {2: False, 3: False, 5: False, 7: False, ..., 1000000007: False}
 
-for pid in unc_pids:
+for pid in unc_pid_range:
     if pid in prime_numbers:
         prime_numbers[pid] = True
         print(f"Prime PID found: {pid}!")
 ```
 
-Let $n$ be the size of the `unc_pid_range` lists and let $m$ be the size of both the `prime_numbers` list and dictionary. What are the runtimes of the two code snippets in big-O notation? Which would you choose to use if you cared the most about speed?
+Let $n$ be the size of the `unc_pid_range` and let $m$ be the size of both the `prime_numbers` in both code snippets. What are the runtimes of the two code snippets in big-O notation in terms of $m$ and $n$? Which would you choose to use if you cared the most about speed?
 
 <details>
 <summary>SOLUTION</summary>
