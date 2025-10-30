@@ -13,6 +13,118 @@ template: overview
 
 ## Conceptual
 
+1. What happens if the condition of a while loop is initially `False`?
+
+    a. The loop will run once.
+
+    b. The loop will not run at all.
+
+    c. The loop will run infinitely.
+    
+    d. The loop will throw an error.
+
+2. If a `while` loop statement starts with, `while condition:`, what must `condition` evaluate to for the following `while` loop to execute at least once? What type is `condition`?
+
+<details>
+<summary>SHOW SOLUTIONS</summary>
+
+1. B: The loop will not run at all.
+2. `condition` must be `True` to enter the loop. Its type is a `bool`.
+
+</details>
+
+&nbsp;
+
+## Memory Diagram
+
+1. Produce a memory diagram for the following code snippet, being sure to include its stack and output.
+
+    ```py
+    1     def main() -> None:
+    2         """Main Function"""
+    3         y: int = g(1)
+    4         f(y)
+    5         print(g(f(3)))
+    6         
+    7     def f(x: int) -> int:
+    8         """Function 0"""
+    9         if x % 2 == 0:
+    10            print(str(x) + " is even")
+    11        else:
+    12            x += 1
+    13        return x
+    14        
+    15    def g(x: int) -> int:
+    16        """Function 1"""
+    17        while x % 2 == 1:
+    18            x += 1
+    19        return x
+    20 
+    21    main()
+    ```
+
+    1.1. Why is it that `main()` is defined above `f()` and `g()`, but we are able to call `f()` and `g()` inside `main()` without errors?
+
+    1.2. On line 5, when `print(g(f(3)))` is called, is the code block inside of the `while` loop ever entered? Why or why not?
+
+    1.3. What would happen if a line was added to the end of the snippet that said `print(x)`. Why?
+
+<details>
+<summary>SHOW SOLUTIONS</summary>
+
+1. ![While Loop Memory Diagram](https://25f-comp110.github.io/static/practice-mem-diagrams/Qz2-md.png)
+
+    1.1 Even though main is defined before f and g, it isn't called until after f and g are defined.
+
+    1.2 No because x = 4, so x % 2 == 1 is False, and therefore the code block inside is never run.
+
+    1.3 There would be an error because x is a local variable inside both f and g. Therefore, the program does not recognize that x exists in this context.
+</details>
+
+&nbsp;
+
+## Code Writing
+
+1. Write a function named `sum_or_factorial` using `while` loops that has an `int` parameter `number` and behaves in the following way:
+
+    If `number` is negative, return `-1`.
+
+    If `number` is even, return the sum of all positive integers up to and *including* `number`.
+
+    If `number` is odd, return the product of all positive integers up to and *including* `number` (the factorial of `number`).
+
+<details>
+<summary>SHOW SOLUTIONS</summary>
+
+Note: There are many ways you could write this function.
+
+```py
+1     def sum_or_factorial(number: int) -> int:
+2         """Returns the sum up to number if even or the factorial of number if odd."""
+3         result: int
+4         if number < 0:
+5             return -1
+6         elif number % 2 == 0:
+7             result = 0
+8             idx: int = 0
+9             while idx <= number:
+10                result = result + idx
+11                idx = idx + 1
+12        else:
+13            result = 1
+14            idx: int = 1
+15            while idx <= number:
+16                result = result * idx
+17                idx = idx + 1
+18        return result
+```
+
+</details>
+
+&nbsp;
+
+<!-- ## Conceptual
+
 1. Produce a memory diagram for the following code snippet, being sure to include its stack and output.  
 
         WORD: str = "happy"
@@ -133,4 +245,4 @@ The output column contains the sentence h appears 1 times. Below that, on a sepa
 
 3. **b. The loop will not run at all.** If the condition is initially `False`, the loop will skip entirely.
 
-4. **a. True.** The condition must evaluate to `True` for the loop to execute at least once. In this case, the condition `3 + 3 != 4 + 5.6` is always true, so the loop will run.
+4. **a. True.** The condition must evaluate to `True` for the loop to execute at least once. In this case, the condition `3 + 3 != 4 + 5.6` is always true, so the loop will run. -->

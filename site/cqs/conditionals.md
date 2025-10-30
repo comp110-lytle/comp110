@@ -12,7 +12,9 @@ template: overview
 
 For this challenge question, you are going to be writing a simple number guessing game!
 
-First, right click on your "CQs" folder and select "New File...". Name this file `cq02_conditionals.py`.
+First, let's create a folder for your challenge questions. Right click in your workspace files and click "New Folder...". Name that folder "CQs".
+
+Next, right click on your "CQs" folder and select "New File...". Name this file `cq00_conditionals.py`.
 
 Make sure to initialize your file with a docstring and `__author__` variable!
 
@@ -48,7 +50,7 @@ Here's an example of what it should look like in your terminal:
 
 <pre>
 <div class="terminal">
-/workspace (main*) > python -m CQs.cq02_conditionals
+/workspace (main*) > python -m CQs.cq00_conditionals
 Guess a number: 7
 Your guess was 7
 </div>
@@ -69,7 +71,7 @@ Here's an example of what it should look like in your terminal:
 
 <pre>
 <div class="terminal">
-/workspace (main*) > python -m CQs.cq02_conditionals
+/workspace (main*) > python -m CQs.cq00_conditionals
 Guess a number: 7
 Your guess was 7
 You got it!
@@ -78,7 +80,7 @@ You got it!
 
 <pre>
 <div class="terminal">
-/workspace (main*) > python -m CQs.cq02_conditionals
+/workspace (main*) > python -m CQs.cq00_conditionals
 Guess a number: 9
 Your guess was 9
 Your guess was too high! The secret number is 7
@@ -88,7 +90,7 @@ Your guess was too high! The secret number is 7
 
 <pre>
 <div class="terminal">
-/workspace (main*) > python -m CQs.cq02_conditionals
+/workspace (main*) > python -m CQs.cq00_conditionals
 Guess a number: 2
 Your guess was 2
 Your guess was too low! The secret number is 7
@@ -118,6 +120,6 @@ Right now, you're just doing this because it's good practice, but we will explai
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission CQs/cq02_conditionals.py```
+```python -m tools.submission CQs/cq00_conditionals.py```
 
 Then, drag and drop that .zip file into Gradescope!

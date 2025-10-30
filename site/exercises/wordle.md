@@ -6,6 +6,9 @@ page: exercises
 template: overview
 ---
 
+<p style="color:orange;font-size:50px;">!! Attention !!</p>
+<p style="color:orange;">You only have the tools to do parts 0 and 1 right now! We will cover while loops Thurs, Sept 11 + Tues, September 16!</p>
+
 In this exercise, we will take inspiration from the free, viral word puzzle game [Wordle](https://www.nytimes.com/games/wordle/index.html). If you haven't played it, you should! We now have all the conceptual tools needed to recreate this popular game!
 
 Have you tried solving today's [Wordle](https://www.nytimes.com/games/wordle/index.html)? If not, do so first!
@@ -51,7 +54,17 @@ Right click on the `exercises` directory and select "New File". Enter the follow
 
 Before beginning work on the program, you should add a _docstring_ to the top of your Python _module_ just as you have previously. Then, you should add a line with the special variable named `__author__` assigned to be a **string** with your 9-digit student PID.
 
-## Part 1. `contains_char` - 10 points
+
+## Part 1. `input_guess` -- 10 Points
+
+Declare a function named `input_guess`. Its purpose is given an integer "expected length" of a guess as a parameter, it will prompt the user for a guess and continue prompting them until they provide a guess of the expected length. The initial prompt should have the following format: `Enter a N character word: `, where N is the desired length. Then, use the following format to continue prompting the user: `That wasn't N chars! Try again: `. This function must then return the user's guess string of the correct length to the caller of `input_guess`.
+
+Once you have implemented this function, try using it in the Trailhead REPL.
+
+<img class="img-fluid" src="/static/exercises/ex03/input_guess.png" alt="">
+
+
+## Part 2. `contains_char` - 10 points
 
 Declare a function named `contains_char`. This function is given two strings as arguments, the first of any length, the second a single character. It will return `True` if the single character of the second string is found at any index of the first string, and return `False` otherwise. More specifically, declare your `contains_char` function such that:
 
@@ -73,7 +86,7 @@ Once you have your best first attempt to implement this function, you should try
 
 
 
-## Part 2. `emojified` - 20 points
+## Part 3. `emojified` - 20 points
 
 Declare a function named `emojified`. Its purpose is given two strings of equal length, the first a guess and the second a secret, it will return a string of emoji whose color _codifies_ the results of a guess using Wordle's logic. You should use the following named constants for emoji:
 
@@ -99,14 +112,14 @@ Once you have implemented this function, test it out in the Trailhead REPL.
 
 Now you have a function that, given a guess and a secret of the same length, will Wordle emojify the results of the guess! Notice how your `emojified` function makes use of the simpler `contains_char` function to build up more complex behavior. Once your `emojified` function is working correctly, as shown above, continue on.
 
-## Part 3. `input_guess` -- 10 Points
+<!-- ## Part 3. `input_guess` -- 10 Points
 
 Declare a function named `input_guess`. Its purpose is given an integer "expected length" of a guess as a parameter, it will prompt the user for a guess and continue prompting them until they provide a guess of the expected length. The initial prompt should have the following format: `Enter a N character word: `, where N is the desired length. Then, use the following format to continue prompting the user: `That wasn't N chars! Try again: `. This function must then return the user's guess string of the correct length to the caller of `input_guess`.
 
 Once you have implemented this function, try using it in the Trailhead REPL.
 
 <img class="img-fluid" src="/static/exercises/ex03/input_guess.png" alt="">
-
+ -->
 
 
 ## Part 4. `main` -- 30 Points
@@ -191,4 +204,4 @@ Now that your Wordle program is complete, make a backup by making a git commit. 
 5. Press the Commit button to make a _Commit_ (a version) of your work.
 6. In the Terminal, type the command `git push backup main`. If your terminal was closed, go to the Terminal menu and select "New Terminal". This command "pushed" your changes to your backup repository on GitHub.
 
-To see your commit on Github, in a web browser, navigate to `https://github.com/comp110-25ss/comp110-25ss-workspace-USERNAME` and substitute `USERNAME` with your GitHub username. You should see your work in the `exercises` directory backed up to GitHub. Notice above the file's contents you'll see your commit message.
+To see your commit on Github, in a web browser, navigate to your workspace. You should see your work in the `exercises` directory backed up to GitHub. Notice above the file's contents you'll see your commit message.
