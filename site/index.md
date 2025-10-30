@@ -48,7 +48,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>
 <ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
-<li class="link"><a href="https://unc.zoom.us/j/99618464672?pwd=GAlJpfgKnrLvycLhkdFo8ZwytQmuXw.1">Review Session (10/29 at 6 pm in SN014 and online (Passcode: 110110))</a></li>
+<li class="link"><a href="https://youtu.be/-GPhXFlktPw">Review Session Recording</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Nov 20</div>
