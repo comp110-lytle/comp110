@@ -40,7 +40,7 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-11-04" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Nov 4</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL16 </span><span class="title"><a href="/">More on OOP</a></span></div></div>
+<span class="kind">CL16 </span><span class="title"><a href="/static/slides/CL16.pdf">More on OOP</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Nov 20</div>
 <div class="plans col-md-9"><div class="plan Quiz">
