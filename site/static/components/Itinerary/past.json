@@ -509,53 +509,5 @@
     "2025-10-24": [],
     "2025-10-25": [],
     "2025-10-26": [],
-    "2025-10-27": [],
-    "2025-10-28": [
-        {
-            "kind": "CL",
-            "n": 15,
-            "title": "Intro to OOP",
-            "date": "2025-10-28",
-            "deadline": "None",
-            "links": {
-                "Slides": "/static/slides/CL15.pdf",
-                "Video": "https://unc.zoom.us/rec/share/3avMlvGXk1K-wqg2PsBjIZKHkUpJaJgmaFbE0mdDcYwnYM07_0zeAq7o28e3-Ne4.Nqz-fG9da93T89-e"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 13,
-            "title": "Intro to OOP  (Due Tuesday 10/28)",
-            "date": "2025-10-28",
-            "deadline": "2025-10-28",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 6,
-            "title": "River Simulation (Due Wednesday 11/5)",
-            "date": "2025-10-28",
-            "deadline": "2025-11-05",
-            "links": {
-                "": "/exercises/river-sim.html"
-            }
-        }
-    ],
-    "2025-10-29": [],
-    "2025-10-30": [
-        {
-            "kind": "QZ",
-            "n": 3,
-            "title": "Quiz 3",
-            "date": "2025-10-30",
-            "deadline": "2025-10-30",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Review Session (10/29 at 6 pm)": "/"
-            }
-        }
-    ],
-    "2025-10-31": []
+    "2025-10-27": []
 }
