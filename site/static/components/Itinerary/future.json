@@ -1,5 +1,8 @@
 {
-    "2025-10-28": [
+    "2025-11-01": [],
+    "2025-11-02": [],
+    "2025-11-03": [],
+    "2025-11-04": [
         {
             "kind": "CL",
             "n": 16,
@@ -9,47 +12,8 @@
             "links": {
                 "": "/"
             }
-        },
-        {
-            "kind": "LS",
-            "n": 13,
-            "title": "Intro to OOP  (Due Tuesday 10/28)",
-            "date": "2025-10-28",
-            "deadline": "2025-10-28",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 6,
-            "title": "River Simulation (Due Wednesday 11/5)",
-            "date": "2025-10-28",
-            "deadline": "2025-11-05",
-            "links": {
-                "": "/exercises/river-sim.html"
-            }
         }
     ],
-    "2025-10-29": [],
-    "2025-10-30": [
-        {
-            "kind": "QZ",
-            "n": 3,
-            "title": "Quiz 3",
-            "date": "2025-10-30",
-            "deadline": "2025-10-30",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Review Session Recording": "https://youtu.be/-GPhXFlktPw"
-            }
-        }
-    ],
-    "2025-10-31": [],
-    "2025-11-01": [],
-    "2025-11-02": [],
-    "2025-11-03": [],
-    "2025-11-04": [],
     "2025-11-05": [],
     "2025-11-06": [],
     "2025-11-07": [],
