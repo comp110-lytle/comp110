@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS13 - TUE, OCT 28 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ03 - THU, OCT 30 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/river-sim.html">EX06 - WED, NOV 05 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,19 +37,10 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-10-28" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Oct 28</div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-11-04" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Nov 4</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL15 </span><span class="title"><a href="/static/slides/CL15.pdf">Intro to OOP</a></span></div><div class="plan Lesson">
-<span class="kind">LS13 </span><span class="title"><a href="https://www.gradescope.com/">Intro to OOP(Due Tuesday 10/28)</a></span></div><div class="plan Exercise">
-<span class="kind">EX06 </span><span class="title"><a href="/exercises/river-sim.html">River Simulation (Due Wednesday 11/5)</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-10-30" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Oct 30</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ03 </span><span class="title">Quiz 3</span>
-<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
-<li class="link"><a href="/">Review Session (10/29 at 6 pm)</a></li>
-</ul></div></div>
+<span class="kind">CL16 </span><span class="title"><a href="/">More on OOP</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Nov 20</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -60,7 +51,23 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-10-23" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-10-30" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Oct 30</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ03 </span><span class="title">Quiz 3</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="/">Review Session (10/29 at 6 pm)</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2025-10-28" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Oct 28</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL15 </span><span class="title">Intro to OOP</span>
+<ul class="links"><li class="link"><a href="/static/slides/CL15.pdf">Slides</a></li>
+<li class="link"><a href="https://unc.zoom.us/rec/share/3avMlvGXk1K-wqg2PsBjIZKHkUpJaJgmaFbE0mdDcYwnYM07_0zeAq7o28e3-Ne4.Nqz-fG9da93T89-e">Video</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS13 </span><span class="title"><a href="https://www.gradescope.com/">Intro to OOP(Due Tuesday 10/28)</a></span></div><div class="plan Exercise">
+<span class="kind">EX06 </span><span class="title"><a href="/exercises/river-sim.html">River Simulation (Due Wednesday 11/5)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-10-23" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Oct 23</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL14 </span><span class="title">Commonly Missed Quiz Concepts</span>

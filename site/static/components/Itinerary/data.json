@@ -518,7 +518,8 @@
             "date": "2025-10-28",
             "deadline": "None",
             "links": {
-                "": "/static/slides/CL15.pdf"
+                "Slides": "/static/slides/CL15.pdf",
+                "Video": "https://unc.zoom.us/rec/share/3avMlvGXk1K-wqg2PsBjIZKHkUpJaJgmaFbE0mdDcYwnYM07_0zeAq7o28e3-Ne4.Nqz-fG9da93T89-e"
             }
         },
         {
@@ -560,7 +561,18 @@
     "2025-11-01": [],
     "2025-11-02": [],
     "2025-11-03": [],
-    "2025-11-04": [],
+    "2025-11-04": [
+        {
+            "kind": "CL",
+            "n": 16,
+            "title": "More on OOP",
+            "date": "2025-11-04",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2025-11-05": [],
     "2025-11-06": [],
     "2025-11-07": [],
