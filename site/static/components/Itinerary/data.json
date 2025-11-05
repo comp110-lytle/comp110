@@ -574,7 +574,28 @@
         }
     ],
     "2025-11-05": [],
-    "2025-11-06": [],
+    "2025-11-06": [
+        {
+            "kind": "CL",
+            "n": 17,
+            "title": "Magic Methods",
+            "date": "2025-11-06",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL17.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 14,
+            "title": "Magic Methods (Due Thursday 11/6)",
+            "date": "2025-11-06",
+            "deadline": "2025-11-06",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-11-07": [],
     "2025-11-08": [],
     "2025-11-09": [],
