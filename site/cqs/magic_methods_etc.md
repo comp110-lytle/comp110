@@ -61,6 +61,21 @@ where `<p1>` and `<p2>` are the `p1` and `p2` attributes of the `Line`, respecti
 
 (Note that you should NOT need to manually access the x and y attributes of each Point to print them! You should be able to just convert the points to a string using the `__str__` magic method you defined in Part 1.)
 
+### Example Usage:
+
+<pre>
+<div class="terminal">$ python 
+>>> from CQs.cq04.line import Line
+>>> from CQs.cq04.point import Point
+>>> point_1: Point = Point(1.0, 2.0)
+>>> point_2: Point = Point(3.0, 4.0)
+>>> my_line: Line = Line(point_1, point_2)
+>>> print(str(my_line))
+(1.0, 2.0) <-> (3.0, 4.0)
+</div>
+</pre>
+
+
 ## 4: `Line#__mul__`
 
 Now, you are going to add a `__mul__` method to `Line` to overload the multiplication `*` operator!
@@ -69,6 +84,21 @@ The goal is that when multiplying a `Line` object with a `factor: int`, it shoul
 
 (Note that you should NOT need to manually access the x and y attributes of each Point to print them! You should be able to just multiply the points by `factor` using the `__mul__` magic method you defined in Part 1.)
 
+
+### Example Usage:
+
+<pre>
+<div class="terminal">$ python 
+>>> from CQs.cq04.line import Line
+>>> from CQs.cq04.point import Point
+>>> point_1: Point = Point(1.0, 2.0)
+>>> point_2: Point = Point(3.0, 4.0)
+>>> my_line: Line = Line(point_1, point_2)
+>>> new_line: Line = my_line * 2
+>>> print(str(new_line))
+(2.0, 4.0) <-> (6.0, 8.0)
+</div>
+</pre>
 
 <!-- ## 1.1: Union Types
 Now, modify `__mul__` so that the `factor` parameter can be either a `float` or an `int`!
