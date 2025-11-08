@@ -1,20 +1,22 @@
 ---
 title: Challenge Question 
 author:
-- Alyssa Byrnes
+- Alyssa Lytle
 page: CQs
 template: overview
 ---
 
 # Magic Methods, Operator Overloads, and Union Types
 
-For this challenge question, you're going to modify the `Point` class you previously wrote to add more functionality! (This will mean modifying the `point.py` file inside `CQs/CQ10`.)
+## 0: Setup
 
-## 0: `__str__()`
+For this challenge question, you're going to modify the `Point` and `Line` classes we wrote together in class to add more functionality! This will mean modifying the `point.py` and `line.py` files inside `CQs/cq04`, so make sure you've set up those files correctly according to the instructions from class!
 
-First, you are going to write a `__str__` magic method to print out points in a readable way! It should print 
+## 1: `Point#__str__`
 
-```x: <x value>; y: <y value>```
+First, you are going to write a `__str__` magic method to return Points in a readable way! It should return
+
+```(<x value>, <y value>)```
 
 where `<x value>` and `<y value>` are the `x` and `y` attributes of the `Point`, respectively.
 
@@ -22,46 +24,67 @@ where `<x value>` and `<y value>` are the `x` and `y` attributes of the `Point`,
 
 <pre>
 <div class="terminal">$ python 
->>> from CQs.CQ10.point import Point
+>>> from CQs.cq04.point import Point
 >>> my_point: Point = Point(1.0, 2.0)
 >>> print(str(my_point))
-x: 1.0; y: 2.0
+(1.0, 2.0)
 </div>
 </pre>
 
-## 1: `__mul__()`
+## 2: `Point#__mul__`
 
-Now, you are going to add a `__mul__()` method to overload the multiplication `*` operator!
+Now, you are going to add a `__mul__` method to overload the multiplication `*` operator!
 
-The goal is that when multiplying a `Point` object with a `factor: int`, it should create a new `Point` where both the `x` and `y` attributes should be the previous points attributes multiplied by `factor`. (Hint: This is the same functionality as a method you've already written in `Point`!) 
+The goal is that when multiplying a `Point` object with a `factor: int`, it should create a new `Point` where both the `x` and `y` attributes should be the previous points attributes multiplied by `factor`. 
 
 ### Example Usage:
 
 <pre>
 <div class="terminal">$ python 
->>> from CQs.CQ10.point import Point
+>>> from CQs.cq04.point import Point
 >>> my_point: Point = Point(1.0, 2.0)
 >>> new_point: Point = my_point * 3
 >>> print(new_point)
-x: 3.0; y: 6.0
+(3.0, 6.0)
 </div>
 </pre>
 
-## 1.1: Union Types
+## 3: `Line#__str__`
+
+Now that we have a way to visualize `Point` objects, you can use the `str` interpretation of Points to visualize a line!
+
+It should return 
+
+```(<p1> <-> <p2>)```
+
+where `<p1>` and `<p2>` are the `p1` and `p2` attributes of the `Line`, respectively.
+
+(Note that you should NOT need to manually access the x and y attributes of each Point to print them! You should be able to just convert the points to a string using the `__str__` magic method you defined in Part 1.)
+
+## 4: `Line#__mul__`
+
+Now, you are going to add a `__mul__` method to `Line` to overload the multiplication `*` operator!
+
+The goal is that when multiplying a `Line` object with a `factor: int`, it should create a new `Line` where both the `p1` and `p2` attributes should be the previous Line's attributes multiplied by `factor`. 
+
+(Note that you should NOT need to manually access the x and y attributes of each Point to print them! You should be able to just multiply the points by `factor` using the `__mul__` magic method you defined in Part 1.)
+
+
+<!-- ## 1.1: Union Types
 Now, modify `__mul__` so that the `factor` parameter can be either a `float` or an `int`!
 
 ### Example Usage:
 <pre>
 <div class="terminal">$ python 
->>> from CQs.CQ10.point import Point
+>>> from CQs.cq04.point import Point
 >>> my_point: Point = Point(1.0, 2.0)
 >>> new_point: Point = my_point * 3.0
 >>> print(new_point)
 x: 3.0; y: 6.0
 </div>
-</pre>
+</pre> -->
 
-## 2: `__add__()`
+<!-- ## 2: `__add__()`
 
 Now, you are going to add an `__add__()` method to overload the addition `+` operator!
 
@@ -69,7 +92,7 @@ It should behave similarly to multiplication, where it creates a new `Point`, bu
 
 <pre>
 <div class="terminal">$ python 
->>> from CQs.CQ10.point import Point
+>>> from CQs.cq04.point import Point
 >>> my_point: Point = Point(1.0, 2.0)
 >>> new_point: Point = my_point + 3.0
 >>> print(new_point)
@@ -78,14 +101,14 @@ x: 4.0; y: 5.0
 </pre>
 
 ## 2.1: Union Types
-Now, modify `__add__` so that the `factor` parameter can be either a `float` or an `int`!
+Now, modify `__add__` so that the `factor` parameter can be either a `float` or an `int`! -->
 
 
 
-## 3: Submission
+## 5: Submission
 
 Create your submission with the following command:
 
 ```
-python -m tools.submission CQs/CQ10
+python -m tools.submission CQs/cq04
 ```
