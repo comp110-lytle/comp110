@@ -82,7 +82,7 @@ Now, you are going to add a `__mul__` method to `Line` to overload the multiplic
 
 The goal is that when multiplying a `Line` object with a `factor: int`, it should create a new `Line` where both the `p1` and `p2` attributes should be the previous Line's attributes multiplied by `factor`. 
 
-(Note that you should NOT need to manually access the x and y attributes of each Point to print them! You should be able to just multiply the points by `factor` using the `__mul__` magic method you defined in Part 1.)
+(Note that you should NOT need to manually access the x and y attributes of each Point to print them! You should be able to just multiply the points by `factor` using the `__mul__` magic method you defined in Part 2.)
 
 
 ### Example Usage:
