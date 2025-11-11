@@ -604,11 +604,11 @@
     "2025-11-10": [],
     "2025-11-11": [
         {
-            "kind": "LS",
-            "n": 15,
-            "title": "Magic Methods Function Writing (Due Tuesday 11/11)",
+            "kind": "CL",
+            "n": 18,
+            "title": "Magic Methods Function Writing",
             "date": "2025-11-11",
-            "deadline": "2025-11-11",
+            "deadline": "None",
             "links": {
                 "": "/static/slides/CL18.pdf"
             }
