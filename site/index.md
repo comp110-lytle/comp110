@@ -56,7 +56,7 @@ template: home
 <div class="date col-md-2">Thu, Nov 6</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL17 </span><span class="title">Magic Methods</span>
-<ul class="links"><li class="link"><a href="/static/slides/CL17.pdf"></a></li>
+<ul class="links"><li class="link"><a href="/static/slides/CL17.pdf">Slides</a></li>
 <li class="link"><a href="/static/fall25/mm-diagram.pdf">Diagram</a></li>
 </ul></div><div class="plan Lesson">
 <span class="kind">LS14 </span><span class="title"><a href="https://www.gradescope.com/">Magic Methods (Due Thursday 11/6)</a></span></div></div>
@@ -64,7 +64,7 @@ template: home
 <div class="date col-md-2">Tue, Nov 4</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL16 </span><span class="title">More on OOP</span>
-<ul class="links"><li class="link"><a href="/static/slides/CL16.pdf"></a></li>
+<ul class="links"><li class="link"><a href="/static/slides/CL16.pdf">Slides</a></li>
 <li class="link"><a href="/static/fall25/oop-diagram.pdf">Diagram</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2025-10-30" class="row itinerary-row py-2">
