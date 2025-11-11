@@ -600,7 +600,28 @@
     "2025-11-08": [],
     "2025-11-09": [],
     "2025-11-10": [],
-    "2025-11-11": [],
+    "2025-11-11": [
+        {
+            "kind": "LS",
+            "n": 15,
+            "title": "Magic Methods Function Writing (Due Tuesday 11/11)",
+            "date": "2025-11-11",
+            "deadline": "2025-11-11",
+            "links": {
+                "": "/static/slides/CL18.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "Magic Methods Practice (Due Tuesday 11/11)",
+            "date": "2025-11-11",
+            "deadline": "2025-11-11",
+            "links": {
+                "": "/cqs/magic_methods_etc.html"
+            }
+        }
+    ],
     "2025-11-12": [],
     "2025-11-13": [],
     "2025-11-14": [],

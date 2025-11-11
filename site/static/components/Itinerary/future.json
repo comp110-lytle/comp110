@@ -1,45 +1,28 @@
 {
-    "2025-11-03": [],
-    "2025-11-04": [
+    "2025-11-09": [],
+    "2025-11-10": [],
+    "2025-11-11": [
         {
-            "kind": "CL",
-            "n": 16,
-            "title": "More on OOP",
-            "date": "2025-11-04",
-            "deadline": "None",
+            "kind": "LS",
+            "n": 15,
+            "title": "Magic Methods Function Writing (Due Tuesday 11/11)",
+            "date": "2025-11-11",
+            "deadline": "2025-11-11",
             "links": {
-                "": "/static/slides/CL16.pdf"
-            }
-        }
-    ],
-    "2025-11-05": [],
-    "2025-11-06": [
-        {
-            "kind": "CL",
-            "n": 17,
-            "title": "Magic Methods",
-            "date": "2025-11-06",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/CL17.pdf"
+                "": "/static/slides/CL18.pdf"
             }
         },
         {
-            "kind": "LS",
-            "n": 14,
-            "title": "Magic Methods (Due Thursday 11/6)",
-            "date": "2025-11-06",
-            "deadline": "2025-11-06",
+            "kind": "CQ",
+            "n": 4,
+            "title": "Magic Methods Practice (Due Tuesday 11/11)",
+            "date": "2025-11-11",
+            "deadline": "2025-11-11",
             "links": {
-                "": "https://www.gradescope.com/"
+                "": "/cqs/magic_methods_etc.html"
             }
         }
     ],
-    "2025-11-07": [],
-    "2025-11-08": [],
-    "2025-11-09": [],
-    "2025-11-10": [],
-    "2025-11-11": [],
     "2025-11-12": [],
     "2025-11-13": [],
     "2025-11-14": [],
