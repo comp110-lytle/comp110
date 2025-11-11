@@ -569,8 +569,8 @@
             "date": "2025-11-04",
             "deadline": "None",
             "links": {
-                "Slides": "/static/slides/CL16.pdf",
-                "Diagram": "/static/fall25/oop-diagram.pdf"
+                "Diagram": "/static/fall25/oop-diagram.pdf",
+                "Slides": "/static/slides/CL16.pdf"
             }
         }
     ],
@@ -583,8 +583,8 @@
             "date": "2025-11-06",
             "deadline": "None",
             "links": {
-                "Slides": "/static/slides/CL17.pdf",
-                "Diagram": "/static/fall25/mm-diagram.pdf"
+                "Diagram": "/static/fall25/mm-diagram.pdf",
+                "Slides": "/static/slides/CL17.pdf"
             }
         },
         {
