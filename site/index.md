@@ -45,7 +45,7 @@ template: home
 </div><div data-type="lecture" data-date="2025-11-13" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Nov 13</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL19 </span><span class="title"><a href="/">Intro to Recursive Structures and Processes</a></span></div><div class="plan Lesson">
+<span class="kind">CL19 </span><span class="title"><a href="/static/slides/CL19.pdf">Intro to Recursive Structures and Processes</a></span></div><div class="plan Lesson">
 <span class="kind">LS15 </span><span class="title"><a href="https://www.gradescope.com/">Recursive Structures (Due Friday 11/14)</a></span></div><div class="plan Exercise">
 <span class="kind">EX07 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked List Utility Functions (Due Tuesday 11/25)</a></span></div></div>
 </div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
