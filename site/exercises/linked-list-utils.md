@@ -11,9 +11,9 @@ template: overview
 
 ## Overview
 
-In these exercises you will implement a few algorithms to process a singly-linked list data structure.
+In this exercise, you will implement a few algorithms to process a singly-linked list data structure.
 
-Recall in the lectures on 11/11 and 11/13, we were writing methods and functions for the `Node` class. In this exercise, you will not be creating functions that take in and/or return `Node` objects. Create a new folder in your `exercises` folder called `ex08`. Then, copy your `cl/linked_list.py` module from class and paste it into your `ex08` folder. You must use **recursive function calls** to implement the functions below. If you use loops, your work for that function will be disqualified.
+Recall in the lecture on 11/13, we explored the `Node` class and wrote a recursive function that took in a `Node` object. In this exercise, you will similarly be creating functions that take in and/or return `Node` objects. Create a new folder in your `exercises` folder called `ex07`. Then, copy your code from the 11/13 lecture and paste it into your `ex07` folder. You must use **recursive function calls** to implement the functions below. If you use loops, your work for that function will be disqualified.
 
 ## `value_at` 
 
@@ -36,7 +36,7 @@ Example usage:
 
 <pre>
 <div class="terminal">
->>> from exercises.ex08.linked_list import Node, value_at
+>>> from exercises.ex07.linked_list import Node, value_at
 >>> value_at(Node(10, Node(20, Node(30, None))), 0)
 10
 >>> value_at(Node(10, Node(20, Node(30, None))), 1)
@@ -61,7 +61,7 @@ Skeleton function implementation:
 
 <pre>
 <div class="terminal">
->>> from exercises.ex08.linked_list import Node, max
+>>> from exercises.ex07.linked_list import Node, max
 >>> max(Node(10, Node(20, Node(30, None))))
 30
 >>> max(Node(10, Node(30, Node(20, None))))
@@ -107,7 +107,7 @@ Example usage:
 
 <pre>
 <div class="terminal">
->>> from exercises.ex08.linked_list import linkify
+>>> from exercises.ex07.linked_list import linkify
 >>> linkify([1, 2, 3])
 1 -> 2 -> 3 -> None
 </div>
@@ -130,7 +130,7 @@ Example usage:
 
 <pre>
 <div class="terminal">
->>> from exercises.ex08.linked_list import scale, linkify
+>>> from exercises.ex07.linked_list import scale, linkify
 >>> scale(linkify([1, 2, 3]), 2)
 2 -> 4 -> 6 -> None
 </div>
@@ -150,7 +150,7 @@ Remember: Focus on what you need to do with only the head node and then leave th
 
 When you are ready to submit for grading, run the following command:
 
-`python -m tools.submission exercises/ex08`
+`python -m tools.submission exercises/ex07`
 
 
 
