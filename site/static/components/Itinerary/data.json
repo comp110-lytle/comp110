@@ -633,7 +633,8 @@
             "date": "2025-11-13",
             "deadline": "None",
             "links": {
-                "": "/static/slides/CL19.pdf"
+                "Empty Slides": "/static/slides/CL19.pdf",
+                "Annotated Slides": "/static/slides/CL19_annotated.pdf"
             }
         },
         {
