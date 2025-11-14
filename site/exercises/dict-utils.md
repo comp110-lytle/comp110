@@ -100,10 +100,14 @@ Example usage:
 {'c': ['cat', 'car'], 'a': ['apple', 'angry'], 'b': ['boy', 'bad']}
 >>> alphabetizer(["Python", "sugar", "Turtle", "party", "table"])
 {'p': ['Python', 'party'], 's': ['sugar'], 't': ['Turtle', 'table']}
+>>> alphabetizer(["Hello", "#COMP110", "hello"])
+{'h': ['Hello', 'hello']}
 </div>
 </pre>
 
-Hint: The built-in Python method `.lower()` takes in no arguments and returns the lower cased string of a given string.
+Hint 1: The built-in Python method `.lower()` takes in no arguments and returns the lower cased string of a given string.
+
+Hint 2: The built-in Python method `.isalpha()` can be called on any string and returns `True` if all characters in the string are alphabetic. 
 
 ## 5. `update_attendance`
 
