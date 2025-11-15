@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS15 - FRI, NOV 14 11:59pm</a></li><li class="horizon-item"><span>QZ04 - THU, NOV 20 11:59pm</span></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/practice/practice-problems.html">QZ04 - THU, NOV 20 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -49,7 +49,10 @@ template: home
 </div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Nov 20</div>
 <div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ04 </span><span class="title">Quiz 4</span></div></div>
+<span class="kind">QZ04 </span><span class="title">Quiz 4</span>
+<ul class="links"><li class="link"><a href="/resources/practice/practice-problems.html">Practice Problems</a></li>
+<li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2025-12-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Sat, Dec 6</div>
 <div class="plans col-md-9"><div class="plan Final">

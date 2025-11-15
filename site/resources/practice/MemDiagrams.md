@@ -62,19 +62,23 @@ template: overview
 [Example 1](/resources/practice/memory-diagrams/while/while-01.html) |
 [Example 2](/resources/practice/memory-diagrams/while/while-02.html)
 
-
-
-
+-->
 
 
 ## OOP 
 
 [Example 0](/resources/practice/memory-diagrams/oop/tweets.html) | 
-[Example 1](/resources/practice/memory-diagrams/oop/stadium.html)
+[Example 1](/resources/practice/memory-diagrams/oop/stadium.html) |
+[Example 2](/resources/practice/memory-diagrams/oop/dog-cat-oop.html) |
+[Example 3](/resources/practice/memory-diagrams/oop/concert-oop.html)
 
 ## Magic Methods and Operator Overloads
 
 [Example 0](/resources/practice/memory-diagrams/oop-advanced/team.html) |
 [Example 1](/resources/practice/memory-diagrams/oop-advanced/playlist.html) |
-[Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html) -->
+[Example 2](/resources/practice/memory-diagrams/oop-advanced/board-games.html) |
+[Example 3](/resources/practice/memory-diagrams/oop-advanced/castle.html)
 
+## Recursive Structures
+
+[Example 0](/resources/practice/memory-diagrams/recursion/chess-pieces.html)
