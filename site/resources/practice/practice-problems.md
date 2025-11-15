@@ -49,6 +49,12 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Runtime](/resources/practice/runtime.html)
 
 
+## Quiz 04
+- [Object-Oriented Programming](/resources/practice/oop.html)
+- [Class Writing](/resources/practice/class-writing.html)
+- [Recursive Structures](/resources/practice/recursive-structures.html)
+- [Magic Methods](/resources/practice/magic-methods.html)
+
 <!-- - [Recursive Functions](/resources/practice/recursive-functions.html) -->
 <!-- 
 ## Final Exam
@@ -57,12 +63,3 @@ If you ever find yourself feeling really lost, feel free to take these questions
 - [Class Writing](/resources/practice/class-writing.html) -->
 
 <!-- -  -->
-
-
-<!-- 
-## Quiz 04
-- [Object-Oriented Programming](/resources/practice/oop.html)
-- [Class Writing](/resources/practice/class-writing.html)
-- [Recursive Functions](/resources/practice/recursive-functions.html)
-- [Recursive Structures](/resources/practice/recursive-structures.html)
-- [Magic Methods *(to-do)*](/resources/practice/unit-tests.html) -->  

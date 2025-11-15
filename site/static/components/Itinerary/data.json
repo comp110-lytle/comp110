@@ -671,7 +671,10 @@
             "title": "Quiz 4",
             "date": "2025-11-20",
             "deadline": "2025-11-20",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/practice-problems.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html"
+            }
         }
     ],
     "2025-11-21": [],
