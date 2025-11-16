@@ -96,21 +96,26 @@ template: overview
 
     1.4. (Challenge Question) Write a `__str__` method for `Rectangle` that works like in the following example:
 
-    ```
+    <pre>
+    <div class="terminal">$ python 
     >>> my_rect: Rectangle = Rectangle(Point(0, 0), Point(1, 0), Point(0, 1), Point(1, 1))
     >>> print(my_rect)
     (0, 1) (1, 1)
     (0, 0) (1, 0)
     Area: 1
     Perimeter: 4
-    ```
+    </div>
+    </pre>
 
     Hint: Use `"\n"` to add new lines! Example: 
-    ```
+
+    <pre>
+    <div class="terminal">$ python 
     >>> print("Hello!\nHello again!")
     Hello!
     Hello again!
-    ```
+    </div>
+    </pre>
 
 <details>
 <summary>SOLUTIONS</summary>
