@@ -6,6 +6,8 @@ page: lessons
 template: overview
 ---
 
+## Snippet
+
 ```py
     class Concert:
         artist: str
@@ -29,6 +31,8 @@ template: overview
     show: Concert = Concert(a = "Travisty", s = lenovo_seats)
     show.assign_seats(wanted_seats = ["K2", "K3"], name = "Kay")
 ```
+
+## Solution
 
 <details>
 <summary>SOLUTION</summary>

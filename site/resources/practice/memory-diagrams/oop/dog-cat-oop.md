@@ -6,6 +6,8 @@ page: lessons
 template: overview
 ---
 
+## Solution
+
 ```py
     class Dog:
         name: str
@@ -42,6 +44,8 @@ template: overview
     miso: Cat = Cat("Miso", 2)
     miso.speak()
 ```
+
+## Snippet
 
 <details>
 <summary>SOLUTION</summary>
