@@ -37,7 +37,11 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-11-18" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Nov 18</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL20 </span><span class="title"><a href="/static/slides/CL20.pdf">Practice with Recursive Structures</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Nov 20</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ04 </span><span class="title">Quiz 4</span>
