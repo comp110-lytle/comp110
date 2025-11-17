@@ -40,4 +40,11 @@ template: overview
 
 # Solution
 
+<details>
+<summary>SOLUTION</summary>
+
+See the solution video [here](https://youtu.be/k2YEGm3oAbE)!.
+
 <img class="img-fluid" src="/static/practice-mem-diagrams/change-and-check.png" alt="Image Description Here"  />
+
+</details>
