@@ -37,16 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-11-13" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Nov 13</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL19 </span><span class="title">Intro to Recursive Structures and Processes</span>
-<ul class="links"><li class="link"><a href="/static/slides/CL19.pdf">Empty Slides</a></li>
-<li class="link"><a href="/static/slides/CL19_annotated.pdf">Annotated Slides</a></li>
-</ul></div><div class="plan Lesson">
-<span class="kind">LS15 </span><span class="title"><a href="https://www.gradescope.com/">Recursive Structures (Due Friday 11/14)</a></span></div><div class="plan Exercise">
-<span class="kind">EX07 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked List Utility Functions (Due Tuesday 11/25)</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Nov 20</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ04 </span><span class="title">Quiz 4</span>
@@ -59,7 +50,16 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-11-11" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-11-13" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Nov 13</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL19 </span><span class="title">Intro to Recursive Structures and Processes</span>
+<ul class="links"><li class="link"><a href="/static/slides/CL19.pdf">Empty Slides</a></li>
+<li class="link"><a href="/static/slides/CL19_annotated.pdf">Annotated Slides</a></li>
+</ul></div><div class="plan Lesson">
+<span class="kind">LS15 </span><span class="title"><a href="https://www.gradescope.com/">Recursive Structures (Due Friday 11/14)</a></span></div><div class="plan Exercise">
+<span class="kind">EX07 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked List Utility Functions (Due Tuesday 11/25)</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-11-11" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Nov 11</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL18 </span><span class="title"><a href="/static/slides/CL18.pdf">Magic Methods Function Writing</a></span></div><div class="plan Challenge Question">

@@ -6,6 +6,8 @@ page: lessons
 template: overview
 ---
 
+## Snippet
+
 Diagram the following code snippet:
 
 ```py
@@ -37,6 +39,8 @@ Diagram the following code snippet:
     castle: Node = Node(0, bishop)
     print(castle)
 ```
+
+## Solution
 
 <details>
 <summary>SOLUTION</summary>
