@@ -1,5 +1,4 @@
 {
-    "2025-11-15": [],
     "2025-11-16": [],
     "2025-11-17": [],
     "2025-11-18": [
@@ -10,7 +9,9 @@
             "date": "2025-11-18",
             "deadline": "None",
             "links": {
-                "": "/static/slides/CL20.pdf"
+                "Slides": "/static/slides/CL20.pdf",
+                "Diagram Pt 1": "/static/fall25/11-18-diagram-1.png",
+                "Diagram Pt 2": "/static/fall25/11-18-diagram-2.png"
             }
         }
     ],
@@ -48,7 +49,9 @@
             "title": "Final @ 4:00PM",
             "date": "2025-12-06",
             "deadline": "None",
-            "links": {}
+            "links": {
+                "Makeup Final Exam Information": ""
+            }
         }
     ]
 }
