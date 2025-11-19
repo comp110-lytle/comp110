@@ -28,9 +28,10 @@ template: overview
 * [for Loops](https://www.youtube.com/watch?v=kzeQbHPivE0)
 * (External Resource): [Insertion Sort](https://youtu.be/JU767SDMDvA?si=qdKKMZmTs6XNv9rt) | [Selection Sort](https://youtu.be/g-PGLbMth_g?si=1cuC9fhQYHAFklip)
 * [Unit Tests](https://youtu.be/T_9JaV2aIS0)
-
-<!-- 
-* [Intro to OOP](https://www.youtube.com/watch?v=DmYPEH8qkRI)
+* [Intro to OOP](https://unc.zoom.us/rec/share/3avMlvGXk1K-wqg2PsBjIZKHkUpJaJgmaFbE0mdDcYwnYM07_0zeAq7o28e3-Ne4.Nqz-fG9da93T89-e)
 * [Classes in Memory](https://www.youtube.com/watch?v=FM29tHBFBc8)
 * [Magic Methods](https://youtu.be/wFaDObPJFUw)
-* [Magic Methods in Memory Example](https://www.youtube.com/watch?v=233MVVMYpDY) -->
+* [Magic Methods in Memory Example](https://www.youtube.com/watch?v=233MVVMYpDY) 
+
+
+<!-- [Intro to OOP](https://www.youtube.com/watch?v=DmYPEH8qkRI) -->
