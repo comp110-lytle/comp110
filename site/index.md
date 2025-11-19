@@ -42,8 +42,8 @@ template: home
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL20 </span><span class="title">Practice with Recursive Structures</span>
 <ul class="links"><li class="link"><a href="/static/slides/CL20.pdf">Slides</a></li>
-<li class="link"><a href="/static/fall25/11-18-diagram-1.png">Diagram Pt 1</a></li>
-<li class="link"><a href="/static/fall25/11-18-diagram-2.png">Diagram Pt 2</a></li>
+<li class="link"><a href="/static/fall25/11-18-diagram1.png">Diagram Pt 1</a></li>
+<li class="link"><a href="/static/fall25/11-18-diagram2.png">Diagram Pt 2</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Nov 20</div>
@@ -56,7 +56,7 @@ template: home
 <div class="date col-md-2">Sat, Dec 6</div>
 <div class="plans col-md-9"><div class="plan Final">
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span>
-<ul class="links"><li class="link">Makeup Final Exam Information</li>
+<ul class="links"><li class="link"><a href="/resources/final-makeup.html">Makeup Final Exam Information</a></li>
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>

@@ -671,8 +671,8 @@
             "deadline": "None",
             "links": {
                 "Slides": "/static/slides/CL20.pdf",
-                "Diagram Pt 1": "/static/fall25/11-18-diagram-1.png",
-                "Diagram Pt 2": "/static/fall25/11-18-diagram-2.png"
+                "Diagram Pt 1": "/static/fall25/11-18-diagram1.png",
+                "Diagram Pt 2": "/static/fall25/11-18-diagram2.png"
             }
         }
     ],
@@ -711,7 +711,7 @@
             "date": "2025-12-06",
             "deadline": "None",
             "links": {
-                "Makeup Final Exam Information": ""
+                "Makeup Final Exam Information": "/resources/final-makeup.html"
             }
         }
     ]
