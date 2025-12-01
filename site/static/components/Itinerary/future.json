@@ -1,42 +1,4 @@
 {
-    "2025-11-17": [],
-    "2025-11-18": [
-        {
-            "kind": "CL",
-            "n": 20,
-            "title": "Practice with Recursive Structures",
-            "date": "2025-11-18",
-            "deadline": "None",
-            "links": {
-                "Slides": "/static/slides/CL20.pdf",
-                "Diagram Pt 1": "/static/fall25/11-18-diagram1.png",
-                "Diagram Pt 2": "/static/fall25/11-18-diagram2.png"
-            }
-        }
-    ],
-    "2025-11-19": [],
-    "2025-11-20": [
-        {
-            "kind": "QZ",
-            "n": 4,
-            "title": "Quiz 4",
-            "date": "2025-11-20",
-            "deadline": "2025-11-20",
-            "links": {
-                "Practice Problems": "/resources/practice/practice-problems.html",
-                "Practice Diagrams": "/resources/practice/MemDiagrams.html",
-                "Review Session Recording": "https://youtu.be/ZibqfUNEP4E"
-            }
-        }
-    ],
-    "2025-11-21": [],
-    "2025-11-22": [],
-    "2025-11-23": [],
-    "2025-11-24": [],
-    "2025-11-25": [],
-    "2025-11-26": [],
-    "2025-11-27": [],
-    "2025-11-28": [],
     "2025-11-29": [],
     "2025-11-30": [],
     "2025-12-01": [],
