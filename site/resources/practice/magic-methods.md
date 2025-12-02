@@ -6,16 +6,20 @@ page: lessons
 template: overview
 ---
 
+## Change Log
+
+Dec 2: `Point` class changed to have `int` attributes from `float` attributes. `float` attributes were used in class but the definition has been changed for these problems to be consistent with how the `Rectangle` class uses them. 
+
 ## Conceptual
 
 1. Consider the following code snippet:
 
     ```py
         class Point:
-            x: float
-            y: float
+            x: int
+            y: int
 
-            def __init__(self, x: float, y: float):
+            def __init__(self, x: int, y: int):
                 self.x = x
                 self.y = y
 
@@ -125,10 +129,10 @@ template: overview
 
     # Included for context, and so you can run it yourself!
     class Point:
-        x: float
-        y: float
+        x: int
+        y: int
 
-        def __init__(self, x: float, y: float):
+        def __init__(self, x: int, y: int):
             self.x = x
             self.y = y
 
