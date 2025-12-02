@@ -695,25 +695,25 @@
     "2025-11-22": [],
     "2025-11-23": [],
     "2025-11-24": [],
-    "2025-11-25": [
-        {
-            "kind": "CL",
-            "n": 21,
-            "title": "DATA! Quantifying Shakespeare",
-            "date": "2025-11-25",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/QuantShakespeare.pdf"
-            }
-        }
-    ],
+    "2025-11-25": [],
     "2025-11-26": [],
     "2025-11-27": [],
     "2025-11-28": [],
     "2025-11-29": [],
     "2025-11-30": [],
     "2025-12-01": [],
-    "2025-12-02": [],
+    "2025-12-02": [
+        {
+            "kind": "CL",
+            "n": 21,
+            "title": "DATA! Quantifying Shakespeare",
+            "date": "2025-12-02",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/QuantShakespeare.pdf"
+            }
+        }
+    ],
     "2025-12-03": [],
     "2025-12-06": [
         {
