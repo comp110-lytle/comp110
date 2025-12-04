@@ -47,7 +47,7 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span>
 <ul class="links"><li class="link"><a href="/resources/final-makeup.html">Makeup Final Exam Information</a></li>
 <li class="link"><a href="/resources/practice/final_practice/supplemental_fn00_practice.html">Supplemental Final Exam Practice Questions</a></li>
-<li class="link"><a href="/">Final Exam Review Session on Thurs, Dec 4 at 4pm in SN 014 and online</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/97740302649?pwd=iSCwyEalnujwibkKMH5syryAxawjRV.1">Final Exam Review Session on Thurs, Dec 4 at 4pm in SN 014 and online (Passcode: 110110)</a></li>
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
