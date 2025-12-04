@@ -723,7 +723,9 @@
             "date": "2025-12-06",
             "deadline": "None",
             "links": {
-                "Makeup Final Exam Information": "/resources/final-makeup.html"
+                "Makeup Final Exam Information": "/resources/final-makeup.html",
+                "Supplemental Final Exam Practice Questions": "/resources/practice/final_practice/supplemental_fn00_practice.md",
+                "Final Exam Review Session on Thurs, Dec 4 at 4pm in SN 014 and online": "/"
             }
         }
     ]
