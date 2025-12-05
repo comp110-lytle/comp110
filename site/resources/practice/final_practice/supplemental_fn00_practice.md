@@ -321,6 +321,8 @@ missions: dict[str, int] = {"Apollo": 11, "Voyager": 1, "Artemis": 2}
     print(woo(4))
     ```
 
+Please view the final exam review session recording for a walkthrough of the solution.
+
 <!-- # Solution
 
 <img class="img-fluid" src="/static/practice-mem-diagrams/basic-loop.png" alt="recursion example"  />
@@ -394,3 +396,5 @@ missions: dict[str, int] = {"Apollo": 11, "Voyager": 1, "Artemis": 2}
     kate = unc.add("Kate", 15)
     print(kate)
     ```
+
+Please view the final exam review session recording for a walkthrough of the solution.
