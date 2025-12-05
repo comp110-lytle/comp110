@@ -81,11 +81,11 @@ Quizzes and examinations are offered in-person only this semester. The format is
 * Quiz (QZ) 02: Thurs, October 09
 * Quiz (QZ) 03: Thurs, October 30
 * Quiz (QZ) 04: Thurs, November 20
-* Final (FN) Exam: Saturday, December 6, 2025, 4-7 PM (Makeup: TBD)
+* Final (FN) Exam: Saturday, December 6, 2025, 4-7 PM (Makeup: 12pm on Sunday, Dec 7th in SN014)
 
 **Final Exam Makeup**
 
-You must have a [university approved](https://dos.unc.edu/student-support/class-absences-final-exam-rescheduling/) reason for needing to take the final on a makeup day. If this applies to you, please fill out the final exam makeup form (*coming soon*).
+You must have a [university approved](https://dos.unc.edu/student-support/class-absences-final-exam-rescheduling/) reason for needing to take the final on a makeup day. If this applies to you, please fill out the [final exam makeup form](https://airtable.com/appJjqVMSOFr9kspg/pagwo6pZBDYvx2s3F/form).
 
 
 ## Quiz Absence Policy

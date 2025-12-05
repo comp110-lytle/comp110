@@ -11,7 +11,7 @@ template: overview
 
 For this challenge question, you're going to practice using a `while` loop to iterate over a string!
 
-Start by creating a file in your CQs folder called `cq03_while_loops.py`. Initialize with a docstring and an `__author__` variable.
+Start by creating a file in your CQs folder called `cq01_while_loops.py`. Initialize with a docstring and an `__author__` variable.
 
 ## `num_instances`
 
@@ -24,7 +24,7 @@ Here's an example of what it should look like when tested in your REPL:
 <pre>
 <div class="terminal">
 /workspace (main*) > python
->>> from CQs.cq03_while_loops import num_instances
+>>> from CQs.cq01_while_loops import num_instances
 >>> num_instances(phrase="HelloHeLloHEllo", search_char="e")
 2
 >>> num_instances(phrase="HelloHelloHello", search_char="e")
@@ -52,6 +52,6 @@ If you don't know where to start, try following these steps:
 
 Create a .zip file by running the following command in your terminal:
 
-```python -m tools.submission CQs/cq03_while_loops.py```
+```python -m tools.submission CQs/cq01_while_loops.py```
 
 Then, drag and drop that .zip file into Gradescope!

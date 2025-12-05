@@ -1,4 +1,4 @@
-"""Tests for Exercise 07: Dict Functions + Unit Tests."""
+"""Tests for Exercise 05: Dict Functions + Unit Tests."""
 
 __author__ = "Kaki Ryan <kakiryan@cs.unc.edu>"
 
@@ -8,7 +8,7 @@ from graders.helpers import assert_return_type
 from random import randint
 
 
-MODULE = "ex06.dictionary"
+MODULE = "exercises.ex04.dictionary"
 
 
 @mark.weight(4)

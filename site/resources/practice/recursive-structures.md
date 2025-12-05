@@ -1,265 +1,188 @@
 ---
-title: Recursive Structures
+title: Recursive Structures Questions
 author:
-- Viktorya Hunanyan
+- Benjamin Eldridge
 page: lessons
 template: overview
 ---
 
-# Questions
+Any questions that reference the `Node` class are referring to a class defined in the following way:
 
-### 1. Refer to the following code snippett to answer the questions below: 
-```python
-from __future__ import annotations
+```py
+    from __future__ import annotations
 
-class Node:
-    def __init__(self, value: list[int], next: Node | None):
-        self.value = value  # A list of integers
-        # Either another Node or None
-        if next is None:
-            self.next = None
-        else:
+    class Node:
+        value: int
+        next: Node | None
+
+        def __init__(self, val: int, next: Node | None):
+            self.value = val
             self.next = next
+
+        def __str__(self) -> str:
+            rest: str
+            if self.next is None:
+                rest = "None"
+            else:
+                rest = str(self.next)
+            return f"{self.value} -> {rest}"
 ```
 
-- 1a. Given a linked list, write a recursive function, `sum_node_values`, that calculates the total sum of all integers in the linked list. Identify the base case and recursive step by commenting your code. Below is a REPL example of how you functions should work.
+## Multiple Choice
 
-<pre>
-<div class="terminal">
->>> from test import Node, sum_node_values
->>> node3 = Node([7, 8, 9], None)
->>> node2 = Node([4, 5], node3)
->>> node1 = Node([1, 2, 3], node2)
->>> print("Sum of all values:", sum_node_values(node1))
-Sum of all values: 39
-</div>
-</pre>
+1. (Select all that apply) Which of the following properties of a recursive function will ensure that it *does not* have an infinite loop?
 
-- 1b. Given a linked list, write a recursive function, `increment_node_values`, that increments each integer in every node's list by 1. Identify the base case and recursive step by commenting your code.
+    a. The function calls itself in the recursive case.
 
-<pre>
-<div class="terminal">
->>> from test import Node, increment_node_values, print_nodes
->>> node3 = Node([7, 8, 9], None)
->>> node2 = Node([4, 5], node3)
->>> node1 = Node([1, 2, 3], node2)
->>> increment_node_values(node1)
->>> print("Values after incrementing:")
-Values after incrementing:
->>> print_nodes(node1)
-[2, 3, 4]
-[5, 6]
-[8, 9, 10]
-</div>
-</pre>
+    b. The recursive case progresses towards the base case.
 
-*Note:* `print_nodes` is a function that you will define in the next part. We are using it here to show you how your list of each Node should look like after you modified each list when you called `increment_node_values`.
+    c. The base case returns a result directly (it does not call the function again).
 
-- 1c. Given a linked list write a recursive function, `print_nodes`, that prints the contents of all nodes in the linked list. You should add a method to the Node class definition that is responsible for printing a Node object. Identify the base case and the recursive step.
-<pre>
-<div class="terminal">
->>> from test import Node, print_nodes
->>> node3 = Node([7, 8, 9], None)
->>> node2 = Node([4, 5], node3)
->>> node1 = Node([1, 2, 3], node2)
->>> print("Printing each node:")
-Printing each node:
->>> print_nodes(node1)
-[1, 2, 3]
-[4, 5]
-[7, 8, 9]
-</div>
-</pre>
+    d. The base case is always reached.
 
-- 1d. Write code to test your functions. 
+    e. None of the above
 
-[Solution to question 1](#solution-to-question-1)
+2. (Fill in the blank) A linked list in python consists of one or more instances of the _____ class.
 
-### 2. Refer to the following code snippett to answer the questions below: 
-```python
-from __future__ import annotations
+    a. `list`
 
-class BinaryTreeNode:
-    def __init__(self, value: int, left: BinaryTreeNode | None, right: BinaryTreeNode | None):
-        self.value = value  # Integer value of the node
-        if left is None:
-            self.left = None
+    b. `int`
+
+    c. `Node`
+
+    d. `None`
+
+    e. None of the above
+
+3. (True/False) Attempting to access the `value` or `next` attribute of `None` will result in an error.
+
+4. (True/False) There is no way to traverse to the start of a linked list that has multiple Nodes given only a reference to the last `Node`.
+
+<details>
+<summary>SOLUTIONS</summary>
+
+1. B, C, and D. A is true of all recursive functions, but does not guarantee that there won't be an infinite loop.
+
+2. C
+
+3. True, attempting to access any attributes of `None` will result in an error since it has no attributes.
+
+4. True, Nodes only know about the `Node` "in front" of them, or the next `Node`, so you cannot move backwards in a linked list.
+
+</details>
+
+## Code Writing
+
+1. Write a recursive function (not a method of the `Node` class) named `recursive_range` with `start` and `end` `int` parameters that will create a linked list with the Nodes having values counting from `start` to `end`, not including `end`, either counting down (decrementing) or up (incrementing) depending on what `start` and `end` are. The function signature is below to get you started.
+
+    `def recursive_range(start: int, end: int) -> Node | None:`
+
+2. Write a recursive method of the `Node` class named `append` that has parameters `self` and `new_val` which is of type `int`, and this method should create a new `Node` at the end of the linked list and return `None`. In other words, the last `Node` object before this method is called will have a `next` attribute of `None`, but after this method is called, it should have a `next` attribute equal to a `Node` object with value `new_val` and `next` attribute being `None` (since that new node is now the last `Node` in the linked list).
+
+3. Write a recursive method of the `Node` class named `get_length` that has parameters `self` and `count` which is of type `int`, which if you were to call with a `count` argument of 0, would return the length of the linked list starting with `self` (not including `None`). Hint: Use `count` to keep track of a `Node` count between function calls. How would you write this method as an *iterative* function (with no `count` parameter)?
+
+<details>
+<summary>SOLUTIONS</summary>
+
+1. Recursive range has two base cases, and the one that is used depends on if `start` is greater than or less than `end`.
+
+    ```py
+        def recursive_range(start: int, end: int) -> Node | None:
+            if start == end:
+                return None
+            elif start < end:
+                return Node(start, recursive_range(start + 1, end))
+            else:
+                return Node(start, recursive_range(start - 1, end))
+    ```
+
+2. Here is one way to make the `append` method:
+
+    ```py
+        def append(self, new_val: int) -> None:
+            if self.next is None:
+                self.next = Node(new_val, None)
+            else:
+                self.next.append(new_val)
+    ```
+
+3. Here are two possibilities:
+
+```py
+    def get_length(self, count: int) -> int:
+        if self.next is None:
+            return count + 1
         else:
-            self.left = left
+            return self.next.get_length(count + 1)
+```
+
+```py
+    def get_length(self, count: int) -> int:
+        count += 1
+        if self.next is None:
+            return count
+        else:
+            return self.next.get_length(count)
+```
+
+</details>
+
+## Short Answer
+
+1. Based on the following code snippet, what would be the output of the following lines of code given in parts 1.1-1.4?
+
+    ```py
+        from __future__ import annotations
+
+        # Node class definition included for reference!
+        class Node:
+            value: int
+            next: Node | None
+
+            def __init__(self, val: int, next: Node | None):
+                self.value = val
+                self.next = next
+
+            def __str__(self) -> str:
+                rest: str
+                if self.next is None:
+                    rest = "None"
+                else:
+                    rest = str(self.next)
+                return f"{self.value} -> {rest}"
+
+        x: Node = Node(4, None)
+        y: Node = Node(8, None)
         
-        if right is None:
-            self.right = None
-        else:
-            self.right = right
-```
+        x.next = y
 
-- 2a. Given the following instantiations, draw a picture of what your Binary Tree looks like: 
-```python
-# Create a binary tree manually
-node4 = BinaryTreeNode(4, None, None)
-node5 = BinaryTreeNode(5, None, None)
-node2 = BinaryTreeNode(2, node4, node5)
-node3 = BinaryTreeNode(3, None, None)
-root = BinaryTreeNode(1, node2, node3)
-```
+        z: Node = Node(16, None)
 
-- 2b. Implement a recursive function named `sum_tree_values`. This function should accept a binary tree (or None) as input and return the total sum of all the values in the trees. 
-- 2c. Create a recursive function called `increment_tree_value`s. The function should take a binary tree (or None) as input and increment the value of each node in the tree by 1. It should not return anything. 
-- 2d. Draw a picture of what the your binary tree looks like after step 2c. 
+        z.next = x
 
-[Solution to question 2](#solution-to-question-2)
+        x = Node(32, None)
+    ```
 
-# Solutions
+    1.1. `print(z.next.next.value)`
 
-## 1. Solutions to each part of question 1 are below: {#solution-to-question-1}
-- 1a. Code below: 
-```python
-def sum_node_values(head: Node | None) -> int:
-    if head is None:  # Base case
-        return 0
+    1.2. `print(y.next)`
 
-    # Recursive step: Sum the elements of the current node and the sum of the rest of the list
-    current_sum = 0
-    for value in head.value:
-        current_sum += value
-    return current_sum + sum_node_values(head.next)
-```
+    1.3. `print(x)`
 
-- 1b. Code below: 
-```python
-def increment_node_values(head: Node | None) -> None:
-    if head is None:  # Base case
-        return None
-    
-    # Recursive step: Increment each value in the current node
-    for i in range(len(head.value)):  # Manually increment each element
-        head.value[i] += 1
-    increment_node_values(head.next)  # Process the next node
-```
-
-- 1c. Code below: 
-```python
-from __future__ import annotations
-
-class Node:
-    def __init__(self, value: list[int], next: Node | None):
-        self.value = value  # A list of integers
-        # Either another Node or None
-        if next is None:
-            self.next = None
-        else:
-            self.next = next
-
-    def __str__(self) -> str:  # Magic method to print a Node object
-        return str(self.value)
-
-def print_nodes(head: Node | None) -> None:
-    if head is None:  # Base case
-        return None
-    
-    # Recursive step: Print the current node and then the rest of the list
-    print(head)  # Use the __str__ method to get the string representation
-    print_nodes(head.next)
-```
-
-- 1d. Code below: 
-```python
-# All code combined together, solution to 1d is underneath print_nodes definition
-from __future__ import annotations
-
-class Node:
-    def __init__(self, value: list[int], next: Node | None):
-        self.value = value  # A list of integers
-        # Either another Node or None
-        if next is None:
-            self.next = None
-        else:
-            self.next = next
-
-    def __str__(self) -> str:
-        return str(self.value)  # Use Python's built-in str() for the list representation
-
-def sum_node_values(head: Node | None) -> int:
-    if head is None:  # Base case
-        return 0
-
-    # Recursive step: Sum the elements of the current node and the sum of the rest of the list
-    current_sum = 0
-    for value in head.value:  # Manually sum the list in the current node
-        current_sum += value
-    return current_sum + sum_node_values(head.next)
-
-def increment_node_values(head: Node | None) -> None:
-    if head is None:  # Base case
-        return
-    
-    # Recursive step: Increment each value in the current node
-    for i in range(len(head.value)):  # Manually increment each element
-        head.value[i] += 1
-    increment_node_values(head.next)  # Process the next node
-
-def print_nodes(head: Node | None) -> None:
-    if head is None:  # Base case
-        return
-    
-    # Recursive step: Print the current node and then the rest of the list
-    print(head)  # Use the __str__ method to get the string representation
-    print_nodes(head.next)
-
-# Solution for 1d: 
-
-# Create a linked list manually
-node3 = Node([7, 8, 9], None)
-node2 = Node([4, 5], node3)
-node1 = Node([1, 2, 3], node2)
-
-# 1a: Sum all values in the nodes
-print("Sum of all values:", sum_node_values(node1))
-
-# 1b: Increment all values in the nodes
-increment_node_values(node1)
-print("Values after incrementing:")
-print_nodes(node1)
-
-# 1c: Print each node
-print("Printing each node:")
-print_nodes(node1)
-```
-
-## 2. Solutions to each part of question 2 are below: {#solution-to-question-2}
-- 2a. Picture below. 
-*Note* This is just a visual representation of what your binary tree looks like and is not what is actually represented in memory. Your picture might look different but should be somewhat similar. 
-
-<img class="img-fluid" src="/static/practice-problems/binarytreeinitial.jpg" alt=" " />
+    1.4. `print(z)`
 
 
-- 2b. Code below: 
+<details>
+<summary>SOLUTIONS</summary>
 
-```python
-def sum_tree_values(root: BinaryTreeNode | None) -> int:
-    if root is None:  # Base case: If the node is None, return 0
-        return 0
+1. Question 1 answers:
 
-    # Recursive step: Sum the value of the current node, plus the sum of the left and right subtrees
-    return root.value + sum_tree_values(root.left) + sum_tree_values(root.right)
-```
+    1.1. `8`
 
-- 2c. Code below: 
+    1.2. `None`
 
-```python
-def increment_tree_values(root: BinaryTreeNode | None) -> None:
-    if root is None:  # Base case: If the node is None, do nothing
-        return None
+    1.3. `32 -> None`
 
-    # Recursive step: Increment the current node's value
-    root.value += 1
+    1.4. `16 -> 4 -> 8 -> None`
 
-    # Recursively increment the values in the left and right subtrees
-    increment_tree_values(root.left)
-    increment_tree_values(root.right)
-```
-
-- 2d. Picture below. 
-*Note* This is just a visual representation of what your binary tree looks like and is not what is actually represented in memory. Your picture might look different but should be somewhat similar. 
-
-<img class="img-fluid" src="/static/practice-problems/binarytreeafteraddingone.jpg" alt=" " />
+</details>
