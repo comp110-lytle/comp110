@@ -305,3 +305,92 @@ missions: dict[str, int] = {"Apollo": 11, "Voyager": 1, "Artemis": 2}
 </details>
 
 &nbsp;
+
+# Recursion Memory Diagram
+
+1. Complete a memory diagram for the following code:
+
+    ```py
+    def woo(n: int) -> int:
+        if n == 1 or n == 2:
+            return 1
+        else:
+            return n + woo(n - 1) * woo(n - 2)
+
+
+    print(woo(4))
+    ```
+
+<!-- # Solution
+
+<img class="img-fluid" src="/static/practice-mem-diagrams/basic-loop.png" alt="recursion example"  />
+ -->
+
+# OOP Class-Writing and Memory Diagram
+
+1. Consider the following class:
+
+    ```py
+    class Athlete:
+        name: str
+        number: int
+
+        def __init__(self, name: str, num: int):
+            self.name = name
+            self.number = num
+
+        def __str__(self) -> str:
+            return f"Athlete: {self.name} (#{self.number})"
+    ```
+
+    Write a class named `Team` with the following specifications: 
+    - The class has two attributes: 
+        - `team_name` (a `str`) 
+        - `roster` (a `dict`, where the keys are `int`s, and the values are `Athlete` objects)
+    - The constructor takes in `self` and `name` (a `str`). The `self` object's `team_name` attribute will be initialized to the `name` parameter's literal value, and the `roster` attribute will be initialized to an empty dictionary.
+    - The class has a method named `add` that takes in `self`, `name` (a `str`), and `desired_num` (an `int`), and returns an `Athlete` object. The purpose of the method will be to add an `Athlete` object to a `Team` object's `roster`. If the athlete's desired number is not already taken, they will be assigned that desired number! If it's already taken, the athlete will be assigned the number `0`. To code this behavior, your method should do the following:
+        - The method will check if `desired_num` is already a key in the `self` object's `roster` dictionary. 
+            - If it is NOT already a key, declare and initialize a new `Athlete` variable with the athlete's `name` and `desired_num` as its attribute values. Add that `desired_num` and new `Athlete` object as a new key-value pair in `self`'s `roster`.
+            - If it IS already a key (representing someone on the team already having that number), declare and initialize a new `Athlete` variable with the athlete's `name` and `0` as its attribute values. Add that `0` and the new `Athlete` object as a new key-value pair in `self`'s `roster`.
+        - The method should return the new `Athlete` object you created.
+
+## (See *one* solution below)
+
+2. Complete a memory diagram for the code listing that includes the Athlete class and the Team class you just wrote:
+
+    ```py
+    class Athlete:
+        name: str
+        number: int
+
+        def __init__(self, name: str, num: int):
+            self.name = name
+            self.number = num
+
+        def __str__(self) -> str:
+            return f"Athlete: {self.name} (#{self.number})"
+
+
+    class Team:
+        team_name: str
+        roster: dict[int, Athlete]
+
+        def __init__(self, name: str):
+            self.team_name = name
+            self.roster = dict()
+
+        def add(self, name: str, desired_num: int) -> Athlete:
+            new_athlete: Athlete
+            if desired_num not in self.roster:
+                new_athlete = Athlete(name, desired_num)
+                self.roster[desired_num] = new_athlete
+            else:
+                new_athlete = Athlete(name, 0)
+                self.roster[0] = new_athlete
+            return new_athlete
+
+
+    unc: Team = Team(name="UNC Women's BB")
+    kate = unc.add("Kate", 15)
+    print(kate)
+    ```
