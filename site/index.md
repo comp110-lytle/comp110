@@ -37,19 +37,21 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-12-02" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Dec 2</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL21 </span><span class="title"><a href="/static/slides/QuantShakespeare.pdf">DATA! Quantifying Shakespeare</a></span></div></div>
-</div><div data-type="lecture" data-date="2025-12-06" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2025-12-06" class="row itinerary-row py-2">
 <div class="date col-md-2">Sat, Dec 6</div>
 <div class="plans col-md-9"><div class="plan Final">
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span>
 <ul class="links"><li class="link"><a href="/resources/final-makeup.html">Makeup Final Exam Information</a></li>
+<li class="link"><a href="/resources/practice/final_practice/supplemental_fn00_practice.html">Supplemental Final Exam Practice Questions</a></li>
+<li class="link"><a href="https://unc.zoom.us/rec/share/e8Os30RV730BrPvwA-8XPupl7VBcV5h71vL0FYG48QgFgYLsskvj582i0FMtyvQ1.c_T7E9Pa5IQtv1fA?startTime=1764882237000">Final Exam Review Session Recording</a></li>
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2025-12-02" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Dec 2</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL21 </span><span class="title"><a href="/static/slides/QuantShakespeare.pdf">DATA! Quantifying Shakespeare</a></span></div></div>
+</div><div data-type="lecture" data-date="2025-11-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Nov 20</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ04 </span><span class="title">Quiz 4</span>
