@@ -355,7 +355,7 @@ UNC-Chapel Hill is committed to fulfilling its responsibilities of transparency 
 
 If you have any concerns with grading and/or feel you have been awarded an incorrect grade, please discuss it with me as soon as possible. If we cannot resolve the issue, you may talk to our director of undergraduate studies or department chair.
 
-#### University Required Statement
+#### *University Required Statement*
 
 This course engages diverse scholarly perspectives to develop critical thinking, analysis, and debate and inclusion of a reading does not imply endorsement. 
 
