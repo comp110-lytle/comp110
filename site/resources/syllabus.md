@@ -76,19 +76,14 @@ Quizzes and examinations are offered in-person only this semester. The format is
 
 **Quiz Dates**
 
-* Quiz (QZ) 00: Thurs, August 28
+<!-- * Quiz (QZ) 00: Thurs, August 28
 * Quiz (QZ) 01: Thurs, September 18
 * Quiz (QZ) 02: Thurs, October 09
 * Quiz (QZ) 03: Thurs, October 30
 * Quiz (QZ) 04: Thurs, November 20
-* Final (FN) Exam: Saturday, December 6, 2025, 4-7 PM (Makeup: 12pm on Sunday, Dec 7th in SN014)
+* Final (FN) Exam: Saturday, December 6, 2025, 4-7 PM (Makeup: 12pm on Sunday, Dec 7th in SN014) -->
 
-**Final Exam Makeup**
-
-You must have a [university approved](https://dos.unc.edu/student-support/class-absences-final-exam-rescheduling/) reason for needing to take the final on a makeup day. If this applies to you, please fill out the [final exam makeup form](https://airtable.com/appJjqVMSOFr9kspg/pagwo6pZBDYvx2s3F/form).
-
-
-## Quiz Absence Policy
+**Quiz Absences**
 
 The quizzes will be held during the section you are registered for and are synchronous, in-person for all sections. 
 
@@ -96,10 +91,21 @@ If you are a part of an organization whose authorized university absences will c
 
 You may have an unexcused absence for up to one quiz. 
 
+For an excused absence, please fill out [this form](https://airtable.com/app962bECbOnwRJCo/pagNFxMZwj0DnV5MO/form).
 
-To ensure these assessments are fair for all students enrolled in COMP110 this term, and to return graded quizzes as quickly as possible, we do not offer quiz makeups for credit for any reason. By being absent from a quiz, the 8% of your total course credit for this quiz will simply not be drawn down from your final exam score’s weight. As such, this is not a penalty, it simply means your mastery of this quiz’s material will be assessed on the cumulative final exam.
+To ensure these assessments are fair for all students enrolled in COMP110 this term, we can only offer quiz makeups for officially documented university-approved absences. You must show the instructor proof of a university-approved absence and be available to take the quiz within two business days of the official quiz date. Merely being absent from a quiz that is not university approved results in the quiz’s credit not being drawn down from your final exam score’s weight. As such, this is not a penalty; your mastery of this quiz’ material will be assessed on the cumulative final exam.
 
 We can offer everyone absent from a quiz the same learning experience of sitting for the quiz at some later date and receiving feedback on it, but a quiz taken in this fashion is not for credit and will not count toward nor against your mastery grade to ensure fairness to all students.
+
+**Final Exam Makeup**
+
+You must have a [university approved](https://dos.unc.edu/student-support/class-absences-final-exam-rescheduling/) reason for needing to take the final on a makeup day. 
+
+If this applies to you, please fill out BOTH:
+1. Our Internal [Final Exam Excuse Form](/)
+2. UNC’s Official [Final Exam Excuse Form](https://eef.oasis.unc.edu/)
+
+
 
 ## Office Hours and Tutoring
 
@@ -111,7 +117,7 @@ The web page is the primary resource for this course. There is no textbook for C
 
 ## Course Schedule
 
-You can find the most up-to-date course schedule [here](https://docs.google.com/spreadsheets/d/1oxgLKNVR8eXJmSJ5oSBB9cvdrsG0TmP2A2M_6MjE5T0/edit?usp=sharing).
+You can find the most up-to-date course schedule [here](https://docs.google.com/spreadsheets/d/1kfDGPfa00H2RkbAck0jjDmsgzE4jykKE1nSG-hgzxt0/edit?usp=sharing).
 
 
 # Course Expectations + Grading
@@ -135,13 +141,13 @@ To do well in this course you must come to your own individual mastery of introd
 * 30% - (EX) Programming Exercises
 * 10% - (LS) Lessons (Graded for Correctness)
 * 10% - (CQ) Challenge Questions (Graded for Correctness)
-* 40% - 5x Quizzes
+* 40% - 4x Quizzes
 * 10% - Final Exam
 
 The quiz/final exam grading policy is updated to the following:
-The cumulative final exam is worth 50% of your final grade at the start of the term. Each quiz you take accounts for 8% of your final grade and reduces the weight of your final examination by 8%. There are no drops.
+The cumulative final exam is worth 50% of your final grade at the start of the term. Each quiz you take accounts for 10% of your final grade and reduces the weight of your final examination by 10%. There are no drops.
 
-For example: By taking all 5 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the four quizzes you take will account for 32% of your final grade and your final exam will account for 18%.
+For example: By taking all 5 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the four quizzes you take will account for 30% of your final grade and your final exam will account for 20%.
 
 If, and only if, you take all quizzes and your final examination score exceeds your lowest quiz score, then we will retroactively grant you an absence for the lowest quiz score and your final exam score will be worth 18%.
 
@@ -183,17 +189,63 @@ Like real insurance, there is no reward for not needing to use these points and 
 
 
 ## Grading Scale Breakdown
-
-- A: 93-100
-- A-: 90-92
-- B+: 87-89
-- B: 83-86
-- B-: 80-82
-- C+: 77-79
-- C: 73-76
-- C-: 70-72
-- D: 60-69
-- F: 59 or below
+    <table>
+        <caption>Grading scale for letter grade.</caption>
+        <tbody>
+            <tr>
+                <th scope="row">Letter</th>
+                <td>Percentage</td>
+            </tr>
+            <tr>
+                <th scope="row">A</th>
+                <td>93&ndash;100%</td>
+            </tr>
+            <tr>
+                <th scope="row">A&minus;</th>
+                <td>90&ndash;92%</td>
+            </tr>
+            <tr>
+                <th scope="row">B+</th>
+                <td>87&ndash;89%</td>
+            </tr>
+            <tr>
+                <th scope="row">B</th>
+                <td>83&ndash;86%</td>
+            </tr>
+            <tr>
+                <th scope="row">B&minus;</th>
+                <td>80&ndash;82%</td>
+            </tr>
+            <tr>
+                <th scope="row">C+</th>
+                <td>77&ndash;79%</td>
+            </tr>
+            <tr>
+                <th scope="row">C</th>
+                <td>73&ndash;76%</td>
+            </tr>
+            <tr>
+                <th scope="row">C&minus;</th>
+                <td>70&ndash;72%</td>
+            </tr>
+            <tr>
+                <th scope="row">D+</th>
+                <td>67&ndash;69%</td>
+            </tr>
+            <tr>
+                <th scope="row">D</th>
+                <td>63&ndash;66%</td>
+            </tr>
+            <tr>
+                <th scope="row">D&minus;</th>
+                <td>60&ndash;62%</td>
+            </tr>
+            <tr>
+                <th scope="row">F</th>
+                <td>0&ndash;59%</td>
+            </tr>
+        </tbody>
+    </table>
 
 In cases of fractional points, grades will be rounded up if greater than 0.4999999999...
 
@@ -303,6 +355,11 @@ UNC-Chapel Hill is committed to fulfilling its responsibilities of transparency 
 
 If you have any concerns with grading and/or feel you have been awarded an incorrect grade, please discuss it with me as soon as possible. If we cannot resolve the issue, you may talk to our director of undergraduate studies or department chair.
 
+#### University Required Statement
+
+This course engages diverse scholarly perspectives to develop critical thinking, analysis, and debate and inclusion of a reading does not imply endorsement. 
+
+
 ### **Services & Student Support Policies** 
 
 #### *University Compliance Office (formerly Equal Opportunity and Compliance) \- Accommodations*
@@ -334,3 +391,4 @@ Want to get the most out of this course or others this semester? Visit [UNC’s 
 #### *Writing Center*
 
 For free feedback on any course writing projects, check out UNC’s Writing Center. Writing Center coaches can assist with any writing project, including multimedia projects and application essays, at any stage of the writing process. You don’t even need a draft to come visit. To schedule a 45-minute appointment, review quick tips, or request written feedback online, visit [UNC’s Writing Center online](http://writingcenter.unc.edu/).  
+
