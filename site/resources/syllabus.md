@@ -14,7 +14,7 @@ template: overview
 
 Course: Introduction to Programming
 
-Term: Fall 2025
+Term: Spring 2026
 
 Department: COMP
 
@@ -22,11 +22,11 @@ Course Number: 110
 
 Credit Hours: 3
 
-Course Website: <https://25f-comp110.github.io/>
+Course Website: <https://26s-comp110.github.io/>
 
 Section: 003
 
-Time and Location: Tues/Thurs 12:30 PM-1:45 PM, Hamilton Hall Rm 100
+Time and Location: Tues/Thurs 8 AM - 9:15 AM, Hanes Art Center Rm 0121
 
 
 Instructor: 
