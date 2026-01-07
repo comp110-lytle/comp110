@@ -189,63 +189,63 @@ Like real insurance, there is no reward for not needing to use these points and 
 
 
 ## Grading Scale Breakdown
-    <table>
-        <caption>Grading scale for letter grade.</caption>
-        <tbody>
-            <tr>
-                <th scope="row">Letter</th>
-                <td>Percentage</td>
-            </tr>
-            <tr>
-                <th scope="row">A</th>
-                <td>93&ndash;100%</td>
-            </tr>
-            <tr>
-                <th scope="row">A&minus;</th>
-                <td>90&ndash;92%</td>
-            </tr>
-            <tr>
-                <th scope="row">B+</th>
-                <td>87&ndash;89%</td>
-            </tr>
-            <tr>
-                <th scope="row">B</th>
-                <td>83&ndash;86%</td>
-            </tr>
-            <tr>
-                <th scope="row">B&minus;</th>
-                <td>80&ndash;82%</td>
-            </tr>
-            <tr>
-                <th scope="row">C+</th>
-                <td>77&ndash;79%</td>
-            </tr>
-            <tr>
-                <th scope="row">C</th>
-                <td>73&ndash;76%</td>
-            </tr>
-            <tr>
-                <th scope="row">C&minus;</th>
-                <td>70&ndash;72%</td>
-            </tr>
-            <tr>
-                <th scope="row">D+</th>
-                <td>67&ndash;69%</td>
-            </tr>
-            <tr>
-                <th scope="row">D</th>
-                <td>63&ndash;66%</td>
-            </tr>
-            <tr>
-                <th scope="row">D&minus;</th>
-                <td>60&ndash;62%</td>
-            </tr>
-            <tr>
-                <th scope="row">F</th>
-                <td>0&ndash;59%</td>
-            </tr>
-        </tbody>
-    </table>
+<table>
+    <caption>Grading scale for letter grade.</caption>
+    <tbody>
+        <tr>
+            <th scope="row">Letter</th>
+            <td>Percentage</td>
+        </tr>
+        <tr>
+            <th scope="row">A</th>
+            <td>93&ndash;100%</td>
+        </tr>
+        <tr>
+            <th scope="row">A&minus;</th>
+            <td>90&ndash;92%</td>
+        </tr>
+        <tr>
+            <th scope="row">B+</th>
+            <td>87&ndash;89%</td>
+        </tr>
+        <tr>
+            <th scope="row">B</th>
+            <td>83&ndash;86%</td>
+        </tr>
+        <tr>
+            <th scope="row">B&minus;</th>
+            <td>80&ndash;82%</td>
+        </tr>
+        <tr>
+            <th scope="row">C+</th>
+            <td>77&ndash;79%</td>
+        </tr>
+        <tr>
+            <th scope="row">C</th>
+            <td>73&ndash;76%</td>
+        </tr>
+        <tr>
+            <th scope="row">C&minus;</th>
+            <td>70&ndash;72%</td>
+        </tr>
+        <tr>
+            <th scope="row">D+</th>
+            <td>67&ndash;69%</td>
+        </tr>
+        <tr>
+            <th scope="row">D</th>
+            <td>63&ndash;66%</td>
+        </tr>
+        <tr>
+            <th scope="row">D&minus;</th>
+            <td>60&ndash;62%</td>
+        </tr>
+        <tr>
+            <th scope="row">F</th>
+            <td>0&ndash;59%</td>
+        </tr>
+    </tbody>
+</table>
 
 In cases of fractional points, grades will be rounded up if greater than 0.4999999999...
 
