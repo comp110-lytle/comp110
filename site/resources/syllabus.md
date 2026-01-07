@@ -35,7 +35,7 @@ Instructor:
 
 * Office: FB 136
 * Office Hours: [By Appointment](https://alyssalytle.github.io/schedule.html)
-* E-mail: <comp110help@gmail.com>
+* E-mail: <abyrnes1@cs.unc.edu>
 
 
 ## Curriculum
