@@ -147,7 +147,7 @@ To do well in this course you must come to your own individual mastery of introd
 The quiz/final exam grading policy is updated to the following:
 The cumulative final exam is worth 50% of your final grade at the start of the term. Each quiz you take accounts for 10% of your final grade and reduces the weight of your final examination by 10%. There are no drops.
 
-For example: By taking all 5 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the four quizzes you take will account for 30% of your final grade and your final exam will account for 20%.
+For example: By taking all 4 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the three quizzes you take will account for 30% of your final grade and your final exam will account for 20%.
 
 If, and only if, you take all quizzes and your final examination score exceeds your lowest quiz score, then we will retroactively grant you an absence for the lowest quiz score and your final exam score will be worth 18%.
 
@@ -255,7 +255,7 @@ In cases of fractional points, grades will be rounded up if greater than 0.49999
 In order to pass COMP110, you must accomplish ALL of the following:
 
 * Have a passing grade given the rubric of weights above and grading scale below
-* Take at least 4 quizzes
+* Take at least 3 quizzes
 * Score greater than 40% on the final exam
 
 # Honor Code Policies
