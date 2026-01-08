@@ -64,7 +64,7 @@ If you have suggestions on how to improve the course or just want to leave some 
 
 The following are our in-person office hours. Any office hours cancellations (e.g., on a holiday or Wellness Day) will be announced. 
 
-Office hours are held in SN008.
+Office hours are held in Sitterson Hall (SN) 008.
 
 * _Monday: 11:00 AM - 5:00 PM_
 * _Tuesday: 11:00 AM - 5:00 PM_
@@ -103,21 +103,16 @@ Go to [EdStem](https://edstem.org/) and select "chat" (under the "new thread" bu
 
 # Tutoring
 
-* _Monday: 5:00 PM - 7:00 PM_ in Sitterson Hall (SN) 011
-* _Wednesday: 5:00 PM - 7:00 PM_ in Sitterson Hall (SN) 115
-* _Thursday: 5:00 PM - 7:00 PM_ Sitterson Hall (SN) 011
-
-View [this floor plan](https://cs.unc.edu/resources/floor-plans/) to help you find the rooms. 
-
-
-<!-- Tutoring will be in Sitterson Hall (SN) 011.
+Tutoring is held in Fred Brooks (FB) 007.
 
 * _Monday: 5:00 PM - 7:00 PM_ 
-* _Wednesday: 5:00 PM - 7:00 PM_ 
-* _Thursday: 5:00 PM - 7:00 PM_  -->
+* _Wednesday: 5:00 PM - 7:00 PM_
+* _Thursday: 5:00 PM - 7:00 PM_
 
+Tutoring sessions may occasionally be relocated to accommodate Computer Science Department events. Any changes will be announced in class and/or via Canvas announcements. You can also always find the most up-to-date Tutoring locations on the CSXL site. 
 
 View [this floor plan](https://cs.unc.edu/resources/floor-plans/) to help you find the rooms. 
+
 
 </div>
 
