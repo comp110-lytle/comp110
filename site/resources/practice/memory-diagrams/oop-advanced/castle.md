@@ -6,6 +6,10 @@ page: lessons
 template: overview
 ---
 
+## Change Log
+
+Dec 2: The labels on a few of the function call frames accidentally used a class name of `Guard` instead of `Knight`. This has been corrected in the latest solution.
+
 ## Snippet
 
 Diagram the following code snippet:
