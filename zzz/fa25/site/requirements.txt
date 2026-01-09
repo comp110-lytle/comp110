@@ -1,0 +1,66 @@
+# Required PyPI packages for this project. 
+
+# Unit Testing
+pytest
+pytest-reportlog
+pytest-timeout     
+
+# Static Typing
+mypy==0.971
+# TODO: Reevaluate the above line in near future. This version does not
+# contain the regression found in https://github.com/python/mypy/issues/8944#issuecomment-653493673
+
+# Code Linting
+flake8
+flake8-json
+flake8-docstrings
+
+# Template Files
+jinja2
+
+# Color ASCII Output in Windows Terminals
+# https://pypi.org/project/colorama/
+colorama
+
+# Data Science
+ipykernel
+matplotlib
+numpy
+pandas
+data-science-types
+tabulate
+nbformat
+
+# Needed for site dev server
+flask
+shelljob
+
+# Needed for Gradescope autograding infrastructure - no clue which lol rip
+asn1crypto
+certifi
+chardet
+cryptography
+gevent
+grequests
+idna
+keyring
+keyrings.alt
+pip
+psutil
+python-dateutil
+pytz
+pyxdg
+PyYAML
+pyyaml
+requests
+SecretStorage
+six
+ssh-import-id
+urllib3
+wheel
+zope.event
+zope.interface
+
+# Gradescope Automation
+# python-dotenv
+# selenium
