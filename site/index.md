@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS01 - TUE, JAN 13 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS02 - TUE, JAN 13 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - TUE, JAN 13 11:59pm</a></li><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - THU, JAN 15 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS00*(EXTENDED) * - TUE, JAN 13 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS01 - TUE, JAN 13 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS02 - TUE, JAN 13 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - TUE, JAN 13 11:59pm</a></li><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - THU, JAN 15 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -75,7 +75,7 @@ template: home
 <li class="link"><a href="/resources/setup/software.html">Setup Part 1: Install Needed Software</a></li>
 <li class="link"><a href="/resources/setup/workspace.html">Setup Part 2: Setup your Workspace</a></li>
 </ul></div><div class="plan Lesson">
-<span class="kind">LS00 </span><span class="title"><a href="https://www.gradescope.com/">Syllabus (Due Thursday 1/8)</a></span></div><div class="plan Exercise">
+<span class="kind">LS00 </span><span class="title"><a href="https://www.gradescope.com/">Syllabus<s><i>(Due Thursday 1/8)</i></s> (Extended to Tuesday 1/13)</a></span></div><div class="plan Exercise">
 <span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_world.html">Hello World (Due Thursday 1/15)</a></span></div></div>
 </div></div>
 </div>
