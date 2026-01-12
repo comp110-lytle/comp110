@@ -1,1 +1,39 @@
-{}
+{
+    "2026-01-07": [],
+    "2026-01-08": [
+        {
+            "kind": "CL",
+            "n": 0,
+            "title": "Welcome to COMP110",
+            "date": "2026-01-08",
+            "deadline": "None",
+            "links": {
+                "Welcome Slides": "/static/slides/CL00.pdf",
+                "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
+                "Setup Part 1: Install Needed Software": "/resources/setup/software.html",
+                "Setup Part 2: Setup your Workspace": "/resources/setup/workspace.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 0,
+            "title": "Syllabus (Due Thursday 1/8)",
+            "date": "2026-01-08",
+            "deadline": "2026-01-08",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 0,
+            "title": "Hello World (Due Thursday 1/15)",
+            "date": "2026-01-08",
+            "deadline": "2026-01-15",
+            "links": {
+                "": "/exercises/ex00_hello_world.html"
+            }
+        }
+    ],
+    "2026-01-09": []
+}

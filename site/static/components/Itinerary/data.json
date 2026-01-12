@@ -39,7 +39,48 @@
     "2026-01-10": [],
     "2026-01-11": [],
     "2026-01-12": [],
-    "2026-01-13": [],
+    "2026-01-13": [
+        {
+            "kind": "CL",
+            "n": 1,
+            "title": "Objects, Data Types, and Expressions",
+            "date": "2026-01-13",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL01.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 1,
+            "title": "VS Code, Terminal, + Running a Program (Due Tuesday 1/13)",
+            "date": "2026-01-13",
+            "deadline": "2026-01-13",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Objects and Data Types (Due Tuesday 1/13)",
+            "date": "2026-01-13",
+            "deadline": "2026-01-13",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Expressions (Due Tuesday 1/13)",
+            "date": "2026-01-13",
+            "deadline": "2026-01-13",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2026-01-14": [],
     "2026-01-15": [],
     "2026-01-16": [],

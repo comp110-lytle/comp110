@@ -1,45 +1,49 @@
 {
-    "2026-01-07": [],
-    "2026-01-08": [
+    "2026-01-10": [],
+    "2026-01-11": [],
+    "2026-01-12": [],
+    "2026-01-13": [
         {
             "kind": "CL",
-            "n": 0,
-            "title": "Welcome to COMP110",
-            "date": "2026-01-08",
+            "n": 1,
+            "title": "Objects, Data Types, and Expressions",
+            "date": "2026-01-13",
             "deadline": "None",
             "links": {
-                "Welcome Slides": "/static/slides/CL00.pdf",
-                "Setup Part 0: Update Operating System": "/resources/setup/os-update.html",
-                "Setup Part 1: Install Needed Software": "/resources/setup/software.html",
-                "Setup Part 2: Setup your Workspace": "/resources/setup/workspace.html"
+                "": "/static/slides/CL01.pdf"
             }
         },
         {
             "kind": "LS",
-            "n": 0,
-            "title": "Syllabus (Due Thursday 1/8)",
-            "date": "2026-01-08",
-            "deadline": "2026-01-08",
+            "n": 1,
+            "title": "VS Code, Terminal, + Running a Program (Due Tuesday 1/13)",
+            "date": "2026-01-13",
+            "deadline": "2026-01-13",
             "links": {
                 "": "https://www.gradescope.com/"
             }
         },
         {
-            "kind": "EX",
-            "n": 0,
-            "title": "Hello World (Due Thursday 1/15)",
-            "date": "2026-01-08",
-            "deadline": "2026-01-15",
+            "kind": "LS",
+            "n": 2,
+            "title": "Objects and Data Types (Due Tuesday 1/13)",
+            "date": "2026-01-13",
+            "deadline": "2026-01-13",
             "links": {
-                "": "/exercises/ex00_hello_world.html"
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Expressions (Due Tuesday 1/13)",
+            "date": "2026-01-13",
+            "deadline": "2026-01-13",
+            "links": {
+                "": "https://www.gradescope.com/"
             }
         }
     ],
-    "2026-01-09": [],
-    "2026-01-10": [],
-    "2026-01-11": [],
-    "2026-01-12": [],
-    "2026-01-13": [],
     "2026-01-14": [],
     "2026-01-15": [],
     "2026-01-16": [],
