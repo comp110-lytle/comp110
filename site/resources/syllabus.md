@@ -149,7 +149,6 @@ The cumulative final exam is worth 50% of your final grade at the start of the t
 
 For example: By taking all 4 quizzes, your final exam’s weight is 10% of your final grade. If you must be absent from a quiz (see policy below), then the three quizzes you take will account for 30% of your final grade and your final exam will account for 20%.
 
-If, and only if, you take all quizzes and your final examination score exceeds your lowest quiz score, then we will retroactively grant you an absence for the lowest quiz score and your final exam score will be worth 18%.
 
 
 ## Autograding and Resubmissions
