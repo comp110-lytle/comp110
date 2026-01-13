@@ -76,12 +76,11 @@ Quizzes and examinations are offered in-person only this semester. The format is
 
 **Quiz Dates**
 
-<!-- * Quiz (QZ) 00: Thurs, August 28
-* Quiz (QZ) 01: Thurs, September 18
-* Quiz (QZ) 02: Thurs, October 09
-* Quiz (QZ) 03: Thurs, October 30
-* Quiz (QZ) 04: Thurs, November 20
-* Final (FN) Exam: Saturday, December 6, 2025, 4-7 PM (Makeup: 12pm on Sunday, Dec 7th in SN014) -->
+* Quiz 0: Thu, Jan 22
+* Quiz 1: Thu, Feb 12
+* Quiz 2: Thu, Mar 12
+* Quiz 3: Thu, Apr 16
+* Final: Thu, Apr 30 @ 4:00PM
 
 **Quiz Absences**
 
