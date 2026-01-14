@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS00*(EXTENDED) * - TUE, JAN 13 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS01 - TUE, JAN 13 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS02 - TUE, JAN 13 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS03 - TUE, JAN 13 11:59pm</a></li><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - THU, JAN 15 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - THU, JAN 15 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS04 - THU, JAN 15 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -44,6 +44,11 @@ template: home
 <span class="kind">LS01 </span><span class="title"><a href="https://www.gradescope.com/">VS Code, Terminal, + Running a Program (Due Tuesday 1/13)</a></span></div><div class="plan Lesson">
 <span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Data Types (Due Tuesday 1/13)</a></span></div><div class="plan Lesson">
 <span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Tuesday 1/13)</a></span></div></div>
+</div><div data-type="lecture" data-date="2026-01-15" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Jan 15</div>
+<div class="plans col-md-9"><div class="plan Lesson">
+<span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">Functions (Due Thursday 1/15)</a></span></div><div class="plan Class">
+<span class="kind">CL02 </span><span class="title"><a href="/">Review + Intro to Functions</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-01-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jan 22</div>
 <div class="plans col-md-9"><div class="plan Quiz">
