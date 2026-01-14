@@ -45,6 +45,16 @@
     "2026-01-14": [],
     "2026-01-15": [
         {
+            "kind": "CL",
+            "n": 2,
+            "title": "Review + Intro to Functions",
+            "date": "2026-01-15",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL02.pdf"
+            }
+        },
+        {
             "kind": "LS",
             "n": 4,
             "title": "Functions (Due Thursday 1/15)",
@@ -55,13 +65,13 @@
             }
         },
         {
-            "kind": "CL",
-            "n": 2,
-            "title": "Review + Intro to Functions",
+            "kind": "EX",
+            "n": 1,
+            "title": "Tea Party (Due Wednesday 1/21)",
             "date": "2026-01-15",
-            "deadline": "None",
+            "deadline": "2026-01-21",
             "links": {
-                "": "/"
+                "": "/exercises/tea-party.html"
             }
         }
     ],
