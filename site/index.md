@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/ex00_hello_world.html">EX00 - THU, JAN 15 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS04 - THU, JAN 15 11:59pm</a></li><li class="horizon-item"><a href="/exercises/tea-party.html">EX01 - WED, JAN 21 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/tea-party.html">EX01 - WED, JAN 21 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/sp26/qz00_practice.html">QZ00 - THU, JAN 22 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,14 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-01-13" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Jan 13</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL01 </span><span class="title"><a href="/static/slides/CL01.pdf">Objects, Data Types, and Expressions</a></span></div><div class="plan Lesson">
-<span class="kind">LS01 </span><span class="title"><a href="https://www.gradescope.com/">VS Code, Terminal, + Running a Program (Due Tuesday 1/13)</a></span></div><div class="plan Lesson">
-<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Data Types (Due Tuesday 1/13)</a></span></div><div class="plan Lesson">
-<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Tuesday 1/13)</a></span></div></div>
-</div><div data-type="lecture" data-date="2026-01-15" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-01-15" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jan 15</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL02 </span><span class="title"><a href="/static/slides/CL02.pdf">Review + Intro to Functions</a></span></div><div class="plan Lesson">
@@ -53,7 +46,10 @@ template: home
 </div><div data-type="lecture" data-date="2026-01-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jan 22</div>
 <div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ00 </span><span class="title">Quiz 0</span></div></div>
+<span class="kind">QZ00 </span><span class="title">Quiz 0</span>
+<ul class="links"><li class="link"><a href="/resources/practice/sp26/qz00_practice.html">Practice Problems</a></li>
+<li class="link"><a href="/resources/practice/sp26/qz00_memory_diagrams.html">Practice Diagrams</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2026-02-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Feb 12</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -72,7 +68,14 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-01-08" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-01-13" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Jan 13</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL01 </span><span class="title"><a href="/static/slides/CL01.pdf">Objects, Data Types, and Expressions</a></span></div><div class="plan Lesson">
+<span class="kind">LS01 </span><span class="title"><a href="https://www.gradescope.com/">VS Code, Terminal, + Running a Program (Due Tuesday 1/13)</a></span></div><div class="plan Lesson">
+<span class="kind">LS02 </span><span class="title"><a href="https://www.gradescope.com/">Objects and Data Types (Due Tuesday 1/13)</a></span></div><div class="plan Lesson">
+<span class="kind">LS03 </span><span class="title"><a href="https://www.gradescope.com/">Expressions (Due Tuesday 1/13)</a></span></div></div>
+</div><div data-type="lecture" data-date="2026-01-08" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jan 8</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL00 </span><span class="title">Welcome to COMP110</span>
