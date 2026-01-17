@@ -127,7 +127,10 @@
             "title": "Quiz 0",
             "date": "2026-01-22",
             "deadline": "2026-01-22",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/sp26/qz00_practice.html",
+                "Practice Diagrams": "/resources/practice/sp26/qz00_memory_diagrams.html"
+            }
         }
     ],
     "2026-01-23": [],
