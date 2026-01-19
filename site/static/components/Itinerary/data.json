@@ -118,7 +118,28 @@
     "2026-01-17": [],
     "2026-01-18": [],
     "2026-01-19": [],
-    "2026-01-20": [],
+    "2026-01-20": [
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Memory Diagrams",
+            "date": "2026-01-20",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL03.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Memory Diagrams Practice (Due Tuesday 1/20)",
+            "date": "2026-01-20",
+            "deadline": "2026-01-20",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2026-01-21": [],
     "2026-01-22": [
         {
