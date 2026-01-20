@@ -1,5 +1,4 @@
 {
-    "2026-01-17": [],
     "2026-01-18": [],
     "2026-01-19": [],
     "2026-01-20": [
@@ -10,7 +9,8 @@
             "date": "2026-01-20",
             "deadline": "None",
             "links": {
-                "": "/static/slides/CL03.pdf"
+                "Slides": "/static/slides/CL03.pdf",
+                "Recording": "https://unc.zoom.us/rec/share/GGIQIZoFUvML8DuZHLxbtJNQKwXkGU-EPwehI6Bi8uzkaPbc7RcUv6qWYht45K5n.4thN62MT1y5OlUzp"
             }
         },
         {

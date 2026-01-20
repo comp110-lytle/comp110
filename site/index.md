@@ -40,7 +40,10 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-01-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Jan 20</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL03 </span><span class="title"><a href="/static/slides/CL03.pdf">Memory Diagrams</a></span></div><div class="plan Challenge Question">
+<span class="kind">CL03 </span><span class="title">Memory Diagrams</span>
+<ul class="links"><li class="link"><a href="/static/slides/CL03.pdf">Slides</a></li>
+<li class="link"><a href="https://unc.zoom.us/rec/share/GGIQIZoFUvML8DuZHLxbtJNQKwXkGU-EPwehI6Bi8uzkaPbc7RcUv6qWYht45K5n.4thN62MT1y5OlUzp">Recording</a></li>
+</ul></div><div class="plan Challenge Question">
 <span class="kind">CQ00 </span><span class="title"><a href="https://www.gradescope.com/">Memory Diagrams Practice (Due Tuesday 1/20)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-01-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jan 22</div>
