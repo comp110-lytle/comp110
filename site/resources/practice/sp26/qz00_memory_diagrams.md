@@ -114,9 +114,9 @@ If you find yourself feeling lost, please ask for help in [office hours or tutor
   
   The correct answers are:
 
-    2.1. Lines 1, 4, 11, and 16.
+    2.1. Lines 4, 11, and 16.
 
-    2.2. Lines 5, 12, and 17.
+    2.2. Lines 1, 5, 12, and 17.
 
     2.3. Lines 6, 7, 13, 18, and 21.
 
@@ -187,8 +187,8 @@ If you find yourself feeling lost, please ask for help in [office hours or tutor
     def start_end(word: str) -> str:
         return word[0] + word[len(word)-1]
 
-        start_end(word="kitkat")
-        print(start_end(word="skittles"))
+    start_end(word="kitkat")
+    print(start_end(word="skittles"))
 ```
 
 <details>
