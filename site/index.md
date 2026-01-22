@@ -51,7 +51,7 @@ template: home
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span>
 <ul class="links"><li class="link"><a href="/resources/practice/sp26/qz00_practice.html">Practice Problems</a></li>
 <li class="link"><a href="/resources/practice/sp26/qz00_memory_diagrams.html">Practice Diagrams</a></li>
-<li class="link"><a href="https://unc.zoom.us/j/94279714988?pwd=TgqtvpjBSPviyYcsnPf2ZIb39czjLS.1">Review Session in Sitterson Hall (SN) room 014 on Wed. Jan 21 from 6-7pm (Zoom passcode: 110110)</a></li>
+<li class="link"><a href="https://unc.zoom.us/rec/share/QTOHmNLlhctkRjdnUqxFFVTt-a2T8YJ8sCgjresYZLq0XHt5Lr7VH0CDj5zOaFWx.eTtYpostWD94oLLs?startTime=1769035901000">Review Session Recording</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2026-02-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Feb 12</div>
