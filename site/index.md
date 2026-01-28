@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/tea-party.html">EX01 - WED, JAN 21 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/sp26/qz00_practice.html">QZ00 - THU, JAN 22 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS05 - THU, JAN 29 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS06 - THU, JAN 29 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,22 +37,12 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-01-20" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Jan 20</div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-01-29" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Jan 29</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL03 </span><span class="title">Memory Diagrams</span>
-<ul class="links"><li class="link"><a href="/static/slides/CL03.pdf">Slides</a></li>
-<li class="link"><a href="https://unc.zoom.us/rec/share/GGIQIZoFUvML8DuZHLxbtJNQKwXkGU-EPwehI6Bi8uzkaPbc7RcUv6qWYht45K5n.4thN62MT1y5OlUzp">Recording</a></li>
-</ul></div><div class="plan Challenge Question">
-<span class="kind">CQ00 </span><span class="title"><a href="https://www.gradescope.com/">Memory Diagrams Practice (Due Tuesday 1/20)</a></span></div></div>
-</div><div data-type="lecture" data-date="2026-01-22" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Jan 22</div>
-<div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ00 </span><span class="title">Quiz 0</span>
-<ul class="links"><li class="link"><a href="/resources/practice/sp26/qz00_practice.html">Practice Problems</a></li>
-<li class="link"><a href="/resources/practice/sp26/qz00_memory_diagrams.html">Practice Diagrams</a></li>
-<li class="link"><a href="https://unc.zoom.us/rec/share/QTOHmNLlhctkRjdnUqxFFVTt-a2T8YJ8sCgjresYZLq0XHt5Lr7VH0CDj5zOaFWx.eTtYpostWD94oLLs?startTime=1769035901000">Review Session Recording</a></li>
-</ul></div></div>
+<span class="kind">CL04 </span><span class="title"><a href="/static/slides/CL04.pdf">Boolean Operators and Conditionals</a></span></div><div class="plan Lesson">
+<span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">Boolean Operators (Due Thursday 1/29)</a></span></div><div class="plan Lesson">
+<span class="kind">LS06 </span><span class="title"><a href="https://www.gradescope.com/">Conditionals (Due Thursday 1/29)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-02-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Feb 12</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -71,7 +61,23 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-01-15" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-01-22" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Jan 22</div>
+<div class="plans col-md-9"><div class="plan Quiz">
+<span class="kind">QZ00 </span><span class="title">Quiz 0</span>
+<ul class="links"><li class="link"><a href="/resources/practice/sp26/qz00_practice.html">Practice Problems</a></li>
+<li class="link"><a href="/resources/practice/sp26/qz00_memory_diagrams.html">Practice Diagrams</a></li>
+<li class="link"><a href="https://unc.zoom.us/rec/share/QTOHmNLlhctkRjdnUqxFFVTt-a2T8YJ8sCgjresYZLq0XHt5Lr7VH0CDj5zOaFWx.eTtYpostWD94oLLs?startTime=1769035901000">Review Session Recording</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2026-01-20" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Jan 20</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL03 </span><span class="title">Memory Diagrams</span>
+<ul class="links"><li class="link"><a href="/static/slides/CL03.pdf">Slides</a></li>
+<li class="link"><a href="https://unc.zoom.us/rec/share/GGIQIZoFUvML8DuZHLxbtJNQKwXkGU-EPwehI6Bi8uzkaPbc7RcUv6qWYht45K5n.4thN62MT1y5OlUzp">Recording</a></li>
+</ul></div><div class="plan Challenge Question">
+<span class="kind">CQ00 </span><span class="title"><a href="https://www.gradescope.com/">Memory Diagrams Practice (Due Tuesday 1/20)</a></span></div></div>
+</div><div data-type="lecture" data-date="2026-01-15" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jan 15</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL02 </span><span class="title"><a href="/static/slides/CL02.pdf">Review + Intro to Functions</a></span></div><div class="plan Lesson">

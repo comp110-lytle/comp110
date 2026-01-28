@@ -162,7 +162,38 @@
     "2026-01-26": [],
     "2026-01-27": [],
     "2026-01-28": [],
-    "2026-01-29": [],
+    "2026-01-29": [
+        {
+            "kind": "CL",
+            "n": 4,
+            "title": "Boolean Operators and Conditionals",
+            "date": "2026-01-29",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL04.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Boolean Operators (Due Thursday 1/29)",
+            "date": "2026-01-29",
+            "deadline": "2026-01-29",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Conditionals (Due Thursday 1/29)",
+            "date": "2026-01-29",
+            "deadline": "2026-01-29",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2026-01-30": [],
     "2026-01-31": [],
     "2026-02-01": [],
