@@ -192,6 +192,16 @@
             "links": {
                 "": "https://www.gradescope.com/"
             }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "Chardle (Due Sunday 2/8)",
+            "date": "2026-01-29",
+            "deadline": "2026-02-08",
+            "links": {
+                "": "/exercises/wordle-pt1.html"
+            }
         }
     ],
     "2026-01-30": [],
