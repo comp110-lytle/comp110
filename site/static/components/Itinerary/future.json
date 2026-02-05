@@ -1,55 +1,29 @@
 {
-    "2026-01-27": [],
-    "2026-01-28": [],
-    "2026-01-29": [
-        {
-            "kind": "CL",
-            "n": 4,
-            "title": "Boolean Operators and Conditionals",
-            "date": "2026-01-29",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/CL04.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 5,
-            "title": "Boolean Operators (Due Thursday 1/29)",
-            "date": "2026-01-29",
-            "deadline": "2026-01-29",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 6,
-            "title": "Conditionals (Due Thursday 1/29)",
-            "date": "2026-01-29",
-            "deadline": "2026-01-29",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 2,
-            "title": "Chardle (Due Sunday 2/8)",
-            "date": "2026-01-29",
-            "deadline": "2026-02-08",
-            "links": {
-                "": "/exercises/wordle-pt1.html"
-            }
-        }
-    ],
-    "2026-01-30": [],
-    "2026-01-31": [],
-    "2026-02-01": [],
     "2026-02-02": [],
     "2026-02-03": [],
     "2026-02-04": [],
-    "2026-02-05": [],
+    "2026-02-05": [
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "Conditionals, Variables, and Positional Arguments",
+            "date": "2026-02-05",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL05_benjamin_guest_lecture.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Variables (Due Thursday 2/5)",
+            "date": "2026-02-05",
+            "deadline": "2026-02-05",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2026-02-06": [],
     "2026-02-07": [],
     "2026-02-08": [],

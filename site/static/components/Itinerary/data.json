@@ -210,7 +210,28 @@
     "2026-02-02": [],
     "2026-02-03": [],
     "2026-02-04": [],
-    "2026-02-05": [],
+    "2026-02-05": [
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "Conditionals, Variables, and Positional Arguments",
+            "date": "2026-02-05",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL05_benjamin_guest_lecture.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Variables (Due Thursday 2/5)",
+            "date": "2026-02-05",
+            "deadline": "2026-02-05",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2026-02-06": [],
     "2026-02-07": [],
     "2026-02-08": [],

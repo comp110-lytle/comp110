@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS05 - THU, JAN 29 11:59pm</a></li><li class="horizon-item"><a href="https://www.gradescope.com/">LS06 - THU, JAN 29 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS07 - THU, FEB 05 11:59pm</a></li><li class="horizon-item"><a href="/exercises/wordle-pt1.html">EX02 - SUN, FEB 08 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -37,13 +37,11 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-01-29" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Jan 29</div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-02-05" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Feb 5</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL04 </span><span class="title"><a href="/static/slides/CL04.pdf">Boolean Operators and Conditionals</a></span></div><div class="plan Lesson">
-<span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">Boolean Operators (Due Thursday 1/29)</a></span></div><div class="plan Lesson">
-<span class="kind">LS06 </span><span class="title"><a href="https://www.gradescope.com/">Conditionals (Due Thursday 1/29)</a></span></div><div class="plan Exercise">
-<span class="kind">EX02 </span><span class="title"><a href="/exercises/wordle-pt1.html">Chardle (Due Sunday 2/8)</a></span></div></div>
+<span class="kind">CL05 </span><span class="title"><a href="/static/slides/CL05_benjamin_guest_lecture.pdf">Conditionals, Variables, and Positional Arguments</a></span></div><div class="plan Lesson">
+<span class="kind">LS07 </span><span class="title"><a href="https://www.gradescope.com/">Variables (Due Thursday 2/5)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-02-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Feb 12</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -62,7 +60,14 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-01-22" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-01-29" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Jan 29</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL04 </span><span class="title"><a href="/static/slides/CL04.pdf">Boolean Operators and Conditionals</a></span></div><div class="plan Lesson">
+<span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">Boolean Operators (Due Thursday 1/29)</a></span></div><div class="plan Lesson">
+<span class="kind">LS06 </span><span class="title"><a href="https://www.gradescope.com/">Conditionals (Due Thursday 1/29)</a></span></div><div class="plan Exercise">
+<span class="kind">EX02 </span><span class="title"><a href="/exercises/wordle-pt1.html">Chardle (Due Sunday 2/8)</a></span></div></div>
+</div><div data-type="lecture" data-date="2026-01-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jan 22</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span>
