@@ -25,6 +25,9 @@ If you have already cloned the team110 repo you can jump to **Install Packages**
 
   ![](/static/team/repo-instructions/step_2.png){width=500}
 
+
+The rest of these steps are to help you run the comp110 site locally on your computer so you can preview your changes!
+
 ## Install Packages
 
 Note: You may have done this step before, but there are often new dependencies being added, so make sure to run the command again.

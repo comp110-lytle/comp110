@@ -3,6 +3,7 @@ title: EX00 - Hello, world!
 author:
 - Kris Jordan
 - Izzi Hinks
+- Alyssa Lytle
 page: exercises
 template: overview
 ---
@@ -21,8 +22,7 @@ Once open, from the "File" menu, select "Open Recent...". After completing the s
 
 You should be greeted with window that looks like the following (if tabs are open in the main part of the window, you can close them):
 
-
-<img class="img-fluid" src="/static/exercises/ex00/vscode-dev-container.png" alt="VSCode Dev Container">
+![VSCode Dev Container](/static/exercises/ex00/vscode-dev-container.png)
 
 There are three important parts to recognize in this window you will make use of through the semester:
 
@@ -36,7 +36,7 @@ There are three important parts to recognize in this window you will make use of
 
 Open the "Run and Debug" pane, as discussed above, and press the green play button. You should see a new terminal window open in the bottom of the screen and a message that says "Starting Trailhead server at http://localhost:1110" appear in a terminal. You can close this terminal pane with the X after seeing this message.
 
-<iframe style="aspect-ratio: 16/9; width:100%;" src="https://www.youtube.com/embed/M1FeIzICA9A?si=tIBVX_V-eM00MDOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="aspect-ratio: 16/9; width:100%;" src="https://www.youtube.com/embed/Ul9ompArzpY?si=ag3p72ENJ3ZziqeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 As shown in the video above, your next step is to open a web browser (Google Chrome is recommended for our course) and navigate to `http://localhost:1110`. You should see Trailhead's home page! If you do not, try the address `http://127.0.0.1:1110` instead. These two web addresses, `localhost` and `127.0.0.1` refer to your personal computer and the `:1110` refers to the "port number" Trailhead is running on. One-thousand 110, hopefully a memorable number :)
 
@@ -92,7 +92,7 @@ Feel free to try calling the function with other names, as well!
 
 Your interactions should look something like this:
 
-<img class="img-fluid" src="/static/exercises/ex00/repl-greet.png" alt="`greet` REPL Interactions">
+![`greet` REPL Interactions](/static/exercises/ex00/repl-greet.png)
 
 <!-- <div class="turtle-talk">
 <figure>
@@ -109,7 +109,7 @@ At times, this can feel tedious, but when you understanding and appreciate the d
 
 Let's break down what is happening here by starting with the function definition in VSCode. The following image points out the important parts of this function definition:
 
-<img class="img-fluid" src="/static/exercises/ex00/function-syntax.png">
+![`greet` Function Definition](/static/exercises/ex00/function-syntax.png)
 
 A function definition is like a cooking recipe: it has a name, some required ingredients, and an expected result. Inside the definition are one or more steps the recipe follows to produce a result. For now, our functions will be simple, single-step recipes, but as you learn more about programming, you will learn how to write more complex functions. Importantly, a function definition does not actually do or produce anything until it is "called" or "invoked", like a printed recipe does not produce any food until it is "followed" or "cooked".
 
@@ -129,7 +129,7 @@ A function definition is like a cooking recipe: it has a name, some required ing
 
 Now that you have a sense of the key parts of this function definition, let's break down the function call expressions you typed into the REPL and understand how they relate to the function definition.
 
-<img class="img-fluid" src="/static/exercises/ex00/function-call-syntax.png">
+![`greet` Function Call Expression](/static/exercises/ex00/function-call-syntax.png)
 
 If defining a function is like writing down a recipe for biscuits, _calling a function is like baking the biscuits_. Mmm... let's bake some biscuits! 
 
@@ -197,7 +197,7 @@ You are doing great! I know this level of detail is a lot to take in, but let's 
 </div>
 </div> -->
 
-Let's reveal at what is going on in this little snippet! First, the line `if __name__ == "__main__":` is a special kind of statement called a _conditional statement_ you'll learn about in a few weeks. The effect it has here is when you run this program in the "Run" tab, the indented code beneath the `if` statement will be evaluated. However, when you load this program in the REPL of the "Interact" tab, the code beneath the `if` statement _will not_ be run. This gives us the best of both worlds.
+Let's reveal what is going on in this little snippet! First, the line `if __name__ == "__main__":` is a special kind of statement called a _conditional statement_ you'll learn about in a few weeks. The effect it has here is when you run this program in the "Run" tab, the indented code beneath the `if` statement will be evaluated. However, when you load this program in the REPL of the "Interact" tab, the code beneath the `if` statement _will not_ be run. This gives us the best of both worlds.
 
 Next, under the `if` statement, you added some nested function calls. The innermost function call is `input("What is your name? ")`. The `input` function is a [Python built-in](https://docs.python.org/3/library/functions.html#input) that prompts the user of a program for a textual input, waits for the user to enter some text and once the user does, the function call expression to `input` evaluates to the `str` of text the user typed in. For the sake of simplifying the explanation, let's assume that you typed in the `"Campers"` when prompted for a name.
 
@@ -238,7 +238,7 @@ Now, let's get your work submitted to the autograder! In VSCode, open a new inte
 python -m tools.submission exercises/ex00_hello_world.py
 ```
 
-You will notice a file appeared in your workspace named `25.05.dd-hh.mm.ss-ex00_hello_world.py.zip`. You will see numbers for the current day of the month in place of `dd`, 24-hour digits in place of `hh`, minutes in place of `mm`, and so on. This "zip" file contains your `ex00_hello_world.py` file and is what you will submit to the autograder.
+You will notice a file appear in your workspace named `26.01.dd-hh.mm.ss-ex00_hello_world.py.zip`. You will see numbers for the current day of the month in place of `dd`, 24-hour digits in place of `hh`, minutes in place of `mm`, and so on. This "zip" file contains your `ex00_hello_world.py` file and is what you will submit to the autograder.
 
 In Gradescope, open assignment "EX00 - Hello World". You should see an area to upload a zip file. Click this area and browse to your course's workspace directory on your computer. You should see the zip file you just created. Select it and upload it to Gradescope. Autograding should complete within about a minute and you should see a score of 100%, or more if you are submitting early. If you see less than 100%, try to understand the feedback and resubmit. If you are still having trouble, please come see us in office hours!
 
