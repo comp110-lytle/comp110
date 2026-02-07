@@ -304,7 +304,7 @@ template: overview
 
 ### Code Writing
 
-Note: Code writing will not be on this quiz, but this is good practice for understanding recursion, and also good practice for function writing on future quizzes. Treat this question as optional additional practice.
+Note: This function-writing question is more challenging than what will be on the quiz, but is still good practice for understanding recursion and will help you be very well prepared to answer other, less challenging function writing questions in a quiz environment.
 
 1. **Challenge Question:** Write a recursive function named `sum` that has an `int` parameter `number` and returns an `int` that is the sum of all nonnegative integers up to and *including* `number` (`1 + 2 + ... + number`). For example, `sum(number=4)` should evaluate to `1 + 2 + 3 + 4 = 10`. If a negative argument for `number` is given, just return `-1` (What case is this?). It may help to come up with your base case and recursive case before beginning to write any code.
 
