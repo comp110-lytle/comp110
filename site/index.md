@@ -67,6 +67,10 @@ template: home
 <span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">Boolean Operators (Due Thursday 1/29)</a></span></div><div class="plan Lesson">
 <span class="kind">LS06 </span><span class="title"><a href="https://www.gradescope.com/">Conditionals (Due Thursday 1/29)</a></span></div><div class="plan Exercise">
 <span class="kind">EX02 </span><span class="title"><a href="/exercises/wordle-pt1.html">Chardle (Due Sunday 2/8)</a></span></div></div>
+</div><div data-type="lecture" data-date="2026-01-27" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Jan 27</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL06 </span><span class="title"><a href="/static/slides/CL06.pdf">Recursion</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-01-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jan 22</div>
 <div class="plans col-md-9"><div class="plan Quiz">
