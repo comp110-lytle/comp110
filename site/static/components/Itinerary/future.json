@@ -34,7 +34,10 @@
             "title": "Quiz 1",
             "date": "2026-02-12",
             "deadline": "2026-02-12",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/sp26/qz01_practice.html",
+                "Practice Diagrams": "/resources/practice/sp26/qz01_memory_diagrams.html"
+            }
         }
     ],
     "2026-02-13": [],
