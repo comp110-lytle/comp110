@@ -13,6 +13,16 @@
             "links": {
                 "": "/static/slides/CL06.pdf"
             }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Recursion (Due Tuesday 2/10)",
+            "date": "2026-02-10",
+            "deadline": "2026-02-10",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
         }
     ],
     "2026-02-11": [],
