@@ -37,11 +37,10 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-02-05" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Feb 5</div>
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-02-10" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Feb 10</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL05 </span><span class="title"><a href="/static/slides/CL05_benjamin_guest_lecture_annotated.pdf">Conditionals, Variables, and Positional Arguments</a></span></div><div class="plan Lesson">
-<span class="kind">LS07 </span><span class="title"><a href="https://www.gradescope.com/">Variables (Due Thursday 2/5)</a></span></div></div>
+<span class="kind">CL06 </span><span class="title"><a href="/static/slides/CL06.pdf">Recursion</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-02-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Feb 12</div>
 <div class="plans col-md-9"><div class="plan Quiz">
@@ -60,17 +59,18 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-01-29" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-02-05" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Feb 5</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL05 </span><span class="title"><a href="/static/slides/CL05_benjamin_guest_lecture_annotated.pdf">Conditionals, Variables, and Positional Arguments</a></span></div><div class="plan Lesson">
+<span class="kind">LS07 </span><span class="title"><a href="https://www.gradescope.com/">Variables (Due Thursday 2/5)</a></span></div></div>
+</div><div data-type="lecture" data-date="2026-01-29" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jan 29</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL04 </span><span class="title"><a href="/static/slides/CL04.pdf">Boolean Operators and Conditionals</a></span></div><div class="plan Lesson">
 <span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">Boolean Operators (Due Thursday 1/29)</a></span></div><div class="plan Lesson">
 <span class="kind">LS06 </span><span class="title"><a href="https://www.gradescope.com/">Conditionals (Due Thursday 1/29)</a></span></div><div class="plan Exercise">
 <span class="kind">EX02 </span><span class="title"><a href="/exercises/wordle-pt1.html">Chardle (Due Sunday 2/8)</a></span></div></div>
-</div><div data-type="lecture" data-date="2026-01-27" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Jan 27</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL06 </span><span class="title"><a href="/static/slides/CL06.pdf">Recursion</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-01-22" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Jan 22</div>
 <div class="plans col-md-9"><div class="plan Quiz">
