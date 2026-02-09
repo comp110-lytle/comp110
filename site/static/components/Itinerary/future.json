@@ -1,31 +1,30 @@
 {
-    "2026-02-05": [
+    "2026-02-06": [],
+    "2026-02-07": [],
+    "2026-02-08": [],
+    "2026-02-09": [],
+    "2026-02-10": [
         {
             "kind": "CL",
-            "n": 5,
-            "title": "Conditionals, Variables, and Positional Arguments",
-            "date": "2026-02-05",
+            "n": 6,
+            "title": "Recursion",
+            "date": "2026-02-10",
             "deadline": "None",
             "links": {
-                "": "/static/slides/CL05_benjamin_guest_lecture_annotated.pdf"
+                "": "/static/slides/CL06.pdf"
             }
         },
         {
             "kind": "LS",
-            "n": 7,
-            "title": "Variables (Due Thursday 2/5)",
-            "date": "2026-02-05",
-            "deadline": "2026-02-05",
+            "n": 8,
+            "title": "Recursion (Due Tuesday 2/10)",
+            "date": "2026-02-10",
+            "deadline": "2026-02-10",
             "links": {
                 "": "https://www.gradescope.com/"
             }
         }
     ],
-    "2026-02-06": [],
-    "2026-02-07": [],
-    "2026-02-08": [],
-    "2026-02-09": [],
-    "2026-02-10": [],
     "2026-02-11": [],
     "2026-02-12": [
         {
