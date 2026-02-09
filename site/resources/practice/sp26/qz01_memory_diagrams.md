@@ -30,9 +30,9 @@ template: overview
 <details>
 <summary>SHOW SOLUTION</summary>
 
-<!-- [Video](https://youtu.be/o73Rk9ni5Rc)
+<!-- [Video](https://youtu.be/o73Rk9ni5Rc)-->
 
-<img class="img-fluid" src="/static/assets/f23/conditionals-00-sol.png" alt="The memory diagram includes a column on the left titled Stack and a column on the right titled Output."  />  -->
+<img class="img-fluid" src="/static/assets/s26/conditionals-sol-00.png" alt="The memory diagram includes a column on the left titled Stack and a column on the right titled Output."  />  
 
 
 
@@ -58,7 +58,7 @@ template: overview
 <details>
 <summary>SHOW SOLUTION</summary>
 
-<!-- <img class="img-fluid" src="/static/assets/sp24/conditionals-01-sol.png" alt="The memory diagram includes a column on the left titled Stack and a column on the right titled Output."  />  -->
+<img class="img-fluid" src="/static/assets/s26/conditionals-sol-01.png" alt="The memory diagram includes a column on the left titled Stack and a column on the right titled Output."  /> 
 
 
 
@@ -93,9 +93,9 @@ In the Output section, the following are displayed in a vertical sequence:
 <details>
 <summary>SHOW SOLUTION</summary>
 
-<!-- <img class="img-fluid" src="/static/assets/f23/elif-00-sol.png" alt="The memory diagram"  />
+ <img class="img-fluid" src="/static/assets/s26/elif-sol.png" alt="The memory diagram"  />
 
-*Image Description:*
+<!-- *Image Description:* 
 The memory diagram is divided into two sections: Stack and Output.
 
 In the Stack section, under the label Globals, there are two variables:
