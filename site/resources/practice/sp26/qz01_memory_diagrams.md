@@ -14,89 +14,86 @@ template: overview
 1. Trace a memory diagram of the following code listing.
 
 ```py
-    """ Practice Memory Diagram """
+    def count(x: str) -> str:
+        """Practice conditionals."""
+        y: int = len(x)
+        if y % 4 == 1:
+            y *= 2
+        y -= 6
+        print(y)
+        return(x[y])
+        print(x[y])
 
-    x: str = "Hello"
-    y: int = len(x)
-    if y % 4 == 1:
-        y *= 2
-    y -= 6
-    print(y)
-    print(x[y])
+    count(x="Hello")
 ```
 
 <details>
 <summary>SHOW SOLUTION</summary>
 
-[Video](https://youtu.be/o73Rk9ni5Rc)
+<!-- [Video](https://youtu.be/o73Rk9ni5Rc)
 
-<img class="img-fluid" src="/static/assets/f23/conditionals-00-sol.png" alt="The memory diagram includes a column on the left titled Stack and a column on the right titled Output. The stack contains variable `x` with value ''Hello'' and variable `y` with the original value of 5 crossed out and updated to 10, then crossed out and updatd again to 4. The Output has the value 4 and the string ''o''."  /> 
+<img class="img-fluid" src="/static/assets/f23/conditionals-00-sol.png" alt="The memory diagram includes a column on the left titled Stack and a column on the right titled Output."  />  -->
 
-*Image Description:* The memory diagram includes a column on the left titled Stack and a column on the right titled Output. 
 
-The stack contains variable `x` with value "Hello" and variable `y` with the original value of 5 crossed out and updated to 10, then crossed out and updatd again to 4. 
-
-The Output has the value 4 and the string "o".
 
 </details>
 
 2. Trace a memory diagram of the following code listing.
 
 ```py
-    """ Practice Memory Diagram """
+    def xyz(x: int, y: str) -> str:
+        """Practice conditionals."""
+        z: str = str(x)
+        if len(y) > 1:
+            y *= x
+        else:
+            y = "no"
+        if x > 0:
+            print(z)
+        return y
 
-    x: int = 2
-    y: str = "yo"
-    z: str = "2"
-    if len(y) > 1:
-        y *= x
-    else:
-        y = "no"
-    if x > 0:
-        print(z)
-    print(y)    
+    xyz(x=2, y="yo")  
 ```
 
 <details>
 <summary>SHOW SOLUTION</summary>
 
-<img class="img-fluid" src="/static/assets/sp24/conditionals-01-sol.png" alt="The memory diagram includes a column on the left titled Stack and a column on the right titled Output."  /> 
+<!-- <img class="img-fluid" src="/static/assets/sp24/conditionals-01-sol.png" alt="The memory diagram includes a column on the left titled Stack and a column on the right titled Output."  />  -->
 
-*Image Description:* 
-The memory diagram is divided into two main sections: Stack and Output.
 
-In the Stack section, under the label Globals, there are three variables displayed:
+
+<!-- In the Stack section, under the label Globals, there are three variables displayed:
 * Variable x with the value 2.
 * Variable y with the original value "yo" crossed out and updated to "yoyo".
 * Variable z with the value "1".
 
 In the Output section, the following are displayed in a vertical sequence:
 * The number 2.
-* The string "yoyo"
+* The string "yoyo" -->
 
 </details>
 
 3. Trace a memory diagram of the following code listing.
 
 ```py
-    """ Practice Memory Diagram """
+    def g(a: int, b: int) -> None:
+        """Practice conditionals."""
+        if a > b:
+            print(a-b)
+        elif b < 10:
+            print(b/a)
+        else:
+            print(a+b)
+        print(b)
 
-    a: int = 2
-    b: int = 6
-    if a > b:
-        print(a-b)
-    elif b < 10:
-        print(b/a)
-    else:
-        print(a+b)
-    print(b)
+    g(a=2,b=6)
 ```
 
 
 <details>
 <summary>SHOW SOLUTION</summary>
 
-<img class="img-fluid" src="/static/assets/f23/elif-00-sol.png" alt="The memory diagram includes a column on the left titled Stack and a column on the right titled Output. The stack contains variable `a` with value 2 and variable `b` with the value 6. The Output has the value 3.0 and the value 6. "  />
+<!-- <img class="img-fluid" src="/static/assets/f23/elif-00-sol.png" alt="The memory diagram"  />
 
 *Image Description:*
 The memory diagram is divided into two sections: Stack and Output.
@@ -107,7 +104,7 @@ In the Stack section, under the label Globals, there are two variables:
 
 In the Output section, two values are shown in a vertical sequence:
 * The string "3.0".
-* The string "6", which is the value of variable b.
+* The string "6", which is the value of variable b. -->
 
 </details>
 
