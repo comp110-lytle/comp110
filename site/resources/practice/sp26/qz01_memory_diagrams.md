@@ -18,8 +18,8 @@ template: overview
         """Practice conditionals."""
         y: int = len(x)
         if y % 4 == 1:
-            y *= 2
-        y -= 6
+            y = y * 2
+        y = y - 6
         print(y)
         return(x[y])
         print(x[y])
@@ -45,7 +45,7 @@ template: overview
         """Practice conditionals."""
         z: str = str(x)
         if len(y) > 1:
-            y *= x
+            y = y * x
         else:
             y = "no"
         if x > 0:
