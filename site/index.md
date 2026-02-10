@@ -48,6 +48,7 @@ template: home
 <span class="kind">QZ01 </span><span class="title">Quiz 1</span>
 <ul class="links"><li class="link"><a href="/resources/practice/sp26/qz01_practice.html">Practice Problems</a></li>
 <li class="link"><a href="/resources/practice/sp26/qz01_memory_diagrams.html">Practice Diagrams</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/95774270271?pwd=4rwFEzjPnLUR6G1R7ERahXhbn3bKdS.1">Hybrid Review Session on Wed, Feb 11 from 6-7pm in SN 014 and online (Passcode: 110110)</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2026-03-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Mar 12</div>
