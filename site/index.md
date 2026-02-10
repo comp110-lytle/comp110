@@ -40,7 +40,7 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-02-10" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Feb 10</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL06 </span><span class="title"><a href="/">Recursion</a></span></div><div class="plan Lesson">
+<span class="kind">CL06 </span><span class="title"><a href="/static/slides/CL06_hinks_lecture.pdf">Recursion</a></span></div><div class="plan Lesson">
 <span class="kind">LS08 </span><span class="title"><a href="https://www.gradescope.com/">Recursion (Due Tuesday 2/10)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-02-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Feb 12</div>
