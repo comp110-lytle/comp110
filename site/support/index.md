@@ -103,11 +103,9 @@ Go to [EdStem](https://edstem.org/) and select "chat" (under the "new thread" bu
 
 # Tutoring
 
-Tutoring is held in Fred Brooks (FB) 007.
-
-* _Monday: 5:00 PM - 7:00 PM_ 
-* _Wednesday: 5:00 PM - 7:00 PM_
-* _Thursday: 5:00 PM - 7:00 PM_
+* _Monday: 5:00 PM - 7:00 PM_ in Sitterson Hall (SN) 014
+* _Wednesday: 5:00 PM - 7:00 PM_ in SN 008
+* _Thursday: 5:00 PM - 7:00 PM_ in Fred Brooks (FB) 007
 
 Tutoring sessions may occasionally be relocated to accommodate Computer Science Department events. Any changes will be announced in class and/or via Canvas announcements. You can also always find the most up-to-date Tutoring locations on the CSXL site. 
 
