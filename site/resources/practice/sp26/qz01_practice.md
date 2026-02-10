@@ -302,16 +302,85 @@ template: overview
 
 &nbsp;
 
-### Code Writing
+## Code-Writing
 
-Note: This function-writing question is more challenging than what will be on the quiz, but is still good practice for understanding recursion and will help you be very well prepared to answer other, less challenging function writing questions in a quiz environment.
+1. Write a function named `goldilocks` that determines whether a bowl of porridge is at the right temperature. The function should have 3 parameters: `porridge_temp` (an `int`), `low` (an `int` representing the lower bound of an acceptable temperature), and `high` (an `int` representing the upper bound). If `porridge_temp` is lower than the lower bound, the function should return, "too cold!". If `porridge_temp` is higher than the upper bound, the function should return, "too hot!". If `porridge_temp` is between the lower and upper bounds, the function should return "just right!". 
 
-1. **Challenge Question:** Write a recursive function named `sum` that has an `int` parameter `number` and returns an `int` that is the sum of all nonnegative integers up to and *including* `number` (`1 + 2 + ... + number`). For example, `sum(number=4)` should evaluate to `1 + 2 + 3 + 4 = 10`. If a negative argument for `number` is given, just return `-1` (What case is this?). It may help to come up with your base case and recursive case before beginning to write any code.
+2. Write a function named `initials` that returns a person’s initials based on their first, middle, and last names. The function should have 3 parameters: `first`, `middle`, and `last`, which will all expect `str` arguments. Many people do not have a middle name, so the middle parameter may store an empty string (""). Your function should include logic to handle this case correctly. If the `middle` parameter is storing an empty string, your function should return the first character of `first` and the first character of `last`, concatenated together into one string. If the `middle` parameter is not empty, the function should return the first characters of all 3 parameters, concatenated together. For instance the function call expression, `initials(first="Ada", middle="", last="Lovelace")`, should return `"AL"`. The function call expression `initials("Frederick", "Phillips", "Brooks")` should return `"FPB"`.
+
+3. Write a function named `shipping_cost` that determines the cost to ship a package based on its weight, label, and destination. The function should have 3 parameters: `weight` (a `float`), `has_label` (a `bool` representing whether or not the package has a valid shipping label), and `international` (a `bool` representing whether the package will be shipped to another country). If `has_label` is False, the package cannot be shipped, and the function should return 0.0 (no matter the package's weight or destination). Otherwise, determine the base shipping cost based on the package’s weight. If the `weight` is at most 1, the base cost is 5.0 (representing $5.00); if the `weight` is greater than 1 and at most 5, the base cost is 10.0; if the `weight` is over 5, the base cost is 20.0. If `international` is True (representing international shipping), add 10.0 to the base cost. The function should return the total cost to ship the package. 
+The following function calls in the REPL exemplify the function's expected behavior and return values.
+
+```py
+    >>> shipping_cost(weight=0.5, has_label=True, international=False)
+    5.0
+
+    >>> shipping_cost(weight=3.0, has_label=True, international=True)
+    20.0
+
+    >>> shipping_cost(weight=8.0, has_label=True, international=True)
+    30.0
+
+    >>> shipping_cost(weight=2.0, has_label=False, international=False)
+    0.0
+```
+
+Note: The following function-writing question is more challenging than what will be on the quiz, but is still good practice for understanding recursion and will help you be very well prepared to answer other, less challenging function writing questions in a quiz environment.
+
+4. **Challenge Question:** Write a recursive function named `sum` that has an `int` parameter `number` and returns an `int` that is the sum of all nonnegative integers up to and *including* `number` (`1 + 2 + ... + number`). For example, `sum(number=4)` should evaluate to `1 + 2 + 3 + 4 = 10`. If a negative argument for `number` is given, just return `-1` (What case is this?). It may help to come up with your base case and recursive case before beginning to write any code.
 
 <details>
 <summary>SHOW SOLUTIONS</summary>
 
-1. The negative argument case is an edge case. Note: There are many equivalent ways this function could be written.
+
+1. Note that there are multiple ways this function could be written that would achieve the desired behavior (e.g., the conditions could be written in a different order).
+
+```py
+    def goldilocks(porridge_temp: int, low: int, high: int) -> str:
+        """Determine if the porridge temperature is between the lower and upper bounds."""
+        if porridge_temp < low:
+            return "too cold!"
+        elif porridge_temp > high:
+            return "too hot!"
+        else:
+            return "just right!"
+```
+
+2. Note that there are multiple ways this function could be written that would achieve the desired behavior.
+
+```py
+    def initials(first: str, middle: str, last: str) -> str:
+        """Calculate someone's initials based on their first, middle, and last names."""
+        if len(middle) == 0:
+            return first[0] + last[0]
+        else:
+            return first[0] + middle[0] + last[0]
+```
+
+3. Note that there are multiple ways this function could be written that would achieve the desired behavior.
+
+```py
+    def shipping_cost(weight: float, has_label: bool, international: bool) -> float:
+        """Calculate total cost to ship a package."""
+        cost: float
+        if not has_label:
+            cost = 0.0
+            return cost
+        elif weight <= 1:
+            cost = 5.0
+        elif weight <= 5:
+            cost = 10.0
+        else:
+            cost = 20.0
+
+        if international:
+            cost = cost + 10.0
+
+        return cost
+```
+
+
+4. The negative argument case is an edge case. Note: There are many equivalent ways this function could be written.
 
 ```py
     def sum(number: int) -> int:
