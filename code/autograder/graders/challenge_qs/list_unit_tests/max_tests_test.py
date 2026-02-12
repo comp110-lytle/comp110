@@ -9,8 +9,8 @@ from pytest import mark, fixture
 import pytest
 pytestmark = pytest.mark.timeout(3)
 
-MODULE = "CQs.cq06.find_max"
-TESTMODULE = "CQs.cq06.max_test"
+MODULE = "CQs.cq03.find_max"
+TESTMODULE = "CQs.cq03.max_test"
 
 @mark.weight(0)
 def test_author():
@@ -42,7 +42,7 @@ def tests():
 
 def get_call_count(tests, fn) -> int:
     call_count = 0
-    import CQs.cq06.max_test as unit_tests
+    import CQs.cq03.max_test as unit_tests
     for test in tests:
         try:
             with mock.patch.object(unit_tests, fn, wraps=getattr(unit_tests, fn)) as student_fn: 
