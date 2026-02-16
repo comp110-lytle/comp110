@@ -234,5 +234,44 @@
     ],
     "2026-02-06": [],
     "2026-02-07": [],
-    "2026-02-08": []
+    "2026-02-08": [],
+    "2026-02-09": [],
+    "2026-02-10": [
+        {
+            "kind": "CL",
+            "n": 6,
+            "title": "Recursion",
+            "date": "2026-02-10",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL06_hinks_lecture.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Recursion (Due Tuesday 2/10)",
+            "date": "2026-02-10",
+            "deadline": "2026-02-10",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2026-02-11": [],
+    "2026-02-12": [
+        {
+            "kind": "QZ",
+            "n": 1,
+            "title": "Quiz 1",
+            "date": "2026-02-12",
+            "deadline": "2026-02-12",
+            "links": {
+                "Practice Problems": "/resources/practice/sp26/qz01_practice.html",
+                "Practice Diagrams": "/resources/practice/sp26/qz01_memory_diagrams.html",
+                "Review Session Recording": "https://youtu.be/jp1uWArLD6M"
+            }
+        }
+    ],
+    "2026-02-13": []
 }

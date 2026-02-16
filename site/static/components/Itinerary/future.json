@@ -1,47 +1,39 @@
 {
-    "2026-02-09": [],
-    "2026-02-10": [
+    "2026-02-14": [],
+    "2026-02-15": [],
+    "2026-02-16": [],
+    "2026-02-17": [
         {
             "kind": "CL",
-            "n": 6,
-            "title": "Recursion",
-            "date": "2026-02-10",
+            "n": 7,
+            "title": "while Loops",
+            "date": "2026-02-17",
             "deadline": "None",
             "links": {
-                "": "/static/slides/CL06_hinks_lecture.pdf"
+                "": "/static/slides/CL07.pdf"
             }
         },
         {
             "kind": "LS",
-            "n": 8,
-            "title": "Recursion (Due Tuesday 2/10)",
-            "date": "2026-02-10",
-            "deadline": "2026-02-10",
+            "n": 9,
+            "title": "while Loops (Due Tuesday 2/17)",
+            "date": "2026-02-17",
+            "deadline": "2026-02-17",
             "links": {
                 "": "https://www.gradescope.com/"
             }
-        }
-    ],
-    "2026-02-11": [],
-    "2026-02-12": [
+        },
         {
-            "kind": "QZ",
-            "n": 1,
-            "title": "Quiz 1",
-            "date": "2026-02-12",
-            "deadline": "2026-02-12",
+            "kind": "EX",
+            "n": 3,
+            "title": "Wordle (Due Monday 2/23)",
+            "date": "2026-02-17",
+            "deadline": "2026-02-23",
             "links": {
-                "Practice Problems": "/resources/practice/sp26/qz01_practice.html",
-                "Practice Diagrams": "/resources/practice/sp26/qz01_memory_diagrams.html",
-                "Review Session Recording": "https://youtu.be/jp1uWArLD6M"
+                "": "/"
             }
         }
     ],
-    "2026-02-13": [],
-    "2026-02-14": [],
-    "2026-02-15": [],
-    "2026-02-16": [],
-    "2026-02-17": [],
     "2026-02-18": [],
     "2026-02-19": [],
     "2026-02-20": [],
