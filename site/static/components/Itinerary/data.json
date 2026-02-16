@@ -403,7 +403,9 @@
             "title": "Final @ 4:00PM",
             "date": "2026-04-30",
             "deadline": "None",
-            "links": {}
+            "links": {
+                "Makeup Final Exam Information": "/resources/final-makeup.html"
+            }
         }
     ]
 }

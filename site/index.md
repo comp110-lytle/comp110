@@ -54,7 +54,9 @@ template: home
 </div><div data-type="lecture" data-date="2026-04-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 30</div>
 <div class="plans col-md-9"><div class="plan Final">
-<span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span></div></div>
+<span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span>
+<ul class="links"><li class="link"><a href="/resources/final-makeup.html">Makeup Final Exam Information</a></li>
+</ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
 <h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-02-12" class="row itinerary-row py-2">
