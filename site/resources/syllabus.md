@@ -101,7 +101,7 @@ We can offer everyone absent from a quiz the same learning experience of sitting
 You must have a [university approved](https://dos.unc.edu/student-support/class-absences-final-exam-rescheduling/) reason for needing to take the final on a makeup day. 
 
 If this applies to you, please fill out BOTH:
-1. Our Internal [Final Exam Excuse Form](/)
+1. Our Internal [Final Exam Excuse Form](https://airtable.com/appn0m9OwvLrJUa4u/pagx5jCpDmqzD2ueT/form)
 2. UNC’s Official [Final Exam Excuse Form](https://eef.oasis.unc.edu/)
 
 
