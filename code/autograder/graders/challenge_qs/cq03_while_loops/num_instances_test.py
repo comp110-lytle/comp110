@@ -83,67 +83,94 @@ def test_num_instances_basic_cases():
     # Test case 15: String contains newline characters
     assert module.num_instances('Line1\nLine2\nLine3', '\n') == 2, "Failed on newline character test case (15)"
 
+# @mark.weight(1)
+# def test_num_instances_case_sensitive():
+#     """num_instances should be case-sensitive."""
+#     module = reimport_module(MODULE)
+    
+#     # Test case with different case letters
+#     assert module.num_instances('AaAaAa', 'a') == 3, "Failed case-sensitivity test for lowercase 'a'"
+#     assert module.num_instances('AaAaAa', 'A') == 3, "Failed case-sensitivity test for uppercase 'A'"
+
+# @mark.weight(1)
+# def test_num_instances_empty_string():
+#     """num_instances should return 0 if the phrase is an empty string."""
+#     module = reimport_module(MODULE)
+    
+#     # Test with an empty phrase
+#     assert module.num_instances('', 'a') == 0, "Failed on empty string case"
+
+# @mark.weight(1)
+# def test_num_instances_no_occurrence():
+#     """num_instances should return 0 if the search_char does not occur in the phrase."""
+#     module = reimport_module(MODULE)
+    
+#     # Test with no occurrence of the search character
+#     assert module.num_instances('This is a test', 'z') == 0, "Failed when search_char is not in phrase"
+
+# @mark.weight(1)
+# def test_num_instances_special_characters():
+#     """num_instances should handle special characters and spaces."""
+#     module = reimport_module(MODULE)
+
+#     # Test with special characters
+#     assert module.num_instances('Hello@World!', '@') == 1, "Failed special character test (@)"
+#     assert module.num_instances('Look! There is a cat!', '!') == 2, "Failed special character test (!)"
+
+# @mark.weight(1)
+# def test_num_instances_numeric_characters():
+#     """num_instances should handle numeric characters."""
+#     module = reimport_module(MODULE)
+
+#     # Test with numeric characters
+#     assert module.num_instances('123123123', '1') == 3, "Failed numeric character test (1)"
+#     assert module.num_instances('9876543210', '0') == 1, "Failed numeric character test (0)"
+    
+# @mark.weight(1)
+# def test_num_instances_repeated_search_char():
+#     """num_instances should handle cases where the search_char repeats consecutively."""
+#     module = reimport_module(MODULE)
+
+#     # Test case with repeated consecutive characters
+#     assert module.num_instances('aaaaaaa', 'a') == 7, "Failed consecutive repeated characters test"
+#     assert module.num_instances('bbbbbbbbb', 'b') == 9, "Failed consecutive repeated characters test"
+
+# @mark.weight(1)
+# def test_num_instances_large_input():
+#     """num_instances should efficiently handle large input strings."""
+#     module = reimport_module(MODULE)
+    
+#     # Test with large input string
+#     large_phrase = 'a' * 1000000  # 1 million 'a's
+#     assert module.num_instances(large_phrase, 'a') == 1000000, "Failed large input test"
+
+#     large_phrase_mixed = 'a' * 500000 + 'b' * 500000  # 500k 'a's and 500k 'b's
+#     assert module.num_instances(large_phrase_mixed, 'b') == 500000, "Failed large input mixed test"
+
+
+
 @mark.weight(1)
-def test_num_instances_case_sensitive():
-    """num_instances should be case-sensitive."""
+def test_get_evens_params():
+    """get_evens should take a str parameter."""
+    module = reimport_module(MODULE)
+    # Check the parameter list of the num_instances function
+    assert_parameter_list(module.get_evens, [str])  
+
+
+@mark.weight(1)
+def test_get_evens_return_type():
+    """get_evens should return a str."""
+    module = reimport_module(MODULE)
+    assert_return_type(module.get_evens, str)  
+
+@mark.weight(5)
+def test_get_evens_basic_cases():
+    """num_instances returns correct count for basic test cases."""
     module = reimport_module(MODULE)
     
-    # Test case with different case letters
-    assert module.num_instances('AaAaAa', 'a') == 3, "Failed case-sensitivity test for lowercase 'a'"
-    assert module.num_instances('AaAaAa', 'A') == 3, "Failed case-sensitivity test for uppercase 'A'"
+    # Test case 1
+    assert module.get_evens('26890') == "2680", "Failed on string '26890'"
 
-@mark.weight(1)
-def test_num_instances_empty_string():
-    """num_instances should return 0 if the phrase is an empty string."""
-    module = reimport_module(MODULE)
+    assert module.get_evens('11111') == "", "Failed on string of all odd numbers"
     
-    # Test with an empty phrase
-    assert module.num_instances('', 'a') == 0, "Failed on empty string case"
-
-@mark.weight(1)
-def test_num_instances_no_occurrence():
-    """num_instances should return 0 if the search_char does not occur in the phrase."""
-    module = reimport_module(MODULE)
-    
-    # Test with no occurrence of the search character
-    assert module.num_instances('This is a test', 'z') == 0, "Failed when search_char is not in phrase"
-
-@mark.weight(1)
-def test_num_instances_special_characters():
-    """num_instances should handle special characters and spaces."""
-    module = reimport_module(MODULE)
-
-    # Test with special characters
-    assert module.num_instances('Hello@World!', '@') == 1, "Failed special character test (@)"
-    assert module.num_instances('Look! There is a cat!', '!') == 2, "Failed special character test (!)"
-
-@mark.weight(1)
-def test_num_instances_numeric_characters():
-    """num_instances should handle numeric characters."""
-    module = reimport_module(MODULE)
-
-    # Test with numeric characters
-    assert module.num_instances('123123123', '1') == 3, "Failed numeric character test (1)"
-    assert module.num_instances('9876543210', '0') == 1, "Failed numeric character test (0)"
-    
-@mark.weight(1)
-def test_num_instances_repeated_search_char():
-    """num_instances should handle cases where the search_char repeats consecutively."""
-    module = reimport_module(MODULE)
-
-    # Test case with repeated consecutive characters
-    assert module.num_instances('aaaaaaa', 'a') == 7, "Failed consecutive repeated characters test"
-    assert module.num_instances('bbbbbbbbb', 'b') == 9, "Failed consecutive repeated characters test"
-
-@mark.weight(1)
-def test_num_instances_large_input():
-    """num_instances should efficiently handle large input strings."""
-    module = reimport_module(MODULE)
-    
-    # Test with large input string
-    large_phrase = 'a' * 1000000  # 1 million 'a's
-    assert module.num_instances(large_phrase, 'a') == 1000000, "Failed large input test"
-
-    large_phrase_mixed = 'a' * 500000 + 'b' * 500000  # 500k 'a's and 500k 'b's
-    assert module.num_instances(large_phrase_mixed, 'b') == 500000, "Failed large input mixed test"
-
+    assert module.get_evens('178101') == "80", "Failed on string'178101'"
