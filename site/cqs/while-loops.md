@@ -11,7 +11,10 @@ template: overview
 
 For this challenge question, you're going to practice using a `while` loop to iterate over a string!
 
-Start by creating a file in your CQs folder called `cq01_while_loops.py`. Initialize with a docstring and an `__author__` variable.
+To start, right click in the "Explorer" pane of your workspace and select "New Folder...". Name this new folder `CQs`. This is where you will be writing and storing your challenge questions this semester!
+
+Now, right click on your "CQs" folder and select "New File...".
+Name this file `cq01_while_loops.py`. Initialize with a docstring and an `__author__` variable.
 
 ## `num_instances`
 
