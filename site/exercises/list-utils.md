@@ -65,14 +65,16 @@ This is the first function you will write in `ex04_list_utils.py`. The other two
 
 Given a `list` of `ints` and an `int`, `all` should return a bool indicating whether or not all the ints in the list are the same as the given `int`. Example usage:
 
-```{.plaintext}
+<pre>
+<div class="terminal">
 >>> all([1, 2, 3], 1)
 False
 >>> all([1, 1, 1], 2)
 False
 >>> all([1, 1, 1], 1)
 True
-```
+</div>
+</pre>
 
 Continue by defining a skeleton function with the following signature:
 
@@ -88,14 +90,16 @@ The `max` function is given a `list` of `ints`, `max` should return the largest 
 
 If the `list` is empty, `max` should result in a `ValueError`. We'll show you how! Examples:
 
-```{.plaintext}
+<pre>
+<div class="terminal">
 >>> max([1, 3, 2])
 3
 >>> max([100, 99, 98])
 100
 >>> max([])
 ValueError: max() arg is an empty List
-```
+</div>
+</pre>
 
 Define a skeleton function with the following signature:
 
@@ -115,12 +119,14 @@ def max(input: list[int]) -> int:
 
 Given two `list`s of `int` values, return `True` if _every_ element at _every_ index is equal in both `list`s. This is an implementation of how the `==` operator works with two lists under the hood and in your implementation you are not allowed to use `==` to compare equality of lists directly. Your goal is to test for equality of each item in the list, one-by-one.
 
-```{.plaintext}
+<pre>
+<div class="terminal">
 >>> is_equal([1, 0, 1], [1, 0, 1])
 True
 >>> is_equal([1, 1, 0], [1, 0, 1])
 False
-```
+</div>
+</pre>
 
 Your implementation should not assume the lengths of each List are equal.
 
