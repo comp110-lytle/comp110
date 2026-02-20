@@ -1,37 +1,4 @@
 {
-    "2026-02-16": [],
-    "2026-02-17": [
-        {
-            "kind": "CL",
-            "n": 7,
-            "title": "while Loops",
-            "date": "2026-02-17",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/CL07.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 9,
-            "title": "while Loops (Due Tuesday 2/17)",
-            "date": "2026-02-17",
-            "deadline": "2026-02-17",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 3,
-            "title": "Wordle (Due Monday 2/23)",
-            "date": "2026-02-17",
-            "deadline": "2026-02-23",
-            "links": {
-                "": "/exercises/wordle-pt2.html"
-            }
-        }
-    ],
     "2026-02-18": [],
     "2026-02-19": [
         {
@@ -49,7 +16,28 @@
     "2026-02-21": [],
     "2026-02-22": [],
     "2026-02-23": [],
-    "2026-02-24": [],
+    "2026-02-24": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Lists",
+            "date": "2026-02-24",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL08.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 10,
+            "title": "Lists (Due Tuesday 2/24)",
+            "date": "2026-02-24",
+            "deadline": "2026-02-24",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2026-02-25": [],
     "2026-02-26": [],
     "2026-02-27": [],

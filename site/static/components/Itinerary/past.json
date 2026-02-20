@@ -275,5 +275,38 @@
     ],
     "2026-02-13": [],
     "2026-02-14": [],
-    "2026-02-15": []
+    "2026-02-15": [],
+    "2026-02-16": [],
+    "2026-02-17": [
+        {
+            "kind": "CL",
+            "n": 7,
+            "title": "while Loops",
+            "date": "2026-02-17",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL07.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "while Loops (Due Tuesday 2/17)",
+            "date": "2026-02-17",
+            "deadline": "2026-02-17",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 3,
+            "title": "Wordle (Due Monday 2/23)",
+            "date": "2026-02-17",
+            "deadline": "2026-02-23",
+            "links": {
+                "": "/exercises/wordle-pt2.html"
+            }
+        }
+    ]
 }

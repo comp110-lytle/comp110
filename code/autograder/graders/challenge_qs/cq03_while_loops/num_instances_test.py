@@ -165,7 +165,7 @@ def test_get_evens_return_type():
 
 @mark.weight(5)
 def test_get_evens_basic_cases():
-    """num_instances returns correct count for basic test cases."""
+    """get_evens returns correct count for basic test cases."""
     module = reimport_module(MODULE)
     
     # Test case 1
