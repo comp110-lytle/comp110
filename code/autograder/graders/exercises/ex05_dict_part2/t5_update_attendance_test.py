@@ -1,4 +1,4 @@
-"""Tests for Exercise 07: Dict Functions + Unit Tests."""
+"""Tests for Exercise 05: Dict Functions + Unit Tests."""
 
 __author__ = "Vrinda Desai <vrinda@email.unc.edu>"
 
@@ -7,13 +7,13 @@ from graders.helpers import assert_parameter_list, reimport_module
 from graders.helpers import assert_return_type
 
 
-MODULE = "ex06.dictionary"
+MODULE = "exercises.ex04.dictionary"
 
 
 @mark.weight(4)
 def test_update_attendance_1():
     """update_attendance - update_attendance does not repeat the same name within a day."""
-    from ex05.dictionary import update_attendance
+    from exercises.ex04.dictionary import update_attendance
     log = {"Monday": ["Anna"]}
     update_attendance(log, "Monday", "Anna")
     update_attendance(log, "Tuesday", "Anna")
@@ -24,7 +24,7 @@ def test_update_attendance_1():
 @mark.weight(4)
 def test_update_attendance_2():
     """update_attendance - update_attendance correctly mutates the passed in dictionary."""
-    from ex05.dictionary import update_attendance
+    from exercises.ex04.dictionary import update_attendance
     log = {}
     update_attendance(log, "Monday", "Kam")
     update_attendance(log, "Tuesday", "Kaleb")
@@ -34,7 +34,7 @@ def test_update_attendance_2():
 @mark.weight(1)
 def test_update_attendance_empty():
     """update_attendance - correctly handles an empty dictionary."""
-    from ex06.dictionary import update_attendance
+    from exercises.ex04.dictionary import update_attendance
     log = {}
     update_attendance(log, "Monday", "John")
     assert log == {"Monday": ["John"]}
@@ -43,7 +43,7 @@ def test_update_attendance_empty():
 @mark.weight(2)
 def test_update_attendance_multiple_students():
     """update_attendance - correctly adds multiple students on the same day."""
-    from ex06.dictionary import update_attendance
+    from exercises.ex04.dictionary import update_attendance
     log = {"Monday": ["John"]}
     update_attendance(log, "Monday", "Alice")
     update_attendance(log, "Monday", "Bob")
@@ -53,7 +53,7 @@ def test_update_attendance_multiple_students():
 @mark.weight(1)
 def test_update_attendance_same_student_different_days():
     """update_attendance - allows the same student on different days."""
-    from ex06.dictionary import update_attendance
+    from exercises.ex04.dictionary import update_attendance
     log = {"Monday": ["John"]}
     update_attendance(log, "Tuesday", "John")
     assert log == {"Monday": ["John"], "Tuesday": ["John"]}

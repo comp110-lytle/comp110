@@ -1,6 +1,6 @@
 ---
 title: Halloween Mystery Project 2021 Fall
-date: 2021-20-10
+date: 2021-10-20
 author:
 - Ezri White
 page: logistics

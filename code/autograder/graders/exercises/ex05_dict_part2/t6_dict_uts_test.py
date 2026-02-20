@@ -1,4 +1,4 @@
-"""Tests for Exercise 07: Dict Functions + Unit Tests."""
+"""Tests for Exercise 05: Dict Functions + Unit Tests."""
 
 __author__ = "Kaki Ryan <kakiryan@cs.unc.edu>"
 
@@ -9,7 +9,7 @@ from pytest import mark, fixture
 import pytest
 #pytestmark = pytest.mark.timeout(3)
 
-MODULE = "ex06.dictionary_test"
+MODULE = "exercises.ex04.dictionary_test"
 
 tests = []
 

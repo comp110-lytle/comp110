@@ -1,5 +1,7 @@
 """Tests for CQ - Practice with conditionals, local variables, and user input."""
 
+#
+
 __author__ = "Alyssa Lytle <abyrnes1@cs.unc.edu>"
 __author__ = "Viktorya Hunanyan <vhunany@unc.edu>"
 
@@ -13,7 +15,7 @@ from typing import Any
 from _pytest.monkeypatch import MonkeyPatch
 from _pytest.capture import CaptureFixture
 
-MODULE = "CQs.cq02_conditionals"
+MODULE = "CQs.cq00_conditionals"
 module: Any
 
 def _regex_test_stdout(lines: list[str], regex: Pattern[Any]):
