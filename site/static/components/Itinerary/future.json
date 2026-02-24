@@ -1,19 +1,4 @@
 {
-    "2026-02-18": [],
-    "2026-02-19": [
-        {
-            "kind": "CQ",
-            "n": 1,
-            "title": "While Loop Practice (Due Thursday 2/19)",
-            "date": "2026-02-19",
-            "deadline": "2026-02-19",
-            "links": {
-                "": "/cqs/while-loops.html"
-            }
-        }
-    ],
-    "2026-02-20": [],
-    "2026-02-21": [],
     "2026-02-22": [],
     "2026-02-23": [],
     "2026-02-24": [
@@ -35,6 +20,16 @@
             "deadline": "2026-02-24",
             "links": {
                 "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "List Utils (Due Monday 3/2)",
+            "date": "2026-02-24",
+            "deadline": "2026-03-02",
+            "links": {
+                "": "/exercises/list-utils.html"
             }
         }
     ],
