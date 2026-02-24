@@ -9,7 +9,8 @@
             "date": "2026-02-24",
             "deadline": "None",
             "links": {
-                "": "/static/slides/CL08.pdf"
+                "Slides": "/static/slides/CL08.pdf",
+                "Annotated Slides": "/static/slides/CL08-annotated.pdf"
             }
         },
         {

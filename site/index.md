@@ -40,7 +40,10 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-02-24" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Feb 24</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL08 </span><span class="title"><a href="/static/slides/CL08.pdf">Lists</a></span></div><div class="plan Lesson">
+<span class="kind">CL08 </span><span class="title">Lists</span>
+<ul class="links"><li class="link"><a href="/static/slides/CL08.pdf">Slides</a></li>
+<li class="link"><a href="/static/slides/CL08-annotated.pdf">Annotated Slides</a></li>
+</ul></div><div class="plan Lesson">
 <span class="kind">LS10 </span><span class="title"><a href="https://www.gradescope.com/">Lists (Due Tuesday 2/24)</a></span></div><div class="plan Exercise">
 <span class="kind">EX04 </span><span class="title"><a href="/exercises/list-utils.html">List Utils (Due Monday 3/2)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-03-12" class="row itinerary-row py-2">
