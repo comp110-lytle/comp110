@@ -59,7 +59,7 @@ Write a function definition with the following expectations:
 Example usage:
 <pre>
 <div class="terminal">>>> a: list[int] = [1,2,3]
->>> from CQS.cq02_lists import manual_append
+>>> from CQs.cq02_lists import manual_append
 >>> manual_append(a, 2)
 >>> print(a)
 [1,2,3,2]
