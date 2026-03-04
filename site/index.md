@@ -119,7 +119,7 @@ template: home
 <span class="kind">QZ00 </span><span class="title">Quiz 0</span>
 <ul class="links"><li class="link"><a href="/resources/practice/sp26/qz00_practice.html">Practice Problems</a></li>
 <li class="link"><a href="/resources/practice/sp26/qz00_memory_diagrams.html">Practice Diagrams</a></li>
-<li class="link"><a href="https://unc.zoom.us/rec/share/QTOHmNLlhctkRjdnUqxFFVTt-a2T8YJ8sCgjresYZLq0XHt5Lr7VH0CDj5zOaFWx.eTtYpostWD94oLLs?startTime=1769035901000">Review Session Recording</a></li>
+<li class="link"><a href="https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=efa3c0d3-39de-4a0d-8ef7-b3da000ac807">Review Session Recording</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2026-01-20" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Jan 20</div>
