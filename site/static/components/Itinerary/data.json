@@ -419,7 +419,28 @@
         }
     ],
     "2026-03-04": [],
-    "2026-03-05": [],
+    "2026-03-05": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "for Loops",
+            "date": "2026-03-05",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL11.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 12,
+            "title": "for Loops (Due Thursday 3/5)",
+            "date": "2026-03-05",
+            "deadline": "2026-03-05",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2026-03-06": [],
     "2026-03-07": [],
     "2026-03-08": [],
