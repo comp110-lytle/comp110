@@ -45,7 +45,7 @@ KeyError
 
 Similar to how you raised a `ValueError` in the `max` function for `list` utils, the syntax for raising a `KeyError` is: `raise KeyError("error message of your choice here!")`
 
-## 2. `favorite colors`
+## 2. `favorite color`
 
 
 
@@ -55,7 +55,7 @@ Create a function in your `dictionary.py` file called `favorite_color`. It has t
 2. It returns a `str` which is the color that appears most frequently.
    1. If there is a tie for most popular color, return the color that appeared in the dictionary first.
 
-- Function name: `favorite_colors`
+- Function name: `favorite_color`
 - Parameter: `dict[str, str]` - dictionary of names and favorite colors
 - Return Type: `str` - the most popular color
 
