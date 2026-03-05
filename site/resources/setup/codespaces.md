@@ -19,7 +19,7 @@ Your workspace must be setup and at least one successful "backup push" to GitHub
 
 In GitHub, navigate to your personal repository for backing up your workspace. It should have a URL that is of the format:
 
-`https://github.com/comp110-24f/comp-110-workspace-KrisJordan` (except instead of `KrisJordan` you will see your GitHub username)
+`https://github.com/26s-comp110/comp-110-workspace-KrisJordan` or `https://github.com/comp110-26s/comp-110-workspace-KrisJordan` (except instead of `KrisJordan` you will see your GitHub username)
 
 ## Create a Codespace
 

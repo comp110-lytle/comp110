@@ -82,7 +82,7 @@ VSCode can be customized with extensions specific to the types of work you use i
    - Mac: `Command+Shift+P`
 3. Type in "Git: Clone" (without the quotes) and press `Enter`.
    - If you do not see this option after installing course software previously, try rebooting your computer.
-4. Copy the following URL: `https://github.com/25f-comp110/comp110-25f-workspace.git`
+4. Copy the following URL: `https://github.com/26s-comp110/comp110-26s-workspace.git`
    - Right Click and Paste the copied URL into the text box that appeared in VS Code after the previous step.
    - Or use the Paste keyboard shortcut: `Control+V` Windows / `Command+V` Mac
 5. Press Enter and you will be asked where you want your course workspace repository to be saved on your computer. Accepting the default suggestion is OK, but if you have a folder you would prefer to keep the course work go ahead and select it. **Please don't move this workspace until after the semester has ended.**
@@ -90,11 +90,11 @@ VSCode can be customized with extensions specific to the types of work you use i
 
 ## 5. Setup your Backup Workspace on GitHub
 
-1. Navigate a web browser to <a href="https://classroom.github.com/a/ytQRegvT" target="_blank">https://classroom.github.com/a/ytQRegvT</a>
+1. Navigate a web browser to <a href="https://classroom.github.com/a/zZ8Fu82i" target="_blank">https://classroom.github.com/a/zZ8Fu82i</a>
 2. Click "Skip to the next step" when prompted to select your user / identification
 3. Click "Accept this Assignment"
 4. When the workspace is getting setup, you may need to refresh until it tells you you're ready to go!
-5. Click the link to your personal backup repository that looks something like this `https://github.com/25f-comp110/comp110-workspace-iHinks` (except instead of `iHinks` you will see your GitHub username).
+5. Click the link to your personal backup repository that looks something like this `https://github.com/26s-comp110/comp110-workspace-iHinks` (except instead of `iHinks` you will see your GitHub username).
 6. Look for the "Quick setup- if you've done this kind of thing before" box. You will see the same link that you clicked on to get here in step 5. Copy that text or click the copy to clipboard (overlapping squares) button.
 7. In VSCode, open the _View_ menu and select _Command Palette_, the shortcut for this menu is:
    - Windows: `Control+Shift+P`
@@ -103,8 +103,26 @@ VSCode can be customized with extensions specific to the types of work you use i
 9. In the blank text box that appears, paste in the URL to your backup repository that you just copied. Press enter.
 10. When asked for "Remote name" type in: `backup`
 11. Open a new terminal tab, from the _Command Palette_ select "Terminal: Create New Terminal"
-11. In the terminal that pops up, type: `git push --set-upstream backup main` then press enter (two dashes in the of `--set-upstream`). This command backs your work up to your GitHub repository.
+12. In the terminal that pops up, type: `git push --set-upstream backup main` then press enter (two dashes in the of `--set-upstream`). This command backs your work up to your GitHub repository.
 
+### If You are Asked to Configure Your Github User Information
+
+You may receive an error message when you try to push to git (step 12). If so, try these steps and try again.
+
+1. If your _Terminal_ window from above is still open, great! If not, open a new _Terminal_ pane in VS Code.
+2. At the prompt, type the following command and press enter with your primary e-mail address inside the double quotes:
+
+```{.bash}
+git config --global user.email "your@primary.email"
+```
+
+3. Then, type tye following command and press enter with your first and last name inside the double quotes:
+
+```{.bash}
+git config --global user.name "Your Name"
+```
+
+After doing this, when you make backup commits in `git` they'll be correctly attributed to you.
 
 ## 6. Confirm Everything is Good to Go
 
@@ -122,7 +140,7 @@ Once it's done, in the Explorer pane, you should see `.devcontainer`, `README.md
 
 Let's run the welcome program! Open the terminal by going to the Terminal menu and selecting New Terminal. You should see a terminal window open at the bottom of VSCode. In the terminal, type `python -m welcome` and press enter. You should see a welcome message printed to the terminal!
 
-Let's be sure you are able to exit out of VSCode and find your work again. Go ahead and close VSCode. It will take a few seconds for your DevContainer to fully shut down in the background, so count to ten, take a few deep breaths, and be proud of setting up a modern, professional software development environment on your personal laptop! Then open VS Code again. If you see the same files in the left-hand sidebar, and "Dev Container: comp110-25f" in the bottom left corner: great! Keep reading, though, so you know what to do in the future if you do not see your workspace.
+Let's be sure you are able to exit out of VSCode and find your work again. Go ahead and close VSCode. It will take a few seconds for your DevContainer to fully shut down in the background, so count to ten, take a few deep breaths, and be proud of setting up a modern, professional software development environment on your personal laptop! Then open VS Code again. If you see the same files in the left-hand sidebar, and "Dev Container: comp110-26s" in the bottom left corner: great! Keep reading, though, so you know what to do in the future if you do not see your workspace.
 
 If you do not see your workspace files in the Explorer sidebar, go to File, select Open Recent, and look for the topmost entry that has `comp110-` in it and ends in `[Dev Container]` and select it. This is how you can get back to your workspace most easily in the future.
 
