@@ -454,7 +454,11 @@
             "title": "Quiz 2",
             "date": "2026-03-12",
             "deadline": "2026-03-12",
-            "links": {}
+            "links": {
+                "General Practice": "/resources/practice/sp26/qz02_general_practice.html",
+                "Memory Diagram Practice": "/resources/practice/sp26/qz02_memory_diagrams.html",
+                "Function Writing Practice": "/resources/practice/sp26/qz02_function_practice.html"
+            }
         }
     ],
     "2026-03-13": [],
