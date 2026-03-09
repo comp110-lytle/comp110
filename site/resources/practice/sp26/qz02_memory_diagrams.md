@@ -8,6 +8,7 @@ author:
 - Viktorya Hunanyan
 - Coralee Rogers
 - Benjamin Eldridge
+- Jack Coury
 page: lessons
 template: overview
 ---
@@ -153,7 +154,9 @@ template: overview
 
     <img class="img-fluid" src="/static/practice-mem-diagrams/refs.png" alt=""/>
 
-3. <img class="img-fluid" src="/static/practice-mem-diagrams/change-and-check.png" alt="Image Description Here"  />
+3. [Video](https://www.youtube.com/watch?v=k2YEGm3oAbE) 
+
+    <img class="img-fluid" src="/static/practice-mem-diagrams/change-and-check.png" alt="Image Description Here"  />
 
 </details>
 
@@ -260,9 +263,13 @@ template: overview
 <details>
 <summary>SHOW SOLUTIONS</summary>
 
-1. <img class="img-fluid" src="/static/practice-mem-diagrams/count_memdiag.png" alt="Memory diagram of code listing with count function"  />
+1. [Video](https://youtu.be/vt2BnN2Kttc) 
 
-2. <img class="img-fluid" src="/static/practice-mem-diagrams/artistcounts_memdiag.png" alt="Memory diagram of code listing with artist_counts function"  />
+    <img class="img-fluid" src="/static/practice-mem-diagrams/count_memdiag.png" alt="Memory diagram of code listing with count function"  />
+
+2. [Video](https://youtu.be/J3Ur2GkebUc)
+
+    <img class="img-fluid" src="/static/practice-mem-diagrams/artistcounts_memdiag.png" alt="Memory diagram of code listing with artist_counts function"  />
 
 3. [Video](https://youtu.be/pyl28ClXwfY?si=QwIDQdlgjupNA1R3)
 
