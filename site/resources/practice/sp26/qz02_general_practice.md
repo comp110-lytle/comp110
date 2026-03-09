@@ -409,8 +409,8 @@ template: overview
     7.1. What will print from the following code: 
 
     ```python
-        for x in range(0, len(my_dict)): 
-            print(my_dict[x])
+        for x in range(0, len(tarheels_numbers)): 
+            print(tarheels_numbers[x])
     ```
 
     (a) `0, 1, 2, 3, 4`
@@ -424,7 +424,7 @@ template: overview
     7.2. What will print from the following code: 
 
     ```python
-        for x in range(0, len(my_dict)): 
+        for x in range(0, len(tarheels_numbers)): 
             print(x)
     ```
 
@@ -439,8 +439,8 @@ template: overview
     7.3. What will print from the following code: 
 
     ```python
-        for x in my_dict: 
-            print(my_dict[x])
+        for x in tarheels_numbers: 
+            print(tarheels_numbers[x])
     ```
 
     (a) `0, 1, 2, 3, 4`
@@ -454,7 +454,7 @@ template: overview
     7.4. What will print from the following code: 
 
     ```python
-        for x in my_dict: 
+        for x in tarheels_numbers: 
             print(x)
     ```
 
@@ -470,7 +470,7 @@ template: overview
 
     ```python
         x: int = 0
-        while x < int(len(my_dict) / 2): 
+        while x < int(len(tarheels_numbers) / 2): 
             print(x)
             x += 1
     ```

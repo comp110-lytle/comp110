@@ -37,12 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-03-05" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Mar 5</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL11 </span><span class="title"><a href="/static/slides/CL11.pdf">for Loops</a></span></div><div class="plan Lesson">
-<span class="kind">LS12 </span><span class="title"><a href="https://www.gradescope.com/">for Loops (Due Thursday 3/5)</a></span></div></div>
-</div><div data-type="lecture" data-date="2026-03-12" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-03-12" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Mar 12</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ02 </span><span class="title">Quiz 2</span>
@@ -62,7 +57,12 @@ template: home
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-03-03" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-03-05" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Mar 5</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL11 </span><span class="title"><a href="/static/slides/CL11.pdf">for Loops</a></span></div><div class="plan Lesson">
+<span class="kind">LS12 </span><span class="title"><a href="https://www.gradescope.com/">for Loops (Due Thursday 3/5)</a></span></div></div>
+</div><div data-type="lecture" data-date="2026-03-03" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Mar 3</div>
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL10 </span><span class="title"><a href="/static/slides/CL10.pdf">Dictionaries</a></span></div><div class="plan Lesson">
