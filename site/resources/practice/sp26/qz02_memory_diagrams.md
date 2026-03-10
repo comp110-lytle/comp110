@@ -18,8 +18,6 @@ template: overview
 1. Create a memory diagram for the following code listing.
 
 ```py
-    """Practice diagram."""
-
     def check_quiz(responses: list[bool]) -> int:
         answer_key: list[bool] = [True, True, False]
         correct: int = 0
@@ -115,40 +113,7 @@ template: overview
 
 1. [Video](https://youtu.be/ZAH1mpf6GKc?si=8BgFglBAlJ4QJJQS)
 
-    <img class="img-fluid" src="/static/practice-mem-diagrams/lists-01-sol.png" alt=""/>
-
-
-    *Image Description*
-
-    The Memory Diagram includes one box titled Output and below that box two columns, the left one titled Stack and the right one titled Heap.
-
-    The Stack includes 3 frames in the following order from top to bottom including Globals, main, and check_quiz.
-
-    The Globals frame has 2 variables including check_quiz and main.
-    - check_quiz has id 0, it is a function on the Heap (lines 1-11).
-    - main points id 1, it is a function on the Heap (lines 14-17).
-
-    The main frame has 4 items including the RA and RV, and variables named my_quiz and grade.
-    - The RA is defined at line 19.
-    - The RV is None.
-    - my_quiz has id 2, it is a list[bool] on the Heap.
-        - Indexes 0, 1, 2 and values True, True, True respectively.
-    - grade is 2.
-
-    The check_quiz frame has 6 items including the RA and RV, and variables named responses, answer_key, correct, and idx.
-    - The RA is defined at line 15.
-    - The RV is 2.
-    - responses has id 2.
-    - answer_key has id 3, it is a list[bool] on the Heap.
-        - Indexes 0, 1, 2 and values True, True, False respectively.
-    - correct is 2.
-        - Previous values of correct include 0 and 1, which are now crossed out.
-    - idx is 3.
-        - Previous values of idx include 0, 1, and 2, which are now crossed out.
-
-    The Heap includes 2 function objects, and 2 list[bool] objects.
-
-    Output includes the phrase: “2 out of 3 questions correct.” 
+    For just the answer, skip to 48:15 in the video linked above.
 
 2. [Video](https://youtu.be/WxRQAmKlESU?si=G-i5_TWdt_Uc9n9n)
 
@@ -165,8 +130,6 @@ template: overview
 1. Create a memory diagram for the following code listing.
 
 ```py
-    """Practice diagram."""
- 
     def count(xs: list[int]) -> dict[int, int]:
         counts: dict[int, int] = {}
         for x in xs:
@@ -175,7 +138,6 @@ template: overview
             else:
                 counts[x] = 1
         return counts
-
 
     numbers: list[int] = [1, 1, 0]
     print(count(numbers))
@@ -209,8 +171,6 @@ template: overview
 3. Create a memory diagram for the following code listing.
 
 ```py
-    """Practice diagram."""
-
     def f(x: dict[str,int]) -> int:
         for y in x:
             x[y] += 1
@@ -230,8 +190,6 @@ template: overview
 4. Create a memory diagram for the following code listing.
 
 ```py
-    """Practice diagram."""
-
     def mystery(x: dict[str,float], y: str) -> str:
         if y in x:
             return str(x[y])
@@ -265,11 +223,11 @@ template: overview
 
 1. [Video](https://youtu.be/vt2BnN2Kttc) 
 
-    <img class="img-fluid" src="/static/practice-mem-diagrams/count_memdiag.png" alt="Memory diagram of code listing with count function"  />
+    For just the answer, skip to 22:18 in the video linked above.
 
 2. [Video](https://youtu.be/J3Ur2GkebUc)
 
-    <img class="img-fluid" src="/static/practice-mem-diagrams/artistcounts_memdiag.png" alt="Memory diagram of code listing with artist_counts function"  />
+    For just the answer, skip to 17:58 in the video linked above.
 
 3. [Video](https://youtu.be/pyl28ClXwfY?si=QwIDQdlgjupNA1R3)
 
