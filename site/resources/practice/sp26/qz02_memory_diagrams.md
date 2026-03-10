@@ -190,8 +190,6 @@ template: overview
 4. Create a memory diagram for the following code listing.
 
 ```py
-    """Practice diagram."""
-
     def mystery(x: dict[str,float], y: str) -> str:
         if y in x:
             return str(x[y])
