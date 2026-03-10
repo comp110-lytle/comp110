@@ -49,6 +49,7 @@ template: home
 <ul class="links"><li class="link"><a href="/resources/practice/sp26/qz02_general_practice.html">General Practice</a></li>
 <li class="link"><a href="/resources/practice/sp26/qz02_memory_diagrams.html">Memory Diagram Practice</a></li>
 <li class="link"><a href="/resources/practice/sp26/qz02_function_practice.html">Function Writing Practice</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/92903380303?pwd=kPSixUoA9CI4vazM1oHWFIp7BJ9Ara.1">Hybrid Review Session on Wed, March 11 from 6-7pm in SN 014 and online (Passcode: 110110)</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2026-04-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 16</div>
