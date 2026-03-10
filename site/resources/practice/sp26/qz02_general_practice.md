@@ -613,9 +613,13 @@ write a line of code to get the number of key/value pairs in the dictionary.
     ```
 
     7.1. (d) An error will occur when this code is run. (`range` and `while` loops are generally incompatible with dictionaries as unlike lists, they are not indexed by sequential integers beginning at 0. In this case `range` produces invalid keys since our keys are of type `str`.)
+
     7.2. (a) `0, 1, 2, 3, 4`
-    7.3. (b) `Wilson, Trimble, Veesaar, Evans, Bogavac`
-    7.4. (c) `8, 7, 13, 0, 44`
+
+    7.3. (c) `8, 7, 13, 0, 44`
+
+    7.4. (b) `Wilson, Trimble, Veesaar, Evans, Bogavac`
+
     7.5. (d) An error will occur when this code is run. (`range` and `while` loops are generally incompatible with dictionaries as unlike lists, they are not indexed by sequential integers beginning at 0. In this case a `while` loop that increments an indexing variable `x` produces invalid keys since our keys are of type `str`.)
 
 
@@ -689,4 +693,65 @@ write a line of code to get the number of key/value pairs in the dictionary.
 
 # Unit Tests (Conceptual Practice Only)
 
-*Coming soon!*
+1. Testing Syntax:
+
+    1.1. What key word do we use within a test function to ensure that a boolean expression is true?
+
+    1.2. What does each test function's name have to begin with?
+
+    1.3. What does each test file's name have to end with?
+
+2. If a function passes all of its associated unit tests, then the function is implemented correctly for all possible inputs (True/False).
+
+3. What is the difference between testing a use case versus an edge case of a function in general?
+
+    a. Testing an edge case is testing a function when it is given expected or normal inputs, while testing a use case is testing a function when it is given unexpected or incorrect inputs to a function, very often an "empty" input.
+
+    b. Testing an edge case is testing a function when it is given unexpected or incorrect inputs to a function, very often an "empty" input, while testing a use case is testing a function when it is given expected or normal inputs.
+
+    c. Testing an edge case is when you test what happens when a function is given an empty input, while testing a use case is when you test what happens when a function is given nonempty input.
+
+    d. None of the above.
+
+4. Consider the following code snippet:
+
+```py
+def fill_list(num: int, length: int) -> list[int]:
+    """Fill a list with a single value."""
+    result: list[int] = []
+
+    i: int = 0
+    while i < length:
+        result.append[num]
+        i += 1
+
+    return result
+
+list_A: list[int] = fill_list(4, 19) 
+list_B: list[int] = fill_list(55, -2)
+list_C: list[int] = fill_list(1, 110)
+```
+
+Which function calls would be considered a use case of this function (list the associated variable name e.g. `list_A`)? Which would be considered edge cases? If there are any edge cases, what result would you get in the associated variable(s)?
+
+
+<details>
+<summary>SOLUTIONS</summary>
+
+1. Question 1 Answers:
+
+    1.1. `assert`
+
+    1.2. `test_`
+
+    1.3. `_test.py`
+
+2. This is False, as unit tests themselves can be incorrect so all tests passing is no guarantee of correctness even for the inputs the unit tests are testing for. Even if the unit tests are correct, there can still be certain inputs that they do not test for and therefore the unit tests cannot assure you that a function will always work properly. Unit tests are a helpful tool that can work well when implemented over a wide range of test inputs, but they must be accompanied by thoughtful implementation of the original function.
+
+3. b. Testing an edge case is testing a function when it is given unexpected or incorrect inputs to a function, very often an "empty" input, while testing a use case is testing a function when it is given expected or normal inputs.
+
+    The reason it is not answer choice c is because while empty vs nonempty inputs is often a distinction between edge cases and use cases, this is not true in all cases (some functions could expect empty inputs, for example).
+
+4. `list_A` and `list_C` would be use cases since this is how we would expect this function to be used and `list_B` would be an edge case as this is essentially attempting to make a function call that would construct a list of negative length since our `length` argument is -2. In this edge case the result would be an empty list since we would never enter the `while` loop. It is possible that this is the intended behavior, or that maybe the original programmer never thought anyone would give a negative argument for `length`.
+
+</details>
