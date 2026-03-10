@@ -445,7 +445,28 @@
     "2026-03-07": [],
     "2026-03-08": [],
     "2026-03-09": [],
-    "2026-03-10": [],
+    "2026-03-10": [
+        {
+            "kind": "CL",
+            "n": 12,
+            "title": "Unit Tests",
+            "date": "2026-03-10",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL12.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Unit Tests (Due Tuesday 3/10)",
+            "date": "2026-03-10",
+            "deadline": "2026-03-10",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2026-03-11": [],
     "2026-03-12": [
         {
