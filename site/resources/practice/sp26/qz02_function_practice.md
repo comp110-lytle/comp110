@@ -149,12 +149,6 @@ Your function, `process_and_reverse_list`, should follow a structured approach t
 * Explicitly type variables, parameters, and return types. 
 * The following REPL examples demonstrate expected functionality of your function:
 
-[Solution](#plus_or_minus_n-solution)
-
-## `free_biscuits`
-
-Write a function called `free_biscuits`. Given a dictionary with `str` keys (representing basketball games) and `list[int]` values (representing points scored by players), `free_biscuits` should return a new dictionary of type `dict[str, bool]` that maps each game to a boolean value for free biscuits. (`True` if the points add up to 100+, `False` if otherwise)  
-Example: `free_biscuits({ “UNCvsDuke”: [38, 20, 42] , “UNCvsState”: [9, 51, 16, 23] })` should return `{ “UNCvsDuke”: True, “UNCvsState”: False }`.
     <pre>
     <div class="terminal">
     >>> test_dict: dict[str,int] = {"a": 2, "b": 4, "c": 7, "d": 1}
@@ -164,6 +158,13 @@ Example: `free_biscuits({ “UNCvsDuke”: [38, 20, 42] , “UNCvsState”: [9, 
     {"a": 6, "b": 8, "c": 3, "d": -3}
     </div>
     </pre>
+
+[Solution](#plus_or_minus_n-solution)
+
+## `free_biscuits`
+
+Write a function called `free_biscuits`. Given a dictionary with `str` keys (representing basketball games) and `list[int]` values (representing points scored by players), `free_biscuits` should return a new dictionary of type `dict[str, bool]` that maps each game to a boolean value for free biscuits. (`True` if the points add up to 100+, `False` if otherwise)  
+Example: `free_biscuits({ “UNCvsDuke”: [38, 20, 42] , “UNCvsState”: [9, 51, 16, 23] })` should return `{ “UNCvsDuke”: True, “UNCvsState”: False }`.
 
 [Solution](#free_biscuits-solution)
 
