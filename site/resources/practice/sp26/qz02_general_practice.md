@@ -620,7 +620,7 @@ write a line of code to get the number of key/value pairs in the dictionary.
 
     7.4. (b) `Wilson, Trimble, Veesaar, Evans, Bogavac`
 
-    7.5. (d) An error will occur when this code is run. (`range` and `while` loops are generally incompatible with dictionaries as unlike lists, they are not indexed by sequential integers beginning at 0. In this case a `while` loop that increments an indexing variable `x` produces invalid keys since our keys are of type `str`.)
+    7.5. (a) `0, 1` (`range` and `while` loops are generally incompatible with dictionaries as unlike lists, they are not indexed by sequential integers beginning at 0. In this case a `while` loop that increments an indexing variable `x` would produce invalid keys since our keys are of type `str`, but we don't use them as keys so no error occurs.)
 
 
 8. `my_dictionary: dict[str, float] = {}` or `my_dictionary: dict[str, float] = dict()`
