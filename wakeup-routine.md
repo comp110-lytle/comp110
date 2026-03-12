@@ -66,7 +66,7 @@ author:
 
   * In Gradescope
     * When ready for students import from Canvas
-  * Course.Care
+  * CSXL: Import roster
     
   * GitHub
     * Create a new org: comp110-YYt eg comp110-20f
