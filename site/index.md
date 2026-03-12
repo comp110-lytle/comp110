@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS13 - TUE, MAR 10 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/sp26/qz02_general_practice.html">QZ02 - THU, MAR 12 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/practice/sp26/qz02_general_practice.html">QZ02 - THU, MAR 12 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -49,7 +49,7 @@ template: home
 <ul class="links"><li class="link"><a href="/resources/practice/sp26/qz02_general_practice.html">General Practice</a></li>
 <li class="link"><a href="/resources/practice/sp26/qz02_memory_diagrams.html">Memory Diagram Practice</a></li>
 <li class="link"><a href="/resources/practice/sp26/qz02_function_practice.html">Function Writing Practice</a></li>
-<li class="link"><a href="https://unc.zoom.us/j/92903380303?pwd=kPSixUoA9CI4vazM1oHWFIp7BJ9Ara.1">Hybrid Review Session on Wed, March 11 from 6-7pm in SN 014 and online (Passcode: 110110)</a></li>
+<li class="link"><a href="https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fd806ce6-e76f-4833-8d7b-b40a018204c2">Review Session Recording</a></li>
 </ul></div></div>
 </div><div data-type="lecture" data-date="2026-04-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 16</div>
