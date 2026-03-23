@@ -493,7 +493,28 @@
     "2026-03-21": [],
     "2026-03-22": [],
     "2026-03-23": [],
-    "2026-03-24": [],
+    "2026-03-24": [
+        {
+            "kind": "CL",
+            "n": 13,
+            "title": "Intro to OOP",
+            "date": "2026-03-24",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL13.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 14,
+            "title": "Intro to OOP (Due Tuesday 3/24)",
+            "date": "2026-03-24",
+            "deadline": "2026-03-24",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2026-03-25": [],
     "2026-03-26": [],
     "2026-03-27": [],

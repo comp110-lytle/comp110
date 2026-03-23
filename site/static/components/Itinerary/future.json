@@ -1,55 +1,29 @@
 {
-    "2026-03-08": [],
-    "2026-03-09": [],
-    "2026-03-10": [
+    "2026-03-21": [],
+    "2026-03-22": [],
+    "2026-03-23": [],
+    "2026-03-24": [
         {
             "kind": "CL",
-            "n": 12,
-            "title": "Unit Tests",
-            "date": "2026-03-10",
+            "n": 13,
+            "title": "Intro to OOP",
+            "date": "2026-03-24",
             "deadline": "None",
             "links": {
-                "": "/static/slides/CL12.pdf"
+                "": "/static/slides/CL13.pdf"
             }
         },
         {
             "kind": "LS",
-            "n": 13,
-            "title": "Unit Tests (Due Tuesday 3/10)",
-            "date": "2026-03-10",
-            "deadline": "2026-03-10",
+            "n": 14,
+            "title": "Intro to OOP (Due Tuesday 3/24)",
+            "date": "2026-03-24",
+            "deadline": "2026-03-24",
             "links": {
                 "": "https://www.gradescope.com/"
             }
         }
     ],
-    "2026-03-11": [],
-    "2026-03-12": [
-        {
-            "kind": "QZ",
-            "n": 2,
-            "title": "Quiz 2",
-            "date": "2026-03-12",
-            "deadline": "2026-03-12",
-            "links": {
-                "General Practice": "/resources/practice/sp26/qz02_general_practice.html",
-                "Memory Diagram Practice": "/resources/practice/sp26/qz02_memory_diagrams.html",
-                "Function Writing Practice": "/resources/practice/sp26/qz02_function_practice.html"
-            }
-        }
-    ],
-    "2026-03-13": [],
-    "2026-03-14": [],
-    "2026-03-15": [],
-    "2026-03-16": [],
-    "2026-03-17": [],
-    "2026-03-18": [],
-    "2026-03-19": [],
-    "2026-03-20": [],
-    "2026-03-21": [],
-    "2026-03-22": [],
-    "2026-03-23": [],
-    "2026-03-24": [],
     "2026-03-25": [],
     "2026-03-26": [],
     "2026-03-27": [],
