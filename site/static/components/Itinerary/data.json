@@ -514,6 +514,16 @@
             "links": {
                 "": "https://www.gradescope.com/"
             }
+        },
+        {
+            "kind": "EX",
+            "n": 6,
+            "title": "Dictionary Unit Tests (Due Monday 3/30)",
+            "date": "2026-03-24",
+            "deadline": "2026-03-30",
+            "links": {
+                "": "/exercises/dict-util_tests.html"
+            }
         }
     ],
     "2026-03-25": [],
