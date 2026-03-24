@@ -2,7 +2,7 @@
 title: Setting Up a Personal Website
 author:
   - Alyssa Lytle
-layout: page
+template: overview
 ---
 
 
