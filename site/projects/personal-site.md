@@ -2,15 +2,18 @@
 title: Setting Up a Personal Website
 author:
   - Alyssa Lytle
+page: exercises
 template: overview
 ---
 
+# Instructions
 
-# Clone the Repo
+## 1. Clone the Repo
 
 Open a new Visual Studio window and clone the following repo: [https://github.com/AlyssaLytle/personal-site.github.io.git](https://github.com/AlyssaLytle/personal-site.github.io.git)
 
-# Creating a Github repository for your site named `<github-username>.github.io`
+## 2. Create a Github repository for your site 
+ <!-- named `<github-username>.github.io` -->
 Now you need to connect this directory to Github!
 
 1. Navigate to [https://github.com/](https://github.com/) and click on the "New" button to create a new repository.
@@ -20,7 +23,7 @@ Now you need to connect this directory to Github!
 3. Click "Create Repository"
 
 
-# Linking Your Site to Github
+## 3. Link Your Site to Github
 
 Now we want to link the site you just cloned to visual studio to Github!
 
@@ -33,7 +36,7 @@ Now we want to link the site you just cloned to visual studio to Github!
 4. Commit your changes and push to origin!
 
 
-# Configure a publishing source for your GitHub Pages site
+## 4. Configure a publishing source for your GitHub Pages site
 
 *(It is possible that this step will be automated for you! You can check by going to your site URL: `<github-username>.github.io` and seeing if anything shows up!)*
 
@@ -47,7 +50,7 @@ Follow steps 1-8 [here](https://docs.github.com/en/pages/getting-started-with-gi
 After you do this, your site should be live at `https://<github-username>.github.io`
 
 
-# Add Content + Make it Pretty
+## 5. Add Content + Make it Pretty
 You'll want to start by modifying the `_config.yml` file to add some info about yourself!
 
 You can also change the Jekyll theme of your site to style it!
