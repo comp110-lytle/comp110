@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS14 - TUE, MAR 24 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-util_tests.html">EX06 - MON, MAR 30 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/cqs/oop-mutable.html">CQ03 - THU, MAR 26 11:59pm</a></li><li class="horizon-item"><a href="/exercises/dict-util_tests.html">EX06 - MON, MAR 30 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -43,6 +43,11 @@ template: home
 <span class="kind">CL13 </span><span class="title"><a href="/static/slides/CL13.pdf">Intro to OOP</a></span></div><div class="plan Lesson">
 <span class="kind">LS14 </span><span class="title"><a href="https://www.gradescope.com/">Intro to OOP (Due Tuesday 3/24)</a></span></div><div class="plan Exercise">
 <span class="kind">EX06 </span><span class="title"><a href="/exercises/dict-util_tests.html">Dictionary Unit Tests (Due Monday 3/30)</a></span></div></div>
+</div><div data-type="lecture" data-date="2026-03-26" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Mar 26</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL14 </span><span class="title"><a href="/">More on OOP</a></span></div><div class="plan Challenge Question">
+<span class="kind">CQ03 </span><span class="title"><a href="/cqs/oop-mutable.html">OOP (Due Thursday 3/26)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-04-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 16</div>
 <div class="plans col-md-9"><div class="plan Quiz">
