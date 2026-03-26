@@ -46,7 +46,7 @@ template: home
 </div><div data-type="lecture" data-date="2026-03-26" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Mar 26</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL14 </span><span class="title"><a href="/">More on OOP</a></span></div><div class="plan Challenge Question">
+<span class="kind">CL14 </span><span class="title"><a href="/static/slides/CL14.pdf">More on OOP</a></span></div><div class="plan Challenge Question">
 <span class="kind">CQ03 </span><span class="title"><a href="/cqs/oop-mutable.html">OOP (Due Thursday 3/26)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-04-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 16</div>

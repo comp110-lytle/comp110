@@ -10,7 +10,7 @@ from graders.helpers import assert_return_type
 import inspect
 
 
-MODULE = "CQs.cq09.point"
+MODULE = "CQs.cq03.point"
 
 
 @mark.weight(0)
