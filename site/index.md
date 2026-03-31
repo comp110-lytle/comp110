@@ -42,11 +42,17 @@ template: home
 <div class="plans col-md-9"><div class="plan Class">
 <span class="kind">CL15 </span><span class="title"><a href="/static/slides/CL15.pdf">Magic Methods</a></span></div><div class="plan Lesson">
 <span class="kind">LS15 </span><span class="title"><a href="https://www.gradescope.com/">Magic Methods (Due Tuesday 3/31)</a></span></div><div class="plan Lesson">
-<span class="kind">LS16 </span><span class="title"><a href="https://www.gradescope.com/">Class Survey (Due Tuesday 4/7)</a></span></div></div>
+<span class="kind">LS16 </span><span class="title"><a href="https://www.gradescope.com/">Class Survey (Due Tuesday 4/7)</a></span></div><div class="plan Exercise">
+<span class="kind">EX07 </span><span class="title"><a href="/exercises/river-sim-mm.html">River Simulation (Due Thursday 4/9)</a></span></div></div>
+</div><div data-type="lecture" data-date="2026-04-09" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Apr 9</div>
+<div class="plans col-md-9"><div class="plan Exercise">
+<span class="kind">EX08 </span><span class="title"><a href="/">Linked List Utility Functions (Due Wednesday 4/15)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-04-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 16</div>
 <div class="plans col-md-9"><div class="plan Quiz">
-<span class="kind">QZ03 </span><span class="title">Quiz 3</span></div></div>
+<span class="kind">QZ03 </span><span class="title">Quiz 3</span></div><div class="plan Exercise">
+<span class="kind">EX09 </span><span class="title"><a href="/">Data Project (Due Monday 4/27)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-04-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 30</div>
 <div class="plans col-md-9"><div class="plan Final">

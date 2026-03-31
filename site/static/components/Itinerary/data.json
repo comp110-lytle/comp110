@@ -583,6 +583,16 @@
             "links": {
                 "": "https://www.gradescope.com/"
             }
+        },
+        {
+            "kind": "EX",
+            "n": 7,
+            "title": "River Simulation (Due Thursday 4/9)",
+            "date": "2026-03-31",
+            "deadline": "2026-04-09",
+            "links": {
+                "": "/exercises/river-sim-mm.html"
+            }
         }
     ],
     "2026-04-01": [],
@@ -593,7 +603,18 @@
     "2026-04-06": [],
     "2026-04-07": [],
     "2026-04-08": [],
-    "2026-04-09": [],
+    "2026-04-09": [
+        {
+            "kind": "EX",
+            "n": 8,
+            "title": "Linked List Utility Functions (Due Wednesday 4/15)",
+            "date": "2026-04-09",
+            "deadline": "2026-04-15",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2026-04-10": [],
     "2026-04-11": [],
     "2026-04-12": [],
@@ -608,6 +629,16 @@
             "date": "2026-04-16",
             "deadline": "2026-04-16",
             "links": {}
+        },
+        {
+            "kind": "EX",
+            "n": 9,
+            "title": "Data Project (Due Monday 4/27)",
+            "date": "2026-04-16",
+            "deadline": "2026-04-27",
+            "links": {
+                "": "/"
+            }
         }
     ],
     "2026-04-17": [],
