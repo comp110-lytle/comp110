@@ -553,7 +553,28 @@
     "2026-03-28": [],
     "2026-03-29": [],
     "2026-03-30": [],
-    "2026-03-31": [],
+    "2026-03-31": [
+        {
+            "kind": "CL",
+            "n": 15,
+            "title": "Magic Methods",
+            "date": "2026-03-31",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL15.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 15,
+            "title": "Magic Methods (Due Tuesday 3/31)",
+            "date": "2026-03-31",
+            "deadline": "2026-03-31",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2026-04-01": [],
     "2026-04-02": [],
     "2026-04-03": [],

@@ -493,5 +493,61 @@
     "2026-03-20": [],
     "2026-03-21": [],
     "2026-03-22": [],
-    "2026-03-23": []
+    "2026-03-23": [],
+    "2026-03-24": [
+        {
+            "kind": "CL",
+            "n": 13,
+            "title": "Intro to OOP",
+            "date": "2026-03-24",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL13.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 14,
+            "title": "Intro to OOP (Due Tuesday 3/24)",
+            "date": "2026-03-24",
+            "deadline": "2026-03-24",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 6,
+            "title": "Dictionary Unit Tests (Due Monday 3/30)",
+            "date": "2026-03-24",
+            "deadline": "2026-03-30",
+            "links": {
+                "": "/exercises/dict-util_tests.html"
+            }
+        }
+    ],
+    "2026-03-25": [],
+    "2026-03-26": [
+        {
+            "kind": "CL",
+            "n": 14,
+            "title": "More on OOP",
+            "date": "2026-03-26",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL14.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 3,
+            "title": "OOP (Due Thursday 3/26)",
+            "date": "2026-03-26",
+            "deadline": "2026-03-26",
+            "links": {
+                "": "/cqs/oop-mutable.html"
+            }
+        }
+    ],
+    "2026-03-27": []
 }

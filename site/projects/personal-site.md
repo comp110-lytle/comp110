@@ -18,7 +18,9 @@ Now you need to connect this directory to Github!
 
 1. Navigate to [https://github.com/](https://github.com/) and click on the "New" button to create a new repository.
 
-2. Name your repository `<github-username>.github.io` where `<github-username>` is your github username and choose whether or not your repo will be Public or Private. (This will not impact who can see your site. It'll just impact who can see the *repository* for your site.) It's probably best to set your visibility to Private. This will give you some permission limitations when pulling/pushing to github though, so you'll have to [set up an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) and use it to connect your Github account with your computer.
+2. Name your repository `<github-username>.github.io` where `<github-username>` is your github username and set your repo to be Public. 
+
+<!-- (This will not impact who can see your site. It'll just impact who can see the *repository* for your site.) It's probably best to set your visibility to Private. This will give you some permission limitations when pulling/pushing to github though, so you'll have to [set up an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) and use it to connect your Github account with your computer. -->
 
 3. Click "Create Repository"
 
@@ -31,7 +33,7 @@ Now we want to link the site you just cloned to visual studio to Github!
 
 2. Open the command palette, and type `Git: Initialize Repository` you can select `<site-name>` as your workspace folder.
 
-3. Open the command palette again and type `Git: Add Remote` and input the link to your git repo (`https://github.com/<github-username>/<github-username>.github.io.git`). When prompted, you can name your remote "origin".
+3. Open the command palette again and type `Git: Add Remote` and input the link to your git repo (`https://github.com/<github-username>/<github-username>.github.io.git`). When prompted, you can name your remote "main".
 
 4. Commit your changes and push to origin!
 
