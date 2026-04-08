@@ -80,7 +80,7 @@ For your actual assignment webpage, you'll want to edit the `index.md` file. The
 
 
 
-### Optiona Styling
+### Optional Styling
 You can also change the Jekyll theme of your site to style it!
 Here is a list of the currently supported themes: [https://pages.github.com/themes/](https://pages.github.com/themes/). Click on the Theme you want and it'll give you instructions on how to install it!
 
