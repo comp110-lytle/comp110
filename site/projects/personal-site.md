@@ -18,7 +18,7 @@ Open a new Visual Studio window and clone the following repo: [https://github.co
 
 1. Navigate to [https://github.com/](https://github.com/) and click on the "New" button to create a new repository.
 
-2. Name your repository `<github-username>.github.io` where `<github-username>` is your github username and chose whether or not to set your repo to be Public or Private--it's your choice!. 
+2. Name your repository `<github-username>.github.io` where `<github-username>` is your github username and choose whether or not to set your repo to be Public or Private--it's your choice!. 
 
 (This will not impact who can see your site. It'll just impact who can see the *repository* for your site.) It's probably best to set your visibility to Private. This will give you some permission limitations when pulling/pushing to github though, so you'll have to [set up an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) and use it to connect your Github account with your computer.
 
@@ -35,13 +35,23 @@ Now you want to create a separate repository for your course project. You will h
 
 
 
-## 4. Link Your Site to Github
+## 4. Publish Your Site to Github
 
 Now we want to link the site you just cloned to visual studio to Github!
 
-1. Open Visual Studio and then open the directory that you just cloned.
+Open Visual Studio and then open the directory that you just cloned.
 
-2. Open the command palette, and type `Git: Initialize Repository` you can select `<site-name>` as your workspace folder.
+### 4.1 Update Your Site Configuration
+
+1. Open the file `_config.yml`
+
+2. Modify the line `baseurl: ""` to be `baseurl: "/<custom-path>"` where `<custom-path>` is the path you chose before.
+
+3. Modify the line `url: ""` to be `<github-username>.github.io` where `<github-username>` is your github username.
+
+
+### 4.2 Link to Github
+ Open the command palette, and type `Git: Initialize Repository` you can select `<site-name>` as your workspace folder.
 
 3. Open the command palette again and type `Git: Add Remote` and input the link to your git repo (`https://github.com/<github-username>/<custom-path>`). When prompted, you can name your remote "main".
 
@@ -50,7 +60,7 @@ Now we want to link the site you just cloned to visual studio to Github!
 
 ## 5. Configure a publishing source for your GitHub Pages site
 
-*(It is possible that this step will be automated for you! You can check by going to your site URL: `<github-username>.github.io/<custom-path>` and seeing if anything shows up!)*
+*(It is possible that this step will be automated for you! You can check by going to your site URL: `<github-username>.github.io/<custom-path>` and seeing if anything shows up! It may take a few minutes.)*
 
 
 Follow steps 1-8 [here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch). For step 1, you can choose your "main" branch.
