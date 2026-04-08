@@ -53,9 +53,9 @@ Open Visual Studio and then open the directory that you just cloned.
 ### 4.2 Link to Github
  Open the command palette, and type `Git: Initialize Repository` you can select `<site-name>` as your workspace folder.
 
-3. Open the command palette again and type `Git: Add Remote` and input the link to your git repo (`https://github.com/<github-username>/<custom-path>`). When prompted, you can name your remote "main".
+1. Open the command palette again and type `Git: Add Remote` and input the link to your git repo (`https://github.com/<github-username>/<custom-path>`). When prompted, you can name your remote "main".
 
-4. Commit your changes and push to origin!
+2. Commit your changes and push to origin!
 
 
 ## 5. Configure a publishing source for your GitHub Pages site
@@ -77,7 +77,6 @@ After you do this, your site should be live at `https://<github-username>.github
 You'll want to start by further modifying the `_config.yml` file to add some info about yourself!
 
 For your actual assignment webpage, you'll want to edit the `index.md` file. The language you will be using to write this is called markdown. There's some guidance in the file for basic syntax.
-
 
 
 ### Optional Styling
