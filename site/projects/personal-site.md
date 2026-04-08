@@ -73,8 +73,14 @@ After you do this, your site should be live at `https://<github-username>.github
 
 
 ## 6. Add Content + Make it Pretty
-You'll want to start by modifying the `_config.yml` file to add some info about yourself!
 
+You'll want to start by further modifying the `_config.yml` file to add some info about yourself!
+
+For your actual assignment webpage, you'll want to edit the `index.md` file. The language you will be using to write this is called markdown. There's some guidance in the file for basic syntax.
+
+
+
+### Optiona Styling
 You can also change the Jekyll theme of your site to style it!
 Here is a list of the currently supported themes: [https://pages.github.com/themes/](https://pages.github.com/themes/). Click on the Theme you want and it'll give you instructions on how to install it!
 
