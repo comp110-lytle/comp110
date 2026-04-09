@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="https://www.gradescope.com/">LS16 - TUE, APR 07 11:59pm</a></li><li class="horizon-item"><a href="/exercises/river-sim-mm.html">EX07 - THU, APR 09 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/river-sim-mm.html">EX07 - THU, APR 09 11:59pm</a></li><li class="horizon-item"><a href="/exercises/linked-list-utils.html">EX08 - WED, APR 15 11:59pm</a></li><li class="horizon-item"><span>QZ03 - THU, APR 16 11:59pm</span></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -44,7 +44,7 @@ template: home
 </div><div data-type="lecture" data-date="2026-04-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 9</div>
 <div class="plans col-md-9"><div class="plan Exercise">
-<span class="kind">EX08 </span><span class="title"><a href="/">Linked List Utility Functions (Due Wednesday 4/15)</a></span></div></div>
+<span class="kind">EX08 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked List Utility Functions (Due Wednesday 4/15)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-04-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 16</div>
 <div class="plans col-md-9"><div class="plan Quiz">
