@@ -40,10 +40,15 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-04-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Apr 7</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL16 </span><span class="title"><a href="/static/slides/CL16.pdf">Recursive Structures</a></span></div></div>
+<span class="kind">CL16 </span><span class="title">Class Writing + Recursive Structures</span>
+<ul class="links"><li class="link"><a href="/static/slides/CL16.pdf">Recursive Structures Slides</a></li>
+<li class="link"><a href="/static/slides/ClassWritingPractice.pdf">Class Writing Practice</a></li>
+<li class="link"><a href="/resources/practice/sp26-in-class-code-writing.html">Class Writing Code</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2026-04-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 9</div>
-<div class="plans col-md-9"><div class="plan Exercise">
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL17 </span><span class="title"><a href="/static/slides/CL16.pdf">Recursive Structures Continued</a></span></div><div class="plan Exercise">
 <span class="kind">EX08 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked List Utility Functions (Due Wednesday 4/15)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-04-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 16</div>
