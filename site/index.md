@@ -42,8 +42,7 @@ template: home
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>
 <ul class="links"><li class="link"><a href="/resources/practice/sp26/qz03_general_practice.html">Practice Problems</a></li>
-<li class="link"><a href="/resources/practice/MemDiagrams.html">Practice Diagrams</a></li>
-<li class="link"><a href="https://youtu.be/ZibqfUNEP4E">Review Session Recording</a></li>
+<li class="link"><a href="/resources/practice/sp26/qz03_memory_diagrams.html">Practice Diagrams</a></li>
 </ul></div><div class="plan Exercise">
 <span class="kind">EX09 </span><span class="title"><a href="/">Data Project (Due Monday 4/27)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-04-30" class="row itinerary-row py-2">
