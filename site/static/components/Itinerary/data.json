@@ -651,7 +651,11 @@
             "title": "Quiz 3",
             "date": "2026-04-16",
             "deadline": "2026-04-16",
-            "links": {}
+            "links": {
+                "Practice Problems": "/resources/practice/sp26/qz03_general_practice.html",
+                "Practice Diagrams": "/resources/practice/MemDiagrams.html",
+                "Review Session Recording": "https://youtu.be/ZibqfUNEP4E"
+            }
         },
         {
             "kind": "EX",

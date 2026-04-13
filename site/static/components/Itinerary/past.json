@@ -600,5 +600,43 @@
     "2026-04-03": [],
     "2026-04-04": [],
     "2026-04-05": [],
-    "2026-04-06": []
+    "2026-04-06": [],
+    "2026-04-07": [
+        {
+            "kind": "CL",
+            "n": 16,
+            "title": "Class Writing + Recursive Structures",
+            "date": "2026-04-07",
+            "deadline": "None",
+            "links": {
+                "Recursive Structures Slides": "/static/slides/CL16.pdf",
+                "Class Writing Practice": "/static/slides/ClassWritingPractice.pdf",
+                "Class Writing Code": "/resources/practice/sp26-in-class-code-writing.html"
+            }
+        }
+    ],
+    "2026-04-08": [],
+    "2026-04-09": [
+        {
+            "kind": "CL",
+            "n": 17,
+            "title": "Recursive Structures Continued",
+            "date": "2026-04-09",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL16.pdf"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 8,
+            "title": "Linked List Utility Functions (Due Wednesday 4/15)",
+            "date": "2026-04-09",
+            "deadline": "2026-04-15",
+            "links": {
+                "": "/exercises/linked-list-utils.html"
+            }
+        }
+    ],
+    "2026-04-10": []
 }
