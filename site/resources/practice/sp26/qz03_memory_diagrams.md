@@ -82,11 +82,11 @@ template: overview
 
 1. Dog and Cat memory diagram solution (see the solution video [here](https://youtu.be/_S1ISCVHdic)!).
 
-<!-- <img class="img-fluid" src="/static/practice/qz03_practice/dog_cat.png" alt="Memory diagram of code listing with Dog and Cat classes."  /> -->
+<img class="img-fluid" src="/static/practice-mem-diagrams/dog_cat.png" alt="Memory diagram of code listing with Dog and Cat classes."  />
 
 2. Concert memory diagram solution (see the solution video [here](https://youtu.be/Fr0lF3o9u5o)!).
 
-<!-- <img class="img-fluid" src="/static/practice/qz03_practice/concert.png" alt="Memory diagram of code listing with Concert classes."  /> -->
+<img class="img-fluid" src="/static/practice-mem-diagrams/concert.png" alt="Memory diagram of code listing with Concert classes."  />
 
 </details>
 
@@ -147,7 +147,7 @@ template: overview
 <details>
 <summary>SOLUTION</summary>
 
-<img class="img-fluid" src="/static/practice/qz04_practice/castle_soln.png" alt="Memory diagram of code listing with Guard and Castle classes."  />
+<img class="img-fluid" src="/static/practice-mem-diagrams/castle_soln.png" alt="Memory diagram of code listing with Guard and Castle classes."  />
 
 </details>
 
@@ -189,6 +189,6 @@ template: overview
 <details>
 <summary>SOLUTION</summary>
 
-<img class="img-fluid" src="/static/practice/qz04_practice/linked_list_soln.png" alt="Memory diagram of code listing of linked list."  />
+<img class="img-fluid" src="/static/practice-mem-diagrams/linked_list_soln.png" alt="Memory diagram of code listing of linked list."  />
 
 </details>
