@@ -37,7 +37,11 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-04-16" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-04-14" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Apr 14</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL18 </span><span class="title"><a href="/static/slides/CL18.pdf">Reading and Working With Data</a></span></div></div>
+</div><div data-type="lecture" data-date="2026-04-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 16</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>
