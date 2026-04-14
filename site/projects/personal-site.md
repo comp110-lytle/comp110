@@ -93,7 +93,8 @@ For your actual assignment webpage, you'll want to edit the `index.md` file. The
 You can also change the Jekyll theme of your site to style it!
 Here is a list of the currently supported themes: [https://pages.github.com/themes/](https://pages.github.com/themes/). Click on the Theme you want and it'll give you instructions on how to install it!
 
-*(I'll add more here later.)*
 
 # More Info
 More info for general debugging can be found [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll?platform=mac)
+
+For this assignment, you created an empty repository named `<github-username>.github.io`. If you want to actually populate that repository and host a personal/professional website on Github, you can find instructions to do so [here](https://alyssalytle.github.io/resources/personal-site.html).
