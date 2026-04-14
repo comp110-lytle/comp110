@@ -10,7 +10,18 @@ template: overview
 
 ## 1. Clone the Repo
 
-Open a new Visual Studio window and clone the following repo: [https://github.com/AlyssaLytle/personal-site.github.io.git](https://github.com/AlyssaLytle/personal-site.github.io.git)
+You are going to create a new repository *outside* of your Comp110 workspace. 
+
+1. Open a new Visual Studio window by clicking the _File_ menu in the top bar and selecting _New Window_. 
+
+
+2. Under the _Start_ menu, click _Clone Git Repository..._
+
+3. The command pallette should open at the top prompting you for a URL. Copy/Paste the following URL:
+
+[https://github.com/AlyssaLytle/personal-site.github.io.git](https://github.com/AlyssaLytle/personal-site.github.io.git)
+
+4. Select a destination to save the new repository and open the repository when prompted.
 
 ## 2. Create a Home Github repository for your site 
  <!-- named `<github-username>.github.io` -->
@@ -18,14 +29,13 @@ Open a new Visual Studio window and clone the following repo: [https://github.co
 
 1. Navigate to [https://github.com/](https://github.com/) and click on the "New" button to create a new repository.
 
-2. Name your repository `<github-username>.github.io` where `<github-username>` is your github username and choose whether or not to set your repo to be Public or Private--it's your choice!. 
+2. Name your repository `<github-username>.github.io` where `<github-username>` is your github username and choose whether or not to set your repo to be Public or Private--it's your choice!
 
-(This will not impact who can see your site. It'll just impact who can see the *repository* for your site.) It's probably best to set your visibility to Private. This will give you some permission limitations when pulling/pushing to github though, so you'll have to [set up an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) and use it to connect your Github account with your computer.
-
+(This will not impact who can see your site. It'll just impact who can see the *repository* for your site.) It's probably best to set your visibility to Private.)
 
 3. Click "Create Repository"
 
-## 3. Great a Github Repository for your Project
+## 3. Great a Second Github Repository for your Project
 
 Now you want to create a separate repository for your course project. You will have a special url like: `<github-username>.github.io/<custom-path>`. You get to pick the `<custom-path>` for your site!
 
@@ -76,7 +86,7 @@ After you do this, your site should be live at `https://<github-username>.github
 
 You'll want to start by further modifying the `_config.yml` file to add some info about yourself!
 
-For your actual assignment webpage, you'll want to edit the `index.md` file. The language you will be using to write this is called markdown. There's some guidance in the file for basic syntax.
+For your actual assignment webpage, you'll want to edit the `index.md` file. The language you will be using to write this is called markdown--the same language you used in your Jupyter notebook text cells! There's some guidance in the file for basic syntax.
 
 
 ### Optional Styling
