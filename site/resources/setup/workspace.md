@@ -76,17 +76,17 @@ VSCode can be customized with extensions specific to the types of work you use i
 
 ## 4. Setup your Workspace in Visual Studio Code
 
-2. In VSCode, from the _View_ menu and select _Command Palette_
+1. In VSCode, open the _View_ menu and select _Command Palette_
    - You'll use the Command Palette a lot so it's worth trying to remember its shortcut!
    - Windows: `Control+Shift+P`
    - Mac: `Command+Shift+P`
-3. Type in "Git: Clone" (without the quotes) and press `Enter`.
+2. Type in "Git: Clone" (without the quotes) and press `Enter`.
    - If you do not see this option after installing course software previously, try rebooting your computer.
-4. Copy the following URL: `https://github.com/26s-comp110/comp110-26s-workspace.git`
+3. Copy the following URL: `https://github.com/26s-comp110/comp110-26s-workspace.git`
    - Right Click and Paste the copied URL into the text box that appeared in VS Code after the previous step.
    - Or use the Paste keyboard shortcut: `Control+V` Windows / `Command+V` Mac
-5. Press Enter and you will be asked where you want your course workspace repository to be saved on your computer. Accepting the default suggestion is OK, but if you have a folder you would prefer to keep the course work go ahead and select it. **Please don't move this workspace until after the semester has ended.**
-6. Press OK when asked if you would like to open the repository after it downloads.
+4. Press Enter and you will be asked where you want your course workspace repository to be saved on your computer. Accepting the default suggestion is OK, but if you have a folder you would prefer to keep the course work go ahead and select it. **Please don't move this workspace until after the semester has ended.**
+5. Press OK when asked if you would like to open the repository after it downloads.
 
 ## 5. Setup your Backup Workspace on GitHub
 
