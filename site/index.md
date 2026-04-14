@@ -60,7 +60,10 @@ template: home
 <h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-04-09" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 9</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL17 </span><span class="title"><a href="/static/slides/CL16.pdf">Recursive Structures Continued</a></span></div><div class="plan Exercise">
+<span class="kind">CL17 </span><span class="title">Recursive Structures Continued</span>
+<ul class="links"><li class="link"><a href="/static/slides/CL16.pdf">Slides</a></li>
+<li class="link"><a href="/static/slides/CL16-diagram.pdf">Diagram</a></li>
+</ul></div><div class="plan Exercise">
 <span class="kind">EX08 </span><span class="title"><a href="/exercises/linked-list-utils.html">Linked List Utility Functions (Due Wednesday 4/15)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-04-07" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Apr 7</div>

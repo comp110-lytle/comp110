@@ -624,7 +624,8 @@
             "date": "2026-04-09",
             "deadline": "None",
             "links": {
-                "": "/static/slides/CL16.pdf"
+                "Slides": "/static/slides/CL16.pdf",
+                "Diagram": "/static/slides/CL16-diagram.pdf"
             }
         },
         {
