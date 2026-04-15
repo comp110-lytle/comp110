@@ -87,7 +87,7 @@ Follow steps 1-8 [here](https://docs.github.com/en/pages/getting-started-with-gi
 
 <img class="img-fluid" src="/static/assets/f23/pages-branch.png" alt="Image of Github Pages settings page under the 'branch' header. 'main' is selected as the branch. "  /> -->
 
-After you do this, your site should be live at `https://<github-username>.github.io`
+After you do this, your site should be live at `https://<github-username>.github.io/<custom-path>`
 
 
 ## 6. Add Content + Make it Pretty
