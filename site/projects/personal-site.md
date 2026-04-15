@@ -64,16 +64,13 @@ Open Visual Studio and then open the directory that you just cloned.
 
 1. Open the command palette, and type `Git: Initialize Repository` you can select `personal-site.github.io` as your workspace folder.
 
-2. Open the command palette again and type `Git: Add Remote` and input the link to your git repo (`https://github.com/<github-username>/<custom-path>`). When prompted, you can name your remote "main".
+2. Open the command palette again and type `Git: Add Remote`.
 
-3. Commit your changes and push:
-    1. Open the Source Control panel (Command Palette: "Show SCM" or click the icon with three circles and lines on the activity panel).
-    2. Notice the files listed under Changes. These are files you've made modifications to since your last backup.
-    3. Move your mouse's cursor over the word _Changes_ and notice the + symbol that appears. Click that plus symbol to add all changes to the next backup. You will now see the files listed under "Staged Changes".
-          - If you do not want to backup _all_ changed files, you can select them individually. For this course you're encouraged to back everything up.
-    4. In the Message box above the _Commit_ button, give a brief description of what you've changed and are backing up. This will help you find a specific backup (called a "commit") if needed. In this case a message such as, "Progress on Exercise 3" will suffice. 
-    5. Press the Check icon to make a _Commit_ (a version) of your work.
-    6. Finally, press the Ellipses icon (...), look for "Pull/Push" submenu, and select "Push to...", and in the dropdown select main.
+3. In the blank text box that appears, paste in the URL to your new repository that you just created. (`https://github.com/<github-username>/<custom-path>`) Press enter.
+4. When asked for "Remote name" type in: `personal`
+5. Open a new terminal tab, from the _Command Palette_ select "Terminal: Create New Terminal"
+6. In the terminal that pops up, type: `git push --set-upstream personal main` then press enter (two dashes in the of `--set-upstream`). This command backs your work up to your GitHub repository.
+
 
 
 ## 5. Configure a publishing source for your GitHub Pages site
