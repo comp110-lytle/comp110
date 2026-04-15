@@ -57,7 +57,7 @@ Open Visual Studio and then open the directory that you just cloned.
 
 2. Modify the line `baseurl: ""` to be `baseurl: "/<custom-path>"` where `<custom-path>` is the path you chose before.
 
-3. Modify the line `url: ""` to be `<github-username>.github.io` where `<github-username>` is your github username.
+3. Modify the line `url: ""` to be `url: "<github-username>.github.io"` where `<github-username>` is your github username.
 
 
 ### 4.2 Link to Github
