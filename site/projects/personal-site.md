@@ -35,7 +35,7 @@ You are going to create a new repository *outside* of your Comp110 workspace.
 
 3. Click "Create Repository"
 
-## 3. Great a Second Github Repository for your Project
+## 3. Create a Second Github Repository for your Project
 
 Now you want to create a separate repository for your course project. You will have a special url like: `<github-username>.github.io/<custom-path>`. You get to pick the `<custom-path>` for your site!
 
