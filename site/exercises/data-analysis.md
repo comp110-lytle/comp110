@@ -11,7 +11,7 @@ page: projects
 template: overview
 ---
 
-### Overview
+
 
 Courses such as COMP110, just like organizations, services, and products, can be improved through intentional iteration on their design in order to _create more value_ for its stakeholders. This practice is generally known as _continuous improvement_. 
 
