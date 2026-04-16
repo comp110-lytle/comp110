@@ -665,17 +665,18 @@
             "deadline": "2026-04-16",
             "links": {
                 "Practice Problems": "/resources/practice/sp26/qz03_general_practice.html",
-                "Practice Diagrams": "/resources/practice/sp26/qz03_memory_diagrams.html"
+                "Practice Diagrams": "/resources/practice/sp26/qz03_memory_diagrams.html",
+                "Review Session Recording": "https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b8d9737d-c2b9-417f-849b-b42e0006cf5d&start=0"
             }
         },
         {
             "kind": "EX",
             "n": 9,
-            "title": "Data Project (Due Monday 4/27)",
+            "title": "Data Analysis for Continuous Improvement (Due Monday 4/27)",
             "date": "2026-04-16",
             "deadline": "2026-04-27",
             "links": {
-                "": "/"
+                "": "/exercises/data-analysis.html"
             }
         }
     ],

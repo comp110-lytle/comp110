@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/linked-list-utils.html">EX08 - WED, APR 15 11:59pm</a></li><li class="horizon-item"><a href="/resources/practice/sp26/qz03_general_practice.html">QZ03 - THU, APR 16 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/resources/practice/sp26/qz03_general_practice.html">QZ03 - THU, APR 16 11:59pm</a></li></ul></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -47,8 +47,9 @@ template: home
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>
 <ul class="links"><li class="link"><a href="/resources/practice/sp26/qz03_general_practice.html">Practice Problems</a></li>
 <li class="link"><a href="/resources/practice/sp26/qz03_memory_diagrams.html">Practice Diagrams</a></li>
+<li class="link"><a href="https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b8d9737d-c2b9-417f-849b-b42e0006cf5d&start=0">Review Session Recording</a></li>
 </ul></div><div class="plan Exercise">
-<span class="kind">EX09 </span><span class="title"><a href="/">Data Project (Due Monday 4/27)</a></span></div></div>
+<span class="kind">EX09 </span><span class="title"><a href="/exercises/data-analysis.html">Data Analysis for Continuous Improvement (Due Monday 4/27)</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-04-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 30</div>
 <div class="plans col-md-9"><div class="plan Final">
