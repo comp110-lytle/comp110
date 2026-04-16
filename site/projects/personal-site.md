@@ -93,8 +93,23 @@ You'll want to start by further modifying the `_config.yml` file to add some inf
 
 For your actual assignment webpage, you'll want to edit the `index.md` file. The language you will be using to write this is called markdown--the same language you used in your Jupyter notebook text cells! There's some guidance in the file for basic syntax.
 
+### Pushing Your Changes
 
-### Optional Styling
+When you _push_ your changes to github, it'll automatically update your site (with a slight delay)!
+
+You push your changes the same way you did for previous assignments:
+
+1. Open the Source Control panel (Command Palette: "Show Source Control" or click the icon with three circles and lines on the activity panel).
+2. Notice the files listed under Changes. These are files you've made modifications to since your last backup.
+3. Move your mouse's cursor over the word _Changes_ and notice the + symbol that appears. Click that plus symbol to add all changes to the next backup. You will now see the files listed under "Staged Changes".
+   - If you do not want to backup _all_ changed files, you can select them individually. For this course you're encouraged to back everything up.
+4. In the Message box, give a brief description of what you've changed and are backing up. This will help you find a specific backup (called a "commit") if needed. In this case a message such as, "Finished Exercise 00!" will suffice.
+5. Press the Commit button to make a _Commit_ (a version) of your work.
+6. In the Terminal, type the command `git push`. If your terminal was closed, go to the Terminal menu and select "New Terminal". This command "pushed" your changes to your backup repository on GitHub.
+
+
+
+### (Optional) Styling
 You can also change the Jekyll theme of your site to style it!
 Here is a list of the currently supported themes: [https://pages.github.com/themes/](https://pages.github.com/themes/). Click on the Theme you want and it'll give you instructions on how to install it!
 
