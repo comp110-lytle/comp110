@@ -88,9 +88,27 @@ These are just the baseline requirements. In order to completely analyze the ide
 
 ## Getting Started
 
-You will get the data needed by "pulling" from the course workspace repository. Steps to do this:
+You will get the data needed by "pulling" from the course workspace repository. 
 
-0. Be sure you are in your course workspace. Open the file explorer and you should see your work for the course. If you do not, open your course workspace through File > Open Recent.
+### Pushing
+Before You Pull, you want to make sure you've saved all of your recent work! You do this by _pushing_ it to Github!
+
+1. Open the Source Control panel (Command Palette: "Show Source Control" or click the icon with three circles and lines on the activity panel).
+2. Notice the files listed under Changes. These are files you've made modifications to since your last backup.
+3. Move your mouse's cursor over the word _Changes_ and notice the + symbol that appears. Click that plus symbol to add all changes to the next backup. You will now see the files listed under "Staged Changes".
+   - If you do not want to backup _all_ changed files, you can select them individually. For this course you're encouraged to back everything up.
+4. In the Message box, give a brief description of what you've changed and are backing up. This will help you find a specific backup (called a "commit") if needed. In this case a message such as, "Finished Exercise 00!" will suffice.
+5. Press the Commit button to make a _Commit_ (a version) of your work.
+6. In the Terminal, type the command `git push`. If your terminal was closed, go to the Terminal menu and select "New Terminal". This command "pushed" your changes to your backup repository on GitHub.
+
+
+
+### Pulling
+
+Now, you can _pull_ the files added by your instructors!
+
+Be sure you are in your course workspace. Open the file explorer and you should see your work for the course. If you do not, open your course workspace through File > Open Recent.
+
 1. Open the _Source Control View_ by clicking the 3-node (circles) graph (connected by lines) icon in your sidebar or opening the command palatte and searching for _Source Control_.
 2. Click the Ellipses in the Source Control pane and select "Pull, Push" from the drop-down menu, then select "Pull from..." A box will appear and you should select either "origin" or "upstream", but not "backup". This will begin the pulling process from the course repository. It should silently succeed.
 3. Return to the File Explorer pane and open the `data` directory. You should see it now contains the csv file with the survey results called `survey.csv`. 
