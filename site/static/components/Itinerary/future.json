@@ -1,48 +1,32 @@
 {
-    "2026-04-14": [
-        {
-            "kind": "CL",
-            "n": 18,
-            "title": "Reading and Working With Data",
-            "date": "2026-04-14",
-            "deadline": "None",
-            "links": {
-                "": "/static/slides/CL18.pdf"
-            }
-        }
-    ],
-    "2026-04-15": [],
-    "2026-04-16": [
-        {
-            "kind": "QZ",
-            "n": 3,
-            "title": "Quiz 3",
-            "date": "2026-04-16",
-            "deadline": "2026-04-16",
-            "links": {
-                "Practice Problems": "/resources/practice/sp26/qz03_general_practice.html",
-                "Practice Diagrams": "/resources/practice/sp26/qz03_memory_diagrams.html",
-                "Review Session Recording": "https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b8d9737d-c2b9-417f-849b-b42e0006cf5d&start=0"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 9,
-            "title": "Data Analysis for Continuous Improvement (Due Monday 4/27)",
-            "date": "2026-04-16",
-            "deadline": "2026-04-27",
-            "links": {
-                "": "/exercises/data-analysis.html"
-            }
-        }
-    ],
-    "2026-04-17": [],
     "2026-04-18": [],
     "2026-04-19": [],
     "2026-04-20": [],
-    "2026-04-21": [],
+    "2026-04-21": [
+        {
+            "kind": "CL",
+            "n": 19,
+            "title": "Reading and Working With Data",
+            "date": "2026-04-21",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL19.pdf"
+            }
+        }
+    ],
     "2026-04-22": [],
-    "2026-04-23": [],
+    "2026-04-23": [
+        {
+            "kind": "CL",
+            "n": 20,
+            "title": "Algorithm Analysis",
+            "date": "2026-04-23",
+            "deadline": "None",
+            "links": {
+                "": "/"
+            }
+        }
+    ],
     "2026-04-24": [],
     "2026-04-25": [],
     "2026-04-26": [],
