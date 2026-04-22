@@ -44,7 +44,7 @@ template: home
 </div><div data-type="lecture" data-date="2026-04-23" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 23</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL20 </span><span class="title"><a href="/">Algorithm Analysis</a></span></div></div>
+<span class="kind">CL20 </span><span class="title"><a href="/static/slides/CL20.pdf">Algorithm Analysis</a></span></div></div>
 </div><div data-type="lecture" data-date="2026-04-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 30</div>
 <div class="plans col-md-9"><div class="plan Final">
