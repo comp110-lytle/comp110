@@ -692,7 +692,8 @@
             "date": "2026-04-21",
             "deadline": "None",
             "links": {
-                "": "/static/slides/CL19.pdf"
+                "Slides": "/static/slides/CL19.pdf",
+                "Diagram": "/static/slides/CL19-diagram.png"
             }
         }
     ],

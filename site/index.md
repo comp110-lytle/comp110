@@ -40,7 +40,10 @@ template: home
 <h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-04-21" class="row itinerary-row py-2">
 <div class="date col-md-2">Tue, Apr 21</div>
 <div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL19 </span><span class="title"><a href="/static/slides/CL19.pdf">Reading and Working With Data</a></span></div></div>
+<span class="kind">CL19 </span><span class="title">Reading and Working With Data</span>
+<ul class="links"><li class="link"><a href="/static/slides/CL19.pdf">Slides</a></li>
+<li class="link"><a href="/static/slides/CL19-diagram.png">Diagram</a></li>
+</ul></div></div>
 </div><div data-type="lecture" data-date="2026-04-23" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 23</div>
 <div class="plans col-md-9"><div class="plan Class">
