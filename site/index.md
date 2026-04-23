@@ -53,6 +53,8 @@ template: home
 <div class="plans col-md-9"><div class="plan Final">
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span>
 <ul class="links"><li class="link"><a href="/resources/final-makeup.html">Makeup Final Exam Information</a></li>
+<li class="link"><a href="/resources/practice/sp26-final/index.html">Practice</a></li>
+<li class="link"><a href="/">Review Session Wed, Apr 29, 3:30-5:30 pm</a></li>
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>

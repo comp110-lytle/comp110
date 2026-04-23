@@ -7,10 +7,17 @@ page: lessons
 template: overview
 ---
 
-
 # Practice Problems
 
-We will put some tips here
+- [QZ00 Questions](/resources/practice/sp26/qz00_practice.html)| [Diagrams](/resources/practice/sp26/qz00_memory_diagrams.html)
+- [QZ01 Questions](/resources/practice/sp26/qz01_practice.html) | [Diagrams](/resources/practice/sp26/qz01_memory_diagrams.html)
+- [QZ02 Questions](/resources/practice/sp26/qz02_general_practice.html) | [Diagrams](/resources/practice/sp26/qz02_memory_diagrams.html) | [Function Writing](/resources/practice/sp26/qz02_function_practice.html)
+- [QZ03 Questions](/resources/practice/sp26/qz03_general_practice.html) | [Diagrams](/resources/practice/sp26/qz03_memory_diagrams.html)
+- [New Concepts (*Coming Soon*)](/)
+- [Supplemental Questions *(Coming Soon)*](/)
+
+
+<!-- We will put some tips here
 
 ## Unit 0
 
@@ -43,4 +50,4 @@ We will put some tips here
 - [Class Writing](/resources/practice/sp26-final/class-writing.html)
 - [Magic Methods](/resources/practice/sp26-final/magic-methods.html)
 - [Recursive Structures](/resources/practice/sp26-final/recursive-structures.html)
-- [Runtime](/resources/practice/sp26-final/runtime.html)
+- [Runtime](/resources/practice/sp26-final/runtime.html) -->
