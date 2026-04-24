@@ -14,7 +14,7 @@ template: overview
 - [QZ02 Questions](/resources/practice/sp26/qz02_general_practice.html) | [Diagrams](/resources/practice/sp26/qz02_memory_diagrams.html) | [Function Writing](/resources/practice/sp26/qz02_function_practice.html)
 - [QZ03 Questions](/resources/practice/sp26/qz03_general_practice.html) | [Diagrams](/resources/practice/sp26/qz03_memory_diagrams.html)
 - [New Concepts (*Coming Soon*)](/)
-- [Supplemental Questions *(Coming Soon)*](/)
+- [Supplemental Questions](/resources/practice/sp26-final/questions.html)
 
 
 <!-- We will put some tips here
