@@ -64,7 +64,7 @@ In this exercise you will need to make use of a few advanced string concepts:
 1. Emoji! 🤠
 2. Formatted Strings (f-Strings)
 
-Before beginning work on this exercise, read the following lesson: [Unicode, Emoji, Escape Sequences, and f-Strings](/lessons/strings.html)
+Before beginning work on this exercise, recap the following lesson: [f-Strings](/lessons/f-strings.html)
 
 ## Permitted Constructs
 

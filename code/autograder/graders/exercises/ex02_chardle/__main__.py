@@ -1,4 +1,4 @@
-"""Autograder for Exercise 00 -  Hello World."""
+"""Autograder for Exercise 02 -  Hello World."""
 
 from os import path
 from grading import autograde
@@ -9,8 +9,8 @@ configuration = autograde.Configuration(
     pytest_points=90.0,
     typecheck_points=10.0,
     lint_points=0.0,
-    ec_date_1="2024-01-27",
-    ec_date_2="2024-01-28"
+    ec_date_1="2026-02-07",
+    ec_date_2="2026-02-08"
 )
 
 results = autograde.run(configuration)
