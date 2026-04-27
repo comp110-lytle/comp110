@@ -14,16 +14,17 @@ Previously, we've talked about whether or not a function *mutates* (aka changes)
 
 For example, we might want a function that takes a `list` as an input and *mutates* that list, OR we might want a function that takes a `list` as an input, does NOT mutate that list, but instead tells us something about that list or returns a new `list` with changes made to it. 
 
-This idea also applies to methods! As we've talked about previously, methods often *mutate* (or change) the object they belong to. Think about our `Pizza` class from the lesson. The `add_toppings` method *mutates* a Pizza object by changing the value of `self.toppings`. On the other hand, the `price` method did not change the value of any attributes, so it does NOT mutate the Pizza object.
+As methods are just a type of function, this idea also applies to methods! Methods often *mutate* (or change) the object they belong to. Think about our `Pizza` class from the lesson. The `add_toppings` method *mutates* a Pizza object by changing the value of `self.toppings`. On the other hand, the `price` method did not change the value of any attributes, so it does NOT mutate the Pizza object.
 
 For this CQ, we are going to create and compare two similar methods. They both have similar functionality, but one *mutates* the class object and one does not.
 
 ## 0. Set up files
-Create a new folder inside `CQs` called `cq07` and a new file inside of it titled `point.py`.
+Create a new folder inside `CQs` called `cq03`. 
+Create a new file inside the `cq03` folder called `point.py`.
 
 ## 1. Create `Point` class
 
-We are creating a `Point` class that has both an `x` and a `y` attribute. Think of it as the representation of a point on an (x,y) coordinate graph. We are going to talk about methods that *scale* a point, or change its value by multiplying the `x` and `y` values by some value.
+In the file `point.py`, you are going to create a `Point` class that has both an `x` and a `y` attribute. Think of it as the representation of a point on an (x,y) coordinate graph. We are going to talk about methods that *scale* a point, or change its value by multiplying the `x` and `y` values by some value.
 
 Create a class with the following properties:
 
@@ -60,14 +61,14 @@ It should have the following properties:
 
 ## Checking Your Methods For Correctness
 
-Check your methods by creating a new file in your `CQ07` file called `make_points.py` and importing your `Point` class using `from lessons.CQ07.point import Point`. Then create a new point and call the methods.
+Check your methods by creating a new file in your `cq03` file called `create_points.py` and importing your `Point` class using `from lessons.cq03.point import Point`. Then create a new `Point` and call the methods.
 
-Check that calling `Point#scale` does not mutate the `x` and `y` values of your original Point.
+Check that calling `Point#scale` does not mutate the `x` and `y` values of your original `Point`!
 
 ## 4. Submission
 
 Create your submission with the following command:
 
 ```
-python -m tools.submission CQs/cq07
+python -m tools.submission CQs/cq03
 ```

@@ -137,7 +137,7 @@ As animal's age, they should be removed from the `River`. Modify the `check_ages
 If a `Fish`’s age is > 3 it should be removed from `fish`. 
 If a `Bear`’s age is > 5 it should be removed from `bears`.
 
-*Implementation hint:* You don't want to be removing things from a list *while* you're looping through it. Instead, create a new `list[Bear]` and copy all surviving `Bear`s over to that list rather than removing `Bear`s directly from `self.bears`. Then update `self.bears` to be equal to that copied list. Do the same thing for `self.fish`.
+<!-- *Implementation hint:* You don't want to be removing things from a list *while* you're looping through it. Instead, create a new `list[Bear]` and copy all surviving `Bear`s over to that list rather than removing `Bear`s directly from `self.bears`. Then update `self.bears` to be equal to that copied list. Do the same thing for `self.fish`. -->
 
 ### 1.2 `River#remove_fish()`
 Within the `River` class, create a `remove_fish` method that has `self` and `amount: int` as parameters and returns nothing. It should remove `amount` many `Fish` from the `River`. You should remove the **FRONTMOST** `Fish`. (The "front" being the `Fish` at index 0.)
@@ -167,19 +167,19 @@ Modify the `bears_eating` method, so that, for each `Bear`, if there are at leas
 Unfortunately, if a `Bear` gets hungry enough, it'll starve. Modify the `check_hunger` method so that it checks the `hunger_score` of every `Bear` in the river. If `hunger_score < 0`, then remove the `Bear` from the river.
 
 
-*Implementation hint:* You don't want to be removing things from a list *while* you're looping through it. Instead, create a new `list[Bear]` and copy all surviving `Bear`s over to that list rather than removing `Bear`s directly from `self.bears`. Then update `self.bears` to be equal to that copied list.
+<!-- *Implementation hint:* You don't want to be removing things from a list *while* you're looping through it. Instead, create a new `list[Bear]` and copy all surviving `Bear`s over to that list rather than removing `Bear`s directly from `self.bears`. Then update `self.bears` to be equal to that copied list. -->
 
 ## 3. Modelling Reproduction
 Now we are going to model the reproduction of the Bears and the Fish! 
 
 ### 3.1 `River#repopulate_bears`
 
-Modify the `repopulate_bears` method so that it has the following functionality.Each *pair* of Bear's will produce 1 offspring. In other words, if there are 2 bears, 1 new bear will be born and added to `bears`. To generalize, for `n` bears, there will be `n//2` new `Bear`s added to `bears`. 
+Modify the `repopulate_bears` method so that it has the following functionality.Each *pair* of Bear's will produce 1 offspring. In other words, if there are 2 bears, 1 new bear will be born and added to `bears`. To generalize, for `n` bears, there will be `int(n/2)` new `Bear`s added to `bears`. 
 
 
 ### 3.2 `River#repopulate_fish`
 Modify the `repopulate_fish` method so that it has the following functionality. Each *pair* of fish will produce 4 offspring. In other words, if there are 2 fish, 
-4 new fish will be born and added to `fish`. To generalize, for `n` fish, there will be `(n//2) * 4` new `Fish` added to `fish`. 
+4 new fish will be born and added to `fish`. To generalize, for `n` fish, there will be `int(n/2) * 4` new `Fish` added to `fish`. 
 
 ## Autograding
 

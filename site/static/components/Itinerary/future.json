@@ -1,28 +1,45 @@
 {
-    "2025-11-30": [],
-    "2025-12-01": [],
-    "2025-12-02": [
+    "2026-04-21": [
         {
             "kind": "CL",
-            "n": 21,
-            "title": "DATA! Quantifying Shakespeare",
-            "date": "2025-12-02",
+            "n": 19,
+            "title": "Reading and Working With Data",
+            "date": "2026-04-21",
             "deadline": "None",
             "links": {
-                "": "/static/slides/QuantShakespeare.pdf"
+                "Slides": "/static/slides/CL19.pdf",
+                "Diagram": "/static/slides/CL19-diagram.png"
             }
         }
     ],
-    "2025-12-03": [],
-    "2025-12-06": [
+    "2026-04-22": [],
+    "2026-04-23": [
+        {
+            "kind": "CL",
+            "n": 20,
+            "title": "Algorithm Analysis",
+            "date": "2026-04-23",
+            "deadline": "None",
+            "links": {
+                "": "/static/slides/CL20.pdf"
+            }
+        }
+    ],
+    "2026-04-24": [],
+    "2026-04-25": [],
+    "2026-04-26": [],
+    "2026-04-27": [],
+    "2026-04-30": [
         {
             "kind": "FN",
             "n": 0,
             "title": "Final @ 4:00PM",
-            "date": "2025-12-06",
+            "date": "2026-04-30",
             "deadline": "None",
             "links": {
-                "Makeup Final Exam Information": "/resources/final-makeup.html"
+                "Makeup Final Exam Information": "/resources/final-makeup.html",
+                "Practice": "/resources/practice/sp26-final/index.html",
+                "Review Session Wed, Apr 29, 3:30-5:30 pm": "/"
             }
         }
     ]
