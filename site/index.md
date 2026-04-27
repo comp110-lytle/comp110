@@ -37,18 +37,7 @@ template: home
 <div id="latest" class="pb-3"></div>
 <br>
 <!-- Current Week and Future -->
-<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-04-21" class="row itinerary-row py-2">
-<div class="date col-md-2">Tue, Apr 21</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL19 </span><span class="title">Reading and Working With Data</span>
-<ul class="links"><li class="link"><a href="/static/slides/CL19.pdf">Slides</a></li>
-<li class="link"><a href="/static/slides/CL19-diagram.png">Diagram</a></li>
-</ul></div></div>
-</div><div data-type="lecture" data-date="2026-04-23" class="row itinerary-row py-2">
-<div class="date col-md-2">Thu, Apr 23</div>
-<div class="plans col-md-9"><div class="plan Class">
-<span class="kind">CL20 </span><span class="title"><a href="/static/slides/CL20.pdf">Algorithm Analysis</a></span></div></div>
-</div><div data-type="lecture" data-date="2026-04-30" class="row itinerary-row py-2">
+<h3 class="header">This Week and Coming Up</h3></div><div data-type="lecture" data-date="2026-04-30" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 30</div>
 <div class="plans col-md-9"><div class="plan Final">
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span>
@@ -58,7 +47,18 @@ template: home
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
-<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-04-16" class="row itinerary-row py-2">
+<h3 class="header pt-3">The Past</h3><div data-type="lecture" data-date="2026-04-23" class="row itinerary-row py-2">
+<div class="date col-md-2">Thu, Apr 23</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL20 </span><span class="title"><a href="/static/slides/CL20.pdf">Algorithm Analysis</a></span></div></div>
+</div><div data-type="lecture" data-date="2026-04-21" class="row itinerary-row py-2">
+<div class="date col-md-2">Tue, Apr 21</div>
+<div class="plans col-md-9"><div class="plan Class">
+<span class="kind">CL19 </span><span class="title">Reading and Working With Data</span>
+<ul class="links"><li class="link"><a href="/static/slides/CL19.pdf">Slides</a></li>
+<li class="link"><a href="/static/slides/CL19-diagram.png">Diagram</a></li>
+</ul></div></div>
+</div><div data-type="lecture" data-date="2026-04-16" class="row itinerary-row py-2">
 <div class="date col-md-2">Thu, Apr 16</div>
 <div class="plans col-md-9"><div class="plan Quiz">
 <span class="kind">QZ03 </span><span class="title">Quiz 3</span>

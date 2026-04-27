@@ -13,7 +13,7 @@ template: overview
 - [QZ01 Questions](/resources/practice/sp26/qz01_practice.html) | [Diagrams](/resources/practice/sp26/qz01_memory_diagrams.html)
 - [QZ02 Questions](/resources/practice/sp26/qz02_general_practice.html) | [Diagrams](/resources/practice/sp26/qz02_memory_diagrams.html) | [Function Writing](/resources/practice/sp26/qz02_function_practice.html)
 - [QZ03 Questions](/resources/practice/sp26/qz03_general_practice.html) | [Diagrams](/resources/practice/sp26/qz03_memory_diagrams.html)
-- [New Concepts (*Coming Soon*)](/)
+- [Runtime Questions](/resources/practice/sp26/runtime_practice.html) | [Nested Data Structures Questions](/resources/practice/sp26/nested_data_practice.html)
 - [Supplemental Questions](/resources/practice/sp26-final/questions.html)
 
 
