@@ -87,7 +87,7 @@ c) nested scope
 d) method scope
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+b) global scope
 </details>
 
 Two functions can each define a local variable named `x` without conflict.
@@ -95,7 +95,7 @@ a) True
 b) False
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+True
 </details>
 
 ## Conditionals + Recursion
@@ -106,7 +106,7 @@ a) True
 b) False
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+True
 </details>
 
 In a recursive function, the `________` case is the non-recursive stopping condition that halts the recursion.
@@ -116,7 +116,7 @@ c) final
 d) recursive
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+b) base
 </details>
 
 Which of the following is NOT required for a correct recursive function?
@@ -125,19 +125,17 @@ b) A recursive case that makes progress toward the base case
 c) A `while` loop inside the function body
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+c) A `while` loop inside the function body
 </details>
 
 A recursive function's recursive case typically calls:
 a) A different function
-b) Itself
-c)  with the same arguments
-d) Itself
-e)  with arguments that are closer to the base case
-f) `print()` and then itself
+b) Itself with the same arguments
+c) Itself with arguments that are closer to the base case
+d) `print()` and then itself
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+c) Itself with arguments that are closer to the base case
 </details>
 
 In an `if`/`else` block, the `else` branch runs when the `if` condition evaluates to:
@@ -147,7 +145,7 @@ c) `None`
 d) Any non-`bool` value
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+`False`
 </details>
 
 ## While Loops
@@ -200,7 +198,7 @@ c) `nums: list[int] = [1, 2, 3]`
 d) `nums: [int] = [1, 2, 3]`
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+c) `nums: list[int] = [1, 2, 3]`
 </details>
 
 What does `my_list.append(x)` return?
@@ -210,7 +208,7 @@ c) `None`
 d) `x`
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+`None`
 </details>
 
 Two variables assigned to the same list literal (`a = [1, 2]`\n`b = [1, 2]`) refer to the same underlying list object in memory.
@@ -218,7 +216,7 @@ a) True
 b) False
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+False
 </details>
 
 ## Dictionaries
@@ -255,7 +253,7 @@ c) `4`
 d) `Error`
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+`2`
 </details>
 
 The `in` operator on a dictionary checks for membership of:
@@ -286,7 +284,7 @@ c) `object`
 d) `new`
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+`class`
 </details>
 
 When you write `floof: Cat = Cat("Fluffy")`, Python internally calls which method first?
@@ -304,7 +302,7 @@ a) True
 b) False
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+True
 </details>
 
 Constructors must take at least one parameter other than the self parameter
@@ -320,7 +318,7 @@ a)  True
 b) False
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+True
 </details>
 
 ## Magic Methods
@@ -333,7 +331,7 @@ c) `None`
 d) `Error`
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+`True`
 </details>
 
 `__str__` is called implicitly by which built-in functions?
@@ -343,7 +341,7 @@ c) `print`
 d) `id`
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+`str` and `print`
 </details>
 
 Magic methods are normally called *implicitly* by Python in response to syntax like `+`, `==`, `len(...)`, or `print(...)` rather than by explicit name.
@@ -351,7 +349,7 @@ a) True
 b) False
 <details>
 <summary><b>SHOW SOLUTIONS</b></summary>
-
+True
 </details>
 
 ## Runtime
