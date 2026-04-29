@@ -20,7 +20,7 @@ template: home
 <!-- Horizon Box/Column -->
 <div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5"> 
 <div class="horizon-box mb-3">
-<h3 class="header text-center pt-2">On The Horizon</h3><ul class="list-unstyled d-flexpx-sm-5 px-md-5 px-lg-0 flex-wrap justify-content-center justify-content-md-between justify-content-lg-center align-items-center"><li class="horizon-item"><a href="/exercises/data-analysis.html">EX09 - MON, APR 27 11:59pm</a></li></ul></div>
+<h3 class="header text-center pt-2">On The Horizon</h3></div>
 <div class="past-link">
 <a href="#past">
 <div class="past-btn">
@@ -43,7 +43,7 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span>
 <ul class="links"><li class="link"><a href="/resources/final-makeup.html">Makeup Final Exam Information</a></li>
 <li class="link"><a href="/resources/practice/sp26-final/index.html">Practice</a></li>
-<li class="link"><a href="/">Review Session Wed, Apr 29, 3:30-5:30 pm</a></li>
+<li class="link"><a href="https://unc.zoom.us/j/96445145095?pwd=Coub9IkfKs5syZSenip5F5scPYWpNo.1">Hybrid Review Session on Wed, Apr 29, at 3:30-5:30 pm in SN014 and Online (Passcode: 110110)</a></li>
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
