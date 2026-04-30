@@ -43,7 +43,7 @@ template: home
 <span class="kind">FN00 </span><span class="title">Final @ 4:00PM</span>
 <ul class="links"><li class="link"><a href="/resources/final-makeup.html">Makeup Final Exam Information</a></li>
 <li class="link"><a href="/resources/practice/sp26-final/index.html">Practice</a></li>
-<li class="link"><a href="https://unc.zoom.us/j/96445145095?pwd=Coub9IkfKs5syZSenip5F5scPYWpNo.1">Hybrid Review Session on Wed, Apr 29, at 3:30-5:30 pm in SN014 and Online (Passcode: 110110)</a></li>
+<li class="link"><a href="https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=03428eb9-fd3b-4697-8d7e-b43b017bb6a4">Review Session Recording</a></li>
 </ul></div></div>
 </div><!-- The Past section --><div id='past' class="pb-2"></div>
 <hr>
