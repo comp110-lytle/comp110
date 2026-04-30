@@ -1,5 +1,5 @@
 ---
-title: EX05 - River Simulation 
+title: ex06 - River Simulation 
 author:
   - Alyssa Byrnes
   - Sophie Jiang
@@ -12,15 +12,15 @@ For this exercise, you are going to practice making and instantiating classes in
 
 # Part I
 
-<!-- ## 0. Pull the skeleton code
+## 0. Pull the skeleton code
 
 You will find the starter files needed by "pulling" from the course workspace repository. Before beginning, be sure to:
 
 0. Be sure you are in your course workspace. Open the file explorer and you should see your work for the course. If you do not, open your course workspace through File > Open Recent.
 1. Open the _Source Control View_ by clicking the 3-node (circles) graph (connected by lines) icon in your sidebar or opening the command palatte and searching for _Source Control_.
 2. Click the Ellipses in the Source Control pane and select "Pull" from the drop-down menu. This will begin the pulling process from the course repository. It should silently succeed.
-3. Return to the File Explorer pane and open the `exercises` directory. You should see it now contains another directory named `ex05`. If you expand that directory, you should see the starter files for the code you'll be writing.
-4. If you do not see the `ex05` directory, try once more but selecting `"Pull From"` and select `origin` in step 2.
+3. Return to the File Explorer pane and open the `exercises` directory. You should see it now contains another directory named `ex06`. If you expand that directory, you should see the starter files for the code you'll be writing.
+4. If you do not see the `ex06` directory, try once more but selecting `"Pull From"` and select `origin` in step 2.
 
 ### Troubleshooting
 If you're having trouble pulling:
@@ -30,10 +30,10 @@ If you're having trouble pulling:
 * In your Visual Studio command center, select `Pull From...` -> `Upstream` -> `Upstream/Head`. (If not an option, do `Origin` -> `Main`.) 
 
 If you're still having issues, come to office hours!
- -->
+
 
 ## 1. Create Bear Class
-All of the work for this part will be done in the `ex05` directory in the file `bear.py`.
+All of the work for this part will be done in the `ex06` directory in the file `bear.py`.
 
 ### 1.1 `class Bear` attributes
 For this part, you are going to create and initialize a class to represent the Bears living by the river. In the file `bear.py`, you will see a class defined with the name `Bear`. Give it the attributes `age` and `hunger_score` which is are both integers. (You won't use `hunger_score` in Part I, but it'll be useful later!)
@@ -98,7 +98,7 @@ Where `x` is the current day of the river, `y` is the number of Fish in the rive
 
 At the bottom of `river_simulation.py`, try viewing your river by calling `my_river.view_river()`. 
 
-When you run `python -m exercises.ex05.river_simulation`, the output should be: 
+When you run `python -m exercises.ex06.river_simulation`, the output should be: 
 
 <pre>
 <div class="terminal">~~~ Day 0: ~~~
@@ -137,7 +137,7 @@ As animal's age, they should be removed from the `River`. Modify the `check_ages
 If a `Fish`’s age is > 3 it should be removed from `fish`. 
 If a `Bear`’s age is > 5 it should be removed from `bears`.
 
-*Implementation hint:* You don't want to be removing things from a list *while* you're looping through it. Instead, create a new `list[Bear]` and copy all surviving `Bear`s over to that list rather than removing `Bear`s directly from `self.bears`. Then update `self.bears` to be equal to that copied list. Do the same thing for `self.fish`.
+<!-- *Implementation hint:* You don't want to be removing things from a list *while* you're looping through it. Instead, create a new `list[Bear]` and copy all surviving `Bear`s over to that list rather than removing `Bear`s directly from `self.bears`. Then update `self.bears` to be equal to that copied list. Do the same thing for `self.fish`. -->
 
 ### 1.2 `River#remove_fish()`
 Within the `River` class, create a `remove_fish` method that has `self` and `amount: int` as parameters and returns nothing. It should remove `amount` many `Fish` from the `River`. You should remove the **FRONTMOST** `Fish`. (The "front" being the `Fish` at index 0.)
@@ -167,31 +167,33 @@ Modify the `bears_eating` method, so that, for each `Bear`, if there are at leas
 Unfortunately, if a `Bear` gets hungry enough, it'll starve. Modify the `check_hunger` method so that it checks the `hunger_score` of every `Bear` in the river. If `hunger_score < 0`, then remove the `Bear` from the river.
 
 
-*Implementation hint:* You don't want to be removing things from a list *while* you're looping through it. Instead, create a new `list[Bear]` and copy all surviving `Bear`s over to that list rather than removing `Bear`s directly from `self.bears`. Then update `self.bears` to be equal to that copied list.
+<!-- *Implementation hint:* You don't want to be removing things from a list *while* you're looping through it. Instead, create a new `list[Bear]` and copy all surviving `Bear`s over to that list rather than removing `Bear`s directly from `self.bears`. Then update `self.bears` to be equal to that copied list. -->
 
 ## 3. Modelling Reproduction
 Now we are going to model the reproduction of the Bears and the Fish! 
 
 ### 3.1 `River#repopulate_bears`
 
-Modify the `repopulate_bears` method so that it has the following functionality.Each *pair* of Bear's will produce 1 offspring. In other words, if there are 2 bears, 1 new bear will be born and added to `bears`. To generalize, for `n` bears, there will be `n//2` new `Bear`s added to `bears`. 
+Modify the `repopulate_bears` method so that it has the following functionality.Each *pair* of Bear's will produce 1 offspring. In other words, if there are 2 bears, 1 new bear will be born and added to `bears`. To generalize, for `n` bears, there will be `int(n/2)` new `Bear`s added to `bears`. 
 
 
 ### 3.2 `River#repopulate_fish`
 Modify the `repopulate_fish` method so that it has the following functionality. Each *pair* of fish will produce 4 offspring. In other words, if there are 2 fish, 
-4 new fish will be born and added to `fish`. To generalize, for `n` fish, there will be `(n//2) * 4` new `Fish` added to `fish`. 
+4 new fish will be born and added to `fish`. To generalize, for `n` fish, there will be `int(n/2) * 4` new `Fish` added to `fish`. 
 
 ## Autograding
 
 
-Login to Gradescope and select the assignment named "EX05 - River Simulation". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
+Login to Gradescope and select the assignment named "ex06 - River Simulation". You'll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.
 
 If you _do not_ see a Terminal at the bottom of your screen, open the Command Palette and search for "View: Toggle Integrated Terminal".
 
-To produce a zip file for `ex05`, type the following command (all on a single line):
+To produce a zip file for `ex06`, type the following command (all on a single line):
 
-`python -m tools.submission exercises/ex05`
+`python -m tools.submission exercises/ex06`
 
-In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex05.zip". The "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.
+In the file explorer pane, look to find the zip file named "yy.mm.dd-hh.mm-exercises-ex06.zip". The "mm", "dd", and so on, are timestamps with the current year, month, day, hour, minute. 
 
-Autograding will take a few moments to complete. For this exercise there will be points manually graded for style – using meaningful variable names and snake_case. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren’t receiving full credit and aren’t sure what to try next, come give us a visit in office hours!
+<!-- If you right click on this file and select "Reveal in File Explorer" on Windows or "Reveal in Finder" on Mac, the zip file's location on your computer will open. Upload this file to Gradescope to submit your work for this exercise. -->
+
+Autograding will take a few moments to complete. If for any reason you aren’t receiving full credit and aren’t sure what to try next, come give us a visit in office hours!
